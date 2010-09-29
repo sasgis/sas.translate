@@ -1,0 +1,1 @@
+msgmerge -U locale\en\LC_MESSAGES\default.po default.po
