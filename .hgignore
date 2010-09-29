@@ -1,1 +1,5 @@
-glob:*.mo
+# use glob syntax.
+syntax: glob
+*.mo
+*.po~
+*.~*
