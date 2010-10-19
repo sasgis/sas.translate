@@ -568,9 +568,8 @@ msgstr "Bearing:"
 
 #. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label9..Caption
 #: Usettings.dfm:1786
-#, fuzzy
 msgid "Активные спутники"
-msgstr "Current zoom"
+msgstr "Used satellites"
 
 #. Fmain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
 #. Programmer's name for it: SAS_STR_activescale
@@ -672,12 +671,12 @@ msgstr "Version:"
 #. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label13..Caption
 #: Usettings.dfm:1772
 msgid "Видимые"
-msgstr ""
+msgstr "Visible satellites"
 
 #. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label18..Caption
 #: Usettings.dfm:1779
 msgid "Видимые с 0-м сигналом"
-msgstr ""
+msgstr "Visible satellites zero signal"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
@@ -874,7 +873,6 @@ msgstr "Altitude"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..TBXLabel2..Caption
 #: Unit1.dfm:2392
-#, fuzzy
 msgid "Высота (Гео), м:"
 msgstr "GPS altitude, m:"
 
@@ -1867,15 +1865,14 @@ msgstr "Odometer"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NsensorOdometr2Bar..Caption
 #: Unit1.dfm:532
-#, fuzzy
 msgid "Одометр №2"
-msgstr "Odometer"
+msgstr "Odometer №2"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometr2Bar..TBXLabel6..Caption
 #: Unit1.dfm:2715
-#, fuzzy
 msgid "Одометр №2, км:"
-msgstr "Distance, km:"
+msgstr "Distance №2\n"
+", km:"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometrBar..TBXLabel11..Caption
 #: Unit1.dfm:2571
@@ -2007,10 +2004,9 @@ msgstr "Path to tiles"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar....Hint
 #: Unit1.dfm:2621
-#, fuzzy
 msgid "Отношение сигнал/шум для спутников участвующих в определении "
 "позиции"
-msgstr "Shows the satellite signal strength and no. of visible "
+msgstr "Shows the satellite signal strength of used "
 "satellites"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..Hint
@@ -3113,15 +3109,13 @@ msgstr "Manage placemarks"
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSignalStrengthBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
 #: Unit1.dfm:567  Unit1.dfm:2633
-#, fuzzy
 msgid "Уровни сигнала"
-msgstr "Manage placemarks"
+msgstr "Satellite signal strength"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..TBXLabel5..Caption
 #: Unit1.dfm:2642
-#, fuzzy
 msgid "Уровни сигнала:"
-msgstr "Manage placemarks"
+msgstr "Satellite signal strength:"
 
 #. Programmer's name for it: SAS_STR_file
 #: UResStrings.pas:91
