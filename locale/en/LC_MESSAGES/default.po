@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2010-10-19 12:42\n"
+"POT-Creation-Date: 2010-10-19 12:51\n"
 "PO-Revision-Date: 2010-10-11 15:31+0700\n"
 "Last-Translator: Parasite <1@1.com>\n"
 "Language-Team: \n"
@@ -423,11 +423,6 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlog..Font.Name
-#: Usettings.dfm:1708 
-msgid "MS Sans Serif"
-msgstr ""
-
 #. frLonLat..grdpnlMain..flwpnlLat..cbbLatNS..Text
 #. frLonLat..grdpnlMain..flwpnlLat..cbbLatNS....Items.Strings
 #. Fbrowser..EmbeddedWB1..DisableCtrlShortcuts
@@ -589,12 +584,12 @@ msgstr "Quality:"
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorLenToMarkBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..Caption
 #. Programmer's name for it: SAS_STR_LenToMark
-#: Unit1.dfm:539  Unit1.dfm:2298 UResStrings.pas:71
+#: Unit1.dfm:539  Unit1.dfm:2296 UResStrings.pas:71
 msgid "Расстояние до метки"
 msgstr "Distance to the placemark"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..TBXLabel13..Caption
-#: Unit1.dfm:2321 
+#: Unit1.dfm:2319 
 msgid "Расстояние до метки:"
 msgstr "Distance to the placemark:"
 
@@ -645,7 +640,7 @@ msgid "Центрировать карту на координатах пере�
 msgstr "Center the map to GPS coordinates"
 
 #. Fmain..PopupMenu1..N28..Caption
-#: Unit1.dfm:2776 
+#: Unit1.dfm:2770 
 msgid "Центрировать с масштабом"
 msgstr "Center with zoom"
 
@@ -703,12 +698,12 @@ msgstr "Gamma"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorBattaryBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorBattaryBar..Caption
-#: Unit1.dfm:546  Unit1.dfm:2257
+#: Unit1.dfm:546  Unit1.dfm:2255
 msgid "Батарея"
 msgstr "Battery"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorBattaryBar..TBXLabel14..Caption
-#: Unit1.dfm:2281 
+#: Unit1.dfm:2279 
 msgid "Батарея:"
 msgstr "Battery:"
 
@@ -900,23 +895,23 @@ msgstr "Most likely you've got banned by the server!"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorAltitudeBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..Caption
-#: Unit1.dfm:553  Unit1.dfm:2338
+#: Unit1.dfm:553  Unit1.dfm:2336
 msgid "Высота"
 msgstr "Altitude"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..TBXLabel2..Caption
-#: Unit1.dfm:2394 
+#: Unit1.dfm:2392 
 #, fuzzy
 msgid "Высота (Гео), м:"
 msgstr "GPS altitude, m:"
 
 #. Fmain..PopupMenu1..N26..NGTOPO30..Caption
-#: Unit1.dfm:2960 
+#: Unit1.dfm:2954 
 msgid "Высота над уровнем моря GTOPO30 (разрешение ~1км)"
 msgstr "Current altitude by GTOPO30 (~1km accuracy)"
 
 #. Fmain..PopupMenu1..N26..NSRTM3..Caption
-#: Unit1.dfm:2964 
+#: Unit1.dfm:2958 
 msgid "Высота над уровнем моря SRTM3 (разрешение ~90м)"
 msgstr "Current altitude by SRTM3 (~90m accuracy)"
 
@@ -941,7 +936,7 @@ msgid "Все по умолчанию"
 msgstr "All by default"
 
 #. Fmain..OpenSessionDialog....Filter
-#: Unit1.dfm:7387 
+#: Unit1.dfm:7381 
 msgid ""
 "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
 "sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
@@ -1047,7 +1042,7 @@ msgstr "SAS Group"
 
 #. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsLen..Caption
 #. Programmer's name for it: SAS_STR_L
-#: Unit1.dfm:2752  UResStrings.pas:123
+#: Unit1.dfm:2746  UResStrings.pas:123
 msgid "Длина"
 msgstr "Length"
 
@@ -1194,7 +1189,7 @@ msgid "Долгота:"
 msgstr "Longitude:"
 
 #. Fmain..PopupMenu1..N26..Caption
-#: Unit1.dfm:2958 
+#: Unit1.dfm:2952 
 msgid "Дополнительные операции"
 msgstr "Additional operations"
 
@@ -1252,7 +1247,7 @@ msgstr "File not found!"
 
 #. Fmain..OpenDialog1..Filter
 #. Fsaveas..SaveSelDialog..Filter
-#: Unit1.dfm:5247  USaveas.dfm:198
+#: Unit1.dfm:5241  USaveas.dfm:198
 msgid "Файл выделения|*.hlg"
 msgstr "Selections|*.hlg"
 
@@ -1302,12 +1297,12 @@ msgstr "Algorythm"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorAzimutBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..Caption
-#: Unit1.dfm:560  Unit1.dfm:2593
+#: Unit1.dfm:560  Unit1.dfm:2589
 msgid "Азимут"
 msgstr "Bearing"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..TBXLabel4..Caption
-#: Unit1.dfm:2617 
+#: Unit1.dfm:2613 
 msgid "Азимут:"
 msgstr "Bearing:"
 
@@ -1437,7 +1432,7 @@ msgid "Яндекс.Деньги:"
 msgstr "Yandex.Money"
 
 #. Fmain..SaveLink..Filter
-#: Unit1.dfm:5266 
+#: Unit1.dfm:5260 
 msgid "Ярлык|*.lnk"
 msgstr "Shortcut|*.lnk"
 
@@ -1459,18 +1454,18 @@ msgstr "Deleting"
 #. FMarksExplorer..GroupBox2..BtnDelKat..Hint
 #. Fmain..PopupMenu1..NMarkDel..Caption
 #. Fsaveas..PageControl1..TabSheet4..Caption
-#: UMarksExplorer.dfm:140  UMarksExplorer.dfm:359 Unit1.dfm:2738
+#: UMarksExplorer.dfm:140  UMarksExplorer.dfm:359 Unit1.dfm:2732
 #: USaveas.dfm:57
 msgid "Удалить"
 msgstr "Delete"
 
 #. Fmain..PopupMenu1..NDel..Caption
-#: Unit1.dfm:2994 
+#: Unit1.dfm:2988 
 msgid "Удалить тайл основной карты (Del+MLeft)"
 msgstr "Delete primary map tile from cache (Del+MLeft)"
 
 #. Fmain..PopupMenu1..dlm..Caption
-#: Unit1.dfm:3004 
+#: Unit1.dfm:2998 
 msgid "Удалить тайл слоя"
 msgstr "Delete overlay layer tile from cache"
 
@@ -1533,20 +1528,15 @@ msgstr "Manage placemarks"
 msgid "Уменьшить"
 msgstr "Zoom out"
 
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
-#: Unit1.dfm:2639 
-#, fuzzy
-msgid "Уровени сигнала"
-msgstr "Manage placemarks"
-
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSignalStrengthBar..Caption
-#: Unit1.dfm:567 
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
+#: Unit1.dfm:567  Unit1.dfm:2633
 #, fuzzy
 msgid "Уровни сигнала"
 msgstr "Manage placemarks"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..TBXLabel5..Caption
-#: Unit1.dfm:2648 
+#: Unit1.dfm:2642 
 #, fuzzy
 msgid "Уровни сигнала:"
 msgstr "Manage placemarks"
@@ -1608,7 +1598,7 @@ msgid "Навигация на выбранную метку"
 msgstr "Navigate to the selected placemark"
 
 #. Fmain..PopupMenu1..NMarkNav..Caption
-#: Unit1.dfm:2746 
+#: Unit1.dfm:2740 
 msgid "Навигация на метку"
 msgstr "Navidate to the placemark"
 
@@ -1829,7 +1819,7 @@ msgstr "Contrast"
 #. frmGoTo..RB1..Caption
 #. Fmain..PopupMenu1..N43..N30..Caption
 #. Programmer's name for it: SAS_STR_coordinates
-#: frm_GoTo.dfm:125  Unit1.dfm:2932 UResStrings.pas:65
+#: frm_GoTo.dfm:125  Unit1.dfm:2926 UResStrings.pas:65
 msgid "Координаты"
 msgstr "Coordinates"
 
@@ -1843,7 +1833,7 @@ msgid "Копировать"
 msgstr "Copy"
 
 #. Fmain..PopupMenu1..N43..Caption
-#: Unit1.dfm:2902 
+#: Unit1.dfm:2896 
 msgid "Копировать в буфер обмена"
 msgstr "Copy to the clipboard"
 
@@ -1982,17 +1972,17 @@ msgid "Загрузить изображения из интернета"
 msgstr "Load tiles from Internet"
 
 #. Fmain..PopupMenu1..N26..DigitalGlobe1....Caption
-#: Unit1.dfm:2973 
+#: Unit1.dfm:2967 
 msgid "Загрузить информацию о доступных картах этого места на DigitalGlobe"
 msgstr "DigitalGlobe availability"
 
 #. Fmain..PopupMenu1..N21..Caption
-#: Unit1.dfm:2989 
+#: Unit1.dfm:2983 
 msgid "Загрузить тайл основной карты (Ins+MLeft)"
 msgstr "Load primary map tile to cache (Ins+MLeft)"
 
 #. Fmain..PopupMenu1..ldm..Caption
-#: Unit1.dfm:2999 
+#: Unit1.dfm:2993 
 msgid "Загрузить тайл слоя"
 msgstr "Load overlay layer tile to cache"
 
@@ -2044,7 +2034,7 @@ msgstr "From zoom"
 
 #. Fmain..PopupMenu1..NMarkEdit..Caption
 #. Programmer's name for it: SAS_STR_Edit
-#: Unit1.dfm:2734  UResStrings.pas:109
+#: Unit1.dfm:2728  UResStrings.pas:109
 msgid "Изменить"
 msgstr "Edit"
 
@@ -2084,7 +2074,7 @@ msgid "Изменять существующие файлы"
 msgstr "Overwrite existing files"
 
 #. Fmain..PopupMenu1..NMarksCalcs..Caption
-#: Unit1.dfm:2750 
+#: Unit1.dfm:2744 
 msgid "Измерения"
 msgstr "Calculations"
 
@@ -2154,7 +2144,7 @@ msgid "Информация о доступных снимках на DigitalGlo
 msgstr "DigitalGlobe availability"
 
 #. Fmain..PopupMenu1..NMapInfo..Caption
-#: Unit1.dfm:3012 
+#: Unit1.dfm:3006 
 msgid "Информация о карте"
 msgstr "Map information"
 
@@ -2249,7 +2239,7 @@ msgstr "Waiting for connection"
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NsensorOdometrBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometrBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometr2Bar..Caption
-#: Unit1.dfm:525  Unit1.dfm:2517 Unit1.dfm:2665
+#: Unit1.dfm:525  Unit1.dfm:2515 Unit1.dfm:2659
 msgid "Одометр"
 msgstr "Odometer"
 
@@ -2260,18 +2250,18 @@ msgid "Одометр №2"
 msgstr "Odometer"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometr2Bar..TBXLabel6..Caption
-#: Unit1.dfm:2721 
+#: Unit1.dfm:2715 
 #, fuzzy
 msgid "Одометр №2, км:"
 msgstr "Distance, km:"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometrBar..TBXLabel11..Caption
-#: Unit1.dfm:2573 
+#: Unit1.dfm:2571 
 msgid "Одометр, км:"
 msgstr "Distance, km:"
 
 #. Fmain..PopupMenu1..NMarkOper..Caption
-#: Unit1.dfm:2742 
+#: Unit1.dfm:2736 
 msgid "Операции с областью"
 msgstr "Actions"
 
@@ -2321,7 +2311,7 @@ msgid "ОК"
 msgstr "OK"
 
 #. Fmain..PopupMenu1..N25..Caption
-#: Unit1.dfm:2950 
+#: Unit1.dfm:2944 
 msgid "Открыть папку содержащую тайл основной карты"
 msgstr "Open the folder containing the primary map tile"
 
@@ -2331,18 +2321,18 @@ msgid "Открыть..."
 msgstr "Open..."
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..Hint
-#: Unit1.dfm:2579 
+#: Unit1.dfm:2577 
 msgid "Отображает азимут направления"
 msgstr "Shows the bearing"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometrBar..Hint
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometr2Bar..Hint
-#: Unit1.dfm:2506  Unit1.dfm:2654
+#: Unit1.dfm:2504  Unit1.dfm:2648
 msgid "Отображает весь пройденный путь"
 msgstr "Shows the total distance"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..Hint
-#: Unit1.dfm:2327 
+#: Unit1.dfm:2325 
 msgid "Отображает высоту над уровнем моря по данным GPS-приемника"
 msgstr "Shows GPS altitude"
 
@@ -2352,7 +2342,7 @@ msgid "Отображает пройденный путь считаемый о�
 msgstr "Shows distance since last GPS connection"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedMaxBar..Hint
-#: Unit1.dfm:2400 
+#: Unit1.dfm:2398 
 msgid "Отображает максимальную скорость движения"
 msgstr "Shows maximum speed"
 
@@ -2372,7 +2362,7 @@ msgid "Отображает среднюю скорость движения"
 msgstr "Shows average speed"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..Hint
-#: Unit1.dfm:2287 
+#: Unit1.dfm:2285 
 msgid "Отображает расстояние до выбранной метки"
 msgstr "Shows distance to the selected placemark"
 
@@ -2424,13 +2414,13 @@ msgid "Отображение границ:"
 msgstr "Show borders:"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar....Hint
-#: Unit1.dfm:2625 
+#: Unit1.dfm:2621 
 #, fuzzy
 msgid "Отношение сигнал/шум для спутников участвующих в определении позиции"
 msgstr "Shows the satellite signal strength and no. of visible satellites"
 
 #. Fmain..PopupMenu1..N43..N15..Caption
-#: Unit1.dfm:2940 
+#: Unit1.dfm:2934 
 msgid "Относительный путь к изображению"
 msgstr "Path to the tile in cache"
 
@@ -2466,7 +2456,7 @@ msgid "Отменить"
 msgstr "Cancel"
 
 #. Fmain..PMNRObject..NGoHim..Caption
-#: Unit1.dfm:6343 
+#: Unit1.dfm:6337 
 msgid "Отслеживать"
 msgstr "Monitor"
 
@@ -2537,8 +2527,8 @@ msgstr "Time remaining:"
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedMaxBar..SpeedButton6..Hint
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometrBar..SpeedButton2..Hint
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometr2Bar..SpeedButton1..Hint
-#: Unit1.dfm:2073  Unit1.dfm:2188 Unit1.dfm:2345 Unit1.dfm:2418
-#: Unit1.dfm:2451 Unit1.dfm:2524 Unit1.dfm:2672
+#: Unit1.dfm:2073  Unit1.dfm:2188 Unit1.dfm:2343 Unit1.dfm:2416
+#: Unit1.dfm:2449 Unit1.dfm:2522 Unit1.dfm:2666
 msgid "Сбросить"
 msgstr "Reset"
 
@@ -2549,7 +2539,7 @@ msgid "Слои"
 msgstr "Layers"
 
 #. Fmain..PopupMenu1..N43..N20..Caption
-#: Unit1.dfm:2936 
+#: Unit1.dfm:2930 
 msgid "Тайл основной карты"
 msgstr "Primary map's tile"
 
@@ -2596,7 +2586,7 @@ msgid "Сжатие:"
 msgstr "Compression"
 
 #. Fmain..PopupMenu1..N26..N11..Caption
-#: Unit1.dfm:2980 
+#: Unit1.dfm:2974 
 msgid "Сделать рисунком рабочего стола"
 msgstr "Place to desktop background"
 
@@ -2654,12 +2644,12 @@ msgid "Скорость"
 msgstr "Speed"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedMaxBar..TBXLabel3..Caption
-#: Unit1.dfm:2500 
+#: Unit1.dfm:2498 
 msgid "Скорость макс., км/ч:"
 msgstr "Max.speed, km/h:"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedMaxBar..Caption
-#: Unit1.dfm:2411 
+#: Unit1.dfm:2409 
 msgid "Скорость максимальная"
 msgstr "Maximum speed"
 
@@ -2804,32 +2794,32 @@ msgid "Сформировать предыдущие слои спутников
 msgstr "Generate lower zooms by the selection"
 
 #. Fmain..PopupMenu1..N43..livecom1..Caption
-#: Unit1.dfm:2917 
+#: Unit1.dfm:2911 
 msgid "Ссылку для просмотра на maps.live.com"
 msgstr "URL to maps.live.com"
 
 #. Fmain..PopupMenu1..N43..Google1..Caption
-#: Unit1.dfm:2905 
+#: Unit1.dfm:2899 
 msgid "Ссылку для просмотра в google maps"
 msgstr "URL to google maps"
 
 #. Fmain..PopupMenu1..N43..ImageAtlas1..Caption
-#: Unit1.dfm:2921 
+#: Unit1.dfm:2915 
 msgid "Ссылку для просмотра в imageatlas.digitalglobe.com"
 msgstr "URL to imageatlas.digitalglobe.com"
 
 #. Fmain..PopupMenu1..N43..kosmosnimkiru1..Caption
-#: Unit1.dfm:2913 
+#: Unit1.dfm:2907 
 msgid "Ссылку для просмотра в kosmosnimki.ru"
 msgstr "URL to kosmosnimki.ru"
 
 #. Fmain..PopupMenu1..N43..YaLink..Caption
-#: Unit1.dfm:2909 
+#: Unit1.dfm:2903 
 msgid "Ссылку для просмотра в Яндекс.Карты"
 msgstr "URL to Yandex.Maps"
 
 #. Fmain..PopupMenu1..N43..N13..Caption
-#: Unit1.dfm:2928 
+#: Unit1.dfm:2922 
 msgid "Ссылку на тайл основной карты"
 msgstr "URL to the primary map tile"
 
@@ -2850,7 +2840,7 @@ msgstr "By Maps@mail.ru"
 
 #. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsSq..Caption
 #. Programmer's name for it: SAS_STR_S
-#: Unit1.dfm:2760  UResStrings.pas:122
+#: Unit1.dfm:2754  UResStrings.pas:122
 msgid "Площадь"
 msgstr "Area"
 
@@ -2988,7 +2978,7 @@ msgstr "Refresh rate (sec./1000)"
 
 #. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsPer..Caption
 #. Programmer's name for it: SAS_STR_P
-#: Unit1.dfm:2756  UResStrings.pas:124
+#: Unit1.dfm:2750  UResStrings.pas:124
 msgid "Периметр"
 msgstr "Perimeter"
 
@@ -3107,7 +3097,7 @@ msgstr "Previous selection"
 
 #. Fmain..TBDock..GPSToolbar..TBGPSPath..TBXItem5..Caption
 #. Fmain..PopupMenu1..NaddPoint..Caption
-#: Unit1.dfm:247  Unit1.dfm:2768
+#: Unit1.dfm:247  Unit1.dfm:2762
 msgid "Поставить метку"
 msgstr "Add placemark"
 
@@ -3250,7 +3240,7 @@ msgid "Продолжить"
 msgstr "Resume"
 
 #. Fmain..PopupMenu1..Nopendir..Caption
-#: Unit1.dfm:2945 
+#: Unit1.dfm:2939 
 msgid "Просмотр тайла основной карты"
 msgstr "Show the primary map tile"
 
@@ -3288,6 +3278,10 @@ msgstr "seconds"
 #: UResStrings.pas:136 
 msgid "см"
 msgstr "cm"
+
+#, fuzzy
+#~ msgid "Уровени сигнала"
+#~ msgstr "Manage placemarks"
 
 #~ msgid "Сила сигнала (кол. сп.)"
 #~ msgstr "Signal strength (#satellites):"
