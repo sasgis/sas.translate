@@ -569,7 +569,7 @@ msgstr "Bearing:"
 #. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label9..Caption
 #: Usettings.dfm:1786
 msgid "Активные спутники"
-msgstr "Used satellites"
+msgstr "Satellite in use"
 
 #. Fmain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
 #. Programmer's name for it: SAS_STR_activescale
@@ -671,12 +671,12 @@ msgstr "Version:"
 #. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label13..Caption
 #: Usettings.dfm:1772
 msgid "Видимые"
-msgstr "Visible satellites"
+msgstr "Satellite in range"
 
 #. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label18..Caption
 #: Usettings.dfm:1779
 msgid "Видимые с 0-м сигналом"
-msgstr "Visible satellites zero signal"
+msgstr "Satellite not in range"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
@@ -1871,8 +1871,7 @@ msgstr "Odometer №2"
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometr2Bar..TBXLabel6..Caption
 #: Unit1.dfm:2715
 msgid "Одометр №2, км:"
-msgstr "Distance №2\n"
-", km:"
+msgstr "Distance №2, km:"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXsensorOdometrBar..TBXLabel11..Caption
 #: Unit1.dfm:2571
@@ -2006,8 +2005,7 @@ msgstr "Path to tiles"
 #: Unit1.dfm:2621
 msgid "Отношение сигнал/шум для спутников участвующих в определении "
 "позиции"
-msgstr "Shows the satellite signal strength of used "
-"satellites"
+msgstr "Shows signal-to-noise ratio on satellite-in-use"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..Hint
 #: Unit1.dfm:2577
