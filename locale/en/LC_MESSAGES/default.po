@@ -542,9 +542,8 @@ msgstr "Auto queue the location by GSM stations in range (using "
 
 #. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSCenterMap..Caption
 #: Unit1.dfm:950
-#, fuzzy
 msgid "Автоматически перемещать карту"
-msgstr "Autosave tracks to .plt"
+msgstr "Move map by GPS position"
 
 #. FSettings..PageControl1..TabSheet5..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
 #: Usettings.dfm:1718
@@ -892,7 +891,6 @@ msgstr "Current altitude by SRTM3 (~90m accuracy)"
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..TBXLabel2..Caption
 #: Unit1.dfm:2401
-#, fuzzy
 msgid "Высота, м:"
 msgstr "Altitude"
 
@@ -1432,7 +1430,7 @@ msgstr "Placemark categories"
 #: UResStrings.pas:26
 msgid "Категория не пуста! Удалите все дочерние "
 "категории."
-msgstr ""
+msgstr "Category not empty"
 
 #. FaddLine..pnlCategory..Label7..Caption
 #. FaddPoint..pnlTop..pnlTopMain..pnlCategory..Label8..Caption
@@ -1505,15 +1503,13 @@ msgstr "No. of files to be cached in RAM"
 
 #. Programmer's name for it: SAS_STR_filesnum
 #: UResStrings.pas:73
-#, fuzzy
 msgid "Количество файлов"
 msgstr "Tiles not over than"
 
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 #: RegionProcess/fr_TilesCopy.dfm:89
-#, fuzzy
 msgid "Конвертировать в формат"
-msgstr "Copy to the clipboard"
+msgstr "Output format"
 
 #. Programmer's name for it: SAS_STR_Contrast
 #: UResStrings.pas:96
@@ -2676,9 +2672,8 @@ msgstr "Search results"
 
 #. frMapCombine..pnlOutputFormat..lblOutputFormat..Caption
 #: RegionProcess/fr_MapCombine.dfm:95
-#, fuzzy
 msgid "Результирующий формат:"
-msgstr "Output format"
+msgstr "Output format:"
 
 #. Fmain..TBDock..GPSToolbar..TBGPSPath..Hint
 #: Unit1.dfm:242
@@ -2887,7 +2882,6 @@ msgstr "Save selection to file"
 
 #. frTilesCopy..Panel1..Caption
 #: RegionProcess/fr_TilesCopy.dfm:221
-#, fuzzy
 msgid "Сохранить кэш  выделенного участка карты"
 msgstr "Export selection to the desired format"
 
@@ -2913,7 +2907,6 @@ msgstr "Save the shortcut"
 
 #. FSettings..PageControl1..TabSheet1..pnlDownloadParams..CBSaveTileNotExists..Caption
 #: Usettings.dfm:620
-#, fuzzy
 msgid "Сохранять информацию об отсутствии на сервере "
 "тайла"
 msgstr "Store \"NotFound\" info in cache"
@@ -3028,7 +3021,7 @@ msgstr "Tile is not found!"
 #. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSToPointCenter..Caption
 #: Unit1.dfm:288  Unit1.dfm:956
 msgid "Текущая позиция всегда в центре"
-msgstr ""
+msgstr "GPS position always in screen center"
 
 #. frMapCombine..Panel1..Panel2..lblMap..Caption
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
