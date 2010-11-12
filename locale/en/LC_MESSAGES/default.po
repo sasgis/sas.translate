@@ -1430,7 +1430,8 @@ msgstr "Placemark categories"
 #: UResStrings.pas:26
 msgid "Категория не пуста! Удалите все дочерние "
 "категории."
-msgstr "Category not empty"
+msgstr "Category is not empty. Please delete child categories "
+"first"
 
 #. FaddLine..pnlCategory..Label7..Caption
 #. FaddPoint..pnlTop..pnlTopMain..pnlCategory..Label8..Caption
@@ -3019,15 +3020,14 @@ msgstr "Tile is not found!"
 
 #. Programmer's name for it: SAS_ERR_CategoryNameDoubling
 #: UResStrings.pas:63
-#, fuzzy
 msgid "Такое имя категории уже существует"
-msgstr "Required pointset is not found!"
+msgstr "Category name already exist"
 
 #. Fmain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
 #. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSToPointCenter..Caption
 #: Unit1.dfm:283  Unit1.dfm:951
 msgid "Текущая позиция всегда в центре"
-msgstr "GPS position always in screen center"
+msgstr "GPS position is centered"
 
 #. frMapCombine..Panel1..Panel2..lblMap..Caption
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
