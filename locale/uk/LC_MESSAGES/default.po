@@ -959,9 +959,8 @@ msgstr "Гібрид"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NMainToolBarShow..Caption
 #: Unit1.dfm:447
-#, fuzzy
 msgid "Главная"
-msgstr "Головна панель"
+msgstr "Головна"
 
 #. Fmain..TBDock..TBMainToolBar..Caption
 #: Unit1.dfm:91
@@ -1062,7 +1061,8 @@ msgstr "Для"
 #: UResStrings.pas:72
 msgid "Для карты %0:s отключена загрузка тайлов из-за ошибки: "
 "%1:s"
-msgstr ""
+msgstr "Для карты %0:s відключене завантаження тайлів через помилку: "
+"%1:s"
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
 #: UResStrings.pas:58
@@ -1276,9 +1276,8 @@ msgstr "Заповнення:"
 
 #. Programmer's name for it: SAS_STR_BattaryStateCharge
 #: UResStrings.pas:156
-#, fuzzy
 msgid "Заряжается"
-msgstr "Параметри"
+msgstr "Заряджається"
 
 #. FSettings..PageControl1..TabSheet1..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
 #: Usettings.dfm:734
@@ -1437,15 +1436,13 @@ msgstr "Джерело:"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NsrcToolBarShow..Caption
 #: Unit1.dfm:461
-#, fuzzy
 msgid "Источники"
 msgstr "Джерело"
 
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
 #: UResStrings.pas:160
-#, fuzzy
 msgid "Как на главной карте"
-msgstr "Тайл основної карти"
+msgstr "Як на головній карті"
 
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
@@ -1870,15 +1867,13 @@ msgstr "Неможливо визначити позицію"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 #: UResStrings.pas:74
-#, fuzzy
 msgid "Неизвестная ошибка при скачивании"
-msgstr "Помилка при збереженні!"
+msgstr "Невідома помилка при збереженні"
 
 #. Programmer's name for it: SAS_STR_BattaryStateUnknown
 #: UResStrings.pas:157
-#, fuzzy
 msgid "Неизвестно"
-msgstr "Назва"
+msgstr "Невідомо"
 
 #. Programmer's name for it: SAS_ERR_Nopoints
 #: UResStrings.pas:31
@@ -2061,9 +2056,8 @@ msgstr "Залишилось часу:"
 
 #. Programmer's name for it: SAS_STR_BattaryStateOnLine
 #: UResStrings.pas:155
-#, fuzzy
 msgid "От сети"
-msgstr "Висота"
+msgstr "Від мережі"
 
 #. Fmain..PopupMenu1..N25..Caption
 #: Unit1.dfm:2952
@@ -2237,10 +2231,10 @@ msgstr "Помилка авторизації на проксі!"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptCompileError
 #: UResStrings.pas:69
-#, fuzzy
 msgid "Ошибка в скрипте при компиляции\n"
 "%0:s"
-msgstr "Помилка авторизації на проксі!"
+msgstr "Помилка в скрипті підчас компіляції\n"
+"%0:s"
 
 #. Programmer's name for it: SAS_ERR_ParamsInput
 #: UResStrings.pas:44
@@ -2266,9 +2260,8 @@ msgstr "Помилка відкриття порту!"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptByteCodeLoad
 #: UResStrings.pas:70
-#, fuzzy
 msgid "Ошибка при загрузке байткода"
-msgstr "Помилка авторизації на проксі!"
+msgstr "Помилка завантаження байткоду"
 
 #. Programmer's name for it: SAS_ERR_Save
 #: UResStrings.pas:34
@@ -2279,14 +2272,15 @@ msgstr "Помилка при збереженні!"
 #: UResStrings.pas:68
 msgid "Ошибка скрипта карты %0:s:\n"
 "Неожиданная ошибка"
-msgstr ""
+msgstr "Помилка скрипта карты %0:s:\n"
+"Несподівана помилка"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptError
 #: UResStrings.pas:67
-#, fuzzy
 msgid "Ошибка скрипта карты %0:s:\n"
 "%1:s"
-msgstr "Помилка відкриття порту!"
+msgstr "Помилка скрипту карти %0:s:\n"
+"%1:s"
 
 #. Programmer's name for it: SAS_ERR_CreateArh
 #: UResStrings.pas:49
@@ -2301,12 +2295,12 @@ msgstr "Помилка читання файла!"
 #. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
 #: UResStrings.pas:73
 msgid "Ошибочный тип данных"
-msgstr ""
+msgstr "Неочикуваний тип контенту"
 
 #. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
 #: UResStrings.pas:71
 msgid "Ошибочный тип проэкции карты %0:s"
-msgstr ""
+msgstr "Помилковий тип проекції карти %0:s"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..Caption
 #: Unit1.dfm:441
@@ -2774,7 +2768,7 @@ msgstr "Роздільна здатність:"
 #: UResStrings.pas:159
 msgid "Разрешение: %0:dx%1:d Разбить на %2:d "
 "файлов"
-msgstr ""
+msgstr "Растр: %0:dx%1:d Розбити на %2:d файлів"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorLenToMarkBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..Caption
@@ -2910,7 +2904,7 @@ msgstr "Склеїти виділений фрагмент"
 #. Programmer's name for it: SAS_STR_MapCombineProgressLine0
 #: UResStrings.pas:158
 msgid "Склеить: %0:dx%1:d (%2:d) файлов"
-msgstr ""
+msgstr "Склеїти: %0:dx%1:d (%2:d) файлів"
 
 #. Programmer's name for it: SAS_STR_OperationMapCombineCaption
 #: UResStrings.pas:152
@@ -3319,7 +3313,8 @@ msgstr "Файл не знайдено"
 #: UResStrings.pas:29
 msgid "Файл: %0:s\n"
 "%1:s"
-msgstr ""
+msgstr "Файл: %0:s\n"
+"%1:s"
 
 #. Programmer's name for it: SAS_STR_files
 #: UResStrings.pas:103
@@ -3468,7 +3463,8 @@ msgstr "Елементи інтерфейсу"
 #: UResStrings.pas:28
 msgid "Это не тайловый кеш, невозможно получить имя файла с "
 "тайлом."
-msgstr ""
+msgstr "Це не тайловий кеш, неможливо отримати ім'я файла з "
+"тайлом"
 
 #. Fmain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlLang..Label8..Caption
