@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-11-12 11:22\n"
-"PO-Revision-Date: 2010-11-12 11:22\n"
+"POT-Creation-Date: 2010-11-23 15:23\n"
+"PO-Revision-Date: 2010-11-23 15:23\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,14 +34,14 @@ msgstr ""
 msgid "&Вид"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NSMB..Caption
-#: Unit1.dfm:874
-msgid "&Карты"
-msgstr ""
-
 #. Fmain..TBDock..TBXMainMenu..NSources..Caption
 #: Unit1.dfm:834
 msgid "&Источник"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NSMB..Caption
+#: Unit1.dfm:874
+msgid "&Карты"
 msgstr ""
 
 #. Fmain..TBDock..TBXMainMenu..NOperations..Caption
@@ -61,44 +61,58 @@ msgid "*При выборе черного цвета вы получите пр
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:410
+#: RegionProcess/fr_MapCombine.dfm:398
 msgid ".dat"
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:411
+#: RegionProcess/fr_MapCombine.dfm:399
 msgid ".kml"
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:407
+#: RegionProcess/fr_MapCombine.dfm:395
 msgid ".map"
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:408
+#: RegionProcess/fr_MapCombine.dfm:396
 msgid ".tab"
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:409
+#: RegionProcess/fr_MapCombine.dfm:397
 msgid ".w"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_mperp
-#: UResStrings.pas:136
+#: UResStrings.pas:166
 msgid "/пикс."
 msgstr ""
 
 #. frLonLat..grdpnlMain..flwpnlLat..edtLatDeg..DisplayFormat
-#: fr_LonLat.dfm:116
+#: fr_LonLat.dfm:113
 #. frLonLat..grdpnlMain..flwpnlLon..edtLonDeg..DisplayFormat
-#: fr_LonLat.dfm:206
+#: fr_LonLat.dfm:208
 msgid "0.########°"
 msgstr ""
 
+#. frLonLat..grdpnlMain..flwpnlLat..edtLatMin..DisplayFormat
+#: fr_LonLat.dfm:128
+#. frLonLat..grdpnlMain..flwpnlLon..edtLonMin..DisplayFormat
+#: fr_LonLat.dfm:222
+msgid "0.#####’"
+msgstr ""
+
+#. frLonLat..grdpnlMain..flwpnlLat..edtLatSec..DisplayFormat
+#: fr_LonLat.dfm:143
+#. frLonLat..grdpnlMain..flwpnlLon..edtLonSec..DisplayFormat
+#: fr_LonLat.dfm:236
+msgid "0.####”"
+msgstr ""
+
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:219
+#: RegionProcess/fr_ExportIPhone.dfm:218
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:184
 msgid "0..9 max"
@@ -140,9 +154,9 @@ msgid "1:500000 (5 км)"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybrCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:324
+#: RegionProcess/fr_ExportIPhone.dfm:315
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSatCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:336
+#: RegionProcess/fr_ExportIPhone.dfm:327
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:252
 msgid "100..1 max"
@@ -161,11 +175,12 @@ msgid "23,4 км."
 msgstr ""
 
 #. frExportAUX..dlgTargetFileSelect..Filter
-#: RegionProcess/fr_ExportAUX.dfm:134
+#: RegionProcess/fr_ExportAUX.dfm:130
 msgid "AUX |*.aux"
 msgstr ""
 
-#: RegionProcess/u_ExportProviderAUX.pas:44
+#. Programmer's name for it: SAS_STR_ExportAUXGeoServerCaption
+#: UResStrings.pas:147
 msgid "AUX для GeoExpress Server"
 msgstr ""
 
@@ -177,7 +192,7 @@ msgstr ""
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1065
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:187
+#: RegionProcess/fr_TilesGenPrev.dfm:179
 msgid "Blackman"
 msgstr ""
 
@@ -191,14 +206,14 @@ msgstr ""
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1056
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler..Text
-#: RegionProcess/fr_TilesGenPrev.dfm:176
+#: RegionProcess/fr_TilesGenPrev.dfm:168
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:178
+#: RegionProcess/fr_TilesGenPrev.dfm:170
 msgid "Box"
 msgstr ""
 
 #. FAddCategory..flwpnlZooms..Label3..Caption
-#: UAddCategory.dfm:94
+#: UAddCategory.dfm:97
 msgid "c"
 msgstr ""
 
@@ -217,21 +232,21 @@ msgstr ""
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1058
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:180
+#: RegionProcess/fr_TilesGenPrev.dfm:172
 msgid "Cosine"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1061
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:183
+#: RegionProcess/fr_TilesGenPrev.dfm:175
 msgid "Cubic"
 msgstr ""
 
 #. frLonLat..grdpnlMain..flwpnlLon..cbbLonWE..Text
-#: fr_LonLat.dfm:192
-#. frLonLat..grdpnlMain..flwpnlLon..cbbLonWE....Items.Strings
 #: fr_LonLat.dfm:194
+#. frLonLat..grdpnlMain..flwpnlLon..cbbLonWE....Items.Strings
+#: fr_LonLat.dfm:196
 msgid "E"
 msgstr ""
 
@@ -255,23 +270,23 @@ msgid "English"
 msgstr ""
 
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#: RegionProcess/fr_ExportToFileCont.dfm:128
+#: RegionProcess/fr_ExportToFileCont.dfm:125
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#: RegionProcess/fr_TilesCopy.dfm:105
+#: RegionProcess/fr_TilesCopy.dfm:100
 msgid "ES1.95"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1064
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:186
+#: RegionProcess/fr_TilesGenPrev.dfm:178
 msgid "Gaussian"
 msgstr ""
 
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#: RegionProcess/fr_ExportToFileCont.dfm:129
+#: RegionProcess/fr_ExportToFileCont.dfm:126
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#: RegionProcess/fr_TilesCopy.dfm:106
+#: RegionProcess/fr_TilesCopy.dfm:101
 msgid "GMT (GlobalMapper >=10.02)"
 msgstr ""
 
@@ -295,13 +310,13 @@ msgid "Google Earth"
 msgstr ""
 
 #. FMarksExplorer..OpenDialog1....Filter
-#: UMarksExplorer.dfm:607
+#: UMarksExplorer.dfm:746
 msgid "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version "
 "2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz"
 msgstr ""
 
 #. frmGoTo..RB2..Caption
-#: frm_GoTo.dfm:74
+#: frm_GoTo.dfm:80
 #. Fmain..TBDock..TBMainToolBar..TBGoTo..EditGoogleSrch..EditCaption
 #: Unit1.dfm:151
 #. Fmain..TBDock..TBMainToolBar..TBGoTo..EditGoogleSrch..Caption
@@ -316,12 +331,14 @@ msgstr ""
 #. FSettings..PageControl1..TabSheet2..grdpnlCache..CBCacheType....Items.Strings
 #: Usettings.dfm:556
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#: RegionProcess/fr_ExportToFileCont.dfm:126
+#: RegionProcess/fr_ExportToFileCont.dfm:123
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#: RegionProcess/fr_TilesCopy.dfm:103
+#: RegionProcess/fr_TilesCopy.dfm:98
 msgid "GoogleMV"
 msgstr ""
 
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NGPSToolBarShow..Caption
+#: Unit1.dfm:468
 #. Fmain..TBDock..TBXMainMenu..tbsbmGPS..Caption
 #: Unit1.dfm:926
 #. FSettings..PageControl1..TabSheet5..Caption
@@ -335,28 +352,28 @@ msgid "GSM"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_MapGUIDBad
-#: UResStrings.pas:59
+#: UResStrings.pas:62
 msgid "GUID %0:s не соответствует формату"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1067
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:189
+#: RegionProcess/fr_TilesGenPrev.dfm:181
 msgid "Hamming"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1066
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:188
+#: RegionProcess/fr_TilesGenPrev.dfm:180
 msgid "Hann"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1062
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:184
+#: RegionProcess/fr_TilesGenPrev.dfm:176
 msgid "Hermite"
 msgstr ""
 
@@ -374,11 +391,13 @@ msgstr ""
 msgid "Interface is nil"
 msgstr ""
 
-#: RegionProcess/u_ExportProviderIPhone.pas:56
+#. Programmer's name for it: SAS_STR_ExportIPhone128Caption
+#: UResStrings.pas:145
 msgid "iPhone (2.2 и выше 128х128)"
 msgstr ""
 
-#: RegionProcess/u_ExportProviderIPhone.pas:58
+#. Programmer's name for it: SAS_STR_ExportIPhone64Caption
+#: UResStrings.pas:146
 msgid "iPhone (Ниже v2.2 64х64)"
 msgstr ""
 
@@ -392,12 +411,13 @@ msgstr ""
 msgid "Jpeg2000"
 msgstr ""
 
-#: RegionProcess/u_ExportProviderGEKml.pas:44
+#. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
+#: UResStrings.pas:144
 msgid "KML (Для просмотра в GE)"
 msgstr ""
 
 #. frExportGEKml..dlgSaveKML..Filter
-#: RegionProcess/fr_ExportGEKml.dfm:178
+#: RegionProcess/fr_ExportGEKml.dfm:170
 msgid "KML |*.kml"
 msgstr ""
 
@@ -414,14 +434,14 @@ msgstr ""
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1063
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:185
+#: RegionProcess/fr_TilesGenPrev.dfm:177
 msgid "Lanczos"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1057
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:179
+#: RegionProcess/fr_TilesGenPrev.dfm:171
 msgid "Linear"
 msgstr ""
 
@@ -448,14 +468,14 @@ msgstr ""
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1060
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:182
+#: RegionProcess/fr_TilesGenPrev.dfm:174
 msgid "Mitchell"
 msgstr ""
 
 #. frLonLat..grdpnlMain..flwpnlLat..cbbLatNS..Text
-#: fr_LonLat.dfm:102
+#: fr_LonLat.dfm:99
 #. frLonLat..grdpnlMain..flwpnlLat..cbbLatNS....Items.Strings
-#: fr_LonLat.dfm:104
+#: fr_LonLat.dfm:101
 #. Fbrowser..EmbeddedWB1..DisableCtrlShortcuts
 #: Ubrowser.dfm:22
 #. Fmain..WebBrowser1..DisableCtrlShortcuts
@@ -469,14 +489,14 @@ msgid "Ok"
 msgstr ""
 
 #. FaddLine..OpenDialog1..Filter
-#: UaddLine.dfm:219
+#: UaddLine.dfm:220
 #. FAddPoly..OpenDialog1..Filter
-#: UaddPoly.dfm:311
+#: UaddPoly.dfm:312
 msgid "PNG|*.png"
 msgstr ""
 
 #. frLonLat..grdpnlMain..flwpnlLat..cbbLatNS....Items.Strings
-#: fr_LonLat.dfm:105
+#: fr_LonLat.dfm:102
 msgid "S"
 msgstr ""
 
@@ -491,28 +511,35 @@ msgstr ""
 #. FSettings..PageControl1..TabSheet2..grdpnlCache..CBCacheType....Items.Strings
 #: Usettings.dfm:557
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
-#: RegionProcess/fr_ExportToFileCont.dfm:124
+#: RegionProcess/fr_ExportToFileCont.dfm:121
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#: RegionProcess/fr_ExportToFileCont.dfm:127
+#: RegionProcess/fr_ExportToFileCont.dfm:124
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType..Text
-#: RegionProcess/fr_TilesCopy.dfm:101
+#: RegionProcess/fr_TilesCopy.dfm:96
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#: RegionProcess/fr_TilesCopy.dfm:104
+#: RegionProcess/fr_TilesCopy.dfm:99
+#. Programmer's name for it: SAS_STR_ApplicationTitle
+#: UResStrings.pas:154
 msgid "SAS.Планета"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1068
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:190
+#: RegionProcess/fr_TilesGenPrev.dfm:182
 msgid "Sinsh"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..ComboBox2....Items.Strings
 #: Usettings.dfm:1059
 #. frTilesGenPrev..pnlBottom..pnlCenter..cbbResampler....Items.Strings
-#: RegionProcess/fr_TilesGenPrev.dfm:181
+#: RegionProcess/fr_TilesGenPrev.dfm:173
 msgid "Spline"
+msgstr ""
+
+#. frLonLat..grdpnlMain..flwpnlLat..edtLatSec..Font.Name
+#: fr_LonLat.dfm:147
+msgid "Tahoma"
 msgstr ""
 
 #. FEditMap..pnlUrl..Label1..Caption
@@ -521,7 +548,7 @@ msgid "URL"
 msgstr ""
 
 #. frLonLat..grdpnlMain..flwpnlLon..cbbLonWE....Items.Strings
-#: fr_LonLat.dfm:195
+#: fr_LonLat.dfm:197
 msgid "W"
 msgstr ""
 
@@ -567,825 +594,16 @@ msgstr ""
 msgid "WS г.м.с. (W12°23\"43.35')"
 msgstr ""
 
+#. Fmain..TBDockLeft..ZoomToolBar..labZoom..Caption
+#: Unit1.dfm:1195
+msgid "z1"
+msgstr ""
+
 #. frExportToFileCont..dlgSaveTargetFile..Filter
-#: RegionProcess/fr_ExportToFileCont.dfm:181
+#: RegionProcess/fr_ExportToFileCont.dfm:175
 #. frMapCombine..dlgSaveTargetFile..Filter
-#: RegionProcess/fr_MapCombine.dfm:417
+#: RegionProcess/fr_MapCombine.dfm:405
 msgid "Zip |*.zip"
-msgstr ""
-
-#. frMapCombine..pnlRight..grpSplit..Caption
-#: RegionProcess/fr_MapCombine.dfm:138
-msgid "Разбить изображение"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_DivideInto
-#: UResStrings.pas:117
-msgid "Разбить на"
-msgstr ""
-
-#. FaddPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..Label6..Caption
-#: UaddPoint.dfm:317
-#. FImport..GroupBox1..Label6..Caption
-#: UImport.dfm:64
-msgid "Размер иконки"
-msgstr ""
-
-#. FaddPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..Label5..Caption
-#: UaddPoint.dfm:213
-#. FImport..GroupBox1..Label5..Caption
-#: UImport.dfm:57
-msgid "Размер шрифта"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label10..Caption
-#: Usettings.dfm:1572
-msgid "Размер указателя направления:"
-msgstr ""
-
-#. Fabout..Label3..Caption
-#: UAbout.dfm:36
-msgid "Разработка:"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox1..LabelResolution..Caption
-#: UFDGAvailablePic.dfm:37
-#. Programmer's name for it: SAS_STR_Resolution
-#: UResStrings.pas:118
-msgid "Разрешение"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox1..Label4..Caption
-#: UFDGAvailablePic.dfm:67
-msgid "Разрешение:"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorLenToMarkBar..Caption
-#: Unit1.dfm:539
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..Caption
-#: Unit1.dfm:2300
-#. Programmer's name for it: SAS_STR_LenToMark
-#: UResStrings.pas:73
-msgid "Расстояние до метки"
-msgstr ""
-
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..TBXLabel13..Caption
-#: Unit1.dfm:2323
-msgid "Расстояние до метки:"
-msgstr ""
-
-#. frmSearchResults..Caption
-#: frm_SearchResults.dfm:4
-msgid "Результаты поиска"
-msgstr ""
-
-#. frMapCombine..pnlOutputFormat..lblOutputFormat..Caption
-#: RegionProcess/fr_MapCombine.dfm:95
-msgid "Результирующий формат:"
-msgstr ""
-
-#. FMarksExplorer..GroupBox1..SpeedButton1..Hint
-#: UMarksExplorer.dfm:182
-#. FMarksExplorer..GroupBox2..BtnEditCategory..Hint
-#: UMarksExplorer.dfm:401
-msgid "Редактировать"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_EditMap
-#: UResStrings.pas:112
-msgid "Редактировать описание карты:"
-msgstr ""
-
-#. Fmain..TBDock..GPSToolbar..TBGPSPath..Hint
-#: Unit1.dfm:237
-msgid "Рисовать пройденный путь"
-msgstr ""
-
-#. FEditMap..pnlParentItem..Label3..Caption
-#: UEditMap.dfm:154
-msgid "Родительский пункт меню"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NParams..TBLang..TBXLangRus..Caption
-#: Unit1.dfm:1021
-msgid "Русский"
-msgstr ""
-
-#. Fmain..PopupMenu1..N28..Caption
-#: Unit1.dfm:2778
-msgid "Центрировать с масштабом"
-msgstr ""
-
-#. FaddLine..flwpnlStyle..Label3..Caption
-#: UaddLine.dfm:118
-#. FAddPoly..pnlFill..flwpnlFill..Label6..Caption
-#: UaddPoly.dfm:102
-#. FAddPoly..pnlLine..flwpnlLine..Label3..Caption
-#: UaddPoly.dfm:180
-#. FDGAvailablePic..GroupBox1..LabelColor..Caption
-#: UFDGAvailablePic.dfm:44
-#. FImport..GroupBox2..Label1..Caption
-#: UImport.dfm:171
-#. FImport..GroupBox3..Label10..Caption
-#: UImport.dfm:238
-#. FImport..GroupBox3..Label13..Caption
-#: UImport.dfm:267
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlTileBorders..flwpnlTileBorders..Label27..Caption
-#: Usettings.dfm:1109
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
-#: Usettings.dfm:1321
-msgid "Цвет"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet8..grdpnlWiki..Label77..Caption
-#: Usettings.dfm:1859
-msgid "Цвет окаймления"
-msgstr ""
-
-#. FaddPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..Label3..Caption
-#: UaddPoint.dfm:174
-#. FImport..GroupBox1..Label3..Caption
-#: UImport.dfm:43
-msgid "Цвет текста"
-msgstr ""
-
-#. FaddPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..Label4..Caption
-#: UaddPoint.dfm:279
-#. FImport..GroupBox1..Label4..Caption
-#: UImport.dfm:50
-msgid "Цвет тени"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
-#: Usettings.dfm:1606
-msgid "Цвет трека:"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
-#: Usettings.dfm:1418
-msgid "Цвет фона"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox1..Label5..Caption
-#: UFDGAvailablePic.dfm:75
-msgid "Цвет:"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_Gamma
-#: UResStrings.pas:96
-msgid "Цветовая гамма"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorBattaryBar..Caption
-#: Unit1.dfm:546
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorBattaryBar..Caption
-#: Unit1.dfm:2259
-msgid "Батарея"
-msgstr ""
-
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorBattaryBar..TBXLabel14..Caption
-#: Unit1.dfm:2283
-msgid "Батарея:"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_NoMaps
-#: UResStrings.pas:35
-msgid "Без карт программа не будет работать!"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..Nbackload..Caption
-#: Unit1.dfm:796
-msgid "Брать карты из меньших масштабов"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
-#: Usettings.dfm:762
-msgid "Брать настройки подключения из реестра"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
-#: Unit1.dfm:803
-msgid "Брать слои из меньших масштабов"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_FunExForPoly
-#: UResStrings.pas:16
-msgid "В данной версии функция доступна только для "
-"полигонов"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_MapGUIDError
-#: UResStrings.pas:60
-msgid "В карте %0:s ошибка: %1:s"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_MapGUIDDuplicate
-#: UResStrings.pas:61
-msgid "В файлах %0:s и %1:s одинаковые GUID"
-msgstr ""
-
-#. frTilesGenPrev..pnlBottom..pnlRight..lblZooms..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:50
-msgid "В слои масштаба:"
-msgstr ""
-
-#. Fabout..Label1..Caption
-#: UAbout.dfm:28
-msgid "Версия:"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label13..Caption
-#: Usettings.dfm:1713
-msgid "Видимые"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label18..Caption
-#: Usettings.dfm:1720
-msgid "Видимые с 0-м сигналом"
-msgstr ""
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:399
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
-#: RegionProcess/fr_ExportYaMaps.dfm:313
-msgid "Включить следующие типы карт:"
-msgstr ""
-
-#. Fmain..TBDock..TBMainToolBar..TBFullSize..Hint
-#: Unit1.dfm:168
-#. Fmain..TBDock..TBXMainMenu..NView..NFoolSize..Caption
-#: Unit1.dfm:782
-msgid "Во весь экран"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..Caption
-#: Usettings.dfm:803
-msgid "Внешний вид"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet9..pnlMapsRightButtons..Button11..Caption
-#: Usettings.dfm:93
-msgid "Вниз"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_coution
-#: UResStrings.pas:8
-msgid "Внимание!"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_InputLacitp
-#: UResStrings.pas:130
-msgid "Введите через запятую mnc, mcc, LAC, CellID (Например: "
-"02,250,17023,13023)"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet9..pnlMapsRightButtons..Button12..Caption
-#: Usettings.dfm:104
-msgid "Вверх"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_InputLacitpCaption
-#: UResStrings.pas:131
-msgid "Ввод параметров"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_youasurerefrsensor
-#: UResStrings.pas:10
-msgid "Вы действительно хотите обнулить датчик"
-msgstr ""
-
-#. Fmain..TBDock..SrcToolbar..TBSrc..Hint
-#: Unit1.dfm:186
-msgid "Выберите источник из которого программа будет брать "
-"карты"
-msgstr ""
-
-#. FImport..GroupBox1..ComboBox1..Hint
-#: UImport.dfm:150
-msgid "Выберите графическое изображение"
-msgstr ""
-
-#. Fmain..TBDock..SrcToolbar..TBLayerSel..Hint
-#: Unit1.dfm:199
-msgid "Выбор слоев отображаемых поверх основной "
-"карты"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox4..Caption
-#: UFDGAvailablePic.dfm:164
-msgid "Выбор стека снимков"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..TBfillMapAsMain..Caption
-#: Unit1.dfm:609
-msgid "Выбранной основной карты"
-msgstr ""
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbMap..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:265
-msgid "Выбрать карту в уачестве основного слоя"
-msgstr ""
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbHybr..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:255
-msgid "Выбрать гибрид в качестве основного "
-"слоя"
-msgstr ""
-
-#. Fmain..TBDock..SrcToolbar..TBSMB..Hint
-#: Unit1.dfm:193
-msgid "Выбрать тип карты"
-msgstr ""
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbSat..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:277
-msgid "Выбрать спутник в уачестве основного "
-"слоя"
-msgstr ""
-
-#. Fmain..TBDock..TBExit..TBXExit..Hint
-#: Unit1.dfm:313
-msgid "Выйти из программы"
-msgstr ""
-
-#. FSelLonLat..Caption
-#: USelLonLat.dfm:5
-msgid "Выделение по координатам"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_SelectArea
-#: UResStrings.pas:34
-msgid "Выделенная область находится целиком вне "
-"карты!"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
-#: Unit1.dfm:385
-msgid "Выделить"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NOperations..N6..Caption
-#: Unit1.dfm:432
-#. FProgress..Panel1..Button2..Caption
-#: UProgress.dfm:175
-msgid "Выход"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox3..pnlRight..Button1..Caption
-#: UFDGAvailablePic.dfm:126
-msgid "Выше"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_Ban
-#: UResStrings.pas:49
-msgid "Высока вероятность того, что вас забанили!"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorAltitudeBar..Caption
-#: Unit1.dfm:553
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..Caption
-#: Unit1.dfm:2340
-msgid "Высота"
-msgstr ""
-
-#. Fmain..PopupMenu1..N26..NGTOPO30..Caption
-#: Unit1.dfm:2962
-msgid "Высота над уровнем моря GTOPO30 (разрешение "
-"~1км)"
-msgstr ""
-
-#. Fmain..PopupMenu1..N26..NSRTM3..Caption
-#: Unit1.dfm:2966
-msgid "Высота над уровнем моря SRTM3 (разрешение "
-"~90м)"
-msgstr ""
-
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..TBXLabel2..Caption
-#: Unit1.dfm:2396
-msgid "Высота, м:"
-msgstr ""
-
-#. FMarksExplorer..GroupBox1..CheckBox1..Caption
-#: UMarksExplorer.dfm:338
-#. FMarksExplorer..GroupBox2..CheckBox2..Caption
-#: UMarksExplorer.dfm:529
-#. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
-#: RegionProcess/fr_ExportGEKml.dfm:48
-#. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:463
-#. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
-#: RegionProcess/fr_ExportToFileCont.dfm:49
-#. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
-#: RegionProcess/fr_TilesCopy.dfm:51
-#. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
-#: RegionProcess/fr_TilesCopy.dfm:147
-#. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:72
-msgid "Все"
-msgstr ""
-
-#. FEditMap..pnlBottomButtons..Button3..Caption
-#: UEditMap.dfm:31
-msgid "Все по умолчанию"
-msgstr ""
-
-#. Fmain..OpenSessionDialog....Filter
-#: Unit1.dfm:7362
-msgid "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*."
-"kmz;*.sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track "
-"Point File Version 2.1 (*.plt)|*.plt|Google KMZ files "
-"(*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения "
-"(*.hlg)|*.hlg"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_Whole
-#: UResStrings.pas:127
-msgid "Всего"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_AllLoad
-#: UResStrings.pas:86
-msgid "Всего загружено:"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_AllProcessed
-#: UResStrings.pas:85
-msgid "Всего обработано:"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_AllDelete
-#: UResStrings.pas:90
-msgid "Всего удалено:"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_AllSaves
-#: UResStrings.pas:91
-msgid "Всего сохранить:"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_time
-#: UResStrings.pas:68
-msgid "Время"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
-#: Usettings.dfm:1538
-msgid "Время ожидания ответа от приемника (сек.)"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_Marshtime
-#: UResStrings.pas:66
-msgid "Время в пути: "
-msgstr ""
-
-#. Programmer's name for it: SAS_UNITS_gb
-#: UResStrings.pas:134
-msgid "Гб"
-msgstr ""
-
-#. Fmain..TBDock..TBMainToolBar..Caption
-#: Unit1.dfm:91
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NMainToolBarShow..Caption
-#: Unit1.dfm:447
-msgid "Главная панель"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..Caption
-#: Unit1.dfm:323
-msgid "Главное меню"
-msgstr ""
-
-#: RegionProcess/u_ProviderTilesGenPrev.pas:47
-msgid "Генерация верхних уровней"
-msgstr ""
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:358
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
-#: RegionProcess/fr_ExportYaMaps.dfm:272
-msgid "Гибрид"
-msgstr ""
-
-#. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
-#: fr_ShortCutList.dfm:46
-#. FSettings..PageControl1..TabSheet9..MapList......Caption
-#: Usettings.dfm:51
-msgid "Гор. кл."
-msgstr ""
-
-#. FEditMap..grdpnlSleepAndKey..grdpnlHotKey..Label4..Caption
-#: UEditMap.dfm:365
-msgid "Горячая кл."
-msgstr ""
-
-#: fr_ShortCutList.pas:64
-msgid "Горячая клавиша уже используется, пожалуйста, выберите "
-"другую"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet3..GroupBox5..Caption
-#: Usettings.dfm:798
-msgid "Горячие кл."
-msgstr ""
-
-#. Fabout..Label2..Caption
-#: UAbout.dfm:100
-msgid "Группа SAS"
-msgstr ""
-
-#. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsLen..Caption
-#: Unit1.dfm:2754
-#. Programmer's name for it: SAS_STR_L
-#: UResStrings.pas:125
-msgid "Длина"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_LenPath
-#: UResStrings.pas:72
-msgid "Длина пути"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_MarshLen
-#: UResStrings.pas:65
-msgid "Длина маршрута: "
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_for
-#: UResStrings.pas:76
-msgid "Для"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_need_reload_application_curln
-#: UResStrings.pas:7
-msgid "Для того чтобы изменения вступили в силу\n"
-"необходимо перезапустить программу."
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_UseADifferentFormat
-#: UResStrings.pas:55
-msgid "Для склейки больших размеров используйте другой формат "
-"(ecw,bmp,jp2)"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_FileExistsShort
-#: UResStrings.pas:53
-msgid "Данный файл уже имеется в кеше"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_FileBeCreateTime
-#: UResStrings.pas:17
-msgid "Данный файл создан позже указаного срока, пропускаем "
-"загрузку."
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_FileBeCreateLen
-#: UResStrings.pas:18
-msgid "Данный файл равен по размеру существующему, пропускаем "
-"загрузку."
-msgstr ""
-
-#. FDGAvailablePic..GroupBox1..LabelDate..Caption
-#: UFDGAvailablePic.dfm:30
-msgid "Дата съемки"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox1..Label2..Caption
-#: UFDGAvailablePic.dfm:59
-msgid "Дата съемки:"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..Caption
-#: Unit1.dfm:491
-#. Fmain..TBDockRight..TBXSensorsBar..Caption
-#: Unit1.dfm:2036
-msgid "Датчики"
-msgstr ""
-
-#. FEditMap..pnlSeparator..CheckBox1..Caption
-#: UEditMap.dfm:79
-msgid "Добавлять в меню разделитель после названия этой "
-"карты"
-msgstr ""
-
-#. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:74
-msgid "Добавлять тайлы в существующую базу"
-msgstr ""
-
-#. FAddCategory..pnlBottomButtons..Badd..Caption
-#: UAddCategory.dfm:74
-#. FaddLine..pnlBottomButtons..Badd..Caption
-#: UaddLine.dfm:199
-#. FaddPoint..pnlBottomButtons..Badd..Caption
-#: UaddPoint.dfm:70
-#. FAddPoly..pnlBottomButtons..Badd..Caption
-#: UaddPoly.dfm:45
-#. FMarksExplorer..GroupBox2..BtnAddCategory..Hint
-#: UMarksExplorer.dfm:470
-#. Programmer's name for it: SAS_STR_Add
-#: UResStrings.pas:110
-msgid "Добавить"
-msgstr ""
-
-#. FAddPoly..Caption
-#: UaddPoly.dfm:5
-#. Programmer's name for it: SAS_STR_AddNewPoly
-#: UResStrings.pas:104
-msgid "Добавить новый полигон"
-msgstr ""
-
-#. FaddLine..Caption
-#: UaddLine.dfm:5
-#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Hint
-#: Unit1.dfm:901
-#. Programmer's name for it: SAS_STR_AddNewPath
-#: UResStrings.pas:102
-msgid "Добавить новый путь"
-msgstr ""
-
-#. FAddCategory..Caption
-#: UAddCategory.dfm:5
-#. Programmer's name for it: SAS_STR_AddNewCategory
-#: UResStrings.pas:105
-msgid "Добавить новую категорию"
-msgstr ""
-
-#. FaddPoint..Caption
-#: UaddPoint.dfm:5
-#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Hint
-#: Unit1.dfm:893
-#. Programmer's name for it: SAS_STR_AddNewMark
-#: UResStrings.pas:103
-msgid "Добавить новую метку"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Caption
-#: Unit1.dfm:908
-#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Hint
-#: Unit1.dfm:909
-msgid "Добавить полигон"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Caption
-#: Unit1.dfm:900
-msgid "Добавить путь"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Caption
-#: Unit1.dfm:892
-msgid "Добавить метку"
-msgstr ""
-
-#. frmSearchResults..lvResults......Caption
-#: frm_SearchResults.dfm:32
-msgid "Долгота"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_LonLat1
-#: UResStrings.pas:43
-msgid "Долгота в левом верхнем углу должна быть меньше \n"
-"долготы в правом нижнем!"
-msgstr ""
-
-#. frLonLat..grdpnlMain..lblLon..Caption
-#: fr_LonLat.dfm:161
-msgid "Долгота:"
-msgstr ""
-
-#. Fmain..PopupMenu1..N26..Caption
-#: Unit1.dfm:2960
-msgid "Дополнительные операции"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NHelp..TBXItem9..Caption
-#: Unit1.dfm:1076
-msgid "Дополнительный набор подключаемых карт"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox3..Caption
-#: UFDGAvailablePic.dfm:93
-msgid "Доступные снимки"
-msgstr ""
-
-#. FSelLonLat..grdpnlMain..grpTopLeft..Caption
-#: USelLonLat.dfm:87
-msgid "Левый верхний угол"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N31..ShowLine..Caption
-#: Unit1.dfm:593
-msgid "Линейка"
-msgstr ""
-
-#. FAddPoly..pnlLine..Label9..Caption
-#: UaddPoly.dfm:161
-#. FImport..GroupBox3..Label15..Caption
-#: UImport.dfm:289
-msgid "Линия:"
-msgstr ""
-
-#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem2..EditCaption
-#: Unit1.dfm:137
-#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem2..Caption
-#: Unit1.dfm:139
-#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem2..EditCaption
-#: Unit1.dfm:141
-msgid "Локальный"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_FileExists
-#: UResStrings.pas:14
-msgid "Файл %0:s уже есть у вас в кеше.\n"
-"Заменить этот файл вновь скачанным?"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_BadFile
-#: UResStrings.pas:36
-msgid "Файл испорчен!"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_FileNotFound
-#: UResStrings.pas:37
-msgid "Файл не найден"
-msgstr ""
-
-#. Fmain..OpenDialog1..Filter
-#: Unit1.dfm:5247
-#. Fsaveas..SaveSelDialog..Filter
-#: USaveas.dfm:203
-msgid "Файл выделения|*.hlg"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlLonLatFormat..pnlCoordFormat..Label84..Caption
-#: Usettings.dfm:911
-msgid "Формат представления координат"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlNumbersFormat..Label3..Caption
-#: Usettings.dfm:863
-msgid "Формат чисел отображения масштаба"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
-#: Unit1.dfm:605
-msgid "Формировать для..."
-msgstr ""
-
-#. frTilesGenPrev..pnlBottom..pnlCenter..chkFromPrevZoom..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:223
-msgid "Формировать каждый выбранный масштаб из предыдущего "
-"выбранного"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_SelectArea
-#: UResStrings.pas:12
-msgid "Часть выделенной области находится вне карты.\n"
-"Область будет ограничена по размерам "
-"карты."
-msgstr ""
-
-#. FAddCategory..flwpnlZooms..Label4..Caption
-#: UAddCategory.dfm:113
-msgid "до"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..Label16..Caption
-#: Usettings.dfm:1039
-msgid "Алгоритм растягивания изображения"
-msgstr ""
-
-#. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:135
-msgid "Алгоритм:"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorAzimutBar..Caption
-#: Unit1.dfm:560
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..Caption
-#: Unit1.dfm:2595
-msgid "Азимут"
-msgstr ""
-
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..TBXLabel4..Caption
-#: Unit1.dfm:2619
-msgid "Азимут:"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label9..Caption
-#: Usettings.dfm:1727
-msgid "Активные спутники"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
-#: Unit1.dfm:645
-#. Programmer's name for it: SAS_STR_activescale
-#: UResStrings.pas:75
-msgid "Активный масштаб"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..Nanimate..Caption
-#: Unit1.dfm:810
-msgid "Анимация при масштабировании"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet6..pnlGSM..chkPosFromGSM....Caption
@@ -1415,56 +633,156 @@ msgstr ""
 msgid "Автоматически сохранять треки в .plt"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
-#: Usettings.dfm:734
-msgid "и пароль:"
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorAzimutBar..Caption
+#: Unit1.dfm:560
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..Caption
+#: Unit1.dfm:2595
+msgid "Азимут"
 msgstr ""
 
-#. FaddLine..flwpnlStyle..Label5..Caption
-#: UaddLine.dfm:147
-#. FAddPoly..pnlLine..flwpnlLine..Label5..Caption
-#: UaddPoly.dfm:207
-#. FImport..GroupBox2..Label2..Caption
-#: UImport.dfm:178
-#. FImport..GroupBox3..Label11..Caption
-#: UImport.dfm:245
-msgid "Ширина"
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..TBXLabel4..Caption
+#: Unit1.dfm:2619
+msgid "Азимут:"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
-#: Usettings.dfm:1589
-msgid "Ширина трека:"
+#. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label9..Caption
+#: Usettings.dfm:1727
+msgid "Активные спутники"
 msgstr ""
 
-#. frmSearchResults..lvResults......Caption
-#: frm_SearchResults.dfm:28
-msgid "Широта"
+#. Fmain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
+#: Unit1.dfm:645
+#. Programmer's name for it: SAS_STR_activescale
+#: UResStrings.pas:86
+msgid "Активный масштаб"
 msgstr ""
 
-#. Programmer's name for it: SAS_ERR_LonLat2
-#: UResStrings.pas:45
-msgid "Широта в левом верхнем углу должна быть меньше \n"
-"широты в правом нижнем!"
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlResize..Label16..Caption
+#: Usettings.dfm:1039
+msgid "Алгоритм растягивания изображения"
 msgstr ""
 
-#. frLonLat..grdpnlMain..lblLat..Caption
-#: fr_LonLat.dfm:68
-msgid "Широта:"
+#. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
+#: RegionProcess/fr_TilesGenPrev.dfm:128
+msgid "Алгоритм:"
 msgstr ""
 
-#. Programmer's name for it: SAS_UNITS_km
-#: UResStrings.pas:137
-msgid "км"
+#. Fmain..TBDock..TBXMainMenu..NView..Nanimate..Caption
+#: Unit1.dfm:810
+msgid "Анимация при масштабировании"
 msgstr ""
 
-#. Programmer's name for it: SAS_UNITS_kmperh
-#: UResStrings.pas:135
-msgid "км/час"
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorBattaryBar..Caption
+#: Unit1.dfm:546
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorBattaryBar..Caption
+#: Unit1.dfm:2259
+msgid "Батарея"
 msgstr ""
 
-#. Programmer's name for it: SAS_UNITS_km2
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorBattaryBar..TBXLabel14..Caption
+#: Unit1.dfm:2283
+msgid "Батарея:"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_NoMaps
+#: UResStrings.pas:38
+msgid "Без карт программа не будет работать!"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..Nbackload..Caption
+#: Unit1.dfm:796
+msgid "Брать карты из меньших масштабов"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
+#: Usettings.dfm:762
+msgid "Брать настройки подключения из реестра"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
+#: Unit1.dfm:803
+msgid "Брать слои из меньших масштабов"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_FunExForPoly
+#: UResStrings.pas:16
+msgid "В данной версии функция доступна только для "
+"полигонов"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_MapGUIDError
+#: UResStrings.pas:63
+msgid "В карте %0:s ошибка: %1:s"
+msgstr ""
+
+#. frTilesGenPrev..pnlBottom..pnlRight..lblZooms..Caption
+#: RegionProcess/fr_TilesGenPrev.dfm:49
+msgid "В слои масштаба:"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_MapGUIDDuplicate
+#: UResStrings.pas:64
+msgid "В файлах %0:s и %1:s одинаковые GUID"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_InputLacitp
 #: UResStrings.pas:141
-msgid "км2"
+msgid "Введите через запятую mnc, mcc, LAC, CellID (Например: "
+"02,250,17023,13023)"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet9..pnlMapsRightButtons..Button12..Caption
+#: Usettings.dfm:104
+msgid "Вверх"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_InputLacitpCaption
+#: UResStrings.pas:142
+msgid "Ввод параметров"
+msgstr ""
+
+#. Fabout..Label1..Caption
+#: UAbout.dfm:28
+msgid "Версия:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label13..Caption
+#: Usettings.dfm:1713
+msgid "Видимые"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet5..pnlGpsRight..GroupBox3..Label18..Caption
+#: Usettings.dfm:1720
+msgid "Видимые с 0-м сигналом"
+msgstr ""
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
+#: RegionProcess/fr_ExportIPhone.dfm:390
+#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
+#: RegionProcess/fr_ExportYaMaps.dfm:313
+msgid "Включить следующие типы карт:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet4..Caption
+#: Usettings.dfm:803
+msgid "Внешний вид"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet9..pnlMapsRightButtons..Button11..Caption
+#: Usettings.dfm:93
+msgid "Вниз"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_coution
+#: UResStrings.pas:8
+msgid "Внимание!"
+msgstr ""
+
+#. Fmain..TBDock..TBMainToolBar..TBFullSize..Hint
+#: Unit1.dfm:168
+#. Fmain..TBDock..TBXMainMenu..NView..NFoolSize..Caption
+#: Unit1.dfm:782
+msgid "Во весь экран"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet3..GroupBox1..ScrolInvert..Caption
@@ -1472,612 +790,449 @@ msgstr ""
 msgid "вращение на себя - приближение"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NParams..TBLang..Caption
-#: Unit1.dfm:1017
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlLang..Label8..Caption
-#: Usettings.dfm:1268
-msgid "Язык"
+#. Programmer's name for it: SAS_STR_time
+#: UResStrings.pas:79
+msgid "Время"
 msgstr ""
 
-#. frMapCombine..pnlRight..grpSplit..lblSplitVert..Caption
-#: RegionProcess/fr_MapCombine.dfm:154
-msgid "по вертикали, на"
+#. Programmer's name for it: SAS_STR_Marshtime
+#: UResStrings.pas:77
+msgid "Время в пути: "
 msgstr ""
 
-#. frMapCombine..pnlRight..grpSplit..lblSplitHor..Caption
-#: RegionProcess/fr_MapCombine.dfm:146
-msgid "по горизотали, на"
+#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
+#: Usettings.dfm:1538
+msgid "Время ожидания ответа от приемника (сек.)"
 msgstr ""
 
-#. frmGoTo..RB4..Caption
-#: frm_GoTo.dfm:110
-#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem1..EditCaption
-#: Unit1.dfm:144
-#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem1..Caption
-#: Unit1.dfm:146
-#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem1..EditCaption
-#: Unit1.dfm:148
-#. Fmain..TBDock..TBXToolBarSearch..TBXSelectSrchType..TBXSelectYandexSrch..Caption
-#: Unit1.dfm:1099
-msgid "Яндекс"
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..CheckBox1..Caption
+#: UMarksExplorer.dfm:181
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..CheckBox2..Caption
+#: UMarksExplorer.dfm:524
+#. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
+#: RegionProcess/fr_ExportGEKml.dfm:50
+#. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
+#: RegionProcess/fr_ExportIPhone.dfm:451
+#. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
+#: RegionProcess/fr_ExportToFileCont.dfm:51
+#. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
+#: RegionProcess/fr_TilesCopy.dfm:50
+#. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
+#: RegionProcess/fr_TilesCopy.dfm:139
+#. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
+#: RegionProcess/fr_TilesGenPrev.dfm:69
+msgid "Все"
 msgstr ""
 
-#. Fabout..Label9..Caption
-#: UAbout.dfm:125
-msgid "Яндекс.Деньги:"
+#. FEditMap..pnlBottomButtons..Button3..Caption
+#: UEditMap.dfm:31
+msgid "Все по умолчанию"
 msgstr ""
 
-#. Fmain..SaveLink..Filter
-#: Unit1.dfm:5253
-msgid "Ярлык|*.lnk"
+#. Fmain..OpenSessionDialog....Filter
+#: Unit1.dfm:7362
+msgid "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track "
+"Point File Version 2.1 (*.plt)|*.plt|Google KMZ files "
+"(*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения "
+"(*.hlg)|*.hlg"
 msgstr ""
 
-#. Programmer's name for it: SAS_UNITS_m
-#: UResStrings.pas:139
-msgid "м"
+#. Programmer's name for it: SAS_STR_Whole
+#: UResStrings.pas:138
+msgid "Всего"
 msgstr ""
 
-#. Programmer's name for it: SAS_UNITS_m2
-#: UResStrings.pas:140
-msgid "м2"
+#. Programmer's name for it: SAS_STR_AllLoad
+#: UResStrings.pas:97
+msgid "Всего загружено:"
 msgstr ""
 
-#: RegionProcess/u_ProviderTilesDelete.pas:46
-msgid "Удаление"
+#. Programmer's name for it: SAS_STR_AllProcessed
+#: UResStrings.pas:96
+msgid "Всего обработано:"
 msgstr ""
 
-#. FMarksExplorer..GroupBox1..BtnDelMark..Hint
-#: UMarksExplorer.dfm:136
-#. FMarksExplorer..GroupBox2..BtnDelKat..Hint
-#: UMarksExplorer.dfm:355
-#. Fmain..PopupMenu1..NMarkDel..Caption
-#: Unit1.dfm:2740
-#. Fsaveas..PageControl1..TabSheet4..Caption
-#: USaveas.dfm:51
-msgid "Удалить"
+#. Programmer's name for it: SAS_STR_AllSaves
+#: UResStrings.pas:102
+msgid "Всего сохранить:"
 msgstr ""
 
-#. Fmain..PopupMenu1..NDel..Caption
-#: Unit1.dfm:2996
-msgid "Удалить тайл основной карты (Del+MLeft)"
+#. Programmer's name for it: SAS_STR_AllDelete
+#: UResStrings.pas:101
+msgid "Всего удалено:"
 msgstr ""
 
-#. Fmain..PopupMenu1..dlm..Caption
-#: Unit1.dfm:3005
-msgid "Удалить тайл слоя"
+#. Programmer's name for it: SAS_MSG_youasurerefrsensor
+#: UResStrings.pas:10
+msgid "Вы действительно хотите обнулить датчик"
 msgstr ""
 
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
-#: Unit1.dfm:1929
-msgid "Удалить точку"
+#. FImport..GroupBox1..ComboBox1..Hint
+#: UImport.dfm:151
+msgid "Выберите графическое изображение"
 msgstr ""
 
-#. Fmain..TBDock..GPSToolbar..TBGPSPath..TBItemDelTrack..Caption
-#: Unit1.dfm:269
-#. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackClear..Caption
-#: Unit1.dfm:977
-msgid "Удалить трек"
+#. Fmain..TBDock..SrcToolbar..TBSrc..Hint
+#: Unit1.dfm:186
+msgid "Выберите источник из которого программа будет брать "
+"карты"
 msgstr ""
 
-#. frTilesDelete..pnlTop..Caption
-#: RegionProcess/fr_TilesDelete.dfm:19
-msgid "Удалить файлы карты"
+#. Fmain..TBDock..SrcToolbar..TBLayerSel..Hint
+#: Unit1.dfm:199
+msgid "Выбор слоев отображаемых поверх основной "
+"карты"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_Deleted
-#: UResStrings.pas:95
-msgid "Удаляет:"
+#. FDGAvailablePic..GroupBox4..Caption
+#: UFDGAvailablePic.dfm:165
+msgid "Выбор стека снимков"
 msgstr ""
 
-#. frTilesDelete..pnlBottom..pnlCenter..flwpnlDelBySize..lblDelSize..Caption
-#: RegionProcess/fr_TilesDelete.dfm:138
-msgid "Удалять только тайлы, размер которых, "
-"байт"
+#. Fmain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..TBfillMapAsMain..Caption
+#: Unit1.dfm:609
+msgid "Выбранной основной карты"
 msgstr ""
 
-#. Programmer's name for it: SAS_UNITS_Min
-#: UResStrings.pas:143
-msgid "мин."
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbHybr..Hint
+#: RegionProcess/fr_ExportIPhone.dfm:252
+msgid "Выбрать гибрид в качестве основного "
+"слоя"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NOperations..NZoomIn..Caption
-#: Unit1.dfm:349
-#. Fmain..TBDockLeft..ZoomToolBar..TBZoomIn..Hint
-#: Unit1.dfm:1149
-msgid "Увеличить"
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbMap..Hint
+#: RegionProcess/fr_ExportIPhone.dfm:261
+msgid "Выбрать карту в уачестве основного слоя"
 msgstr ""
 
-#: RegionProcess/u_ExportProviderZip.pas:46
-msgid "Упаковка в Zip"
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbSat..Hint
+#: RegionProcess/fr_ExportIPhone.dfm:272
+msgid "Выбрать спутник в уачестве основного "
+"слоя"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet3..Caption
-#: Usettings.dfm:771
-msgid "Управление"
+#. Fmain..TBDock..SrcToolbar..TBSMB..Hint
+#: Unit1.dfm:193
+msgid "Выбрать тип карты"
 msgstr ""
 
-#. FMarksExplorer..Caption
-#: UMarksExplorer.dfm:5
-#. Fmain..TBDock..TBXMainMenu..NMarks..TBItem6..Caption
-#: Unit1.dfm:920
-#. Fmain..TBDock..TBXMainMenu..NMarks..TBItem6..Hint
-#: Unit1.dfm:921
-msgid "Управление метками"
+#. FSelLonLat..Caption
+#: USelLonLat.dfm:5
+msgid "Выделение по координатам"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NOperations..NZoomOut..Caption
-#: Unit1.dfm:357
-#. Fmain..TBDockLeft..ZoomToolBar..TBZoom_out..Hint
-#: Unit1.dfm:1175
-msgid "Уменьшить"
+#. Programmer's name for it: SAS_ERR_SelectArea
+#: UResStrings.pas:37
+msgid "Выделенная область находится целиком вне "
+"карты!"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSignalStrengthBar..Caption
-#: Unit1.dfm:567
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
-#: Unit1.dfm:2641
-msgid "Уровни сигнала"
+#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
+#: Unit1.dfm:385
+msgid "Выделить"
 msgstr ""
 
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..TBXLabel5..Caption
-#: Unit1.dfm:2650
-msgid "Уровни сигнала:"
+#. Fmain..TBDock..TBExit..TBXExit..Hint
+#: Unit1.dfm:313
+msgid "Выйти из программы"
 msgstr ""
 
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem2..Caption
-#: Unit1.dfm:2001
-msgid "На автомобиле (по длине)"
+#. Programmer's name for it: SAS_ERR_Ban
+#: UResStrings.pas:52
+msgid "Высока вероятность того, что вас забанили!"
 msgstr ""
 
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem1..Caption
-#: Unit1.dfm:1995
-msgid "На автомобиле (по скорости)"
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorAltitudeBar..Caption
+#: Unit1.dfm:553
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..Caption
+#: Unit1.dfm:2340
+msgid "Высота"
 msgstr ""
 
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem3..Caption
-#: Unit1.dfm:2013
-msgid "На велосипеде (по длине)"
+#. Fmain..PopupMenu1..N26..NGTOPO30..Caption
+#: Unit1.dfm:2962
+msgid "Высота над уровнем моря GTOPO30 (разрешение "
+"~1км)"
 msgstr ""
 
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem4..Caption
-#: Unit1.dfm:2007
-msgid "На велосипеде (по скорости)"
+#. Fmain..PopupMenu1..N26..NSRTM3..Caption
+#: Unit1.dfm:2966
+msgid "Высота над уровнем моря SRTM3 (разрешение "
+"~90м)"
 msgstr ""
 
-#. frMapCombine..Panel1..Panel2..lblHybr..Caption
-#: RegionProcess/fr_MapCombine.dfm:226
-msgid "Наложить:"
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAltitudeBar..TBXLabel2..Caption
+#: Unit1.dfm:2396
+msgid "Высота, м:"
 msgstr ""
 
-#. FShortcutChange..GroupBox1..Caption
-#: UShortcutEditor.dfm:29
-msgid "Назначить сочетание"
+#. Fmain..TBDock..TBXMainMenu..NOperations..N6..Caption
+#: Unit1.dfm:432
+#. FProgress..Panel1..Button2..Caption
+#: UProgress.dfm:176
+msgid "Выход"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox3..pnlRight..Button1..Caption
+#: UFDGAvailablePic.dfm:127
+msgid "Выше"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_gb
+#: UResStrings.pas:164
+msgid "Гб"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_OperationGenPrevCaption
+#: UResStrings.pas:150
+msgid "Генерация верхних уровней"
+msgstr ""
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
+#: RegionProcess/fr_ExportIPhone.dfm:349
+#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
+#: RegionProcess/fr_ExportYaMaps.dfm:272
+msgid "Гибрид"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NMainToolBarShow..Caption
+#: Unit1.dfm:447
+msgid "Главная"
+msgstr ""
+
+#. Fmain..TBDock..TBMainToolBar..Caption
+#: Unit1.dfm:91
+msgid "Главная панель"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..Caption
+#: Unit1.dfm:323
+msgid "Главное меню"
+msgstr ""
+
+#. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
+#: fr_ShortCutList.dfm:48
+#. FSettings..PageControl1..TabSheet9..MapList......Caption
+#: Usettings.dfm:51
+msgid "Гор. кл."
+msgstr ""
+
+#. FEditMap..grdpnlSleepAndKey..grdpnlHotKey..Label4..Caption
+#: UEditMap.dfm:365
+msgid "Горячая кл."
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_HotKeyExists
+#: UResStrings.pas:27
+msgid "Горячая клавиша уже используется, пожалуйста, выберите "
+"другую"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet3..GroupBox5..Caption
+#: Usettings.dfm:798
+msgid "Горячие кл."
+msgstr ""
+
+#. Fabout..Label2..Caption
+#: UAbout.dfm:100
+msgid "Группа SAS"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_FileBeCreateLen
+#: UResStrings.pas:18
+msgid "Данный файл равен по размеру существующему, пропускаем "
+"загрузку."
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_FileBeCreateTime
+#: UResStrings.pas:17
+msgid "Данный файл создан позже указаного срока, пропускаем "
+"загрузку."
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_FileExistsShort
+#: UResStrings.pas:56
+msgid "Данный файл уже имеется в кеше"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox1..LabelDate..Caption
+#: UFDGAvailablePic.dfm:31
+msgid "Дата съемки"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox1..Label2..Caption
+#: UFDGAvailablePic.dfm:60
+msgid "Дата съемки:"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensorsBar..Caption
+#: Unit1.dfm:487
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..Caption
+#: Unit1.dfm:491
+#. Fmain..TBDockRight..TBXSensorsBar..Caption
+#: Unit1.dfm:2036
+msgid "Датчики"
+msgstr ""
+
+#. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsLen..Caption
+#: Unit1.dfm:2754
+#. Programmer's name for it: SAS_STR_L
+#: UResStrings.pas:136
+msgid "Длина"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_MarshLen
+#: UResStrings.pas:76
+msgid "Длина маршрута: "
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_LenPath
+#: UResStrings.pas:83
+msgid "Длина пути"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_for
+#: UResStrings.pas:87
+msgid "Для"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_MapDownloadByError
+#: UResStrings.pas:72
+msgid "Для карты %0:s отключена загрузка тайлов из-за ошибки: "
+"%1:s"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_UseADifferentFormat
+#: UResStrings.pas:58
+msgid "Для склейки больших размеров используйте другой формат "
+"(ecw,bmp,jp2)"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_need_reload_application_curln
+#: UResStrings.pas:7
+msgid "Для того чтобы изменения вступили в силу\n"
+"необходимо перезапустить программу."
+msgstr ""
+
+#. FAddCategory..flwpnlZooms..Label4..Caption
+#: UAddCategory.dfm:116
+msgid "до"
+msgstr ""
+
+#. FAddCategory..pnlBottomButtons..Badd..Caption
+#: UAddCategory.dfm:76
+#. FaddLine..pnlBottomButtons..Badd..Caption
+#: UaddLine.dfm:200
+#. FaddPoint..pnlBottomButtons..Badd..Caption
+#: UaddPoint.dfm:71
+#. FAddPoly..pnlBottomButtons..Badd..Caption
+#: UaddPoly.dfm:46
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..pnlCategoriesTop..BtnAddCategory..Hint
+#: UMarksExplorer.dfm:565
+#. Programmer's name for it: SAS_STR_Add
+#: UResStrings.pas:121
+msgid "Добавить"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Caption
+#: Unit1.dfm:892
+msgid "Добавить метку"
+msgstr ""
+
+#. FAddCategory..Caption
+#: UAddCategory.dfm:5
+#. Programmer's name for it: SAS_STR_AddNewCategory
+#: UResStrings.pas:116
+msgid "Добавить новую категорию"
+msgstr ""
+
+#. FaddPoint..Caption
+#: UaddPoint.dfm:5
+#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Hint
+#: Unit1.dfm:893
+#. Programmer's name for it: SAS_STR_AddNewMark
+#: UResStrings.pas:114
+msgid "Добавить новую метку"
+msgstr ""
+
+#. FAddPoly..Caption
+#: UaddPoly.dfm:5
+#. Programmer's name for it: SAS_STR_AddNewPoly
+#: UResStrings.pas:115
+msgid "Добавить новый полигон"
+msgstr ""
+
+#. FaddLine..Caption
+#: UaddLine.dfm:5
+#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Hint
+#: Unit1.dfm:901
+#. Programmer's name for it: SAS_STR_AddNewPath
+#: UResStrings.pas:113
+msgid "Добавить новый путь"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Caption
+#: Unit1.dfm:908
+#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Hint
+#: Unit1.dfm:909
+msgid "Добавить полигон"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Caption
+#: Unit1.dfm:900
+msgid "Добавить путь"
+msgstr ""
+
+#. FEditMap..pnlSeparator..CheckBox1..Caption
+#: UEditMap.dfm:79
+msgid "Добавлять в меню разделитель после названия этой "
+"карты"
+msgstr ""
+
+#. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
+#: RegionProcess/fr_ExportIPhone.dfm:74
+msgid "Добавлять тайлы в существующую базу"
 msgstr ""
 
 #. frmSearchResults..lvResults......Caption
-#: frm_SearchResults.dfm:24
-#. FAddCategory..pnlName..Label1..Caption
-#: UAddCategory.dfm:142
-msgid "Название"
+#: frm_SearchResults.dfm:33
+msgid "Долгота"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet9..MapList......Caption
-#: Usettings.dfm:39
-msgid "Название карты"
+#. Programmer's name for it: SAS_ERR_LonLat1
+#: UResStrings.pas:46
+msgid "Долгота в левом верхнем углу должна быть меньше \n"
+"долготы в правом нижнем!"
 msgstr ""
 
-#. FEditMap..pnlCacheName..Label2..Caption
-#: UEditMap.dfm:200
-msgid "Название в кэше"
+#. frLonLat..grdpnlMain..lblLon..Caption
+#: fr_LonLat.dfm:165
+msgid "Долгота:"
 msgstr ""
 
-#. frMapCombine..pnlCenter..chkUseMapMarks..Caption
-#: RegionProcess/fr_MapCombine.dfm:329
-msgid "Накладывать отображаемые метки"
+#. Fmain..PopupMenu1..N26..Caption
+#: Unit1.dfm:2960
+msgid "Дополнительные операции"
 msgstr ""
 
-#. FMarksExplorer..GroupBox1..SBNavOnMark..Hint
-#: UMarksExplorer.dfm:258
-msgid "Навигация на выбранную метку"
+#. Fmain..TBDock..TBXMainMenu..NHelp..TBXItem9..Caption
+#: Unit1.dfm:1076
+msgid "Дополнительный набор подключаемых карт"
 msgstr ""
 
-#. Fmain..PopupMenu1..NMarkNav..Caption
-#: Unit1.dfm:2748
-msgid "Навигация на метку"
+#. FDGAvailablePic..GroupBox3..Caption
+#: UFDGAvailablePic.dfm:94
+msgid "Доступные снимки"
 msgstr ""
 
-#. FImport..Button1..Caption
-#: UImport.dfm:353
-#. Fsaveas..pnlBottomButtons..Button1..Caption
-#: USaveas.dfm:171
-msgid "Начать"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..CBLastSuccess....Caption
-#: Usettings.dfm:643
-msgid "Начать сохраненную сессию загрузки с последнего удачно загруженного "
-"тайла"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..GroupBox4..Caption
-#: Usettings.dfm:652
-msgid "Настройки подключения"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NParams..N8..Caption
-#: Unit1.dfm:1013
-#. FSettings..Caption
-#: Usettings.dfm:5
-msgid "Настройки программы"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_NoGPSdetected
-#: UResStrings.pas:21
-msgid "Не найден GPS приемник"
-msgstr ""
-
-#. FMarksExplorer..RBnot..Caption
-#: UMarksExplorer.dfm:587
-msgid "Не показывать метки"
-msgstr ""
-
-#. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
-#: RegionProcess/fr_ExportGEKml.dfm:96
-msgid "Не сохранять пути к несуществующим тайлам"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_Nopoints
-#: UResStrings.pas:28
-msgid "Необходимый набор точек отсутствует!"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_ProxyStrFormat
-#: UResStrings.pas:29
-msgid "Неверный формат записи прокси-сервера"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_UnablePposition
-#: UResStrings.pas:40
-msgid "Невозможно определить позицию"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_Memory
-#: UResStrings.pas:54
-msgid "Невозможно выделить память для данной "
-"операции"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NShowGran..N000..Caption
-#: Unit1.dfm:637
-#. Fmain..TBDock..TBXMainMenu..NView..N40..NGShScale0..Caption
-#: Unit1.dfm:705
-#. FShortcutChange..SpeedButton1..Caption
-#: UShortcutEditor.dfm:20
-#. frMapCombine..Panel1..Panel2..cbbHybr..Text
-#: RegionProcess/fr_MapCombine.dfm:267
-#. frMapCombine..Panel1..Panel2..cbbHybr....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:269
-#. Programmer's name for it: SAS_STR_No
-#: UResStrings.pas:94
-msgid "Нет"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox3..pnlRight..Button2..Caption
-#: UFDGAvailablePic.dfm:137
-msgid "Ниже"
-msgstr ""
-
-#. FaddLine..pnlCategory..CBKateg..Text
-#: UaddLine.dfm:56
-#. FaddPoint..pnlTop..pnlTopMain..pnlCategory..CBKateg..Text
-#: UaddPoint.dfm:449
-#. FAddPoly..pnlCategory..CBKateg..Text
-#: UaddPoly.dfm:279
-#. Programmer's name for it: SAS_STR_NewCategory
-#: UResStrings.pas:101
-msgid "Новая категория"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_NewMark
-#: UResStrings.pas:99
-msgid "Новая метка"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_NewPoly
-#: UResStrings.pas:100
-msgid "Новый полигон"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_NewPath
-#: UResStrings.pas:98
-msgid "Новый путь"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..Ninvertcolor..Caption
-#: Unit1.dfm:823
-msgid "Ночной режим (Инверсия цветов)"
-msgstr ""
-
-#. Programmer's name for it: SAS_UNITS_kb
-#: UResStrings.pas:132
-msgid "Кб"
-msgstr ""
-
-#. FMarksExplorer..GroupBox2..Caption
-#: UMarksExplorer.dfm:348
-msgid "Категории меток"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_NotDelWhereHasChildren
-#: UResStrings.pas:26
-msgid "Категория не пуста! Удалите все дочерние "
-"категории."
-msgstr ""
-
-#. FaddLine..pnlCategory..Label7..Caption
-#: UaddLine.dfm:43
-#. FaddPoint..pnlTop..pnlTopMain..pnlCategory..Label8..Caption
-#: UaddPoint.dfm:436
-#. FAddPoly..pnlCategory..Label7..Caption
-#: UaddPoly.dfm:267
-#. FImport..Label8..Caption
-#: UImport.dfm:21
-msgid "Категория:"
-msgstr ""
-
-#. frMapCombine..pnlCenter..flwpnlJpegQuality..lblJpgQulity..Caption
-#: RegionProcess/fr_MapCombine.dfm:361
-msgid "Качество (для JPEG и ECW):"
-msgstr ""
-
-#. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
-#: RegionProcess/fr_ExportAUX.dfm:35
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
-#: RegionProcess/fr_ExportGEKml.dfm:85
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:371
-#. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
-#: RegionProcess/fr_ExportToFileCont.dfm:86
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
-#: RegionProcess/fr_ExportYaMaps.dfm:285
-msgid "Карта"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NFillMap..Caption
-#: Unit1.dfm:601
-msgid "Карта заполнения"
-msgstr ""
-
-#. Fmain..TBDock..TBMainToolBar..TBMapZap..Hint
-#: Unit1.dfm:127
-msgid "Карта заполнения слоя"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlFillMap..Label24..Caption
-#: Usettings.dfm:1304
-msgid "Карта заполнения:"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N31..ShowMiniMap..Caption
-#: Unit1.dfm:586
-msgid "Карта обзора"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_NotLoads
-#: UResStrings.pas:47
-msgid "Карта не позволяет загружать"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet9..Caption
-#: Usettings.dfm:29
-#. Programmer's name for it: SAS_STR_Maps
-#: UResStrings.pas:128
-msgid "Карты"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet3..GroupBox1..Caption
-#: Usettings.dfm:779
-msgid "Колесико мыши"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_GarminMax1Mp
-#: UResStrings.pas:25
-msgid "Количество полученных jpeg-файлов превысит 100 штук, если ваш\n"
-"навигатор не отображает карту разбейте сохраняемое изображение на "
-"части в \n"
-"диалоге \"Операции с выделенной областью\\склеить\"\n"
-"и используйте полученные kmz по отдельности"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet2..flwpnlMemCache..Label30..Caption
-#: Usettings.dfm:140
-msgid "Количество тайлов кэшируемое в оперативную "
-"память"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_filesnum
-#: UResStrings.pas:74
-msgid "Количество файлов"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..flwpnlTileBorder..Label69..Caption
-#: Usettings.dfm:1212
-msgid "Кол-во тайлов отображаемых за границей "
-"экрана"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_code
-#: UResStrings.pas:32
-msgid "Код ошибки:"
-msgstr ""
-
-#. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
-#: RegionProcess/fr_TilesCopy.dfm:89
-msgid "Конвертировать в формат"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_Contrast
-#: UResStrings.pas:97
-msgid "Контраст"
-msgstr ""
-
-#. frmGoTo..RB1..Caption
-#: frm_GoTo.dfm:102
-#. Fmain..PopupMenu1..N43..N30..Caption
-#: Unit1.dfm:2934
-#. Programmer's name for it: SAS_STR_coordinates
-#: UResStrings.pas:67
-msgid "Координаты"
-msgstr ""
-
-#: RegionProcess/u_ProviderTilesCopy.pas:46
-msgid "Копирование тайлов"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox3..pnlRight..Button3..Caption
-#: UFDGAvailablePic.dfm:149
-msgid "Копировать"
-msgstr ""
-
-#. Fmain..PopupMenu1..N43..Caption
-#: Unit1.dfm:2904
-msgid "Копировать в буфер обмена"
-msgstr ""
-
-#. FDGAvailablePic..GroupBox3..pnlRight..Button3..Hint
-#: UFDGAvailablePic.dfm:147
-msgid "Копировать выбранные tid для вставки в "
-"URL"
-msgstr ""
-
-#. frExportAUX..pnlTop..lblTargetFile..Caption
-#: RegionProcess/fr_ExportAUX.dfm:107
-#. frExportGEKml..pnlTop..lblTargetFile..Caption
-#: RegionProcess/fr_ExportGEKml.dfm:149
-#. frExportIPhone..pnlTop..lblTargetPath..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:27
-#. frExportToFileCont..pnlTop..lblTargetFile..Caption
-#: RegionProcess/fr_ExportToFileCont.dfm:154
-#. frExportYaMaps..pnlTop..lblTargetPath..Caption
-#: RegionProcess/fr_ExportYaMaps.dfm:342
-#. frMapCombine..pnlTargetFile..lblTargetFile..Caption
-#: RegionProcess/fr_MapCombine.dfm:46
-#. frTilesCopy..pnlTop..lblTargetPath..Caption
-#: RegionProcess/fr_TilesCopy.dfm:185
-msgid "Куда сохранять:"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
-#: Unit1.dfm:845
-#. FSettings..PageControl1..TabSheet2..Caption
-#: Usettings.dfm:122
-msgid "Кэш"
-msgstr ""
-
-#. Programmer's name for it: SAS_UNITS_mb
-#: UResStrings.pas:133
-msgid "Мб"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorSpeedMaxBar..Caption
-#: Unit1.dfm:511
-msgid "Максимальная скорость"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
-#: Usettings.dfm:1622
-msgid "Максимальное количество отображаемых точек "
-"трека:"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_Scale
-#: UResStrings.pas:70
-msgid "Масштаб"
-msgstr ""
-
-#. Fmain..TBDockLeft..ZoomToolBar..labZoom..Hint
-#: Unit1.dfm:1193
-msgid "Масштаб карты на котором вы находитесь"
-msgstr ""
-
-#. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
-#: RegionProcess/fr_ExportAUX.dfm:72
-#. frMapCombine..Panel1..Panel3..lblZoom..Caption
-#: RegionProcess/fr_MapCombine.dfm:295
-#. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
-#: RegionProcess/fr_TilesDelete.dfm:53
-#. frTilesDownload..pnlBottom..pnlRight..lblZoom..Caption
-#: RegionProcess/fr_TilesDownload.dfm:52
-msgid "Масштаб:"
-msgstr ""
-
-#. frmGoTo..pnlBottomButtons..Label9..Caption
-#: frm_GoTo.dfm:132
-msgid "Масштаб: x"
-msgstr ""
-
-#. FAddCategory..Label2..Caption
-#: UAddCategory.dfm:21
-msgid "Масштабы видимости:"
-msgstr ""
-
-#. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
-#: RegionProcess/fr_ExportGEKml.dfm:35
-#. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:439
-#. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
-#: RegionProcess/fr_ExportToFileCont.dfm:36
-#. frExportYaMaps..pnlCenter..pnlRight..lblZooms..Caption
-#: RegionProcess/fr_ExportYaMaps.dfm:35
-#. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
-#: RegionProcess/fr_TilesCopy.dfm:39
-msgid "Масштабы:"
-msgstr ""
-
-#. FMarksExplorer..GroupBox1..Caption
-#: UMarksExplorer.dfm:28
-#. Fmain..TBDock..TBMarksToolbar..Caption
-#: Unit1.dfm:212
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NMarksBarShow..Caption
-#: Unit1.dfm:475
-#. Fmain..TBDock..TBXMainMenu..NMarks..Caption
-#: Unit1.dfm:883
-msgid "Метки"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_foundplace
-#: UResStrings.pas:80
-msgid "Место найденное по запросу"
-msgstr ""
-
-#: RegionProcess/u_ExportProviderYaMaps.pas:44
-msgid "Мобильные Яндекс.Карты (версия 3)"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N31..Caption
-#: Unit1.dfm:573
-msgid "Элементы интерфейса"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlLockToolbars..CBlock_toolbars..Caption
-#: Usettings.dfm:1372
-msgid "Закрепить панели инструментов"
-msgstr ""
-
-#. Fabout..Button1..Caption
-#: UAbout.dfm:148
-#. FMarksExplorer..Button2..Caption
-#: UMarksExplorer.dfm:562
-msgid "Закрыть"
-msgstr ""
-
-#. Fsaveas..pnlBottomButtons..CBCloseWithStart..Caption
-#: USaveas.dfm:195
-msgid "Закрыть окно после старта"
+#. Programmer's name for it: SAS_STR_Wite
+#: UResStrings.pas:134
+msgid "Ждем"
 msgstr ""
 
 #. Fsaveas..PageControl1..TabSheet1..Caption
-#: USaveas.dfm:29
+#: USaveas.dfm:30
 msgid "Загрузить"
 msgstr ""
 
@@ -2087,7 +1242,7 @@ msgid "Загрузить из файла"
 msgstr ""
 
 #. frTilesDownload..pnlTop..Caption
-#: RegionProcess/fr_TilesDownload.dfm:19
+#: RegionProcess/fr_TilesDownload.dfm:21
 msgid "Загрузить изображения из интернета"
 msgstr ""
 
@@ -2108,8 +1263,13 @@ msgid "Загрузить тайл слоя"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_LoadProcess
-#: UResStrings.pas:120
+#: UResStrings.pas:131
 msgid "Загрузка"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_loadhl
+#: UResStrings.pas:89
+msgid "Загрузка выделения..."
 msgstr ""
 
 #. Programmer's name for it: SAS_MSG_LoadComplete
@@ -2117,30 +1277,35 @@ msgstr ""
 msgid "Загрузка завершена"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_loadhl
-#: UResStrings.pas:78
-msgid "Загрузка выделения..."
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_LoadProcessRepl
-#: UResStrings.pas:121
+#: UResStrings.pas:132
 msgid "Загрузка с заменой"
 msgstr ""
 
-#. FAddPoly..pnlFill..Label10..Caption
-#: UaddPoly.dfm:81
-#. FImport..GroupBox3..Label16..Caption
-#: UImport.dfm:296
-msgid "Заполнение:"
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlLockToolbars..CBlock_toolbars..Caption
+#: Usettings.dfm:1372
+msgid "Закрепить панели инструментов"
+msgstr ""
+
+#. Fabout..Button1..Caption
+#: UAbout.dfm:148
+#. FMarksExplorer..pnlMainWithButtons..pnlButtons..Button2..Caption
+#: UMarksExplorer.dfm:109
+msgid "Закрыть"
+msgstr ""
+
+#. Fsaveas..pnlBottomButtons..CBCloseWithStart..Caption
+#: USaveas.dfm:196
+msgid "Закрыть окно после старта"
 msgstr ""
 
 #. frTilesCopy..pnlCenter..pnlMain..chkReplaseTarget..Caption
-#: RegionProcess/fr_TilesCopy.dfm:133
+#: RegionProcess/fr_TilesCopy.dfm:126
 msgid "Заменять при совпадении"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
-#: RegionProcess/fr_TilesDownload.dfm:134
+#: RegionProcess/fr_TilesDownload.dfm:127
 msgid "Заменять старые файлы"
 msgstr ""
 
@@ -2149,21 +1314,53 @@ msgstr ""
 msgid "Заменять существующие тайлы"
 msgstr ""
 
+#. FAddPoly..pnlFill..Label10..Caption
+#: UaddPoly.dfm:82
+#. FImport..GroupBox3..Label16..Caption
+#: UImport.dfm:297
+msgid "Заполнение:"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_BattaryStateCharge
+#: UResStrings.pas:156
+msgid "Заряжается"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
+#: Usettings.dfm:734
+msgid "и пароль:"
+msgstr ""
+
+#. FImport..CBMarkIgnor..Caption
+#: UImport.dfm:372
+msgid "Игнорировать метки"
+msgstr ""
+
+#. FImport..CBPolyIgnor..Caption
+#: UImport.dfm:388
+msgid "Игнорировать полигоны"
+msgstr ""
+
+#. FImport..CBPathIgnor..Caption
+#: UImport.dfm:380
+msgid "Игнорировать пути"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_Process
+#: UResStrings.pas:92
+msgid "Идет обработка..."
+msgstr ""
+
 #. frTilesGenPrev..pnlBottom..pnlRight..lblFromZoom..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:38
+#: RegionProcess/fr_TilesGenPrev.dfm:37
 msgid "Из слоя масштаба:"
 msgstr ""
 
 #. Fmain..PopupMenu1..NMarkEdit..Caption
 #: Unit1.dfm:2736
 #. Programmer's name for it: SAS_STR_Edit
-#: UResStrings.pas:111
+#: UResStrings.pas:122
 msgid "Изменить"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_EditCategory
-#: UResStrings.pas:109
-msgid "Изменить категорию"
 msgstr ""
 
 #. FShortcutChange..Caption
@@ -2171,14 +1368,9 @@ msgstr ""
 msgid "Изменить гор. кл."
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_EditPoly
-#: UResStrings.pas:108
-msgid "Изменить полигон"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_EditPath
-#: UResStrings.pas:106
-msgid "Изменить путь"
+#. Programmer's name for it: SAS_STR_EditCategory
+#: UResStrings.pas:120
+msgid "Изменить категорию"
 msgstr ""
 
 #. Fmain..TBDockLeft..ZoomToolBar..RxSlider1..Hint
@@ -2187,12 +1379,22 @@ msgid "Изменить масштаб карты"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_EditMark
-#: UResStrings.pas:107
+#: UResStrings.pas:118
 msgid "Изменить метку"
 msgstr ""
 
+#. Programmer's name for it: SAS_STR_EditPoly
+#: UResStrings.pas:119
+msgid "Изменить полигон"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_EditPath
+#: UResStrings.pas:117
+msgid "Изменить путь"
+msgstr ""
+
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:203
+#: RegionProcess/fr_TilesGenPrev.dfm:194
 msgid "Изменять существующие файлы"
 msgstr ""
 
@@ -2208,36 +1410,23 @@ msgstr ""
 msgid "Измерить расстояние"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_Wite
-#: UResStrings.pas:123
-msgid "Ждем"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_Process
-#: UResStrings.pas:81
-msgid "Идет обработка..."
-msgstr ""
-
 #. FImport..GroupBox1..Label17..Caption
-#: UImport.dfm:94
+#: UImport.dfm:95
 msgid "Иконка"
 msgstr ""
 
-#. Fsaveas..PageControl1..TabSheet5..Caption
-#: USaveas.dfm:60
-msgid "Экспорт"
+#. FMarksExplorer..pnlMainWithButtons..pnlButtons..Button1..Caption
+#: UMarksExplorer.dfm:97
+msgid "Импорт"
 msgstr ""
 
-#. Fsaveas..PageControl1..TabSheet5..Label9..Caption
-#: USaveas.dfm:80
-#. frExportToFileCont..pnlCenter..pnlMain..lblNamesType..Caption
-#: RegionProcess/fr_ExportToFileCont.dfm:98
-msgid "Экспорт выделенного участка в формат"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_ExportTiles
-#: UResStrings.pas:116
-msgid "Экспорт тайлов"
+#. FaddLine..pnlName..Label1..Caption
+#: UaddLine.dfm:75
+#. FaddPoint..pnlTop..pnlTopMain..pnlName..Label1..Caption
+#: UaddPoint.dfm:463
+#. FAddPoly..pnlName..Label1..Caption
+#: UaddPoly.dfm:298
+msgid "Имя:"
 msgstr ""
 
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlImageProcess..CBinvertcolor..Caption
@@ -2272,37 +1461,8 @@ msgstr ""
 msgid "Информация о карте"
 msgstr ""
 
-#. FImport..CBPolyIgnor..Caption
-#: UImport.dfm:387
-msgid "Игнорировать полигоны"
-msgstr ""
-
-#. FImport..CBPathIgnor..Caption
-#: UImport.dfm:379
-msgid "Игнорировать пути"
-msgstr ""
-
-#. FImport..CBMarkIgnor..Caption
-#: UImport.dfm:371
-msgid "Игнорировать метки"
-msgstr ""
-
-#. FMarksExplorer..Button1..Caption
-#: UMarksExplorer.dfm:552
-msgid "Импорт"
-msgstr ""
-
-#. FaddLine..pnlName..Label1..Caption
-#: UaddLine.dfm:74
-#. FaddPoint..pnlTop..pnlTopMain..pnlName..Label1..Caption
-#: UaddPoint.dfm:467
-#. FAddPoly..pnlName..Label1..Caption
-#: UaddPoly.dfm:297
-msgid "Имя:"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_notfound
-#: UResStrings.pas:79
+#: UResStrings.pas:90
 msgid "Искомая комбинация на карте не встречается."
 msgstr ""
 
@@ -2317,13 +1477,523 @@ msgid "Использовать прокси (ip:port)"
 msgstr ""
 
 #. FDGAvailablePic..GroupBox1..LabelProv..Caption
-#: UFDGAvailablePic.dfm:51
+#: UFDGAvailablePic.dfm:52
 msgid "Источник"
 msgstr ""
 
 #. FDGAvailablePic..GroupBox1..Label6..Caption
-#: UFDGAvailablePic.dfm:83
+#: UFDGAvailablePic.dfm:84
 msgid "Источник:"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NsrcToolBarShow..Caption
+#: Unit1.dfm:461
+msgid "Источники"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_MiniMapAsMainMap
+#: UResStrings.pas:160
+msgid "Как на главной карте"
+msgstr ""
+
+#. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
+#: RegionProcess/fr_ExportAUX.dfm:37
+#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#: RegionProcess/fr_ExportGEKml.dfm:84
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#: RegionProcess/fr_ExportIPhone.dfm:362
+#. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
+#: RegionProcess/fr_ExportToFileCont.dfm:85
+#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
+#: RegionProcess/fr_ExportYaMaps.dfm:285
+msgid "Карта"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..NFillMap..Caption
+#: Unit1.dfm:601
+msgid "Карта заполнения"
+msgstr ""
+
+#. Fmain..TBDock..TBMainToolBar..TBMapZap..Hint
+#: Unit1.dfm:127
+msgid "Карта заполнения слоя"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlFillMap..Label24..Caption
+#: Usettings.dfm:1304
+msgid "Карта заполнения:"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_NotLoads
+#: UResStrings.pas:50
+msgid "Карта не позволяет загружать"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N31..ShowMiniMap..Caption
+#: Unit1.dfm:586
+msgid "Карта обзора"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet9..Caption
+#: Usettings.dfm:29
+#. Programmer's name for it: SAS_STR_Maps
+#: UResStrings.pas:139
+msgid "Карты"
+msgstr ""
+
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Caption
+#: UMarksExplorer.dfm:515
+msgid "Категории меток"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_NotDelWhereHasChildren
+#: UResStrings.pas:26
+msgid "Категория не пуста! Удалите все дочерние "
+"категории."
+msgstr ""
+
+#. FaddLine..pnlCategory..Label7..Caption
+#: UaddLine.dfm:44
+#. FaddPoint..pnlTop..pnlTopMain..pnlCategory..Label8..Caption
+#: UaddPoint.dfm:432
+#. FAddPoly..pnlCategory..Label7..Caption
+#: UaddPoly.dfm:268
+#. FImport..Label8..Caption
+#: UImport.dfm:22
+msgid "Категория:"
+msgstr ""
+
+#. frMapCombine..pnlCenter..flwpnlJpegQuality..lblJpgQulity..Caption
+#: RegionProcess/fr_MapCombine.dfm:350
+msgid "Качество (для JPEG и ECW):"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_kb
+#: UResStrings.pas:162
+msgid "Кб"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_km
+#: UResStrings.pas:167
+msgid "км"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_kmperh
+#: UResStrings.pas:165
+msgid "км/час"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_km2
+#: UResStrings.pas:171
+msgid "км2"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_code
+#: UResStrings.pas:35
+msgid "Код ошибки:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..flwpnlTileBorder..Label69..Caption
+#: Usettings.dfm:1212
+msgid "Кол-во тайлов отображаемых за границей "
+"экрана"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet3..GroupBox1..Caption
+#: Usettings.dfm:779
+msgid "Колесико мыши"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_GarminMax1Mp
+#: UResStrings.pas:25
+msgid "Количество полученных jpeg-файлов превысит 100 штук, если ваш\n"
+"навигатор не отображает карту разбейте сохраняемое изображение на "
+"части в \n"
+"диалоге \"Операции с выделенной областью\\склеить\"\n"
+"и используйте полученные kmz по отдельности"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet2..flwpnlMemCache..Label30..Caption
+#: Usettings.dfm:140
+msgid "Количество тайлов кэшируемое в оперативную "
+"память"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_filesnum
+#: UResStrings.pas:85
+msgid "Количество файлов"
+msgstr ""
+
+#. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
+#: RegionProcess/fr_TilesCopy.dfm:84
+msgid "Конвертировать в формат"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_Contrast
+#: UResStrings.pas:108
+msgid "Контраст"
+msgstr ""
+
+#. frmGoTo..RB1..Caption
+#: frm_GoTo.dfm:108
+#. Fmain..PopupMenu1..N43..N30..Caption
+#: Unit1.dfm:2934
+#. Programmer's name for it: SAS_STR_coordinates
+#: UResStrings.pas:78
+msgid "Координаты"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
+#: UResStrings.pas:151
+msgid "Копирование тайлов"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox3..pnlRight..Button3..Caption
+#: UFDGAvailablePic.dfm:150
+msgid "Копировать"
+msgstr ""
+
+#. Fmain..PopupMenu1..N43..Caption
+#: Unit1.dfm:2904
+msgid "Копировать в буфер обмена"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox3..pnlRight..Button3..Hint
+#: UFDGAvailablePic.dfm:148
+msgid "Копировать выбранные tid для вставки в "
+"URL"
+msgstr ""
+
+#. frExportAUX..pnlTop..lblTargetFile..Caption
+#: RegionProcess/fr_ExportAUX.dfm:105
+#. frExportGEKml..pnlTop..lblTargetFile..Caption
+#: RegionProcess/fr_ExportGEKml.dfm:145
+#. frExportIPhone..pnlTop..lblTargetPath..Caption
+#: RegionProcess/fr_ExportIPhone.dfm:29
+#. frExportToFileCont..pnlTop..lblTargetFile..Caption
+#: RegionProcess/fr_ExportToFileCont.dfm:150
+#. frExportYaMaps..pnlTop..lblTargetPath..Caption
+#: RegionProcess/fr_ExportYaMaps.dfm:342
+#. frMapCombine..pnlTargetFile..lblTargetFile..Caption
+#: RegionProcess/fr_MapCombine.dfm:48
+#. frTilesCopy..pnlTop..lblTargetPath..Caption
+#: RegionProcess/fr_TilesCopy.dfm:173
+msgid "Куда сохранять:"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
+#: Unit1.dfm:845
+#. FSettings..PageControl1..TabSheet2..Caption
+#: Usettings.dfm:122
+msgid "Кэш"
+msgstr ""
+
+#. FSelLonLat..grdpnlMain..grpTopLeft..Caption
+#: USelLonLat.dfm:88
+msgid "Левый верхний угол"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N31..ShowLine..Caption
+#: Unit1.dfm:593
+msgid "Линейка"
+msgstr ""
+
+#. FAddPoly..pnlLine..Label9..Caption
+#: UaddPoly.dfm:162
+#. FImport..GroupBox3..Label15..Caption
+#: UImport.dfm:290
+msgid "Линия:"
+msgstr ""
+
+#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem2..EditCaption
+#: Unit1.dfm:137
+#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem2..Caption
+#: Unit1.dfm:139
+#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem2..EditCaption
+#: Unit1.dfm:141
+msgid "Локальный"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_m
+#: UResStrings.pas:169
+msgid "м"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_m2
+#: UResStrings.pas:170
+msgid "м2"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorSpeedMaxBar..Caption
+#: Unit1.dfm:511
+msgid "Максимальная скорость"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
+#: Usettings.dfm:1622
+msgid "Максимальное количество отображаемых точек "
+"трека:"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NZoomToolBarShow..Caption
+#: Unit1.dfm:454
+#. Programmer's name for it: SAS_STR_Scale
+#: UResStrings.pas:81
+msgid "Масштаб"
+msgstr ""
+
+#. Fmain..TBDockLeft..ZoomToolBar..labZoom..Hint
+#: Unit1.dfm:1193
+msgid "Масштаб карты на котором вы находитесь"
+msgstr ""
+
+#. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
+#: RegionProcess/fr_ExportAUX.dfm:71
+#. frMapCombine..Panel1..Panel3..lblZoom..Caption
+#: RegionProcess/fr_MapCombine.dfm:285
+#. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
+#: RegionProcess/fr_TilesDelete.dfm:52
+#. frTilesDownload..pnlBottom..pnlRight..lblZoom..Caption
+#: RegionProcess/fr_TilesDownload.dfm:51
+msgid "Масштаб:"
+msgstr ""
+
+#. frmGoTo..pnlBottomButtons..Label9..Caption
+#: frm_GoTo.dfm:136
+msgid "Масштаб: x"
+msgstr ""
+
+#. FAddCategory..Label2..Caption
+#: UAddCategory.dfm:22
+msgid "Масштабы видимости:"
+msgstr ""
+
+#. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
+#: RegionProcess/fr_ExportGEKml.dfm:37
+#. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
+#: RegionProcess/fr_ExportIPhone.dfm:429
+#. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
+#: RegionProcess/fr_ExportToFileCont.dfm:38
+#. frExportYaMaps..pnlCenter..pnlRight..lblZooms..Caption
+#: RegionProcess/fr_ExportYaMaps.dfm:37
+#. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
+#: RegionProcess/fr_TilesCopy.dfm:38
+msgid "Масштабы:"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_mb
+#: UResStrings.pas:163
+msgid "Мб"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_foundplace
+#: UResStrings.pas:91
+msgid "Место найденное по запросу"
+msgstr ""
+
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
+#: UMarksExplorer.dfm:151
+#. Fmain..TBDock..TBMarksToolbar..Caption
+#: Unit1.dfm:212
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NMarksBarShow..Caption
+#: Unit1.dfm:475
+#. Fmain..TBDock..TBXMainMenu..NMarks..Caption
+#: Unit1.dfm:883
+msgid "Метки"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_Min
+#: UResStrings.pas:173
+msgid "мин."
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_ExportYaMapsCaption
+#: UResStrings.pas:143
+msgid "Мобильные Яндекс.Карты (версия 3)"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem2..Caption
+#: Unit1.dfm:2001
+msgid "На автомобиле (по длине)"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem1..Caption
+#: Unit1.dfm:1995
+msgid "На автомобиле (по скорости)"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem3..Caption
+#: Unit1.dfm:2013
+msgid "На велосипеде (по длине)"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem4..Caption
+#: Unit1.dfm:2007
+msgid "На велосипеде (по скорости)"
+msgstr ""
+
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksTop..SBNavOnMark..Hint
+#: UMarksExplorer.dfm:368
+msgid "Навигация на выбранную метку"
+msgstr ""
+
+#. Fmain..PopupMenu1..NMarkNav..Caption
+#: Unit1.dfm:2748
+msgid "Навигация на метку"
+msgstr ""
+
+#. frmSearchResults..lvResults......Caption
+#: frm_SearchResults.dfm:25
+#. FAddCategory..pnlName..Label1..Caption
+#: UAddCategory.dfm:145
+msgid "Название"
+msgstr ""
+
+#. FEditMap..pnlCacheName..Label2..Caption
+#: UEditMap.dfm:200
+msgid "Название в кэше"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet9..MapList......Caption
+#: Usettings.dfm:39
+msgid "Название карты"
+msgstr ""
+
+#. FShortcutChange..GroupBox1..Caption
+#: UShortcutEditor.dfm:30
+msgid "Назначить сочетание"
+msgstr ""
+
+#. frMapCombine..pnlCenter..chkUseMapMarks..Caption
+#: RegionProcess/fr_MapCombine.dfm:317
+msgid "Накладывать отображаемые метки"
+msgstr ""
+
+#. frMapCombine..Panel1..Panel2..lblHybr..Caption
+#: RegionProcess/fr_MapCombine.dfm:221
+msgid "Наложить:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..GroupBox4..Caption
+#: Usettings.dfm:652
+msgid "Настройки подключения"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NParams..N8..Caption
+#: Unit1.dfm:1013
+#. FSettings..Caption
+#: Usettings.dfm:5
+msgid "Настройки программы"
+msgstr ""
+
+#. FImport..Button1..Caption
+#: UImport.dfm:354
+#. Fsaveas..pnlBottomButtons..Button1..Caption
+#: USaveas.dfm:172
+msgid "Начать"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..CBLastSuccess....Caption
+#: Usettings.dfm:643
+msgid "Начать сохраненную сессию загрузки с последнего удачно загруженного "
+"тайла"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_NoGPSdetected
+#: UResStrings.pas:21
+msgid "Не найден GPS приемник"
+msgstr ""
+
+#. FMarksExplorer..pnlBottom..RBnot..Caption
+#: UMarksExplorer.dfm:59
+msgid "Не показывать метки"
+msgstr ""
+
+#. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
+#: RegionProcess/fr_ExportGEKml.dfm:95
+msgid "Не сохранять пути к несуществующим тайлам"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ProxyStrFormat
+#: UResStrings.pas:32
+msgid "Неверный формат записи прокси-сервера"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_Memory
+#: UResStrings.pas:57
+msgid "Невозможно выделить память для данной "
+"операции"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_UnablePposition
+#: UResStrings.pas:43
+msgid "Невозможно определить позицию"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
+#: UResStrings.pas:74
+msgid "Неизвестная ошибка при скачивании"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_BattaryStateUnknown
+#: UResStrings.pas:157
+msgid "Неизвестно"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_Nopoints
+#: UResStrings.pas:31
+msgid "Необходимый набор точек отсутствует!"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..NShowGran..N000..Caption
+#: Unit1.dfm:637
+#. Fmain..TBDock..TBXMainMenu..NView..N40..NGShScale0..Caption
+#: Unit1.dfm:705
+#. FShortcutChange..SpeedButton1..Caption
+#: UShortcutEditor.dfm:21
+#. frMapCombine..Panel1..Panel2..cbbHybr..Text
+#: RegionProcess/fr_MapCombine.dfm:259
+#. frMapCombine..Panel1..Panel2..cbbHybr....Items.Strings
+#: RegionProcess/fr_MapCombine.dfm:261
+#. Programmer's name for it: SAS_STR_No
+#: UResStrings.pas:105
+msgid "Нет"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox3..pnlRight..Button2..Caption
+#: UFDGAvailablePic.dfm:138
+msgid "Ниже"
+msgstr ""
+
+#. FaddLine..pnlCategory..CBKateg..Text
+#: UaddLine.dfm:57
+#. FaddPoint..pnlTop..pnlTopMain..pnlCategory..CBKateg..Text
+#: UaddPoint.dfm:445
+#. FAddPoly..pnlCategory..CBKateg..Text
+#: UaddPoly.dfm:280
+#. Programmer's name for it: SAS_STR_NewCategory
+#: UResStrings.pas:112
+msgid "Новая категория"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_NewMark
+#: UResStrings.pas:110
+msgid "Новая метка"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_NewPoly
+#: UResStrings.pas:111
+msgid "Новый полигон"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_NewPath
+#: UResStrings.pas:109
+msgid "Новый путь"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..Ninvertcolor..Caption
+#: Unit1.dfm:823
+msgid "Ночной режим (Инверсия цветов)"
 msgstr ""
 
 #. Fabout..Caption
@@ -2333,23 +2003,18 @@ msgstr ""
 msgid "О программе"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NHelp..NGoToForum..Caption
-#: Unit1.dfm:1062
-msgid "Обсуждение (http://sasgis.ru/forum)"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_Processed
-#: UResStrings.pas:83
+#: UResStrings.pas:94
 msgid "Обработано"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
-#: UResStrings.pas:89
+#: UResStrings.pas:100
 msgid "Обработать не более"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
-#: UResStrings.pas:122
+#: UResStrings.pas:133
 msgid "Обработка файла"
 msgstr ""
 
@@ -2358,9 +2023,9 @@ msgstr ""
 msgid "Обработка файлов завершена!"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet6..pnlGSM..flwpnlGSM..Label36..Caption
-#: Usettings.dfm:1980
-msgid "Ожидание ответа"
+#. Fmain..TBDock..TBXMainMenu..NHelp..NGoToForum..Caption
+#: Unit1.dfm:1062
+msgid "Обсуждение (http://sasgis.ru/forum)"
 msgstr ""
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NsensorOdometrBar..Caption
@@ -2387,15 +2052,14 @@ msgstr ""
 msgid "Одометр, км:"
 msgstr ""
 
-#. Fmain..PopupMenu1..NMarkOper..Caption
-#: Unit1.dfm:2744
-msgid "Операции с областью"
+#. FSettings..PageControl1..TabSheet6..pnlGSM..flwpnlGSM..Label36..Caption
+#: Usettings.dfm:1980
+msgid "Ожидание ответа"
 msgstr ""
 
-#. FMarksExplorer..GroupBox1..BtnOpMark..Hint
-#: UMarksExplorer.dfm:75
-msgid "Операции с областью в границах выделенного "
-"объекта"
+#. FSettings..pnlBottomButtons..btnOk..Caption
+#: Usettings.dfm:2024
+msgid "ОК"
 msgstr ""
 
 #. Fmain..TBDock..TBMainToolBar..TBRectSave..Hint
@@ -2409,8 +2073,19 @@ msgid "Операции с выделенной полигональной "
 "областью"
 msgstr ""
 
+#. Fmain..PopupMenu1..NMarkOper..Caption
+#: Unit1.dfm:2744
+msgid "Операции с областью"
+msgstr ""
+
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksTop..BtnOpMark..Hint
+#: UMarksExplorer.dfm:304
+msgid "Операции с областью в границах выделенного "
+"объекта"
+msgstr ""
+
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
-#: fr_ShortCutList.dfm:36
+#: fr_ShortCutList.dfm:38
 msgid "Операция"
 msgstr ""
 
@@ -2420,12 +2095,12 @@ msgid "Операция с выделенной областью"
 msgstr ""
 
 #. FDGAvailablePic..GroupBox1..Caption
-#: UFDGAvailablePic.dfm:23
+#: UFDGAvailablePic.dfm:24
 msgid "Описание"
 msgstr ""
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
-#: fr_MarkDescription.dfm:34
+#: fr_MarkDescription.dfm:36
 msgid "Описание:"
 msgstr ""
 
@@ -2435,9 +2110,24 @@ msgid "Определить позицию по базовым станциям 
 "сети"
 msgstr ""
 
-#. FSettings..pnlBottomButtons..btnOk..Caption
-#: Usettings.dfm:2024
-msgid "ОК"
+#. Fmain..TBDock..TBXMainMenu..NHelp..TBXItem8..Caption
+#: Unit1.dfm:1071
+msgid "Основной набор подключаемых карт"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet8..grdpnlWiki..Label76..Caption
+#: Usettings.dfm:1838
+msgid "Основной цвет"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_TimeRemained
+#: UResStrings.pas:98
+msgid "Осталось времени:"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_BattaryStateOnLine
+#: UResStrings.pas:155
+msgid "От сети"
 msgstr ""
 
 #. Fmain..PopupMenu1..N25..Caption
@@ -2449,6 +2139,58 @@ msgstr ""
 #. Fmain..TBDock..TBXMainMenu..NOperations..TBXItem6..Caption
 #: Unit1.dfm:337
 msgid "Открыть..."
+msgstr ""
+
+#. frmGoTo..pnlBottomButtons..btnCancel..Caption
+#: frm_GoTo.dfm:186
+#. Fsaveas..pnlBottomButtons..Button3..Caption
+#: USaveas.dfm:185
+msgid "Отмена"
+msgstr ""
+
+#. FAddCategory..pnlBottomButtons..Button2..Hint
+#: UAddCategory.dfm:61
+#. FAddCategory..pnlBottomButtons..Button2..Caption
+#: UAddCategory.dfm:64
+#. FaddLine..pnlBottomButtons..Button2..Hint
+#: UaddLine.dfm:211
+#. FaddLine..pnlBottomButtons..Button2..Caption
+#: UaddLine.dfm:214
+#. FaddPoint..pnlBottomButtons..Button2..Hint
+#: UaddPoint.dfm:57
+#. FaddPoint..pnlBottomButtons..Button2..Caption
+#: UaddPoint.dfm:60
+#. FAddPoly..pnlBottomButtons..Button2..Hint
+#: UaddPoly.dfm:58
+#. FAddPoly..pnlBottomButtons..Button2..Caption
+#: UaddPoly.dfm:61
+#. FEditMap..pnlBottomButtons..Button2..Caption
+#: UEditMap.dfm:55
+#. FImport..Button2..Caption
+#: UImport.dfm:363
+#. FSelLonLat..pnlBottomButtons..Button2..Caption
+#: USelLonLat.dfm:34
+#. FSettings..pnlBottomButtons..btnCancel..Caption
+#: Usettings.dfm:2013
+#. FShortcutChange..Button2..Caption
+#: UShortcutEditor.dfm:57
+msgid "Отменить"
+msgstr ""
+
+#. Fmain..PopupMenu1..N43..N15..Caption
+#: Unit1.dfm:2942
+msgid "Относительный путь к изображению"
+msgstr ""
+
+#. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
+#: RegionProcess/fr_ExportGEKml.dfm:108
+msgid "Относительный путь к тайлам"
+msgstr ""
+
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar....Hint
+#: Unit1.dfm:2627
+msgid "Отношение сигнал/шум для спутников участвующих в определении "
+"позиции"
 msgstr ""
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorAzimutBar..Hint
@@ -2469,20 +2211,20 @@ msgid "Отображает высоту над уровнем моря по д�
 "GPS-приемника"
 msgstr ""
 
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedMaxBar..Hint
+#: Unit1.dfm:2402
+msgid "Отображает максимальную скорость движения"
+msgstr ""
+
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorPathBar....Hint
 #: Unit1.dfm:2172
 msgid "Отображает пройденный путь считаемый от подключения к "
 "GPS-приемнику"
 msgstr ""
 
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedMaxBar..Hint
-#: Unit1.dfm:2402
-msgid "Отображает максимальную скорость движения"
-msgstr ""
-
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedBar..Hint
-#: Unit1.dfm:2130
-msgid "Отображает текущую скорость движения"
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..Hint
+#: Unit1.dfm:2289
+msgid "Отображает расстояние до выбранной метки"
 msgstr ""
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorBattaryBar..Hint
@@ -2495,9 +2237,9 @@ msgstr ""
 msgid "Отображает среднюю скорость движения"
 msgstr ""
 
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..Hint
-#: Unit1.dfm:2289
-msgid "Отображает расстояние до выбранной метки"
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedBar..Hint
+#: Unit1.dfm:2130
+msgid "Отображает текущую скорость движения"
 msgstr ""
 
 #. Fmain..TBDock..TBXMainMenu..NView..N40..Caption
@@ -2505,8 +2247,18 @@ msgstr ""
 msgid "Отображать бланковку карт ГШ"
 msgstr ""
 
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlLonLatFormat..ChBoxFirstLat..Caption
+#: Usettings.dfm:943
+msgid "Отображать в порядке: широта-долгота"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..NShowGran..Caption
+#: Unit1.dfm:631
+msgid "Отображать границы изображений"
+msgstr ""
+
 #. FAddCategory..CBShow..Caption
-#: UAddCategory.dfm:42
+#: UAddCategory.dfm:43
 msgid "Отображать на карте"
 msgstr ""
 
@@ -2522,27 +2274,17 @@ msgid "Отображать описание метки при наведени�
 "курсора"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlLonLatFormat..ChBoxFirstLat..Caption
-#: Usettings.dfm:943
-msgid "Отображать в порядке: широта-долгота"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NShowGran..Caption
-#: Unit1.dfm:631
-msgid "Отображать границы изображений"
-msgstr ""
-
 #. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackShow..Caption
 #: Unit1.dfm:939
 msgid "Отображать трек"
 msgstr ""
 
 #. FaddLine..CheckBox2..Caption
-#: UaddLine.dfm:25
+#: UaddLine.dfm:26
 #. FaddPoint..CheckBox2..Caption
-#: UaddPoint.dfm:37
+#: UaddPoint.dfm:38
 #. FAddPoly..CheckBox2..Caption
-#: UaddPoly.dfm:25
+#: UaddPoly.dfm:26
 msgid "Отображать это место на карте"
 msgstr ""
 
@@ -2551,122 +2293,641 @@ msgstr ""
 msgid "Отображение границ:"
 msgstr ""
 
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar....Hint
-#: Unit1.dfm:2627
-msgid "Отношение сигнал/шум для спутников участвующих в определении "
-"позиции"
-msgstr ""
-
-#. Fmain..PopupMenu1..N43..N15..Caption
-#: Unit1.dfm:2942
-msgid "Относительный путь к изображению"
-msgstr ""
-
-#. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
-#: RegionProcess/fr_ExportGEKml.dfm:110
-msgid "Относительный путь к тайлам"
-msgstr ""
-
-#. frmGoTo..pnlBottomButtons..btnCancel..Caption
-#: frm_GoTo.dfm:182
-#. Fsaveas..pnlBottomButtons..Button3..Caption
-#: USaveas.dfm:184
-msgid "Отмена"
-msgstr ""
-
-#. FAddCategory..pnlBottomButtons..Button2..Hint
-#: UAddCategory.dfm:59
-#. FAddCategory..pnlBottomButtons..Button2..Caption
-#: UAddCategory.dfm:62
-#. FaddLine..pnlBottomButtons..Button2..Hint
-#: UaddLine.dfm:210
-#. FaddLine..pnlBottomButtons..Button2..Caption
-#: UaddLine.dfm:213
-#. FaddPoint..pnlBottomButtons..Button2..Hint
-#: UaddPoint.dfm:56
-#. FaddPoint..pnlBottomButtons..Button2..Caption
-#: UaddPoint.dfm:59
-#. FAddPoly..pnlBottomButtons..Button2..Hint
-#: UaddPoly.dfm:57
-#. FAddPoly..pnlBottomButtons..Button2..Caption
-#: UaddPoly.dfm:60
-#. FEditMap..pnlBottomButtons..Button2..Caption
-#: UEditMap.dfm:55
-#. FImport..Button2..Caption
-#: UImport.dfm:362
-#. FSelLonLat..pnlBottomButtons..Button2..Caption
-#: USelLonLat.dfm:33
-#. FSettings..pnlBottomButtons..btnCancel..Caption
-#: Usettings.dfm:2013
-#. FShortcutChange..Button2..Caption
-#: UShortcutEditor.dfm:56
-msgid "Отменить"
-msgstr ""
-
 #. Fmain..PMNRObject..NGoHim..Caption
 #: Unit1.dfm:6330
 msgid "Отслеживать"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Noconnectionstointernet
-#: UResStrings.pas:51
+#: UResStrings.pas:54
 msgid "Отсутствует подключение к интернет!"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Authorization
-#: UResStrings.pas:48
+#: UResStrings.pas:51
 msgid "Ошибка авторизации на прокси!"
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_UrlScriptCompileError
+#: UResStrings.pas:69
+msgid "Ошибка в скрипте при компиляции\n"
+"%0:s"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ParamsInput
+#: UResStrings.pas:44
+msgid "Ошибка ввода параметров!"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_Write
-#: UResStrings.pas:30
+#: UResStrings.pas:33
 msgid "Ошибка записи на диск. Операция будет "
 "прервана!"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Communication
-#: UResStrings.pas:39
+#: UResStrings.pas:42
 msgid "Ошибка коммуникации"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_PortOpen
-#: UResStrings.pas:38
+#: UResStrings.pas:41
 msgid "Ошибка открытия порта!"
 msgstr ""
 
-#. Programmer's name for it: SAS_ERR_ParamsInput
-#: UResStrings.pas:41
-msgid "Ошибка ввода параметров!"
+#. Programmer's name for it: SAS_ERR_UrlScriptByteCodeLoad
+#: UResStrings.pas:70
+msgid "Ошибка при загрузке байткода"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Save
-#: UResStrings.pas:31
+#: UResStrings.pas:34
 msgid "Ошибка при сохранении!"
 msgstr ""
 
-#. Programmer's name for it: SAS_ERR_Read
-#: UResStrings.pas:33
-msgid "Ошибка чтения файла!"
+#. Programmer's name for it: SAS_ERR_UrlScriptUnexpectedError
+#: UResStrings.pas:68
+msgid "Ошибка скрипта карты %0:s:\n"
+"Неожиданная ошибка"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_UrlScriptError
+#: UResStrings.pas:67
+msgid "Ошибка скрипта карты %0:s:\n"
+"%1:s"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_CreateArh
-#: UResStrings.pas:46
+#: UResStrings.pas:49
 msgid "Ошибка создания архива!"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NHelp..TBXItem8..Caption
-#: Unit1.dfm:1071
-msgid "Основной набор подключаемых карт"
+#. Programmer's name for it: SAS_ERR_Read
+#: UResStrings.pas:36
+msgid "Ошибка чтения файла!"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet8..grdpnlWiki..Label76..Caption
-#: Usettings.dfm:1838
-msgid "Основной цвет"
+#. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
+#: UResStrings.pas:73
+msgid "Ошибочный тип данных"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_TimeRemained
-#: UResStrings.pas:87
-msgid "Осталось времени:"
+#. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
+#: UResStrings.pas:71
+msgid "Ошибочный тип проэкции карты %0:s"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..Caption
+#: Unit1.dfm:441
+msgid "Панели"
+msgstr ""
+
+#. Fmain..TBDock..GPSToolbar..Caption
+#: Unit1.dfm:223
+msgid "Панель GPS"
+msgstr ""
+
+#. Fmain..TBDock..SrcToolbar..Caption
+#: Unit1.dfm:180
+msgid "Панель источников"
+msgstr ""
+
+#. Fmain..TBDockLeft..ZoomToolBar..Caption
+#: Unit1.dfm:1141
+msgid "Панель масштаба"
+msgstr ""
+
+#. Fmain..TBDock..TBXToolBarSearch..Caption
+#: Unit1.dfm:1089
+msgid "Панель поиска"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet9..MapList......Caption
+#: Usettings.dfm:43
+msgid "Папка в кэше"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NParams..Caption
+#: Unit1.dfm:993
+#. FSettings..PageControl1..TabSheet9..pnlMapsRightButtons..Button15..Caption
+#: Usettings.dfm:82
+msgid "Параметры"
+msgstr ""
+
+#. FImport..Caption
+#: UImport.dfm:5
+msgid "Параметры импорта"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
+#: Unit1.dfm:998
+msgid "Параметры карты"
+msgstr ""
+
+#. FImport..GroupBox1..Caption
+#: UImport.dfm:37
+msgid "Параметры меток"
+msgstr ""
+
+#. FImport..GroupBox3..Caption
+#: UImport.dfm:232
+msgid "Параметры полигонов"
+msgstr ""
+
+#. FImport..GroupBox2..Caption
+#: UImport.dfm:165
+msgid "Параметры путей"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NParams..NLayerParams..Caption
+#: Unit1.dfm:1002
+msgid "Параметры слоя"
+msgstr ""
+
+#. FEditMap..grdpnlSleepAndKey..grdpnlSleep..Label6..Caption
+#: UEditMap.dfm:440
+msgid "Пауза"
+msgstr ""
+
+#. frmGoTo..pnlBottomButtons..BGo..Caption
+#: frm_GoTo.dfm:198
+msgid "Перейти"
+msgstr ""
+
+#. frmGoTo..pnlBottomButtons..BGo..Hint
+#: frm_GoTo.dfm:196
+msgid "Перейти в заданную точку"
+msgstr ""
+
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksTop..BtnGotoMark..Hint
+#: UMarksExplorer.dfm:261
+msgid "Перейти к выбранному объекту"
+msgstr ""
+
+#. Fmain..TBDock..TBMainToolBar..TBGoTo..Hint
+#: Unit1.dfm:135
+msgid "Перейти к некоторому месту"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
+#: Unit1.dfm:1952
+msgid "Перейти к окну операций с выделенной "
+"областью"
+msgstr ""
+
+#. frmGoTo..Caption
+#: frm_GoTo.dfm:7
+#. Fmain..TBDock..TBXMainMenu..NOperations..N14..Caption
+#: Unit1.dfm:369
+msgid "Перейти к..."
+msgstr ""
+
+#. Fmain..TBDock..TBMainToolBar..TBmove..Hint
+#: Unit1.dfm:98
+#. frTilesCopy..pnlCenter..pnlMain..chkDeleteSource..Caption
+#: RegionProcess/fr_TilesCopy.dfm:113
+msgid "Перемещать"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..NGoToCur..Caption
+#: Unit1.dfm:789
+msgid "Перемещать к курсору"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..CkBGoNextTile..Caption
+#: Usettings.dfm:593
+msgid "Переход к следующему тайлу если сервер не "
+"отвечает"
+msgstr ""
+
+#. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsPer..Caption
+#: Unit1.dfm:2758
+#. Programmer's name for it: SAS_STR_P
+#: UResStrings.pas:137
+msgid "Периметр"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
+#: Usettings.dfm:1555
+msgid "Период обновления (сек./1000)"
+msgstr ""
+
+#. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsSq..Caption
+#: Unit1.dfm:2762
+#. Programmer's name for it: SAS_STR_S
+#: UResStrings.pas:135
+msgid "Площадь"
+msgstr ""
+
+#. frMapCombine..pnlRight..grpSplit..lblSplitVert..Caption
+#: RegionProcess/fr_MapCombine.dfm:152
+msgid "по вертикали, на"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem9..Caption
+#: Unit1.dfm:1976
+msgid "По времени"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem7..Caption
+#: Unit1.dfm:1982
+msgid "По времени с учетом пробок"
+msgstr ""
+
+#. frMapCombine..pnlRight..grpSplit..lblSplitHor..Caption
+#: RegionProcess/fr_MapCombine.dfm:144
+msgid "по горизотали, на"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..TBCOORD..Caption
+#: Unit1.dfm:407
+msgid "По координатам"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem8..Caption
+#: Unit1.dfm:1970
+msgid "По расстоянию"
+msgstr ""
+
+#. FEditMap..pnlCacheType..CBCacheType....Items.Strings
+#: UEditMap.dfm:114
+msgid "По умолчанию"
+msgstr ""
+
+#. FEditMap..pnlCacheType..Button9..Hint
+#: UEditMap.dfm:129
+#. FEditMap..pnlParentItem..Button5..Hint
+#: UEditMap.dfm:175
+#. FEditMap..pnlCacheName..Button4..Hint
+#: UEditMap.dfm:221
+#. FEditMap..pnlUrl..pnlUrlRight..Button6..Hint
+#: UEditMap.dfm:263
+#. FEditMap..grdpnlSleepAndKey..grdpnlHotKey..Button7..Hint
+#: UEditMap.dfm:383
+#. FEditMap..grdpnlSleepAndKey..grdpnlSleep..Button8..Hint
+#: UEditMap.dfm:460
+msgid "По умолчнию"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..CBDblDwnl..Caption
+#: Usettings.dfm:583
+msgid "Повторно пытаться загрузить тайл при его "
+"отстутсвии"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSConnect..Caption
+#: Unit1.dfm:932
+msgid "Подключить приемник"
+msgstr ""
+
+#. Fmain..TBDock..GPSToolbar..TBGPSconn..Hint
+#: Unit1.dfm:229
+msgid "Подключиться к GPS приемнику"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_WiteLoad
+#: UResStrings.pas:93
+msgid "Подождите, идет загрузка..."
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlTileBorders..flwpnlTileBorders..CBBorderText..Caption
+#: Usettings.dfm:1144
+msgid "Подпись"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_youasure
+#: UResStrings.pas:9
+msgid "Подтвердите факт удаления"
+msgstr ""
+
+#. Fprogress2..Caption
+#: Unit4.dfm:5
+#. FProgress..Caption
+#: UProgress.dfm:5
+msgid "Пожалуйста подождите..."
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NToolBarSearch..Caption
+#: Unit1.dfm:481
+#. Fmain..TBDock..TBXToolBarSearch..TBXSearchEdit..EditCaption
+#: Unit1.dfm:1111
+#. Fmain..TBDock..TBXToolBarSearch..TBXSearchEdit..EditCaption
+#: Unit1.dfm:1116
+msgid "Поиск"
+msgstr ""
+
+#. FMarksExplorer..pnlBottom..RBall..Caption
+#: UMarksExplorer.dfm:36
+msgid "Показывать все метки"
+msgstr ""
+
+#. FMarksExplorer..pnlBottom..RBchecked..Caption
+#: UMarksExplorer.dfm:47
+msgid "Показывать только указанные метки"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N32..Caption
+#: Unit1.dfm:816
+msgid "Показывать шкалу"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..TBREGION..Caption
+#: Unit1.dfm:400
+msgid "Полигональная область"
+msgstr ""
+
+#. Fabout..Label6..Caption
+#: UAbout.dfm:62
+msgid "Помочь нам:"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
+#: Unit1.dfm:829
+msgid "Последнее выделение"
+msgstr ""
+
+#. Fmain..TBDock..GPSToolbar..TBGPSPath..TBXItem5..Caption
+#: Unit1.dfm:240
+#. Fmain..PopupMenu1..NaddPoint..Caption
+#: Unit1.dfm:2770
+msgid "Поставить метку"
+msgstr ""
+
+#. Fabout..Label5..Caption
+#: UAbout.dfm:54
+msgid "Почта:"
+msgstr ""
+
+#. FSelLonLat..grdpnlMain..grpBottomRight..Caption
+#: USelLonLat.dfm:98
+msgid "Правый нижний угол"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPrevious..Caption
+#: Unit1.dfm:414
+msgid "Предыдущее выделение"
+msgstr ""
+
+#. FMarksExplorer..pnlMainWithButtons..pnlButtons..Button3..Caption
+#: UMarksExplorer.dfm:120
+#. FSettings..pnlBottomButtons..btnApply..Caption
+#: Usettings.dfm:2037
+msgid "Применить"
+msgstr ""
+
+#. frMapCombine..pnlCenter..chkUseRecolor..Caption
+#: RegionProcess/fr_MapCombine.dfm:327
+msgid "Применять настройки цвета"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_LoadRemained
+#: UResStrings.pas:99
+msgid "Примерно еще загрузить:"
+msgstr ""
+
+#. FEditMap..pnlBottomButtons..Button1..Caption
+#: UEditMap.dfm:42
+#. FSelLonLat..pnlBottomButtons..Button1..Caption
+#: USelLonLat.dfm:45
+#. FShortcutChange..Button1..Caption
+#: UShortcutEditor.dfm:46
+msgid "Принять"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_Stop1
+#: UResStrings.pas:125
+msgid "Приостановлено"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_UserStop
+#: UResStrings.pas:130
+msgid "Приостановлено пользователем..."
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_Continue
+#: UResStrings.pas:126
+msgid "Продолжить"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlTileBorders..flwpnlTileBorders..Label28..Caption
+#: Usettings.dfm:1126
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
+#: Usettings.dfm:1339
+msgid "Прозрачность"
+msgstr ""
+
+#. FaddLine..flwpnlStyle..Label4..Caption
+#: UaddLine.dfm:168
+#. FaddPoint..grdpnlStyleRows..flwpnlTrahsparent..Label7..Caption
+#: UaddPoint.dfm:345
+#. FAddPoly..pnlFill..flwpnlFill..Label8..Caption
+#: UaddPoly.dfm:131
+#. FAddPoly..pnlLine..flwpnlLine..Label4..Caption
+#: UaddPoly.dfm:227
+#. FImport..GroupBox1..Label7..Caption
+#: UImport.dfm:72
+#. FImport..GroupBox2..Label9..Caption
+#: UImport.dfm:186
+#. FImport..GroupBox3..Label12..Caption
+#: UImport.dfm:253
+#. FImport..GroupBox3..Label14..Caption
+#: UImport.dfm:275
+msgid "Прозрачность %"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..Label17..Caption
+#: Usettings.dfm:1180
+msgid "Прозрачность карты обзора"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorPathBar..Caption
+#: Unit1.dfm:518
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorPathBar..Caption
+#: Unit1.dfm:2183
+msgid "Пройденный путь"
+msgstr ""
+
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorPathBar..TBXLabel10..Caption
+#: Unit1.dfm:2239
+msgid "Пройденный путь:"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
+#: Unit1.dfm:1959
+msgid "Проложить маршрут"
+msgstr ""
+
+#. Fmain..PopupMenu1..Nopendir..Caption
+#: Unit1.dfm:2947
+msgid "Просмотр тайла основной карты"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
+#: Unit1.dfm:392
+msgid "Прямоугольная область"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_MapGUIDEmpty
+#: UResStrings.pas:61
+msgid "Пустой GUID"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet9..MapList......Caption
+#: Usettings.dfm:47
+msgid "Путь в меню"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label15..Caption
+#: Usettings.dfm:323
+msgid "Путь к \"родному\" кэшу:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label1..Caption
+#: Usettings.dfm:409
+msgid "Путь к кэшу EarthSliser:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label19..Caption
+#: Usettings.dfm:452
+msgid "Путь к кэшу GM Tiles:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label31..Caption
+#: Usettings.dfm:495
+msgid "Путь к кэшу Google Earth:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label2..Caption
+#: Usettings.dfm:366
+msgid "Путь к кэшу GoogleMV:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet9..MapList......Caption
+#: Usettings.dfm:55
+msgid "Путь к файлу"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_RepeatProcess
+#: UResStrings.pas:55
+msgid "Пытаемся повторить обработку"
+msgstr ""
+
+#. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
+#: RegionProcess/fr_TilesDownload.dfm:137
+msgid "Пытаться загружать отсутствующие тайлы"
+msgstr ""
+
+#. frMapCombine..pnlRight..grpSplit..Caption
+#: RegionProcess/fr_MapCombine.dfm:137
+msgid "Разбить изображение"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_DivideInto
+#: UResStrings.pas:128
+msgid "Разбить на"
+msgstr ""
+
+#. FaddPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..Label6..Caption
+#: UaddPoint.dfm:314
+#. FImport..GroupBox1..Label6..Caption
+#: UImport.dfm:65
+msgid "Размер иконки"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label10..Caption
+#: Usettings.dfm:1572
+msgid "Размер указателя направления:"
+msgstr ""
+
+#. FaddPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..Label5..Caption
+#: UaddPoint.dfm:212
+#. FImport..GroupBox1..Label5..Caption
+#: UImport.dfm:58
+msgid "Размер шрифта"
+msgstr ""
+
+#. Fabout..Label3..Caption
+#: UAbout.dfm:36
+msgid "Разработка:"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox1..LabelResolution..Caption
+#: UFDGAvailablePic.dfm:38
+#. Programmer's name for it: SAS_STR_Resolution
+#: UResStrings.pas:129
+msgid "Разрешение"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox1..Label4..Caption
+#: UFDGAvailablePic.dfm:68
+msgid "Разрешение:"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_MapCombineProgressCaption
+#: UResStrings.pas:159
+msgid "Разрешение: %0:dx%1:d Разбить на %2:d "
+"файлов"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorLenToMarkBar..Caption
+#: Unit1.dfm:539
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..Caption
+#: Unit1.dfm:2300
+#. Programmer's name for it: SAS_STR_LenToMark
+#: UResStrings.pas:84
+msgid "Расстояние до метки"
+msgstr ""
+
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..TBXLabel13..Caption
+#: Unit1.dfm:2323
+msgid "Расстояние до метки:"
+msgstr ""
+
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksTop..SpeedButton1..Hint
+#: UMarksExplorer.dfm:440
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..pnlCategoriesTop..BtnEditCategory..Hint
+#: UMarksExplorer.dfm:670
+msgid "Редактировать"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_EditMap
+#: UResStrings.pas:123
+msgid "Редактировать описание карты:"
+msgstr ""
+
+#. frmSearchResults..Caption
+#: frm_SearchResults.dfm:4
+msgid "Результаты поиска"
+msgstr ""
+
+#. frMapCombine..pnlOutputFormat..lblOutputFormat..Caption
+#: RegionProcess/fr_MapCombine.dfm:95
+msgid "Результирующий формат:"
+msgstr ""
+
+#. Fmain..TBDock..GPSToolbar..TBGPSPath..Hint
+#: Unit1.dfm:237
+msgid "Рисовать пройденный путь"
+msgstr ""
+
+#. FEditMap..pnlParentItem..Label3..Caption
+#: UEditMap.dfm:154
+msgid "Родительский пункт меню"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NParams..TBLang..TBXLangRus..Caption
+#: Unit1.dfm:1021
+msgid "Русский"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NHelp..NGoToSite..Caption
+#: Unit1.dfm:1057
+msgid "Сайт программы (http://sasgis.ru)"
+msgstr ""
+
+#. Fabout..Label4..Caption
+#: UAbout.dfm:45
+msgid "Сайт:"
 msgstr ""
 
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorSpeedAvgBar..SBClearSensor..Hint
@@ -2686,72 +2947,9 @@ msgstr ""
 msgid "Сбросить"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NLayerSel..Caption
-#: Unit1.dfm:879
-#. Programmer's name for it: SAS_STR_Layers
-#: UResStrings.pas:129
-msgid "Слои"
-msgstr ""
-
-#. Fmain..PopupMenu1..N43..N20..Caption
-#: Unit1.dfm:2938
-msgid "Тайл основной карты"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
-#: Usettings.dfm:621
-msgid "Таймаут на сетевые операции, мс"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NHelp..NGoToSite..Caption
-#: Unit1.dfm:1057
-msgid "Сайт программы (http://sasgis.ru)"
-msgstr ""
-
-#. Fabout..Label4..Caption
-#: UAbout.dfm:45
-msgid "Сайт:"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_CategoryNameDoubling
-#: UResStrings.pas:63
-msgid "Такое имя категории уже существует"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_TileNotExists
-#: UResStrings.pas:50
-msgid "Такого изображения нет на сервере!"
-msgstr ""
-
-#. Fmain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
-#: Unit1.dfm:283
-#. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSToPointCenter..Caption
-#: Unit1.dfm:951
-msgid "Текущая позиция всегда в центре"
-msgstr ""
-
-#. FProgress..SaveSessionDialog..Filter
-#: UProgress.dfm:201
-msgid "Сессия загрузки (*.sls)|*.sls"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_BadMIME
-#: UResStrings.pas:57
-msgid "Сервис вернул тип \"%0:s\", а не один из "
-"ожидаемых"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
-#: UResStrings.pas:56
-msgid "Сервис вернул тип \"%0:s\", это не растровое "
-"изображение"
-msgstr ""
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:348
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
-#: RegionProcess/fr_ExportYaMaps.dfm:263
-msgid "Сжатие:"
+#. FProgress..Panel1..Button3..Caption
+#: UProgress.dfm:185
+msgid "Свернуть"
 msgstr ""
 
 #. Fmain..PopupMenu1..N26..N11..Caption
@@ -2759,49 +2957,67 @@ msgstr ""
 msgid "Сделать рисунком рабочего стола"
 msgstr ""
 
-#. frMapCombine..Panel1..Panel2..lblMap..Caption
-#: RegionProcess/fr_MapCombine.dfm:212
-#. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
-#: RegionProcess/fr_TilesDelete.dfm:92
-#. frTilesDownload..pnlBottom..pnlMain..lblMap..Caption
-#: RegionProcess/fr_TilesDownload.dfm:101
-#. frTilesGenPrev..pnlBottom..pnlCenter..lblMap..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:113
-msgid "Тип карты:"
+#. Programmer's name for it: SAS_UNITS_Secund
+#: UResStrings.pas:172
+msgid "секунд"
 msgstr ""
 
-#. FEditMap..pnlCacheType..Label5..Caption
-#: UEditMap.dfm:99
-#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label37..Caption
-#: Usettings.dfm:538
-msgid "Тип кэша"
+#. Programmer's name for it: SAS_ERR_BadMIME
+#: UResStrings.pas:60
+msgid "Сервис вернул тип \"%0:s\", а не один из "
+"ожидаемых"
 msgstr ""
 
-#: RegionProcess/u_ProviderMapCombine.pas:49
-msgid "Склейка карты"
+#. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
+#: UResStrings.pas:59
+msgid "Сервис вернул тип \"%0:s\", это не растровое "
+"изображение"
+msgstr ""
+
+#. FProgress..SaveSessionDialog..Filter
+#: UProgress.dfm:202
+msgid "Сессия загрузки (*.sls)|*.sls"
+msgstr ""
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
+#: RegionProcess/fr_ExportIPhone.dfm:339
+#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
+#: RegionProcess/fr_ExportYaMaps.dfm:263
+msgid "Сжатие:"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_load
+#: UResStrings.pas:80
+msgid "Скачано"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_OperationDownloadCaption
+#: UResStrings.pas:153
+msgid "Скачивание"
 msgstr ""
 
 #. Fsaveas..PageControl1..TabSheet2..Caption
-#: USaveas.dfm:33
+#: USaveas.dfm:34
 msgid "Склеить"
 msgstr ""
 
 #. frMapCombine..pnlTop..Caption
-#: RegionProcess/fr_MapCombine.dfm:21
+#: RegionProcess/fr_MapCombine.dfm:23
 msgid "Склеить выделенный фрагмент"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_load
-#: UResStrings.pas:69
-msgid "Скачано"
+#. Programmer's name for it: SAS_STR_MapCombineProgressLine0
+#: UResStrings.pas:158
+msgid "Склеить: %0:dx%1:d (%2:d) файлов"
 msgstr ""
 
-#: RegionProcess/u_ProviderTilesDownload.pas:49
-msgid "Скачивание"
+#. Programmer's name for it: SAS_STR_OperationMapCombineCaption
+#: UResStrings.pas:152
+msgid "Склейка карты"
 msgstr ""
 
 #. Fsaveas..PageControl1..TabSheet6..Caption
-#: USaveas.dfm:107
+#: USaveas.dfm:108
 msgid "Скопировать"
 msgstr ""
 
@@ -2814,7 +3030,7 @@ msgstr ""
 #. FSettings..PageControl1..TabSheet6..pnlGSM..flwpnlGSM..Label34..Caption
 #: Usettings.dfm:1947
 #. Programmer's name for it: SAS_STR_Speed
-#: UResStrings.pas:71
+#: UResStrings.pas:82
 msgid "Скорость"
 msgstr ""
 
@@ -2850,6 +3066,18 @@ msgstr ""
 msgid "Скрыть/Показать подписи"
 msgstr ""
 
+#. Fmain..TBDock..TBXMainMenu..NLayerSel..Caption
+#: Unit1.dfm:879
+#. Programmer's name for it: SAS_STR_Layers
+#: UResStrings.pas:140
+msgid "Слои"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_sm
+#: UResStrings.pas:168
+msgid "см"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_NeedHL
 #: UResStrings.pas:15
 msgid "Сначала необходимо выделить хотябы один раз "
@@ -2857,33 +3085,28 @@ msgid "Сначала необходимо выделить хотябы оди�
 msgstr ""
 
 #. frMapCombine..Panel4..lblPrTypes..Caption
-#: RegionProcess/fr_MapCombine.dfm:395
+#: RegionProcess/fr_MapCombine.dfm:383
 msgid "Создавать файл привязки:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_savetreck
-#: UResStrings.pas:77
+#: UResStrings.pas:88
 msgid "Сохранение трека..."
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_Saves
-#: UResStrings.pas:84
-msgid "Сохранено"
-msgstr ""
-
 #. frmGoTo..RB3..Caption
-#: frm_GoTo.dfm:43
+#: frm_GoTo.dfm:49
 msgid "Сохраненные метки"
 msgstr ""
 
-#. FProgress..Panel1..ButtonSave..Caption
-#: UProgress.dfm:194
-msgid "Сохранить"
+#. Programmer's name for it: SAS_STR_Saves
+#: UResStrings.pas:95
+msgid "Сохранено"
 msgstr ""
 
-#. frTilesCopy..Panel1..Caption
-#: RegionProcess/fr_TilesCopy.dfm:221
-msgid "Сохранить кэш  выделенного участка карты"
+#. FProgress..Panel1..ButtonSave..Caption
+#: UProgress.dfm:195
+msgid "Сохранить"
 msgstr ""
 
 #. Fmain..TBDock..GPSToolbar..TBGPSPath..TBItem3..Caption
@@ -2899,12 +3122,17 @@ msgid "Сохранить в базе"
 msgstr ""
 
 #. Fsaveas..pnlBottomButtons..SpeedButton1..Hint
-#: USaveas.dfm:130
+#: USaveas.dfm:131
 msgid "Сохранить выделение в отдельный файл"
 msgstr ""
 
+#. frTilesCopy..Panel1..Caption
+#: RegionProcess/fr_TilesCopy.dfm:207
+msgid "Сохранить кэш  выделенного участка карты"
+msgstr ""
+
 #. FProgress..Panel1..ButtonSave..Hint
-#: UProgress.dfm:193
+#: UProgress.dfm:194
 msgid "Сохранить текущую сессию"
 msgstr ""
 
@@ -2930,18 +3158,18 @@ msgid "Сохранять информацию об отсутствии на с
 msgstr ""
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:213
+#: RegionProcess/fr_TilesGenPrev.dfm:203
 msgid "Сохранять только полностью заполненные "
 "тайлы"
 msgstr ""
 
-#. FProgress..Panel1..Button3..Caption
-#: UProgress.dfm:184
-msgid "Свернуть"
+#. Fmain..TBDock..TBXMainMenu..NHelp..N29..Caption
+#: Unit1.dfm:1041
+msgid "Справка"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:385
+#: RegionProcess/fr_ExportIPhone.dfm:376
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:299
 msgid "Спутник"
@@ -2952,37 +3180,19 @@ msgstr ""
 msgid "Спутники"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NHelp..N29..Caption
-#: Unit1.dfm:1041
-msgid "Справка"
+#. Programmer's name for it: SAS_ERR_MainMapNotExists
+#: UResStrings.pas:65
+msgid "Среди ZMP должна быть хотя бы одна карта"
 msgstr ""
 
-#. FProgress..Panel1..Button1..Caption
-#: UProgress.dfm:166
-#. Programmer's name for it: SAS_STR_Stop
-#: UResStrings.pas:113
-msgid "Стоп"
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem1..Caption
+#: Unit1.dfm:1989
+msgid "Средствами yournavigation.org (OSM)"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NView..N31..Showstatus..Caption
-#: Unit1.dfm:579
-msgid "Строка статуса"
-msgstr ""
-
-#. Fsaveas..PageControl1..TabSheet3..Caption
-#: USaveas.dfm:42
-msgid "Сформировать"
-msgstr ""
-
-#. frTilesGenPrev..pnlTop..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:240
-msgid "Сформировать предыдущие слои спутниковой "
-"карты"
-msgstr ""
-
-#. Fmain..PopupMenu1..N43..livecom1..Caption
-#: Unit1.dfm:2919
-msgid "Ссылку для просмотра на maps.live.com"
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem2..Caption
+#: Unit1.dfm:1964
+msgid "Средствами Карты@mail.ru"
 msgstr ""
 
 #. Fmain..PopupMenu1..N43..Google1..Caption
@@ -3005,494 +3215,412 @@ msgstr ""
 msgid "Ссылку для просмотра в Яндекс.Карты"
 msgstr ""
 
+#. Fmain..PopupMenu1..N43..livecom1..Caption
+#: Unit1.dfm:2919
+msgid "Ссылку для просмотра на maps.live.com"
+msgstr ""
+
 #. Fmain..PopupMenu1..N43..N13..Caption
 #: Unit1.dfm:2930
 msgid "Ссылку на тайл основной карты"
 msgstr ""
 
-#. Programmer's name for it: SAS_ERR_MainMapNotExists
-#: UResStrings.pas:62
-msgid "Среди ZMP должна быть хотя бы одна карта"
-msgstr ""
-
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem1..Caption
-#: Unit1.dfm:1989
-msgid "Средствами yournavigation.org (OSM)"
-msgstr ""
-
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem2..Caption
-#: Unit1.dfm:1964
-msgid "Средствами Карты@mail.ru"
-msgstr ""
-
-#. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsSq..Caption
-#: Unit1.dfm:2762
-#. Programmer's name for it: SAS_STR_S
+#. FProgress..Panel1..Button1..Caption
+#: UProgress.dfm:167
+#. Programmer's name for it: SAS_STR_Stop
 #: UResStrings.pas:124
-msgid "Площадь"
+msgid "Стоп"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NView..N4..Caption
-#: Unit1.dfm:441
-msgid "Панели"
+#. Fmain..TBDock..TBXMainMenu..NView..N31..Showstatus..Caption
+#: Unit1.dfm:579
+msgid "Строка статуса"
 msgstr ""
 
-#. Fmain..TBDock..GPSToolbar..Caption
-#: Unit1.dfm:223
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NGPSToolBarShow..Caption
-#: Unit1.dfm:468
-msgid "Панель GPS"
+#. Fsaveas..PageControl1..TabSheet3..Caption
+#: USaveas.dfm:43
+msgid "Сформировать"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensorsBar..Caption
-#: Unit1.dfm:487
-msgid "Панель датчиков"
+#. frTilesGenPrev..pnlTop..Caption
+#: RegionProcess/fr_TilesGenPrev.dfm:228
+msgid "Сформировать предыдущие слои спутниковой "
+"карты"
 msgstr ""
 
-#. Fmain..TBDock..SrcToolbar..Caption
-#: Unit1.dfm:180
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NsrcToolBarShow..Caption
-#: Unit1.dfm:461
-msgid "Панель источников"
+#. Fmain..PopupMenu1..N43..N20..Caption
+#: Unit1.dfm:2938
+msgid "Тайл основной карты"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NToolBarSearch..Caption
-#: Unit1.dfm:481
-#. Fmain..TBDock..TBXToolBarSearch..Caption
-#: Unit1.dfm:1089
-msgid "Панель поиска"
+#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
+#: Usettings.dfm:621
+msgid "Таймаут на сетевые операции, мс"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NZoomToolBarShow..Caption
-#: Unit1.dfm:454
-#. Fmain..TBDockLeft..ZoomToolBar..Caption
-#: Unit1.dfm:1141
-msgid "Панель масштаба"
+#. Programmer's name for it: SAS_ERR_TileNotExists
+#: UResStrings.pas:53
+msgid "Такого изображения нет на сервере!"
 msgstr ""
 
-#. FSettings..PageControl1..TabSheet9..MapList......Caption
-#: Usettings.dfm:43
-msgid "Папка в кэше"
+#. Programmer's name for it: SAS_ERR_CategoryNameDoubling
+#: UResStrings.pas:66
+msgid "Такое имя категории уже существует"
 msgstr ""
 
-#. FEditMap..grdpnlSleepAndKey..grdpnlSleep..Label6..Caption
-#: UEditMap.dfm:440
-msgid "Пауза"
+#. Fmain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
+#: Unit1.dfm:283
+#. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSToPointCenter..Caption
+#: Unit1.dfm:951
+msgid "Текущая позиция всегда в центре"
 msgstr ""
 
-#. Fmain..TBDock..TBXMainMenu..NParams..Caption
-#: Unit1.dfm:993
-#. FSettings..PageControl1..TabSheet9..pnlMapsRightButtons..Button15..Caption
-#: Usettings.dfm:82
-msgid "Параметры"
+#. frMapCombine..Panel1..Panel2..lblMap..Caption
+#: RegionProcess/fr_MapCombine.dfm:209
+#. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
+#: RegionProcess/fr_TilesDelete.dfm:88
+#. frTilesDownload..pnlBottom..pnlMain..lblMap..Caption
+#: RegionProcess/fr_TilesDownload.dfm:96
+#. frTilesGenPrev..pnlBottom..pnlCenter..lblMap..Caption
+#: RegionProcess/fr_TilesGenPrev.dfm:106
+msgid "Тип карты:"
 msgstr ""
 
-#. FImport..Caption
-#: UImport.dfm:5
-msgid "Параметры импорта"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
-#: Unit1.dfm:998
-msgid "Параметры карты"
-msgstr ""
-
-#. FImport..GroupBox3..Caption
-#: UImport.dfm:231
-msgid "Параметры полигонов"
-msgstr ""
-
-#. FImport..GroupBox2..Caption
-#: UImport.dfm:164
-msgid "Параметры путей"
-msgstr ""
-
-#. FImport..GroupBox1..Caption
-#: UImport.dfm:36
-msgid "Параметры меток"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NParams..NLayerParams..Caption
-#: Unit1.dfm:1002
-msgid "Параметры слоя"
-msgstr ""
-
-#. frmGoTo..pnlBottomButtons..BGo..Caption
-#: frm_GoTo.dfm:194
-msgid "Перейти"
-msgstr ""
-
-#. Fmain..TBDock..TBMainToolBar..TBGoTo..Hint
-#: Unit1.dfm:135
-msgid "Перейти к некоторому месту"
-msgstr ""
-
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
-#: Unit1.dfm:1952
-msgid "Перейти к окну операций с выделенной "
-"областью"
-msgstr ""
-
-#. FMarksExplorer..GroupBox1..BtnGotoMark..Hint
-#: UMarksExplorer.dfm:35
-msgid "Перейти к выбранному объекту"
-msgstr ""
-
-#. frmGoTo..Caption
-#: frm_GoTo.dfm:7
-#. Fmain..TBDock..TBXMainMenu..NOperations..N14..Caption
-#: Unit1.dfm:369
-msgid "Перейти к..."
-msgstr ""
-
-#. frmGoTo..pnlBottomButtons..BGo..Hint
-#: frm_GoTo.dfm:192
-msgid "Перейти в заданную точку"
-msgstr ""
-
-#. Fmain..TBDock..TBMainToolBar..TBmove..Hint
-#: Unit1.dfm:98
-#. frTilesCopy..pnlCenter..pnlMain..chkDeleteSource..Caption
-#: RegionProcess/fr_TilesCopy.dfm:119
-msgid "Перемещать"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NGoToCur..Caption
-#: Unit1.dfm:789
-msgid "Перемещать к курсору"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..CkBGoNextTile..Caption
-#: Usettings.dfm:593
-msgid "Переход к следующему тайлу если сервер не "
-"отвечает"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
-#: Usettings.dfm:1555
-msgid "Период обновления (сек./1000)"
-msgstr ""
-
-#. Fmain..PopupMenu1..NMarksCalcs..NMarksCalcsPer..Caption
-#: Unit1.dfm:2758
-#. Programmer's name for it: SAS_STR_P
-#: UResStrings.pas:126
-msgid "Периметр"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..TBCOORD..Caption
-#: Unit1.dfm:407
-msgid "По координатам"
-msgstr ""
-
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem9..Caption
-#: Unit1.dfm:1976
-msgid "По времени"
-msgstr ""
-
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem7..Caption
-#: Unit1.dfm:1982
-msgid "По времени с учетом пробок"
-msgstr ""
-
-#. FEditMap..pnlCacheType..CBCacheType....Items.Strings
-#: UEditMap.dfm:114
-msgid "По умолчанию"
-msgstr ""
-
-#. FEditMap..pnlCacheType..Button9..Hint
-#: UEditMap.dfm:129
-#. FEditMap..pnlParentItem..Button5..Hint
-#: UEditMap.dfm:175
-#. FEditMap..pnlCacheName..Button4..Hint
-#: UEditMap.dfm:221
-#. FEditMap..pnlUrl..pnlUrlRight..Button6..Hint
-#: UEditMap.dfm:263
-#. FEditMap..grdpnlSleepAndKey..grdpnlHotKey..Button7..Hint
-#: UEditMap.dfm:383
-#. FEditMap..grdpnlSleepAndKey..grdpnlSleep..Button8..Hint
-#: UEditMap.dfm:460
-msgid "По умолчнию"
-msgstr ""
-
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem8..Caption
-#: Unit1.dfm:1970
-msgid "По расстоянию"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..TBREGION..Caption
-#: Unit1.dfm:400
-msgid "Полигональная область"
-msgstr ""
-
-#. Fprogress2..Caption
-#: Unit4.dfm:5
-#. FProgress..Caption
-#: UProgress.dfm:5
-msgid "Пожалуйста подождите..."
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSConnect..Caption
-#: Unit1.dfm:932
-msgid "Подключить приемник"
-msgstr ""
-
-#. Fmain..TBDock..GPSToolbar..TBGPSconn..Hint
-#: Unit1.dfm:229
-msgid "Подключиться к GPS приемнику"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_WiteLoad
-#: UResStrings.pas:82
-msgid "Подождите, идет загрузка..."
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlTileBorders..flwpnlTileBorders..CBBorderText..Caption
-#: Usettings.dfm:1144
-msgid "Подпись"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_youasure
-#: UResStrings.pas:9
-msgid "Подтвердите факт удаления"
-msgstr ""
-
-#. Fmain..TBDock..TBXToolBarSearch..TBXSearchEdit..EditCaption
-#: Unit1.dfm:1111
-#. Fmain..TBDock..TBXToolBarSearch..TBXSearchEdit..EditCaption
-#: Unit1.dfm:1116
-msgid "Поиск"
-msgstr ""
-
-#. FMarksExplorer..RBall..Caption
-#: UMarksExplorer.dfm:571
-msgid "Показывать все метки"
-msgstr ""
-
-#. FMarksExplorer..RBchecked..Caption
-#: UMarksExplorer.dfm:579
-msgid "Показывать только указанные метки"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N32..Caption
-#: Unit1.dfm:816
-msgid "Показывать шкалу"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet1..pnlDownloadParams..CBDblDwnl..Caption
-#: Usettings.dfm:583
-msgid "Повторно пытаться загрузить тайл при его "
-"отстутсвии"
-msgstr ""
-
-#. Fabout..Label6..Caption
-#: UAbout.dfm:62
-msgid "Помочь нам:"
-msgstr ""
-
-#. Fabout..Label5..Caption
-#: UAbout.dfm:54
-msgid "Почта:"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
-#: Unit1.dfm:829
-msgid "Последнее выделение"
-msgstr ""
-
-#. Fmain..TBDock..GPSToolbar..TBGPSPath..TBXItem5..Caption
-#: Unit1.dfm:240
-#. Fmain..PopupMenu1..NaddPoint..Caption
-#: Unit1.dfm:2770
-msgid "Поставить метку"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_RepeatProcess
-#: UResStrings.pas:52
-msgid "Пытаемся повторить обработку"
-msgstr ""
-
-#. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
-#: RegionProcess/fr_TilesDownload.dfm:145
-msgid "Пытаться загружать отсутствующие тайлы"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label15..Caption
-#: Usettings.dfm:323
-msgid "Путь к \"родному\" кэшу:"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label1..Caption
-#: Usettings.dfm:409
-msgid "Путь к кэшу EarthSliser:"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label19..Caption
-#: Usettings.dfm:452
-msgid "Путь к кэшу GM Tiles:"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label31..Caption
-#: Usettings.dfm:495
-msgid "Путь к кэшу Google Earth:"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label2..Caption
-#: Usettings.dfm:366
-msgid "Путь к кэшу GoogleMV:"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet9..MapList......Caption
-#: Usettings.dfm:55
-msgid "Путь к файлу"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet9..MapList......Caption
-#: Usettings.dfm:47
-msgid "Путь в меню"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_MapGUIDEmpty
-#: UResStrings.pas:58
-msgid "Пустой GUID"
-msgstr ""
-
-#. FSelLonLat..grdpnlMain..grpBottomRight..Caption
-#: USelLonLat.dfm:97
-msgid "Правый нижний угол"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPrevious..Caption
-#: Unit1.dfm:414
-msgid "Предыдущее выделение"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_Stop1
-#: UResStrings.pas:114
-msgid "Приостановлено"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_UserStop
-#: UResStrings.pas:119
-msgid "Приостановлено пользователем..."
-msgstr ""
-
-#. FEditMap..pnlBottomButtons..Button1..Caption
-#: UEditMap.dfm:42
-#. FSelLonLat..pnlBottomButtons..Button1..Caption
-#: USelLonLat.dfm:44
-#. FShortcutChange..Button1..Caption
-#: UShortcutEditor.dfm:45
-msgid "Принять"
-msgstr ""
-
-#. FMarksExplorer..Button3..Caption
-#: UMarksExplorer.dfm:595
-#. FSettings..pnlBottomButtons..btnApply..Caption
-#: Usettings.dfm:2037
-msgid "Применить"
-msgstr ""
-
-#. frMapCombine..pnlCenter..chkUseRecolor..Caption
-#: RegionProcess/fr_MapCombine.dfm:339
-msgid "Применять настройки цвета"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_LoadRemained
-#: UResStrings.pas:88
-msgid "Примерно еще загрузить:"
-msgstr ""
-
-#. Fmain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
-#: Unit1.dfm:1959
-msgid "Проложить маршрут"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlTileBorders..flwpnlTileBorders..Label28..Caption
-#: Usettings.dfm:1126
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
-#: Usettings.dfm:1339
-msgid "Прозрачность"
-msgstr ""
-
-#. FaddLine..flwpnlStyle..Label4..Caption
-#: UaddLine.dfm:167
-#. FaddPoint..grdpnlStyleRows..flwpnlTrahsparent..Label7..Caption
-#: UaddPoint.dfm:349
-#. FAddPoly..pnlFill..flwpnlFill..Label8..Caption
-#: UaddPoly.dfm:130
-#. FAddPoly..pnlLine..flwpnlLine..Label4..Caption
-#: UaddPoly.dfm:226
-#. FImport..GroupBox1..Label7..Caption
-#: UImport.dfm:71
-#. FImport..GroupBox2..Label9..Caption
-#: UImport.dfm:185
-#. FImport..GroupBox3..Label12..Caption
-#: UImport.dfm:252
-#. FImport..GroupBox3..Label14..Caption
-#: UImport.dfm:274
-msgid "Прозрачность %"
-msgstr ""
-
-#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..Label17..Caption
-#: Usettings.dfm:1180
-msgid "Прозрачность карты обзора"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorPathBar..Caption
-#: Unit1.dfm:518
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorPathBar..Caption
-#: Unit1.dfm:2183
-msgid "Пройденный путь"
-msgstr ""
-
-#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorPathBar..TBXLabel10..Caption
-#: Unit1.dfm:2239
-msgid "Пройденный путь:"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_Continue
-#: UResStrings.pas:115
-msgid "Продолжить"
-msgstr ""
-
-#. Fmain..PopupMenu1..Nopendir..Caption
-#: Unit1.dfm:2947
-msgid "Просмотр тайла основной карты"
-msgstr ""
-
-#. Fmain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
-#: Unit1.dfm:392
-msgid "Прямоугольная область"
+#. FEditMap..pnlCacheType..Label5..Caption
+#: UEditMap.dfm:99
+#. FSettings..PageControl1..TabSheet2..grdpnlCache..Label37..Caption
+#: Usettings.dfm:538
+msgid "Тип кэша"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
-#: RegionProcess/fr_TilesDownload.dfm:167
+#: RegionProcess/fr_TilesDownload.dfm:157
 msgid "только при их различии"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
-#: RegionProcess/fr_TilesDownload.dfm:185
+#: RegionProcess/fr_TilesDownload.dfm:175
 msgid "только созданные до "
 msgstr ""
 
+#. Fmain..TBDock..TBXMainMenu..NOperations..NZoomIn..Caption
+#: Unit1.dfm:349
+#. Fmain..TBDockLeft..ZoomToolBar..TBZoomIn..Hint
+#: Unit1.dfm:1149
+msgid "Увеличить"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_OperationDeleteCaption
+#: UResStrings.pas:149
+msgid "Удаление"
+msgstr ""
+
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksTop..BtnDelMark..Hint
+#: UMarksExplorer.dfm:212
+#. FMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..pnlCategoriesTop..BtnDelKat..Hint
+#: UMarksExplorer.dfm:624
+#. Fmain..PopupMenu1..NMarkDel..Caption
+#: Unit1.dfm:2740
+#. Fsaveas..PageControl1..TabSheet4..Caption
+#: USaveas.dfm:52
+msgid "Удалить"
+msgstr ""
+
+#. Fmain..PopupMenu1..NDel..Caption
+#: Unit1.dfm:2996
+msgid "Удалить тайл основной карты (Del+MLeft)"
+msgstr ""
+
+#. Fmain..PopupMenu1..dlm..Caption
+#: Unit1.dfm:3005
+msgid "Удалить тайл слоя"
+msgstr ""
+
+#. Fmain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
+#: Unit1.dfm:1929
+msgid "Удалить точку"
+msgstr ""
+
+#. Fmain..TBDock..GPSToolbar..TBGPSPath..TBItemDelTrack..Caption
+#: Unit1.dfm:269
+#. Fmain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackClear..Caption
+#: Unit1.dfm:977
+msgid "Удалить трек"
+msgstr ""
+
+#. frTilesDelete..pnlTop..Caption
+#: RegionProcess/fr_TilesDelete.dfm:21
+msgid "Удалить файлы карты"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_Deleted
+#: UResStrings.pas:106
+msgid "Удаляет:"
+msgstr ""
+
+#. frTilesDelete..pnlBottom..pnlCenter..flwpnlDelBySize..lblDelSize..Caption
+#: RegionProcess/fr_TilesDelete.dfm:132
+msgid "Удалять только тайлы, размер которых, "
+"байт"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NOperations..NZoomOut..Caption
+#: Unit1.dfm:357
+#. Fmain..TBDockLeft..ZoomToolBar..TBZoom_out..Hint
+#: Unit1.dfm:1175
+msgid "Уменьшить"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_ExportZipPackCaption
+#: UResStrings.pas:148
+msgid "Упаковка в Zip"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet3..Caption
+#: Usettings.dfm:771
+msgid "Управление"
+msgstr ""
+
+#. FMarksExplorer..Caption
+#: UMarksExplorer.dfm:4
+#. Fmain..TBDock..TBXMainMenu..NMarks..TBItem6..Caption
+#: Unit1.dfm:920
+#. Fmain..TBDock..TBXMainMenu..NMarks..TBItem6..Hint
+#: Unit1.dfm:921
+msgid "Управление метками"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSignalStrengthBar..Caption
+#: Unit1.dfm:567
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
+#: Unit1.dfm:2641
+msgid "Уровни сигнала"
+msgstr ""
+
+#. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..TBXLabel5..Caption
+#: Unit1.dfm:2650
+msgid "Уровни сигнала:"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_file
-#: UResStrings.pas:93
+#: UResStrings.pas:104
 msgid "файл"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_FileExists
+#: UResStrings.pas:14
+msgid "Файл %0:s уже есть у вас в кеше.\n"
+"Заменить этот файл вновь скачанным?"
+msgstr ""
+
+#. Fmain..OpenDialog1..Filter
+#: Unit1.dfm:5247
+#. Fsaveas..SaveSelDialog..Filter
+#: USaveas.dfm:204
+msgid "Файл выделения|*.hlg"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_BadFile
+#: UResStrings.pas:39
+msgid "Файл испорчен!"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_FileNotFound
+#: UResStrings.pas:40
+msgid "Файл не найден"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_MapInfoShow
+#: UResStrings.pas:29
+msgid "Файл: %0:s\n"
+"%1:s"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_files
-#: UResStrings.pas:92
+#: UResStrings.pas:103
 msgid "файлов"
 msgstr ""
 
-#. Programmer's name for it: SAS_UNITS_Secund
-#: UResStrings.pas:142
-msgid "секунд"
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlLonLatFormat..pnlCoordFormat..Label84..Caption
+#: Usettings.dfm:911
+msgid "Формат представления координат"
 msgstr ""
 
-#. Programmer's name for it: SAS_UNITS_sm
-#: UResStrings.pas:138
-msgid "см"
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlNumbersFormat..Label3..Caption
+#: Usettings.dfm:863
+msgid "Формат чисел отображения масштаба"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
+#: Unit1.dfm:605
+msgid "Формировать для..."
+msgstr ""
+
+#. frTilesGenPrev..pnlBottom..pnlCenter..chkFromPrevZoom..Caption
+#: RegionProcess/fr_TilesGenPrev.dfm:212
+msgid "Формировать каждый выбранный масштаб из предыдущего "
+"выбранного"
+msgstr ""
+
+#. FaddLine..flwpnlStyle..Label3..Caption
+#: UaddLine.dfm:119
+#. FAddPoly..pnlFill..flwpnlFill..Label6..Caption
+#: UaddPoly.dfm:103
+#. FAddPoly..pnlLine..flwpnlLine..Label3..Caption
+#: UaddPoly.dfm:181
+#. FDGAvailablePic..GroupBox1..LabelColor..Caption
+#: UFDGAvailablePic.dfm:45
+#. FImport..GroupBox2..Label1..Caption
+#: UImport.dfm:172
+#. FImport..GroupBox3..Label10..Caption
+#: UImport.dfm:239
+#. FImport..GroupBox3..Label13..Caption
+#: UImport.dfm:268
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlTileBorders..flwpnlTileBorders..Label27..Caption
+#: Usettings.dfm:1109
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
+#: Usettings.dfm:1321
+msgid "Цвет"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet8..grdpnlWiki..Label77..Caption
+#: Usettings.dfm:1859
+msgid "Цвет окаймления"
+msgstr ""
+
+#. FaddPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..Label3..Caption
+#: UaddPoint.dfm:174
+#. FImport..GroupBox1..Label3..Caption
+#: UImport.dfm:44
+msgid "Цвет текста"
+msgstr ""
+
+#. FaddPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..Label4..Caption
+#: UaddPoint.dfm:277
+#. FImport..GroupBox1..Label4..Caption
+#: UImport.dfm:51
+msgid "Цвет тени"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
+#: Usettings.dfm:1606
+msgid "Цвет трека:"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
+#: Usettings.dfm:1418
+msgid "Цвет фона"
+msgstr ""
+
+#. FDGAvailablePic..GroupBox1..Label5..Caption
+#: UFDGAvailablePic.dfm:76
+msgid "Цвет:"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_Gamma
+#: UResStrings.pas:107
+msgid "Цветовая гамма"
+msgstr ""
+
+#. Fmain..PopupMenu1..N28..Caption
+#: Unit1.dfm:2778
+msgid "Центрировать с масштабом"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_SelectArea
+#: UResStrings.pas:12
+msgid "Часть выделенной области находится вне карты.\n"
+"Область будет ограничена по размерам "
+"карты."
+msgstr ""
+
+#. FaddLine..flwpnlStyle..Label5..Caption
+#: UaddLine.dfm:148
+#. FAddPoly..pnlLine..flwpnlLine..Label5..Caption
+#: UaddPoly.dfm:208
+#. FImport..GroupBox2..Label2..Caption
+#: UImport.dfm:179
+#. FImport..GroupBox3..Label11..Caption
+#: UImport.dfm:246
+msgid "Ширина"
+msgstr ""
+
+#. FSettings..PageControl1..TabSheet5..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
+#: Usettings.dfm:1589
+msgid "Ширина трека:"
+msgstr ""
+
+#. frmSearchResults..lvResults......Caption
+#: frm_SearchResults.dfm:29
+msgid "Широта"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_LonLat2
+#: UResStrings.pas:48
+msgid "Широта в левом верхнем углу должна быть меньше \n"
+"широты в правом нижнем!"
+msgstr ""
+
+#. frLonLat..grdpnlMain..lblLat..Caption
+#: fr_LonLat.dfm:66
+msgid "Широта:"
+msgstr ""
+
+#. Fsaveas..PageControl1..TabSheet5..Caption
+#: USaveas.dfm:61
+msgid "Экспорт"
+msgstr ""
+
+#. Fsaveas..PageControl1..TabSheet5..Label9..Caption
+#: USaveas.dfm:81
+#. frExportToFileCont..pnlCenter..pnlMain..lblNamesType..Caption
+#: RegionProcess/fr_ExportToFileCont.dfm:97
+msgid "Экспорт выделенного участка в формат"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_ExportTiles
+#: UResStrings.pas:127
+msgid "Экспорт тайлов"
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NView..N31..Caption
+#: Unit1.dfm:573
+msgid "Элементы интерфейса"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_CantGetTileFileName
+#: UResStrings.pas:28
+msgid "Это не тайловый кеш, невозможно получить имя файла с "
+"тайлом."
+msgstr ""
+
+#. Fmain..TBDock..TBXMainMenu..NParams..TBLang..Caption
+#: Unit1.dfm:1017
+#. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlLang..Label8..Caption
+#: Usettings.dfm:1268
+msgid "Язык"
+msgstr ""
+
+#. frmGoTo..RB4..Caption
+#: frm_GoTo.dfm:116
+#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem1..EditCaption
+#: Unit1.dfm:144
+#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem1..Caption
+#: Unit1.dfm:146
+#. Fmain..TBDock..TBMainToolBar..TBGoTo..TBEditItem1..EditCaption
+#: Unit1.dfm:148
+#. Fmain..TBDock..TBXToolBarSearch..TBXSelectSrchType..TBXSelectYandexSrch..Caption
+#: Unit1.dfm:1099
+msgid "Яндекс"
+msgstr ""
+
+#. Fabout..Label9..Caption
+#: UAbout.dfm:125
+msgid "Яндекс.Деньги:"
+msgstr ""
+
+#. Fmain..SaveLink..Filter
+#: Unit1.dfm:5253
+msgid "Ярлык|*.lnk"
 msgstr ""
 
