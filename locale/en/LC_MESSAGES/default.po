@@ -951,9 +951,8 @@ msgstr "Hybrid"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NMainToolBarShow..Caption
 #: Unit1.dfm:447
-#, fuzzy
 msgid "Главная"
-msgstr "Main panel"
+msgstr "Main"
 
 #. Fmain..TBDock..TBMainToolBar..Caption
 #: Unit1.dfm:91
@@ -1054,7 +1053,8 @@ msgstr "For"
 #: UResStrings.pas:72
 msgid "Для карты %0:s отключена загрузка тайлов из-за ошибки: "
 "%1:s"
-msgstr ""
+msgstr "Downloading of map %0:s disabled by error: "
+"%1:s"
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
 #: UResStrings.pas:58
@@ -1266,9 +1266,8 @@ msgstr "Completion:"
 
 #. Programmer's name for it: SAS_STR_BattaryStateCharge
 #: UResStrings.pas:156
-#, fuzzy
 msgid "Заряжается"
-msgstr "Settings"
+msgstr "Charge"
 
 #. FSettings..PageControl1..TabSheet1..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
 #: Usettings.dfm:734
@@ -1427,15 +1426,13 @@ msgstr "Source:"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NsrcToolBarShow..Caption
 #: Unit1.dfm:461
-#, fuzzy
 msgid "Источники"
 msgstr "Source"
 
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
 #: UResStrings.pas:160
-#, fuzzy
 msgid "Как на главной карте"
-msgstr "Primary map's tile"
+msgstr "Same as main map"
 
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
@@ -1857,15 +1854,13 @@ msgstr "Unable to fix position"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 #: UResStrings.pas:74
-#, fuzzy
 msgid "Неизвестная ошибка при скачивании"
-msgstr "Error while saving!"
+msgstr "Unknown error while downloading"
 
 #. Programmer's name for it: SAS_STR_BattaryStateUnknown
 #: UResStrings.pas:157
-#, fuzzy
 msgid "Неизвестно"
-msgstr "Name"
+msgstr "Unknown"
 
 #. Programmer's name for it: SAS_ERR_Nopoints
 #: UResStrings.pas:31
@@ -2047,9 +2042,8 @@ msgstr "Time remaining:"
 
 #. Programmer's name for it: SAS_STR_BattaryStateOnLine
 #: UResStrings.pas:155
-#, fuzzy
 msgid "От сети"
-msgstr "Altitude"
+msgstr "OnLine"
 
 #. Fmain..PopupMenu1..N25..Caption
 #: Unit1.dfm:2952
@@ -2219,10 +2213,10 @@ msgstr "Error proxy authorizing"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptCompileError
 #: UResStrings.pas:69
-#, fuzzy
 msgid "Ошибка в скрипте при компиляции\n"
 "%0:s"
-msgstr "Error proxy authorizing"
+msgstr "Compile time error of script\n"
+"%0:s"
 
 #. Programmer's name for it: SAS_ERR_ParamsInput
 #: UResStrings.pas:44
@@ -2248,9 +2242,8 @@ msgstr "Error opening port!"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptByteCodeLoad
 #: UResStrings.pas:70
-#, fuzzy
 msgid "Ошибка при загрузке байткода"
-msgstr "Error proxy authorizing"
+msgstr "Error at script bytecode loading"
 
 #. Programmer's name for it: SAS_ERR_Save
 #: UResStrings.pas:34
@@ -2261,14 +2254,15 @@ msgstr "Error while saving!"
 #: UResStrings.pas:68
 msgid "Ошибка скрипта карты %0:s:\n"
 "Неожиданная ошибка"
-msgstr ""
+msgstr "Script error of the map %0:s:\n"
+"Unexpected error"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptError
 #: UResStrings.pas:67
-#, fuzzy
 msgid "Ошибка скрипта карты %0:s:\n"
 "%1:s"
-msgstr "Error opening port!"
+msgstr "Script error of the map %0:s:\n"
+"%1:s"
 
 #. Programmer's name for it: SAS_ERR_CreateArh
 #: UResStrings.pas:49
@@ -2283,12 +2277,12 @@ msgstr "Error reading file!"
 #. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
 #: UResStrings.pas:73
 msgid "Ошибочный тип данных"
-msgstr ""
+msgstr "Unexpeced conent type"
 
 #. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
 #: UResStrings.pas:71
 msgid "Ошибочный тип проэкции карты %0:s"
-msgstr ""
+msgstr "Error in projection \"%0:s\" of the map"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..Caption
 #: Unit1.dfm:441
@@ -2755,7 +2749,7 @@ msgstr "Quality:"
 #: UResStrings.pas:159
 msgid "Разрешение: %0:dx%1:d Разбить на %2:d "
 "файлов"
-msgstr ""
+msgstr "Quality: %0:dx%1:d Split to %2:d files"
 
 #. Fmain..TBDock..TBXMainMenu..NView..N4..NSensors..NSensorLenToMarkBar..Caption
 #. Fmain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSensorLenToMarkBar..Caption
@@ -2891,7 +2885,7 @@ msgstr "Stitch selected area"
 #. Programmer's name for it: SAS_STR_MapCombineProgressLine0
 #: UResStrings.pas:158
 msgid "Склеить: %0:dx%1:d (%2:d) файлов"
-msgstr ""
+msgstr "Stitch: %0:dx%1:d (%2:d) files"
 
 #. Programmer's name for it: SAS_STR_OperationMapCombineCaption
 #: UResStrings.pas:152
@@ -3298,7 +3292,8 @@ msgstr "File not found!"
 #: UResStrings.pas:29
 msgid "Файл: %0:s\n"
 "%1:s"
-msgstr ""
+msgstr "File: %0:s\n"
+"%1:s"
 
 #. Programmer's name for it: SAS_STR_files
 #: UResStrings.pas:103
@@ -3447,7 +3442,8 @@ msgstr "Interface"
 #: UResStrings.pas:28
 msgid "Это не тайловый кеш, невозможно получить имя файла с "
 "тайлом."
-msgstr ""
+msgstr "This is not simple file storage. Tile's file name not "
+"exists."
 
 #. Fmain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. FSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlLang..Label8..Caption
