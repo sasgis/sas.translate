@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2010-11-23 15:23\n"
+"POT-Creation-Date: 2010-11-25 14:50\n"
 "PO-Revision-Date: 2010-11-10 08:41+0200\n"
 "Last-Translator: Олександр (6c6c6) <6c6c6.ukr@gmail.com>\n"
 "Language-Team: Localize.org.ua <6c6c6.ukr@gmail.com>\n"
@@ -62,27 +62,27 @@ msgstr "*При виборі чорного кольору, Ви отримає�
 "лінію"
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:398
+#: RegionProcess/fr_MapCombine.dfm:375
 msgid ".dat"
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:399
+#: RegionProcess/fr_MapCombine.dfm:376
 msgid ".kml"
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:395
+#: RegionProcess/fr_MapCombine.dfm:372
 msgid ".map"
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:396
+#: RegionProcess/fr_MapCombine.dfm:373
 msgid ".tab"
 msgstr ""
 
 #. frMapCombine..Panel4..chklstPrTypes....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:397
+#: RegionProcess/fr_MapCombine.dfm:374
 msgid ".w"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgid "Blackman"
 msgstr ""
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:113
+#: RegionProcess/fr_MapCombine.dfm:106
 msgid "Bmp (Bitmap Picture) без сжатия"
 msgstr "Bmp (Bitmap Picture) без стиснення"
 
@@ -247,7 +247,7 @@ msgstr ""
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat..Text
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:109  RegionProcess/fr_MapCombine.dfm:112
+#: RegionProcess/fr_MapCombine.dfm:102  RegionProcess/fr_MapCombine.dfm:105
 msgid "Ecw (Enhanced Compression Wavelet)"
 msgstr ""
 
@@ -375,12 +375,12 @@ msgid "iPhone (Ниже v2.2 64х64)"
 msgstr "iPhone (Нижче v2.2 64х64)"
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:115
+#: RegionProcess/fr_MapCombine.dfm:108
 msgid "JPEG (Joint Photographic Experts Group)"
 msgstr ""
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:116
+#: RegionProcess/fr_MapCombine.dfm:109
 msgid "Jpeg2000"
 msgstr ""
 
@@ -395,7 +395,7 @@ msgid "KML |*.kml"
 msgstr ""
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:114
+#: RegionProcess/fr_MapCombine.dfm:107
 msgid "Kmz для Garmin"
 msgstr "Kmz для Garmin"
 
@@ -559,7 +559,7 @@ msgstr ""
 #. frExportToFileCont..dlgSaveTargetFile..Filter
 #. frMapCombine..dlgSaveTargetFile..Filter
 #: RegionProcess/fr_ExportToFileCont.dfm:175
-#: RegionProcess/fr_MapCombine.dfm:405
+#: RegionProcess/fr_MapCombine.dfm:382
 msgid "Zip |*.zip"
 msgstr ""
 
@@ -974,7 +974,7 @@ msgstr "Головне меню"
 
 #. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
 #. FSettings..PageControl1..TabSheet9..MapList......Caption
-#: fr_ShortCutList.dfm:48  Usettings.dfm:51
+#: fr_ShortCutList.dfm:49  Usettings.dfm:51
 msgid "Гор. кл."
 msgstr "Гар. кл."
 
@@ -1508,7 +1508,7 @@ msgid "Категория:"
 msgstr "Категорія:"
 
 #. frMapCombine..pnlCenter..flwpnlJpegQuality..lblJpgQulity..Caption
-#: RegionProcess/fr_MapCombine.dfm:350
+#: RegionProcess/fr_MapCombine.dfm:329
 msgid "Качество (для JPEG и ECW):"
 msgstr "Якість (для JPEG та ECW):"
 
@@ -1623,7 +1623,7 @@ msgstr "Копіювати вибрані tid для вставки у "
 #: RegionProcess/fr_ExportAUX.dfm:105  RegionProcess/fr_ExportGEKml.dfm:145
 #: RegionProcess/fr_ExportIPhone.dfm:29
 #: RegionProcess/fr_ExportToFileCont.dfm:150
-#: RegionProcess/fr_ExportYaMaps.dfm:342 RegionProcess/fr_MapCombine.dfm:48
+#: RegionProcess/fr_ExportYaMaps.dfm:342 RegionProcess/fr_MapCombine.dfm:44
 #: RegionProcess/fr_TilesCopy.dfm:173
 msgid "Куда сохранять:"
 msgstr "Куди зберігати:"
@@ -1694,7 +1694,7 @@ msgstr "Масштаб карти, на якому Ви знаходитесь"
 #. frMapCombine..Panel1..Panel3..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
 #. frTilesDownload..pnlBottom..pnlRight..lblZoom..Caption
-#: RegionProcess/fr_ExportAUX.dfm:71  RegionProcess/fr_MapCombine.dfm:285
+#: RegionProcess/fr_ExportAUX.dfm:71  RegionProcess/fr_MapCombine.dfm:270
 #: RegionProcess/fr_TilesDelete.dfm:52 RegionProcess/fr_TilesDownload.dfm:51
 msgid "Масштаб:"
 msgstr "Масштаб:"
@@ -1800,12 +1800,12 @@ msgid "Назначить сочетание"
 msgstr "Призначити поєднання"
 
 #. frMapCombine..pnlCenter..chkUseMapMarks..Caption
-#: RegionProcess/fr_MapCombine.dfm:317
+#: RegionProcess/fr_MapCombine.dfm:300
 msgid "Накладывать отображаемые метки"
 msgstr "Накладати позначки, що показуються"
 
 #. frMapCombine..Panel1..Panel2..lblHybr..Caption
-#: RegionProcess/fr_MapCombine.dfm:221
+#: RegionProcess/fr_MapCombine.dfm:209
 msgid "Наложить:"
 msgstr "Накласти:"
 
@@ -1887,7 +1887,7 @@ msgstr "Відсутній потрібний набір точок!"
 #. frMapCombine..Panel1..Panel2..cbbHybr....Items.Strings
 #. Programmer's name for it: SAS_STR_No
 #: Unit1.dfm:637  Unit1.dfm:705 UShortcutEditor.dfm:21
-#: RegionProcess/fr_MapCombine.dfm:259 RegionProcess/fr_MapCombine.dfm:261
+#: RegionProcess/fr_MapCombine.dfm:246 RegionProcess/fr_MapCombine.dfm:248
 #: UResStrings.pas:105
 msgid "Нет"
 msgstr "Ні"
@@ -2442,7 +2442,7 @@ msgid "Площадь"
 msgstr "Площа"
 
 #. frMapCombine..pnlRight..grpSplit..lblSplitVert..Caption
-#: RegionProcess/fr_MapCombine.dfm:152
+#: RegionProcess/fr_MapCombine.dfm:142
 msgid "по вертикали, на"
 msgstr "по вертикалі, на"
 
@@ -2457,7 +2457,7 @@ msgid "По времени с учетом пробок"
 msgstr "За часом з врахуванням заторів"
 
 #. frMapCombine..pnlRight..grpSplit..lblSplitHor..Caption
-#: RegionProcess/fr_MapCombine.dfm:144
+#: RegionProcess/fr_MapCombine.dfm:134
 msgid "по горизотали, на"
 msgstr "по горизоталі, на"
 
@@ -2590,7 +2590,7 @@ msgid "Применить"
 msgstr "Застосувати"
 
 #. frMapCombine..pnlCenter..chkUseRecolor..Caption
-#: RegionProcess/fr_MapCombine.dfm:327
+#: RegionProcess/fr_MapCombine.dfm:309
 msgid "Применять настройки цвета"
 msgstr "Застосовувати налаштуванння кольору"
 
@@ -2722,7 +2722,7 @@ msgid "Пытаться загружать отсутствующие тайлы
 msgstr "Намагатись завантажувати відсутні тайли"
 
 #. frMapCombine..pnlRight..grpSplit..Caption
-#: RegionProcess/fr_MapCombine.dfm:137
+#: RegionProcess/fr_MapCombine.dfm:127
 msgid "Разбить изображение"
 msgstr "Розбити зображення"
 
@@ -2799,7 +2799,7 @@ msgid "Результаты поиска"
 msgstr "Результати пошуку"
 
 #. frMapCombine..pnlOutputFormat..lblOutputFormat..Caption
-#: RegionProcess/fr_MapCombine.dfm:95
+#: RegionProcess/fr_MapCombine.dfm:88
 msgid "Результирующий формат:"
 msgstr "Результуючий формат:"
 
@@ -2897,7 +2897,7 @@ msgid "Склеить"
 msgstr "Склеїти"
 
 #. frMapCombine..pnlTop..Caption
-#: RegionProcess/fr_MapCombine.dfm:23
+#: RegionProcess/fr_MapCombine.dfm:21
 msgid "Склеить выделенный фрагмент"
 msgstr "Склеїти виділений фрагмент"
 
@@ -2976,7 +2976,7 @@ msgstr "Спочатку треба виділити хочби один раз 
 "область!"
 
 #. frMapCombine..Panel4..lblPrTypes..Caption
-#: RegionProcess/fr_MapCombine.dfm:383
+#: RegionProcess/fr_MapCombine.dfm:360
 msgid "Создавать файл привязки:"
 msgstr "Створювати файл прив’язки:"
 
@@ -3169,7 +3169,7 @@ msgstr "Поточна позиція завжди в центрі"
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
 #. frTilesDownload..pnlBottom..pnlMain..lblMap..Caption
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblMap..Caption
-#: RegionProcess/fr_MapCombine.dfm:209  RegionProcess/fr_TilesDelete.dfm:88
+#: RegionProcess/fr_MapCombine.dfm:197  RegionProcess/fr_TilesDelete.dfm:88
 #: RegionProcess/fr_TilesDownload.dfm:96 RegionProcess/fr_TilesGenPrev.dfm:106
 msgid "Тип карты:"
 msgstr "Тип карти:"
