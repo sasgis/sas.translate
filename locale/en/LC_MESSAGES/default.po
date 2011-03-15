@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2011-03-15 13:17\n"
+"POT-Creation-Date: 2011-03-15 13:42\n"
 "PO-Revision-Date: 2010-12-06 12:46+0200\n"
 "Last-Translator: Viktor Demidov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -247,11 +247,6 @@ msgstr "English"
 msgid "ES1.95"
 msgstr ""
 
-#. frmDebugInfo..Caption
-#: frm_DebugInfo.dfm:4
-msgid "frmDebugInfo"
-msgstr ""
-
 #. frmInvisibleBrowser..Caption
 #: frm_InvisibleBrowser.dfm:4
 msgid "frmInvisibleBrowser"
@@ -445,11 +440,6 @@ msgstr ""
 msgid "PNG|*.png"
 msgstr ""
 
-#. frmDebugInfo..pnlBottom..btnRefresh..Caption
-#: frm_DebugInfo.dfm:48
-msgid "Refresh"
-msgstr ""
-
 #. Fabout..LabelName..Caption
 #. FEditMap..pnlCacheType..CBCacheType....Items.Strings
 #. Fmain..Caption
@@ -484,9 +474,8 @@ msgstr ""
 msgid "Spline"
 msgstr ""
 
-#. frmDebugInfo..Font.Name
 #. frmInvisibleBrowser..Font.Name
-#: frm_DebugInfo.dfm:11  frm_InvisibleBrowser.dfm:11
+#: frm_InvisibleBrowser.dfm:11
 msgid "Tahoma"
 msgstr ""
 
@@ -845,7 +834,8 @@ msgstr "Select the source"
 
 #. frLonLat..grdpnlFull..Panel2..pnlZoom..cbbZoom..Hint
 #: fr_LonLat.dfm:222
-msgid "Выбор мастаба"
+#, fuzzy
+msgid "Выбор масштаба"
 msgstr "Zoom selection"
 
 #. Fmain..TBDock..SrcToolbar..TBSMB..Hint
