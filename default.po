@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-04-30 14:48\n"
-"PO-Revision-Date: 2011-04-30 14:48\n"
+"POT-Creation-Date: 2011-05-16 17:51\n"
+"PO-Revision-Date: 2011-05-16 17:51\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,12 +30,12 @@ msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..Caption
-#: frm_Main.dfm:918
+#: frm_Main.dfm:929
 msgid "&Help"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_GoogleSearchLanguage
-#: u_ResStrings.pas:220
+#: u_ResStrings.pas:218
 msgid "&hl=en"
 msgstr ""
 
@@ -60,7 +60,7 @@ msgid "&View"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_mperp
-#: u_ResStrings.pas:226
+#: u_ResStrings.pas:224
 msgid "/pixel"
 msgstr ""
 
@@ -127,37 +127,15 @@ msgstr ""
 msgid "23.4 km"
 msgstr ""
 
-#. frmProgressDownload..Panel1..GridPanel1..Button1..Caption
-#: frm_ProgressDownload.dfm:253
-#. Programmer's name for it: SAS_STR_Stop
-#: u_ResStrings.pas:135
-msgid "Abort"
-msgstr ""
-
 #. frmAbout..Caption
 #: frm_About.dfm:5
 #. frmMain..TBDock..TBXMainMenu..NHelp..N16..Caption
-#: frm_Main.dfm:932
+#: frm_Main.dfm:943
 msgid "About"
 msgstr ""
 
-#. frmMain..MainPopupMenu..NMarkOper..Caption
-#: frm_Main.dfm:2907
-msgid "Actions"
-msgstr ""
-
-#. frmMarkCategoryEdit..pnlBottomButtons..btnOk..Caption
-#: frm_MarkCategoryEdit.dfm:74
-#. frmMarkEditPath..pnlBottomButtons..btnOk..Caption
-#: frm_MarkEditPath.dfm:202
-#. frmMarkEditPoint..pnlBottomButtons..btnOk..Caption
-#: frm_MarkEditPoint.dfm:70
-#. frmMarkEditPoly..pnlBottomButtons..btnOk..Caption
-#: frm_MarkEditPoly.dfm:46
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
 #: frm_MarksExplorer.dfm:278
-#. Programmer's name for it: SAS_STR_Add
-#: u_ResStrings.pas:132
 msgid "Add"
 msgstr ""
 
@@ -214,7 +192,7 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Caption
 #: frm_Main.dfm:778
 #. frmMain..MainPopupMenu..NaddPoint..Caption
-#: frm_Main.dfm:2949
+#: frm_Main.dfm:2959
 msgid "Add Placemark"
 msgstr ""
 
@@ -234,7 +212,7 @@ msgid "Add tiles to database"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathSave..Hint
-#: frm_Main.dfm:1119
+#: frm_Main.dfm:1131
 msgid "Add to Database"
 msgstr ""
 
@@ -251,7 +229,7 @@ msgid "Add visible placemarks"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N26..Caption
-#: frm_Main.dfm:3052
+#: frm_Main.dfm:3062
 msgid "Additional Operations"
 msgstr ""
 
@@ -280,7 +258,7 @@ msgid "All by default"
 msgstr ""
 
 #. frmMain..OpenSessionDialog....Filter
-#: frm_Main.dfm:1293
+#: frm_Main.dfm:1303
 msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.k"
 "mz;*.sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
 "File Version 2.1 (*.plt)|*.plt|Google KMZ files "
@@ -289,9 +267,9 @@ msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.k"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
-#: u_ResStrings.pas:204
+#: u_ResStrings.pas:202
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
-#: u_ResStrings.pas:206
+#: u_ResStrings.pas:204
 msgid "Altitude"
 msgstr ""
 
@@ -324,9 +302,9 @@ msgid "Are you sure?"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsSq..Caption
-#: frm_Main.dfm:2938
+#: frm_Main.dfm:2948
 #. Programmer's name for it: SAS_STR_S
-#: u_ResStrings.pas:146
+#: u_ResStrings.pas:144
 msgid "Area"
 msgstr ""
 
@@ -362,17 +340,17 @@ msgid "Autosave tracks to .plt"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportAUXGeoServerCaption
-#: u_ResStrings.pas:163
+#: u_ResStrings.pas:161
 msgid "AUX for LizardTech GeoExpress Server"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedMenuItemName
-#: u_ResStrings.pas:186
+#: u_ResStrings.pas:184
 msgid "Average speed"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
-#: u_ResStrings.pas:184
+#: u_ResStrings.pas:182
 msgid "Average speed, km/h:"
 msgstr ""
 
@@ -387,12 +365,12 @@ msgid "Base Map:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
-#: u_ResStrings.pas:218
+#: u_ResStrings.pas:216
 msgid "Battery"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusCaption
-#: u_ResStrings.pas:216
+#: u_ResStrings.pas:214
 msgid "Battery:"
 msgstr ""
 
@@ -431,27 +409,27 @@ msgid "By default"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem8..Caption
-#: frm_Main.dfm:1148
+#: frm_Main.dfm:1160
 msgid "By Distance"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem2..Caption
-#: frm_Main.dfm:1142
+#: frm_Main.dfm:1154
 msgid "By Maps@mail.ru"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem9..Caption
-#: frm_Main.dfm:1154
+#: frm_Main.dfm:1166
 msgid "By Time"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem7..Caption
-#: frm_Main.dfm:1160
+#: frm_Main.dfm:1172
 msgid "By Time Using Traffic Info"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem1..Caption
-#: frm_Main.dfm:1167
+#: frm_Main.dfm:1179
 msgid "By yournavigation.org (OSM)"
 msgstr ""
 
@@ -462,6 +440,11 @@ msgstr ""
 msgid "Cache"
 msgstr ""
 
+#. frmMapTypeEdit..pnlCacheName..Label2..Caption
+#: frm_MapTypeEdit.dfm:229
+msgid "Cache folder"
+msgstr ""
+
 #. frmSettings..PageControl1..TabSheet9..MapList......Caption
 #: frm_Settings.dfm:43
 msgid "Cache Folder"
@@ -469,8 +452,6 @@ msgstr ""
 
 #. frmMapTypeEdit..pnlCacheType..Label5..Caption
 #: frm_MapTypeEdit.dfm:124
-#. frmSettings..PageControl1..TabSheet2..grdpnlCache..Label37..Caption
-#: frm_Settings.dfm:542
 msgid "Cache type"
 msgstr ""
 
@@ -502,17 +483,17 @@ msgstr ""
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Caption
 #: frm_MarkCategoryEdit.dfm:63
 #. frmMarkEditPath..pnlBottomButtons..btnCancel..Hint
-#: frm_MarkEditPath.dfm:213
+#: frm_MarkEditPath.dfm:219
 #. frmMarkEditPath..pnlBottomButtons..btnCancel..Caption
-#: frm_MarkEditPath.dfm:216
+#: frm_MarkEditPath.dfm:222
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Hint
-#: frm_MarkEditPoint.dfm:56
+#: frm_MarkEditPoint.dfm:54
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
-#: frm_MarkEditPoint.dfm:59
+#: frm_MarkEditPoint.dfm:57
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
-#: frm_MarkEditPoly.dfm:58
+#: frm_MarkEditPoly.dfm:56
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
-#: frm_MarkEditPoly.dfm:61
+#: frm_MarkEditPoly.dfm:59
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #: frm_RegionProcess.dfm:167
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
@@ -546,16 +527,16 @@ msgstr ""
 #. frmImportConfigEdit..lblCategory..Caption
 #: frm_ImportConfigEdit.dfm:20
 #. frmMarkEditPath..pnlCategory..lblCategory..Caption
-#: frm_MarkEditPath.dfm:43
+#: frm_MarkEditPath.dfm:42
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlCategory..lblCategory..Caption
-#: frm_MarkEditPoint.dfm:433
+#: frm_MarkEditPoint.dfm:436
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
-#: frm_MarkEditPoly.dfm:271
+#: frm_MarkEditPoly.dfm:291
 msgid "Category:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N28..Caption
-#: frm_Main.dfm:2957
+#: frm_Main.dfm:2967
 msgid "Center With Zoom"
 msgstr ""
 
@@ -567,7 +548,7 @@ msgid "Centered GPS Position"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_BattaryStateCharge
-#: u_ResStrings.pas:173
+#: u_ResStrings.pas:171
 msgid "Charging"
 msgstr ""
 
@@ -582,7 +563,7 @@ msgid "Close this window after start"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_sm
-#: u_ResStrings.pas:228
+#: u_ResStrings.pas:226
 msgid "cm"
 msgstr ""
 
@@ -595,11 +576,11 @@ msgstr ""
 #. frmImportConfigEdit..grpPoly..lblPolyFillColor..Caption
 #: frm_ImportConfigEdit.dfm:266
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
-#: frm_MarkEditPath.dfm:120
+#: frm_MarkEditPath.dfm:121
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
-#: frm_MarkEditPoly.dfm:104
+#: frm_MarkEditPoly.dfm:108
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
-#: frm_MarkEditPoly.dfm:183
+#: frm_MarkEditPoly.dfm:197
 #. frmSettings..PageControl1..TabSheet4..grdpnlUI..pnlUILeft..pnlTileBorders..flwpnlTileBorders..Label27..Caption
 #: frm_Settings.dfm:1114
 #. frmSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
@@ -613,7 +594,7 @@ msgid "Color:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..NGoToForum..Caption
-#: frm_Main.dfm:951
+#: frm_Main.dfm:962
 msgid "Community  (http://www.sasgis.ru/forum)"
 msgstr ""
 
@@ -630,12 +611,12 @@ msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup "
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
-#: u_ResStrings.pas:165
+#: u_ResStrings.pas:163
 msgid "Compressing to TAR"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportZipPackCaption
-#: u_ResStrings.pas:164
+#: u_ResStrings.pas:162
 msgid "Compressing to ZIP"
 msgstr ""
 
@@ -679,7 +660,7 @@ msgstr ""
 #. frmGoTo..RB1..Caption
 #: frm_GoTo.dfm:204
 #. frmMain..MainPopupMenu..N43..N30..Caption
-#: frm_Main.dfm:3017
+#: frm_Main.dfm:3027
 #. Programmer's name for it: SAS_STR_coordinates
 #: u_ResStrings.pas:88
 msgid "Coordinates"
@@ -703,22 +684,22 @@ msgid "Copy TID's to clipboard"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..Caption
-#: frm_Main.dfm:2975
+#: frm_Main.dfm:2985
 msgid "Copy to Clipboard"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
-#: u_ResStrings.pas:168
+#: u_ResStrings.pas:166
 msgid "Copying"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingMenuItemName
-#: u_ResStrings.pas:210
+#: u_ResStrings.pas:208
 msgid "Course"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingCaption
-#: u_ResStrings.pas:208
+#: u_ResStrings.pas:206
 msgid "Course:"
 msgstr ""
 
@@ -733,17 +714,17 @@ msgid "Create Shortcut"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N26..NGTOPO30..Caption
-#: frm_Main.dfm:3056
+#: frm_Main.dfm:3066
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N26..NSRTM3..Caption
-#: frm_Main.dfm:3061
+#: frm_Main.dfm:3071
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedCaption
-#: u_ResStrings.pas:180
+#: u_ResStrings.pas:178
 msgid "Current speed, km/h:"
 msgstr ""
 
@@ -755,7 +736,7 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
 #: frm_Main.dfm:521
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
-#: frm_Main.dfm:1065
+#: frm_Main.dfm:1076
 msgid "Current Zoom"
 msgstr ""
 
@@ -769,13 +750,18 @@ msgstr ""
 msgid "Date:"
 msgstr ""
 
+#. frmSettings..PageControl1..TabSheet2..grdpnlCache..Label37..Caption
+#: frm_Settings.dfm:542
+msgid "Default cache type"
+msgstr ""
+
 #. frmShortCutEdit..GroupBox1..Caption
 #: frm_ShortCutEdit.dfm:23
 msgid "Define hotkey"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkDel..Caption
-#: frm_Main.dfm:2901
+#: frm_Main.dfm:2911
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
 #: frm_MarksExplorer.dfm:290
 #. frmRegionProcess..PageControl1..TabSheet4..Caption
@@ -794,17 +780,17 @@ msgid "Delete only tiles of size, bytes:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..dlm..Caption
-#: frm_Main.dfm:3102
+#: frm_Main.dfm:3111
 msgid "Delete Overlay Layer Tile from Cache"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
-#: frm_Main.dfm:1105
+#: frm_Main.dfm:1117
 msgid "Delete Point"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NDel..Caption
-#: frm_Main.dfm:3092
+#: frm_Main.dfm:3101
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr ""
 
@@ -826,7 +812,7 @@ msgid "Deleted total:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_OperationDeleteCaption
-#: u_ResStrings.pas:166
+#: u_ResStrings.pas:164
 msgid "Deleting"
 msgstr ""
 
@@ -849,8 +835,8 @@ msgstr ""
 
 #. frmDGAvailablePic..Caption
 #: frm_DGAvailablePic.dfm:5
-#. frmMain..MainPopupMenu..N26..DigitalGlobe1....Caption
-#: frm_Main.dfm:3071
+#. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
+#: frm_Main.dfm:3080
 msgid "DigitalGlobe Availability"
 msgstr ""
 
@@ -860,19 +846,19 @@ msgid "Disk write error. The task will be aborted!"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
-#: u_ResStrings.pas:177
+#: u_ResStrings.pas:175
 msgid "Displayed Main Map"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_LenPath
 #: u_ResStrings.pas:93
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistMenuItemName
-#: u_ResStrings.pas:194
+#: u_ResStrings.pas:192
 msgid "Distance"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2Caption
-#: u_ResStrings.pas:200
+#: u_ResStrings.pas:198
 msgid "Distance #2, km:"
 msgstr ""
 
@@ -894,24 +880,24 @@ msgstr ""
 #. Programmer's name for it: SAS_STR_LenToMark
 #: u_ResStrings.pas:94
 #. Programmer's name for it: SAS_STR_SensorNavToPointMenuItemName
-#: u_ResStrings.pas:214
+#: u_ResStrings.pas:212
 msgid "Distance to placemark"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointCaption
-#: u_ResStrings.pas:212
+#: u_ResStrings.pas:210
 msgid "Distance to placemark:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1Caption
-#: u_ResStrings.pas:196
+#: u_ResStrings.pas:194
 msgid "Distance, km:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_MarshLen
 #: u_ResStrings.pas:86
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistCaption
-#: u_ResStrings.pas:192
+#: u_ResStrings.pas:190
 msgid "Distance:"
 msgstr ""
 
@@ -950,17 +936,17 @@ msgid "Download of map %0:s disabled because of error: "
 msgstr ""
 
 #. frmMain..MainPopupMenu..ldm..Caption
-#: frm_Main.dfm:3097
+#: frm_Main.dfm:3106
 msgid "Download Overlay Layer Tile to Cache"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N21..Caption
-#: frm_Main.dfm:3086
+#: frm_Main.dfm:3095
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr ""
 
 #. frmProgressDownload..SaveSessionDialog..Filter
-#: frm_ProgressDownload.dfm:273
+#: frm_ProgressDownload.dfm:269
 msgid "Download session (*.sls)|*.sls"
 msgstr ""
 
@@ -985,14 +971,14 @@ msgid "Downloaded total:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_LoadProcess
-#: u_ResStrings.pas:142
+#: u_ResStrings.pas:140
 #. Programmer's name for it: SAS_STR_OperationDownloadCaption
-#: u_ResStrings.pas:170
+#: u_ResStrings.pas:168
 msgid "Downloading"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_LoadProcessRepl
-#: u_ResStrings.pas:143
+#: u_ResStrings.pas:141
 msgid "Downloading with overwrite..."
 msgstr ""
 
@@ -1002,11 +988,9 @@ msgid "EarthSlicer cache folder:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkEdit..Caption
-#: frm_Main.dfm:2895
+#: frm_Main.dfm:2905
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
 #: frm_MarksExplorer.dfm:284
-#. Programmer's name for it: SAS_STR_Edit
-#: u_ResStrings.pas:133
 msgid "Edit"
 msgstr ""
 
@@ -1073,13 +1057,13 @@ msgid "Enabled"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-#: u_ResStrings.pas:156
+#: u_ResStrings.pas:154
 msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: "
 "02,250,7718,11942)"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
-#: u_ResStrings.pas:157
+#: u_ResStrings.pas:155
 msgid "Enter parameters"
 msgstr ""
 
@@ -1148,7 +1132,7 @@ msgstr ""
 #. frmRegionProcess..PageControl1..TabSheet5..Caption
 #: frm_RegionProcess.dfm:49
 #. Programmer's name for it: SAS_STR_ExportTiles
-#: u_ResStrings.pas:138
+#: u_ResStrings.pas:136
 msgid "Export"
 msgstr ""
 
@@ -1244,7 +1228,7 @@ msgid "from"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_BattaryStateOnLine
-#: u_ResStrings.pas:172
+#: u_ResStrings.pas:170
 msgid "From mains"
 msgstr ""
 
@@ -1274,7 +1258,7 @@ msgid "Gauge"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_gb
-#: u_ResStrings.pas:224
+#: u_ResStrings.pas:222
 msgid "GB"
 msgstr ""
 
@@ -1294,7 +1278,7 @@ msgid "Generate Lower Zooms for Selection"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_OperationGenPrevCaption
-#: u_ResStrings.pas:167
+#: u_ResStrings.pas:165
 msgid "Generating upper zooms"
 msgstr ""
 
@@ -1372,7 +1356,7 @@ msgid "Hide placemarks"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_OnHorizontal
-#: u_ResStrings.pas:151
+#: u_ResStrings.pas:149
 msgid "Horizontally"
 msgstr ""
 
@@ -1421,7 +1405,7 @@ msgstr ""
 #. frmImportConfigEdit..grpPoint..lblPointIconSize..Caption
 #: frm_ImportConfigEdit.dfm:63
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
-#: frm_MarkEditPoint.dfm:314
+#: frm_MarkEditPoint.dfm:316
 msgid "Icon size"
 msgstr ""
 
@@ -1498,42 +1482,42 @@ msgid "Internet && Cache"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
-#: u_ResStrings.pas:161
-msgid "iPhone (version 2.2 and above, 128х128)"
+#: u_ResStrings.pas:159
+msgid "iPhone (version 2.2 and above, 128x128)"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone64Caption
-#: u_ResStrings.pas:162
-msgid "iPhone (version prior to 2.2, 64х64)"
+#: u_ResStrings.pas:160
+msgid "iPhone (version prior to 2.2, 64x64)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..tbtmHelpBugTrack..Caption
-#: frm_Main.dfm:946
+#: frm_Main.dfm:957
 msgid "Issue Tracker (http://sasgis.ru/mantis)"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_kb
-#: u_ResStrings.pas:222
+#: u_ResStrings.pas:220
 msgid "KB"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_km
-#: u_ResStrings.pas:227
+#: u_ResStrings.pas:225
 msgid "km"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_kmperh
-#: u_ResStrings.pas:225
+#: u_ResStrings.pas:223
 msgid "km/h"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_km2
-#: u_ResStrings.pas:231
+#: u_ResStrings.pas:229
 msgid "km2"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
-#: u_ResStrings.pas:160
+#: u_ResStrings.pas:158
 msgid "KML (for Google Earth)"
 msgstr ""
 
@@ -1543,7 +1527,7 @@ msgid "KMZ for Garmin"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
-#: frm_Main.dfm:913
+#: frm_Main.dfm:924
 #. frmSettings..PageControl1..TabSheet4..grdpnlUI..pnlUIRight..pnlLang..Label8..Caption
 #: frm_Settings.dfm:1273
 msgid "Language"
@@ -1557,7 +1541,7 @@ msgstr ""
 #. frmSearchResults..lvResults......Caption
 #: frm_SearchResults.dfm:29
 #. Programmer's name for it: SAS_STR_Lat
-#: u_ResStrings.pas:148
+#: u_ResStrings.pas:146
 msgid "Latitude"
 msgstr ""
 
@@ -1578,33 +1562,33 @@ msgid "Latitude-Longitude order"
 msgstr ""
 
 #. frmMain..MainPopupMenu..TBLayerInfo..Caption
-#: frm_Main.dfm:3117
+#: frm_Main.dfm:3126
 msgid "Layer Info"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..NLayerParams..Caption
-#: frm_Main.dfm:898
+#: frm_Main.dfm:909
 msgid "Layer Settings"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
 #: frm_Main.dfm:764
 #. Programmer's name for it: SAS_STR_Layers
-#: u_ResStrings.pas:155
+#: u_ResStrings.pas:153
 msgid "Layers"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsLen..Caption
-#: frm_Main.dfm:2928
+#: frm_Main.dfm:2938
 #. Programmer's name for it: SAS_STR_L
-#: u_ResStrings.pas:147
+#: u_ResStrings.pas:145
 msgid "Length"
 msgstr ""
 
 #. frmImportConfigEdit..grpPoly..lblPolyLine..Caption
 #: frm_ImportConfigEdit.dfm:288
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
-#: frm_MarkEditPoly.dfm:164
+#: frm_MarkEditPoly.dfm:174
 msgid "Line:"
 msgstr ""
 
@@ -1631,7 +1615,7 @@ msgstr ""
 #. frmSearchResults..lvResults......Caption
 #: frm_SearchResults.dfm:33
 #. Programmer's name for it: SAS_STR_Lon
-#: u_ResStrings.pas:149
+#: u_ResStrings.pas:147
 msgid "Longitude"
 msgstr ""
 
@@ -1652,12 +1636,12 @@ msgid "Lower right corner"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_m
-#: u_ResStrings.pas:229
+#: u_ResStrings.pas:227
 msgid "m"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_m2
-#: u_ResStrings.pas:230
+#: u_ResStrings.pas:228
 msgid "m2"
 msgstr ""
 
@@ -1673,20 +1657,8 @@ msgstr ""
 msgid "Main Menu"
 msgstr ""
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnOpSelectMark..Hint
-#: frm_MarksExplorer.dfm:190
-msgid "Manage area within selected object"
-msgstr ""
-
-#. frmMain..TBDock..TBMainToolBar..TBRectSave..Hint
-#: frm_Main.dfm:76
-msgid "Manage selection"
-msgstr ""
-
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
-#: frm_Main.dfm:1130
-#. frmRegionProcess..Caption
-#: frm_RegionProcess.dfm:4
+#: frm_Main.dfm:1142
 msgid "Manage Selection"
 msgstr ""
 
@@ -1709,7 +1681,7 @@ msgid "Map enabled"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMapInfo..Caption
-#: frm_Main.dfm:3112
+#: frm_Main.dfm:3121
 msgid "Map Info"
 msgstr ""
 
@@ -1731,12 +1703,12 @@ msgid "Map script error %0:s (%2:s):\n"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
-#: frm_Main.dfm:894
+#: frm_Main.dfm:905
 msgid "Map Settings"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_EditMap
-#: u_ResStrings.pas:134
+#: u_ResStrings.pas:132
 msgid "Map Settings:"
 msgstr ""
 
@@ -1752,12 +1724,12 @@ msgstr ""
 #. frmSettings..PageControl1..TabSheet9..Caption
 #: frm_Settings.dfm:29
 #. Programmer's name for it: SAS_STR_Maps
-#: u_ResStrings.pas:154
+#: u_ResStrings.pas:152
 msgid "Maps"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedCaption
-#: u_ResStrings.pas:188
+#: u_ResStrings.pas:186
 msgid "Max.speed, km/h:"
 msgstr ""
 
@@ -1767,17 +1739,17 @@ msgid "Maximum number of track points:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedMenuItemName
-#: u_ResStrings.pas:190
+#: u_ResStrings.pas:188
 msgid "Maximum speed"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_mb
-#: u_ResStrings.pas:223
+#: u_ResStrings.pas:221
 msgid "MB"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..Caption
-#: frm_Main.dfm:2924
+#: frm_Main.dfm:2934
 msgid "Measurements"
 msgstr ""
 
@@ -1787,7 +1759,7 @@ msgid "Menu"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_Min
-#: u_ResStrings.pas:233
+#: u_ResStrings.pas:231
 msgid "min."
 msgstr ""
 
@@ -1802,17 +1774,17 @@ msgid "Minimap opacity"
 msgstr ""
 
 #. frmProgressDownload..Panel1..GridPanel1..Button3..Caption
-#: frm_ProgressDownload.dfm:233
+#: frm_ProgressDownload.dfm:231
 msgid "Minimize"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportYaMapsCaption
-#: u_ResStrings.pas:158
+#: u_ResStrings.pas:156
 msgid "Mobile Yandex.Maps (version 3)"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportYaMapsNewCaption
-#: u_ResStrings.pas:159
+#: u_ResStrings.pas:157
 msgid "Mobile Yandex.Maps (version 3.91 and "
 "above)"
 msgstr ""
@@ -1835,11 +1807,6 @@ msgstr ""
 msgid "Move"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NView..NGoToCur..Caption
-#: frm_Main.dfm:665
-msgid "Move to Cursor"
-msgstr ""
-
 #. frmIntrnalBrowser..EmbeddedWB1..DisableCtrlShortcuts
 #: frm_IntrnalBrowser.dfm:22
 #. frmInvisibleBrowser..WebBrowser1..DisableCtrlShortcuts
@@ -1854,17 +1821,12 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#. frmMapTypeEdit..pnlCacheName..Label2..Caption
-#: frm_MapTypeEdit.dfm:229
-msgid "Name in cache"
-msgstr ""
-
 #. frmMarkEditPath..pnlName..lblName..Caption
-#: frm_MarkEditPath.dfm:74
+#: frm_MarkEditPath.dfm:73
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
-#: frm_MarkEditPoint.dfm:464
+#: frm_MarkEditPoint.dfm:467
 #. frmMarkEditPoly..pnlName..lblName..Caption
-#: frm_MarkEditPoly.dfm:301
+#: frm_MarkEditPoly.dfm:321
 msgid "Name:"
 msgstr ""
 
@@ -1874,7 +1836,7 @@ msgid "Native cache folder:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkNav..Caption
-#: frm_Main.dfm:2913
+#: frm_Main.dfm:2923
 msgid "Navigate to Placemark"
 msgstr ""
 
@@ -1884,14 +1846,11 @@ msgid "Navigate to selected placemark"
 msgstr ""
 
 #. frmMarkEditPath..pnlCategory..CBKateg..Text
-#: frm_MarkEditPath.dfm:56
+#: frm_MarkEditPath.dfm:55
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlCategory..CBKateg..Text
-#: frm_MarkEditPoint.dfm:446
+#: frm_MarkEditPoint.dfm:449
 #. frmMarkEditPoly..pnlCategory..CBKateg..Text
-#: frm_MarkEditPoly.dfm:283
-msgid "New category"
-msgstr ""
-
+#: frm_MarkEditPoly.dfm:303
 #. Programmer's name for it: SAS_STR_NewCategory
 #: u_ResStrings.pas:123
 msgid "New Category"
@@ -1948,17 +1907,25 @@ msgid "Number of tiles to be cached in RAM"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1MenuItemName
-#: u_ResStrings.pas:198
+#: u_ResStrings.pas:196
 msgid "Odometer"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2MenuItemName
-#: u_ResStrings.pas:202
+#: u_ResStrings.pas:200
 msgid "Odometer #2"
 msgstr ""
 
 #. frmMapTypeEdit..pnlBottomButtons..btnOk..Caption
 #: frm_MapTypeEdit.dfm:48
+#. frmMarkCategoryEdit..pnlBottomButtons..btnOk..Caption
+#: frm_MarkCategoryEdit.dfm:74
+#. frmMarkEditPath..pnlBottomButtons..btnOk..Caption
+#: frm_MarkEditPath.dfm:208
+#. frmMarkEditPoint..pnlBottomButtons..btnOk..Caption
+#: frm_MarkEditPoint.dfm:68
+#. frmMarkEditPoly..pnlBottomButtons..btnOk..Caption
+#: frm_MarkEditPoly.dfm:44
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnOk..Caption
 #: frm_MarksExplorer.dfm:72
 #. frmSettings..pnlBottomButtons..btnOk..Caption
@@ -1967,27 +1934,27 @@ msgid "Ok"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem3..Caption
-#: frm_Main.dfm:1191
+#: frm_Main.dfm:1203
 msgid "On Bike (By Distance)"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem4..Caption
-#: frm_Main.dfm:1185
+#: frm_Main.dfm:1197
 msgid "On Bike (By Speed)"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem2..Caption
-#: frm_Main.dfm:1179
+#: frm_Main.dfm:1191
 msgid "On Car (By Distance)"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem1..Caption
-#: frm_Main.dfm:1173
+#: frm_Main.dfm:1185
 msgid "On Car (By Speed)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..N29..Caption
-#: frm_Main.dfm:925
+#: frm_Main.dfm:936
 msgid "Online Help (http://sasgis.ru/wikisasiya)"
 msgstr ""
 
@@ -2017,23 +1984,23 @@ msgstr ""
 #. frmImportConfigEdit..grpPoly..lblPolyFillTransp..Caption
 #: frm_ImportConfigEdit.dfm:273
 #. frmMarkEditPath..flwpnlStyle..lblTransp..Caption
-#: frm_MarkEditPath.dfm:169
+#: frm_MarkEditPath.dfm:176
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
-#: frm_MarkEditPoint.dfm:345
+#: frm_MarkEditPoint.dfm:348
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
-#: frm_MarkEditPoly.dfm:132
+#: frm_MarkEditPoly.dfm:140
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
-#: frm_MarkEditPoly.dfm:229
+#: frm_MarkEditPoly.dfm:249
 msgid "Opacity %"
 msgstr ""
 
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
-#: frm_Main.dfm:3044
+#: frm_Main.dfm:3054
 msgid "Open Overlay Layer Tile Folder"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N25..Caption
-#: frm_Main.dfm:3039
+#: frm_Main.dfm:3049
 msgid "Open Primary Map Tile Folder"
 msgstr ""
 
@@ -2042,8 +2009,10 @@ msgstr ""
 msgid "Open..."
 msgstr ""
 
+#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSOptions..Caption
+#: frm_Main.dfm:894
 #. frmMain..TBDock..TBXMainMenu..NParams..N8..Caption
-#: frm_Main.dfm:909
+#: frm_Main.dfm:920
 #. frmSettings..Caption
 #: frm_Settings.dfm:5
 msgid "Options"
@@ -2095,7 +2064,7 @@ msgid "Path parameters"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..N15..Caption
-#: frm_Main.dfm:3027
+#: frm_Main.dfm:3037
 msgid "Pathname to Tile in Cache"
 msgstr ""
 
@@ -2105,19 +2074,19 @@ msgid "Pause"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Stop1
-#: u_ResStrings.pas:136
+#: u_ResStrings.pas:134
 msgid "Paused"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_UserStop
-#: u_ResStrings.pas:141
+#: u_ResStrings.pas:139
 msgid "Paused by user..."
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsPer..Caption
-#: frm_Main.dfm:2933
+#: frm_Main.dfm:2943
 #. Programmer's name for it: SAS_STR_P
-#: u_ResStrings.pas:152
+#: u_ResStrings.pas:150
 msgid "Perimeter"
 msgstr ""
 
@@ -2137,7 +2106,7 @@ msgid "Placemark Categories"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkExport..Caption
-#: frm_Main.dfm:2919
+#: frm_Main.dfm:2929
 msgid "Placemark Export"
 msgstr ""
 
@@ -2223,7 +2192,7 @@ msgid "Primary color"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..N20..Caption
-#: frm_Main.dfm:3022
+#: frm_Main.dfm:3032
 msgid "Primary Map Tile"
 msgstr ""
 
@@ -2243,7 +2212,7 @@ msgid "Processed total:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
-#: u_ResStrings.pas:144
+#: u_ResStrings.pas:142
 msgid "Processing tile: %0:s ..."
 msgstr ""
 
@@ -2292,7 +2261,7 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NOperations..N6..Caption
 #: frm_Main.dfm:390
 #. frmProgressDownload..Panel1..GridPanel1..Button2..Caption
-#: frm_ProgressDownload.dfm:264
+#: frm_ProgressDownload.dfm:261
 msgid "Quit"
 msgstr ""
 
@@ -2322,7 +2291,7 @@ msgid "Required pointset is not found!"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorReset
-#: u_ResStrings.pas:178
+#: u_ResStrings.pas:176
 msgid "Reset"
 msgstr ""
 
@@ -2343,7 +2312,7 @@ msgid "Restore download from last successful "
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Continue
-#: u_ResStrings.pas:137
+#: u_ResStrings.pas:135
 msgid "Resume"
 msgstr ""
 
@@ -2363,7 +2332,7 @@ msgid "Roll backward to zoom in"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
-#: frm_Main.dfm:1137
+#: frm_Main.dfm:1149
 msgid "Route Calculation"
 msgstr ""
 
@@ -2396,7 +2365,7 @@ msgstr ""
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #: RegionProcess/fr_TilesCopy.dfm:99
 #. Programmer's name for it: SAS_STR_ApplicationTitle
-#: u_ResStrings.pas:171
+#: u_ResStrings.pas:169
 msgid "SAS.Planet"
 msgstr ""
 
@@ -2416,12 +2385,12 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..NSignalStrengthBar..Caption
 #: frm_Main.dfm:438
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
-#: frm_Main.dfm:1248
+#: frm_Main.dfm:1259
 msgid "Satellite Signal Strength"
 msgstr ""
 
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..TBXLabel5..Caption
-#: frm_Main.dfm:1257
+#: frm_Main.dfm:1268
 msgid "Satellite Signal Strength:"
 msgstr ""
 
@@ -2446,12 +2415,12 @@ msgid "Satellites not in range"
 msgstr ""
 
 #. frmProgressDownload..Panel1..GridPanel1..ButtonSave..Caption
-#: frm_ProgressDownload.dfm:243
+#: frm_ProgressDownload.dfm:241
 msgid "Save"
 msgstr ""
 
 #. frmProgressDownload..Panel1..GridPanel1..ButtonSave..Hint
-#: frm_ProgressDownload.dfm:242
+#: frm_ProgressDownload.dfm:240
 msgid "Save current session"
 msgstr ""
 
@@ -2502,11 +2471,11 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
 #: frm_Main.dfm:427
 #. frmMain..TBDock..TBXToolBarSearch..Caption
-#: frm_Main.dfm:963
+#: frm_Main.dfm:974
 #. frmMain..TBDock..TBXToolBarSearch..TBXSearchEdit..EditCaption
-#: frm_Main.dfm:982
+#: frm_Main.dfm:993
 #. frmMain..TBDock..TBXToolBarSearch..TBXSearchEdit..EditCaption
-#: frm_Main.dfm:987
+#: frm_Main.dfm:998
 msgid "Search"
 msgstr ""
 
@@ -2516,13 +2485,8 @@ msgid "Search Results"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_Secund
-#: u_ResStrings.pas:232
+#: u_ResStrings.pas:230
 msgid "sec."
-msgstr ""
-
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
-#: frm_Main.dfm:331
-msgid "Select"
 msgstr ""
 
 #. frmMain..TBDock..SrcToolbar..TBSrc..Hint
@@ -2570,8 +2534,24 @@ msgstr ""
 msgid "Selection is out of the map!"
 msgstr ""
 
+#. frmMain..TBDock..TBMainToolBar..TBRectSave..Hint
+#: frm_Main.dfm:76
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnOpSelectMark..Hint
+#: frm_MarksExplorer.dfm:190
+msgid "Selection manager"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
+#: frm_Main.dfm:331
+#. frmMain..MainPopupMenu..NMarkOper..Caption
+#: frm_Main.dfm:2917
+#. frmRegionProcess..Caption
+#: frm_RegionProcess.dfm:4
+msgid "Selection Manager"
+msgstr ""
+
 #. frmMain..OpenDialog1..Filter
-#: frm_Main.dfm:1266
+#: frm_Main.dfm:1277
 #. frmRegionProcess..SaveSelDialog..Filter
 #: frm_RegionProcess.dfm:186
 msgid "Selections|*.hlg"
@@ -2580,7 +2560,7 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
 #: frm_Main.dfm:434
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
-#: frm_Main.dfm:1215
+#: frm_Main.dfm:1227
 msgid "Sensors"
 msgstr ""
 
@@ -2608,7 +2588,7 @@ msgid "Server timeout, ms"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
-#: frm_Main.dfm:889
+#: frm_Main.dfm:900
 #. frmSettings..PageControl1..TabSheet9..pnlMapsRightButtons..Button15..Caption
 #: frm_Settings.dfm:86
 msgid "Settings"
@@ -2617,12 +2597,12 @@ msgstr ""
 #. frmImportConfigEdit..grpPoint..lblPointShadowColor..Caption
 #: frm_ImportConfigEdit.dfm:49
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
-#: frm_MarkEditPoint.dfm:277
+#: frm_MarkEditPoint.dfm:278
 msgid "Shadow color"
 msgstr ""
 
 #. frmMain..SaveLink..Filter
-#: frm_Main.dfm:1272
+#: frm_Main.dfm:1283
 msgid "Shortcut|*.lnk"
 msgstr ""
 
@@ -2673,7 +2653,7 @@ msgid "Show only selected placemarks"
 msgstr ""
 
 #. frmMain..MainPopupMenu..Nopendir..Caption
-#: frm_Main.dfm:3033
+#: frm_Main.dfm:3043
 msgid "Show Primary Map Tile"
 msgstr ""
 
@@ -2683,70 +2663,70 @@ msgid "Show tooltips"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabel..Hint
-#: frm_Main.dfm:1112
+#: frm_Main.dfm:1124
 msgid "Show/Hide Captions"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedDescription
-#: u_ResStrings.pas:185
+#: u_ResStrings.pas:183
 msgid "Shows average speed"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusDescription
-#: u_ResStrings.pas:217
+#: u_ResStrings.pas:215
 msgid "Shows battery status"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedDescription
-#: u_ResStrings.pas:181
+#: u_ResStrings.pas:179
 msgid "Shows current speed"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
-#: u_ResStrings.pas:193
+#: u_ResStrings.pas:191
 msgid "Shows distance since last GPS connection"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointDescription
-#: u_ResStrings.pas:213
+#: u_ResStrings.pas:211
 msgid "Shows distance to selected placemark"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeDescription
-#: u_ResStrings.pas:205
+#: u_ResStrings.pas:203
 msgid "Shows GPS altitude"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedDescription
-#: u_ResStrings.pas:189
+#: u_ResStrings.pas:187
 msgid "Shows maximum speed"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingDescription
-#: u_ResStrings.pas:209
+#: u_ResStrings.pas:207
 msgid "Shows the course"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1Description
-#: u_ResStrings.pas:197
+#: u_ResStrings.pas:195
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2Description
-#: u_ResStrings.pas:201
+#: u_ResStrings.pas:199
 msgid "Shows total distance"
 msgstr ""
 
-#. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar....Hint
-#: frm_Main.dfm:1237
+#. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Hint
+#: frm_Main.dfm:1248
 msgid "Signal-to-noise ratio for satellites in "
 "use"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Resolution
-#: u_ResStrings.pas:140
+#: u_ResStrings.pas:138
 msgid "size:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressCaption
-#: u_ResStrings.pas:176
+#: u_ResStrings.pas:174
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr ""
 
@@ -2770,7 +2750,7 @@ msgstr ""
 #. Programmer's name for it: SAS_STR_Speed
 #: u_ResStrings.pas:92
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedMenuItemName
-#: u_ResStrings.pas:182
+#: u_ResStrings.pas:180
 msgid "Speed"
 msgstr ""
 
@@ -2780,7 +2760,7 @@ msgid "Split image"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_DivideInto
-#: u_ResStrings.pas:139
+#: u_ResStrings.pas:137
 msgid "Split to"
 msgstr ""
 
@@ -2807,13 +2787,20 @@ msgid "Stitch selection"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressLine0
-#: u_ResStrings.pas:175
+#: u_ResStrings.pas:173
 msgid "Stitch: %0:dx%1:d (%2:d) files"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_OperationMapCombineCaption
-#: u_ResStrings.pas:169
+#: u_ResStrings.pas:167
 msgid "Stitching the map"
+msgstr ""
+
+#. frmProgressDownload..Panel1..GridPanel1..Button1..Caption
+#: frm_ProgressDownload.dfm:251
+#. Programmer's name for it: SAS_STR_Stop
+#: u_ResStrings.pas:133
+msgid "Stop"
 msgstr ""
 
 #. frmSettings..PageControl1..TabSheet1..pnlDownloadParams..CBSaveTileNotExists..Caption
@@ -2834,7 +2821,7 @@ msgstr ""
 #. frmImportConfigEdit..grpPoint..lblPointTextColor..Caption
 #: frm_ImportConfigEdit.dfm:42
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
-#: frm_MarkEditPoint.dfm:174
+#: frm_MarkEditPoint.dfm:173
 msgid "Text color"
 msgstr ""
 
@@ -2959,7 +2946,7 @@ msgid "Toolbars"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Whole
-#: u_ResStrings.pas:153
+#: u_ResStrings.pas:151
 msgid "Total"
 msgstr ""
 
@@ -2999,7 +2986,7 @@ msgid "Unexpected content type"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_BattaryStateUnknown
-#: u_ResStrings.pas:174
+#: u_ResStrings.pas:172
 msgid "Unknown"
 msgstr ""
 
@@ -3021,37 +3008,37 @@ msgid "Upper left corner"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..livecom1..Caption
-#: frm_Main.dfm:2994
+#: frm_Main.dfm:3004
 msgid "URL to Bing Maps"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..Google1..Caption
-#: frm_Main.dfm:2979
+#: frm_Main.dfm:2989
 msgid "URL to Google Maps"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..ImageAtlas1..Caption
-#: frm_Main.dfm:2999
+#: frm_Main.dfm:3009
 msgid "URL to imageatlas.digitalglobe.com"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..kosmosnimkiru1..Caption
-#: frm_Main.dfm:2989
+#: frm_Main.dfm:2999
 msgid "URL to kosmosnimki.ru"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
-#: frm_Main.dfm:3012
+#: frm_Main.dfm:3022
 msgid "URL to Layer Tile"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..N13..Caption
-#: frm_Main.dfm:3008
+#: frm_Main.dfm:3018
 msgid "URL to Primary Map Tile"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..YaLink..Caption
-#: frm_Main.dfm:2984
+#: frm_Main.dfm:2994
 msgid "URL to Yandex.Maps"
 msgstr ""
 
@@ -3086,7 +3073,7 @@ msgid "Version:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_OnVertical
-#: u_ResStrings.pas:150
+#: u_ResStrings.pas:148
 msgid "Vertically"
 msgstr ""
 
@@ -3111,7 +3098,7 @@ msgid "Visible on zooms:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Wite
-#: u_ResStrings.pas:145
+#: u_ResStrings.pas:143
 msgid "Wait"
 msgstr ""
 
@@ -3121,7 +3108,7 @@ msgid "Wait %0:d secons..."
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..NGoToSite..Caption
-#: frm_Main.dfm:941
+#: frm_Main.dfm:952
 msgid "Web Site (http://www.sasgis.ru)"
 msgstr ""
 
@@ -3135,9 +3122,9 @@ msgstr ""
 #. frmImportConfigEdit..grpPoly..lblPolyLineWidth..Caption
 #: frm_ImportConfigEdit.dfm:244
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
-#: frm_MarkEditPath.dfm:149
+#: frm_MarkEditPath.dfm:154
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
-#: frm_MarkEditPoly.dfm:210
+#: frm_MarkEditPoly.dfm:228
 msgid "Width"
 msgstr ""
 
@@ -3167,7 +3154,7 @@ msgstr ""
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..EditCaption
 #: frm_Main.dfm:111
 #. frmMain..TBDock..TBXToolBarSearch..TBXSelectSrchType..TBXSelectYandexSrch..Caption
-#: frm_Main.dfm:971
+#: frm_Main.dfm:982
 msgid "Yandex"
 msgstr ""
 
@@ -3197,7 +3184,7 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #: frm_Main.dfm:407
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
-#: frm_Main.dfm:1013
+#: frm_Main.dfm:1024
 #. Programmer's name for it: SAS_STR_Scale
 #: u_ResStrings.pas:91
 msgid "Zoom"
@@ -3206,15 +3193,20 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NOperations..NZoomIn..Caption
 #: frm_Main.dfm:295
 #. frmMain..TBDockLeft..ZoomToolBar..TBZoomIn..Hint
-#: frm_Main.dfm:1021
+#: frm_Main.dfm:1032
 msgid "Zoom In"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NZoomOut..Caption
 #: frm_Main.dfm:303
 #. frmMain..TBDockLeft..ZoomToolBar..TBZoom_out..Hint
-#: frm_Main.dfm:1047
+#: frm_Main.dfm:1058
 msgid "Zoom Out"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..NGoToCur..Caption
+#: frm_Main.dfm:665
+msgid "Zoom to Cursor"
 msgstr ""
 
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
