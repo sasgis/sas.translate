@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2011-07-17 17:24\n"
+"POT-Creation-Date: 2011-07-21 13:32\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,17 +15,17 @@ msgstr ""
 "X-Generator: po.exchange\n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:967 
+#: frm_Settings.dfm:979 
 msgid "-- deg. (-12.1233°)"
 msgstr "-- г. (-12.1233°)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:966 
+#: frm_Settings.dfm:978 
 msgid "-- deg.min. (-12°23.454)"
 msgstr "-- г.м. (-12°23.454)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:965 
+#: frm_Settings.dfm:977 
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- г.м.с. (-12°23\"43.35')"
 
@@ -66,7 +66,7 @@ msgstr "/пікс."
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:217 
+#: RegionProcess/fr_ExportIPhone.dfm:216 
 #: RegionProcess/fr_ExportYaMaps.dfm:183
 msgid "0..9 max"
 msgstr "0..9 макс"
@@ -109,19 +109,19 @@ msgstr "1:500 000 (5 км)"
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybrCompress..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSatCompress..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:314 
-#: RegionProcess/fr_ExportIPhone.dfm:325 RegionProcess/fr_ExportYaMaps.dfm:251
+#: RegionProcess/fr_ExportIPhone.dfm:313 
+#: RegionProcess/fr_ExportIPhone.dfm:324 RegionProcess/fr_ExportYaMaps.dfm:251
 msgid "100..1 max"
 msgstr "100..1 макс"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#: frm_Settings.dfm:920  frm_Settings.dfm:922
+#: frm_Settings.dfm:934  frm_Settings.dfm:936
 msgid "12 km 423 m"
 msgstr "12 км 423 м"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#: frm_Settings.dfm:923 
+#: frm_Settings.dfm:937 
 msgid "23.4 km"
 msgstr "23,4 км"
 
@@ -184,7 +184,7 @@ msgstr "Додати шлях"
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
-#: frm_Main.dfm:206  frm_Main.dfm:781 frm_Main.dfm:865 frm_Main.dfm:3012
+#: frm_Main.dfm:206  frm_Main.dfm:781 frm_Main.dfm:865 frm_Main.dfm:2988
 msgid "Add Placemark"
 msgstr "Поставити позначку"
 
@@ -199,7 +199,7 @@ msgid "Add Polygon"
 msgstr "Додати полігон"
 
 #. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:73 
+#: RegionProcess/fr_ExportIPhone.dfm:72 
 msgid "Add tiles to database"
 msgstr "Додавати тайли в існуючу базу"
 
@@ -215,12 +215,12 @@ msgid "Add Track to Database"
 msgstr "Зберегти маршрут у базі"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
-#: RegionProcess/fr_MapCombine.dfm:271 
+#: RegionProcess/fr_MapCombine.dfm:269 
 msgid "Add visible placemarks"
 msgstr "Накладати позначки, що показуються"
 
 #. frmMain..MainPopupMenu..N26..Caption
-#: frm_Main.dfm:3110 
+#: frm_Main.dfm:3086 
 msgid "Additional Operations"
 msgstr "Додаткові операції"
 
@@ -233,9 +233,9 @@ msgstr "Додаткові операції"
 #. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
 #: frm_MarksExplorer.dfm:146  frm_MarksExplorer.dfm:236
-#: RegionProcess/fr_ExportGEKml.dfm:49 RegionProcess/fr_ExportIPhone.dfm:446
+#: RegionProcess/fr_ExportGEKml.dfm:49 RegionProcess/fr_ExportIPhone.dfm:445
 #: RegionProcess/fr_ExportToFileCont.dfm:50 RegionProcess/fr_TilesCopy.dfm:50
-#: RegionProcess/fr_TilesCopy.dfm:139 RegionProcess/fr_TilesGenPrev.dfm:67
+#: RegionProcess/fr_TilesCopy.dfm:142 RegionProcess/fr_TilesGenPrev.dfm:67
 msgid "All"
 msgstr "Всі"
 
@@ -245,7 +245,7 @@ msgid "All by default"
 msgstr "Все стандартно"
 
 #. frmMain..OpenSessionDialog....Filter
-#: frm_Main.dfm:1351 
+#: frm_Main.dfm:1327 
 msgid ""
 "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
 "sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
@@ -272,7 +272,7 @@ msgstr "Анімація при масштабуванні"
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
 #. frmShortCutEdit..pnlBottom..btnOk..Caption
-#: frm_LonLatRectEdit.dfm:45  frm_MarksExplorer.dfm:94 frm_Settings.dfm:2120
+#: frm_LonLatRectEdit.dfm:45  frm_MarksExplorer.dfm:94 frm_Settings.dfm:2134
 #: frm_ShortCutEdit.dfm:66
 msgid "Apply"
 msgstr "Застосувати"
@@ -290,12 +290,12 @@ msgstr "Ви дійсно бажаєте обнулити датчик?"
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsSq..Caption
 #. Programmer's name for it: SAS_STR_S
-#: frm_Main.dfm:3001  u_ResStrings.pas:140
+#: frm_Main.dfm:2977  u_ResStrings.pas:140
 msgid "Area"
 msgstr "Площа"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
-#: frm_Settings.dfm:1625 
+#: frm_Settings.dfm:1636 
 #, fuzzy
 msgid "Arrow color:"
 msgstr "Колір маршруту:"
@@ -311,23 +311,23 @@ msgid "Authors:"
 msgstr "Розробка:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
-#: frm_Settings.dfm:1710 
+#: frm_Settings.dfm:1721 
 msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматично показувати/приховувати панель датчиків"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
-#: frm_Settings.dfm:1985 
+#: frm_Settings.dfm:1999 
 msgid "Automatically detect location using GSM phone (Google query)"
 msgstr ""
 "Автоматично визначати параметри бахових станцій через під’єднаний телефон"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlogNmea..Caption
-#: frm_Settings.dfm:1685 
+#: frm_Settings.dfm:1696 
 msgid "Autosave tracks to .nmea"
 msgstr "Автоматично збергіати маршрути в .nmea"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlog..Caption
-#: frm_Settings.dfm:1674 
+#: frm_Settings.dfm:1685 
 msgid "Autosave tracks to .plt"
 msgstr "Автоматично збергіати маршрути в .plt"
 
@@ -347,12 +347,12 @@ msgid "Average speed, km/h:"
 msgstr "Сер. швидкість, км/год:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
-#: frm_Settings.dfm:1234 
+#: frm_Settings.dfm:1244 
 msgid "Background color"
 msgstr "Колір тла"
 
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblMap..Caption
-#: RegionProcess/fr_MapCombine.dfm:190 
+#: RegionProcess/fr_MapCombine.dfm:187 
 msgid "Base Map:"
 msgstr "Тип карти:"
 
@@ -368,12 +368,12 @@ msgstr "Батарея:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
-#: frm_Settings.dfm:1513  frm_Settings.dfm:2026
+#: frm_Settings.dfm:1524  frm_Settings.dfm:2040
 msgid "Bits per second"
 msgstr "Швидкість"
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
-#: frm_Settings.dfm:1949 
+#: frm_Settings.dfm:1960 
 msgid "Border color"
 msgstr "Колір облямівки"
 
@@ -389,9 +389,9 @@ msgstr "За координатами"
 #. frmMapTypeEdit..pnlUrl..pnlUrlRight..Button6..Hint
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..Button7..Hint
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..Button8..Hint
-#: frm_MapTypeEdit.dfm:139  frm_MapTypeEdit.dfm:153 frm_MapTypeEdit.dfm:201
-#: frm_MapTypeEdit.dfm:249 frm_MapTypeEdit.dfm:296 frm_MapTypeEdit.dfm:414
-#: frm_MapTypeEdit.dfm:503
+#: frm_MapTypeEdit.dfm:139  frm_MapTypeEdit.dfm:154 frm_MapTypeEdit.dfm:201
+#: frm_MapTypeEdit.dfm:248 frm_MapTypeEdit.dfm:294 frm_MapTypeEdit.dfm:413
+#: frm_MapTypeEdit.dfm:500
 msgid "By default"
 msgstr "Стандартно"
 
@@ -401,18 +401,18 @@ msgid "By maps.cloudmade.com (OSM)"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem2..Caption
-#: frm_Main.dfm:1202 
+#: frm_Main.dfm:1190 
 msgid "By Maps@mail.ru"
 msgstr "Засобами Карты@mail.ru"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem1..Caption
-#: frm_Main.dfm:1227 
+#: frm_Main.dfm:1209 
 msgid "By yournavigation.org (OSM)"
 msgstr "Засобами yournavigation.org (OSM)"
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
 #. frmSettings..PageControl1..tsCache..Caption
-#: frm_Main.dfm:731  frm_Settings.dfm:130
+#: frm_Main.dfm:731  frm_Settings.dfm:133
 msgid "Cache"
 msgstr "Кеш"
 
@@ -423,7 +423,7 @@ msgid "Cache folder"
 msgstr "Тека у кеші"
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:44 
+#: frm_Settings.dfm:47 
 msgid "Cache Folder"
 msgstr "Тека у кеші"
 
@@ -443,7 +443,7 @@ msgid "Cached Tiles Map"
 msgstr "Карта заповнення"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..Label24..Caption
-#: frm_Settings.dfm:1160 
+#: frm_Settings.dfm:1170 
 msgid "Cached tiles map:"
 msgstr "Карта заповнення:"
 
@@ -463,12 +463,12 @@ msgstr "Карта заповнення:"
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
-#: frm_GoTo.dfm:154  frm_ImportConfigEdit.dfm:362 frm_LonLatRectEdit.dfm:34
+#: frm_GoTo.dfm:153  frm_ImportConfigEdit.dfm:362 frm_LonLatRectEdit.dfm:34
 #: frm_MapTypeEdit.dfm:62 frm_MarkCategoryEdit.dfm:60
-#: frm_MarkCategoryEdit.dfm:63 frm_MarkEditPath.dfm:219
-#: frm_MarkEditPath.dfm:222 frm_MarkEditPoint.dfm:54 frm_MarkEditPoint.dfm:57
+#: frm_MarkCategoryEdit.dfm:63 frm_MarkEditPath.dfm:217
+#: frm_MarkEditPath.dfm:220 frm_MarkEditPoint.dfm:54 frm_MarkEditPoint.dfm:57
 #: frm_MarkEditPoly.dfm:56 frm_MarkEditPoly.dfm:59 frm_MarksExplorer.dfm:70
-#: frm_RegionProcess.dfm:167 frm_Settings.dfm:2094 frm_ShortCutEdit.dfm:81
+#: frm_RegionProcess.dfm:191 frm_Settings.dfm:2108 frm_ShortCutEdit.dfm:81
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -497,12 +497,12 @@ msgstr "Така назва категорії вже існує"
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlCategory..lblCategory..Caption
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
 #: frm_ImportConfigEdit.dfm:20  frm_MarkEditPath.dfm:42
-#: frm_MarkEditPoint.dfm:436 frm_MarkEditPoly.dfm:291
+#: frm_MarkEditPoint.dfm:436 frm_MarkEditPoly.dfm:287
 msgid "Category:"
 msgstr "Категорія:"
 
 #. frmMain..MainPopupMenu..N28..Caption
-#: frm_Main.dfm:3020 
+#: frm_Main.dfm:2996 
 msgid "Center With Zoom"
 msgstr "Центрувати з масштабом"
 
@@ -518,12 +518,12 @@ msgid "Charging"
 msgstr "Заряджається"
 
 #. frmAbout..pnlBottom..btnClose..Caption
-#: frm_About.dfm:218 
+#: frm_About.dfm:221 
 msgid "Close"
 msgstr "Закрити"
 
 #. frmRegionProcess..pnlBottomButtons..CBCloseWithStart..Caption
-#: frm_RegionProcess.dfm:178 
+#: frm_RegionProcess.dfm:202 
 msgid "Close this window after start"
 msgstr "Закрити вікно після старту"
 
@@ -543,8 +543,8 @@ msgstr "см"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label27..Caption
 #: frm_DGAvailablePic.dfm:45  frm_ImportConfigEdit.dfm:170
 #: frm_ImportConfigEdit.dfm:237 frm_ImportConfigEdit.dfm:266
-#: frm_MarkEditPath.dfm:121 frm_MarkEditPoly.dfm:108 frm_MarkEditPoly.dfm:197
-#: frm_Settings.dfm:1180 frm_Settings.dfm:1344
+#: frm_MarkEditPath.dfm:119 frm_MarkEditPoly.dfm:106 frm_MarkEditPoly.dfm:193
+#: frm_Settings.dfm:1190 frm_Settings.dfm:1354
 msgid "Color"
 msgstr "Колір"
 
@@ -588,7 +588,7 @@ msgstr "Запакування в Zip"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:336 
+#: RegionProcess/fr_ExportIPhone.dfm:335 
 #: RegionProcess/fr_ExportYaMaps.dfm:262
 msgid "Compression:"
 msgstr "Стиснення:"
@@ -608,12 +608,12 @@ msgid "Connect to GPS Receiver"
 msgstr "Під’єднати приймач"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
-#: frm_Settings.dfm:684 
+#: frm_Settings.dfm:693 
 msgid "Connection settings"
 msgstr "Налаштування з’єднання"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
-#: frm_Settings.dfm:2059 
+#: frm_Settings.dfm:2073 
 msgid "Connection timeout"
 msgstr "Очікування відповіді"
 
@@ -623,25 +623,25 @@ msgid "Contrast"
 msgstr "Контрастність"
 
 #. frmSettings..PageControl1..tsControl..Caption
-#: frm_Settings.dfm:809 
+#: frm_Settings.dfm:817 
 msgid "Control"
 msgstr "Керування"
 
 #. frmGoTo..RB1..Caption
 #. frmMain..MainPopupMenu..N43..N30..Caption
 #. Programmer's name for it: SAS_STR_coordinates
-#: frm_GoTo.dfm:206  frm_Main.dfm:3075 u_ResStrings.pas:88
+#: frm_GoTo.dfm:205  frm_Main.dfm:3051 u_ResStrings.pas:88
 msgid "Coordinates"
 msgstr "Координати"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..Label84..Caption
-#: frm_Settings.dfm:943 
+#: frm_Settings.dfm:957 
 msgid "Coordinates representation"
 msgstr "Формат подання координат"
 
 #. frmDGAvailablePic..GroupBox3..pnlRight..Button3..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
-#: frm_DGAvailablePic.dfm:150  frm_RegionProcess.dfm:89
+#: frm_DGAvailablePic.dfm:150  frm_RegionProcess.dfm:109
 msgid "Copy"
 msgstr "Скопіювати"
 
@@ -651,7 +651,7 @@ msgid "Copy TID's to clipboard"
 msgstr "Копіювати вибрані tid для вставки у посилання"
 
 #. frmMain..MainPopupMenu..N43..Caption
-#: frm_Main.dfm:3038 
+#: frm_Main.dfm:3014 
 msgid "Copy to Clipboard"
 msgstr "Копіювати у буфер обміну"
 
@@ -671,7 +671,7 @@ msgid "Course:"
 msgstr "Азимут:"
 
 #. frMapCombine..pnlBottom..pnlPrTypes..lblPrTypes..Caption
-#: RegionProcess/fr_MapCombine.dfm:333 
+#: RegionProcess/fr_MapCombine.dfm:331 
 msgid "Create georeferencing file:"
 msgstr "Створювати файл прив’язки:"
 
@@ -681,12 +681,12 @@ msgid "Create Shortcut"
 msgstr "Зберегти ярлик"
 
 #. frmMain..MainPopupMenu..N26..NGTOPO30..Caption
-#: frm_Main.dfm:3114 
+#: frm_Main.dfm:3090 
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr "Висота над рівнем моря GTOPO30 (дозвіл ~1 км)"
 
 #. frmMain..MainPopupMenu..N26..NSRTM3..Caption
-#: frm_Main.dfm:3119 
+#: frm_Main.dfm:3095 
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "Висота над рівнем моря SRTM3 (дозвіл ~90 м)"
 
@@ -717,7 +717,7 @@ msgid "Date:"
 msgstr "Дата зйомки:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
-#: frm_Settings.dfm:564 
+#: frm_Settings.dfm:570 
 #, fuzzy
 msgid "Default cache type"
 msgstr "Тип кеша"
@@ -730,7 +730,7 @@ msgstr "Призначити поєднання"
 #. frmMain..MainPopupMenu..NMarkDel..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
 #. frmRegionProcess..PageControl1..TabSheet4..Caption
-#: frm_Main.dfm:2964  frm_MarksExplorer.dfm:290 frm_RegionProcess.dfm:44
+#: frm_Main.dfm:2940  frm_MarksExplorer.dfm:290 frm_RegionProcess.dfm:56
 msgid "Delete"
 msgstr "Видалити"
 
@@ -740,12 +740,12 @@ msgid "Delete map tiles"
 msgstr "Видалити файли карти"
 
 #. frTilesDelete..pnlBottom..pnlCenter..flwpnlDelBySize..lblDelSize..Caption
-#: RegionProcess/fr_TilesDelete.dfm:132 
+#: RegionProcess/fr_TilesDelete.dfm:133 
 msgid "Delete only tiles of size, bytes:"
 msgstr "Видаляти лише тайли, розмір яких, байт"
 
 #. frmMain..MainPopupMenu..dlm..Caption
-#: frm_Main.dfm:3159 
+#: frm_Main.dfm:3135 
 msgid "Delete Overlay Layer Tile from Cache"
 msgstr "Видалити тайл шару"
 
@@ -755,7 +755,7 @@ msgid "Delete Point"
 msgstr "Видалити точку"
 
 #. frmMain..MainPopupMenu..NDel..Caption
-#: frm_Main.dfm:3149 
+#: frm_Main.dfm:3125 
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "Видалити тайл основної карти (Del+MLeft)"
 
@@ -791,14 +791,66 @@ msgstr "Видаляє:"
 msgid "Description:"
 msgstr "Опис"
 
+#: u_PathDetalizeProviderCloudMade.pas:299 
+msgid "Detalize route on bicycle (Fastest) by cloudmade.com"
+msgstr ""
+
+#: u_PathDetalizeProviderYourNavigation.pas:232 
+msgid "Detalize route on bicycle (Fastest) by yournavigation.org"
+msgstr ""
+
+#: u_PathDetalizeProviderCloudMade.pas:368 
+msgid "Detalize route on bicycle (Shortest) by cloudmade.com"
+msgstr ""
+
+#: u_PathDetalizeProviderYourNavigation.pas:262 
+msgid "Detalize route on bicycle (Shortest) by yournavigation.org"
+msgstr ""
+
+#: u_PathDetalizeProviderMailRu.pas:251 
+msgid "Detalize route on car (Fastest with traffic) by Maps@mail.ru"
+msgstr ""
+
+#: u_PathDetalizeProviderCloudMade.pas:253 
+msgid "Detalize route on car (Fastest) by cloudmade.com"
+msgstr ""
+
+#: u_PathDetalizeProviderMailRu.pas:223 
+msgid "Detalize route on car (Fastest) by Maps@mail.ru"
+msgstr ""
+
+#: u_PathDetalizeProviderYourNavigation.pas:172 
+msgid "Detalize route on car (Fastest) by yournavigation.org"
+msgstr ""
+
+#: u_PathDetalizeProviderCloudMade.pas:322 
+msgid "Detalize route on car (Shortest) by cloudmade.com"
+msgstr ""
+
+#: u_PathDetalizeProviderMailRu.pas:195 
+msgid "Detalize route on car (Shortest) by Maps@mail.ru"
+msgstr ""
+
+#: u_PathDetalizeProviderYourNavigation.pas:202 
+msgid "Detalize route on car (Shortest) by yournavigation.org"
+msgstr ""
+
+#: u_PathDetalizeProviderCloudMade.pas:276 
+msgid "Detalize route on foot (Fastest) by cloudmade.com"
+msgstr ""
+
+#: u_PathDetalizeProviderCloudMade.pas:345 
+msgid "Detalize route on foot (Shortest) by cloudmade.com"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
-#: frm_Settings.dfm:1557 
+#: frm_Settings.dfm:1568 
 msgid "Device timeout (sec)"
 msgstr "Час очікування відповіді від приймача (сек)"
 
 #. frmDGAvailablePic..Caption
 #. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
-#: frm_DGAvailablePic.dfm:5  frm_Main.dfm:3128
+#: frm_DGAvailablePic.dfm:5  frm_Main.dfm:3104
 msgid "DigitalGlobe Availability"
 msgstr "Завантажити інформацію про доступні карти цього місця на DigitalGlobe"
 
@@ -834,7 +886,7 @@ msgid "Distance Calculation"
 msgstr "Змінити відстань"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..Label3..Caption
-#: frm_Settings.dfm:905 
+#: frm_Settings.dfm:919 
 msgid "Distance representation"
 msgstr "Формат показу масштабу"
 
@@ -867,7 +919,7 @@ msgstr "Не зберігати шляхи до неіснуючих тайлі�
 
 #. frmDGAvailablePic..GroupBox3..pnlRight..Button2..Caption
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button11..Caption
-#: frm_DGAvailablePic.dfm:138  frm_Settings.dfm:101
+#: frm_DGAvailablePic.dfm:138  frm_Settings.dfm:104
 msgid "Down"
 msgstr "Вниз"
 
@@ -894,7 +946,7 @@ msgid "Download error. Unknown status code %d"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
-#: frm_Settings.dfm:623 
+#: frm_Settings.dfm:632 
 msgid "Download next tile if no response"
 msgstr "Переходити до наступного тайла, якщо сервер не відповідає"
 
@@ -904,12 +956,12 @@ msgid "Download of map %0:s disabled because of error: %1:s"
 msgstr "Для карти %0:s вимкнуто завантаження тайлів через помилки: %1:s"
 
 #. frmMain..MainPopupMenu..ldm..Caption
-#: frm_Main.dfm:3154 
+#: frm_Main.dfm:3130 
 msgid "Download Overlay Layer Tile to Cache"
 msgstr "Завантажити тайл шару"
 
 #. frmMain..MainPopupMenu..N21..Caption
-#: frm_Main.dfm:3143 
+#: frm_Main.dfm:3119 
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr "Завантажити тайл основної карти (Ins+MLeft)"
 
@@ -924,7 +976,7 @@ msgid "Download Tiles"
 msgstr "Завантажити зображення з Інтернету"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..flwpnlTileBorder..Label69..Caption
-#: frm_Settings.dfm:1081 
+#: frm_Settings.dfm:1091 
 msgid "Download tiles off-screen"
 msgstr "Кіл-ть тайлів, що завантажуються за межею екрана"
 
@@ -950,13 +1002,13 @@ msgid "Downloading with overwrite..."
 msgstr "Завантаження з заміною..."
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label1..Caption
-#: frm_Settings.dfm:426 
+#: frm_Settings.dfm:432 
 msgid "EarthSlicer cache folder:"
 msgstr "Шлях до кеша EarthSlicer:"
 
 #. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
-#: frm_Main.dfm:2958  frm_MarksExplorer.dfm:284
+#: frm_Main.dfm:2934  frm_MarksExplorer.dfm:284
 msgid "Edit"
 msgstr "Змінити"
 
@@ -1012,13 +1064,13 @@ msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:386 
+#: RegionProcess/fr_ExportIPhone.dfm:385 
 #: RegionProcess/fr_ExportYaMaps.dfm:312
 msgid "Enable the following map types:"
 msgstr "Включити наступні типи карт:"
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:60 
+#: frm_Settings.dfm:63 
 msgid "Enabled"
 msgstr "Використовується"
 
@@ -1097,7 +1149,7 @@ msgstr "Помилка при збереженні!"
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnExport..Caption
 #. frmRegionProcess..PageControl1..TabSheet5..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
-#: frm_MarksExplorer.dfm:47  frm_RegionProcess.dfm:49 u_ResStrings.pas:132
+#: frm_MarksExplorer.dfm:47  frm_RegionProcess.dfm:65 u_ResStrings.pas:132
 msgid "Export"
 msgstr "Експорт"
 
@@ -1117,7 +1169,7 @@ msgid "Export selected placemark"
 msgstr "Експорт обраної позначки"
 
 #. frmRegionProcess..PageControl1..TabSheet5..Label9..Caption
-#: frm_RegionProcess.dfm:65 
+#: frm_RegionProcess.dfm:85 
 msgid "Export selection to format"
 msgstr "Експорт виділеної ділянки у формат"
 
@@ -1131,13 +1183,13 @@ msgstr "Експорт виділеної ділянки у формат"
 msgid "Export visible placemarks"
 msgstr "Експорт лише відображених"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem9..Caption
-#: frm_Main.dfm:1214 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuFastest..Caption
+#: frm_Main.dfm:1198 
 msgid "Fastest"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem7..Caption
-#: frm_Main.dfm:1220 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuFastestWithTraffic..Caption
+#: frm_Main.dfm:1202 
 msgid "Fastest with traffic"
 msgstr ""
 
@@ -1168,7 +1220,7 @@ msgstr "У файлах %0:s та %1:s однакові GUID"
 
 #. frmImportConfigEdit..grpPoly..lblPolyFill..Caption
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
-#: frm_ImportConfigEdit.dfm:295  frm_MarkEditPoly.dfm:83
+#: frm_ImportConfigEdit.dfm:295  frm_MarkEditPoly.dfm:82
 msgid "Fill:"
 msgstr "Заповнення:"
 
@@ -1195,7 +1247,7 @@ msgid "Found"
 msgstr "Місце, знайдене за запитом"
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label3..Caption
-#: frm_MarkCategoryEdit.dfm:94 
+#: frm_MarkCategoryEdit.dfm:96 
 msgid "from"
 msgstr "c"
 
@@ -1235,17 +1287,17 @@ msgid "GB"
 msgstr "Гб"
 
 #. frmRegionProcess..PageControl1..TabSheet3..Caption
-#: frm_RegionProcess.dfm:39 
+#: frm_RegionProcess.dfm:47 
 msgid "Generate"
 msgstr "Сформувати"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkFromPrevZoom..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:211 
+#: RegionProcess/fr_TilesGenPrev.dfm:214 
 msgid "Generate each zoom from previous one"
 msgstr "Формувати кожен вибраний масштаб з попереднього вибраного"
 
 #. frTilesGenPrev..pnlTop..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:228 
+#: RegionProcess/fr_TilesGenPrev.dfm:232 
 msgid "Generate Lower Zooms for Selection"
 msgstr "Сформувати попередні шари супутникової карти"
 
@@ -1261,7 +1313,7 @@ msgstr "Показувати бланковку карт ГШ"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
-#: fr_LonLat.dfm:34  fr_LonLat.dfm:37
+#: fr_LonLat.dfm:31  fr_LonLat.dfm:34
 msgid "Geographic"
 msgstr "Географічні"
 
@@ -1272,7 +1324,7 @@ msgstr "Визначити позицію за базовими станціям
 
 #. frmGoTo..pnlBottomButtons..btnGoTo..Caption
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..Hint
-#: frm_GoTo.dfm:166  frm_Main.dfm:106
+#: frm_GoTo.dfm:165  frm_Main.dfm:106
 msgid "Go to"
 msgstr "Перейти"
 
@@ -1297,17 +1349,17 @@ msgstr ""
 "plt)|*.plt|Google KMZ-файли (*.kmz)|*.kmz|Файл виділення (*.hlg)|*.hlg"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label31..Caption
-#: frm_Settings.dfm:518 
+#: frm_Settings.dfm:524 
 msgid "GoogleEarth cache folder:"
 msgstr "Шлях до кеша Google Earth:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label19..Caption
-#: frm_Settings.dfm:472 
+#: frm_Settings.dfm:478 
 msgid "GoogleMaps cache folder:"
 msgstr "Шлях до кеша GM Tiles:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label2..Caption
-#: frm_Settings.dfm:380 
+#: frm_Settings.dfm:386 
 msgid "GoogleMV cache folder:"
 msgstr "Шлях до кеша GoogleMV:"
 
@@ -1327,14 +1379,14 @@ msgid "Hide placemarks"
 msgstr "Не показувати позначки"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
-#: RegionProcess/fr_MapCombine.dfm:378 
+#: RegionProcess/fr_MapCombine.dfm:376 
 msgid "horizontally:"
 msgstr "по горизоталі, на"
 
 #. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..Label4..Caption
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: fr_ShortCutList.dfm:49  frm_MapTypeEdit.dfm:428 frm_Settings.dfm:52
+#: fr_ShortCutList.dfm:48  frm_MapTypeEdit.dfm:427 frm_Settings.dfm:55
 msgid "Hotkey"
 msgstr "Гар. кл."
 
@@ -1344,7 +1396,7 @@ msgid "Hotkey in use. Please select another one"
 msgstr "Гаряча клавіша вже використовується, будь ласка, оберіть іншу"
 
 #. frmSettings..PageControl1..tsControl..GroupBox5..Caption
-#: frm_Settings.dfm:839 
+#: frm_Settings.dfm:850 
 msgid "Hotkeys"
 msgstr "Гарячі клавіши"
 
@@ -1355,7 +1407,7 @@ msgstr "Допомогти нам:"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:345 
+#: RegionProcess/fr_ExportIPhone.dfm:344 
 #: RegionProcess/fr_ExportYaMaps.dfm:271
 msgid "Hybrid"
 msgstr "Гібрид"
@@ -1422,7 +1474,7 @@ msgid "Incorrect GUID: %0:s"
 msgstr "GUID %0:s не відповідає формату"
 
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..btnMapInfo..Caption
-#: frm_Settings.dfm:123 
+#: frm_Settings.dfm:126 
 msgid "Info"
 msgstr "Інформація"
 
@@ -1433,7 +1485,7 @@ msgstr "Елементи інтерфейсу"
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
-#: frm_Main.dfm:743  frm_Settings.dfm:592
+#: frm_Main.dfm:743  frm_Settings.dfm:598
 msgid "Internet"
 msgstr "Інтернет"
 
@@ -1485,13 +1537,13 @@ msgid "KML (for Google Earth)"
 msgstr "KML (Для перегляду в GE)"
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:108 
+#: RegionProcess/fr_MapCombine.dfm:105 
 msgid "KMZ for Garmin"
 msgstr "Kmz для Garmin"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
-#: frm_Main.dfm:929  frm_Settings.dfm:991
+#: frm_Main.dfm:929  frm_Settings.dfm:1003
 msgid "Language"
 msgstr "Мова"
 
@@ -1515,17 +1567,17 @@ msgstr ""
 "широти у правому нижньому!"
 
 #. frLonLat..grdpnlLonLat..lblLat..Caption
-#: fr_LonLat.dfm:135 
+#: fr_LonLat.dfm:130 
 msgid "Latitude:"
 msgstr "Широта:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..ChBoxFirstLat..Caption
-#: frm_Settings.dfm:1035 
+#: frm_Settings.dfm:1045 
 msgid "Latitude-Longitude order"
 msgstr "Показувати у порядку: широта-довгота"
 
 #. frmMain..MainPopupMenu..TBLayerInfo..Caption
-#: frm_Main.dfm:3174 
+#: frm_Main.dfm:3150 
 msgid "Layer Info"
 msgstr "Інформація про шар"
 
@@ -1542,13 +1594,13 @@ msgstr "Шари"
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsLen..Caption
 #. Programmer's name for it: SAS_STR_L
-#: frm_Main.dfm:2991  u_ResStrings.pas:141
+#: frm_Main.dfm:2967  u_ResStrings.pas:141
 msgid "Length"
 msgstr "Довжина"
 
 #. frmImportConfigEdit..grpPoly..lblPolyLine..Caption
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
-#: frm_ImportConfigEdit.dfm:288  frm_MarkEditPoly.dfm:174
+#: frm_ImportConfigEdit.dfm:288  frm_MarkEditPoly.dfm:171
 msgid "Line:"
 msgstr "Лінія:"
 
@@ -1563,7 +1615,7 @@ msgid "Loading selection..."
 msgstr "Завантаження виділення..."
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBlock_toolbars..Caption
-#: frm_Settings.dfm:1045 
+#: frm_Settings.dfm:1055 
 msgid "Lock toolbars"
 msgstr "Прикріпити панелі інструментів"
 
@@ -1587,7 +1639,7 @@ msgstr ""
 "довготи у правому нижньому!"
 
 #. frLonLat..grdpnlLonLat..lblLon..Caption
-#: fr_LonLat.dfm:95 
+#: fr_LonLat.dfm:91 
 msgid "Longitude:"
 msgstr "Довгота:"
 
@@ -1628,7 +1680,7 @@ msgstr "Операція з виділеною областю"
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #: RegionProcess/fr_ExportAUX.dfm:37  RegionProcess/fr_ExportGEKml.dfm:83
-#: RegionProcess/fr_ExportIPhone.dfm:358
+#: RegionProcess/fr_ExportIPhone.dfm:357
 #: RegionProcess/fr_ExportToFileCont.dfm:84
 #: RegionProcess/fr_ExportYaMaps.dfm:284
 msgid "Map"
@@ -1640,12 +1692,12 @@ msgid "Map enabled"
 msgstr "Використати карту"
 
 #. frmMain..MainPopupMenu..NMapInfo..Caption
-#: frm_Main.dfm:3169 
+#: frm_Main.dfm:3145 
 msgid "Map Info"
 msgstr "Інформація про карту"
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:40 
+#: frm_Settings.dfm:43 
 msgid "Map Name"
 msgstr "Назва карти"
 
@@ -1681,7 +1733,7 @@ msgstr "Параметри карти"
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
 #. frTilesDownload..pnlBottom..pnlMain..lblMap..Caption
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblMap..Caption
-#: RegionProcess/fr_TilesDelete.dfm:88  RegionProcess/fr_TilesDownload.dfm:96
+#: RegionProcess/fr_TilesDelete.dfm:88  RegionProcess/fr_TilesDownload.dfm:95
 #: RegionProcess/fr_TilesGenPrev.dfm:105
 msgid "Map:"
 msgstr "Тип карти:"
@@ -1698,7 +1750,7 @@ msgid "Max.speed, km/h:"
 msgstr "Макс. швидкість, км/год:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
-#: frm_Settings.dfm:1641 
+#: frm_Settings.dfm:1652 
 msgid "Maximum number of track points:"
 msgstr "Максимальна кількість показуваних точок маршруту:"
 
@@ -1713,12 +1765,12 @@ msgid "MB"
 msgstr "Мб"
 
 #. frmMain..MainPopupMenu..NMarksCalcs..Caption
-#: frm_Main.dfm:2987 
+#: frm_Main.dfm:2963 
 msgid "Measurements"
 msgstr "Виміри"
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:48 
+#: frm_Settings.dfm:51 
 msgid "Menu"
 msgstr "Шлях у меню"
 
@@ -1733,7 +1785,7 @@ msgid "Minimap"
 msgstr "Карта огляду"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..Label17..Caption
-#: frm_Settings.dfm:1126 
+#: frm_Settings.dfm:1136 
 msgid "Minimap opacity"
 msgstr "Прозорість карти огляду"
 
@@ -1759,13 +1811,13 @@ msgid "Most likely you've been banned by the server!"
 msgstr "Висока вірогідність того, що Вас забанено!"
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
-#: frm_Settings.dfm:818 
+#: frm_Settings.dfm:829 
 msgid "Mouse wheel"
 msgstr "Коліщатко миші"
 
 #. frmMain..TBDock..TBMainToolBar..TBmove..Hint
 #. frTilesCopy..pnlCenter..pnlMain..chkDeleteSource..Caption
-#: frm_Main.dfm:65  RegionProcess/fr_TilesCopy.dfm:113
+#: frm_Main.dfm:65  RegionProcess/fr_TilesCopy.dfm:114
 msgid "Move"
 msgstr "Переміщувати"
 
@@ -1777,25 +1829,25 @@ msgstr "Пн"
 
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
 #. frmSearchResults..lvResults......Caption
-#: frm_MarkCategoryEdit.dfm:142  frm_SearchResults.dfm:25
+#: frm_MarkCategoryEdit.dfm:144  frm_SearchResults.dfm:25
 msgid "Name"
 msgstr "Довгота"
 
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
-#: frm_MarkEditPath.dfm:73  frm_MarkEditPoint.dfm:467
-#: frm_MarkEditPoly.dfm:321
+#: frm_MarkEditPath.dfm:72  frm_MarkEditPoint.dfm:466
+#: frm_MarkEditPoly.dfm:316
 msgid "Name:"
 msgstr "Назва:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label15..Caption
-#: frm_Settings.dfm:334 
+#: frm_Settings.dfm:340 
 msgid "Native cache folder:"
 msgstr "Шлях до „рідного“ кеша:"
 
 #. frmMain..MainPopupMenu..NMarkNav..Caption
-#: frm_Main.dfm:2976 
+#: frm_Main.dfm:2952 
 msgid "Navigate to Placemark"
 msgstr "Навігація на позначку"
 
@@ -1808,13 +1860,13 @@ msgstr "Навігація на вибрану позначку"
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlCategory..CBKateg..Text
 #. frmMarkEditPoly..pnlCategory..CBKateg..Text
 #. Programmer's name for it: SAS_STR_NewCategory
-#: frm_MarkEditPath.dfm:55  frm_MarkEditPoint.dfm:449
-#: frm_MarkEditPoly.dfm:303 u_ResStrings.pas:119
+#: frm_MarkEditPath.dfm:54  frm_MarkEditPoint.dfm:448
+#: frm_MarkEditPoly.dfm:298 u_ResStrings.pas:119
 msgid "New Category"
 msgstr "Нова категорія"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlImageProcess..CBinvertcolor..Caption
-#: frm_Settings.dfm:1453 
+#: frm_Settings.dfm:1461 
 msgid "Night mode (color inversion)"
 msgstr "Нічний режим (Інверсія кольорів)"
 
@@ -1830,7 +1882,7 @@ msgstr "Нічний режим (Інверсія кольорів)"
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..cbbHybr....Items.Strings
 #. Programmer's name for it: SAS_STR_No
 #: frm_Main.dfm:516  frm_Main.dfm:584 frm_ShortCutEdit.dfm:53
-#: RegionProcess/fr_MapCombine.dfm:239 RegionProcess/fr_MapCombine.dfm:241
+#: RegionProcess/fr_MapCombine.dfm:236 RegionProcess/fr_MapCombine.dfm:238
 #: u_ResStrings.pas:111
 msgid "No"
 msgstr "Ні"
@@ -1864,7 +1916,7 @@ msgid "Number of tiles"
 msgstr "Кількість файлів"
 
 #. frmSettings..PageControl1..tsCache..flwpnlMemCache..Label30..Caption
-#: frm_Settings.dfm:150 
+#: frm_Settings.dfm:156 
 msgid "Number of tiles to be cached in RAM"
 msgstr "Кількість тайлів, що кешується в оперативну пам’ять"
 
@@ -1886,64 +1938,133 @@ msgstr "Одометр № 2"
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnOk..Caption
 #. frmSettings..pnlBottomButtons..btnOk..Caption
 #: frm_MapTypeEdit.dfm:48  frm_MarkCategoryEdit.dfm:74
-#: frm_MarkEditPath.dfm:208 frm_MarkEditPoint.dfm:68 frm_MarkEditPoly.dfm:44
-#: frm_MarksExplorer.dfm:82 frm_Settings.dfm:2106
+#: frm_MarkEditPath.dfm:206 frm_MarkEditPoint.dfm:68 frm_MarkEditPoly.dfm:44
+#: frm_MarksExplorer.dfm:82 frm_Settings.dfm:2120
 msgid "Ok"
 msgstr "Гаразд"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem7..Caption
-#: frm_Main.dfm:1177 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeBicycleFastest..Caption
+#: frm_Main.dfm:1171  u_PathDetalizeProviderCloudMade.pas:304
+#: u_PathDetalizeProviderYourNavigation.pas:237
 msgid "On bicycle (Fastest)"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem12..Caption
-#: frm_Main.dfm:1195 
+#: u_PathDetalizeProviderCloudMade.pas:294 
+msgid "On bicycle (Fastest) by cloudmade.com"
+msgstr ""
+
+#: u_PathDetalizeProviderYourNavigation.pas:227 
+msgid "On bicycle (Fastest) by yournavigation.org"
+msgstr ""
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeBicycleShortest..Caption
+#: frm_Main.dfm:1183  u_PathDetalizeProviderCloudMade.pas:373
+#: u_PathDetalizeProviderYourNavigation.pas:267
 msgid "On bicycle (Shortest)"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem4..Caption
-#: frm_Main.dfm:1245 
+#: u_PathDetalizeProviderCloudMade.pas:363 
+msgid "On bicycle (Shortest) by cloudmade.com"
+msgstr ""
+
+#: u_PathDetalizeProviderYourNavigation.pas:257 
+msgid "On bicycle (Shortest) by yournavigation.org"
+msgstr ""
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationBicycleFastest..Caption
+#: frm_Main.dfm:1221 
 #, fuzzy
 msgid "On Bike (Fastest)"
 msgstr "На велосипеді (за довжиною)"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem3..Caption
-#: frm_Main.dfm:1251 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationBicycleShortest..Caption
+#: frm_Main.dfm:1225 
 #, fuzzy
 msgid "On Bike (Shortest)"
 msgstr "На велосипеді (за швидкістю)"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem9..Caption
-#: frm_Main.dfm:1165 
+#: u_PathDetalizeProviderMailRu.pas:256 
+#, fuzzy
+msgid "On car (Fastest with traffic)"
+msgstr "На автомобілі (за довжиною)"
+
+#: u_PathDetalizeProviderMailRu.pas:246 
+msgid "On car (Fastest with traffic) by Maps@mail.ru"
+msgstr ""
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeCarFastest..Caption
+#: frm_Main.dfm:1163  u_PathDetalizeProviderCloudMade.pas:258
+#: u_PathDetalizeProviderMailRu.pas:228
+#: u_PathDetalizeProviderYourNavigation.pas:177
 #, fuzzy
 msgid "On car (Fastest)"
 msgstr "На автомобілі (за довжиною)"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem1..Caption
-#: frm_Main.dfm:1233 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationCarFastest..Caption
+#: frm_Main.dfm:1213 
 #, fuzzy
 msgid "On Car (Fastest)"
 msgstr "На автомобілі (за довжиною)"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem10..Caption
-#: frm_Main.dfm:1183 
+#: u_PathDetalizeProviderCloudMade.pas:248 
+#, fuzzy
+msgid "On car (Fastest) by cloudmade.com"
+msgstr "На автомобілі (за довжиною)"
+
+#: u_PathDetalizeProviderMailRu.pas:218 
+#, fuzzy
+msgid "On car (Fastest) by Maps@mail.ru"
+msgstr "На автомобілі (за довжиною)"
+
+#: u_PathDetalizeProviderYourNavigation.pas:167 
+#, fuzzy
+msgid "On car (Fastest) by yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeCarShortest..Caption
+#: frm_Main.dfm:1175  u_PathDetalizeProviderCloudMade.pas:327
+#: u_PathDetalizeProviderMailRu.pas:200
+#: u_PathDetalizeProviderYourNavigation.pas:207
 msgid "On car (Shortest)"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem2..Caption
-#: frm_Main.dfm:1239 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationCarShortest..Caption
+#: frm_Main.dfm:1217 
 #, fuzzy
 msgid "On Car (Shortest)"
 msgstr "На автомобілі (за швидкістю)"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem8..Caption
-#: frm_Main.dfm:1171 
+#: u_PathDetalizeProviderCloudMade.pas:317 
+#, fuzzy
+msgid "On car (Shortest) by cloudmade.com"
+msgstr "На автомобілі (за швидкістю)"
+
+#: u_PathDetalizeProviderMailRu.pas:190 
+#, fuzzy
+msgid "On car (Shortest) by Maps@mail.ru"
+msgstr "На автомобілі (за швидкістю)"
+
+#: u_PathDetalizeProviderYourNavigation.pas:197 
+#, fuzzy
+msgid "On car (Shortest) by yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeFootFastest..Caption
+#: frm_Main.dfm:1167  u_PathDetalizeProviderCloudMade.pas:281
 msgid "On foot (Fastest)"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXItem11..Caption
-#: frm_Main.dfm:1189 
+#: u_PathDetalizeProviderCloudMade.pas:271 
+msgid "On foot (Fastest) by cloudmade.com"
+msgstr ""
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeFootShortest..Caption
+#: frm_Main.dfm:1179  u_PathDetalizeProviderCloudMade.pas:350
 msgid "On foot (Shortest)"
+msgstr ""
+
+#: u_PathDetalizeProviderCloudMade.pas:340 
+msgid "On foot (Shortest) by cloudmade.com"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..N29..Caption
@@ -1952,18 +2073,18 @@ msgid "Online Help (http://sasgis.ru/wikisasiya)"
 msgstr "Довідка (http://sasgis.ru/wikisasiya)"
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
-#: RegionProcess/fr_TilesDownload.dfm:175 
+#: RegionProcess/fr_TilesDownload.dfm:176 
 msgid "only created before"
 msgstr "лише створені до "
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
-#: RegionProcess/fr_TilesDownload.dfm:157 
+#: RegionProcess/fr_TilesDownload.dfm:158 
 msgid "only if different"
 msgstr "лише при їх відмінності"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label28..Caption
-#: frm_Settings.dfm:1198  frm_Settings.dfm:1361
+#: frm_Settings.dfm:1208  frm_Settings.dfm:1371
 msgid "Opacity"
 msgstr "Прозорість"
 
@@ -1977,18 +2098,18 @@ msgstr "Прозорість"
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
 #: frm_ImportConfigEdit.dfm:70  frm_ImportConfigEdit.dfm:184
 #: frm_ImportConfigEdit.dfm:251 frm_ImportConfigEdit.dfm:273
-#: frm_MarkEditPath.dfm:176 frm_MarkEditPoint.dfm:348 frm_MarkEditPoly.dfm:140
-#: frm_MarkEditPoly.dfm:249
+#: frm_MarkEditPath.dfm:174 frm_MarkEditPoint.dfm:348 frm_MarkEditPoly.dfm:138
+#: frm_MarkEditPoly.dfm:245
 msgid "Opacity %"
 msgstr "Прозорість %"
 
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
-#: frm_Main.dfm:3102 
+#: frm_Main.dfm:3078 
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Відкрити теку, що містить тайл шару"
 
 #. frmMain..MainPopupMenu..N25..Caption
-#: frm_Main.dfm:3097 
+#: frm_Main.dfm:3073 
 msgid "Open Primary Map Tile Folder"
 msgstr "Відкрити теку, що містить тайл основної карти"
 
@@ -2010,32 +2131,32 @@ msgid "Output format"
 msgstr "Конвертувати у формат"
 
 #. frMapCombine..pnlOutputFormat..lblOutputFormat..Caption
-#: RegionProcess/fr_MapCombine.dfm:89 
+#: RegionProcess/fr_MapCombine.dfm:86 
 msgid "Output format:"
 msgstr "Результуючий формат:"
 
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblHybr..Caption
-#: RegionProcess/fr_MapCombine.dfm:203 
+#: RegionProcess/fr_MapCombine.dfm:200 
 msgid "Overlay layer:"
 msgstr "Накласти:"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:193 
+#: RegionProcess/fr_TilesGenPrev.dfm:194 
 msgid "Overwrite existing tiles"
 msgstr "Змінювати існуючі файли"
 
 #. frTilesCopy..pnlCenter..pnlMain..chkReplaseTarget..Caption
-#: RegionProcess/fr_TilesCopy.dfm:126 
+#: RegionProcess/fr_TilesCopy.dfm:128 
 msgid "Overwrite if equal"
 msgstr "Замінювати при співпадінні"
 
 #. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
-#: RegionProcess/fr_TilesDownload.dfm:127 
+#: RegionProcess/fr_TilesDownload.dfm:125 
 msgid "Overwrite old tiles"
 msgstr "Замінювати старі файли"
 
 #. frmMapTypeEdit..pnlParentItem..Label3..Caption
-#: frm_MapTypeEdit.dfm:181 
+#: frm_MapTypeEdit.dfm:182 
 msgid "Parent submenu"
 msgstr "Батьківський пункт меню"
 
@@ -2050,13 +2171,13 @@ msgid "Path parameters"
 msgstr "Параметри шляхів"
 
 #. frmMain..MainPopupMenu..N43..N15..Caption
-#: frm_Main.dfm:3085 
+#: frm_Main.dfm:3061 
 msgid "Pathname to Tile in Cache"
 msgstr "Відносний шлях до зображення"
 
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..Label6..Caption
 #. frmProgressDownload..Panel1..pnlBottom..Button1..Caption
-#: frm_MapTypeEdit.dfm:481  frm_ProgressDownload.dfm:195
+#: frm_MapTypeEdit.dfm:480  frm_ProgressDownload.dfm:195
 msgid "Pause"
 msgstr "Пауза"
 
@@ -2072,12 +2193,12 @@ msgstr "Призупинено користувачем..."
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsPer..Caption
 #. Programmer's name for it: SAS_STR_P
-#: frm_Main.dfm:2996  u_ResStrings.pas:142
+#: frm_Main.dfm:2972  u_ResStrings.pas:142
 msgid "Perimeter"
 msgstr "Периметр"
 
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
-#: fr_LonLat.dfm:38 
+#: fr_LonLat.dfm:35 
 msgid "Pixel"
 msgstr "Піксельні"
 
@@ -2092,7 +2213,7 @@ msgid "Placemark Categories"
 msgstr " Категорії позначок "
 
 #. frmMain..MainPopupMenu..NMarkExport..Caption
-#: frm_Main.dfm:2982 
+#: frm_Main.dfm:2958 
 msgid "Placemark Export"
 msgstr "Експорт позначки"
 
@@ -2147,7 +2268,7 @@ msgid "Please wait..."
 msgstr "Зачекайте будь ласка..."
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label10..Caption
-#: frm_Settings.dfm:1591 
+#: frm_Settings.dfm:1602 
 msgid "Pointer size:"
 msgstr "Розмір вказівника напрямку:"
 
@@ -2172,12 +2293,12 @@ msgid "Previous Selection"
 msgstr "Останнє виділення"
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMainColor..Caption
-#: frm_Settings.dfm:1929 
+#: frm_Settings.dfm:1940 
 msgid "Primary color"
 msgstr "Основний колір"
 
 #. frmMain..MainPopupMenu..N43..N20..Caption
-#: frm_Main.dfm:3080 
+#: frm_Main.dfm:3056 
 msgid "Primary Map Tile"
 msgstr "Тайл основної карти"
 
@@ -2223,12 +2344,12 @@ msgid "Proxy configuration string is not correct"
 msgstr "Невірний формат запису проксі-сервера"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
-#: frm_Settings.dfm:755 
+#: frm_Settings.dfm:763 
 msgid "Proxy login:"
 msgstr "Використовувати логін:"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
-#: frm_Settings.dfm:770 
+#: frm_Settings.dfm:778 
 msgid "Proxy password:"
 msgstr "і пароль:"
 
@@ -2238,7 +2359,7 @@ msgid "Quality"
 msgstr "Роздільна здатність"
 
 #. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
-#: RegionProcess/fr_MapCombine.dfm:301 
+#: RegionProcess/fr_MapCombine.dfm:299 
 msgid "Quality (for JPEG and ECW):"
 msgstr "Якість (для JPEG та ECW):"
 
@@ -2260,7 +2381,7 @@ msgid "Rectangular Selection"
 msgstr "Прямокутна область"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
-#: frm_Settings.dfm:1574 
+#: frm_Settings.dfm:1585 
 msgid "Refresh rate (ms)"
 msgstr "Період оновлення (сек/1000)"
 
@@ -2285,7 +2406,7 @@ msgid "Reset"
 msgstr "Скинути"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..Label16..Caption
-#: frm_Settings.dfm:1270 
+#: frm_Settings.dfm:1280 
 msgid "Resize algorithm"
 msgstr "Алгоритм розтягування зображення"
 
@@ -2295,7 +2416,7 @@ msgid "Resize algorithm:"
 msgstr "Алгоритм:"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
-#: frm_Settings.dfm:674 
+#: frm_Settings.dfm:683 
 msgid "Restore download from last successful tile"
 msgstr ""
 "Почати збережену сесію завантаження з останнього вдало завантаженого тайла"
@@ -2306,7 +2427,7 @@ msgid "Resume"
 msgstr "Продовжити"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
-#: frm_Settings.dfm:612 
+#: frm_Settings.dfm:621 
 msgid "Retry download if tile not found"
 msgstr "Намагатись повторно завантажити тайл при його відсутності"
 
@@ -2316,7 +2437,7 @@ msgid "Retrying operation"
 msgstr "Намагаємось повторити обробку"
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
-#: frm_Settings.dfm:828 
+#: frm_Settings.dfm:839 
 msgid "Roll backward to zoom in"
 msgstr "обератння на себе – наближення"
 
@@ -2331,7 +2452,7 @@ msgid "Ruler"
 msgstr "Лінійка"
 
 #. frmAbout..lblAuthor..Caption
-#: frm_About.dfm:103 
+#: frm_About.dfm:104 
 msgid "SAS Group"
 msgstr "Група SAS"
 
@@ -2346,7 +2467,7 @@ msgstr "Група SAS"
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. Programmer's name for it: SAS_STR_ApplicationTitle
 #: frm_About.dfm:74  frm_Main.dfm:6 frm_MapTypeEdit.dfm:141
-#: frm_Settings.dfm:580 frm_Settings.dfm:583
+#: frm_Settings.dfm:586 frm_Settings.dfm:589
 #: RegionProcess/fr_ExportToFileCont.dfm:120
 #: RegionProcess/fr_ExportToFileCont.dfm:123 RegionProcess/fr_TilesCopy.dfm:96
 #: RegionProcess/fr_TilesCopy.dfm:99 u_ResStrings.pas:161
@@ -2362,39 +2483,39 @@ msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:372 
+#: RegionProcess/fr_ExportIPhone.dfm:371 
 #: RegionProcess/fr_ExportYaMaps.dfm:298
 msgid "Satellite"
 msgstr "Супутник"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..NSignalStrengthBar..Caption
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
-#: frm_Main.dfm:441  frm_Main.dfm:1307
+#: frm_Main.dfm:441  frm_Main.dfm:1283
 msgid "Satellite Signal Strength"
 msgstr "Рівні сигналу"
 
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..TBXLabel5..Caption
-#: frm_Main.dfm:1316 
+#: frm_Main.dfm:1292 
 msgid "Satellite Signal Strength:"
 msgstr "Рівні сигналу:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..Caption
-#: frm_Settings.dfm:1731 
+#: frm_Settings.dfm:1742 
 msgid "Satellites"
 msgstr "Супутники"
 
 #. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoVisible..lblSatInfoVisible..Caption
-#: frm_Settings.dfm:1827 
+#: frm_Settings.dfm:1837 
 msgid "Satellites in range"
 msgstr "Видимі"
 
 #. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoActive..lblSatInfoActive..Caption
-#: frm_Settings.dfm:1777 
+#: frm_Settings.dfm:1788 
 msgid "Satellites in use"
 msgstr "Активні супутники"
 
 #. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoZeroSignal..lblSatInfoZeroSignal..Caption
-#: frm_Settings.dfm:1850 
+#: frm_Settings.dfm:1859 
 msgid "Satellites not in range"
 msgstr "Видимі з нульовим сигналом"
 
@@ -2409,13 +2530,13 @@ msgid "Save current session"
 msgstr "Зберегти поточну сесію"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:202 
+#: RegionProcess/fr_TilesGenPrev.dfm:204 
 msgid "Save only complete tiles"
 msgstr "Зберігати лише цілковито заповнені тайли"
 
 #. frmRegionProcess..pnlBottomButtons..SpeedButton1..Hint
 #. frTilesCopy..Panel1..Caption
-#: frm_RegionProcess.dfm:108  RegionProcess/fr_TilesCopy.dfm:206
+#: frm_RegionProcess.dfm:132  RegionProcess/fr_TilesCopy.dfm:208
 msgid "Save selection to file"
 msgstr "Зберегти кеш  виділеної ділянки карти"
 
@@ -2426,11 +2547,11 @@ msgstr "Зберегти кеш  виділеної ділянки карти"
 #. frExportYaMaps..pnlTop..lblTargetPath..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
 #. frTilesCopy..pnlTop..lblTargetPath..Caption
-#: RegionProcess/fr_ExportAUX.dfm:103  RegionProcess/fr_ExportGEKml.dfm:144
-#: RegionProcess/fr_ExportIPhone.dfm:29
+#: RegionProcess/fr_ExportAUX.dfm:102  RegionProcess/fr_ExportGEKml.dfm:143
+#: RegionProcess/fr_ExportIPhone.dfm:28
 #: RegionProcess/fr_ExportToFileCont.dfm:149
-#: RegionProcess/fr_ExportYaMaps.dfm:341 RegionProcess/fr_MapCombine.dfm:45
-#: RegionProcess/fr_TilesCopy.dfm:173
+#: RegionProcess/fr_ExportYaMaps.dfm:340 RegionProcess/fr_MapCombine.dfm:44
+#: RegionProcess/fr_TilesCopy.dfm:175
 msgid "Save to:"
 msgstr "Куди зберігати:"
 
@@ -2468,7 +2589,7 @@ msgid "Select data source"
 msgstr "Оберіть джерело, з якого програма буде брати карти"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbHybr..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:251 
+#: RegionProcess/fr_ExportIPhone.dfm:250 
 msgid "Select Hybrid as main layer"
 msgstr "Обрати гібрид у якості основного шару"
 
@@ -2478,7 +2599,7 @@ msgid "Select image"
 msgstr "Оберіть графічне зображення"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbMap..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:260 
+#: RegionProcess/fr_ExportIPhone.dfm:259 
 msgid "Select Map as main layer"
 msgstr "Обрати карту в якості основного шару"
 
@@ -2488,7 +2609,7 @@ msgid "Select overlay layers"
 msgstr "Вибір шарів, що показуються поверх основної карти"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbSat..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:271 
+#: RegionProcess/fr_ExportIPhone.dfm:270 
 msgid "Select Satellite as main layer"
 msgstr "Обрати супутник у якості основного шару"
 
@@ -2517,26 +2638,26 @@ msgstr "Оберіть графічне зображення"
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
 #. frmMain..MainPopupMenu..NMarkOper..Caption
 #. frmRegionProcess..Caption
-#: frm_Main.dfm:334  frm_Main.dfm:2970 frm_RegionProcess.dfm:4
+#: frm_Main.dfm:334  frm_Main.dfm:2946 frm_RegionProcess.dfm:4
 #, fuzzy
 msgid "Selection Manager"
 msgstr "Оберіть графічне зображення"
 
 #. frmMain..OpenDialog1..Filter
 #. frmRegionProcess..SaveSelDialog..Filter
-#: frm_Main.dfm:1325  frm_RegionProcess.dfm:186
+#: frm_Main.dfm:1301  frm_RegionProcess.dfm:210
 msgid "Selections|*.hlg"
 msgstr "Файл виділення|*.hlg"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
-#: frm_Main.dfm:437  frm_Main.dfm:1275
+#: frm_Main.dfm:437  frm_Main.dfm:1249
 msgid "Sensors"
 msgstr "Датчики"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
-#: frm_Settings.dfm:1495  frm_Settings.dfm:2008
+#: frm_Settings.dfm:1506  frm_Settings.dfm:2022
 msgid "Serial port"
 msgstr "COM-порт"
 
@@ -2551,13 +2672,13 @@ msgid "Server returned unexpected type \"%0:s\""
 msgstr "Сервіс повернув тип „%0:s“, а не один з очікуваних"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
-#: frm_Settings.dfm:654 
+#: frm_Settings.dfm:663 
 msgid "Server timeout, ms"
 msgstr "Таймаут на мережеві операції, мс"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button15..Caption
-#: frm_Main.dfm:905  frm_Settings.dfm:90
+#: frm_Main.dfm:905  frm_Settings.dfm:93
 msgid "Settings"
 msgstr "Параметри"
 
@@ -2568,12 +2689,12 @@ msgid "Shadow color"
 msgstr "Колір тіні"
 
 #. frmMain..SaveLink..Filter
-#: frm_Main.dfm:1331 
+#: frm_Main.dfm:1307 
 msgid "Shortcut|*.lnk"
 msgstr "Ярлик|*.lnk"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBItem8..Caption
-#: frm_Main.dfm:1208 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuShortest..Caption
+#: frm_Main.dfm:1194 
 #, fuzzy
 msgid "Shortest"
 msgstr "Джерела"
@@ -2584,7 +2705,7 @@ msgid "Show all placemarks"
 msgstr "Показувати всі позначки"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..Label23..Caption
-#: frm_Settings.dfm:1323 
+#: frm_Settings.dfm:1333 
 msgid "Show borders:"
 msgstr "Показ меж:"
 
@@ -2604,7 +2725,7 @@ msgid "Show GPS Track"
 msgstr "Показувати маршрут"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowmapname..Caption
-#: frm_Settings.dfm:1025 
+#: frm_Settings.dfm:1035 
 msgid "Show map name on toolbar"
 msgstr "Показувати назву карти на панелі інструментів"
 
@@ -2623,12 +2744,12 @@ msgid "Show only selected placemarks"
 msgstr "Показувати лише зазначені позначки"
 
 #. frmMain..MainPopupMenu..Nopendir..Caption
-#: frm_Main.dfm:3091 
+#: frm_Main.dfm:3067 
 msgid "Show Primary Map Tile"
 msgstr "Перегляд тайла основної карти"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
-#: frm_Settings.dfm:1057 
+#: frm_Settings.dfm:1067 
 msgid "Show tooltips"
 msgstr "Показувати опис позначки при наведенні курсору"
 
@@ -2685,7 +2806,7 @@ msgid "Shows total distance"
 msgstr "Показує весь пройдений шлях"
 
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Hint
-#: frm_Main.dfm:1296 
+#: frm_Main.dfm:1270 
 msgid "Signal-to-noise ratio for satellites in use"
 msgstr ""
 "Співвідношення сигнал/шум для супутників, що беруть участь у визначенні "
@@ -2724,7 +2845,7 @@ msgid "Speed"
 msgstr "Швидкість"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
-#: RegionProcess/fr_MapCombine.dfm:371 
+#: RegionProcess/fr_MapCombine.dfm:369 
 msgid "Split image"
 msgstr "Розбити зображення"
 
@@ -2735,7 +2856,7 @@ msgstr "Розбити на"
 
 #. frmImportConfigEdit..btnOk..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
-#: frm_ImportConfigEdit.dfm:352  frm_RegionProcess.dfm:154
+#: frm_ImportConfigEdit.dfm:352  frm_RegionProcess.dfm:178
 msgid "Start"
 msgstr "Почати"
 
@@ -2745,7 +2866,7 @@ msgid "Status Bar"
 msgstr "Рядок статусу"
 
 #. frmRegionProcess..PageControl1..TabSheet2..Caption
-#: frm_RegionProcess.dfm:34 
+#: frm_RegionProcess.dfm:38 
 msgid "Stitch"
 msgstr "Склеїти"
 
@@ -2771,12 +2892,12 @@ msgid "Stop"
 msgstr "до"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
-#: frm_Settings.dfm:634 
+#: frm_Settings.dfm:643 
 msgid "Store info about not found tiles"
 msgstr "Зберігати інформацію про відсутність тайлів на сервері"
 
 #. frmGoTo..RB3..Caption
-#: frm_GoTo.dfm:180 
+#: frm_GoTo.dfm:179 
 msgid "Stored placemarks"
 msgstr "Збережені позначки"
 
@@ -2861,7 +2982,7 @@ msgid "This is not simple file storage. Tile's file name does not exist."
 msgstr "Це не тайловий кеш, неможливо отримати назву файла з тайлом."
 
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
-#: fr_LonLat.dfm:39 
+#: fr_LonLat.dfm:36 
 msgid "Tile"
 msgstr "Тайлові"
 
@@ -2880,7 +3001,7 @@ msgid "Tile Boundaries"
 msgstr "Показувати межі зображень"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..CBBorderText..Caption
-#: frm_Settings.dfm:1379 
+#: frm_Settings.dfm:1389 
 msgid "Tile coordinates"
 msgstr "Підпис"
 
@@ -2915,7 +3036,7 @@ msgid "Time to reach:"
 msgstr "Час шляху: "
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
-#: frm_MarkCategoryEdit.dfm:113 
+#: frm_MarkCategoryEdit.dfm:115 
 msgid "to"
 msgstr "до"
 
@@ -2940,12 +3061,12 @@ msgid "Total to save:"
 msgstr "Всього зберегти:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
-#: frm_Settings.dfm:1608 
+#: frm_Settings.dfm:1619 
 msgid "Track width:"
 msgstr "Ширина маршруту:"
 
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
-#: RegionProcess/fr_TilesDownload.dfm:137 
+#: RegionProcess/fr_TilesDownload.dfm:136 
 msgid "Try to re-download missing tiles"
 msgstr "Намагатись завантажувати відсутні тайли"
 
@@ -2981,7 +3102,7 @@ msgstr "Невідома помилка при завантаженні"
 
 #. frmDGAvailablePic..GroupBox3..pnlRight..Button1..Caption
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button12..Caption
-#: frm_DGAvailablePic.dfm:127  frm_Settings.dfm:112
+#: frm_DGAvailablePic.dfm:127  frm_Settings.dfm:115
 msgid "Up"
 msgstr "Вгору"
 
@@ -2991,37 +3112,37 @@ msgid "Upper left corner"
 msgstr "Лівий верхній кут"
 
 #. frmMain..MainPopupMenu..N43..livecom1..Caption
-#: frm_Main.dfm:3057 
+#: frm_Main.dfm:3033 
 msgid "URL to Bing Maps"
 msgstr "Посилання для перегляду на Maps.live.com"
 
 #. frmMain..MainPopupMenu..N43..Google1..Caption
-#: frm_Main.dfm:3042 
+#: frm_Main.dfm:3018 
 msgid "URL to Google Maps"
 msgstr "Посилання для перегляду на Google Maps"
 
 #. frmMain..MainPopupMenu..N43..kosmosnimkiru1..Caption
-#: frm_Main.dfm:3052 
+#: frm_Main.dfm:3028 
 msgid "URL to kosmosnimki.ru"
 msgstr "Посилання для перегляду на Kosmosnimki.ru"
 
 #. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
-#: frm_Main.dfm:3070 
+#: frm_Main.dfm:3046 
 msgid "URL to Layer Tile"
 msgstr "Посилання на тайл шару"
 
 #. frmMain..MainPopupMenu..N43..N13..Caption
-#: frm_Main.dfm:3066 
+#: frm_Main.dfm:3042 
 msgid "URL to Primary Map Tile"
 msgstr "Посилання на тайл основної карти"
 
 #. frmMain..MainPopupMenu..N43..YaLink..Caption
-#: frm_Main.dfm:3047 
+#: frm_Main.dfm:3023 
 msgid "URL to Yandex.Maps"
 msgstr "Посилання для перегляду на Яндекс.Карты"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
-#: RegionProcess/fr_MapCombine.dfm:280 
+#: RegionProcess/fr_MapCombine.dfm:278 
 msgid "Use color settings"
 msgstr "Застосовувати налаштуванння кольору"
 
@@ -3036,12 +3157,12 @@ msgid "Use Maps from Lower Zooms"
 msgstr "Брати карти з менших масштабів"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblUseProxy..Caption
-#: frm_Settings.dfm:704 
+#: frm_Settings.dfm:713 
 msgid "Use proxy (IP:port)"
 msgstr "Використовувати проксі (ip:port)"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
-#: frm_Settings.dfm:799 
+#: frm_Settings.dfm:807 
 msgid "Use system proxy settings"
 msgstr "Брати налаштування з’єднання з реєстру"
 
@@ -3051,12 +3172,12 @@ msgid "Version:"
 msgstr "Версія:"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitVert..Caption
-#: RegionProcess/fr_MapCombine.dfm:386 
+#: RegionProcess/fr_MapCombine.dfm:384 
 msgid "vertically:"
 msgstr "по вертикалі, на"
 
 #. frmSettings..PageControl1..tsView..Caption
-#: frm_Settings.dfm:845 
+#: frm_Settings.dfm:856 
 msgid "View"
 msgstr "Зовнішній вигляд"
 
@@ -3095,33 +3216,33 @@ msgstr "Сайт:"
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
 #: frm_ImportConfigEdit.dfm:177  frm_ImportConfigEdit.dfm:244
-#: frm_MarkEditPath.dfm:154 frm_MarkEditPoly.dfm:228
+#: frm_MarkEditPath.dfm:152 frm_MarkEditPoly.dfm:224
 msgid "Width"
 msgstr "Ширина"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:964 
+#: frm_Settings.dfm:976 
 msgid "WS deg. (W12.1233°)"
 msgstr "WS г. (W12.1233°)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:963 
+#: frm_Settings.dfm:975 
 msgid "WS deg.min. (W12°23.454)"
 msgstr "WS г.м. (W12°23.454)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:960  frm_Settings.dfm:962
+#: frm_Settings.dfm:972  frm_Settings.dfm:974
 msgid "WS deg.min.sec. (W12°23\"43.35')"
 msgstr "WS г.м.с. (W12°23\"43.35')"
 
 #. frLonLat..pnlXY..grdpnlXY..lblX..Caption
-#: fr_LonLat.dfm:249 
+#: fr_LonLat.dfm:240 
 msgid "X:"
 msgstr ""
 
 #. frLonLat..pnlXY..grdpnlXY..lblY..Caption
-#: fr_LonLat.dfm:208 
+#: fr_LonLat.dfm:201 
 msgid "Y:"
 msgstr ""
 
@@ -3130,13 +3251,13 @@ msgstr ""
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..Caption
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..EditCaption
 #. frmMain..TBDock..TBXToolBarSearch..TBXSelectSrchType..TBXSelectYandexSrch..Caption
-#: frm_GoTo.dfm:198  frm_Main.dfm:108 frm_Main.dfm:109 frm_Main.dfm:111
+#: frm_GoTo.dfm:197  frm_Main.dfm:108 frm_Main.dfm:109 frm_Main.dfm:111
 #: frm_Main.dfm:987
 msgid "Yandex"
 msgstr "Яндекс"
 
 #. frmAbout..lblYandexMoneyCaption..Caption
-#: frm_About.dfm:127 
+#: frm_About.dfm:129 
 msgid "Yandex.Money"
 msgstr "Яндекс.Деньги:"
 
@@ -3151,12 +3272,12 @@ msgid "You need at least one MAP among your ZMP files"
 msgstr "Серед ZMP має бути хоча б одна карта"
 
 #. frLonLat..pnlXY..grdpnlZoom..lblZoom..Caption
-#: fr_LonLat.dfm:297 
+#: fr_LonLat.dfm:287 
 msgid "Z:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:56 
+#: frm_Settings.dfm:59 
 msgid "ZMP Filename"
 msgstr "Шлях до файла"
 
@@ -3164,7 +3285,7 @@ msgstr "Шлях до файла"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
 #. Programmer's name for it: SAS_STR_Scale
-#: fr_LonLat.dfm:309  frm_Main.dfm:410 frm_Main.dfm:1029 u_ResStrings.pas:91
+#: fr_LonLat.dfm:297  frm_Main.dfm:410 frm_Main.dfm:1029 u_ResStrings.pas:91
 msgid "Zoom"
 msgstr "Масштаб"
 
@@ -3191,8 +3312,8 @@ msgstr "Переміщувати до курсору"
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
 #. frTilesDownload..pnlBottom..pnlRight..lblZoom..Caption
-#: frm_GoTo.dfm:105  RegionProcess/fr_ExportAUX.dfm:70
-#: RegionProcess/fr_MapCombine.dfm:142 RegionProcess/fr_TilesDelete.dfm:52
+#: frm_GoTo.dfm:104  RegionProcess/fr_ExportAUX.dfm:70
+#: RegionProcess/fr_MapCombine.dfm:141 RegionProcess/fr_TilesDelete.dfm:52
 #: RegionProcess/fr_TilesDownload.dfm:51
 msgid "Zoom:"
 msgstr "Масштаб:"
@@ -3202,7 +3323,7 @@ msgstr "Масштаб:"
 #. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportYaMaps..pnlCenter..pnlRight..lblZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
-#: RegionProcess/fr_ExportGEKml.dfm:37  RegionProcess/fr_ExportIPhone.dfm:425
+#: RegionProcess/fr_ExportGEKml.dfm:37  RegionProcess/fr_ExportIPhone.dfm:424
 #: RegionProcess/fr_ExportToFileCont.dfm:38
 #: RegionProcess/fr_ExportYaMaps.dfm:37 RegionProcess/fr_TilesCopy.dfm:38
 msgid "Zooms:"
