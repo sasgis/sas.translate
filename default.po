@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-08-01 11:05\n"
-"PO-Revision-Date: 2011-08-01 11:05\n"
+"POT-Creation-Date: 2011-08-17 13:21\n"
+"PO-Revision-Date: 2011-08-17 13:21\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,22 +15,22 @@ msgstr "Project-Id-Version: PACKAGE VERSION\n"
 "X-Generator: dxgettext 1.2.2\n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:967
+#: frm_Settings.dfm:939
 msgid "-- deg. (-12.1233°)"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:966
+#: frm_Settings.dfm:938
 msgid "-- deg.min. (-12°23.454)"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:965
+#: frm_Settings.dfm:937
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..Caption
-#: frm_Main.dfm:943
+#: frm_Main.dfm:948
 msgid "&Help"
 msgstr ""
 
@@ -40,22 +40,22 @@ msgid "&hl=en"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NSMB..Caption
-#: frm_Main.dfm:771
+#: frm_Main.dfm:776
 msgid "&Maps"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..Caption
-#: frm_Main.dfm:277
+#: frm_Main.dfm:275
 msgid "&Operations"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NSources..Caption
-#: frm_Main.dfm:728
+#: frm_Main.dfm:733
 msgid "&Source"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..Caption
-#: frm_Main.dfm:400
+#: frm_Main.dfm:398
 msgid "&View"
 msgstr ""
 
@@ -65,77 +65,81 @@ msgid "/pixel"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:217
+#: RegionProcess/fr_ExportIPhone.dfm:216
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:183
+#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:174
 msgid "0..9 max"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale1000000..Caption
-#: frm_Main.dfm:595
+#: frm_Main.dfm:593
 msgid "1:1 000 000 (10 km)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale10000..Caption
-#: frm_Main.dfm:649
+#: frm_Main.dfm:647
 msgid "1:10 000 (100 m)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale100000..Caption
-#: frm_Main.dfm:622
+#: frm_Main.dfm:620
 msgid "1:100 000 (1 km)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale200000..Caption
-#: frm_Main.dfm:613
+#: frm_Main.dfm:611
 msgid "1:200 000 (2 km)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale25000..Caption
-#: frm_Main.dfm:640
+#: frm_Main.dfm:638
 msgid "1:25 000 (250 m)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale50000..Caption
-#: frm_Main.dfm:631
+#: frm_Main.dfm:629
 msgid "1:50 000 (500 m)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale500000..Caption
-#: frm_Main.dfm:604
+#: frm_Main.dfm:602
 msgid "1:500 000 (5 km)"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybrCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:314
+#: RegionProcess/fr_ExportIPhone.dfm:313
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSatCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:325
+#: RegionProcess/fr_ExportIPhone.dfm:324
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:251
+#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:242
 msgid "100..1 max"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
-#: frm_Settings.dfm:920
+#: frm_Settings.dfm:895
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#: frm_Settings.dfm:922
+#: frm_Settings.dfm:897
 msgid "12 km 423 m"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#: frm_Settings.dfm:923
+#: frm_Settings.dfm:898
 msgid "23.4 km"
 msgstr ""
 
 #. frmAbout..Caption
 #: frm_About.dfm:5
 #. frmMain..TBDock..TBXMainMenu..NHelp..N16..Caption
-#: frm_Main.dfm:957
+#: frm_Main.dfm:962
 msgid "About"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
-#: frm_MarksExplorer.dfm:278
+#: frm_MarksExplorer.dfm:271
 msgid "Add"
 msgstr ""
 
@@ -152,7 +156,7 @@ msgid "Add New Category"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Hint
-#: frm_Main.dfm:799
+#: frm_Main.dfm:804
 msgid "Add new path"
 msgstr ""
 
@@ -164,7 +168,7 @@ msgid "Add New Path"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Hint
-#: frm_Main.dfm:791
+#: frm_Main.dfm:796
 msgid "Add new placemark"
 msgstr ""
 
@@ -183,72 +187,72 @@ msgid "Add New Polygon"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Caption
-#: frm_Main.dfm:798
+#: frm_Main.dfm:803
 msgid "Add Path"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmSaveCurrentPositionToolbar..Caption
-#: frm_Main.dfm:208
+#: frm_Main.dfm:206
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Caption
-#: frm_Main.dfm:790
+#: frm_Main.dfm:795
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
-#: frm_Main.dfm:874
+#: frm_Main.dfm:879
 #. frmMain..MainPopupMenu..NaddPoint..Caption
-#: frm_Main.dfm:2967
+#: frm_Main.dfm:2970
 msgid "Add Placemark"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Hint
-#: frm_Main.dfm:807
+#: frm_Main.dfm:812
 msgid "Add polygon"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Caption
-#: frm_Main.dfm:806
+#: frm_Main.dfm:811
 msgid "Add Polygon"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:73
+#: RegionProcess/fr_ExportIPhone.dfm:72
 msgid "Add tiles to database"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathSave..Hint
-#: frm_Main.dfm:1147
+#: frm_Main.dfm:1153
 msgid "Add to Database"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..TBItem5..Caption
-#: frm_Main.dfm:219
+#: frm_Main.dfm:217
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackSaveToDb..Caption
-#: frm_Main.dfm:881
+#: frm_Main.dfm:886
 msgid "Add Track to Database"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
-#: RegionProcess/fr_MapCombine.dfm:271
+#: RegionProcess/fr_MapCombine.dfm:269
 msgid "Add visible placemarks"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N26..Caption
-#: frm_Main.dfm:3065
+#: frm_Main.dfm:3068
 msgid "Additional Operations"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..CheckBox1..Caption
-#: frm_MarksExplorer.dfm:146
+#: frm_MarksExplorer.dfm:139
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..CheckBox2..Caption
-#: frm_MarksExplorer.dfm:236
+#: frm_MarksExplorer.dfm:229
 #. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
 #: RegionProcess/fr_ExportGEKml.dfm:49
 #. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:446
+#: RegionProcess/fr_ExportIPhone.dfm:445
 #. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
 #: RegionProcess/fr_ExportToFileCont.dfm:50
 #. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
 #: RegionProcess/fr_TilesCopy.dfm:50
 #. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
-#: RegionProcess/fr_TilesCopy.dfm:139
+#: RegionProcess/fr_TilesCopy.dfm:142
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
 #: RegionProcess/fr_TilesGenPrev.dfm:67
 msgid "All"
@@ -260,7 +264,7 @@ msgid "All by default"
 msgstr ""
 
 #. frmMain..OpenSessionDialog....Filter
-#: frm_Main.dfm:1337
+#: frm_Main.dfm:1340
 msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.k"
 "mz;*.sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
 "File Version 2.1 (*.plt)|*.plt|Google KMZ files "
@@ -275,17 +279,12 @@ msgstr ""
 msgid "Altitude"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NView..Nanimate..Caption
-#: frm_Main.dfm:691
-msgid "Animation"
-msgstr ""
-
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #: frm_LonLatRectEdit.dfm:45
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnApply..Caption
-#: frm_MarksExplorer.dfm:94
+#: frm_MarksExplorer.dfm:90
 #. frmSettings..pnlBottomButtons..btnApply..Caption
-#: frm_Settings.dfm:2129
+#: frm_Settings.dfm:2040
 #. frmShortCutEdit..pnlBottom..btnOk..Caption
 #: frm_ShortCutEdit.dfm:66
 msgid "Apply"
@@ -304,14 +303,14 @@ msgid "Are you sure?"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsSq..Caption
-#: frm_Main.dfm:2956
+#: frm_Main.dfm:2959
 #. Programmer's name for it: SAS_STR_S
 #: u_ResStrings.pas:140
 msgid "Area"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
-#: frm_Settings.dfm:1634
+#: frm_Settings.dfm:1556
 msgid "Arrow color:"
 msgstr ""
 
@@ -326,23 +325,23 @@ msgid "Authors:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
-#: frm_Settings.dfm:1719
+#: frm_Settings.dfm:1637
 msgid "Auto show/hide sensors toolbar"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
-#: frm_Settings.dfm:1994
+#: frm_Settings.dfm:1911
 msgid "Automatically detect location using GSM phone (Google "
 "query)"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlogNmea..Caption
-#: frm_Settings.dfm:1694
+#: frm_Settings.dfm:1614
 msgid "Autosave tracks to .nmea"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlog..Caption
-#: frm_Settings.dfm:1683
+#: frm_Settings.dfm:1604
 msgid "Autosave tracks to .plt"
 msgstr ""
 
@@ -362,12 +361,12 @@ msgid "Average speed, km/h:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
-#: frm_Settings.dfm:1243
+#: frm_Settings.dfm:1191
 msgid "Background color"
 msgstr ""
 
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblMap..Caption
-#: RegionProcess/fr_MapCombine.dfm:190
+#: RegionProcess/fr_MapCombine.dfm:187
 msgid "Base Map:"
 msgstr ""
 
@@ -382,19 +381,19 @@ msgid "Battery:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
-#: frm_Settings.dfm:1522
+#: frm_Settings.dfm:1445
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
-#: frm_Settings.dfm:2035
+#: frm_Settings.dfm:1950
 msgid "Bits per second"
 msgstr ""
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
-#: frm_Settings.dfm:1958
+#: frm_Settings.dfm:1873
 msgid "Border color"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBCOORD..Caption
-#: frm_Main.dfm:358
+#: frm_Main.dfm:356
 msgid "By Coordinates"
 msgstr ""
 
@@ -420,24 +419,24 @@ msgid "By default"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem3..Caption
-#: frm_Main.dfm:1170
+#: frm_Main.dfm:1176
 msgid "By maps.cloudmade.com (OSM)"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem2..Caption
-#: frm_Main.dfm:1201
+#: frm_Main.dfm:1207
 msgid "By Maps@mail.ru"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem1..Caption
-#: frm_Main.dfm:1220
+#: frm_Main.dfm:1226
 msgid "By yournavigation.org (OSM)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
-#: frm_Main.dfm:740
+#: frm_Main.dfm:745
 #. frmSettings..PageControl1..tsCache..Caption
-#: frm_Settings.dfm:130
+#: frm_Settings.dfm:129
 msgid "Cache"
 msgstr ""
 
@@ -447,7 +446,7 @@ msgid "Cache folder"
 msgstr ""
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:44
+#: frm_Settings.dfm:46
 msgid "Cache Folder"
 msgstr ""
 
@@ -457,22 +456,22 @@ msgid "Cache type"
 msgstr ""
 
 #. frmMain..TBDock..TBMainToolBar..TBMapZap..Hint
-#: frm_Main.dfm:99
+#: frm_Main.dfm:97
 msgid "Cached tiles map"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..Caption
-#: frm_Main.dfm:487
+#: frm_Main.dfm:485
 msgid "Cached Tiles Map"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..Label24..Caption
-#: frm_Settings.dfm:1169
+#: frm_Settings.dfm:1123
 msgid "Cached tiles map:"
 msgstr ""
 
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
-#: frm_GoTo.dfm:154
+#: frm_GoTo.dfm:90
 #. frmImportConfigEdit..btnCancel..Caption
 #: frm_ImportConfigEdit.dfm:362
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -484,9 +483,9 @@ msgstr ""
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Caption
 #: frm_MarkCategoryEdit.dfm:63
 #. frmMarkEditPath..pnlBottomButtons..btnCancel..Hint
-#: frm_MarkEditPath.dfm:219
+#: frm_MarkEditPath.dfm:217
 #. frmMarkEditPath..pnlBottomButtons..btnCancel..Caption
-#: frm_MarkEditPath.dfm:222
+#: frm_MarkEditPath.dfm:220
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Hint
 #: frm_MarkEditPoint.dfm:54
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
@@ -496,11 +495,11 @@ msgstr ""
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #: frm_MarkEditPoly.dfm:59
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnCancel..Caption
-#: frm_MarksExplorer.dfm:70
+#: frm_MarksExplorer.dfm:68
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
-#: frm_RegionProcess.dfm:186
+#: frm_RegionProcess.dfm:185
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
-#: frm_Settings.dfm:2103
+#: frm_Settings.dfm:2016
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
 #: frm_ShortCutEdit.dfm:81
 msgid "Cancel"
@@ -534,19 +533,19 @@ msgstr ""
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlCategory..lblCategory..Caption
 #: frm_MarkEditPoint.dfm:436
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
-#: frm_MarkEditPoly.dfm:291
+#: frm_MarkEditPoly.dfm:287
 msgid "Category:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N28..Caption
-#: frm_Main.dfm:2975
+#: frm_Main.dfm:2978
 msgid "Center With Zoom"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
-#: frm_Main.dfm:245
+#: frm_Main.dfm:243
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSToPointCenter..Caption
-#: frm_Main.dfm:862
+#: frm_Main.dfm:867
 msgid "Centered GPS Position"
 msgstr ""
 
@@ -556,12 +555,12 @@ msgid "Charging"
 msgstr ""
 
 #. frmAbout..pnlBottom..btnClose..Caption
-#: frm_About.dfm:218
+#: frm_About.dfm:221
 msgid "Close"
 msgstr ""
 
 #. frmRegionProcess..pnlBottomButtons..CBCloseWithStart..Caption
-#: frm_RegionProcess.dfm:197
+#: frm_RegionProcess.dfm:196
 msgid "Close this window after start"
 msgstr ""
 
@@ -579,15 +578,15 @@ msgstr ""
 #. frmImportConfigEdit..grpPoly..lblPolyFillColor..Caption
 #: frm_ImportConfigEdit.dfm:266
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
-#: frm_MarkEditPath.dfm:121
+#: frm_MarkEditPath.dfm:119
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
-#: frm_MarkEditPoly.dfm:108
+#: frm_MarkEditPoly.dfm:106
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
-#: frm_MarkEditPoly.dfm:197
+#: frm_MarkEditPoly.dfm:193
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
-#: frm_Settings.dfm:1189
+#: frm_Settings.dfm:1140
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label27..Caption
-#: frm_Settings.dfm:1353
+#: frm_Settings.dfm:1281
 msgid "Color"
 msgstr ""
 
@@ -597,7 +596,7 @@ msgid "Color:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..NGoToForum..Caption
-#: frm_Main.dfm:976
+#: frm_Main.dfm:981
 msgid "Community  (http://www.sasgis.ru/forum)"
 msgstr ""
 
@@ -608,7 +607,7 @@ msgid "Compilation error in script \n"
 msgstr ""
 
 #. frmMarksExplorer..ExportDialog....Filter
-#: frm_MarksExplorer.dfm:436
+#: frm_MarksExplorer.dfm:429
 msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup "
 "Language (kml)|*.kml"
 msgstr ""
@@ -624,9 +623,11 @@ msgid "Compressing to ZIP"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:336
+#: RegionProcess/fr_ExportIPhone.dfm:335
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:262
+#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:253
 msgid "Compression:"
 msgstr ""
 
@@ -635,22 +636,22 @@ msgid "Connct to server error. Error code %d"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSconn..Hint
-#: frm_Main.dfm:194
+#: frm_Main.dfm:192
 msgid "Connect to GPS receiver"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSConnect..Caption
-#: frm_Main.dfm:839
+#: frm_Main.dfm:844
 msgid "Connect to GPS Receiver"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
-#: frm_Settings.dfm:684
+#: frm_Settings.dfm:665
 msgid "Connection settings"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
-#: frm_Settings.dfm:2068
+#: frm_Settings.dfm:1983
 msgid "Connection timeout"
 msgstr ""
 
@@ -660,28 +661,30 @@ msgid "Contrast"
 msgstr ""
 
 #. frmSettings..PageControl1..tsControl..Caption
-#: frm_Settings.dfm:809
+#: frm_Settings.dfm:783
 msgid "Control"
 msgstr ""
 
-#. frmGoTo..RB1..Caption
-#: frm_GoTo.dfm:206
+#. frmGoTo..pgcSearchType..tsCoordinates..Caption
+#: frm_GoTo.dfm:167
 #. frmMain..MainPopupMenu..N43..N30..Caption
-#: frm_Main.dfm:3030
+#: frm_Main.dfm:3033
+#. frmSearchResults..lvResults......Caption
+#: frm_SearchResults.dfm:32
 #. Programmer's name for it: SAS_STR_coordinates
 #: u_ResStrings.pas:88
 msgid "Coordinates"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..Label84..Caption
-#: frm_Settings.dfm:943
+#: frm_Settings.dfm:917
 msgid "Coordinates representation"
 msgstr ""
 
 #. frmDGAvailablePic..GroupBox3..pnlRight..Button3..Caption
 #: frm_DGAvailablePic.dfm:150
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
-#: frm_RegionProcess.dfm:104
+#: frm_RegionProcess.dfm:103
 msgid "Copy"
 msgstr ""
 
@@ -691,7 +694,7 @@ msgid "Copy TID's to clipboard"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..Caption
-#: frm_Main.dfm:2993
+#: frm_Main.dfm:2996
 msgid "Copy to Clipboard"
 msgstr ""
 
@@ -711,22 +714,22 @@ msgid "Course:"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlPrTypes..lblPrTypes..Caption
-#: RegionProcess/fr_MapCombine.dfm:333
+#: RegionProcess/fr_MapCombine.dfm:331
 msgid "Create georeferencing file:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..N35..Caption
-#: frm_Main.dfm:281
+#: frm_Main.dfm:279
 msgid "Create Shortcut"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N26..NGTOPO30..Caption
-#: frm_Main.dfm:3069
+#: frm_Main.dfm:3072
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N26..NSRTM3..Caption
-#: frm_Main.dfm:3074
+#: frm_Main.dfm:3077
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr ""
 
@@ -741,9 +744,9 @@ msgid "Current zoom"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
-#: frm_Main.dfm:526
+#: frm_Main.dfm:524
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
-#: frm_Main.dfm:1092
+#: frm_Main.dfm:1098
 msgid "Current Zoom"
 msgstr ""
 
@@ -758,7 +761,7 @@ msgid "Date:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
-#: frm_Settings.dfm:564
+#: frm_Settings.dfm:549
 msgid "Default cache type"
 msgstr ""
 
@@ -768,11 +771,11 @@ msgid "Define hotkey"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkDel..Caption
-#: frm_Main.dfm:2919
+#: frm_Main.dfm:2922
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
-#: frm_MarksExplorer.dfm:290
+#: frm_MarksExplorer.dfm:283
 #. frmRegionProcess..PageControl1..TabSheet4..Caption
-#: frm_RegionProcess.dfm:55
+#: frm_RegionProcess.dfm:54
 msgid "Delete"
 msgstr ""
 
@@ -787,29 +790,29 @@ msgid "Delete only tiles of size, bytes:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..dlm..Caption
-#: frm_Main.dfm:3114
+#: frm_Main.dfm:3117
 msgid "Delete Overlay Layer Tile from Cache"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
-#: frm_Main.dfm:1133
+#: frm_Main.dfm:1139
 msgid "Delete Point"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NDel..Caption
-#: frm_Main.dfm:3104
+#: frm_Main.dfm:3107
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnDelMark..Hint
-#: frm_MarksExplorer.dfm:179
+#: frm_MarksExplorer.dfm:172
 msgid "Delete selected placemark"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..TBItemDelTrack..Caption
-#: frm_Main.dfm:230
+#: frm_Main.dfm:228
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackClear..Caption
-#: frm_Main.dfm:888
+#: frm_Main.dfm:893
 msgid "Delete Track"
 msgstr ""
 
@@ -898,14 +901,14 @@ msgid "Detalize route on foot (Shortest) by "
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
-#: frm_Settings.dfm:1566
+#: frm_Settings.dfm:1488
 msgid "Device timeout (sec)"
 msgstr ""
 
 #. frmDGAvailablePic..Caption
 #: frm_DGAvailablePic.dfm:5
 #. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
-#: frm_Main.dfm:3083
+#: frm_Main.dfm:3086
 msgid "DigitalGlobe Availability"
 msgstr ""
 
@@ -932,18 +935,23 @@ msgid "Distance #2, km:"
 msgstr ""
 
 #. frmMain..TBDock..TBMainToolBar..TBCalcRas..Hint
-#: frm_Main.dfm:86
+#: frm_Main.dfm:84
 msgid "Distance calculation"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NCalcRast..Caption
-#: frm_Main.dfm:328
+#: frm_Main.dfm:326
 msgid "Distance Calculation"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..Label3..Caption
-#: frm_Settings.dfm:905
+#: frm_Settings.dfm:880
 msgid "Distance representation"
+msgstr ""
+
+#. frmSearchResults..lvResults......Caption
+#: frm_SearchResults.dfm:28
+msgid "Distance to"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_LenToMark
@@ -979,12 +987,12 @@ msgstr ""
 #. frmDGAvailablePic..GroupBox3..pnlRight..Button2..Caption
 #: frm_DGAvailablePic.dfm:138
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button11..Caption
-#: frm_Settings.dfm:101
+#: frm_Settings.dfm:100
 msgid "Down"
 msgstr ""
 
 #. frmRegionProcess..PageControl1..TabSheet1..Caption
-#: frm_RegionProcess.dfm:29
+#: frm_RegionProcess.dfm:28
 msgid "Download"
 msgstr ""
 
@@ -1007,7 +1015,7 @@ msgid "Download error. Unknown status code "
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
-#: frm_Settings.dfm:623
+#: frm_Settings.dfm:608
 msgid "Download next tile if no response"
 msgstr ""
 
@@ -1018,12 +1026,12 @@ msgid "Download of map %0:s disabled because of error: "
 msgstr ""
 
 #. frmMain..MainPopupMenu..ldm..Caption
-#: frm_Main.dfm:3109
+#: frm_Main.dfm:3112
 msgid "Download Overlay Layer Tile to Cache"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N21..Caption
-#: frm_Main.dfm:3098
+#: frm_Main.dfm:3101
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr ""
 
@@ -1038,7 +1046,7 @@ msgid "Download Tiles"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..flwpnlTileBorder..Label69..Caption
-#: frm_Settings.dfm:1090
+#: frm_Settings.dfm:1049
 msgid "Download tiles off-screen"
 msgstr ""
 
@@ -1065,14 +1073,14 @@ msgid "Downloading with overwrite..."
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label1..Caption
-#: frm_Settings.dfm:426
+#: frm_Settings.dfm:420
 msgid "EarthSlicer cache folder:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkEdit..Caption
-#: frm_Main.dfm:2913
+#: frm_Main.dfm:2916
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
-#: frm_MarksExplorer.dfm:284
+#: frm_MarksExplorer.dfm:277
 msgid "Edit"
 msgstr ""
 
@@ -1102,7 +1110,7 @@ msgid "Edit Polygon"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
-#: frm_MarksExplorer.dfm:173
+#: frm_MarksExplorer.dfm:166
 msgid "Edit selected placemark"
 msgstr ""
 
@@ -1127,14 +1135,16 @@ msgid "Empty ZMP file name"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:386
+#: RegionProcess/fr_ExportIPhone.dfm:385
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:312
+#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:303
 msgid "Enable the following map types:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:60
+#: frm_Settings.dfm:62
 msgid "Enabled"
 msgstr ""
 
@@ -1210,31 +1220,31 @@ msgid "Error while saving!"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnExport..Caption
-#: frm_MarksExplorer.dfm:47
+#: frm_MarksExplorer.dfm:46
 #. frmRegionProcess..PageControl1..TabSheet5..Caption
-#: frm_RegionProcess.dfm:64
+#: frm_RegionProcess.dfm:63
 #. Programmer's name for it: SAS_STR_ExportTiles
 #: u_ResStrings.pas:132
 msgid "Export"
 msgstr ""
 
 #. frmMarksExplorer..PopupExport..NExportAll..Caption
-#: frm_MarksExplorer.dfm:445
+#: frm_MarksExplorer.dfm:438
 msgid "Export all placemarks and all categories"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
-#: frm_MarksExplorer.dfm:300
+#: frm_MarksExplorer.dfm:293
 msgid "Export placemarks from selected category"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
-#: frm_MarksExplorer.dfm:212
+#: frm_MarksExplorer.dfm:205
 msgid "Export selected placemark"
 msgstr ""
 
 #. frmRegionProcess..PageControl1..TabSheet5..Label9..Caption
-#: frm_RegionProcess.dfm:80
+#: frm_RegionProcess.dfm:79
 msgid "Export selection to format"
 msgstr ""
 
@@ -1244,17 +1254,17 @@ msgid "Export selection to format:"
 msgstr ""
 
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
-#: frm_MarksExplorer.dfm:450
+#: frm_MarksExplorer.dfm:443
 msgid "Export visible placemarks"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuFastest..Caption
-#: frm_Main.dfm:1209
+#: frm_Main.dfm:1215
 msgid "Fastest"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuFastestWithTraffic..Caption
-#: frm_Main.dfm:1213
+#: frm_Main.dfm:1219
 msgid "Fastest with traffic"
 msgstr ""
 
@@ -1286,14 +1296,14 @@ msgstr ""
 #. frmImportConfigEdit..grpPoly..lblPolyFill..Caption
 #: frm_ImportConfigEdit.dfm:295
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
-#: frm_MarkEditPoly.dfm:83
+#: frm_MarkEditPoly.dfm:82
 msgid "Fill:"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..Hint
-#: frm_Main.dfm:241
+#: frm_Main.dfm:239
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSCenterMap..Caption
-#: frm_Main.dfm:856
+#: frm_Main.dfm:861
 msgid "Follow GPS Position"
 msgstr ""
 
@@ -1315,7 +1325,7 @@ msgid "Found"
 msgstr ""
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label3..Caption
-#: frm_MarkCategoryEdit.dfm:94
+#: frm_MarkCategoryEdit.dfm:96
 msgid "from"
 msgstr ""
 
@@ -1330,12 +1340,12 @@ msgid "From zoom:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFoolSize..Caption
-#: frm_Main.dfm:663
+#: frm_Main.dfm:661
 msgid "Full Screen"
 msgstr ""
 
 #. frmMain..TBDock..TBMainToolBar..TBFullSize..Hint
-#: frm_Main.dfm:133
+#: frm_Main.dfm:131
 msgid "Full screen (F11)"
 msgstr ""
 
@@ -1345,7 +1355,7 @@ msgid "Gamma"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N32..Caption
-#: frm_Main.dfm:697
+#: frm_Main.dfm:702
 msgid "Gauge"
 msgstr ""
 
@@ -1355,17 +1365,17 @@ msgid "GB"
 msgstr ""
 
 #. frmRegionProcess..PageControl1..TabSheet3..Caption
-#: frm_RegionProcess.dfm:46
+#: frm_RegionProcess.dfm:45
 msgid "Generate"
 msgstr ""
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkFromPrevZoom..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:211
+#: RegionProcess/fr_TilesGenPrev.dfm:214
 msgid "Generate each zoom from previous one"
 msgstr ""
 
 #. frTilesGenPrev..pnlTop..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:228
+#: RegionProcess/fr_TilesGenPrev.dfm:232
 msgid "Generate Lower Zooms for Selection"
 msgstr ""
 
@@ -1375,60 +1385,60 @@ msgid "Generating upper zooms"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..Caption
-#: frm_Main.dfm:579
+#: frm_Main.dfm:577
 msgid "GenShtab Maps Boundaries"
 msgstr ""
 
 #. frLonLat..pnlTop..cbbCoordType..Text
-#: fr_LonLat.dfm:34
+#: fr_LonLat.dfm:31
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
-#: fr_LonLat.dfm:37
+#: fr_LonLat.dfm:34
 msgid "Geographic"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmPositionByGSM..Caption
-#: frm_Main.dfm:897
+#: frm_Main.dfm:902
 msgid "Get Locaton from GSM (Google Query)"
 msgstr ""
 
 #. frmGoTo..pnlBottomButtons..btnGoTo..Caption
-#: frm_GoTo.dfm:166
+#: frm_GoTo.dfm:101
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..Hint
-#: frm_Main.dfm:108
+#: frm_Main.dfm:106
 msgid "Go to"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnGoToMark..Hint
-#: frm_MarksExplorer.dfm:189
+#: frm_MarksExplorer.dfm:182
 msgid "Go to selected object"
 msgstr ""
 
 #. frmGoTo..Caption
 #: frm_GoTo.dfm:5
 #. frmMain..TBDock..TBXMainMenu..NOperations..N14..Caption
-#: frm_Main.dfm:320
+#: frm_Main.dfm:318
 msgid "Go to..."
 msgstr ""
 
 #. frmMarksExplorer..OpenDialog1....Filter
-#: frm_MarksExplorer.dfm:328
+#: frm_MarksExplorer.dfm:321
 msgid "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version "
 "2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection "
 "(*.hlg)|*.hlg"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label31..Caption
-#: frm_Settings.dfm:518
+#: frm_Settings.dfm:506
 msgid "GoogleEarth cache folder:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label19..Caption
-#: frm_Settings.dfm:472
+#: frm_Settings.dfm:463
 msgid "GoogleMaps cache folder:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label2..Caption
-#: frm_Settings.dfm:380
+#: frm_Settings.dfm:377
 msgid "GoogleMV cache folder:"
 msgstr ""
 
@@ -1438,31 +1448,31 @@ msgid "Header"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBHideMarks..Hint
-#: frm_Main.dfm:827
+#: frm_Main.dfm:832
 msgid "Hide all placemarks"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBHideMarks..Caption
-#: frm_Main.dfm:826
+#: frm_Main.dfm:831
 msgid "Hide All Placemarks"
 msgstr ""
 
 #. frmMarksExplorer..rgMarksShowMode....Items.Strings
-#: frm_MarksExplorer.dfm:319
+#: frm_MarksExplorer.dfm:312
 msgid "Hide placemarks"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
-#: RegionProcess/fr_MapCombine.dfm:378
+#: RegionProcess/fr_MapCombine.dfm:376
 msgid "horizontally:"
 msgstr ""
 
 #. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
-#: fr_ShortCutList.dfm:49
+#: fr_ShortCutList.dfm:48
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..Label4..Caption
 #: frm_MapTypeEdit.dfm:397
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:52
+#: frm_Settings.dfm:54
 msgid "Hotkey"
 msgstr ""
 
@@ -1473,7 +1483,7 @@ msgid "Hotkey in use. Please select another "
 msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox5..Caption
-#: frm_Settings.dfm:839
+#: frm_Settings.dfm:814
 msgid "Hotkeys"
 msgstr ""
 
@@ -1483,9 +1493,11 @@ msgid "How you may help:"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:345
+#: RegionProcess/fr_ExportIPhone.dfm:344
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:271
+#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:262
 msgid "Hybrid"
 msgstr ""
 
@@ -1537,7 +1549,7 @@ msgid "Images available"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnImport..Caption
-#: frm_MarksExplorer.dfm:60
+#: frm_MarksExplorer.dfm:58
 msgid "Import"
 msgstr ""
 
@@ -1551,25 +1563,30 @@ msgstr ""
 msgid "Incorrect GUID: %0:s"
 msgstr ""
 
+#. frmMain..TBDock..TBXMainMenu..NView..NAnimateMove..Caption
+#: frm_Main.dfm:696
+msgid "Inertial Movement"
+msgstr ""
+
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..btnMapInfo..Caption
-#: frm_Settings.dfm:123
+#: frm_Settings.dfm:122
 msgid "Info"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N31..Caption
-#: frm_Main.dfm:459
+#: frm_Main.dfm:457
 msgid "Interface"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
-#: frm_Main.dfm:752
+#: frm_Main.dfm:757
 #. frmSettings..PageControl1..tsInternet..Caption
-#: frm_Settings.dfm:592
+#: frm_Settings.dfm:576
 msgid "Internet"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCic..Caption
-#: frm_Main.dfm:765
+#: frm_Main.dfm:770
 msgid "Internet && Cache"
 msgstr ""
 
@@ -1584,7 +1601,7 @@ msgid "iPhone (version prior to 2.2, 64x64)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..tbtmHelpBugTrack..Caption
-#: frm_Main.dfm:971
+#: frm_Main.dfm:976
 msgid "Issue Tracker (http://sasgis.ru/mantis)"
 msgstr ""
 
@@ -1614,25 +1631,20 @@ msgid "KML (for Google Earth)"
 msgstr ""
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:108
+#: RegionProcess/fr_MapCombine.dfm:105
 msgid "KMZ for Garmin"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
-#: frm_Main.dfm:938
+#: frm_Main.dfm:943
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
-#: frm_Settings.dfm:991
+#: frm_Settings.dfm:960
 msgid "Language"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPrevious..Caption
-#: frm_Main.dfm:377
+#: frm_Main.dfm:375
 msgid "Last Selection"
-msgstr ""
-
-#. frmSearchResults..lvResults......Caption
-#: frm_SearchResults.dfm:29
-msgid "Latitude"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_LonLat2
@@ -1642,34 +1654,34 @@ msgid "Latitude of upper left corner must be less than \n"
 msgstr ""
 
 #. frLonLat..grdpnlLonLat..lblLat..Caption
-#: fr_LonLat.dfm:135
+#: fr_LonLat.dfm:130
 msgid "Latitude:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..ChBoxFirstLat..Caption
-#: frm_Settings.dfm:1035
+#: frm_Settings.dfm:1001
 msgid "Latitude-Longitude order"
 msgstr ""
 
 #. frmMain..MainPopupMenu..TBLayerInfo..Caption
-#: frm_Main.dfm:3129
+#: frm_Main.dfm:3132
 msgid "Layer Info"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..NLayerParams..Caption
-#: frm_Main.dfm:923
+#: frm_Main.dfm:928
 msgid "Layer Settings"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
-#: frm_Main.dfm:776
+#: frm_Main.dfm:781
 #. Programmer's name for it: SAS_STR_Layers
 #: u_ResStrings.pas:145
 msgid "Layers"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsLen..Caption
-#: frm_Main.dfm:2946
+#: frm_Main.dfm:2949
 #. Programmer's name for it: SAS_STR_L
 #: u_ResStrings.pas:141
 msgid "Length"
@@ -1678,12 +1690,12 @@ msgstr ""
 #. frmImportConfigEdit..grpPoly..lblPolyLine..Caption
 #: frm_ImportConfigEdit.dfm:288
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
-#: frm_MarkEditPoly.dfm:174
+#: frm_MarkEditPoly.dfm:171
 msgid "Line:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBLoadSelFromFile..Caption
-#: frm_Main.dfm:383
+#: frm_Main.dfm:381
 msgid "Load from File"
 msgstr ""
 
@@ -1693,18 +1705,13 @@ msgid "Loading selection..."
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBlock_toolbars..Caption
-#: frm_Settings.dfm:1045
+#: frm_Settings.dfm:1010
 msgid "Lock toolbars"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NBlock_toolbars..Caption
-#: frm_Main.dfm:454
+#: frm_Main.dfm:452
 msgid "Lock Toolbars"
-msgstr ""
-
-#. frmSearchResults..lvResults......Caption
-#: frm_SearchResults.dfm:33
-msgid "Longitude"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_LonLat1
@@ -1714,7 +1721,7 @@ msgid "Longitude of upper left corner must be less than \n"
 msgstr ""
 
 #. frLonLat..grdpnlLonLat..lblLon..Caption
-#: fr_LonLat.dfm:95
+#: fr_LonLat.dfm:91
 msgid "Longitude:"
 msgstr ""
 
@@ -1734,19 +1741,19 @@ msgid "m2"
 msgstr ""
 
 #. frmMain..TBDock..TBMainToolBar..Caption
-#: frm_Main.dfm:59
+#: frm_Main.dfm:57
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NMainToolBarShow..Caption
-#: frm_Main.dfm:407
+#: frm_Main.dfm:405
 msgid "Main"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..Caption
-#: frm_Main.dfm:275
+#: frm_Main.dfm:273
 msgid "Main Menu"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
-#: frm_Main.dfm:1158
+#: frm_Main.dfm:1164
 msgid "Manage Selection"
 msgstr ""
 
@@ -1755,11 +1762,13 @@ msgstr ""
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #: RegionProcess/fr_ExportGEKml.dfm:83
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:358
+#: RegionProcess/fr_ExportIPhone.dfm:357
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #: RegionProcess/fr_ExportToFileCont.dfm:84
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:284
+#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:275
 msgid "Map"
 msgstr ""
 
@@ -1769,12 +1778,12 @@ msgid "Map enabled"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMapInfo..Caption
-#: frm_Main.dfm:3124
+#: frm_Main.dfm:3127
 msgid "Map Info"
 msgstr ""
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:40
+#: frm_Settings.dfm:42
 msgid "Map Name"
 msgstr ""
 
@@ -1791,7 +1800,7 @@ msgid "Map script error %0:s (%2:s):\n"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
-#: frm_Main.dfm:919
+#: frm_Main.dfm:924
 msgid "Map Settings"
 msgstr ""
 
@@ -1803,14 +1812,14 @@ msgstr ""
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
 #: RegionProcess/fr_TilesDelete.dfm:88
 #. frTilesDownload..pnlBottom..pnlMain..lblMap..Caption
-#: RegionProcess/fr_TilesDownload.dfm:96
+#: RegionProcess/fr_TilesDownload.dfm:95
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblMap..Caption
 #: RegionProcess/fr_TilesGenPrev.dfm:105
 msgid "Map:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsMaps..Caption
-#: frm_Settings.dfm:29
+#: frm_Settings.dfm:28
 #. Programmer's name for it: SAS_STR_Maps
 #: u_ResStrings.pas:144
 msgid "Maps"
@@ -1822,7 +1831,7 @@ msgid "Max.speed, km/h:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
-#: frm_Settings.dfm:1650
+#: frm_Settings.dfm:1572
 msgid "Maximum number of track points:"
 msgstr ""
 
@@ -1837,12 +1846,12 @@ msgid "MB"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..Caption
-#: frm_Main.dfm:2942
+#: frm_Main.dfm:2945
 msgid "Measurements"
 msgstr ""
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:48
+#: frm_Settings.dfm:50
 msgid "Menu"
 msgstr ""
 
@@ -1852,12 +1861,12 @@ msgid "min."
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N31..ShowMiniMap..Caption
-#: frm_Main.dfm:472
+#: frm_Main.dfm:470
 msgid "Minimap"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..Label17..Caption
-#: frm_Settings.dfm:1135
+#: frm_Settings.dfm:1091
 msgid "Minimap opacity"
 msgstr ""
 
@@ -1867,7 +1876,7 @@ msgid "Minimize"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBMinimizeToTray..Caption
-#: frm_Settings.dfm:1069
+#: frm_Settings.dfm:1028
 msgid "Minimize to tray"
 msgstr ""
 
@@ -1890,37 +1899,37 @@ msgid "Most likely you've been banned by the "
 msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
-#: frm_Settings.dfm:818
+#: frm_Settings.dfm:795
 msgid "Mouse wheel"
 msgstr ""
 
 #. frmMain..TBDock..TBMainToolBar..TBmove..Hint
-#: frm_Main.dfm:67
+#: frm_Main.dfm:65
 #. frTilesCopy..pnlCenter..pnlMain..chkDeleteSource..Caption
-#: RegionProcess/fr_TilesCopy.dfm:113
+#: RegionProcess/fr_TilesCopy.dfm:114
 msgid "Move"
 msgstr ""
 
 #. frmIntrnalBrowser..EmbeddedWB1..DisableCtrlShortcuts
-#: frm_IntrnalBrowser.dfm:24
+#: frm_IntrnalBrowser.dfm:23
 #. frmInvisibleBrowser..WebBrowser1..DisableCtrlShortcuts
-#: frm_InvisibleBrowser.dfm:24
+#: frm_InvisibleBrowser.dfm:23
 msgid "N"
 msgstr ""
 
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
-#: frm_MarkCategoryEdit.dfm:142
+#: frm_MarkCategoryEdit.dfm:144
 #. frmSearchResults..lvResults......Caption
 #: frm_SearchResults.dfm:25
 msgid "Name"
 msgstr ""
 
 #. frmMarkEditPath..pnlName..lblName..Caption
-#: frm_MarkEditPath.dfm:73
+#: frm_MarkEditPath.dfm:72
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
-#: frm_MarkEditPoint.dfm:467
+#: frm_MarkEditPoint.dfm:466
 #. frmMarkEditPoly..pnlName..lblName..Caption
-#: frm_MarkEditPoly.dfm:321
+#: frm_MarkEditPoly.dfm:316
 msgid "Name:"
 msgstr ""
 
@@ -1930,46 +1939,46 @@ msgid "Native cache folder:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkNav..Caption
-#: frm_Main.dfm:2931
+#: frm_Main.dfm:2934
 msgid "Navigate to Placemark"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnNavOnMark..Hint
-#: frm_MarksExplorer.dfm:202
+#: frm_MarksExplorer.dfm:195
 msgid "Navigate to selected placemark"
 msgstr ""
 
 #. frmMarkEditPath..pnlCategory..CBKateg..Text
-#: frm_MarkEditPath.dfm:55
+#: frm_MarkEditPath.dfm:54
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlCategory..CBKateg..Text
-#: frm_MarkEditPoint.dfm:449
+#: frm_MarkEditPoint.dfm:448
 #. frmMarkEditPoly..pnlCategory..CBKateg..Text
-#: frm_MarkEditPoly.dfm:303
+#: frm_MarkEditPoly.dfm:298
 #. Programmer's name for it: SAS_STR_NewCategory
 #: u_ResStrings.pas:119
 msgid "New Category"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlImageProcess..CBinvertcolor..Caption
-#: frm_Settings.dfm:1462
+#: frm_Settings.dfm:1385
 msgid "Night mode (color inversion)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..Ninvertcolor..Caption
-#: frm_Main.dfm:704
+#: frm_Main.dfm:709
 msgid "Night Mode (Color Inversion)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N000..Caption
-#: frm_Main.dfm:518
+#: frm_Main.dfm:516
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale0..Caption
-#: frm_Main.dfm:586
+#: frm_Main.dfm:584
 #. frmShortCutEdit..pnlBottom..btnClear..Caption
 #: frm_ShortCutEdit.dfm:53
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..cbbHybr..Text
-#: RegionProcess/fr_MapCombine.dfm:239
+#: RegionProcess/fr_MapCombine.dfm:236
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..cbbHybr....Items.Strings
-#: RegionProcess/fr_MapCombine.dfm:241
+#: RegionProcess/fr_MapCombine.dfm:238
 #. Programmer's name for it: SAS_STR_No
 #: u_ResStrings.pas:111
 msgid "No"
@@ -2004,7 +2013,7 @@ msgid "Number of tiles"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..flwpnlMemCache..Label30..Caption
-#: frm_Settings.dfm:150
+#: frm_Settings.dfm:151
 msgid "Number of tiles to be cached in RAM"
 msgstr ""
 
@@ -2023,20 +2032,20 @@ msgstr ""
 #. frmMarkCategoryEdit..pnlBottomButtons..btnOk..Caption
 #: frm_MarkCategoryEdit.dfm:74
 #. frmMarkEditPath..pnlBottomButtons..btnOk..Caption
-#: frm_MarkEditPath.dfm:208
+#: frm_MarkEditPath.dfm:206
 #. frmMarkEditPoint..pnlBottomButtons..btnOk..Caption
 #: frm_MarkEditPoint.dfm:68
 #. frmMarkEditPoly..pnlBottomButtons..btnOk..Caption
 #: frm_MarkEditPoly.dfm:44
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnOk..Caption
-#: frm_MarksExplorer.dfm:82
+#: frm_MarksExplorer.dfm:79
 #. frmSettings..pnlBottomButtons..btnOk..Caption
-#: frm_Settings.dfm:2115
+#: frm_Settings.dfm:2027
 msgid "Ok"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeBicycleFastest..Caption
-#: frm_Main.dfm:1182
+#: frm_Main.dfm:1188
 #: u_PathDetalizeProviderCloudMade.pas:321
 #: u_PathDetalizeProviderYourNavigation.pas:252
 msgid "On bicycle (Fastest)"
@@ -2051,7 +2060,7 @@ msgid "On bicycle (Fastest) by yournavigation.org"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeBicycleShortest..Caption
-#: frm_Main.dfm:1194
+#: frm_Main.dfm:1200
 #: u_PathDetalizeProviderCloudMade.pas:396
 #: u_PathDetalizeProviderYourNavigation.pas:284
 msgid "On bicycle (Shortest)"
@@ -2066,12 +2075,12 @@ msgid "On bicycle (Shortest) by yournavigation.org"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationBicycleFastest..Caption
-#: frm_Main.dfm:1232
+#: frm_Main.dfm:1238
 msgid "On Bike (Fastest)"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationBicycleShortest..Caption
-#: frm_Main.dfm:1236
+#: frm_Main.dfm:1242
 msgid "On Bike (Shortest)"
 msgstr ""
 
@@ -2084,7 +2093,7 @@ msgid "On car (Fastest with traffic) by Maps@mail.ru"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeCarFastest..Caption
-#: frm_Main.dfm:1174
+#: frm_Main.dfm:1180
 #: u_PathDetalizeProviderCloudMade.pas:271
 #: u_PathDetalizeProviderMailRu.pas:241
 #: u_PathDetalizeProviderYourNavigation.pas:188
@@ -2092,7 +2101,7 @@ msgid "On car (Fastest)"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationCarFastest..Caption
-#: frm_Main.dfm:1224
+#: frm_Main.dfm:1230
 msgid "On Car (Fastest)"
 msgstr ""
 
@@ -2109,7 +2118,7 @@ msgid "On car (Fastest) by yournavigation.org"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeCarShortest..Caption
-#: frm_Main.dfm:1186
+#: frm_Main.dfm:1192
 #: u_PathDetalizeProviderCloudMade.pas:346
 #: u_PathDetalizeProviderMailRu.pas:211
 #: u_PathDetalizeProviderYourNavigation.pas:220
@@ -2117,7 +2126,7 @@ msgid "On car (Shortest)"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationCarShortest..Caption
-#: frm_Main.dfm:1228
+#: frm_Main.dfm:1234
 msgid "On Car (Shortest)"
 msgstr ""
 
@@ -2134,7 +2143,7 @@ msgid "On car (Shortest) by yournavigation.org"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeFootFastest..Caption
-#: frm_Main.dfm:1178
+#: frm_Main.dfm:1184
 #: u_PathDetalizeProviderCloudMade.pas:296
 msgid "On foot (Fastest)"
 msgstr ""
@@ -2144,7 +2153,7 @@ msgid "On foot (Fastest) by cloudmade.com"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeFootShortest..Caption
-#: frm_Main.dfm:1190
+#: frm_Main.dfm:1196
 #: u_PathDetalizeProviderCloudMade.pas:371
 msgid "On foot (Shortest)"
 msgstr ""
@@ -2154,24 +2163,24 @@ msgid "On foot (Shortest) by cloudmade.com"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..N29..Caption
-#: frm_Main.dfm:950
+#: frm_Main.dfm:955
 msgid "Online Help (http://sasgis.ru/wikisasiya)"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
-#: RegionProcess/fr_TilesDownload.dfm:175
+#: RegionProcess/fr_TilesDownload.dfm:176
 msgid "only created before"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
-#: RegionProcess/fr_TilesDownload.dfm:157
+#: RegionProcess/fr_TilesDownload.dfm:158
 msgid "only if different"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
-#: frm_Settings.dfm:1207
+#: frm_Settings.dfm:1158
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label28..Caption
-#: frm_Settings.dfm:1370
+#: frm_Settings.dfm:1298
 msgid "Opacity"
 msgstr ""
 
@@ -2184,35 +2193,35 @@ msgstr ""
 #. frmImportConfigEdit..grpPoly..lblPolyFillTransp..Caption
 #: frm_ImportConfigEdit.dfm:273
 #. frmMarkEditPath..flwpnlStyle..lblTransp..Caption
-#: frm_MarkEditPath.dfm:176
+#: frm_MarkEditPath.dfm:174
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #: frm_MarkEditPoint.dfm:348
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
-#: frm_MarkEditPoly.dfm:140
+#: frm_MarkEditPoly.dfm:138
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
-#: frm_MarkEditPoly.dfm:249
+#: frm_MarkEditPoly.dfm:245
 msgid "Opacity %"
 msgstr ""
 
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
-#: frm_Main.dfm:3057
+#: frm_Main.dfm:3060
 msgid "Open Overlay Layer Tile Folder"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N25..Caption
-#: frm_Main.dfm:3052
+#: frm_Main.dfm:3055
 msgid "Open Primary Map Tile Folder"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..TBXItem6..Caption
-#: frm_Main.dfm:288
+#: frm_Main.dfm:286
 msgid "Open..."
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSOptions..Caption
-#: frm_Main.dfm:908
+#: frm_Main.dfm:913
 #. frmMain..TBDock..TBXMainMenu..NParams..N8..Caption
-#: frm_Main.dfm:934
+#: frm_Main.dfm:939
 #. frmSettings..Caption
 #: frm_Settings.dfm:4
 msgid "Options"
@@ -2224,27 +2233,27 @@ msgid "Output format"
 msgstr ""
 
 #. frMapCombine..pnlOutputFormat..lblOutputFormat..Caption
-#: RegionProcess/fr_MapCombine.dfm:89
+#: RegionProcess/fr_MapCombine.dfm:86
 msgid "Output format:"
 msgstr ""
 
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblHybr..Caption
-#: RegionProcess/fr_MapCombine.dfm:203
+#: RegionProcess/fr_MapCombine.dfm:200
 msgid "Overlay layer:"
 msgstr ""
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:193
+#: RegionProcess/fr_TilesGenPrev.dfm:194
 msgid "Overwrite existing tiles"
 msgstr ""
 
 #. frTilesCopy..pnlCenter..pnlMain..chkReplaseTarget..Caption
-#: RegionProcess/fr_TilesCopy.dfm:126
+#: RegionProcess/fr_TilesCopy.dfm:128
 msgid "Overwrite if equal"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
-#: RegionProcess/fr_TilesDownload.dfm:127
+#: RegionProcess/fr_TilesDownload.dfm:125
 msgid "Overwrite old tiles"
 msgstr ""
 
@@ -2264,7 +2273,7 @@ msgid "Path parameters"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..N15..Caption
-#: frm_Main.dfm:3040
+#: frm_Main.dfm:3043
 msgid "Pathname to Tile in Cache"
 msgstr ""
 
@@ -2286,14 +2295,14 @@ msgid "Paused by user..."
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsPer..Caption
-#: frm_Main.dfm:2951
+#: frm_Main.dfm:2954
 #. Programmer's name for it: SAS_STR_P
 #: u_ResStrings.pas:142
 msgid "Perimeter"
 msgstr ""
 
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
-#: fr_LonLat.dfm:38
+#: fr_LonLat.dfm:35
 msgid "Pixel"
 msgstr ""
 
@@ -2303,25 +2312,30 @@ msgid "Placemark %0:d"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Caption
-#: frm_MarksExplorer.dfm:227
+#: frm_MarksExplorer.dfm:220
 msgid "Placemark Categories"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkExport..Caption
-#: frm_Main.dfm:2937
+#: frm_Main.dfm:2940
 msgid "Placemark Export"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBItem6..Hint
-#: frm_Main.dfm:819
+#: frm_Main.dfm:824
 msgid "Placemark manager"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..TBItem6..Caption
-#: frm_Main.dfm:818
+#: frm_Main.dfm:823
 #. frmMarksExplorer..Caption
 #: frm_MarksExplorer.dfm:4
 msgid "Placemark Manager"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..tbitmShowMarkCaption..Caption
+#: frm_Main.dfm:728
+msgid "Placemark Names"
 msgstr ""
 
 #. frmImportConfigEdit..grpPoint..Caption
@@ -2330,14 +2344,19 @@ msgid "Placemark parameters"
 msgstr ""
 
 #. frmMain..TBDock..TBMarksToolbar..Caption
-#: frm_Main.dfm:177
+#: frm_Main.dfm:175
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
-#: frm_Main.dfm:427
+#: frm_Main.dfm:425
 #. frmMain..TBDock..TBXMainMenu..NMarks..Caption
-#: frm_Main.dfm:781
+#: frm_Main.dfm:786
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
-#: frm_MarksExplorer.dfm:124
+#: frm_MarksExplorer.dfm:117
 msgid "Placemarks"
+msgstr ""
+
+#. frmGoTo..pgcSearchType..tsPlaceMarks..Caption
+#: frm_GoTo.dfm:118
+msgid "PlaceMarks"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
@@ -2364,7 +2383,7 @@ msgid "Please wait..."
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label10..Caption
-#: frm_Settings.dfm:1600
+#: frm_Settings.dfm:1522
 msgid "Pointer size:"
 msgstr ""
 
@@ -2379,22 +2398,22 @@ msgid "Polygon parameters"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBREGION..Caption
-#: frm_Main.dfm:351
+#: frm_Main.dfm:349
 msgid "Polygonal Selection"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
-#: frm_Main.dfm:710
+#: frm_Main.dfm:715
 msgid "Previous Selection"
 msgstr ""
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMainColor..Caption
-#: frm_Settings.dfm:1938
+#: frm_Settings.dfm:1853
 msgid "Primary color"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..N20..Caption
-#: frm_Main.dfm:3035
+#: frm_Main.dfm:3038
 msgid "Primary Map Tile"
 msgstr ""
 
@@ -2440,12 +2459,12 @@ msgid "Proxy configuration string is not correct"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
-#: frm_Settings.dfm:755
+#: frm_Settings.dfm:731
 msgid "Proxy login:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
-#: frm_Settings.dfm:770
+#: frm_Settings.dfm:746
 msgid "Proxy password:"
 msgstr ""
 
@@ -2455,7 +2474,7 @@ msgid "Quality"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
-#: RegionProcess/fr_MapCombine.dfm:301
+#: RegionProcess/fr_MapCombine.dfm:299
 msgid "Quality (for JPEG and ECW):"
 msgstr ""
 
@@ -2465,23 +2484,23 @@ msgid "Quality:"
 msgstr ""
 
 #. frmMain..TBDock..TBExit..TBXExit..Hint
-#: frm_Main.dfm:262
+#: frm_Main.dfm:260
 #. frmMain..TBDock..TBXMainMenu..NOperations..N6..Caption
-#: frm_Main.dfm:395
+#: frm_Main.dfm:393
 #. frmMain..TrayPopupMenu..TrayItemQuit..Caption
-#: frm_Main.dfm:3289
+#: frm_Main.dfm:3157
 #. frmProgressDownload..Panel1..pnlBottom..Button2..Caption
 #: frm_ProgressDownload.dfm:184
 msgid "Quit"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
-#: frm_Main.dfm:343
+#: frm_Main.dfm:341
 msgid "Rectangular Selection"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
-#: frm_Settings.dfm:1583
+#: frm_Settings.dfm:1505
 msgid "Refresh rate (ms)"
 msgstr ""
 
@@ -2506,7 +2525,7 @@ msgid "Reset"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..Label16..Caption
-#: frm_Settings.dfm:1279
+#: frm_Settings.dfm:1225
 msgid "Resize algorithm"
 msgstr ""
 
@@ -2516,12 +2535,12 @@ msgid "Resize algorithm:"
 msgstr ""
 
 #. frmMain..TrayPopupMenu..TrayItemRestore..Caption
-#: frm_Main.dfm:3280
+#: frm_Main.dfm:3148
 msgid "Restore"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
-#: frm_Settings.dfm:674
+#: frm_Settings.dfm:656
 msgid "Restore download from last successful "
 "tile"
 msgstr ""
@@ -2532,7 +2551,7 @@ msgid "Resume"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
-#: frm_Settings.dfm:612
+#: frm_Settings.dfm:598
 msgid "Retry download if tile not found"
 msgstr ""
 
@@ -2542,22 +2561,22 @@ msgid "Retrying operation"
 msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
-#: frm_Settings.dfm:828
+#: frm_Settings.dfm:804
 msgid "Roll backward to zoom in"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
-#: frm_Main.dfm:1165
+#: frm_Main.dfm:1171
 msgid "Route Calculation"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N31..ShowLine..Caption
-#: frm_Main.dfm:479
+#: frm_Main.dfm:477
 msgid "Ruler"
 msgstr ""
 
 #. frmAbout..lblAuthor..Caption
-#: frm_About.dfm:103
+#: frm_About.dfm:104
 msgid "SAS Group"
 msgstr ""
 
@@ -2568,9 +2587,9 @@ msgstr ""
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #: frm_MapTypeEdit.dfm:131
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType..Text
-#: frm_Settings.dfm:580
+#: frm_Settings.dfm:565
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
-#: frm_Settings.dfm:583
+#: frm_Settings.dfm:568
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
 #: RegionProcess/fr_ExportToFileCont.dfm:120
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
@@ -2591,41 +2610,43 @@ msgid "SAS.Planet must be restarted for the changes to take "
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:372
+#: RegionProcess/fr_ExportIPhone.dfm:371
 #. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:298
+#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:289
 msgid "Satellite"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..NSignalStrengthBar..Caption
-#: frm_Main.dfm:443
+#: frm_Main.dfm:441
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
-#: frm_Main.dfm:1297
+#: frm_Main.dfm:1300
 msgid "Satellite Signal Strength"
 msgstr ""
 
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..TBXLabel5..Caption
-#: frm_Main.dfm:1306
+#: frm_Main.dfm:1309
 msgid "Satellite Signal Strength:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..Caption
-#: frm_Settings.dfm:1740
+#: frm_Settings.dfm:1656
 msgid "Satellites"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoVisible..lblSatInfoVisible..Caption
-#: frm_Settings.dfm:1836
+#: frm_Settings.dfm:1751
 msgid "Satellites in range"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoActive..lblSatInfoActive..Caption
-#: frm_Settings.dfm:1786
+#: frm_Settings.dfm:1702
 msgid "Satellites in use"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoZeroSignal..lblSatInfoZeroSignal..Caption
-#: frm_Settings.dfm:1859
+#: frm_Settings.dfm:1773
 msgid "Satellites not in range"
 msgstr ""
 
@@ -2640,31 +2661,33 @@ msgid "Save current session"
 msgstr ""
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
-#: RegionProcess/fr_TilesGenPrev.dfm:202
+#: RegionProcess/fr_TilesGenPrev.dfm:204
 msgid "Save only complete tiles"
 msgstr ""
 
 #. frmRegionProcess..pnlBottomButtons..SpeedButton1..Hint
-#: frm_RegionProcess.dfm:127
+#: frm_RegionProcess.dfm:126
 #. frTilesCopy..Panel1..Caption
-#: RegionProcess/fr_TilesCopy.dfm:206
+#: RegionProcess/fr_TilesCopy.dfm:208
 msgid "Save selection to file"
 msgstr ""
 
 #. frExportAUX..pnlTop..lblTargetFile..Caption
-#: RegionProcess/fr_ExportAUX.dfm:103
+#: RegionProcess/fr_ExportAUX.dfm:102
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
-#: RegionProcess/fr_ExportGEKml.dfm:144
+#: RegionProcess/fr_ExportGEKml.dfm:143
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:29
+#: RegionProcess/fr_ExportIPhone.dfm:28
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #: RegionProcess/fr_ExportToFileCont.dfm:149
 #. frExportYaMaps..pnlTop..lblTargetPath..Caption
-#: RegionProcess/fr_ExportYaMaps.dfm:341
+#: RegionProcess/fr_ExportYaMaps.dfm:340
+#. frExportYaMapsNew..pnlTop..lblTargetPath..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:331
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
-#: RegionProcess/fr_MapCombine.dfm:45
+#: RegionProcess/fr_MapCombine.dfm:44
 #. frTilesCopy..pnlTop..lblTargetPath..Caption
-#: RegionProcess/fr_TilesCopy.dfm:173
+#: RegionProcess/fr_TilesCopy.dfm:175
 msgid "Save to:"
 msgstr ""
 
@@ -2678,14 +2701,16 @@ msgstr ""
 msgid "Saving track..."
 msgstr ""
 
+#. frmGoTo..pgcSearchType..tsSearch..Caption
+#: frm_GoTo.dfm:137
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
-#: frm_Main.dfm:432
+#: frm_Main.dfm:430
 #. frmMain..TBDock..TBXToolBarSearch..Caption
-#: frm_Main.dfm:988
-#. frmMain..TBDock..TBXToolBarSearch..TBXSearchEdit..EditCaption
-#: frm_Main.dfm:1007
-#. frmMain..TBDock..TBXToolBarSearch..TBXSearchEdit..EditCaption
+#: frm_Main.dfm:993
+#. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
 #: frm_Main.dfm:1012
+#. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
+#: frm_Main.dfm:1020
 msgid "Search"
 msgstr ""
 
@@ -2700,12 +2725,12 @@ msgid "sec."
 msgstr ""
 
 #. frmMain..TBDock..SrcToolbar..TBSrc..Hint
-#: frm_Main.dfm:150
+#: frm_Main.dfm:148
 msgid "Select data source"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbHybr..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:251
+#: RegionProcess/fr_ExportIPhone.dfm:250
 msgid "Select Hybrid as main layer"
 msgstr ""
 
@@ -2715,22 +2740,22 @@ msgid "Select image"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbMap..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:260
+#: RegionProcess/fr_ExportIPhone.dfm:259
 msgid "Select Map as main layer"
 msgstr ""
 
 #. frmMain..TBDock..SrcToolbar..TBLayerSel..Hint
-#: frm_Main.dfm:165
+#: frm_Main.dfm:163
 msgid "Select overlay layers"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbSat..Hint
-#: RegionProcess/fr_ExportIPhone.dfm:271
+#: RegionProcess/fr_ExportIPhone.dfm:270
 msgid "Select Satellite as main layer"
 msgstr ""
 
 #. frmMain..TBDock..SrcToolbar..TBSMB..Hint
-#: frm_Main.dfm:158
+#: frm_Main.dfm:156
 msgid "Selected basemap"
 msgstr ""
 
@@ -2745,39 +2770,39 @@ msgid "Selection is out of the map!"
 msgstr ""
 
 #. frmMain..TBDock..TBMainToolBar..TBRectSave..Hint
-#: frm_Main.dfm:78
+#: frm_Main.dfm:76
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnOpSelectMark..Hint
-#: frm_MarksExplorer.dfm:195
+#: frm_MarksExplorer.dfm:188
 msgid "Selection manager"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
-#: frm_Main.dfm:336
+#: frm_Main.dfm:334
 #. frmMain..MainPopupMenu..NMarkOper..Caption
-#: frm_Main.dfm:2925
+#: frm_Main.dfm:2928
 #. frmRegionProcess..Caption
 #: frm_RegionProcess.dfm:4
 msgid "Selection Manager"
 msgstr ""
 
 #. frmMain..OpenDialog1..Filter
-#: frm_Main.dfm:1315
+#: frm_Main.dfm:1318
 #. frmRegionProcess..SaveSelDialog..Filter
-#: frm_RegionProcess.dfm:205
+#: frm_RegionProcess.dfm:204
 msgid "Selections|*.hlg"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
-#: frm_Main.dfm:439
+#: frm_Main.dfm:437
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
-#: frm_Main.dfm:1262
+#: frm_Main.dfm:1266
 msgid "Sensors"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
-#: frm_Settings.dfm:1504
+#: frm_Settings.dfm:1427
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
-#: frm_Settings.dfm:2017
+#: frm_Settings.dfm:1932
 msgid "Serial port"
 msgstr ""
 
@@ -2794,14 +2819,14 @@ msgid "Server returned unexpected type \"%0:s\""
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
-#: frm_Settings.dfm:654
+#: frm_Settings.dfm:636
 msgid "Server timeout, ms"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
-#: frm_Main.dfm:914
+#: frm_Main.dfm:919
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button15..Caption
-#: frm_Settings.dfm:90
+#: frm_Settings.dfm:89
 msgid "Settings"
 msgstr ""
 
@@ -2813,42 +2838,42 @@ msgid "Shadow color"
 msgstr ""
 
 #. frmMain..SaveLink..Filter
-#: frm_Main.dfm:1321
+#: frm_Main.dfm:1324
 msgid "Shortcut|*.lnk"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuShortest..Caption
-#: frm_Main.dfm:1205
+#: frm_Main.dfm:1211
 msgid "Shortest"
 msgstr ""
 
 #. frmMarksExplorer..rgMarksShowMode....Items.Strings
-#: frm_MarksExplorer.dfm:318
+#: frm_MarksExplorer.dfm:311
 msgid "Show all placemarks"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..Label23..Caption
-#: frm_Settings.dfm:1332
+#: frm_Settings.dfm:1261
 msgid "Show borders:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
-#: frm_Main.dfm:491
+#: frm_Main.dfm:489
 msgid "Show for..."
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..Hint
-#: frm_Main.dfm:203
+#: frm_Main.dfm:201
 msgid "Show GPS track"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackShow..Caption
-#: frm_Main.dfm:848
+#: frm_Main.dfm:853
 msgid "Show GPS Track"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowmapname..Caption
-#: frm_Settings.dfm:1025
+#: frm_Settings.dfm:992
 msgid "Show map name on toolbar"
 msgstr ""
 
@@ -2864,27 +2889,22 @@ msgid "Show on map"
 msgstr ""
 
 #. frmMarksExplorer..rgMarksShowMode....Items.Strings
-#: frm_MarksExplorer.dfm:317
+#: frm_MarksExplorer.dfm:310
 msgid "Show only selected placemarks"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbitmShowMarkCaption..Caption
-#: frm_Main.dfm:723
-msgid "Show Placemark Names"
-msgstr ""
-
 #. frmMain..MainPopupMenu..Nopendir..Caption
-#: frm_Main.dfm:3046
+#: frm_Main.dfm:3049
 msgid "Show Primary Map Tile"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
-#: frm_Settings.dfm:1057
+#: frm_Settings.dfm:1019
 msgid "Show tooltips"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabel..Hint
-#: frm_Main.dfm:1140
+#: frm_Main.dfm:1146
 msgid "Show/Hide Captions"
 msgstr ""
 
@@ -2936,7 +2956,7 @@ msgid "Shows total distance"
 msgstr ""
 
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Hint
-#: frm_Main.dfm:1284
+#: frm_Main.dfm:1287
 msgid "Signal-to-noise ratio for satellites in "
 "use"
 msgstr ""
@@ -2962,9 +2982,9 @@ msgid "Source:"
 msgstr ""
 
 #. frmMain..TBDock..SrcToolbar..Caption
-#: frm_Main.dfm:143
+#: frm_Main.dfm:141
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NsrcToolBarShow..Caption
-#: frm_Main.dfm:417
+#: frm_Main.dfm:415
 msgid "Sources"
 msgstr ""
 
@@ -2976,7 +2996,7 @@ msgid "Speed"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
-#: RegionProcess/fr_MapCombine.dfm:371
+#: RegionProcess/fr_MapCombine.dfm:369
 msgid "Split image"
 msgstr ""
 
@@ -2988,17 +3008,17 @@ msgstr ""
 #. frmImportConfigEdit..btnOk..Caption
 #: frm_ImportConfigEdit.dfm:352
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
-#: frm_RegionProcess.dfm:173
+#: frm_RegionProcess.dfm:172
 msgid "Start"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N31..Showstatus..Caption
-#: frm_Main.dfm:465
+#: frm_Main.dfm:463
 msgid "Status Bar"
 msgstr ""
 
 #. frmRegionProcess..PageControl1..TabSheet2..Caption
-#: frm_RegionProcess.dfm:37
+#: frm_RegionProcess.dfm:36
 msgid "Stitch"
 msgstr ""
 
@@ -3023,13 +3043,8 @@ msgid "Stop"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
-#: frm_Settings.dfm:634
+#: frm_Settings.dfm:618
 msgid "Store info about not found tiles"
-msgstr ""
-
-#. frmGoTo..RB3..Caption
-#: frm_GoTo.dfm:180
-msgid "Stored placemarks"
 msgstr ""
 
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
@@ -3109,7 +3124,7 @@ msgid "This is not simple file storage. Tile's file name does not "
 msgstr ""
 
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
-#: fr_LonLat.dfm:39
+#: fr_LonLat.dfm:36
 msgid "Tile"
 msgstr ""
 
@@ -3120,12 +3135,12 @@ msgid "Tile %0:s is available in cache.\n"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..Caption
-#: frm_Main.dfm:512
+#: frm_Main.dfm:510
 msgid "Tile Boundaries"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..CBBorderText..Caption
-#: frm_Settings.dfm:1388
+#: frm_Settings.dfm:1316
 msgid "Tile coordinates"
 msgstr ""
 
@@ -3158,7 +3173,7 @@ msgid "Time to reach:"
 msgstr ""
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
-#: frm_MarkCategoryEdit.dfm:113
+#: frm_MarkCategoryEdit.dfm:115
 msgid "to"
 msgstr ""
 
@@ -3168,7 +3183,7 @@ msgid "To zooms:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..Caption
-#: frm_Main.dfm:403
+#: frm_Main.dfm:401
 msgid "Toolbars"
 msgstr ""
 
@@ -3183,12 +3198,12 @@ msgid "Total to save:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
-#: frm_Settings.dfm:1617
+#: frm_Settings.dfm:1539
 msgid "Track width:"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
-#: RegionProcess/fr_TilesDownload.dfm:137
+#: RegionProcess/fr_TilesDownload.dfm:136
 msgid "Try to re-download missing tiles"
 msgstr ""
 
@@ -3224,7 +3239,7 @@ msgstr ""
 #. frmDGAvailablePic..GroupBox3..pnlRight..Button1..Caption
 #: frm_DGAvailablePic.dfm:127
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button12..Caption
-#: frm_Settings.dfm:112
+#: frm_Settings.dfm:111
 msgid "Up"
 msgstr ""
 
@@ -3234,57 +3249,57 @@ msgid "Upper left corner"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..livecom1..Caption
-#: frm_Main.dfm:3012
+#: frm_Main.dfm:3015
 msgid "URL to Bing Maps"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..Google1..Caption
-#: frm_Main.dfm:2997
+#: frm_Main.dfm:3000
 msgid "URL to Google Maps"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..kosmosnimkiru1..Caption
-#: frm_Main.dfm:3007
+#: frm_Main.dfm:3010
 msgid "URL to kosmosnimki.ru"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
-#: frm_Main.dfm:3025
+#: frm_Main.dfm:3028
 msgid "URL to Layer Tile"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..N13..Caption
-#: frm_Main.dfm:3021
+#: frm_Main.dfm:3024
 msgid "URL to Primary Map Tile"
 msgstr ""
 
 #. frmMain..MainPopupMenu..N43..YaLink..Caption
-#: frm_Main.dfm:3002
+#: frm_Main.dfm:3005
 msgid "URL to Yandex.Maps"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
-#: RegionProcess/fr_MapCombine.dfm:280
+#: RegionProcess/fr_MapCombine.dfm:278
 msgid "Use color settings"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
-#: frm_Main.dfm:684
+#: frm_Main.dfm:682
 msgid "Use Layers from Lower Zooms"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..Nbackload..Caption
-#: frm_Main.dfm:677
+#: frm_Main.dfm:675
 msgid "Use Maps from Lower Zooms"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblUseProxy..Caption
-#: frm_Settings.dfm:704
+#: frm_Settings.dfm:683
 msgid "Use proxy (IP:port)"
 msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
-#: frm_Settings.dfm:799
+#: frm_Settings.dfm:774
 msgid "Use system proxy settings"
 msgstr ""
 
@@ -3299,17 +3314,17 @@ msgid "Version:"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitVert..Caption
-#: RegionProcess/fr_MapCombine.dfm:386
+#: RegionProcess/fr_MapCombine.dfm:384
 msgid "vertically:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..Caption
-#: frm_Settings.dfm:845
+#: frm_Settings.dfm:819
 msgid "View"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBScreenSelect..Caption
-#: frm_Main.dfm:366
+#: frm_Main.dfm:364
 msgid "Visible Area"
 msgstr ""
 
@@ -3329,7 +3344,7 @@ msgid "Wait %0:d secons..."
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..NGoToSite..Caption
-#: frm_Main.dfm:966
+#: frm_Main.dfm:971
 msgid "Web Site (http://www.sasgis.ru)"
 msgstr ""
 
@@ -3343,54 +3358,52 @@ msgstr ""
 #. frmImportConfigEdit..grpPoly..lblPolyLineWidth..Caption
 #: frm_ImportConfigEdit.dfm:244
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
-#: frm_MarkEditPath.dfm:154
+#: frm_MarkEditPath.dfm:152
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
-#: frm_MarkEditPoly.dfm:228
+#: frm_MarkEditPoly.dfm:224
 msgid "Width"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:964
+#: frm_Settings.dfm:936
 msgid "WS deg. (W12.1233°)"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:963
+#: frm_Settings.dfm:935
 msgid "WS deg.min. (W12°23.454)"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
-#: frm_Settings.dfm:960
+#: frm_Settings.dfm:932
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#: frm_Settings.dfm:962
+#: frm_Settings.dfm:934
 msgid "WS deg.min.sec. (W12°23\"43.35')"
 msgstr ""
 
 #. frLonLat..pnlXY..grdpnlXY..lblX..Caption
-#: fr_LonLat.dfm:249
+#: fr_LonLat.dfm:240
 msgid "X:"
 msgstr ""
 
 #. frLonLat..pnlXY..grdpnlXY..lblY..Caption
-#: fr_LonLat.dfm:208
+#: fr_LonLat.dfm:201
 msgid "Y:"
 msgstr ""
 
-#. frmGoTo..RB4..Caption
-#: frm_GoTo.dfm:198
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..EditCaption
-#: frm_Main.dfm:110
+#: frm_Main.dfm:108
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..Caption
-#: frm_Main.dfm:111
+#: frm_Main.dfm:109
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..EditCaption
-#: frm_Main.dfm:113
+#: frm_Main.dfm:111
 #. frmMain..TBDock..TBXToolBarSearch..TBXSelectSrchType..TBXSelectYandexSrch..Caption
-#: frm_Main.dfm:996
+#: frm_Main.dfm:1001
 msgid "Yandex"
 msgstr ""
 
 #. frmAbout..lblYandexMoneyCaption..Caption
-#: frm_About.dfm:127
+#: frm_About.dfm:129
 msgid "Yandex.Money"
 msgstr ""
 
@@ -3406,51 +3419,56 @@ msgid "You need at least one MAP among your ZMP "
 msgstr ""
 
 #. frLonLat..pnlXY..grdpnlZoom..lblZoom..Caption
-#: fr_LonLat.dfm:297
+#: fr_LonLat.dfm:287
 msgid "Z:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
-#: frm_Settings.dfm:56
+#: frm_Settings.dfm:58
 msgid "ZMP Filename"
 msgstr ""
 
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
-#: fr_LonLat.dfm:309
+#: fr_LonLat.dfm:297
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
-#: frm_Main.dfm:412
+#: frm_Main.dfm:410
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
-#: frm_Main.dfm:1040
+#: frm_Main.dfm:1046
 #. Programmer's name for it: SAS_STR_Scale
 #: u_ResStrings.pas:91
 msgid "Zoom"
 msgstr ""
 
+#. frmMain..TBDock..TBXMainMenu..NView..Nanimate..Caption
+#: frm_Main.dfm:689
+msgid "Zoom Animation"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NZoomIn..Caption
-#: frm_Main.dfm:300
+#: frm_Main.dfm:298
 #. frmMain..TBDockLeft..ZoomToolBar..TBZoomIn..Hint
-#: frm_Main.dfm:1048
+#: frm_Main.dfm:1054
 msgid "Zoom In"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NZoomOut..Caption
-#: frm_Main.dfm:308
+#: frm_Main.dfm:306
 #. frmMain..TBDockLeft..ZoomToolBar..TBZoom_out..Hint
-#: frm_Main.dfm:1074
+#: frm_Main.dfm:1080
 msgid "Zoom Out"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NGoToCur..Caption
-#: frm_Main.dfm:670
+#: frm_Main.dfm:668
 msgid "Zoom to Cursor"
 msgstr ""
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
-#: frm_GoTo.dfm:105
+#: frm_GoTo.dfm:41
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
 #: RegionProcess/fr_ExportAUX.dfm:70
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
-#: RegionProcess/fr_MapCombine.dfm:142
+#: RegionProcess/fr_MapCombine.dfm:141
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
 #: RegionProcess/fr_TilesDelete.dfm:52
 #. frTilesDownload..pnlBottom..pnlRight..lblZoom..Caption
@@ -3461,11 +3479,13 @@ msgstr ""
 #. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
 #: RegionProcess/fr_ExportGEKml.dfm:37
 #. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
-#: RegionProcess/fr_ExportIPhone.dfm:425
+#: RegionProcess/fr_ExportIPhone.dfm:424
 #. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
 #: RegionProcess/fr_ExportToFileCont.dfm:38
 #. frExportYaMaps..pnlCenter..pnlRight..lblZooms..Caption
 #: RegionProcess/fr_ExportYaMaps.dfm:37
+#. frExportYaMapsNew..pnlCenter..pnlRight..lblZooms..Caption
+#: RegionProcess/fr_ExportYaMapsNew.dfm:37
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
 #: RegionProcess/fr_TilesCopy.dfm:38
 msgid "Zooms:"
