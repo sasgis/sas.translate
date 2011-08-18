@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
 "POT-Creation-Date: 2011-08-17 13:21\n"
-"PO-Revision-Date: 2011-08-17 22:04+0200\n"
+"PO-Revision-Date: 2011-08-18 09:55+0200\n"
 "Last-Translator: Mixail <me@mixaill.tk>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1294,7 +1294,7 @@ msgstr "Гамма-коррекция"
 #. frmMain..TBDock..TBXMainMenu..NView..N32..Caption
 #: frm_Main.dfm:702
 msgid "Gauge"
-msgstr "Показывать шкалу"
+msgstr "Отображать шкалу"
 
 #. Programmer's name for it: SAS_UNITS_gb
 #: u_ResStrings.pas:214
@@ -1809,7 +1809,7 @@ msgstr "Свернуть"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBMinimizeToTray..Caption
 #: frm_Settings.dfm:1028
 msgid "Minimize to tray"
-msgstr "Свернуть в трей"
+msgstr "Сворачивать в трей"
 
 #. Programmer's name for it: SAS_STR_ExportYaMapsCaption
 #: u_ResStrings.pas:148
@@ -1972,7 +1972,7 @@ msgstr "На велосипеде (по скорости)"
 
 #: u_PathDetalizeProviderCloudMade.pas:311
 msgid "On bicycle (Fastest) by cloudmade.com"
-msgstr "На велосипеде (по скорости, средствами cloudmade.com (OSM))"
+msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com (OSM))"
 
 #: u_PathDetalizeProviderYourNavigation.pas:242
 msgid "On bicycle (Fastest) by yournavigation.org"
@@ -1986,7 +1986,7 @@ msgstr "На велосипеде (по расстоянию)"
 
 #: u_PathDetalizeProviderCloudMade.pas:386
 msgid "On bicycle (Shortest) by cloudmade.com"
-msgstr "На велосипеде (по расстоянию, средствами cloudmade.com (OSM))"
+msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com (OSM))"
 
 #: u_PathDetalizeProviderYourNavigation.pas:274
 msgid "On bicycle (Shortest) by yournavigation.org"
@@ -2024,7 +2024,7 @@ msgstr "На автомобиле (по скорости)"
 
 #: u_PathDetalizeProviderCloudMade.pas:261
 msgid "On car (Fastest) by cloudmade.com"
-msgstr "На автомобиле (по скорости, средствами cloudmade.com (OSM))"
+msgstr "На автомобиле (по скорости, средствами средствами maps.cloudmade.com (OSM))"
 
 #: u_PathDetalizeProviderMailRu.pas:231
 msgid "On car (Fastest) by Maps@mail.ru"
@@ -2048,7 +2048,7 @@ msgstr "На автомобиле (по расстоянию)"
 
 #: u_PathDetalizeProviderCloudMade.pas:336
 msgid "On car (Shortest) by cloudmade.com"
-msgstr "На автомобиле (по расстоянию, средствами cloudmade.com (OSM))"
+msgstr "На автомобиле (по расстоянию, средствами средствами maps.cloudmade.com (OSM))"
 
 #: u_PathDetalizeProviderMailRu.pas:201
 msgid "On car (Shortest) by Maps@mail.ru"
@@ -2065,7 +2065,7 @@ msgstr "Пешком (по скорости)"
 
 #: u_PathDetalizeProviderCloudMade.pas:286
 msgid "On foot (Fastest) by cloudmade.com"
-msgstr "Пешком (по скорости, средствами cloudmade.com (OSM))"
+msgstr "Пешком (по скорости, средствами средствами maps.cloudmade.com (OSM))"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeFootShortest..Caption
 #: frm_Main.dfm:1196
@@ -2074,7 +2074,7 @@ msgstr "Пешком (по расстоянию)"
 
 #: u_PathDetalizeProviderCloudMade.pas:361
 msgid "On foot (Shortest) by cloudmade.com"
-msgstr "Пешком (по расстоянию, средствами cloudmade.com (OSM))"
+msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com (OSM))"
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..N29..Caption
 #: frm_Main.dfm:955
@@ -2243,7 +2243,7 @@ msgstr "Параметры меток"
 #. frmMain..TBDock..TBXMainMenu..NView..tbitmShowMarkCaption..Caption
 #: frm_Main.dfm:728
 msgid "Placemark Names"
-msgstr "Имена меток"
+msgstr "Отображать имена меток"
 
 #. frmImportConfigEdit..grpPoint..Caption
 #: frm_ImportConfigEdit.dfm:35
@@ -3186,7 +3186,7 @@ msgstr "Брать настройки подключения из реестра
 #. frmMapTypeEdit..pnlVersion..lblVersion..Caption
 #: frm_MapTypeEdit.dfm:527
 msgid "Version"
-msgstr "Версия:"
+msgstr "Версия"
 
 #. frmAbout..lblVersionCatpion..Caption
 #: frm_About.dfm:30
