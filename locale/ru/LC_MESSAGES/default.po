@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
 "POT-Creation-Date: 2011-08-18 10:27\n"
-"PO-Revision-Date: 2011-08-18 09:55+0200\n"
+"PO-Revision-Date: 2011-08-19 20:00+0200\n"
 "Last-Translator: Mixail <me@mixaill.tk>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -201,16 +201,8 @@ msgid "All by default"
 msgstr "Все по умолчанию"
 
 #. frmMain..OpenSessionDialog....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*."
-"sls)|*.sls|Selection (*.hlg)|*.hlg"
-msgstr ""
-"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*."
-"sls)|*.sls|Файл выделения (*.hlg)|*.hlg"
+msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*.sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg"
+msgstr "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*.sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -256,8 +248,7 @@ msgstr "Автоматически показывать/скрывать пан�
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
-msgstr ""
-"Автоматически определять параметры базовых станций через подключенный телефон"
+msgstr "Автоматически определять параметры базовых станций через подключенный телефон"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlogNmea..Caption
 msgid "Autosave tracks to .nmea"
@@ -457,12 +448,8 @@ msgstr ""
 "%0:s"
 
 #. frmMarksExplorer..ExportDialog....Filter
-msgid ""
-"Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|"
-"*.kml"
-msgstr ""
-"Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
-"(kml)|*.kml"
+msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
+msgstr "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -868,10 +855,8 @@ msgid "Enabled"
 msgstr "Используется"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid ""
-"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr ""
-"Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
+msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
+msgstr "Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -1082,12 +1067,8 @@ msgid "Go to..."
 msgstr "Перейти к..."
 
 #. frmMarksExplorer..OpenDialog1....Filter
-msgid ""
-"Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*."
-"plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg"
-msgstr ""
-"Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*."
-"plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg"
+msgid "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg"
+msgstr "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label31..Caption
 msgid "GoogleEarth cache folder:"
@@ -1612,8 +1593,7 @@ msgid "On Car (Fastest)"
 msgstr "На автомобиле (по скорости)"
 
 msgid "On car (Fastest) by cloudmade.com"
-msgstr ""
-"На автомобиле (по скорости, средствами средствами maps.cloudmade.com (OSM))"
+msgstr "На автомобиле (по скорости, средствами средствами maps.cloudmade.com (OSM))"
 
 msgid "On car (Fastest) by Maps@mail.ru"
 msgstr "На автомобиле (по скорости, средствами Maps@mail.ru)"
@@ -1630,8 +1610,7 @@ msgid "On Car (Shortest)"
 msgstr "На автомобиле (по расстоянию)"
 
 msgid "On car (Shortest) by cloudmade.com"
-msgstr ""
-"На автомобиле (по расстоянию, средствами средствами maps.cloudmade.com (OSM))"
+msgstr "На автомобиле (по расстоянию, средствами средствами maps.cloudmade.com (OSM))"
 
 msgid "On car (Shortest) by Maps@mail.ru"
 msgstr "На автомобиле (по расстоянию, средствами Maps@mail.ru)"
@@ -1802,8 +1781,7 @@ msgid "PlaceMarks"
 msgstr "Метки"
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
-msgid ""
-"Please choose another format (ECW, BMP, JP2) while stitching large images"
+msgid "Please choose another format (ECW, BMP, JP2) while stitching large images"
 msgstr "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
 
 #. Programmer's name for it: SAS_MSG_NeedHL
@@ -1940,12 +1918,11 @@ msgstr "Алгоритм:"
 
 #. frmMain..TrayPopupMenu..TrayItemRestore..Caption
 msgid "Restore"
-msgstr "Сбросить"
+msgstr "Восстановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
 msgid "Restore download from last successful tile"
-msgstr ""
-"Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
+msgstr "Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
 
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
@@ -2465,8 +2442,7 @@ msgstr "Невозможно определить позицию"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr ""
-"Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
 msgid "Unexpected content type"
