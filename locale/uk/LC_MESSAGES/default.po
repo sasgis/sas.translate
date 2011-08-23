@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2011-08-18 10:27\n"
+"POT-Creation-Date: 2011-08-23 15:55\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -103,6 +103,13 @@ msgstr "12 км 423 м"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "23.4 km"
 msgstr "23,4 км"
+
+#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEdit2GISSrch..EditCaption
+#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEdit2GISSrch..Caption
+#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEdit2GISSrch..EditCaption
+#. frmMain..TBDock..TBXToolBarSearch..TBXSelectSrchType..TBXSelect2GISSrch..Caption
+msgid "2GIS"
+msgstr ""
 
 #. frmAbout..Caption
 #. frmMain..TBDock..TBXMainMenu..NHelp..N16..Caption
@@ -305,6 +312,70 @@ msgstr "Швидкість"
 msgid "Border color"
 msgstr "Колір облямівки"
 
+#, fuzzy
+msgid "By Bicycle (Fastest)"
+msgstr "На велосипеді (за довжиною)"
+
+#, fuzzy
+msgid "By bicycle (Fastest) with cloudmade.com"
+msgstr "На автомобілі (за довжиною)"
+
+#, fuzzy
+msgid "By bicycle (Fastest) with yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
+
+#, fuzzy
+msgid "By Bicycle (Shortest)"
+msgstr "На велосипеді (за швидкістю)"
+
+#, fuzzy
+msgid "By bicycle (Shortest) with cloudmade.com"
+msgstr "На автомобілі (за швидкістю)"
+
+#, fuzzy
+msgid "By bicycle (Shortest) with yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
+
+#, fuzzy
+msgid "By Car (Fastest with traffic)"
+msgstr "На автомобілі (за довжиною)"
+
+#, fuzzy
+msgid "By car (Fastest with traffic) with Maps@mail.ru"
+msgstr "На автомобілі (за довжиною)"
+
+#, fuzzy
+msgid "By Car (Fastest)"
+msgstr "На автомобілі (за довжиною)"
+
+#, fuzzy
+msgid "By car (Fastest) with cloudmade.com"
+msgstr "На автомобілі (за довжиною)"
+
+#, fuzzy
+msgid "By car (Fastest) with Maps@mail.ru"
+msgstr "На автомобілі (за довжиною)"
+
+#, fuzzy
+msgid "By car (Fastest) with yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
+
+#, fuzzy
+msgid "By Car (Shortest)"
+msgstr "На автомобілі (за швидкістю)"
+
+#, fuzzy
+msgid "By car (Shortest) with cloudmade.com"
+msgstr "На автомобілі (за швидкістю)"
+
+#, fuzzy
+msgid "By car (Shortest) with Maps@mail.ru"
+msgstr "На автомобілі (за швидкістю)"
+
+#, fuzzy
+msgid "By car (Shortest) with yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBCOORD..Caption
 msgid "By Coordinates"
 msgstr "За координатами"
@@ -321,17 +392,21 @@ msgstr "За координатами"
 msgid "By default"
 msgstr "Стандартно"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem3..Caption
-msgid "By maps.cloudmade.com (OSM)"
-msgstr ""
+#, fuzzy
+msgid "By Foot (Fastest)"
+msgstr "На автомобілі (за довжиною)"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem2..Caption
-msgid "By Maps@mail.ru"
-msgstr "Засобами Карты@mail.ru"
+#, fuzzy
+msgid "By foot (Fastest) with cloudmade.com"
+msgstr "На автомобілі (за довжиною)"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..TBXLabelItem1..Caption
-msgid "By yournavigation.org (OSM)"
-msgstr "Засобами yournavigation.org (OSM)"
+#, fuzzy
+msgid "By Foot (Shortest)"
+msgstr "На автомобілі (за швидкістю)"
+
+#, fuzzy
+msgid "By foot (Shortest) with cloudmade.com"
+msgstr "На автомобілі (за швидкістю)"
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
 #. frmSettings..PageControl1..tsCache..Caption
@@ -509,7 +584,6 @@ msgstr "Керування"
 
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 #. frmMain..MainPopupMenu..N43..N30..Caption
-#. frmSearchResults..lvResults......Caption
 #. Programmer's name for it: SAS_STR_coordinates
 msgid "Coordinates"
 msgstr "Координати"
@@ -641,44 +715,56 @@ msgstr "Видаляє:"
 msgid "Description:"
 msgstr "Опис"
 
-msgid "Detalize route on bicycle (Fastest) by cloudmade.com"
+#, fuzzy
+msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
+msgstr "На автомобілі (за довжиною)"
+
+#, fuzzy
+msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
+
+#, fuzzy
+msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
+msgstr "На автомобілі (за швидкістю)"
+
+#, fuzzy
+msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
+
+msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
 msgstr ""
 
-msgid "Detalize route on bicycle (Fastest) by yournavigation.org"
-msgstr ""
+#, fuzzy
+msgid "Detalize route by car (Fastest) with cloudmade.com"
+msgstr "На автомобілі (за довжиною)"
 
-msgid "Detalize route on bicycle (Shortest) by cloudmade.com"
-msgstr ""
+#, fuzzy
+msgid "Detalize route by car (Fastest) with Maps@mail.ru"
+msgstr "На автомобілі (за довжиною)"
 
-msgid "Detalize route on bicycle (Shortest) by yournavigation.org"
-msgstr ""
+#, fuzzy
+msgid "Detalize route by car (Fastest) with yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
 
-msgid "Detalize route on car (Fastest with traffic) by Maps@mail.ru"
-msgstr ""
+#, fuzzy
+msgid "Detalize route by car (Shortest) with cloudmade.com"
+msgstr "На автомобілі (за швидкістю)"
 
-msgid "Detalize route on car (Fastest) by cloudmade.com"
-msgstr ""
+#, fuzzy
+msgid "Detalize route by car (Shortest) with Maps@mail.ru"
+msgstr "На автомобілі (за швидкістю)"
 
-msgid "Detalize route on car (Fastest) by Maps@mail.ru"
-msgstr ""
+#, fuzzy
+msgid "Detalize route by car (Shortest) with yournavigation.org"
+msgstr "Засобами yournavigation.org (OSM)"
 
-msgid "Detalize route on car (Fastest) by yournavigation.org"
-msgstr ""
+#, fuzzy
+msgid "Detalize route by foot (Fastest) with cloudmade.com"
+msgstr "На автомобілі (за довжиною)"
 
-msgid "Detalize route on car (Shortest) by cloudmade.com"
-msgstr ""
-
-msgid "Detalize route on car (Shortest) by Maps@mail.ru"
-msgstr ""
-
-msgid "Detalize route on car (Shortest) by yournavigation.org"
-msgstr ""
-
-msgid "Detalize route on foot (Fastest) by cloudmade.com"
-msgstr ""
-
-msgid "Detalize route on foot (Shortest) by cloudmade.com"
-msgstr ""
+#, fuzzy
+msgid "Detalize route by foot (Shortest) with cloudmade.com"
+msgstr "На автомобілі (за швидкістю)"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -717,11 +803,6 @@ msgstr "Змінити відстань"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..Label3..Caption
 msgid "Distance representation"
 msgstr "Формат показу масштабу"
-
-#. frmSearchResults..lvResults......Caption
-#, fuzzy
-msgid "Distance to"
-msgstr "Пройдений шлях"
 
 #. Programmer's name for it: SAS_STR_LenToMark
 #. Programmer's name for it: SAS_STR_SensorNavToPointMenuItemName
@@ -959,14 +1040,6 @@ msgstr "Експорт виділеної ділянки у формат"
 msgid "Export visible placemarks"
 msgstr "Експорт лише відображених"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuFastest..Caption
-msgid "Fastest"
-msgstr ""
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuFastestWithTraffic..Caption
-msgid "Fastest with traffic"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_file
 msgid "file"
 msgstr "файл"
@@ -1022,6 +1095,11 @@ msgstr "Від мережі"
 msgid "From zoom:"
 msgstr "Із шару масштабу:"
 
+#. frSearchResultsItem..PanelFullDesc..LabelFullDesc..Caption
+#, fuzzy
+msgid "Full Description"
+msgstr "Опис"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NFoolSize..Caption
 msgid "Full Screen"
 msgstr "На весь екран"
@@ -1071,6 +1149,11 @@ msgstr "Географічні"
 msgid "Get Locaton from GSM (Google Query)"
 msgstr "Визначити позицію за базовими станціями стільникової мережі"
 
+#. frmSettings..PageControl1..tsCache..grdpnlCache..Label19..Caption
+#, fuzzy
+msgid "GlobalMapper Tiles (GMT) cache folder:"
+msgstr "Шлях до кеша GM Tiles:"
+
 #. frmGoTo..pnlBottomButtons..btnGoTo..Caption
 #. frmMain..TBDock..TBMainToolBar..TBGoTo..Hint
 msgid "Go to"
@@ -1096,10 +1179,6 @@ msgstr ""
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label31..Caption
 msgid "GoogleEarth cache folder:"
 msgstr "Шлях до кеша Google Earth:"
-
-#. frmSettings..PageControl1..tsCache..grdpnlCache..Label19..Caption
-msgid "GoogleMaps cache folder:"
-msgstr "Шлях до кеша GM Tiles:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label2..Caption
 msgid "GoogleMV cache folder:"
@@ -1415,6 +1494,13 @@ msgstr "Тип карти:"
 msgid "Maps"
 msgstr "Карти"
 
+msgid "maps.cloudmade.com (OSM)"
+msgstr ""
+
+#, fuzzy
+msgid "Maps@mail.ru"
+msgstr "Засобами Карты@mail.ru"
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedCaption
 msgid "Max.speed, km/h:"
 msgstr "Макс. швидкість, км/год:"
@@ -1488,7 +1574,6 @@ msgid "N"
 msgstr "Пн"
 
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
-#. frmSearchResults..lvResults......Caption
 msgid "Name"
 msgstr "Довгота"
 
@@ -1577,100 +1662,6 @@ msgstr "Одометр № 2"
 #. frmSettings..pnlBottomButtons..btnOk..Caption
 msgid "Ok"
 msgstr "Гаразд"
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeBicycleFastest..Caption
-msgid "On bicycle (Fastest)"
-msgstr ""
-
-msgid "On bicycle (Fastest) by cloudmade.com"
-msgstr ""
-
-msgid "On bicycle (Fastest) by yournavigation.org"
-msgstr ""
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeBicycleShortest..Caption
-msgid "On bicycle (Shortest)"
-msgstr ""
-
-msgid "On bicycle (Shortest) by cloudmade.com"
-msgstr ""
-
-msgid "On bicycle (Shortest) by yournavigation.org"
-msgstr ""
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationBicycleFastest..Caption
-#, fuzzy
-msgid "On Bike (Fastest)"
-msgstr "На велосипеді (за довжиною)"
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationBicycleShortest..Caption
-#, fuzzy
-msgid "On Bike (Shortest)"
-msgstr "На велосипеді (за швидкістю)"
-
-#, fuzzy
-msgid "On car (Fastest with traffic)"
-msgstr "На автомобілі (за довжиною)"
-
-msgid "On car (Fastest with traffic) by Maps@mail.ru"
-msgstr ""
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeCarFastest..Caption
-#, fuzzy
-msgid "On car (Fastest)"
-msgstr "На автомобілі (за довжиною)"
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationCarFastest..Caption
-#, fuzzy
-msgid "On Car (Fastest)"
-msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-msgid "On car (Fastest) by cloudmade.com"
-msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-msgid "On car (Fastest) by Maps@mail.ru"
-msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-msgid "On car (Fastest) by yournavigation.org"
-msgstr "Засобами yournavigation.org (OSM)"
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeCarShortest..Caption
-msgid "On car (Shortest)"
-msgstr ""
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiYourNavigationCarShortest..Caption
-#, fuzzy
-msgid "On Car (Shortest)"
-msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-msgid "On car (Shortest) by cloudmade.com"
-msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-msgid "On car (Shortest) by Maps@mail.ru"
-msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-msgid "On car (Shortest) by yournavigation.org"
-msgstr "Засобами yournavigation.org (OSM)"
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeFootFastest..Caption
-msgid "On foot (Fastest)"
-msgstr ""
-
-msgid "On foot (Fastest) by cloudmade.com"
-msgstr ""
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiCloudMadeFootShortest..Caption
-msgid "On foot (Shortest)"
-msgstr ""
-
-msgid "On foot (Shortest) by cloudmade.com"
-msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..N29..Caption
 msgid "Online Help (http://sasgis.ru/wikisasiya)"
@@ -2095,7 +2086,8 @@ msgstr "Збереження маршруту..."
 msgid "Search"
 msgstr "Пошук"
 
-#. frmSearchResults..Caption
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSearchResults..Caption
+#. frmMain..TBDockLeft..TBSearchWindow..Caption
 msgid "Search Results"
 msgstr "Результати пошуку"
 
@@ -2192,11 +2184,6 @@ msgstr "Колір тіні"
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
 msgstr "Ярлик|*.lnk"
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..tbiMailRuShortest..Caption
-#, fuzzy
-msgid "Shortest"
-msgstr "Джерела"
 
 #. frmMarksExplorer..rgMarksShowMode....Items.Strings
 msgid "Show all placemarks"
@@ -2661,6 +2648,10 @@ msgstr "Так"
 msgid "You need at least one MAP among your ZMP files"
 msgstr "Серед ZMP має бути хоча б одна карта"
 
+#, fuzzy
+msgid "yournavigation.org (OSM)"
+msgstr "Засобами yournavigation.org (OSM)"
+
 #. frLonLat..pnlXY..grdpnlZoom..lblZoom..Caption
 msgid "Z:"
 msgstr ""
@@ -2712,6 +2703,18 @@ msgstr "Масштаб:"
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
 msgid "Zooms:"
 msgstr "Масштаби:"
+
+#, fuzzy
+#~ msgid "Distance to"
+#~ msgstr "Пройдений шлях"
+
+#, fuzzy
+#~ msgid "On car (Fastest)"
+#~ msgstr "На автомобілі (за довжиною)"
+
+#, fuzzy
+#~ msgid "Shortest"
+#~ msgstr "Джерела"
 
 #~ msgid "Latitude"
 #~ msgstr "Широта"
