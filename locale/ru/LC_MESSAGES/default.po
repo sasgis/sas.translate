@@ -3,8 +3,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: SAS.Planet\n"
+msgstr "Project-Id-Version: SAS.Planet\n"
 "POT-Creation-Date: 2011-09-14 17:05\n"
 "PO-Revision-Date: 2011-08-24 22:42+0200\n"
 "Last-Translator: Mixail <me@mixaill.tk>\n"
@@ -122,7 +121,8 @@ msgstr "Добавить"
 
 #. frmMapTypeEdit..pnlSeparator..CheckBox1..Caption
 msgid "Add menu separator line after this map"
-msgstr "Добавлять в меню разделитель после названия этой карты"
+msgstr "Добавлять в меню разделитель после названия этой "
+"карты"
 
 #. frmMarkCategoryEdit..Caption
 #. Programmer's name for it: SAS_STR_AddNewCategory
@@ -208,16 +208,16 @@ msgid "All by default"
 msgstr "Все по умолчанию"
 
 #. frmMain..OpenSessionDialog....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*."
-"sls)|*.sls|Selection (*.hlg)|*.hlg"
-msgstr ""
-"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*."
-"sls)|*.sls|Файл выделения (*.hlg)|*.hlg"
+msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.k"
+"mz;*.sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ files "
+"(*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection "
+"(*.hlg)|*.hlg"
+msgstr "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track "
+"Point File Version 2.1 (*.plt)|*.plt|Google KMZ files "
+"(*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения "
+"(*.hlg)|*.hlg"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -255,7 +255,7 @@ msgstr "Внимание!"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
 msgid "Attract to The Existing Markers"
-msgstr ""
+msgstr "Притягивать точки к сущесвующим маркерам"
 
 #. frmAbout..lblAuthorCaption..Caption
 msgid "Authors:"
@@ -263,12 +263,14 @@ msgstr "Разработка:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
-msgstr "Автоматически показывать/скрывать панель датчиков"
+msgstr "Автоматически показывать/скрывать панель "
+"датчиков"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
-msgid "Automatically detect location using GSM phone (Google query)"
-msgstr ""
-"Автоматически определять параметры базовых станций через подключенный телефон"
+msgid "Automatically detect location using GSM phone (Google "
+"query)"
+msgstr "Автоматически определять параметры базовых станций через подключенный "
+"телефон"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlogNmea..Caption
 msgid "Autosave tracks to .nmea"
@@ -319,49 +321,61 @@ msgid "By Bicycle (Fastest)"
 msgstr "На велосипеде (по скорости)"
 
 msgid "By bicycle (Fastest) with cloudmade.com"
-msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com (OSM))"
+msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com "
+"(OSM))"
 
 msgid "By bicycle (Fastest) with yournavigation.org"
-msgstr "На велосипеде (по скорости, средствами yournavigation.org (OSM))"
+msgstr "На велосипеде (по скорости, средствами yournavigation.org "
+"(OSM))"
 
 msgid "By Bicycle (Shortest)"
 msgstr "На велосипеде (по расстоянию)"
 
 msgid "By bicycle (Shortest) with cloudmade.com"
-msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com (OSM))"
+msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com "
+"(OSM))"
 
 msgid "By bicycle (Shortest) with yournavigation.org"
-msgstr "На велосипеде (по расстоянию, средствами yournavigation.org (OSM))"
+msgstr "На велосипеде (по расстоянию, средствами yournavigation.org "
+"(OSM))"
 
 msgid "By Car (Fastest with traffic)"
-msgstr "На автомобиле (по скорости с учетом дор. обстановки)"
+msgstr "На автомобиле (по скорости с учетом дор. "
+"обстановки)"
 
 msgid "By car (Fastest with traffic) with Maps@mail.ru"
-msgstr "На автомобиле (по расстоянию,  средствами Maps@mail.ru)"
+msgstr "На автомобиле (по расстоянию,  средствами "
+"Maps@mail.ru)"
 
 msgid "By Car (Fastest)"
 msgstr "На автомобиле (по скорости)"
 
 msgid "By car (Fastest) with cloudmade.com"
-msgstr "На автомобиле (по скорости, средствами maps.cloudmade.com (OSM))"
+msgstr "На автомобиле (по скорости, средствами maps.cloudmade.com "
+"(OSM))"
 
 msgid "By car (Fastest) with Maps@mail.ru"
-msgstr "На автомобиле (по скорости, средствами Maps@mail.ru)"
+msgstr "На автомобиле (по скорости, средствами "
+"Maps@mail.ru)"
 
 msgid "By car (Fastest) with yournavigation.org"
-msgstr "На автомобиле (по скорости, средствами yournavigation.org (OSM))"
+msgstr "На автомобиле (по скорости, средствами yournavigation.org "
+"(OSM))"
 
 msgid "By Car (Shortest)"
 msgstr "На автомобиле (по расстоянию)"
 
 msgid "By car (Shortest) with cloudmade.com"
-msgstr "На автомобиле (по расстоянию, средствами maps.cloudmade.com (OSM))"
+msgstr "На автомобиле (по расстоянию, средствами maps.cloudmade.com "
+"(OSM))"
 
 msgid "By car (Shortest) with Maps@mail.ru"
-msgstr "На автомобиле (по расстоянию, средствами Maps@mail.ru)"
+msgstr "На автомобиле (по расстоянию, средствами "
+"Maps@mail.ru)"
 
 msgid "By car (Shortest) with yournavigation.org"
-msgstr "На автомобиле (по расстоянию, средствами yournavigation.org (OSM))"
+msgstr "На автомобиле (по расстоянию, средствами yournavigation.org "
+"(OSM))"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBCOORD..Caption
 msgid "By Coordinates"
@@ -383,13 +397,15 @@ msgid "By Foot (Fastest)"
 msgstr "Пешком (по скорости)"
 
 msgid "By foot (Fastest) with cloudmade.com"
-msgstr "Пешком (по скорости, средствами maps.cloudmade.com (OSM))"
+msgstr "Пешком (по скорости, средствами maps.cloudmade.com "
+"(OSM))"
 
 msgid "By Foot (Shortest)"
 msgstr "Пешком (по расстоянию)"
 
 msgid "By foot (Shortest) with cloudmade.com"
-msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com (OSM))"
+msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com "
+"(OSM))"
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
 #. frmSettings..PageControl1..tsCache..Caption
@@ -441,15 +457,19 @@ msgstr "Отменить"
 
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
-msgstr "Ошибка загрузки изображения исходного типа"
+msgstr "Ошибка загрузки изображения исходного "
+"типа"
 
 #. Programmer's name for it: SAS_ERR_CantSaveBitmapToTargetType
 msgid "Can't save bitmap to target type"
-msgstr "Ошибка сохранения изображения заданного формата"
+msgstr "Ошибка сохранения изображения заданного "
+"формата"
 
 #. Programmer's name for it: SAS_MSG_NotDelWhereHasChildren
-msgid "Category is not empty. Please delete child categories first"
-msgstr "Категория не пуста! Удалите все дочерние категории."
+msgid "Category is not empty. Please delete child categories "
+"first"
+msgstr "Категория не пуста! Удалите все дочерние "
+"категории."
 
 #. Programmer's name for it: SAS_ERR_CategoryNameDoubling
 msgid "Category name already exists"
@@ -508,20 +528,16 @@ msgid "Community  (http://www.sasgis.ru/forum)"
 msgstr "Обсуждение (http://sasgis.ru/forum)"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptCompileError
-msgid ""
-"Compilation error in script \n"
+msgid "Compilation error in script \n"
 "%0:s"
-msgstr ""
-"Ошибка в скрипте при компиляции\n"
+msgstr "Ошибка в скрипте при компиляции\n"
 "%0:s"
 
 #. frmMarksExplorer..ExportDialog....Filter
-msgid ""
-"Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|"
-"*.kml"
-msgstr ""
-"Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
-"(kml)|*.kml"
+msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup "
+"Language (kml)|*.kml"
+msgstr "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup "
+"Language (kml)|*.kml"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -538,7 +554,8 @@ msgid "Compression:"
 msgstr "Сжатие:"
 
 msgid "Connct to server error. Error code %d"
-msgstr "Ошибка соединения с сервером. Код ошибки %d"
+msgstr "Ошибка соединения с сервером. Код ошибки "
+"%d"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSconn..Hint
 msgid "Connect to GPS receiver"
@@ -581,7 +598,8 @@ msgstr "Скопировать"
 
 #. frmDGAvailablePic..GroupBox3..pnlRight..Button3..Hint
 msgid "Copy TID's to clipboard"
-msgstr "Копировать выбранные TID для вставки в URL"
+msgstr "Копировать выбранные TID для вставки в "
+"URL"
 
 #. frmMain..MainPopupMenu..N43..Caption
 msgid "Copy to Clipboard"
@@ -609,11 +627,13 @@ msgstr "Сохранить ярлык"
 
 #. frmMain..MainPopupMenu..N26..NGTOPO30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
-msgstr "Высота над уровнем моря GTOPO30 (разрешение ~1 км)"
+msgstr "Высота над уровнем моря GTOPO30 (разрешение ~1 "
+"км)"
 
 #. frmMain..MainPopupMenu..N26..NSRTM3..Caption
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
-msgstr "Высота над уровнем моря SRTM3 (разрешение ~90 м)"
+msgstr "Высота над уровнем моря SRTM3 (разрешение ~90 "
+"м)"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedCaption
 msgid "Current speed, km/h:"
@@ -656,7 +676,8 @@ msgstr "Удалить файлы карты"
 
 #. frTilesDelete..pnlBottom..pnlCenter..flwpnlDelBySize..lblDelSize..Caption
 msgid "Delete only tiles of size, bytes:"
-msgstr "Удалять только тайлы, размер которых, байт"
+msgstr "Удалять только тайлы, размер которых, "
+"байт"
 
 #. frmMain..MainPopupMenu..dlm..Caption
 msgid "Delete Overlay Layer Tile from Cache"
@@ -696,44 +717,70 @@ msgstr "Удаляет:"
 msgid "Description:"
 msgstr "Описание"
 
-msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
-msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com (OSM))"
+msgid "Detalize route by bicycle (Fastest) with "
+"cloudmade.com"
+msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com "
+"(OSM))"
 
-msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
-msgstr "На велосипеде (по скорости, средствами yournavigation.org (OSM))"
+msgid "Detalize route by bicycle (Fastest) with "
+"yournavigation.org"
+msgstr "На велосипеде (по скорости, средствами yournavigation.org "
+"(OSM))"
 
-msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
-msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com (OSM))"
+msgid "Detalize route by bicycle (Shortest) with "
+"cloudmade.com"
+msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com "
+"(OSM))"
 
-msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
-msgstr "На велосипеде (по расстоянию, средствами yournavigation.org (OSM))"
+msgid "Detalize route by bicycle (Shortest) with "
+"yournavigation.org"
+msgstr "На велосипеде (по расстоянию, средствами yournavigation.org "
+"(OSM))"
 
-msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
-msgstr "На автомобиле (по расстоянию,  средствами Maps@mail.ru)"
+msgid "Detalize route by car (Fastest with traffic) with "
+"Maps@mail.ru"
+msgstr "На автомобиле (по расстоянию,  средствами "
+"Maps@mail.ru)"
 
-msgid "Detalize route by car (Fastest) with cloudmade.com"
-msgstr "На автомобиле (по скорости, средствами maps.cloudmade.com (OSM))"
+msgid "Detalize route by car (Fastest) with "
+"cloudmade.com"
+msgstr "На автомобиле (по скорости, средствами maps.cloudmade.com "
+"(OSM))"
 
-msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-msgstr "На автомобиле (по скорости, средствами Maps@mail.ru)"
+msgid "Detalize route by car (Fastest) with "
+"Maps@mail.ru"
+msgstr "На автомобиле (по скорости, средствами "
+"Maps@mail.ru)"
 
-msgid "Detalize route by car (Fastest) with yournavigation.org"
-msgstr "На автомобиле (по скорости, средствами yournavigation.org (OSM))"
+msgid "Detalize route by car (Fastest) with "
+"yournavigation.org"
+msgstr "На автомобиле (по скорости, средствами yournavigation.org "
+"(OSM))"
 
-msgid "Detalize route by car (Shortest) with cloudmade.com"
-msgstr "На автомобиле (по расстоянию, средствами maps.cloudmade.com (OSM))"
+msgid "Detalize route by car (Shortest) with "
+"cloudmade.com"
+msgstr "На автомобиле (по расстоянию, средствами maps.cloudmade.com "
+"(OSM))"
 
-msgid "Detalize route by car (Shortest) with Maps@mail.ru"
-msgstr "На автомобиле (по расстоянию, средствами Maps@mail.ru)"
+msgid "Detalize route by car (Shortest) with "
+"Maps@mail.ru"
+msgstr "На автомобиле (по расстоянию, средствами "
+"Maps@mail.ru)"
 
-msgid "Detalize route by car (Shortest) with yournavigation.org"
-msgstr "На автомобиле (по расстоянию, средствами yournavigation.org (OSM))"
+msgid "Detalize route by car (Shortest) with "
+"yournavigation.org"
+msgstr "На автомобиле (по расстоянию, средствами yournavigation.org "
+"(OSM))"
 
-msgid "Detalize route by foot (Fastest) with cloudmade.com"
-msgstr "Пешком (по скорости, средствами maps.cloudmade.com (OSM))"
+msgid "Detalize route by foot (Fastest) with "
+"cloudmade.com"
+msgstr "Пешком (по скорости, средствами maps.cloudmade.com "
+"(OSM))"
 
-msgid "Detalize route by foot (Shortest) with cloudmade.com"
-msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com (OSM))"
+msgid "Detalize route by foot (Shortest) with "
+"cloudmade.com"
+msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com "
+"(OSM))"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -742,11 +789,13 @@ msgstr "Время ожидания ответа от приемника (сек
 #. frmDGAvailablePic..Caption
 #. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
 msgid "DigitalGlobe Availability"
-msgstr "Загрузить информацию о доступных картах этого места на DigitalGlobe"
+msgstr "Загрузить информацию о доступных картах этого места на "
+"DigitalGlobe"
 
 #. Programmer's name for it: SAS_ERR_Write
 msgid "Disk write error. The task will be aborted!"
-msgstr "Ошибка записи на диск. Операция будет прервана!"
+msgstr "Ошибка записи на диск. Операция будет "
+"прервана!"
 
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
 msgid "Displayed Main Map"
@@ -792,7 +841,8 @@ msgid "Distance:"
 msgstr "Пройденный путь:"
 
 #. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
-msgid "Don't store references to non-existent tiles"
+msgid "Don't store references to non-existent "
+"tiles"
 msgstr "Не сохранять пути к несуществующим тайлам"
 
 #. frmDGAvailablePic..GroupBox3..pnlRight..Button2..Caption
@@ -814,16 +864,21 @@ msgstr "Ошибка загрузки. Код ошибки %d"
 msgid "Download error. Status code %d"
 msgstr "Ошибка загрузки. Код ответа %d"
 
-msgid "Download error. Unknown status code %d"
-msgstr "Ошибка загрузки. Неизвестный код ответа %d"
+msgid "Download error. Unknown status code "
+"%d"
+msgstr "Ошибка загрузки. Неизвестный код ответа "
+"%d"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
 msgid "Download next tile if no response"
-msgstr "Переходить к следующему тайлу, если сервер не отвечает"
+msgstr "Переходить к следующему тайлу, если сервер не "
+"отвечает"
 
 #. Programmer's name for it: SAS_ERR_MapDownloadByError
-msgid "Download of map %0:s disabled because of error: %1:s"
-msgstr "Для карты %0:s отключена загрузка тайлов из-за ошибки: %1:s"
+msgid "Download of map %0:s disabled because of error: "
+"%1:s"
+msgstr "Для карты %0:s отключена загрузка тайлов из-за ошибки: "
+"%1:s"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -843,7 +898,8 @@ msgstr "Загрузить изображения из интернета"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..flwpnlTileBorder..Label69..Caption
 msgid "Download tiles off-screen"
-msgstr "Кол-во тайлов, загружаемых за границей экрана"
+msgstr "Кол-во тайлов, загружаемых за границей "
+"экрана"
 
 #. Programmer's name for it: SAS_STR_load
 msgid "Downloaded"
@@ -922,10 +978,10 @@ msgid "Enabled"
 msgstr "Используется"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid ""
-"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr ""
-"Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
+msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: "
+"02,250,7718,11942)"
+msgstr "Введите через запятую MNC, MCC, LAC, CellID (например: "
+"02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -969,7 +1025,8 @@ msgstr "Ошибка открытия порта!"
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
 msgid "Error parsing coordinates: Lat=%s Lon=%s"
-msgstr "Ошибка ввода координат: широта %s, долгота %s"
+msgstr "Ошибка ввода координат: широта %s, долгота "
+"%s"
 
 #. Programmer's name for it: SAS_ERR_Read
 msgid "Error reading file!"
@@ -1094,11 +1151,13 @@ msgstr "Сформировать"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkFromPrevZoom..Caption
 msgid "Generate each zoom from previous one"
-msgstr "Формировать каждый выбранный масштаб из предыдущего выбранного"
+msgstr "Формировать каждый выбранный масштаб из предыдущего "
+"выбранного"
 
 #. frTilesGenPrev..pnlTop..Caption
 msgid "Generate Lower Zooms for Selection"
-msgstr "Сформировать предыдущие слои спутниковой карты"
+msgstr "Сформировать предыдущие слои спутниковой "
+"карты"
 
 #. Programmer's name for it: SAS_STR_OperationGenPrevCaption
 msgid "Generating upper zooms"
@@ -1115,13 +1174,13 @@ msgstr "Географические"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmPositionByGSM..Caption
 msgid "Get Locaton from GSM (Google Query)"
-msgstr "Определить позицию по базовым станциям сотовой сети"
+msgstr "Определить позицию по базовым станциям сотовой "
+"сети"
 
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
-#, fuzzy
 msgid "GlobalMapper Tiles"
-msgstr "Путь к кэшу GlobalMapper:"
+msgstr "GlobalMapper Tiles"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label19..Caption
 msgid "GlobalMapper Tiles (GMT) cache folder:"
@@ -1142,12 +1201,12 @@ msgid "Go to..."
 msgstr "Перейти к..."
 
 #. frmMarksExplorer..OpenDialog1....Filter
-msgid ""
-"Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*."
-"plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg"
-msgstr ""
-"Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*."
-"plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg"
+msgid "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version "
+"2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection "
+"(*.hlg)|*.hlg"
+msgstr "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version "
+"2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения "
+"(*.hlg)|*.hlg"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label31..Caption
 msgid "GoogleEarth cache folder:"
@@ -1184,8 +1243,10 @@ msgid "Hotkey"
 msgstr "Гор. кл."
 
 #. Programmer's name for it: SAS_MSG_HotKeyExists
-msgid "Hotkey in use. Please select another one"
-msgstr "Горячая клавиша уже используется, пожалуйста, выберите другую"
+msgid "Hotkey in use. Please select another "
+"one"
+msgstr "Горячая клавиша уже используется, пожалуйста, выберите "
+"другую"
 
 #. frmSettings..PageControl1..tsControl..GroupBox5..Caption
 msgid "Hotkeys"
@@ -1317,11 +1378,9 @@ msgid "Last Selection"
 msgstr "Предыдущее выделение"
 
 #. Programmer's name for it: SAS_ERR_LonLat2
-msgid ""
-"Latitude of upper left corner must be less than \n"
+msgid "Latitude of upper left corner must be less than \n"
 "latitude of lower right corner"
-msgstr ""
-"Широта в левом верхнем углу должна быть меньше \n"
+msgstr "Широта в левом верхнем углу должна быть меньше \n"
 "широты в правом нижнем!"
 
 #. frLonLat..grdpnlLonLat..lblLat..Caption
@@ -1372,11 +1431,9 @@ msgid "Lock Toolbars"
 msgstr "Закрепить панели инструментов"
 
 #. Programmer's name for it: SAS_ERR_LonLat1
-msgid ""
-"Longitude of upper left corner must be less than \n"
+msgid "Longitude of upper left corner must be less than \n"
 "longitude of lower right corner"
-msgstr ""
-"Долгота в левом верхнем углу должна быть меньше \n"
+msgstr "Долгота в левом верхнем углу должна быть меньше \n"
 "долготы в правом нижнем!"
 
 #. frLonLat..grdpnlLonLat..lblLon..Caption
@@ -1431,19 +1488,15 @@ msgid "Map Name"
 msgstr "Название карты"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptUnexpectedError
-msgid ""
-"Map script error %0:s (%2:s):\n"
+msgid "Map script error %0:s (%2:s):\n"
 "Unexpected error"
-msgstr ""
-"Ошибка скрипта карты %0:s (%2:s):\n"
+msgstr "Ошибка скрипта карты %0:s (%2:s):\n"
 "Неожиданная ошибка"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptError
-msgid ""
-"Map script error %0:s (%2:s):\n"
+msgid "Map script error %0:s (%2:s):\n"
 "%1:s"
-msgstr ""
-"Ошибка скрипта карты %0:s (%2:s):\n"
+msgstr "Ошибка скрипта карты %0:s (%2:s):\n"
 "%1:s"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
@@ -1477,7 +1530,8 @@ msgstr "Скорость макс., км/ч:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
 msgid "Maximum number of track points:"
-msgstr "Максимальное количество отображаемых точек трека:"
+msgstr "Максимальное количество отображаемых точек "
+"трека:"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedMenuItemName
 msgid "Maximum speed"
@@ -1520,11 +1574,14 @@ msgid "Mobile Yandex.Maps (version 3)"
 msgstr "Мобильные Яндекс.Карты (версия 3)"
 
 #. Programmer's name for it: SAS_STR_ExportYaMobileV4Caption
-msgid "Mobile Yandex.Maps (version 3.91 and above)"
-msgstr "Мобильные Яндекс.Карты (версия 3.91 и выше)"
+msgid "Mobile Yandex.Maps (version 3.91 and "
+"above)"
+msgstr "Мобильные Яндекс.Карты (версия 3.91 и "
+"выше)"
 
 #. Programmer's name for it: SAS_ERR_Ban
-msgid "Most likely you've been banned by the server!"
+msgid "Most likely you've been banned by the "
+"server!"
 msgstr "Высока вероятность того, что вас забанили!"
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
@@ -1593,7 +1650,8 @@ msgstr "Не найден приемник GPS"
 
 #. Programmer's name for it: SAS_ERR_Memory
 msgid "Not enough memory to complete the task"
-msgstr "Невозможно выделить память для данной операции"
+msgstr "Невозможно выделить память для данной "
+"операции"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
@@ -1611,7 +1669,8 @@ msgstr "Количество файлов"
 
 #. frmSettings..PageControl1..tsCache..flwpnlMemCache..Label30..Caption
 msgid "Number of tiles to be cached in RAM"
-msgstr "Количество тайлов, кэшируемых в оперативную память"
+msgstr "Количество тайлов, кэшируемых в оперативную "
+"память"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1MenuItemName
 msgid "Odometer"
@@ -1665,7 +1724,8 @@ msgstr "Открыть папку, содержащую тайл слоя"
 
 #. frmMain..MainPopupMenu..N25..Caption
 msgid "Open Primary Map Tile Folder"
-msgstr "Открыть папку, содержащую тайл основной карты"
+msgstr "Открыть папку, содержащую тайл основной "
+"карты"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..TBXItem6..Caption
 msgid "Open..."
@@ -1780,13 +1840,15 @@ msgid "PlaceMarks"
 msgstr "Метки"
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
-msgid ""
-"Please choose another format (ECW, BMP, JP2) while stitching large images"
-msgstr "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
+msgid "Please choose another format (ECW, BMP, JP2) while stitching large "
+"images"
+msgstr "Для склейки больших размеров используйте другой формат (ECW, BMP, "
+"JP2)"
 
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
-msgstr "Сначала необходимо выделить хотя бы одну область"
+msgstr "Сначала необходимо выделить хотя бы одну "
+"область"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
@@ -1814,9 +1876,8 @@ msgid "Polygonal Selection"
 msgstr "Полигональная область"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPolylineSelect..Caption
-#, fuzzy
 msgid "Polyline Selection"
-msgstr "Полигональная область"
+msgstr "Выделение по пути"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
 msgid "Previous Selection"
@@ -1891,7 +1952,7 @@ msgstr "Выход"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap1..Caption
 msgid "Radius"
-msgstr ""
+msgstr "Радиус"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
@@ -1930,9 +1991,10 @@ msgid "Restore"
 msgstr "Восстановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
-msgid "Restore download from last successful tile"
-msgstr ""
-"Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
+msgid "Restore download from last successful "
+"tile"
+msgstr "Начать сохранённую сессию загрузки с последнего удачно загруженного "
+"тайла"
 
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
@@ -1940,7 +2002,8 @@ msgstr "Продолжить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
 msgid "Retry download if tile not found"
-msgstr "Пытаться повторно загрузить тайл при его отсутствии"
+msgstr "Пытаться повторно загрузить тайл при его "
+"отсутствии"
 
 #. Programmer's name for it: SAS_ERR_RepeatProcess
 msgid "Retrying operation"
@@ -1976,9 +2039,9 @@ msgid "SAS.Planet"
 msgstr "SAS.Планета"
 
 #. Programmer's name for it: SAS_MSG_need_reload_application_curln
-msgid "SAS.Planet must be restarted for the changes to take effect"
-msgstr ""
-"Для того чтобы изменения вступили в силу,\n"
+msgid "SAS.Planet must be restarted for the changes to take "
+"effect"
+msgstr "Для того чтобы изменения вступили в силу,\n"
 "необходимо перезапустить программу."
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
@@ -2022,7 +2085,8 @@ msgstr "Сохранить текущую сессию"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
 msgid "Save only complete tiles"
-msgstr "Сохранять только полностью заполненные тайлы"
+msgstr "Сохранять только полностью заполненные "
+"тайлы"
 
 #. frmRegionProcess..pnlBottomButtons..SpeedButton1..Hint
 #. frTilesCopy..Panel1..Caption
@@ -2067,11 +2131,13 @@ msgstr "секунд"
 
 #. frmMain..TBDock..SrcToolbar..TBSrc..Hint
 msgid "Select data source"
-msgstr "Выберите источник, из которого программа будет брать карты"
+msgstr "Выберите источник, из которого программа будет брать "
+"карты"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbHybr..Hint
 msgid "Select Hybrid as main layer"
-msgstr "Выбрать гибрид в качестве основного слоя"
+msgstr "Выбрать гибрид в качестве основного "
+"слоя"
 
 #. frmImportConfigEdit..grpPoint..cbbPointIcon..Hint
 msgid "Select image"
@@ -2083,11 +2149,13 @@ msgstr "Выбрать карту в качестве основного сло�
 
 #. frmMain..TBDock..SrcToolbar..TBLayerSel..Hint
 msgid "Select overlay layers"
-msgstr "Выбор слоев, отображаемых поверх основной карты"
+msgstr "Выбор слоев, отображаемых поверх основной "
+"карты"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbSat..Hint
 msgid "Select Satellite as main layer"
-msgstr "Выбрать спутник в качестве основного слоя"
+msgstr "Выбрать спутник в качестве основного "
+"слоя"
 
 #. frmMain..TBDock..SrcToolbar..TBSMB..Hint
 msgid "Selected basemap"
@@ -2099,7 +2167,8 @@ msgstr "Выделение по координатам"
 
 #. Programmer's name for it: SAS_ERR_SelectArea
 msgid "Selection is out of the map!"
-msgstr "Выделенная область находится целиком вне карты!"
+msgstr "Выделенная область находится целиком вне "
+"карты!"
 
 #. frmMain..TBDock..TBMainToolBar..TBRectSave..Hint
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnOpSelectMark..Hint
@@ -2128,12 +2197,15 @@ msgid "Serial port"
 msgstr "COM-порт"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
-msgid "Server returned type \"%0:s\", this is not bitmap image"
-msgstr "Сервис вернул тип \"%0:s\", это не растровое изображение"
+msgid "Server returned type \"%0:s\", this is not bitmap "
+"image"
+msgstr "Сервис вернул тип \"%0:s\", это не растровое "
+"изображение"
 
 #. Programmer's name for it: SAS_ERR_BadMIME
 msgid "Server returned unexpected type \"%0:s\""
-msgstr "Сервис вернул тип \"%0:s\", а не один из ожидаемых"
+msgstr "Сервис вернул тип \"%0:s\", а не один из "
+"ожидаемых"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Server timeout, ms"
@@ -2175,7 +2247,8 @@ msgstr "Отображать трек"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowmapname..Caption
 msgid "Show map name on toolbar"
-msgstr "Отображать название карты на панели инструментов"
+msgstr "Отображать название карты на панели "
+"инструментов"
 
 #. frmMarkCategoryEdit..CBShow..Caption
 #. frmMarkEditPath..chkVisible..Caption
@@ -2194,7 +2267,8 @@ msgstr "Просмотр тайла основной карты"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
 msgid "Show tooltips"
-msgstr "Отображать описание метки при наведении курсора"
+msgstr "Отображать описание метки при наведении "
+"курсора"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabel..Hint
 msgid "Show/Hide Captions"
@@ -2214,7 +2288,8 @@ msgstr "Отображает текущую скорость движения"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
-msgstr "Отображает пройденный путь, считаемый от подключения к GPS-приемнику"
+msgstr "Отображает пройденный путь, считаемый от подключения к "
+"GPS-приемнику"
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointDescription
 msgid "Shows distance to selected placemark"
@@ -2222,7 +2297,8 @@ msgstr "Отображает расстояние до выбранной мет
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeDescription
 msgid "Shows GPS altitude"
-msgstr "Отображает высоту над уровнем моря по данным GPS-приемника"
+msgstr "Отображает высоту над уровнем моря по данным "
+"GPS-приемника"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedDescription
 msgid "Shows maximum speed"
@@ -2238,8 +2314,10 @@ msgid "Shows total distance"
 msgstr "Отображает весь пройденный путь"
 
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Hint
-msgid "Signal-to-noise ratio for satellites in use"
-msgstr "Отношение сигнал/шум для спутников, участвующих в определении позиции"
+msgid "Signal-to-noise ratio for satellites in "
+"use"
+msgstr "Отношение сигнал/шум для спутников, участвующих в определении "
+"позиции"
 
 #. Programmer's name for it: SAS_STR_Resolution
 msgid "size:"
@@ -2306,7 +2384,8 @@ msgstr "Остановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
 msgid "Store info about not found tiles"
-msgstr "Сохранять информацию об отсутствии тайлов на сервере"
+msgstr "Сохранять информацию об отсутствии тайлов на "
+"сервере"
 
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
@@ -2318,33 +2397,33 @@ msgid "Text color"
 msgstr "Цвет текста"
 
 #. Programmer's name for it: SAS_MSG_FunExForPoly
-#, fuzzy
-msgid "The feature can be used on polygons and polylines"
-msgstr "В данной версии функция доступна только для полигонов"
+msgid "The feature can be used on polygons and "
+"polylines"
+msgstr "В данной версии функция доступна только для полигонов и "
+"путей"
 
 #. Programmer's name for it: SAS_ERR_NotLoads
 msgid "The map is unable to load"
 msgstr "Карта не позволяет загружать"
 
 #. Programmer's name for it: SAS_MSG_GarminMax1Mp
-msgid ""
-"The number of JPEG files will exceed 100. If your\n"
+msgid "The number of JPEG files will exceed 100. If your\n"
 "navigation device split the image using\n"
 "\"Manage Selection - Stitch\" window\n"
 "and use resulting KMZ files separately"
-msgstr ""
-"Количество полученных JPEG-файлов превысит 100 штук. Если Ваш\n"
-"навигатор не отображает карту, разбейте сохраняемое изображение на части в \n"
+msgstr "Количество полученных JPEG-файлов превысит 100 штук. Если Ваш\n"
+"навигатор не отображает карту, разбейте сохраняемое изображение на "
+"части в \n"
 "диалоге \"Операции с выделенной областью - Склеить\"\n"
 "и используйте полученные KMZ по отдельности"
 
 #. Programmer's name for it: SAS_MSG_SelectArea
-msgid ""
-"The selection is partially outside the map.\n"
-"The selection will be reduced to map boundaries."
-msgstr ""
-"Часть выделенной области находится вне карты.\n"
-"Область будет ограничена по размерам карты."
+msgid "The selection is partially outside the map.\n"
+"The selection will be reduced to map "
+"boundaries."
+msgstr "Часть выделенной области находится вне карты.\n"
+"Область будет ограничена по размерам "
+"карты."
 
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
@@ -2359,31 +2438,35 @@ msgid "The tile is corrupt!"
 msgstr "Файл испорчен!"
 
 #. Programmer's name for it: SAS_MSG_FileBeCreateTime
-msgid "The tile is newer than the entered age, skipping."
-msgstr "Данный файл создан позже указанного срока, пропускаем загрузку."
+msgid "The tile is newer than the entered age, "
+"skipping."
+msgstr "Данный файл создан позже указанного срока, пропускаем "
+"загрузку."
 
 #. Programmer's name for it: SAS_MSG_FileBeCreateLen
-msgid "The tile size is equal to the existing one, skipping."
-msgstr "Данный файл равен по размеру существующему, пропускаем загрузку."
+msgid "The tile size is equal to the existing one, "
+"skipping."
+msgstr "Данный файл равен по размеру существующему, пропускаем "
+"загрузку."
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
 msgid "There is an error %1:s in map %0:s"
 msgstr "В карте %0:s ошибка: %1:s"
 
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
-msgid "This is not simple file storage. Tile's file name does not exist."
-msgstr "Это не тайловый кэш, невозможно получить имя файла с тайлом."
+msgid "This is not simple file storage. Tile's file name does not "
+"exist."
+msgstr "Это не тайловый кэш, невозможно получить имя файла с "
+"тайлом."
 
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Тайловые"
 
 #. Programmer's name for it: SAS_MSG_FileExists
-msgid ""
-"Tile %0:s is available in cache.\n"
+msgid "Tile %0:s is available in cache.\n"
 "Replace?"
-msgstr ""
-"Файл %0:s уже есть у вас в кэше.\n"
+msgstr "Файл %0:s уже есть у вас в кэше.\n"
 "Заменить этот файл вновь скачанным?"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..Caption
@@ -2450,8 +2533,8 @@ msgstr "Невозможно определить позицию"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr ""
-"Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы "
+"невозможна!"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
 msgid "Unexpected content type"
@@ -2605,7 +2688,8 @@ msgid "Yes"
 msgstr "Да"
 
 #. Programmer's name for it: SAS_ERR_MainMapNotExists
-msgid "You need at least one MAP among your ZMP files"
+msgid "You need at least one MAP among your ZMP "
+"files"
 msgstr "Среди ZMP должна быть хотя бы одна карта"
 
 msgid "yournavigation.org (OSM)"
@@ -2660,3 +2744,4 @@ msgstr "Масштаб:"
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
 msgid "Zooms:"
 msgstr "Масштабы:"
+
