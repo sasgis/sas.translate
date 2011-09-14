@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-08-25 10:43\n"
-"PO-Revision-Date: 2011-08-25 10:43\n"
+"POT-Creation-Date: 2011-09-14 17:05\n"
+"PO-Revision-Date: 2011-09-14 17:05\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,8 +55,8 @@ msgid "/pixel"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
 msgid "0..9 max"
 msgstr ""
 
@@ -90,8 +90,8 @@ msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybrCompress..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSatCompress..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
 msgid "100..1 max"
 msgstr ""
 
@@ -129,7 +129,7 @@ msgstr ""
 msgid "Add New Category"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Line..Hint
 msgid "Add new path"
 msgstr ""
 
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Add New Path"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Point..Hint
 msgid "Add new placemark"
 msgstr ""
 
@@ -152,22 +152,22 @@ msgstr ""
 msgid "Add New Polygon"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Line..Caption
 msgid "Add Path"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmSaveCurrentPositionToolbar..Caption
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Point..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 msgid "Add Placemark"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Poly..Hint
 msgid "Add polygon"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Poly..Caption
 msgid "Add Polygon"
 msgstr ""
 
@@ -247,6 +247,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_MSG_coution
 msgid "Attention!"
+msgstr ""
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
+msgid "Attract to The Existing Markers"
 msgstr ""
 
 #. frmAbout..lblAuthorCaption..Caption
@@ -519,8 +523,8 @@ msgid "Compressing to ZIP"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
 msgid "Compression:"
 msgstr ""
 
@@ -915,8 +919,8 @@ msgid "Empty ZMP file name"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
 msgid "Enable the following map types:"
 msgstr ""
 
@@ -1160,11 +1164,11 @@ msgstr ""
 msgid "Header"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBHideMarks..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Hint
 msgid "Hide all placemarks"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBHideMarks..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Caption
 msgid "Hide All Placemarks"
 msgstr ""
 
@@ -1196,8 +1200,8 @@ msgid "How you may help:"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
 msgid "Hybrid"
 msgstr ""
 
@@ -1381,6 +1385,7 @@ msgstr ""
 msgid "Lower right corner"
 msgstr ""
 
+#. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap2..Caption
 #. Programmer's name for it: SAS_UNITS_m
 msgid "m"
 msgstr ""
@@ -1406,8 +1411,8 @@ msgstr ""
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
 msgstr ""
 
@@ -1502,11 +1507,11 @@ msgstr ""
 msgid "Minimize to tray"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_ExportYaMapsCaption
+#. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
 msgid "Mobile Yandex.Maps (version 3)"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_ExportYaMapsNewCaption
+#. Programmer's name for it: SAS_STR_ExportYaMobileV4Caption
 msgid "Mobile Yandex.Maps (version 3.91 and "
 "above)"
 msgstr ""
@@ -1740,16 +1745,16 @@ msgstr ""
 msgid "Placemark Export"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBItem6..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBItem6..Hint
 msgid "Placemark manager"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBItem6..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBItem6..Caption
 #. frmMarksExplorer..Caption
 msgid "Placemark Manager"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbitmShowMarkCaption..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..tbitmShowMarkCaption..Caption
 msgid "Placemark Names"
 msgstr ""
 
@@ -1800,6 +1805,10 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBREGION..Caption
 msgid "Polygonal Selection"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPolylineSelect..Caption
+msgid "Polyline Selection"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
@@ -1873,6 +1882,10 @@ msgstr ""
 msgid "Quit"
 msgstr ""
 
+#. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap1..Caption
+msgid "Radius"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr ""
@@ -1885,7 +1898,7 @@ msgstr ""
 msgid "Relative path to tiles"
 msgstr ""
 
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
 msgstr ""
 
@@ -1961,8 +1974,8 @@ msgid "SAS.Planet must be restarted for the changes to take "
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
 msgid "Satellite"
 msgstr ""
 
@@ -2012,8 +2025,8 @@ msgstr ""
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
-#. frExportYaMaps..pnlTop..lblTargetPath..Caption
-#. frExportYaMapsNew..pnlTop..lblTargetPath..Caption
+#. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
+#. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
 #. frTilesCopy..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
@@ -2299,8 +2312,8 @@ msgid "Text color"
 msgstr ""
 
 #. Programmer's name for it: SAS_MSG_FunExForPoly
-msgid "The feature can be used on polygons "
-"only"
+msgid "The feature can be used on polygons and "
+"polylines"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_NotLoads
@@ -2629,8 +2642,8 @@ msgstr ""
 #. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportYaMaps..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportYaMapsNew..pnlCenter..pnlRight..lblZooms..Caption
+#. frExportYaMobileV3..pnlCenter..pnlRight..lblZooms..Caption
+#. frExportYaMobileV4..pnlCenter..pnlRight..lblZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
 msgid "Zooms:"
 msgstr ""
