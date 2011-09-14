@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2011-08-25 10:43\n"
+"POT-Creation-Date: 2011-09-14 17:05\n"
 "PO-Revision-Date: 2011-08-24 22:42+0200\n"
 "Last-Translator: Mixail <me@mixaill.tk>\n"
 "Language-Team: \n"
@@ -55,8 +55,8 @@ msgid "/pixel"
 msgstr "/пикс."
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
 msgid "0..9 max"
 msgstr "0..9 макс"
 
@@ -90,8 +90,8 @@ msgstr "1:500 000 (5 км)"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybrCompress..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSatCompress..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
 msgid "100..1 max"
 msgstr "100..1 макс"
 
@@ -129,7 +129,7 @@ msgstr "Добавлять в меню разделитель после наз�
 msgid "Add New Category"
 msgstr "Добавить новую категорию"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Line..Hint
 msgid "Add new path"
 msgstr "Добавить новый путь"
 
@@ -138,7 +138,7 @@ msgstr "Добавить новый путь"
 msgid "Add New Path"
 msgstr "Добавить новый путь"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Point..Hint
 msgid "Add new placemark"
 msgstr "Добавить новую метку"
 
@@ -152,22 +152,22 @@ msgstr "Добавить новую метку"
 msgid "Add New Polygon"
 msgstr "Добавить новый полигон"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Line..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Line..Caption
 msgid "Add Path"
 msgstr "Добавить путь"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmSaveCurrentPositionToolbar..Caption
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Point..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Point..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 msgid "Add Placemark"
 msgstr "Поставить метку"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Poly..Hint
 msgid "Add polygon"
 msgstr "Добавить полигон"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBAdd_Poly..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Poly..Caption
 msgid "Add Polygon"
 msgstr "Добавить полигон"
 
@@ -252,6 +252,10 @@ msgstr "Цвет трека:"
 #. Programmer's name for it: SAS_MSG_coution
 msgid "Attention!"
 msgstr "Внимание!"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
+msgid "Attract to The Existing Markers"
+msgstr ""
 
 #. frmAbout..lblAuthorCaption..Caption
 msgid "Authors:"
@@ -528,8 +532,8 @@ msgid "Compressing to ZIP"
 msgstr "Упаковка в ZIP"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
 msgid "Compression:"
 msgstr "Сжатие:"
 
@@ -908,8 +912,8 @@ msgid "Empty ZMP file name"
 msgstr "Пустое имя файла ZMP"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
 msgid "Enable the following map types:"
 msgstr "Включить следующие типы карт:"
 
@@ -1157,11 +1161,11 @@ msgstr "Путь к кэшу GoogleMV:"
 msgid "Header"
 msgstr "Заголовок"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBHideMarks..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Hint
 msgid "Hide all placemarks"
 msgstr "Скрыть все метки"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBHideMarks..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Caption
 msgid "Hide All Placemarks"
 msgstr "Скрыть все метки"
 
@@ -1192,8 +1196,8 @@ msgid "How you may help:"
 msgstr "Помочь нам:"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
 msgid "Hybrid"
 msgstr "Гибрид"
 
@@ -1383,6 +1387,7 @@ msgstr "Долгота:"
 msgid "Lower right corner"
 msgstr "Правый нижний угол"
 
+#. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap2..Caption
 #. Programmer's name for it: SAS_UNITS_m
 msgid "m"
 msgstr "м"
@@ -1408,8 +1413,8 @@ msgstr "Операции с выделенной областью"
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
 msgstr "Карта"
 
@@ -1510,11 +1515,11 @@ msgstr "Свернуть"
 msgid "Minimize to tray"
 msgstr "Сворачивать в трей"
 
-#. Programmer's name for it: SAS_STR_ExportYaMapsCaption
+#. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
 msgid "Mobile Yandex.Maps (version 3)"
 msgstr "Мобильные Яндекс.Карты (версия 3)"
 
-#. Programmer's name for it: SAS_STR_ExportYaMapsNewCaption
+#. Programmer's name for it: SAS_STR_ExportYaMobileV4Caption
 msgid "Mobile Yandex.Maps (version 3.91 and above)"
 msgstr "Мобильные Яндекс.Карты (версия 3.91 и выше)"
 
@@ -1746,16 +1751,16 @@ msgstr "Категории меток "
 msgid "Placemark Export"
 msgstr "Экспорт метки"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBItem6..Hint
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBItem6..Hint
 msgid "Placemark manager"
 msgstr "Параметры меток"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..TBItem6..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBItem6..Caption
 #. frmMarksExplorer..Caption
 msgid "Placemark Manager"
 msgstr "Параметры меток"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbitmShowMarkCaption..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..tbitmShowMarkCaption..Caption
 msgid "Placemark Names"
 msgstr "Отображать имена меток"
 
@@ -1806,6 +1811,11 @@ msgstr "Параметры полигонов"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBREGION..Caption
 msgid "Polygonal Selection"
+msgstr "Полигональная область"
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPolylineSelect..Caption
+#, fuzzy
+msgid "Polyline Selection"
 msgstr "Полигональная область"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
@@ -1879,6 +1889,10 @@ msgstr "Разрешение:"
 msgid "Quit"
 msgstr "Выход"
 
+#. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap1..Caption
+msgid "Radius"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr "Прямоугольная область"
@@ -1891,7 +1905,7 @@ msgstr "Период обновления (мс)"
 msgid "Relative path to tiles"
 msgstr "Относительный путь к тайлам"
 
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Заменять существующие тайлы"
 
@@ -1968,8 +1982,8 @@ msgstr ""
 "необходимо перезапустить программу."
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
-#. frExportYaMaps..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
-#. frExportYaMapsNew..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
 msgid "Satellite"
 msgstr "Спутник"
 
@@ -2019,8 +2033,8 @@ msgstr "Сохранить кэш  выделенного участка кар�
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
-#. frExportYaMaps..pnlTop..lblTargetPath..Caption
-#. frExportYaMapsNew..pnlTop..lblTargetPath..Caption
+#. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
+#. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
 #. frTilesCopy..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
@@ -2304,7 +2318,8 @@ msgid "Text color"
 msgstr "Цвет текста"
 
 #. Programmer's name for it: SAS_MSG_FunExForPoly
-msgid "The feature can be used on polygons only"
+#, fuzzy
+msgid "The feature can be used on polygons and polylines"
 msgstr "В данной версии функция доступна только для полигонов"
 
 #. Programmer's name for it: SAS_ERR_NotLoads
@@ -2640,8 +2655,8 @@ msgstr "Масштаб:"
 #. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportYaMaps..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportYaMapsNew..pnlCenter..pnlRight..lblZooms..Caption
+#. frExportYaMobileV3..pnlCenter..pnlRight..lblZooms..Caption
+#. frExportYaMobileV4..pnlCenter..pnlRight..lblZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
 msgid "Zooms:"
 msgstr "Масштабы:"
