@@ -2399,22 +2399,6 @@ msgstr "Отображать координаты тайла (X,Y)"
 msgid "Genshtab Map names"
 msgstr "Отображать названия листов"
 
-# NFillMode1
-msgid "Mark Unexisting Tiles"
-msgstr "Отсутствующие тайлы"
-
-# NFillMode2
-msgid "Mark Existing Tiles"
-msgstr "Существующие тайлы"
-
-# NFillMode3
-msgid "FileAge Gradient"
-msgstr "Градиент по дате"
-
-# NFillToolBar
-msgid "Show Time Interval"
-msgstr "Панель диапазона дат"
-
 #. Programmer's name for it: SAS_ERR_TileNotExists
 msgid "Tile is not found!"
 msgstr "Такого изображения нет на сервере!"
@@ -2695,5 +2679,25 @@ msgid "Fill From "
 msgstr "Даты: с"
 
 # NFillToolBar.label2
-msgid "To "
+msgid " To "
 msgstr " по "
+
+# NFillToolBar
+msgid "Time Interval"
+msgstr "Диапазон дат"
+
+# NFillMode1
+msgid "Mark Unexisting Tiles"
+msgstr "Отсутствующие тайлы"
+
+# NFillMode2
+msgid "Mark Existing Tiles"
+msgstr "Существующие тайлы"
+
+# NFillMode3
+msgid "Mark Existing Tiles Within Age Gradient"
+msgstr "Существующие с градиентом"
+
+# NFillToolBar
+msgid "Mark Existing Tiles At Interval Only"
+msgstr "Тайлы только в диапазоне дат"

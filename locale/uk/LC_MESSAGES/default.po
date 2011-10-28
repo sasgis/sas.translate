@@ -2460,22 +2460,6 @@ msgstr "Підпис"
 msgid "Genshtab Map names"
 msgstr "Підписи ГенШтаба:"
 
-# NFillMode1
-msgid "Mark Unexisting Tiles"
-msgstr "Отсутствующие тайлы"
-
-# NFillMode2
-msgid "Mark Existing Tiles"
-msgstr "Существующие тайлы"
-
-# NFillMode3
-msgid "FileAge Gradient"
-msgstr "Градиент по дате"
-
-# NFillToolBar
-msgid "Show Time Interval"
-msgstr "Панель диапазона дат"
-
 #. Programmer's name for it: SAS_ERR_TileNotExists
 msgid "Tile is not found!"
 msgstr "Такого зображення немає на сервері!"
@@ -2752,6 +2736,49 @@ msgstr "Масштаб:"
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
 msgid "Zooms:"
 msgstr "Масштаби:"
+
+# pnlUsePrevTiles.chkUsePrevTiles
+msgid "Use tiles from current level if upper tiles not exist"
+msgstr ""
+
+# NFillToolBar.label1
+msgid "Fill From "
+msgstr ""
+
+# NFillToolBar.label2
+msgid " To "
+msgstr ""
+
+# NFillToolBar
+#, fuzzy
+msgid "Time Interval"
+msgstr "Панель диапазона дат"
+
+# NFillMode1
+msgid "Mark Unexisting Tiles"
+msgstr "Отсутствующие тайлы"
+
+# NFillMode2
+msgid "Mark Existing Tiles"
+msgstr "Существующие тайлы"
+
+# NFillMode2
+#, fuzzy
+msgid "Mark Existing Tiles Within Age Gradient"
+msgstr "Существующие тайлы"
+
+# NFillMode2
+#, fuzzy
+msgid "Mark Existing Tiles At Interval Only"
+msgstr "Существующие тайлы"
+
+# NFillMode3
+#~ msgid "FileAge Gradient"
+#~ msgstr "Градиент по дате"
+
+# NFillToolBar
+#~ msgid "Show Time Interval"
+#~ msgstr "Панель диапазона дат"
 
 #, fuzzy
 #~ msgid "Distance to"
