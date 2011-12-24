@@ -1105,7 +1105,7 @@ msgid "Generating upper zooms"
 msgstr "Генерация верхних уровней"
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..Caption
-msgid "GenShtab Maps Boundaries"
+msgid "Genshtab Map boundaries:"
 msgstr "Отображать бланковку карт ГШ"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
@@ -2687,7 +2687,7 @@ msgid "Time Interval"
 msgstr "Диапазон дат"
 
 # NFillMode1
-msgid "Mark Unexisting Tiles"
+msgid "Mark Nonexistent Tiles"
 msgstr "Отсутствующие тайлы"
 
 # NFillMode2
@@ -2695,23 +2695,27 @@ msgid "Mark Existing Tiles"
 msgstr "Существующие тайлы"
 
 # NFillMode3
-msgid "Mark Existing Tiles Within Age Gradient"
+msgid "Use Age Gradient"
 msgstr "Существующие с градиентом"
 
 # NFillToolBar
-msgid "Mark Existing Tiles At Interval Only"
+msgid "Within Time Interval"
 msgstr "Тайлы только в диапазоне дат"
 
 # DegreedLinesSubMenu
-msgid "Degree grid lines"
+msgid "Lat/Lon Grid"
+msgstr "Градусная сетка"
+
+# DegreedLinesSubMenu
+msgid "Lat/Lon grid:"
 msgstr "Градусная сетка"
 
 # LabelDeg1
 msgid "Show Degree borders:"
 msgstr "Отображение градусной сетки:"
 
-# DegreedLinesSubMenu
-msgid "Degree names"
+# CBDegreeBorderText
+msgid "Grid line labels"
 msgstr "Подписи"
 
 # GB_GpsTrackSave

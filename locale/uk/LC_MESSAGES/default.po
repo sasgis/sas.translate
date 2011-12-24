@@ -1141,7 +1141,8 @@ msgid "Generating upper zooms"
 msgstr "Генерація верхніх рівнів"
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..Caption
-msgid "GenShtab Maps Boundaries"
+#, fuzzy
+msgid "Genshtab Map boundaries:"
 msgstr "Показувати бланковку карт ГШ"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
@@ -2755,46 +2756,53 @@ msgid "Time Interval"
 msgstr "Панель диапазона дат"
 
 # NFillMode1
-msgid "Mark Unexisting Tiles"
+#, fuzzy
+msgid "Mark Nonexistent Tiles"
 msgstr "Отсутствующие тайлы"
 
 # NFillMode2
 msgid "Mark Existing Tiles"
 msgstr "Существующие тайлы"
 
-# NFillMode2
+# NFillMode3
 #, fuzzy
-msgid "Mark Existing Tiles Within Age Gradient"
-msgstr "Существующие тайлы"
+msgid "Use Age Gradient"
+msgstr "Градиент по дате"
 
-# NFillMode2
+# NFillToolBar
 #, fuzzy
-msgid "Mark Existing Tiles At Interval Only"
-msgstr "Существующие тайлы"
+msgid "Within Time Interval"
+msgstr "Панель диапазона дат"
 
 # DegreedLinesSubMenu
-msgid "Degree grid lines"
+msgid "Lat/Lon Grid"
 msgstr ""
+
+#, fuzzy
+msgid "Lat/Lon grid:"
+msgstr "Довгота:"
 
 #, fuzzy
 msgid "Show Degree borders:"
 msgstr "Показ меж:"
 
-# DegreedLinesSubMenu
-msgid "Degree names"
+# CBDegreeBorderText
+msgid "Grid line labels"
 msgstr ""
 
 #, fuzzy
 msgid "Autosave track to:"
 msgstr "Автоматично збергіати маршрути в .plt"
 
-# NFillMode3
-#~ msgid "FileAge Gradient"
-#~ msgstr "Градиент по дате"
+# NFillMode2
+#, fuzzy
+#~ msgid "Mark Existing Tiles Within Age Gradient"
+#~ msgstr "Существующие тайлы"
 
-# NFillToolBar
-#~ msgid "Show Time Interval"
-#~ msgstr "Панель диапазона дат"
+# NFillMode2
+#, fuzzy
+#~ msgid "Mark Existing Tiles At Interval Only"
+#~ msgstr "Существующие тайлы"
 
 #, fuzzy
 #~ msgid "Distance to"
