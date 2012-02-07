@@ -2670,10 +2670,6 @@ msgstr "Масштаб:"
 msgid "Zooms:"
 msgstr "Масштабы:"
 
-# pnlUsePrevTiles.chkUsePrevTiles
-msgid "Use tiles from current level if upper tiles not exist"
-msgstr "Использовать вышележащие слои, если отсутствует текущий"
-
 # NFillToolBar.label1
 msgid "Fill From "
 msgstr "Даты: с"
@@ -2722,6 +2718,41 @@ msgstr "Подписи"
 msgid "Autosave track to:"
 msgstr "Автоматически сохранять трек:"
 
-#. frmMain..TBDock..TBXMainMenu..NView..N40..Caption
 msgid "GenShtab Maps Boundaries"
 msgstr "Отображать бланковку карт ГШ"
+
+#
+msgid "Product ID"
+msgstr "Тип снимка (ID)"
+
+#
+msgid "Product Name"
+msgstr "Наименование:"
+
+#
+msgid "JNX version:"
+msgstr "Версия JNX:"
+
+#
+msgid "Z-Order:"
+msgstr "Z-Сортировка"
+
+#
+msgid "Save PNG with alpha channel"
+msgstr "Сохранять  PNG с прозрачностью"
+
+# pnlUsePrevTiles.chkUsePrevTiles
+msgid "Use tile from lower zoom if tile not available"
+msgstr "Использовать вышележащие слои, если отсутствует текущий"
+
+#
+msgid "User defined"
+msgstr "Задано пользователем"
+
+#
+msgid "Auto"
+msgstr "Автоматически"
+
+#
+msgid "Tile borders:"
+msgstr "Отображение границ:"
