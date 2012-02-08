@@ -209,10 +209,11 @@ msgstr "Все по умолчанию"
 
 #. frmMain..OpenSessionDialog....Filter
 msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*."
-"sls)|*.sls|Selection (*.hlg)|*.hlg"
+"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
+"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
+"gpx"
 msgstr ""
 "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
 "sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
@@ -2498,6 +2499,10 @@ msgstr "Ссылку для просмотра в Google Maps"
 msgid "URL to kosmosnimki.ru"
 msgstr "Ссылку для просмотра в kosmosnimki.ru"
 
+#. frmMain..MainPopupMenu..N43..
+msgid "URL to Nokia Map Creator"
+msgstr "Ссылку для Nokia Map Creator"
+
 #. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
 msgid "URL to Layer Tile"
 msgstr "Ссылку на тайл слоя"
@@ -2756,3 +2761,7 @@ msgstr "Автоматически"
 #
 msgid "Tile borders:"
 msgstr "Отображение границ:"
+
+#
+msgid "All compatible formats "
+msgstr "Все поддерживаемые форматы"

@@ -208,11 +208,13 @@ msgid "All by default"
 msgstr "Все стандартно"
 
 #. frmMain..OpenSessionDialog....Filter
+#, fuzzy
 msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*."
-"sls)|*.sls|Selection (*.hlg)|*.hlg"
+"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
+"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
+"gpx"
 msgstr ""
 "Всі підтримувані типи (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
 "sls;*.hlg|Google KML-файли (*.kml)|*.kml|OziExplorer Track Point File "
@@ -2562,6 +2564,11 @@ msgstr "Посилання для перегляду на Google Maps"
 msgid "URL to kosmosnimki.ru"
 msgstr "Посилання для перегляду на Kosmosnimki.ru"
 
+#. frmMain..MainPopupMenu..N43..
+#, fuzzy
+msgid "URL to Nokia Map Creator"
+msgstr "Посилання на тайл основної карти"
+
 #. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
 msgid "URL to Layer Tile"
 msgstr "Посилання на тайл шару"
@@ -2823,6 +2830,9 @@ msgstr "до"
 #, fuzzy
 msgid "Tile borders:"
 msgstr "Показ меж:"
+
+msgid "All compatible formats "
+msgstr ""
 
 # NFillMode2
 #, fuzzy
