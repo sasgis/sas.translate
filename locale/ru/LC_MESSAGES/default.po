@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2011-09-14 17:05\n"
+"POT-Creation-Date: 2012-02-09 22:51\n"
 "PO-Revision-Date: 2011-08-24 22:42+0200\n"
 "Last-Translator: Mixail <me@mixaill.tk>\n"
 "Language-Team: \n"
@@ -25,6 +25,11 @@ msgstr "-- г.м. (-12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- г.м.с. (-12°23\"43.35')"
+
+# NFillToolBar.label2
+#. frmMain..TBDock..FillDates..Label2..Caption
+msgid " To "
+msgstr " по "
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..Caption
 msgid "&Help"
@@ -50,15 +55,43 @@ msgstr "&Источник"
 msgid "&View"
 msgstr "&Вид"
 
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..CB_GPSlogGPX..Caption
+msgid ".gpx"
+msgstr ""
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..CB_GPSlogNmea..Caption
+msgid ".nmea/.garmin"
+msgstr ""
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..CB_GPSlogPLT..Caption
+msgid ".plt"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_mperp
 msgid "/pixel"
 msgstr "/пикс."
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "0 - BirdsEye"
+msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
 msgid "0..9 max"
 msgstr "0..9 макс"
+
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale10000..Caption
+msgid "0.125°"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale25000..Caption
+msgid "0.25°"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale50000..Caption
+msgid "0.5°"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale1000000..Caption
 msgid "1:1 000 000 (10 km)"
@@ -95,21 +128,62 @@ msgstr "1:500 000 (5 км)"
 msgid "100..1 max"
 msgstr "100..1 макс"
 
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale1000000..Caption
+msgid "10°"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "12 km 423 m"
 msgstr "12 км 423 м"
 
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale100000..Caption
+msgid "1°"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "2 - BirdsEye Select EIRE"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "23.4 km"
 msgstr "23,4 км"
 
-#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEdit2GISSrch..EditCaption
-#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEdit2GISSrch..Caption
-#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEdit2GISSrch..EditCaption
-#. frmMain..TBDock..TBXToolBarSearch..TBXSelectSrchType..TBXSelect2GISSrch..Caption
-msgid "2GIS"
-msgstr "2GIS"
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale200000..Caption
+msgid "2°"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "3 - BirdsEye Select Deutschland"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "4 - BirdsEye Select Great Britain"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "5 - BirdsEye Select France"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale500000..Caption
+msgid "5°"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "6 - BirdsEye Select Kompass - Switzerland"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "7 - BirdsEye Select Kompass - Austria + East Alps"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "8 - USGS Quads (BirdsEye TOPO, U.S. and Canada)"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+msgid "9 - NRC TopoRama (BirdsEye TOPO, U.S. and Canada)"
+msgstr ""
 
 #. frmAbout..Caption
 #. frmMain..TBDock..TBXMainMenu..NHelp..N16..Caption
@@ -197,6 +271,7 @@ msgstr "Дополнительные операции"
 #. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
+#. frExportToJNX..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
@@ -206,6 +281,19 @@ msgstr "Все"
 #. frmMapTypeEdit..pnlBottomButtons..btnByDefault..Caption
 msgid "All by default"
 msgstr "Все по умолчанию"
+
+#. frmMarksExplorer..OpenDialog1....Filter
+#, fuzzy
+msgid ""
+"All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*."
+"hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
+"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*."
+"hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgstr ""
+"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
+"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
+"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*."
+"sls)|*.sls|Файл выделения (*.hlg)|*.hlg"
 
 #. frmMain..OpenSessionDialog....Filter
 msgid ""
@@ -258,26 +346,38 @@ msgstr "Внимание!"
 msgid "Attract to The Existing Markers"
 msgstr "Притягивать точки к сущесвующим маркерам"
 
-#. frmAbout..lblAuthorCaption..Caption
-msgid "Authors:"
-msgstr "Разработка:"
+#
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+msgid "Auto"
+msgstr "Автоматически"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматически показывать/скрывать панель датчиков"
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSAutodetectCOM..Hint
+msgid "Autodetect COM port"
+msgstr ""
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Hint
+msgid "Autodetect COM port on connect"
+msgstr ""
+
+# GB_GpsTrackSave
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Caption
+#, fuzzy
+msgid "Autodetect:"
+msgstr "Автоматически сохранять трек:"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
 msgstr ""
 "Автоматически определять параметры базовых станций через подключенный телефон"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlogNmea..Caption
-msgid "Autosave tracks to .nmea"
-msgstr "Автоматически сохранять треки в .nmea"
-
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsTrackSave..CB_GPSlog..Caption
-msgid "Autosave tracks to .plt"
-msgstr "Автоматически сохранять треки в .plt"
+# GB_GpsTrackSave
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
+msgid "Autosave track to:"
+msgstr "Автоматически сохранять трек:"
 
 #. Programmer's name for it: SAS_STR_ExportAUXGeoServerCaption
 msgid "AUX for LizardTech GeoExpress Server"
@@ -307,10 +407,31 @@ msgstr "Батарея"
 msgid "Battery:"
 msgstr "Батарея:"
 
+#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+msgid "BerkeleyDB"
+msgstr ""
+
+#. frmSettings..PageControl1..tsCache..grdpnlCache..lblBDBCachePath..Caption
+#, fuzzy
+msgid "BerkeleyDB cache folder:"
+msgstr "Путь к кэшу GoogleMV:"
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
 msgstr "Скорость"
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMBluetooth..Caption
+msgid "Bluetooth"
+msgstr ""
+
+msgid "BMP: Fill line failure!"
+msgstr ""
+
+msgid "BMP: Line write failure!"
+msgstr ""
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
 msgid "Border color"
@@ -369,14 +490,14 @@ msgid "By Coordinates"
 msgstr "По координатам"
 
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
-#. frmMapTypeEdit..pnlCacheType..Button9..Hint
-#. frmMapTypeEdit..pnlParentItem..Button5..Hint
-#. frmMapTypeEdit..pnlCacheName..Button4..Hint
-#. frmMapTypeEdit..pnlUrl..pnlUrlRight..Button6..Hint
-#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..Button7..Hint
-#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..Button8..Hint
-#. frmMapTypeEdit..pnlVersion..btnVersionReset..Hint
-#. frmMapTypeEdit..pnlHeader..pnlHeaderReset..btnHeaderReset..Hint
+#. frmMapTypeEdit..pnlCacheType..btnResetCacheType..Hint
+#. frmMapTypeEdit..pnlParentItem..btnResetSubMenu..Hint
+#. frmMapTypeEdit..pnlCacheName..btnResetFolder..Hint
+#. frmMapTypeEdit..pnlUrl..pnlUrlRight..btnResetUrl..Hint
+#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..btnResetHotKey..Hint
+#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..btnResetPause..Hint
+#. frmMapTypeEdit..pnlVersion..btnResetVersion..Hint
+#. frmMapTypeEdit..pnlHeader..pnlHeaderReset..btnResetHeader..Hint
 msgid "By default"
 msgstr "По умолчанию"
 
@@ -397,7 +518,7 @@ msgstr "Пешком (по расстоянию, средствами maps.cloud
 msgid "Cache"
 msgstr "Кэш"
 
-#. frmMapTypeEdit..pnlCacheName..Label2..Caption
+#. frmMapTypeEdit..pnlCacheName..lblFolder..Caption
 msgid "Cache folder"
 msgstr "Папка в кэше"
 
@@ -405,7 +526,7 @@ msgstr "Папка в кэше"
 msgid "Cache Folder"
 msgstr "Папка в кэше"
 
-#. frmMapTypeEdit..pnlCacheType..Label5..Caption
+#. frmMapTypeEdit..pnlCacheType..lblCacheType..Caption
 msgid "Cache type"
 msgstr "Тип кэша"
 
@@ -434,6 +555,7 @@ msgstr "Карта заполнения:"
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnCancel..Caption
+#. frmMarksMultiEdit..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
@@ -448,17 +570,7 @@ msgstr "Ошибка загрузки изображения исходного 
 msgid "Can't save bitmap to target type"
 msgstr "Ошибка сохранения изображения заданного формата"
 
-#. Programmer's name for it: SAS_MSG_NotDelWhereHasChildren
-msgid "Category is not empty. Please delete child categories first"
-msgstr "Категория не пуста! Удалите все дочерние категории."
-
-#. Programmer's name for it: SAS_ERR_CategoryNameDoubling
-msgid "Category name already exists"
-msgstr "Такое имя категории уже существует"
-
-#. frmImportConfigEdit..lblCategory..Caption
-#. frmMarkEditPath..pnlCategory..lblCategory..Caption
-#. frmMarkEditPoint..pnlTop..pnlTopMain..pnlCategory..lblCategory..Caption
+#. frMarkCategorySelectOrAdd..lblCategory..Caption
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
 msgid "Category:"
 msgstr "Категория:"
@@ -488,15 +600,17 @@ msgstr "Закрыть окно после старта"
 msgid "cm"
 msgstr "см"
 
+#. frMarksGeneralOptions..grpLine..lblLineColor..Caption
+#. frMarksGeneralOptions..grpPoly..lblPolyLineColor..Caption
+#. frMarksGeneralOptions..grpPoly..lblPolyFillColor..Caption
 #. frmDGAvailablePic..GroupBox1..LabelColor..Caption
-#. frmImportConfigEdit..grpLine..lblLineColor..Caption
-#. frmImportConfigEdit..grpPoly..lblPolyLineColor..Caption
-#. frmImportConfigEdit..grpPoly..lblPolyFillColor..Caption
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label27..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr "Цвет"
 
@@ -533,6 +647,7 @@ msgid "Compressing to ZIP"
 msgstr "Упаковка в ZIP"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
+#. frExportToJNX..pnlCenter..pnlMain..lblCompress..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
 msgid "Compression:"
@@ -567,7 +682,6 @@ msgstr "Управление"
 
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 #. frmMain..MainPopupMenu..N43..N30..Caption
-#. Programmer's name for it: SAS_STR_coordinates
 msgid "Coordinates"
 msgstr "Координаты"
 
@@ -591,6 +705,10 @@ msgstr "Копировать в буфер обмена"
 #. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
 msgid "Copying"
 msgstr "Копирование тайлов"
+
+#. frmAbout..Label1..Caption
+msgid "Copyright (C) 2007-2012, SAS.Planet development team"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingMenuItemName
 msgid "Course"
@@ -740,20 +858,28 @@ msgstr "Пешком (по расстоянию, средствами maps.cloud
 msgid "Device timeout (sec)"
 msgstr "Время ожидания ответа от приемника (сек.)"
 
+#. DGPS
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSMenuItemName
+msgid "DGPS"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSCaption
+msgid "DGPS:"
+msgstr ""
+
 #. frmDGAvailablePic..Caption
 #. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
 msgid "DigitalGlobe Availability"
 msgstr "Загрузить информацию о доступных картах этого места на DigitalGlobe"
 
-#. Programmer's name for it: SAS_ERR_Write
-msgid "Disk write error. The task will be aborted!"
-msgstr "Ошибка записи на диск. Операция будет прервана!"
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
+msgid "Disable or enable GPS"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
 msgid "Displayed Main Map"
 msgstr "Как на главной карте"
 
-#. Programmer's name for it: SAS_STR_LenPath
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistMenuItemName
 msgid "Distance"
 msgstr "Пройденный путь"
@@ -774,7 +900,6 @@ msgstr "Измерить расстояние"
 msgid "Distance representation"
 msgstr "Формат отображения масштаба"
 
-#. Programmer's name for it: SAS_STR_LenToMark
 #. Programmer's name for it: SAS_STR_SensorNavToPointMenuItemName
 msgid "Distance to placemark"
 msgstr "Расстояние до метки"
@@ -837,6 +962,11 @@ msgstr "Загрузить тайл основной карты (Ins+MLeft)"
 #. frmProgressDownload..SaveSessionDialog..Filter
 msgid "Download session (*.sls)|*.sls"
 msgstr "Сессия загрузки (*.sls)|*.sls"
+
+#. frmMapTypeEdit..pnlDownloaderState..lblDownloaderState..Caption
+#, fuzzy
+msgid "Download state"
+msgstr "Скачано"
 
 #. frTilesDownload..pnlTop..Caption
 msgid "Download Tiles"
@@ -948,10 +1078,6 @@ msgstr "Ошибка связи с устройством"
 msgid "Error connecting to server"
 msgstr "Отсутствует подключение к интернет!"
 
-#. Programmer's name for it: SAS_ERR_CreateArh
-msgid "Error creating archive!"
-msgstr "Ошибка создания архива!"
-
 #. Programmer's name for it: SAS_ERR_CoordinatesInput
 msgid "Error in geographic coordinates"
 msgstr "Ошибка ввода координат"
@@ -971,10 +1097,6 @@ msgstr "Ошибка открытия порта!"
 #. Programmer's name for it: SAS_ERR_CoordParseError
 msgid "Error parsing coordinates: Lat=%s Lon=%s"
 msgstr "Ошибка ввода координат: широта %s, долгота %s"
-
-#. Programmer's name for it: SAS_ERR_Read
-msgid "Error reading file!"
-msgstr "Ошибка чтения файла!"
 
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
@@ -1030,17 +1152,27 @@ msgstr "файлов"
 msgid "Files %0:s and %1:s have the same GUID"
 msgstr "В файлах %0:s и %1:s одинаковые GUID"
 
-#. frmImportConfigEdit..grpPoly..lblPolyFill..Caption
+# NFillToolBar.label1
+#. frmMain..TBDock..FillDates..Label1..Caption
+msgid "Fill From "
+msgstr "Даты: с"
+
+#. frMarksGeneralOptions..grpPoly..lblPolyFill..Caption
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
 msgid "Fill:"
 msgstr "Заполнение:"
+
+#. frmMain..TBDock..FillDates..Caption
+#, fuzzy
+msgid "FillDates"
+msgstr "Дата съемки"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..Hint
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSCenterMap..Caption
 msgid "Follow GPS Position"
 msgstr "Автоматически перемещать карту"
 
-#. frmImportConfigEdit..grpPoint..lblPointFontSize..Caption
+#. frMarksGeneralOptions..grpPoint..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
 msgstr "Размер шрифта"
@@ -1105,8 +1237,16 @@ msgstr "Сформировать предыдущие слои спутнико�
 msgid "Generating upper zooms"
 msgstr "Генерация верхних уровней"
 
-#. frmMain..TBDock..TBXMainMenu..NView..N40..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..LabelGsh1..Caption
 msgid "Genshtab Map boundaries:"
+msgstr "Отображать бланковку карт ГШ"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..CBGenshtabBorderText..Caption
+msgid "Genshtab Map names"
+msgstr "Отображать названия листов"
+
+#. frmMain..TBDock..TBXMainMenu..NView..N40..Caption
+msgid "GenShtab Maps Boundaries"
 msgstr "Отображать бланковку карт ГШ"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
@@ -1141,14 +1281,6 @@ msgstr "Перейти к выбранному объекту"
 msgid "Go to..."
 msgstr "Перейти к..."
 
-#. frmMarksExplorer..OpenDialog1....Filter
-msgid ""
-"Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*."
-"plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg"
-msgstr ""
-"Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*."
-"plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg"
-
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label31..Caption
 msgid "GoogleEarth cache folder:"
 msgstr "Путь к кэшу Google Earth:"
@@ -1156,6 +1288,24 @@ msgstr "Путь к кэшу Google Earth:"
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label2..Caption
 msgid "GoogleMV cache folder:"
 msgstr "Путь к кэшу GoogleMV:"
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
+msgid "GPS On/Off"
+msgstr ""
+
+# CBDegreeBorderText
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..CBDegreeBorderText..Caption
+msgid "Grid line labels"
+msgstr "Подписи"
+
+#. Horizontal Dilution of Precision
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPMenuItemName
+msgid "HDOP"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPCaption
+msgid "HDOP:"
+msgstr ""
 
 #. frmMapTypeEdit..pnlHeader..lblHeader..Caption
 msgid "Header"
@@ -1178,7 +1328,7 @@ msgid "horizontally:"
 msgstr "по горизонтали, на"
 
 #. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
-#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..Label4..Caption
+#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..lblHotKey..Caption
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
 msgid "Hotkey"
 msgstr "Гор. кл."
@@ -1191,48 +1341,36 @@ msgstr "Горячая клавиша уже используется, пожа�
 msgid "Hotkeys"
 msgstr "Горячие клавиши"
 
-#. frmAbout..lblDonateCaption..Caption
-msgid "How you may help:"
-msgstr "Помочь нам:"
-
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
 msgid "Hybrid"
 msgstr "Гибрид"
 
-#. frmImportConfigEdit..grpPoint..lblPointIcon..Caption
+#. frMarksGeneralOptions..grpPoint..lblPointIcon..Caption
 msgid "Icon"
 msgstr "Иконка"
 
-#. frmImportConfigEdit..grpPoint..lblPointIconSize..Caption
+#. frMarksGeneralOptions..grpPoint..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
 msgstr "Размер иконки"
 
-#. frmImportConfigEdit..chkLineIgnore..Caption
+#. frMarksGeneralOptions..chkLineIgnore..Caption
 msgid "Ignore paths"
 msgstr "Игнорировать пути"
 
-#. frmImportConfigEdit..chkPointIgnore..Caption
+#. frMarksGeneralOptions..chkPointIgnore..Caption
 msgid "Ignore placemarks"
 msgstr "Игнорировать метки"
 
-#. frmImportConfigEdit..chkPolyIgnore..Caption
+#. frMarksGeneralOptions..chkPolyIgnore..Caption
 msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
-
-#. Programmer's name for it: SAS_ERR_UnknownImageMIMEType
-msgid "Image MIME type unknown"
-msgstr "Неизвестный MIME-тип изображения"
 
 #. frmDGAvailablePic..GroupBox4..Caption
 msgid "Image stack"
 msgstr "Выбор стека снимков"
-
-#. Programmer's name for it: SAS_ERR_UnknownImageExt
-msgid "Image type unknown"
-msgstr "Неизвестный тип изображения"
 
 #. frmDGAvailablePic..GroupBox3..Caption
 msgid "Images available"
@@ -1258,6 +1396,12 @@ msgstr "Движение по инерции"
 msgid "Info"
 msgstr "Информация"
 
+msgid "Initialization of LibJPEG failed."
+msgstr ""
+
+msgid "Initialization of LibPNG failed."
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..N31..Caption
 msgid "Interface"
 msgstr "Элементы интерфейса"
@@ -1282,6 +1426,15 @@ msgstr "iPhone (Ниже v2.2 64х64)"
 #. frmMain..TBDock..TBXMainMenu..NHelp..tbtmHelpBugTrack..Caption
 msgid "Issue Tracker (http://sasgis.ru/mantis)"
 msgstr "Багтрекер (http://sasgis.ru/mantis)"
+
+#. Programmer's name for it: SAS_STR_ExportJNXPackCaption
+msgid "JNX raster map for Garmin"
+msgstr ""
+
+#
+#. frExportToJNX..pnlCenter..pnlMain..LVersion..Caption
+msgid "JNX version:"
+msgstr "Версия JNX:"
 
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
@@ -1315,6 +1468,16 @@ msgstr "Язык (Language)"
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPrevious..Caption
 msgid "Last Selection"
 msgstr "Предыдущее выделение"
+
+# DegreedLinesSubMenu
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..Caption
+msgid "Lat/Lon Grid"
+msgstr "Градусная сетка"
+
+# DegreedLinesSubMenu
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..LabelDeg1..Caption
+msgid "Lat/Lon grid:"
+msgstr "Градусная сетка"
 
 #. Programmer's name for it: SAS_ERR_LonLat2
 msgid ""
@@ -1350,7 +1513,11 @@ msgstr "Слои"
 msgid "Length"
 msgstr "Длина"
 
-#. frmImportConfigEdit..grpPoly..lblPolyLine..Caption
+#. 64k
+msgid "LibPNG: Failed to Create PngStruct!"
+msgstr ""
+
+#. frMarksGeneralOptions..grpPoly..lblPolyLine..Caption
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
 msgid "Line:"
 msgstr "Линия:"
@@ -1359,9 +1526,16 @@ msgstr "Линия:"
 msgid "Load from File"
 msgstr "Загрузить из файла"
 
-#. Programmer's name for it: SAS_STR_loadhl
-msgid "Loading selection..."
-msgstr "Загрузка выделения..."
+#
+#. Local time
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeMenuItemName
+msgid "Local time"
+msgstr "Местное время"
+
+#
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeCaption
+msgid "Local time:"
+msgstr "Местное время"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBlock_toolbars..Caption
 msgid "Lock toolbars"
@@ -1413,6 +1587,7 @@ msgstr "Операции с выделенной областью"
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
+#. frExportToJNX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
@@ -1427,6 +1602,7 @@ msgid "Map Info"
 msgstr "Информация о карте"
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
+#. frExportToJNX..pnlCenter..pnlMain..LMapName..Caption
 msgid "Map Name"
 msgstr "Название карты"
 
@@ -1437,14 +1613,6 @@ msgid ""
 msgstr ""
 "Ошибка скрипта карты %0:s (%2:s):\n"
 "Неожиданная ошибка"
-
-#. Programmer's name for it: SAS_ERR_UrlScriptError
-msgid ""
-"Map script error %0:s (%2:s):\n"
-"%1:s"
-msgstr ""
-"Ошибка скрипта карты %0:s (%2:s):\n"
-"%1:s"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
 msgid "Map Settings"
@@ -1471,6 +1639,21 @@ msgstr "средствами maps.cloudmade.com (OSM)"
 msgid "Maps@mail.ru"
 msgstr "cредствами Карты@mail.ru"
 
+# NFillMode2
+#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode2..Caption
+msgid "Mark Existing Tiles"
+msgstr "Существующие тайлы"
+
+# NFillMode1
+#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode1..Caption
+msgid "Mark Nonexistent Tiles"
+msgstr "Отсутствующие тайлы"
+
+#. frmMarksMultiEdit..Caption
+#, fuzzy
+msgid "Marks Parameters"
+msgstr "Параметры импорта"
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedCaption
 msgid "Max.speed, km/h:"
 msgstr "Скорость макс., км/ч:"
@@ -1494,10 +1677,6 @@ msgstr "Измерения"
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
 msgid "Menu"
 msgstr "Путь в меню"
-
-#. Programmer's name for it: SAS_UNITS_Min
-msgid "min."
-msgstr "мин."
 
 #. frmMain..TBDock..TBXMainMenu..NView..N31..ShowMiniMap..Caption
 msgid "Minimap"
@@ -1563,14 +1742,13 @@ msgstr "Навигация на метку"
 msgid "Navigate to selected placemark"
 msgstr "Навигация на выбранную метку"
 
-#. frmMarkEditPath..pnlCategory..CBKateg..Text
-#. frmMarkEditPoint..pnlTop..pnlTopMain..pnlCategory..CBKateg..Text
+#. frMarkCategorySelectOrAdd..CBKateg..Text
 #. frmMarkEditPoly..pnlCategory..CBKateg..Text
 #. Programmer's name for it: SAS_STR_NewCategory
 msgid "New Category"
 msgstr "Новая категория"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlImageProcess..CBinvertcolor..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..CBinvertcolor..Caption
 msgid "Night mode (color inversion)"
 msgstr "Ночной режим (Инверсия цветов)"
 
@@ -1580,6 +1758,7 @@ msgstr "Ночной режим (Инверсия цветов)"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N000..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..N40..NGShScale0..Caption
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale0..Caption
 #. frmShortCutEdit..pnlBottom..btnClear..Caption
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..cbbHybr..Text
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..cbbHybr....Items.Strings
@@ -1590,6 +1769,9 @@ msgstr "Нет"
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
 msgstr "Не найден приемник GPS"
+
+msgid "No one Map or Layer are selected!"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Memory
 msgid "Not enough memory to complete the task"
@@ -1645,13 +1827,15 @@ msgstr "только при их различии"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label28..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg3..Caption
 msgid "Opacity"
 msgstr "Прозрачность"
 
-#. frmImportConfigEdit..grpPoint..lblPointTextTransp..Caption
-#. frmImportConfigEdit..grpLine..lblLineTransp..Caption
-#. frmImportConfigEdit..grpPoly..lblPolyLineTransp..Caption
-#. frmImportConfigEdit..grpPoly..lblPolyFillTransp..Caption
+#. frMarksGeneralOptions..grpPoint..lblPointTextTransp..Caption
+#. frMarksGeneralOptions..grpLine..lblLineTransp..Caption
+#. frMarksGeneralOptions..grpPoly..lblPolyLineTransp..Caption
+#. frMarksGeneralOptions..grpPoly..lblPolyFillTransp..Caption
 #. frmMarkEditPath..flwpnlStyle..lblTransp..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
@@ -1677,6 +1861,10 @@ msgstr "Открыть..."
 msgid "Options"
 msgstr "Настройки программы"
 
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
+msgid "Others"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
 msgstr "Конвертировать в формат"
@@ -1701,7 +1889,7 @@ msgstr "Заменять при совпадении"
 msgid "Overwrite old tiles"
 msgstr "Заменять старые файлы"
 
-#. frmMapTypeEdit..pnlParentItem..Label3..Caption
+#. frmMapTypeEdit..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
 msgstr "Родительский пункт меню"
 
@@ -1709,7 +1897,7 @@ msgstr "Родительский пункт меню"
 msgid "Path %0:d"
 msgstr "Путь %0:d"
 
-#. frmImportConfigEdit..grpLine..Caption
+#. frMarksGeneralOptions..grpLine..Caption
 msgid "Path parameters"
 msgstr "Параметры путей"
 
@@ -1717,7 +1905,7 @@ msgstr "Параметры путей"
 msgid "Pathname to Tile in Cache"
 msgstr "Полный путь к тайлу"
 
-#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..Label6..Caption
+#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..Button1..Caption
 msgid "Pause"
 msgstr "Пауза"
@@ -1764,7 +1952,7 @@ msgstr "Параметры меток"
 msgid "Placemark Names"
 msgstr "Отображать имена меток"
 
-#. frmImportConfigEdit..grpPoint..Caption
+#. frMarksGeneralOptions..grpPoint..Caption
 msgid "Placemark parameters"
 msgstr "Параметры меток"
 
@@ -1797,6 +1985,14 @@ msgstr "Подождите, идет загрузка..."
 msgid "Please wait..."
 msgstr "Пожалуйста, подождите..."
 
+#, fuzzy
+msgid "Please, select output file first!"
+msgstr "Сначала необходимо выделить хотя бы одну область"
+
+#. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
+msgid "PNG (Portable Network Graphics)"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label10..Caption
 msgid "Pointer size:"
 msgstr "Размер указателя направления:"
@@ -1805,7 +2001,7 @@ msgstr "Размер указателя направления:"
 msgid "Polygon %0:d"
 msgstr "Полигон %0:d"
 
-#. frmImportConfigEdit..grpPoly..Caption
+#. frMarksGeneralOptions..grpPoly..Caption
 msgid "Polygon parameters"
 msgstr "Параметры полигонов"
 
@@ -1853,13 +2049,19 @@ msgstr "Обработка файла: %0:s ..."
 msgid "Processing..."
 msgstr "Идет обработка..."
 
+#
+#. frExportToJNX..pnlCenter..pnlMain..LProductID..Caption
+msgid "Product ID"
+msgstr "Тип снимка (ID)"
+
+#
+#. frExportToJNX..pnlCenter..pnlMain..LProductName..Caption
+msgid "Product Name"
+msgstr "Наименование:"
+
 #. Programmer's name for it: SAS_ERR_Authorization
 msgid "Proxy authorization error"
 msgstr "Ошибка авторизации на прокси!"
-
-#. Programmer's name for it: SAS_ERR_ProxyStrFormat
-msgid "Proxy configuration string is not correct"
-msgstr "Неверный формат записи прокси-сервера"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
 msgid "Proxy login:"
@@ -1905,6 +2107,7 @@ msgid "Relative path to tiles"
 msgstr "Относительный путь к тайлам"
 
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Заменять существующие тайлы"
 
@@ -1941,10 +2144,6 @@ msgstr "Продолжить"
 msgid "Retry download if tile not found"
 msgstr "Пытаться повторно загрузить тайл при его отсутствии"
 
-#. Programmer's name for it: SAS_ERR_RepeatProcess
-msgid "Retrying operation"
-msgstr "Пытаемся повторить обработку"
-
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr "Вращение на себя - приближение"
@@ -1957,9 +2156,10 @@ msgstr "Проложить маршрут"
 msgid "Ruler"
 msgstr "Линейка"
 
-#. frmAbout..lblAuthor..Caption
-msgid "SAS Group"
-msgstr "Группа SAS"
+#. frExportToJNX..pnlCenter..pnlMain..EProductName..Text
+#, fuzzy
+msgid "SAS Palnet"
+msgstr "SAS.Планета"
 
 #. frmAbout..lblProgramName..Caption
 #. frmMain..Caption
@@ -2023,6 +2223,11 @@ msgstr "Сохранить текущую сессию"
 msgid "Save only complete tiles"
 msgstr "Сохранять только полностью заполненные тайлы"
 
+#
+#. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
+msgid "Save PNG with alpha channel"
+msgstr "Сохранять  PNG с прозрачностью"
+
 #. frmRegionProcess..pnlBottomButtons..SpeedButton1..Hint
 #. frTilesCopy..Panel1..Caption
 msgid "Save selection to file"
@@ -2032,6 +2237,7 @@ msgstr "Сохранить кэш  выделенного участка кар�
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
+#. frExportToJNX..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
@@ -2042,10 +2248,6 @@ msgstr "Куда сохранять:"
 #. Programmer's name for it: SAS_STR_Saves
 msgid "Saved"
 msgstr "Сохранено"
-
-#. Programmer's name for it: SAS_STR_savetreck
-msgid "Saving track..."
-msgstr "Сохранение трека..."
 
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
@@ -2072,7 +2274,7 @@ msgstr "Выберите источник, из которого програм�
 msgid "Select Hybrid as main layer"
 msgstr "Выбрать гибрид в качестве основного слоя"
 
-#. frmImportConfigEdit..grpPoint..cbbPointIcon..Hint
+#. frMarksGeneralOptions..grpPoint..cbbPointIcon..Hint
 msgid "Select image"
 msgstr "Выберите графическое изображение"
 
@@ -2092,13 +2294,18 @@ msgstr "Выбрать спутник в качестве основного с�
 msgid "Selected basemap"
 msgstr "Выбор основной карты"
 
+#. Programmer's name for it: SAS_ERR_ImageIsTooBig
+msgid ""
+"Selected resolution is too big for %s format!\n"
+"Widht = %d (max = %d)\n"
+"Height = %d (max = %d)\n"
+"Try select smaller region to stitch in %s or select other output format (ECW "
+"is the best)."
+msgstr ""
+
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
 msgstr "Выделение по координатам"
-
-#. Programmer's name for it: SAS_ERR_SelectArea
-msgid "Selection is out of the map!"
-msgstr "Выделенная область находится целиком вне карты!"
 
 #. frmMain..TBDock..TBMainToolBar..TBRectSave..Hint
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnOpSelectMark..Hint
@@ -2120,6 +2327,11 @@ msgstr "Файл выделения|*.hlg"
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
 msgid "Sensors"
 msgstr "Датчики"
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMSerial..Caption
+#, fuzzy
+msgid "Serial"
+msgstr "COM-порт"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
@@ -2143,7 +2355,7 @@ msgstr "Таймаут на сетевые операции, мс"
 msgid "Settings"
 msgstr "Параметры"
 
-#. frmImportConfigEdit..grpPoint..lblPointShadowColor..Caption
+#. frMarksGeneralOptions..grpPoint..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
 msgid "Shadow color"
 msgstr "Цвет тени"
@@ -2155,14 +2367,6 @@ msgstr "Ярлык|*.lnk"
 #. frmMarksExplorer..rgMarksShowMode....Items.Strings
 msgid "Show all placemarks"
 msgstr "Показывать все метки"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..Label23..Caption
-msgid "Show borders:"
-msgstr "Отображение границ:"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..LabelGsh1..Caption
-msgid "Show Genshtab borders:"
-msgstr "Отображение границ листов ГенШтаба:"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
 msgid "Show for..."
@@ -2215,6 +2419,11 @@ msgstr "Отображает состояние батареи"
 msgid "Shows current speed"
 msgstr "Отображает текущую скорость движения"
 
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
+#, fuzzy
+msgid "Shows DGPS"
+msgstr "Отображать трек"
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
 msgstr "Отображает пройденный путь, считаемый от подключения к GPS-приемнику"
@@ -2226,6 +2435,20 @@ msgstr "Отображает расстояние до выбранной мет
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeDescription
 msgid "Shows GPS altitude"
 msgstr "Отображает высоту над уровнем моря по данным GPS-приемника"
+
+#
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoDescription
+msgid "Shows GPS Unit info"
+msgstr "Отображать информацию о GPS-приемнике"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
+msgid "Shows HDOP"
+msgstr ""
+
+#
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
+msgid "Shows local time"
+msgstr "Отображать местное время"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedDescription
 msgid "Shows maximum speed"
@@ -2239,6 +2462,15 @@ msgstr "Отображает азимут направления"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2Description
 msgid "Shows total distance"
 msgstr "Отображает весь пройденный путь"
+
+#
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeDescription
+msgid "Shows UTC time"
+msgstr "Отображать мировое время"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
+msgid "Shows VDOP"
+msgstr ""
 
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Hint
 msgid "Signal-to-noise ratio for satellites in use"
@@ -2265,7 +2497,6 @@ msgstr "Источник:"
 msgid "Sources"
 msgstr "Источники"
 
-#. Programmer's name for it: SAS_STR_Speed
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedMenuItemName
 msgid "Speed"
 msgstr "Скорость"
@@ -2274,11 +2505,8 @@ msgstr "Скорость"
 msgid "Split image"
 msgstr "Разбить изображение"
 
-#. Programmer's name for it: SAS_STR_DivideInto
-msgid "Split to"
-msgstr "Разбить на"
-
 #. frmImportConfigEdit..btnOk..Caption
+#. frmMarksMultiEdit..btnOk..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
 msgid "Start"
 msgstr "Начать"
@@ -2315,7 +2543,7 @@ msgstr "Сохранять информацию об отсутствии тай
 msgid "Task"
 msgstr "Операция"
 
-#. frmImportConfigEdit..grpPoint..lblPointTextColor..Caption
+#. frMarksGeneralOptions..grpPoint..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
 msgstr "Цвет текста"
@@ -2323,10 +2551,6 @@ msgstr "Цвет текста"
 #. Programmer's name for it: SAS_MSG_FunExForPoly
 msgid "The feature can be used on polygons and polylines"
 msgstr "В данной версии функция доступна только для полигонов и путей"
-
-#. Programmer's name for it: SAS_ERR_NotLoads
-msgid "The map is unable to load"
-msgstr "Карта не позволяет загружать"
 
 #. Programmer's name for it: SAS_MSG_GarminMax1Mp
 msgid ""
@@ -2340,14 +2564,6 @@ msgstr ""
 "диалоге \"Операции с выделенной областью - Склеить\"\n"
 "и используйте полученные KMZ по отдельности"
 
-#. Programmer's name for it: SAS_MSG_SelectArea
-msgid ""
-"The selection is partially outside the map.\n"
-"The selection will be reduced to map boundaries."
-msgstr ""
-"Часть выделенной области находится вне карты.\n"
-"Область будет ограничена по размерам карты."
-
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "Обработка файлов завершена!"
@@ -2355,10 +2571,6 @@ msgstr "Обработка файлов завершена!"
 #. Programmer's name for it: SAS_ERR_FileExistsShort
 msgid "The tile already exists"
 msgstr "Данный файл уже имеется в кэше"
-
-#. Programmer's name for it: SAS_ERR_BadFile
-msgid "The tile is corrupt!"
-msgstr "Файл испорчен!"
 
 #. Programmer's name for it: SAS_MSG_FileBeCreateTime
 msgid "The tile is newer than the entered age, skipping."
@@ -2388,6 +2600,11 @@ msgstr ""
 "Файл %0:s уже есть у вас в кэше.\n"
 "Заменить этот файл вновь скачанным?"
 
+#
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..Label23..Caption
+msgid "Tile borders:"
+msgstr "Отображение границ:"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..Caption
 msgid "Tile Boundaries"
 msgstr "Отображать границы изображений"
@@ -2395,10 +2612,6 @@ msgstr "Отображать границы изображений"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..CBBorderText..Caption
 msgid "Tile coordinates"
 msgstr "Отображать координаты тайла (X,Y)"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnGenshtabBorders..CBGenshtabBorderText..Caption
-msgid "Genshtab Map names"
-msgstr "Отображать названия листов"
 
 #. Programmer's name for it: SAS_ERR_TileNotExists
 msgid "Tile is not found!"
@@ -2410,9 +2623,10 @@ msgstr "Такого изображения нет на сервере!"
 msgid "Tile is not found! Zero result size"
 msgstr "Такого изображения нет на сервере!"
 
-#. Programmer's name for it: SAS_STR_time
-msgid "Time"
-msgstr "Время"
+# NFillToolBar
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
+msgid "Time Interval"
+msgstr "Диапазон дат"
 
 #. frmProgressDownload..Panel1..LabelName3..Caption
 msgid "Time remaining:"
@@ -2466,6 +2680,17 @@ msgstr "Ошибочный тип данных"
 msgid "Unexpected proxy authorization"
 msgstr "Ошибка авторизации на прокси!"
 
+#
+#. DGPS
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoMenuItemName
+msgid "Unit info"
+msgstr "Информация"
+
+#
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoCaption
+msgid "Unit info:"
+msgstr "Информация"
+
 #. Programmer's name for it: SAS_STR_BattaryStateUnknown
 msgid "Unknown"
 msgstr "Неизвестно"
@@ -2487,10 +2712,6 @@ msgstr "Левый верхний угол"
 msgid "URL to Bing Maps"
 msgstr "Ссылку для просмотра в Bing Maps"
 
-#. frmMain..MainPopupMenu..N43..osmorg1..Caption
-msgid "URL to osm.org"
-msgstr "Ссылку для просмотра в osm.org"
-
 #. frmMain..MainPopupMenu..N43..Google1..Caption
 msgid "URL to Google Maps"
 msgstr "Ссылку для просмотра в Google Maps"
@@ -2499,13 +2720,17 @@ msgstr "Ссылку для просмотра в Google Maps"
 msgid "URL to kosmosnimki.ru"
 msgstr "Ссылку для просмотра в kosmosnimki.ru"
 
-#. frmMain..MainPopupMenu..N43..
-msgid "URL to Nokia Map Creator"
-msgstr "Ссылку для Nokia Map Creator"
-
 #. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
 msgid "URL to Layer Tile"
 msgstr "Ссылку на тайл слоя"
+
+#. frmMain..MainPopupMenu..N43..nokiamapcreator1..Caption
+msgid "URL to Nokia Map Creator"
+msgstr "Ссылку для Nokia Map Creator"
+
+#. frmMain..MainPopupMenu..N43..osmorg1..Caption
+msgid "URL to osm.org"
+msgstr "Ссылку для просмотра в osm.org"
 
 #. frmMain..MainPopupMenu..N43..N13..Caption
 msgid "URL to Primary Map Tile"
@@ -2515,9 +2740,26 @@ msgstr "Ссылку на тайл основной карты"
 msgid "URL to Yandex.Maps"
 msgstr "Ссылку для просмотра на Яндекс.Картах"
 
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Caption
+msgid "USB Garmin"
+msgstr ""
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMUSBSer..Caption
+msgid "USBSer"
+msgstr ""
+
+# NFillMode3
+#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode3..Caption
+msgid "Use Age Gradient"
+msgstr "Существующие с градиентом"
+
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
 msgid "Use color settings"
 msgstr "Применять настройки цвета"
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
+msgid "Use Garmin via USB (overrides COM settings if checked)"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
 msgid "Use Layers from Lower Zooms"
@@ -2535,6 +2777,44 @@ msgstr "Использовать прокси (IP:port)"
 msgid "Use system proxy settings"
 msgstr "Брать настройки подключения из реестра"
 
+# pnlUsePrevTiles.chkUsePrevTiles
+#. frTilesGenPrev..pnlBottom..pnlCenter..pnlUsePrevTiles..chkUsePrevTiles..Caption
+msgid "Use tile from lower zoom if tile not available"
+msgstr "Использовать вышележащие слои, если отсутствует текущий"
+
+#
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
+msgid "User defined"
+msgstr "Задано пользователем"
+
+#
+#. UTC time
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
+msgid "UTC time"
+msgstr "Мировое время (UTC)"
+
+#
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeCaption
+msgid "UTC time:"
+msgstr "Мировое время (UTC)"
+
+#. frExportToJNX..pnlCenter..pnlMain..v3..Caption
+msgid "v3"
+msgstr ""
+
+#. frExportToJNX..pnlCenter..pnlMain..v4..Caption
+msgid "v4"
+msgstr ""
+
+#. Vertical Dilution of Precision
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPMenuItemName
+msgid "VDOP"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPCaption
+msgid "VDOP:"
+msgstr ""
+
 #. frmMapTypeEdit..pnlVersion..lblVersion..Caption
 msgid "Version"
 msgstr "Версия"
@@ -2550,6 +2830,10 @@ msgstr "по вертикали, на"
 #. frmSettings..PageControl1..tsView..Caption
 msgid "View"
 msgstr "Внешний вид"
+
+#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMVirtual..Caption
+msgid "Virtual"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBScreenSelect..Caption
 msgid "Visible Area"
@@ -2575,12 +2859,17 @@ msgstr "Сайт программы (http://sasgis.ru)"
 msgid "Website:"
 msgstr "Сайт:"
 
-#. frmImportConfigEdit..grpLine..lblLineWidth..Caption
-#. frmImportConfigEdit..grpPoly..lblPolyLineWidth..Caption
+#. frMarksGeneralOptions..grpLine..lblLineWidth..Caption
+#. frMarksGeneralOptions..grpPoly..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
 msgid "Width"
 msgstr "Ширина"
+
+# NFillToolBar
+#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NShowFillDates..Caption
+msgid "Within Time Interval"
+msgstr "Тайлы только в диапазоне дат"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg. (W12.1233°)"
@@ -2602,17 +2891,6 @@ msgstr "X:"
 #. frLonLat..pnlXY..grdpnlXY..lblY..Caption
 msgid "Y:"
 msgstr "Y:"
-
-#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..EditCaption
-#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..Caption
-#. frmMain..TBDock..TBMainToolBar..TBGoTo..tbiEditYandexSrch..EditCaption
-#. frmMain..TBDock..TBXToolBarSearch..TBXSelectSrchType..TBXSelectYandexSrch..Caption
-msgid "Yandex"
-msgstr "Яндекс"
-
-#. frmAbout..lblYandexMoneyCaption..Caption
-msgid "Yandex.Money"
-msgstr "Яндекс.Деньги:"
 
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
@@ -2636,7 +2914,6 @@ msgstr "Путь к файлу"
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
-#. Programmer's name for it: SAS_STR_Scale
 msgid "Zoom"
 msgstr "Масштаб"
 
@@ -2669,131 +2946,120 @@ msgstr "Масштаб:"
 #. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
+#. frExportToJNX..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportYaMobileV3..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportYaMobileV4..pnlCenter..pnlRight..lblZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
 msgid "Zooms:"
 msgstr "Масштабы:"
 
-# NFillToolBar.label1
-msgid "Fill From "
-msgstr "Даты: с"
-
-# NFillToolBar.label2
-msgid " To "
-msgstr " по "
-
-# NFillToolBar
-msgid "Time Interval"
-msgstr "Диапазон дат"
-
-# NFillMode1
-msgid "Mark Nonexistent Tiles"
-msgstr "Отсутствующие тайлы"
-
-# NFillMode2
-msgid "Mark Existing Tiles"
-msgstr "Существующие тайлы"
-
-# NFillMode3
-msgid "Use Age Gradient"
-msgstr "Существующие с градиентом"
-
-# NFillToolBar
-msgid "Within Time Interval"
-msgstr "Тайлы только в диапазоне дат"
-
-# DegreedLinesSubMenu
-msgid "Lat/Lon Grid"
-msgstr "Градусная сетка"
-
-# DegreedLinesSubMenu
-msgid "Lat/Lon grid:"
-msgstr "Градусная сетка"
-
-# LabelDeg1
-msgid "Show Degree borders:"
-msgstr "Отображение градусной сетки:"
-
-# CBDegreeBorderText
-msgid "Grid line labels"
-msgstr "Подписи"
-
-# GB_GpsTrackSave
-msgid "Autosave track to:"
-msgstr "Автоматически сохранять трек:"
-
-msgid "GenShtab Maps Boundaries"
-msgstr "Отображать бланковку карт ГШ"
-
 #
-msgid "Product ID"
-msgstr "Тип снимка (ID)"
-
-#
-msgid "Product Name"
-msgstr "Наименование:"
-
-#
-msgid "JNX version:"
-msgstr "Версия JNX:"
-
-#
+#. frExportToJNX..pnlCenter..pnlMain..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
 
-#
-msgid "Save PNG with alpha channel"
-msgstr "Сохранять  PNG с прозрачностью"
+#~ msgid "2GIS"
+#~ msgstr "2GIS"
 
-# pnlUsePrevTiles.chkUsePrevTiles
-msgid "Use tile from lower zoom if tile not available"
-msgstr "Использовать вышележащие слои, если отсутствует текущий"
+#~ msgid "Authors:"
+#~ msgstr "Разработка:"
 
-#
-msgid "User defined"
-msgstr "Задано пользователем"
+#~ msgid "Autosave tracks to .nmea"
+#~ msgstr "Автоматически сохранять треки в .nmea"
 
-#
-msgid "Auto"
-msgstr "Автоматически"
+#~ msgid "Autosave tracks to .plt"
+#~ msgstr "Автоматически сохранять треки в .plt"
 
-#
-msgid "Tile borders:"
-msgstr "Отображение границ:"
+#~ msgid "Category is not empty. Please delete child categories first"
+#~ msgstr "Категория не пуста! Удалите все дочерние категории."
 
-#
-msgid "Shows UTC time"
-msgstr "Отображать мировое время"
+#~ msgid "Category name already exists"
+#~ msgstr "Такое имя категории уже существует"
 
-#
-msgid "UTC time"
-msgstr "Мировое время (UTC)"
+#~ msgid "Disk write error. The task will be aborted!"
+#~ msgstr "Ошибка записи на диск. Операция будет прервана!"
 
-#
-msgid "UTC time:"
-msgstr "Мировое время (UTC)"
+#~ msgid "Error creating archive!"
+#~ msgstr "Ошибка создания архива!"
 
-#
-msgid "Local time:"
-msgstr "Местное время"
+#~ msgid "Error reading file!"
+#~ msgstr "Ошибка чтения файла!"
 
-#
-msgid "Local time"
-msgstr "Местное время"
+#~ msgid ""
+#~ "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 "
+#~ "(*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg"
+#~ msgstr ""
+#~ "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 "
+#~ "(*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg"
 
-#
-msgid "Unit info"
-msgstr "Информация"
+#~ msgid "How you may help:"
+#~ msgstr "Помочь нам:"
 
-#
-msgid "Unit info:"
-msgstr "Информация"
+#~ msgid "Image MIME type unknown"
+#~ msgstr "Неизвестный MIME-тип изображения"
 
-#
-msgid "Shows local time"
-msgstr "Отображать местное время"
+#~ msgid "Image type unknown"
+#~ msgstr "Неизвестный тип изображения"
 
-#
-msgid "Shows GPS Unit info"
-msgstr "Отображать информацию о GPS-приемнике"
+#~ msgid "Loading selection..."
+#~ msgstr "Загрузка выделения..."
+
+#~ msgid ""
+#~ "Map script error %0:s (%2:s):\n"
+#~ "%1:s"
+#~ msgstr ""
+#~ "Ошибка скрипта карты %0:s (%2:s):\n"
+#~ "%1:s"
+
+#~ msgid "min."
+#~ msgstr "мин."
+
+#~ msgid "Proxy configuration string is not correct"
+#~ msgstr "Неверный формат записи прокси-сервера"
+
+#~ msgid "Retrying operation"
+#~ msgstr "Пытаемся повторить обработку"
+
+#~ msgid "SAS Group"
+#~ msgstr "Группа SAS"
+
+#~ msgid "Saving track..."
+#~ msgstr "Сохранение трека..."
+
+#~ msgid "Selection is out of the map!"
+#~ msgstr "Выделенная область находится целиком вне карты!"
+
+#~ msgid "Show borders:"
+#~ msgstr "Отображение границ:"
+
+#~ msgid "Show Genshtab borders:"
+#~ msgstr "Отображение границ листов ГенШтаба:"
+
+#~ msgid "Split to"
+#~ msgstr "Разбить на"
+
+#~ msgid "The map is unable to load"
+#~ msgstr "Карта не позволяет загружать"
+
+#~ msgid ""
+#~ "The selection is partially outside the map.\n"
+#~ "The selection will be reduced to map boundaries."
+#~ msgstr ""
+#~ "Часть выделенной области находится вне карты.\n"
+#~ "Область будет ограничена по размерам карты."
+
+#~ msgid "The tile is corrupt!"
+#~ msgstr "Файл испорчен!"
+
+#~ msgid "Time"
+#~ msgstr "Время"
+
+#~ msgid "Yandex"
+#~ msgstr "Яндекс"
+
+#~ msgid "Yandex.Money"
+#~ msgstr "Яндекс.Деньги:"
+
+# LabelDeg1
+#~ msgid "Show Degree borders:"
+#~ msgstr "Отображение градусной сетки:"
