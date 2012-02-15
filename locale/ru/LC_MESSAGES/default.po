@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
 "POT-Creation-Date: 2012-02-09 22:51\n"
-"PO-Revision-Date: 2011-08-24 22:42+0200\n"
-"Last-Translator: Mixail <me@mixaill.tk>\n"
+"PO-Revision-Date: 2012-02-14 22:27+0200\n"
+"Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -283,30 +283,12 @@ msgid "All by default"
 msgstr "Все по умолчанию"
 
 #. frmMarksExplorer..OpenDialog1....Filter
-#, fuzzy
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*."
-"hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*."
-"hlg|GPS Exchange files (*.gpx)|*.gpx"
-msgstr ""
-"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*."
-"sls)|*.sls|Файл выделения (*.hlg)|*.hlg"
+msgid "All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgstr "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 
 #. frmMain..OpenSessionDialog....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
-"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
-"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
-"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
-"gpx"
-msgstr ""
-"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*."
-"sls)|*.sls|Файл выделения (*.hlg)|*.hlg"
+msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgstr "Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -357,22 +339,20 @@ msgstr "Автоматически показывать/скрывать пан�
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSAutodetectCOM..Hint
 msgid "Autodetect COM port"
-msgstr ""
+msgstr "Автопоиск COM-порта"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Hint
 msgid "Autodetect COM port on connect"
-msgstr ""
+msgstr "Автопоиск подключённого COM-порта"
 
 # GB_GpsTrackSave
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Caption
-#, fuzzy
 msgid "Autodetect:"
-msgstr "Автоматически сохранять трек:"
+msgstr "Автопоиск:"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
-msgstr ""
-"Автоматически определять параметры базовых станций через подключенный телефон"
+msgstr "Автоматически определять параметры базовых станций через подключенный телефон"
 
 # GB_GpsTrackSave
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
@@ -414,9 +394,8 @@ msgid "BerkeleyDB"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lblBDBCachePath..Caption
-#, fuzzy
 msgid "BerkeleyDB cache folder:"
-msgstr "Путь к кэшу GoogleMV:"
+msgstr "Путь к кэшу BerkeleyDB:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
@@ -631,12 +610,8 @@ msgstr ""
 "%0:s"
 
 #. frmMarksExplorer..ExportDialog....Filter
-msgid ""
-"Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|"
-"*.kml"
-msgstr ""
-"Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
-"(kml)|*.kml"
+msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
+msgstr "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -874,7 +849,7 @@ msgstr "Загрузить информацию о доступных карта
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
-msgstr ""
+msgstr "Включить или выключить GPS"
 
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
 msgid "Displayed Main Map"
@@ -964,9 +939,8 @@ msgid "Download session (*.sls)|*.sls"
 msgstr "Сессия загрузки (*.sls)|*.sls"
 
 #. frmMapTypeEdit..pnlDownloaderState..lblDownloaderState..Caption
-#, fuzzy
 msgid "Download state"
-msgstr "Скачано"
+msgstr "Разрешить скачивание"
 
 #. frTilesDownload..pnlTop..Caption
 msgid "Download Tiles"
@@ -1053,10 +1027,8 @@ msgid "Enabled"
 msgstr "Используется"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid ""
-"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr ""
-"Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
+msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
+msgstr "Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -1163,9 +1135,8 @@ msgid "Fill:"
 msgstr "Заполнение:"
 
 #. frmMain..TBDock..FillDates..Caption
-#, fuzzy
 msgid "FillDates"
-msgstr "Дата съемки"
+msgstr "Дата создания"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..Hint
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSCenterMap..Caption
@@ -1291,7 +1262,7 @@ msgstr "Путь к кэшу GoogleMV:"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
 msgid "GPS On/Off"
-msgstr ""
+msgstr "GPS Вкл/Выкл"
 
 # CBDegreeBorderText
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..CBDegreeBorderText..Caption
@@ -1397,10 +1368,10 @@ msgid "Info"
 msgstr "Информация"
 
 msgid "Initialization of LibJPEG failed."
-msgstr ""
+msgstr "Инициализация JPEG библиотеки"
 
 msgid "Initialization of LibPNG failed."
-msgstr ""
+msgstr "Инициализация PNG библиотеки"
 
 #. frmMain..TBDock..TBXMainMenu..NView..N31..Caption
 msgid "Interface"
@@ -1429,7 +1400,7 @@ msgstr "Багтрекер (http://sasgis.ru/mantis)"
 
 #. Programmer's name for it: SAS_STR_ExportJNXPackCaption
 msgid "JNX raster map for Garmin"
-msgstr ""
+msgstr "JNX растровая карта для Garmin"
 
 #
 #. frExportToJNX..pnlCenter..pnlMain..LVersion..Caption
@@ -1650,9 +1621,8 @@ msgid "Mark Nonexistent Tiles"
 msgstr "Отсутствующие тайлы"
 
 #. frmMarksMultiEdit..Caption
-#, fuzzy
 msgid "Marks Parameters"
-msgstr "Параметры импорта"
+msgstr "Параметры меток"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedCaption
 msgid "Max.speed, km/h:"
@@ -1718,7 +1688,7 @@ msgstr "Перемещать"
 #. frmIntrnalBrowser..EmbeddedWB1..DisableCtrlShortcuts
 #. frmInvisibleBrowser..WebBrowser1..DisableCtrlShortcuts
 msgid "N"
-msgstr "N"
+msgstr ""
 
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
 msgid "Name"
@@ -1771,7 +1741,7 @@ msgid "No GPS receiver found"
 msgstr "Не найден приемник GPS"
 
 msgid "No one Map or Layer are selected!"
-msgstr ""
+msgstr "Не выбрано ни одной карты или слоя"
 
 #. Programmer's name for it: SAS_ERR_Memory
 msgid "Not enough memory to complete the task"
@@ -1811,7 +1781,7 @@ msgstr "Одометр № 2"
 #. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnOk..Caption
 #. frmSettings..pnlBottomButtons..btnOk..Caption
 msgid "Ok"
-msgstr "ОК"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..N29..Caption
 msgid "Online Help (http://sasgis.ru/wikisasiya)"
@@ -1863,7 +1833,7 @@ msgstr "Настройки программы"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
 msgid "Others"
-msgstr ""
+msgstr "Другие"
 
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
@@ -1968,8 +1938,7 @@ msgid "PlaceMarks"
 msgstr "Метки"
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
-msgid ""
-"Please choose another format (ECW, BMP, JP2) while stitching large images"
+msgid "Please choose another format (ECW, BMP, JP2) while stitching large images"
 msgstr "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
 
 #. Programmer's name for it: SAS_MSG_NeedHL
@@ -1985,9 +1954,8 @@ msgstr "Подождите, идет загрузка..."
 msgid "Please wait..."
 msgstr "Пожалуйста, подождите..."
 
-#, fuzzy
 msgid "Please, select output file first!"
-msgstr "Сначала необходимо выделить хотя бы одну область"
+msgstr "Необходимо выбрать имя результирующего файла"
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
 msgid "PNG (Portable Network Graphics)"
@@ -2133,8 +2101,7 @@ msgstr "Восстановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
 msgid "Restore download from last successful tile"
-msgstr ""
-"Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
+msgstr "Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
 
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
@@ -2157,7 +2124,6 @@ msgid "Ruler"
 msgstr "Линейка"
 
 #. frExportToJNX..pnlCenter..pnlMain..EProductName..Text
-#, fuzzy
 msgid "SAS Palnet"
 msgstr "SAS.Планета"
 
@@ -2299,8 +2265,7 @@ msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
 "Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output format (ECW "
-"is the best)."
+"Try select smaller region to stitch in %s or select other output format (ECW is the best)."
 msgstr ""
 
 #. frmLonLatRectEdit..Caption
@@ -2329,9 +2294,8 @@ msgid "Sensors"
 msgstr "Датчики"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMSerial..Caption
-#, fuzzy
 msgid "Serial"
-msgstr "COM-порт"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
@@ -2420,9 +2384,8 @@ msgid "Shows current speed"
 msgstr "Отображает текущую скорость движения"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
-#, fuzzy
 msgid "Shows DGPS"
-msgstr "Отображать трек"
+msgstr "Отображать DGPS"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
@@ -2443,7 +2406,7 @@ msgstr "Отображать информацию о GPS-приемнике"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
 msgid "Shows HDOP"
-msgstr ""
+msgstr "Отображать HDOP"
 
 #
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
@@ -2470,7 +2433,7 @@ msgstr "Отображать мировое время"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
 msgid "Shows VDOP"
-msgstr ""
+msgstr "Отображать VDOP"
 
 #. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Hint
 msgid "Signal-to-noise ratio for satellites in use"
@@ -2670,8 +2633,7 @@ msgstr "Невозможно определить позицию"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr ""
-"Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
 msgid "Unexpected content type"
@@ -2759,7 +2721,7 @@ msgstr "Применять настройки цвета"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
 msgid "Use Garmin via USB (overrides COM settings if checked)"
-msgstr ""
+msgstr "Выбрать Garmin USB (отменяет выбор COM-порта)"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
 msgid "Use Layers from Lower Zooms"
@@ -2886,11 +2848,11 @@ msgstr "WS г.м.с. (W12°23\"43.35')"
 
 #. frLonLat..pnlXY..grdpnlXY..lblX..Caption
 msgid "X:"
-msgstr "X:"
+msgstr ""
 
 #. frLonLat..pnlXY..grdpnlXY..lblY..Caption
 msgid "Y:"
-msgstr "Y:"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
@@ -2905,7 +2867,7 @@ msgstr "cредствами yournavigation.org (OSM)"
 
 #. frLonLat..pnlXY..grdpnlZoom..lblZoom..Caption
 msgid "Z:"
-msgstr "Z:"
+msgstr ""
 
 #. frmSettings..PageControl1..tsMaps..MapList......Caption
 msgid "ZMP Filename"
@@ -2958,108 +2920,3 @@ msgstr "Масштабы:"
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
 
-#~ msgid "2GIS"
-#~ msgstr "2GIS"
-
-#~ msgid "Authors:"
-#~ msgstr "Разработка:"
-
-#~ msgid "Autosave tracks to .nmea"
-#~ msgstr "Автоматически сохранять треки в .nmea"
-
-#~ msgid "Autosave tracks to .plt"
-#~ msgstr "Автоматически сохранять треки в .plt"
-
-#~ msgid "Category is not empty. Please delete child categories first"
-#~ msgstr "Категория не пуста! Удалите все дочерние категории."
-
-#~ msgid "Category name already exists"
-#~ msgstr "Такое имя категории уже существует"
-
-#~ msgid "Disk write error. The task will be aborted!"
-#~ msgstr "Ошибка записи на диск. Операция будет прервана!"
-
-#~ msgid "Error creating archive!"
-#~ msgstr "Ошибка создания архива!"
-
-#~ msgid "Error reading file!"
-#~ msgstr "Ошибка чтения файла!"
-
-#~ msgid ""
-#~ "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 "
-#~ "(*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg"
-#~ msgstr ""
-#~ "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 "
-#~ "(*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg"
-
-#~ msgid "How you may help:"
-#~ msgstr "Помочь нам:"
-
-#~ msgid "Image MIME type unknown"
-#~ msgstr "Неизвестный MIME-тип изображения"
-
-#~ msgid "Image type unknown"
-#~ msgstr "Неизвестный тип изображения"
-
-#~ msgid "Loading selection..."
-#~ msgstr "Загрузка выделения..."
-
-#~ msgid ""
-#~ "Map script error %0:s (%2:s):\n"
-#~ "%1:s"
-#~ msgstr ""
-#~ "Ошибка скрипта карты %0:s (%2:s):\n"
-#~ "%1:s"
-
-#~ msgid "min."
-#~ msgstr "мин."
-
-#~ msgid "Proxy configuration string is not correct"
-#~ msgstr "Неверный формат записи прокси-сервера"
-
-#~ msgid "Retrying operation"
-#~ msgstr "Пытаемся повторить обработку"
-
-#~ msgid "SAS Group"
-#~ msgstr "Группа SAS"
-
-#~ msgid "Saving track..."
-#~ msgstr "Сохранение трека..."
-
-#~ msgid "Selection is out of the map!"
-#~ msgstr "Выделенная область находится целиком вне карты!"
-
-#~ msgid "Show borders:"
-#~ msgstr "Отображение границ:"
-
-#~ msgid "Show Genshtab borders:"
-#~ msgstr "Отображение границ листов ГенШтаба:"
-
-#~ msgid "Split to"
-#~ msgstr "Разбить на"
-
-#~ msgid "The map is unable to load"
-#~ msgstr "Карта не позволяет загружать"
-
-#~ msgid ""
-#~ "The selection is partially outside the map.\n"
-#~ "The selection will be reduced to map boundaries."
-#~ msgstr ""
-#~ "Часть выделенной области находится вне карты.\n"
-#~ "Область будет ограничена по размерам карты."
-
-#~ msgid "The tile is corrupt!"
-#~ msgstr "Файл испорчен!"
-
-#~ msgid "Time"
-#~ msgstr "Время"
-
-#~ msgid "Yandex"
-#~ msgstr "Яндекс"
-
-#~ msgid "Yandex.Money"
-#~ msgstr "Яндекс.Деньги:"
-
-# LabelDeg1
-#~ msgid "Show Degree borders:"
-#~ msgstr "Отображение градусной сетки:"
