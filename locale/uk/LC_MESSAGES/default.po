@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-02-09 22:51\n"
+"POT-Creation-Date: 2012-02-16 22:01\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -54,6 +54,11 @@ msgstr "&Джерело"
 #. frmMain..TBDock..TBXMainMenu..NView..Caption
 msgid "&View"
 msgstr "&Вигляд"
+
+#. frmDGAvailablePic..gbImagesSource..lbZoom..Hint
+#. frmDGAvailablePic..gbImagesSource..lbZoom..Caption
+msgid "(zoom %)"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..CB_GPSlogGPX..Caption
 msgid ".gpx"
@@ -419,6 +424,10 @@ msgstr ""
 msgid "BerkeleyDB cache folder:"
 msgstr "Шлях до кеша GoogleMV:"
 
+#. frmDGAvailablePic..gbImagesSource..chkBing..Caption
+msgid "Bing"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
@@ -625,7 +634,6 @@ msgstr "см"
 #. frMarksGeneralOptions..grpLine..lblLineColor..Caption
 #. frMarksGeneralOptions..grpPoly..lblPolyLineColor..Caption
 #. frMarksGeneralOptions..grpPoly..lblPolyFillColor..Caption
-#. frmDGAvailablePic..GroupBox1..LabelColor..Caption
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
@@ -635,10 +643,6 @@ msgstr "см"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr "Колір"
-
-#. frmDGAvailablePic..GroupBox1..Label5..Caption
-msgid "Color:"
-msgstr "Колір:"
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..NGoToForum..Caption
 msgid "Community  (http://www.sasgis.ru/forum)"
@@ -711,12 +715,12 @@ msgstr "Координати"
 msgid "Coordinates representation"
 msgstr "Формат подання координат"
 
-#. frmDGAvailablePic..GroupBox3..pnlRight..Button3..Caption
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Скопіювати"
 
-#. frmDGAvailablePic..GroupBox3..pnlRight..Button3..Hint
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Hint
 msgid "Copy TID's to clipboard"
 msgstr "Копіювати вибрані tid для вставки у посилання"
 
@@ -768,14 +772,6 @@ msgstr "Активний масштаб"
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
 msgid "Current Zoom"
 msgstr "Масштаб карти, на якому Ви знаходитесь"
-
-#. frmDGAvailablePic..GroupBox1..LabelDate..Caption
-msgid "Date"
-msgstr "Дата зйомки"
-
-#. frmDGAvailablePic..GroupBox1..Label2..Caption
-msgid "Date:"
-msgstr "Дата зйомки:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
 #, fuzzy
@@ -834,7 +830,7 @@ msgid "Deleting:"
 msgstr "Видаляє:"
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
-#. frmDGAvailablePic..GroupBox1..Caption
+#. frmDGAvailablePic..gbImageParams..Caption
 msgid "Description:"
 msgstr "Опис"
 
@@ -893,6 +889,10 @@ msgstr "На автомобілі (за швидкістю)"
 msgid "Device timeout (sec)"
 msgstr "Час очікування відповіді від приймача (сек)"
 
+#. frmDGAvailablePic..gbImagesSource..chkDG..Caption
+msgid "DG"
+msgstr ""
+
 #. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSMenuItemName
 msgid "DGPS"
@@ -901,11 +901,6 @@ msgstr ""
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSCaption
 msgid "DGPS:"
 msgstr ""
-
-#. frmDGAvailablePic..Caption
-#. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
-msgid "DigitalGlobe Availability"
-msgstr "Завантажити інформацію про доступні карти цього місця на DigitalGlobe"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
@@ -956,7 +951,7 @@ msgstr "Пройдений шлях:"
 msgid "Don't store references to non-existent tiles"
 msgstr "Не зберігати шляхи до неіснуючих тайлів"
 
-#. frmDGAvailablePic..GroupBox3..pnlRight..Button2..Caption
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnDown..Caption
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button11..Caption
 msgid "Down"
 msgstr "Вниз"
@@ -1408,11 +1403,14 @@ msgstr "Ігнорувати позначки"
 msgid "Ignore polygons"
 msgstr "Ігнорувати полігони"
 
-#. frmDGAvailablePic..GroupBox4..Caption
-msgid "Image stack"
+#. frmDGAvailablePic..gbImagesSource..Caption
+#, fuzzy
+msgid "Image services"
 msgstr "Вибір стека знімків"
 
-#. frmDGAvailablePic..GroupBox3..Caption
+#. frmDGAvailablePic..Caption
+#. frmDGAvailablePic..gbAvailImages..Caption
+#. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr "Доступні знімки"
 
@@ -1722,10 +1720,6 @@ msgstr "Виміри"
 msgid "Menu"
 msgstr "Шлях у меню"
 
-#. frmMain..TBDock..TBXMainMenu..NView..N31..ShowMiniMap..Caption
-msgid "Overview Map"
-msgstr "Карта огляду"
-
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..Label17..Caption
 msgid "Minimap opacity"
 msgstr "Прозорість карти огляду"
@@ -1818,6 +1812,11 @@ msgstr "Не знайдено GPS-приймач"
 
 msgid "No one Map or Layer are selected!"
 msgstr ""
+
+#. frmDGAvailablePic..gbImagesSource..chkNMC..Caption
+#, fuzzy
+msgid "Nokia map creator"
+msgstr "Посилання на тайл основної карти"
 
 #. Programmer's name for it: SAS_ERR_Memory
 msgid "Not enough memory to complete the task"
@@ -1923,6 +1922,10 @@ msgstr "Результуючий формат:"
 msgid "Overlay layer:"
 msgstr "Накласти:"
 
+#. frmMain..TBDock..TBXMainMenu..NView..N31..ShowMiniMap..Caption
+msgid "Overview Map"
+msgstr "Карта огляду"
+
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
 msgid "Overwrite existing tiles"
 msgstr "Змінювати існуючі файли"
@@ -1934,6 +1937,11 @@ msgstr "Замінювати при співпадінні"
 #. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
 msgid "Overwrite old tiles"
 msgstr "Замінювати старі файли"
+
+#. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
+#, fuzzy
+msgid "Parameter"
+msgstr "Периметр"
 
 #. frmMapTypeEdit..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
@@ -2122,17 +2130,9 @@ msgstr "Використовувати логін:"
 msgid "Proxy password:"
 msgstr "і пароль:"
 
-#. frmDGAvailablePic..GroupBox1..LabelResolution..Caption
-msgid "Quality"
-msgstr "Роздільна здатність"
-
 #. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
 msgid "Quality (for JPEG and ECW):"
 msgstr "Якість (для JPEG та ECW):"
-
-#. frmDGAvailablePic..GroupBox1..Label4..Caption
-msgid "Quality:"
-msgstr "Роздільна здатність:"
 
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..N6..Caption
@@ -2148,6 +2148,10 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr "Прямокутна область"
+
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnRefresh..Caption
+msgid "Refresh"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
 msgid "Refresh rate (ms)"
@@ -2203,10 +2207,6 @@ msgstr "обератння на себе – наближення"
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
 msgid "Route Calculation"
 msgstr "Прокласти маршрут"
-
-#. frmMain..TBDock..TBXMainMenu..NView..N31..ShowLine..Caption
-msgid "Scale Legend"
-msgstr "Лінійка"
 
 #. frExportToJNX..pnlCenter..pnlMain..EProductName..Text
 #, fuzzy
@@ -2299,6 +2299,10 @@ msgstr "Куди зберігати:"
 #. Programmer's name for it: SAS_STR_Saves
 msgid "Saved"
 msgstr "Збережено"
+
+#. frmMain..TBDock..TBXMainMenu..NView..N31..ShowLine..Caption
+msgid "Scale Legend"
+msgstr "Лінійка"
 
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
@@ -2540,14 +2544,6 @@ msgstr "Роздільна здатність"
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "Роздільна здатність: %0:dx%1:d Розбити на %2:d файлів"
 
-#. frmDGAvailablePic..GroupBox1..LabelProv..Caption
-msgid "Source"
-msgstr "Джерело"
-
-#. frmDGAvailablePic..GroupBox1..Label6..Caption
-msgid "Source:"
-msgstr "Джерело:"
-
 #. frmMain..TBDock..SrcToolbar..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NsrcToolBarShow..Caption
 msgid "Sources"
@@ -2761,7 +2757,7 @@ msgstr "Невідомо"
 msgid "Unknown error during download"
 msgstr "Невідома помилка при завантаженні"
 
-#. frmDGAvailablePic..GroupBox3..pnlRight..Button1..Caption
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnUp..Caption
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button12..Caption
 msgid "Up"
 msgstr "Вгору"
@@ -2867,6 +2863,11 @@ msgstr ""
 #. frExportToJNX..pnlCenter..pnlMain..v4..Caption
 msgid "v4"
 msgstr ""
+
+#. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
+#, fuzzy
+msgid "Value"
+msgstr "Пауза"
 
 #. Vertical Dilution of Precision
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPMenuItemName
@@ -3023,6 +3024,31 @@ msgstr "Масштаби:"
 #. frExportToJNX..pnlCenter..pnlMain..LZOrder..Caption
 msgid "Z-Order:"
 msgstr ""
+
+#~ msgid "Color:"
+#~ msgstr "Колір:"
+
+#~ msgid "Date"
+#~ msgstr "Дата зйомки"
+
+#~ msgid "Date:"
+#~ msgstr "Дата зйомки:"
+
+#~ msgid "DigitalGlobe Availability"
+#~ msgstr ""
+#~ "Завантажити інформацію про доступні карти цього місця на DigitalGlobe"
+
+#~ msgid "Quality"
+#~ msgstr "Роздільна здатність"
+
+#~ msgid "Quality:"
+#~ msgstr "Роздільна здатність:"
+
+#~ msgid "Source"
+#~ msgstr "Джерело"
+
+#~ msgid "Source:"
+#~ msgstr "Джерело:"
 
 #~ msgid "Authors:"
 #~ msgstr "Розробка:"

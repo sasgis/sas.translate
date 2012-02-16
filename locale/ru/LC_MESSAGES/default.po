@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-02-09 22:51\n"
-"PO-Revision-Date: 2012-02-14 22:27+0200\n"
+"POT-Creation-Date: 2012-02-16 22:01\n"
+"PO-Revision-Date: 2012-02-16 23:49+0200\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -54,6 +54,11 @@ msgstr "&Источник"
 #. frmMain..TBDock..TBXMainMenu..NView..Caption
 msgid "&View"
 msgstr "&Вид"
+
+#. frmDGAvailablePic..gbImagesSource..lbZoom..Hint
+#. frmDGAvailablePic..gbImagesSource..lbZoom..Caption
+msgid "(zoom %)"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..CB_GPSlogGPX..Caption
 msgid ".gpx"
@@ -397,6 +402,10 @@ msgstr ""
 msgid "BerkeleyDB cache folder:"
 msgstr "Путь к кэшу BerkeleyDB:"
 
+#. frmDGAvailablePic..gbImagesSource..chkBing..Caption
+msgid "Bing"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
@@ -582,7 +591,6 @@ msgstr "см"
 #. frMarksGeneralOptions..grpLine..lblLineColor..Caption
 #. frMarksGeneralOptions..grpPoly..lblPolyLineColor..Caption
 #. frMarksGeneralOptions..grpPoly..lblPolyFillColor..Caption
-#. frmDGAvailablePic..GroupBox1..LabelColor..Caption
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
@@ -592,10 +600,6 @@ msgstr "см"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr "Цвет"
-
-#. frmDGAvailablePic..GroupBox1..Label5..Caption
-msgid "Color:"
-msgstr "Цвет:"
 
 #. frmMain..TBDock..TBXMainMenu..NHelp..NGoToForum..Caption
 msgid "Community  (http://www.sasgis.ru/forum)"
@@ -664,12 +668,12 @@ msgstr "Координаты"
 msgid "Coordinates representation"
 msgstr "Формат представления координат"
 
-#. frmDGAvailablePic..GroupBox3..pnlRight..Button3..Caption
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Скопировать"
 
-#. frmDGAvailablePic..GroupBox3..pnlRight..Button3..Hint
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Hint
 msgid "Copy TID's to clipboard"
 msgstr "Копировать выбранные TID для вставки в URL"
 
@@ -721,14 +725,6 @@ msgstr "Активный масштаб"
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
 msgid "Current Zoom"
 msgstr "Текущий масштаб карты"
-
-#. frmDGAvailablePic..GroupBox1..LabelDate..Caption
-msgid "Date"
-msgstr "Дата съемки"
-
-#. frmDGAvailablePic..GroupBox1..Label2..Caption
-msgid "Date:"
-msgstr "Дата съемки:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
 msgid "Default cache type"
@@ -786,7 +782,7 @@ msgid "Deleting:"
 msgstr "Удаляет:"
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
-#. frmDGAvailablePic..GroupBox1..Caption
+#. frmDGAvailablePic..gbImageParams..Caption
 msgid "Description:"
 msgstr "Описание"
 
@@ -833,6 +829,10 @@ msgstr "Пешком (по расстоянию, средствами maps.cloud
 msgid "Device timeout (sec)"
 msgstr "Время ожидания ответа от приемника (сек.)"
 
+#. frmDGAvailablePic..gbImagesSource..chkDG..Caption
+msgid "DG"
+msgstr ""
+
 #. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSMenuItemName
 msgid "DGPS"
@@ -841,11 +841,6 @@ msgstr ""
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSCaption
 msgid "DGPS:"
 msgstr ""
-
-#. frmDGAvailablePic..Caption
-#. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
-msgid "DigitalGlobe Availability"
-msgstr "Загрузить информацию о доступных картах этого места на DigitalGlobe"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
@@ -896,7 +891,7 @@ msgstr "Пройденный путь:"
 msgid "Don't store references to non-existent tiles"
 msgstr "Не сохранять пути к несуществующим тайлам"
 
-#. frmDGAvailablePic..GroupBox3..pnlRight..Button2..Caption
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnDown..Caption
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button11..Caption
 msgid "Down"
 msgstr "Вниз"
@@ -1339,11 +1334,13 @@ msgstr "Игнорировать метки"
 msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
-#. frmDGAvailablePic..GroupBox4..Caption
-msgid "Image stack"
-msgstr "Выбор стека снимков"
+#. frmDGAvailablePic..gbImagesSource..Caption
+msgid "Image services"
+msgstr "Картографический сервис"
 
-#. frmDGAvailablePic..GroupBox3..Caption
+#. frmDGAvailablePic..Caption
+#. frmDGAvailablePic..gbAvailImages..Caption
+#. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr "Доступные снимки"
 
@@ -1648,10 +1645,6 @@ msgstr "Измерения"
 msgid "Menu"
 msgstr "Путь в меню"
 
-#. frmMain..TBDock..TBXMainMenu..NView..N31..ShowMiniMap..Caption
-msgid "Overview Map"
-msgstr "Обзорная карта"
-
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..Label17..Caption
 msgid "Minimap opacity"
 msgstr "Прозрачность карты обзора"
@@ -1742,6 +1735,10 @@ msgstr "Не найден приемник GPS"
 
 msgid "No one Map or Layer are selected!"
 msgstr "Не выбрано ни одной карты или слоя"
+
+#. frmDGAvailablePic..gbImagesSource..chkNMC..Caption
+msgid "Nokia map creator"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Memory
 msgid "Not enough memory to complete the task"
@@ -1847,6 +1844,10 @@ msgstr "Результирующий формат:"
 msgid "Overlay layer:"
 msgstr "Наложить:"
 
+#. frmMain..TBDock..TBXMainMenu..NView..N31..ShowMiniMap..Caption
+msgid "Overview Map"
+msgstr "Обзорная карта"
+
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
 msgid "Overwrite existing tiles"
 msgstr "Изменять существующие файлы"
@@ -1858,6 +1859,10 @@ msgstr "Заменять при совпадении"
 #. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
 msgid "Overwrite old tiles"
 msgstr "Заменять старые файлы"
+
+#. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
+msgid "Parameter"
+msgstr "Параметр"
 
 #. frmMapTypeEdit..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
@@ -2039,17 +2044,9 @@ msgstr "Использовать логин:"
 msgid "Proxy password:"
 msgstr "и пароль:"
 
-#. frmDGAvailablePic..GroupBox1..LabelResolution..Caption
-msgid "Quality"
-msgstr "Разрешение"
-
 #. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
 msgid "Quality (for JPEG and ECW):"
 msgstr "Качество (для JPEG и ECW):"
-
-#. frmDGAvailablePic..GroupBox1..Label4..Caption
-msgid "Quality:"
-msgstr "Разрешение:"
 
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..N6..Caption
@@ -2065,6 +2062,10 @@ msgstr "Радиус"
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr "Прямоугольная область"
+
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnRefresh..Caption
+msgid "Refresh"
+msgstr "Обновить"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
 msgid "Refresh rate (ms)"
@@ -2118,10 +2119,6 @@ msgstr "Вращение на себя - приближение"
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
 msgid "Route Calculation"
 msgstr "Проложить маршрут"
-
-#. frmMain..TBDock..TBXMainMenu..NView..N31..ShowLine..Caption
-msgid "Scale Legend"
-msgstr "Шкала масштаба"
 
 #. frExportToJNX..pnlCenter..pnlMain..EProductName..Text
 msgid "SAS Palnet"
@@ -2214,6 +2211,10 @@ msgstr "Куда сохранять:"
 #. Programmer's name for it: SAS_STR_Saves
 msgid "Saved"
 msgstr "Сохранено"
+
+#. frmMain..TBDock..TBXMainMenu..NView..N31..ShowLine..Caption
+msgid "Scale Legend"
+msgstr "Шкала масштаба"
 
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
@@ -2447,14 +2448,6 @@ msgstr "размер:"
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "Размер: %0:dx%1:d. Разбить на %2:d файлов"
 
-#. frmDGAvailablePic..GroupBox1..LabelProv..Caption
-msgid "Source"
-msgstr "Источник"
-
-#. frmDGAvailablePic..GroupBox1..Label6..Caption
-msgid "Source:"
-msgstr "Источник:"
-
 #. frmMain..TBDock..SrcToolbar..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NsrcToolBarShow..Caption
 msgid "Sources"
@@ -2661,7 +2654,7 @@ msgstr "Неизвестно"
 msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
 
-#. frmDGAvailablePic..GroupBox3..pnlRight..Button1..Caption
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnUp..Caption
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button12..Caption
 msgid "Up"
 msgstr "Вверх"
@@ -2767,6 +2760,10 @@ msgstr ""
 #. frExportToJNX..pnlCenter..pnlMain..v4..Caption
 msgid "v4"
 msgstr ""
+
+#. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
+msgid "Value"
+msgstr "Значение"
 
 #. Vertical Dilution of Precision
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPMenuItemName
