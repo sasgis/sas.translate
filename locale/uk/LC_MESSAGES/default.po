@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-03-08 10:04\n"
+"POT-Creation-Date: 2012-03-14 10:40\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -644,7 +644,7 @@ msgstr "см"
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label27..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr "Колір"
@@ -1283,12 +1283,12 @@ msgstr "Сформувати попередні шари супутниково�
 msgid "Generating upper zooms"
 msgstr "Генерація верхніх рівнів"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..LabelGsh1..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..LabelGsh1..Caption
 #, fuzzy
 msgid "Genshtab Map boundaries:"
 msgstr "Показувати бланковку карт ГШ"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..CBGenshtabBorderText..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..CBGenshtabBorderText..Caption
 msgid "Genshtab Map names"
 msgstr "Підписи ГенШтаба:"
 
@@ -1296,11 +1296,6 @@ msgstr "Підписи ГенШтаба:"
 #, fuzzy
 msgid "GenShtab Maps Boundaries"
 msgstr "Показувати бланковку карт ГШ"
-
-#. frmSettings..PageControl1..tsCache..grdpnlCache..lbGCCachePath..Caption
-#, fuzzy
-msgid "GeoCacher root folder:"
-msgstr "Тека у кеші"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
@@ -1453,9 +1448,6 @@ msgstr ""
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
 msgstr "Інформація"
-
-msgid "Initialization of LibJPEG failed."
-msgstr ""
 
 msgid "Initialization of LibPNG failed."
 msgstr ""
@@ -1896,7 +1888,7 @@ msgstr "лише при їх відмінності"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label28..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg3..Caption
 msgid "Opacity"
 msgstr "Прозорість"
@@ -3050,6 +3042,10 @@ msgstr "Масштаби:"
 #. frExportToJNX..pnlCenter..pnlMain..LZOrder..Caption
 msgid "Z-Order:"
 msgstr ""
+
+#, fuzzy
+#~ msgid "GeoCacher root folder:"
+#~ msgstr "Тека у кеші"
 
 #, fuzzy
 #~ msgid "SAS Palnet"

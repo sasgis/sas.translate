@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-03-08 10:04\n"
+"POT-Creation-Date: 2012-03-14 10:40\n"
 "PO-Revision-Date: 2012-03-08 10:30+0200\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
@@ -288,12 +288,30 @@ msgid "All by default"
 msgstr "Все по умолчанию"
 
 #. frmMarksExplorer..OpenDialog1....Filter
-msgid "All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
-msgstr "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgid ""
+"All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*."
+"hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
+"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*."
+"hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgstr ""
+"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*."
+"hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
+"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*."
+"hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 
 #. frmMain..OpenSessionDialog....Filter
-msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
-msgstr "Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgid ""
+"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
+"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
+"gpx"
+msgstr ""
+"Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия "
+"загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*."
+"gpx)|*.gpx"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -357,7 +375,8 @@ msgstr "Автопоиск:"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
-msgstr "Автоматически определять параметры базовых станций через подключенный телефон"
+msgstr ""
+"Автоматически определять параметры базовых станций через подключенный телефон"
 
 # GB_GpsTrackSave
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
@@ -600,7 +619,7 @@ msgstr "см"
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label27..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr "Цвет"
@@ -618,8 +637,12 @@ msgstr ""
 "%0:s"
 
 #. frmMarksExplorer..ExportDialog....Filter
-msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
-msgstr "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
+msgid ""
+"Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|"
+"*.kml"
+msgstr ""
+"Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
+"(kml)|*.kml"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -1030,8 +1053,10 @@ msgid "Enabled"
 msgstr "Используется"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr "Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
+msgid ""
+"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
+msgstr ""
+"Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -1215,21 +1240,17 @@ msgstr "Сформировать предыдущие слои спутнико�
 msgid "Generating upper zooms"
 msgstr "Генерация верхних уровней"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..LabelGsh1..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..LabelGsh1..Caption
 msgid "Genshtab Map boundaries:"
 msgstr "Отображать бланковку карт ГШ"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..CBGenshtabBorderText..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..CBGenshtabBorderText..Caption
 msgid "Genshtab Map names"
 msgstr "Отображать названия листов"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..Caption
 msgid "GenShtab Maps Boundaries"
 msgstr "Отображать бланковку карт ГШ"
-
-#. frmSettings..PageControl1..tsCache..grdpnlCache..lbGCCachePath..Caption
-msgid "GeoCacher root folder:"
-msgstr "Путь к кэшу GeoCacher"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
@@ -1379,9 +1400,6 @@ msgstr "Движение по инерции"
 #. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
 msgstr "Информация"
-
-msgid "Initialization of LibJPEG failed."
-msgstr "Инициализация JPEG библиотеки"
 
 msgid "Initialization of LibPNG failed."
 msgstr "Инициализация PNG библиотеки"
@@ -1814,7 +1832,7 @@ msgstr "только при их различии"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label28..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg3..Caption
 msgid "Opacity"
 msgstr "Прозрачность"
@@ -1963,7 +1981,8 @@ msgid "PlaceMarks"
 msgstr "Метки"
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
-msgid "Please choose another format (ECW, BMP, JP2) while stitching large images"
+msgid ""
+"Please choose another format (ECW, BMP, JP2) while stitching large images"
 msgstr "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
 
 #. Programmer's name for it: SAS_MSG_NeedHL
@@ -2123,7 +2142,8 @@ msgstr "Восстановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
 msgid "Restore download from last successful tile"
-msgstr "Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
+msgstr ""
+"Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
 
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
@@ -2283,7 +2303,8 @@ msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
 "Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output format (ECW is the best)."
+"Try select smaller region to stitch in %s or select other output format (ECW "
+"is the best)."
 msgstr ""
 
 #. frmLonLatRectEdit..Caption
@@ -2647,7 +2668,8 @@ msgstr "Невозможно определить позицию"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+msgstr ""
+"Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
 msgid "Unexpected content type"
@@ -2938,6 +2960,12 @@ msgstr "Масштабы:"
 #. frExportToJNX..pnlCenter..pnlMain..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "GeoCacher root folder:"
+#~ msgstr "Путь к кэшу GeoCacher"
+
+#~ msgid "Initialization of LibJPEG failed."
+#~ msgstr "Инициализация JPEG библиотеки"
 
 #~ msgid "SAS Palnet"
 #~ msgstr "SAS.Планета"
