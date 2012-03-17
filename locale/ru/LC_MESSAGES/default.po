@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-03-14 10:40\n"
-"PO-Revision-Date: 2012-03-14 11:40+0400\n"
+"POT-Creation-Date: 2012-03-17 16:51\n"
+"PO-Revision-Date: 2012-03-17 17:09+0200\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -600,7 +600,7 @@ msgstr "см"
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label27..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr "Цвет"
@@ -1215,17 +1215,21 @@ msgstr "Сформировать предыдущие слои спутнико�
 msgid "Generating upper zooms"
 msgstr "Генерация верхних уровней"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..LabelGsh1..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..LabelGsh1..Caption
 msgid "Genshtab Map boundaries:"
 msgstr "Отображать бланковку карт ГШ"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..CBGenshtabBorderText..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..CBGenshtabBorderText..Caption
 msgid "Genshtab Map names"
 msgstr "Отображать названия листов"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..Caption
 msgid "GenShtab Maps Boundaries"
 msgstr "Отображать бланковку карт ГШ"
+
+#. frmSettings..PageControl1..tsCache..grdpnlCache..lbGCCachePath..Caption
+msgid "GeoCacher root folder:"
+msgstr "Путь к кэшу GeoCacher"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
@@ -1807,7 +1811,7 @@ msgstr "только при их различии"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label28..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight.pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg3..Caption
 msgid "Opacity"
 msgstr "Прозрачность"
@@ -2060,6 +2064,10 @@ msgstr "и пароль:"
 #. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
 msgid "Quality (for JPEG and ECW):"
 msgstr "Качество (для JPEG и ECW):"
+
+#. Programmer's name for it: SAS_STR_queue
+msgid "Queue"
+msgstr "Осталось"
 
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
@@ -2936,11 +2944,3 @@ msgstr "Масштабы:"
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
 
-#~ msgid "GeoCacher root folder:"
-#~ msgstr "Путь к кэшу GeoCacher"
-
-#~ msgid "Initialization of LibJPEG failed."
-#~ msgstr "Инициализация JPEG библиотеки"
-
-#~ msgid "SAS Palnet"
-#~ msgstr "SAS.Планета"
