@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-03-17 16:51\n"
-"PO-Revision-Date: 2012-03-17 16:51\n"
+"POT-Creation-Date: 2012-03-31 09:53\n"
+"PO-Revision-Date: 2012-03-31 09:53\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -260,7 +260,7 @@ msgstr ""
 msgid "Add to Database"
 msgstr ""
 
-#. frmMain..TBDock..GPSToolbar..TBGPSPath..TBItem5..Caption
+#. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmGPSTrackSaveToMarks..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackSaveToDb..Caption
 msgid "Add Track to Database"
 msgstr ""
@@ -269,7 +269,7 @@ msgstr ""
 msgid "Add visible placemarks"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N26..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..Caption
 msgid "Additional Operations"
 msgstr ""
 
@@ -575,7 +575,7 @@ msgstr ""
 msgid "Category:"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N28..Caption
+#. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With Zoom"
 msgstr ""
 
@@ -670,7 +670,7 @@ msgid "Control"
 msgstr ""
 
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
-#. frmMain..MainPopupMenu..N43..N30..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 msgid "Coordinates"
 msgstr ""
 
@@ -687,7 +687,7 @@ msgstr ""
 msgid "Copy TID's to clipboard"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
 msgid "Copy to Clipboard"
 msgstr ""
 
@@ -716,11 +716,11 @@ msgstr ""
 msgid "Create Shortcut"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N26..NGTOPO30..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N26..NSRTM3..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NSRTM3..Caption
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr ""
 
@@ -735,6 +735,26 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
 msgid "Current Zoom"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid1p..Caption
+msgid "Current Zoom + 1"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid2p..Caption
+msgid "Current Zoom + 2"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid3p..Caption
+msgid "Current Zoom + 3"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid4p..Caption
+msgid "Current Zoom + 4"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid5p..Caption
+msgid "Current Zoom + 5"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
@@ -952,7 +972,7 @@ msgstr ""
 msgid "Download Overlay Layer Tile to Cache"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N21..Caption
+#. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr ""
 
@@ -1373,13 +1393,17 @@ msgstr ""
 msgid "Ignore polygons"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
+msgid "Image postprocess"
+msgstr ""
+
 #. frmDGAvailablePic..gbImagesSource..Caption
 msgid "Image services"
 msgstr ""
 
 #. frmDGAvailablePic..Caption
 #. frmDGAvailablePic..gbAvailImages..Caption
-#. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr ""
 
@@ -1840,7 +1864,7 @@ msgstr ""
 msgid "Open Overlay Layer Tile Folder"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N25..Caption
+#. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr ""
 
@@ -1902,12 +1926,13 @@ msgstr ""
 msgid "Path parameters"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..N15..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
 msgstr ""
 
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..Button1..Caption
+#. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
 msgstr ""
 
@@ -2021,7 +2046,7 @@ msgstr ""
 msgid "Primary color"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..N20..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTile..Caption
 msgid "Primary Map Tile"
 msgstr ""
 
@@ -2116,6 +2141,10 @@ msgstr ""
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
+msgid "Reset to default"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..Label16..Caption
@@ -2614,6 +2643,10 @@ msgstr ""
 msgid "Time to reach:"
 msgstr ""
 
+#. frmIntrnalBrowser..imgViewImage..Bitmap.ResamplerClassName
+msgid "TLinearResampler"
+msgstr ""
+
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
 msgid "to"
 msgstr ""
@@ -2683,35 +2716,35 @@ msgstr ""
 msgid "Upper left corner"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
 msgid "URL to Bing Maps"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
 msgid "URL to Google Maps"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..TBCopyLinkLayer..Caption
 msgid "URL to Layer Tile"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..nokiamapcreator1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
 msgid "URL to Nokia Map Creator"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..osmorg1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
 msgid "URL to osm.org"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..N13..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr ""
 
-#. frmMain..MainPopupMenu..N43..YaLink..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
 msgid "URL to Yandex.Maps"
 msgstr ""
 

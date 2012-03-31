@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-03-17 16:51\n"
-"PO-Revision-Date: 2012-03-17 17:09+0200\n"
+"POT-Creation-Date: 2012-03-31 09:53\n"
+"PO-Revision-Date: 2012-03-31 10:05+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -58,7 +58,7 @@ msgstr "&Вид"
 #. frmDGAvailablePic..gbImagesSource..lbZoom..Hint
 #. frmDGAvailablePic..gbImagesSource..lbZoom..Caption
 msgid "(zoom %)"
-msgstr ""
+msgstr "(масштаб %)"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..CB_GPSlogGPX..Caption
 msgid ".gpx"
@@ -258,7 +258,7 @@ msgstr "Добавлять тайлы в существующую базу"
 msgid "Add to Database"
 msgstr "Сохранить в базе"
 
-#. frmMain..TBDock..GPSToolbar..TBGPSPath..TBItem5..Caption
+#. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmGPSTrackSaveToMarks..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackSaveToDb..Caption
 msgid "Add Track to Database"
 msgstr "Сохранить трек в базе"
@@ -267,7 +267,7 @@ msgstr "Сохранить трек в базе"
 msgid "Add visible placemarks"
 msgstr "Накладывать отображаемые метки"
 
-#. frmMain..MainPopupMenu..N26..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..Caption
 msgid "Additional Operations"
 msgstr "Дополнительные операции"
 
@@ -567,7 +567,7 @@ msgstr "Ошибка сохранения изображения заданно�
 msgid "Category:"
 msgstr "Категория:"
 
-#. frmMain..MainPopupMenu..N28..Caption
+#. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With Zoom"
 msgstr "Центрировать с масштабом"
 
@@ -664,7 +664,7 @@ msgid "Control"
 msgstr "Управление"
 
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
-#. frmMain..MainPopupMenu..N43..N30..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 msgid "Coordinates"
 msgstr "Координаты"
 
@@ -681,7 +681,7 @@ msgstr "Скопировать"
 msgid "Copy TID's to clipboard"
 msgstr "Копировать выбранные TID для вставки в URL"
 
-#. frmMain..MainPopupMenu..N43..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
 msgid "Copy to Clipboard"
 msgstr "Копировать в буфер обмена"
 
@@ -709,11 +709,11 @@ msgstr "Создавать файл привязки:"
 msgid "Create Shortcut"
 msgstr "Сохранить ярлык"
 
-#. frmMain..MainPopupMenu..N26..NGTOPO30..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr "Высота над уровнем моря GTOPO30 (разрешение ~1 км)"
 
-#. frmMain..MainPopupMenu..N26..NSRTM3..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NSRTM3..Caption
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "Высота над уровнем моря SRTM3 (разрешение ~90 м)"
 
@@ -729,6 +729,26 @@ msgstr "Активный масштаб"
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
 msgid "Current Zoom"
 msgstr "Текущий масштаб карты"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid1p..Caption
+msgid "Current Zoom + 1"
+msgstr "Активный масштаб +1"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid2p..Caption
+msgid "Current Zoom + 2"
+msgstr "Активный масштаб +2"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid3p..Caption
+msgid "Current Zoom + 3"
+msgstr "Активный масштаб +3"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid4p..Caption
+msgid "Current Zoom + 4"
+msgstr "Активный масштаб +4"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid5p..Caption
+msgid "Current Zoom + 5"
+msgstr "Активный масштаб +5"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
 msgid "Default cache type"
@@ -929,7 +949,7 @@ msgstr "Для карты %0:s отключена загрузка тайлов 
 msgid "Download Overlay Layer Tile to Cache"
 msgstr "Загрузить тайл слоя"
 
-#. frmMain..MainPopupMenu..N21..Caption
+#. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr "Загрузить тайл основной карты (Ins+MLeft)"
 
@@ -1350,13 +1370,17 @@ msgstr "Игнорировать метки"
 msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
+msgid "Image postprocess"
+msgstr "Коррекция изображения"
+
 #. frmDGAvailablePic..gbImagesSource..Caption
 msgid "Image services"
 msgstr "Картографический сервис"
 
 #. frmDGAvailablePic..Caption
 #. frmDGAvailablePic..gbAvailImages..Caption
-#. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr "Доступные снимки"
 
@@ -1831,7 +1855,7 @@ msgstr "Прозрачность %"
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Открыть папку, содержащую тайл слоя"
 
-#. frmMain..MainPopupMenu..N25..Caption
+#. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr "Открыть папку, содержащую тайл основной карты"
 
@@ -1893,12 +1917,13 @@ msgstr "Путь %0:d"
 msgid "Path parameters"
 msgstr "Параметры путей"
 
-#. frmMain..MainPopupMenu..N43..N15..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
 msgstr "Полный путь к тайлу"
 
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..Button1..Caption
+#. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
 msgstr "Пауза"
 
@@ -2011,7 +2036,7 @@ msgstr "Отображать последнее выделение"
 msgid "Primary color"
 msgstr "Основной цвет"
 
-#. frmMain..MainPopupMenu..N43..N20..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTile..Caption
 msgid "Primary Map Tile"
 msgstr "Тайл основной карты"
 
@@ -2109,6 +2134,10 @@ msgstr "Необходимый набор точек отсутствует!"
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Сбросить"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
+msgid "Reset to default"
+msgstr "По умолчанию"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..Label16..Caption
 msgid "Resize algorithm"
@@ -2618,6 +2647,10 @@ msgstr "Осталось времени:"
 msgid "Time to reach:"
 msgstr "Время в пути: "
 
+#. frmIntrnalBrowser..imgViewImage..Bitmap.ResamplerClassName
+msgid "TLinearResampler"
+msgstr ""
+
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
 msgid "to"
 msgstr "до"
@@ -2689,35 +2722,35 @@ msgstr "Вверх"
 msgid "Upper left corner"
 msgstr "Левый верхний угол"
 
-#. frmMain..MainPopupMenu..N43..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
 msgid "URL to Bing Maps"
 msgstr "Ссылку для просмотра в Bing Maps"
 
-#. frmMain..MainPopupMenu..N43..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
 msgid "URL to Google Maps"
 msgstr "Ссылку для просмотра в Google Maps"
 
-#. frmMain..MainPopupMenu..N43..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "Ссылку для просмотра в kosmosnimki.ru"
 
-#. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..TBCopyLinkLayer..Caption
 msgid "URL to Layer Tile"
 msgstr "Ссылку на тайл слоя"
 
-#. frmMain..MainPopupMenu..N43..nokiamapcreator1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
 msgid "URL to Nokia Map Creator"
 msgstr "Ссылку для Nokia Map Creator"
 
-#. frmMain..MainPopupMenu..N43..osmorg1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
 msgid "URL to osm.org"
 msgstr "Ссылку для просмотра в osm.org"
 
-#. frmMain..MainPopupMenu..N43..N13..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Ссылку на тайл основной карты"
 
-#. frmMain..MainPopupMenu..N43..YaLink..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
 msgid "URL to Yandex.Maps"
 msgstr "Ссылку для просмотра на Яндекс.Картах"
 

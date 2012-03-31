@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-03-17 16:51\n"
+"POT-Creation-Date: 2012-03-31 09:53\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -258,7 +258,7 @@ msgstr "Додавати тайли в існуючу базу"
 msgid "Add to Database"
 msgstr "Зберегти у базі"
 
-#. frmMain..TBDock..GPSToolbar..TBGPSPath..TBItem5..Caption
+#. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmGPSTrackSaveToMarks..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackSaveToDb..Caption
 msgid "Add Track to Database"
 msgstr "Зберегти маршрут у базі"
@@ -267,7 +267,7 @@ msgstr "Зберегти маршрут у базі"
 msgid "Add visible placemarks"
 msgstr "Накладати позначки, що показуються"
 
-#. frmMain..MainPopupMenu..N26..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..Caption
 msgid "Additional Operations"
 msgstr "Додаткові операції"
 
@@ -611,7 +611,7 @@ msgstr ""
 msgid "Category:"
 msgstr "Категорія:"
 
-#. frmMain..MainPopupMenu..N28..Caption
+#. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With Zoom"
 msgstr "Центрувати з масштабом"
 
@@ -712,7 +712,7 @@ msgid "Control"
 msgstr "Керування"
 
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
-#. frmMain..MainPopupMenu..N43..N30..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 msgid "Coordinates"
 msgstr "Координати"
 
@@ -729,7 +729,7 @@ msgstr "Скопіювати"
 msgid "Copy TID's to clipboard"
 msgstr "Копіювати вибрані tid для вставки у посилання"
 
-#. frmMain..MainPopupMenu..N43..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
 msgid "Copy to Clipboard"
 msgstr "Копіювати у буфер обміну"
 
@@ -757,11 +757,11 @@ msgstr "Створювати файл прив’язки:"
 msgid "Create Shortcut"
 msgstr "Зберегти ярлик"
 
-#. frmMain..MainPopupMenu..N26..NGTOPO30..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr "Висота над рівнем моря GTOPO30 (дозвіл ~1 км)"
 
-#. frmMain..MainPopupMenu..N26..NSRTM3..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NSRTM3..Caption
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "Висота над рівнем моря SRTM3 (дозвіл ~90 м)"
 
@@ -776,6 +776,31 @@ msgstr "Активний масштаб"
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
 msgid "Current Zoom"
+msgstr "Масштаб карти, на якому Ви знаходитесь"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid1p..Caption
+#, fuzzy
+msgid "Current Zoom + 1"
+msgstr "Масштаб карти, на якому Ви знаходитесь"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid2p..Caption
+#, fuzzy
+msgid "Current Zoom + 2"
+msgstr "Масштаб карти, на якому Ви знаходитесь"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid3p..Caption
+#, fuzzy
+msgid "Current Zoom + 3"
+msgstr "Масштаб карти, на якому Ви знаходитесь"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid4p..Caption
+#, fuzzy
+msgid "Current Zoom + 4"
+msgstr "Масштаб карти, на якому Ви знаходитесь"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid5p..Caption
+#, fuzzy
+msgid "Current Zoom + 5"
 msgstr "Масштаб карти, на якому Ви знаходитесь"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
@@ -990,7 +1015,7 @@ msgstr "Для карти %0:s вимкнуто завантаження тай�
 msgid "Download Overlay Layer Tile to Cache"
 msgstr "Завантажити тайл шару"
 
-#. frmMain..MainPopupMenu..N21..Caption
+#. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr "Завантажити тайл основної карти (Ins+MLeft)"
 
@@ -1423,6 +1448,11 @@ msgstr "Ігнорувати позначки"
 msgid "Ignore polygons"
 msgstr "Ігнорувати полігони"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
+#, fuzzy
+msgid "Image postprocess"
+msgstr "Вибір стека знімків"
+
 #. frmDGAvailablePic..gbImagesSource..Caption
 #, fuzzy
 msgid "Image services"
@@ -1430,7 +1460,7 @@ msgstr "Вибір стека знімків"
 
 #. frmDGAvailablePic..Caption
 #. frmDGAvailablePic..gbAvailImages..Caption
-#. frmMain..MainPopupMenu..N26..DigitalGlobe1..Caption
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr "Доступні знімки"
 
@@ -1913,7 +1943,7 @@ msgstr "Прозорість %"
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Відкрити теку, що містить тайл шару"
 
-#. frmMain..MainPopupMenu..N25..Caption
+#. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr "Відкрити теку, що містить тайл основної карти"
 
@@ -1976,12 +2006,13 @@ msgstr "Шлях %0:d"
 msgid "Path parameters"
 msgstr "Параметри шляхів"
 
-#. frmMain..MainPopupMenu..N43..N15..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
 msgstr "Відносний шлях до зображення"
 
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..Button1..Caption
+#. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
 msgstr "Пауза"
 
@@ -2102,7 +2133,7 @@ msgstr "Останнє виділення"
 msgid "Primary color"
 msgstr "Основний колір"
 
-#. frmMain..MainPopupMenu..N43..N20..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTile..Caption
 msgid "Primary Map Tile"
 msgstr "Тайл основної карти"
 
@@ -2199,6 +2230,11 @@ msgstr "Відсутній потрібний набір точок!"
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Скинути"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
+#, fuzzy
+msgid "Reset to default"
+msgstr "Стандартно"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..Label16..Caption
 msgid "Resize algorithm"
@@ -2721,6 +2757,10 @@ msgstr "Залишилось часу:"
 msgid "Time to reach:"
 msgstr "Час шляху: "
 
+#. frmIntrnalBrowser..imgViewImage..Bitmap.ResamplerClassName
+msgid "TLinearResampler"
+msgstr ""
+
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
 msgid "to"
 msgstr "до"
@@ -2792,36 +2832,36 @@ msgstr "Вгору"
 msgid "Upper left corner"
 msgstr "Лівий верхній кут"
 
-#. frmMain..MainPopupMenu..N43..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
 msgid "URL to Bing Maps"
 msgstr "Посилання для перегляду на Maps.live.com"
 
-#. frmMain..MainPopupMenu..N43..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
 msgid "URL to Google Maps"
 msgstr "Посилання для перегляду на Google Maps"
 
-#. frmMain..MainPopupMenu..N43..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "Посилання для перегляду на Kosmosnimki.ru"
 
-#. frmMain..MainPopupMenu..N43..TBCopyLinkLayer..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..TBCopyLinkLayer..Caption
 msgid "URL to Layer Tile"
 msgstr "Посилання на тайл шару"
 
-#. frmMain..MainPopupMenu..N43..nokiamapcreator1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
 #, fuzzy
 msgid "URL to Nokia Map Creator"
 msgstr "Посилання на тайл основної карти"
 
-#. frmMain..MainPopupMenu..N43..osmorg1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
 msgid "URL to osm.org"
 msgstr "Посилання для перегляду на osm.org"
 
-#. frmMain..MainPopupMenu..N43..N13..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Посилання на тайл основної карти"
 
-#. frmMain..MainPopupMenu..N43..YaLink..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
 msgid "URL to Yandex.Maps"
 msgstr "Посилання для перегляду на Яндекс.Карты"
 
