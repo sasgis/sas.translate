@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-03-31 09:53\n"
+"POT-Creation-Date: 2012-04-25 10:35\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -2658,6 +2658,10 @@ msgstr "Зберігати інформацію про відсутність т
 msgid "Task"
 msgstr "Операція"
 
+#. frmDGAvailablePic..gbImagesSource..chkTerraserver..Caption
+msgid "Terraserver"
+msgstr ""
+
 #. frMarksGeneralOptions..grpPoint..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
@@ -2860,6 +2864,11 @@ msgstr "Посилання для перегляду на osm.org"
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Посилання на тайл основної карти"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
+#, fuzzy
+msgid "URL to Terraserver"
+msgstr "Посилання на тайл шару"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
 msgid "URL to Yandex.Maps"
