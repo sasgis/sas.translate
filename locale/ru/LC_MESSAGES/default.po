@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-04-25 10:35\n"
-"PO-Revision-Date: 2012-04-25 10:38+0400\n"
+"POT-Creation-Date: 2012-06-19 10:48\n"
+"PO-Revision-Date: 2012-06-19 12:21+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -60,6 +60,14 @@ msgstr "&Вид"
 msgid "(zoom %)"
 msgstr "(масштаб %)"
 
+#. frExportToCE..dlgSaveTargetFile..Filter
+msgid "*.d00|*.d00|All (*.*)|*.*"
+msgstr ""
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..edtDefExtention..Text
+msgid "*.jpg"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..CB_GPSlogGPX..Caption
 msgid ".gpx"
 msgstr ""
@@ -76,7 +84,7 @@ msgstr ""
 msgid "/pixel"
 msgstr "/пикс."
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "0 - BirdsEye"
 msgstr ""
 
@@ -96,6 +104,10 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale50000..Caption
 msgid "0.5°"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "1.2km"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale1000000..Caption
@@ -142,51 +154,170 @@ msgstr ""
 msgid "12 km 423 m"
 msgstr "12 км 423 м"
 
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "120km"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "120m"
+msgstr ""
+
+#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes..Text
+#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
+msgid "128x128 pix"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "12km"
+msgstr "12км"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "12m"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale100000..Caption
 msgid "1°"
 msgstr ""
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "2 - BirdsEye Select EIRE"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "200km"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "200m"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "20km"
+msgstr "20км"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "20m"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "23.4 km"
 msgstr "23,4 км"
 
+#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
+msgid "256x256 pix"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "2km"
+msgstr "2км"
+
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale200000..Caption
 msgid "2°"
 msgstr ""
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "3 - BirdsEye Select Deutschland"
 msgstr ""
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "300km"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "300m"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "30km"
+msgstr "30км"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "30m"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "3km"
+msgstr "3км"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "4 - BirdsEye Select Great Britain"
 msgstr ""
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "5 - BirdsEye Select France"
 msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "500km"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "500m"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "50km"
+msgstr "50км"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "50m"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "5km"
+msgstr "5км"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "5m"
+msgstr "5м"
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale500000..Caption
 msgid "5°"
 msgstr ""
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "6 - BirdsEye Select Kompass - Switzerland"
 msgstr ""
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "7 - BirdsEye Select Kompass - Austria + East Alps"
 msgstr ""
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "8 - USGS Quads (BirdsEye TOPO, U.S. and Canada)"
 msgstr ""
 
-#. frExportToJNX..pnlCenter..pnlMain..EProductID....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "800km"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "800m"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "80km"
+msgstr "80км"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "80m"
+msgstr ""
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "8km"
+msgstr "8км"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
+msgid "8m"
+msgstr "8м"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "9 - NRC TopoRama (BirdsEye TOPO, U.S. and Canada)"
 msgstr ""
 
@@ -263,9 +394,14 @@ msgstr "Сохранить в базе"
 msgid "Add Track to Database"
 msgstr "Сохранить трек в базе"
 
+#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
 msgstr "Накладывать отображаемые метки"
+
+#. frExportToJNX..PageControl1..Info..Caption
+msgid "Additional"
+msgstr "Дополнительные операции"
 
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..Caption
 msgid "Additional Operations"
@@ -275,8 +411,8 @@ msgstr "Дополнительные операции"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..CheckBox2..Caption
 #. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
+#. frExportToCE..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
-#. frExportToJNX..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
@@ -288,30 +424,12 @@ msgid "All by default"
 msgstr "Все по умолчанию"
 
 #. frmMarksExplorer..OpenDialog1....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*."
-"hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*."
-"hlg|GPS Exchange files (*.gpx)|*.gpx"
-msgstr ""
-"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*."
-"hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*."
-"hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgid "All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgstr "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 
 #. frmMain..OpenSessionDialog....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
-"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
-"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
-"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
-"gpx"
-msgstr ""
-"Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
-"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
-"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия "
-"загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*."
-"gpx)|*.gpx"
+msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgstr "Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -375,8 +493,7 @@ msgstr "Автопоиск:"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
-msgstr ""
-"Автоматически определять параметры базовых станций через подключенный телефон"
+msgstr "Автоматически определять параметры базовых станций через подключенный телефон"
 
 # GB_GpsTrackSave
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
@@ -413,6 +530,8 @@ msgstr "Батарея:"
 
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes..Text
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 msgid "BerkeleyDB"
 msgstr ""
@@ -434,6 +553,10 @@ msgstr "Скорость"
 msgid "Bluetooth"
 msgstr ""
 
+#. frExportToOgf2..pnlCenter..pnlMain..cbbImageFormat....Items.Strings
+msgid "BMP"
+msgstr ""
+
 msgid "BMP: Fill line failure!"
 msgstr ""
 
@@ -447,50 +570,17 @@ msgstr "Цвет окаймления"
 msgid "By Bicycle (Fastest)"
 msgstr "На велосипеде (по скорости)"
 
-msgid "By bicycle (Fastest) with cloudmade.com"
-msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com (OSM))"
-
-msgid "By bicycle (Fastest) with yournavigation.org"
-msgstr "На велосипеде (по скорости, средствами yournavigation.org (OSM))"
-
 msgid "By Bicycle (Shortest)"
 msgstr "На велосипеде (по расстоянию)"
-
-msgid "By bicycle (Shortest) with cloudmade.com"
-msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com (OSM))"
-
-msgid "By bicycle (Shortest) with yournavigation.org"
-msgstr "На велосипеде (по расстоянию, средствами yournavigation.org (OSM))"
 
 msgid "By Car (Fastest with traffic)"
 msgstr "На автомобиле (по скорости с учетом дор. обстановки)"
 
-msgid "By car (Fastest with traffic) with Maps@mail.ru"
-msgstr "На автомобиле (по расстоянию,  средствами Maps@mail.ru)"
-
 msgid "By Car (Fastest)"
 msgstr "На автомобиле (по скорости)"
 
-msgid "By car (Fastest) with cloudmade.com"
-msgstr "На автомобиле (по скорости, средствами maps.cloudmade.com (OSM))"
-
-msgid "By car (Fastest) with Maps@mail.ru"
-msgstr "На автомобиле (по скорости, средствами Maps@mail.ru)"
-
-msgid "By car (Fastest) with yournavigation.org"
-msgstr "На автомобиле (по скорости, средствами yournavigation.org (OSM))"
-
 msgid "By Car (Shortest)"
 msgstr "На автомобиле (по расстоянию)"
-
-msgid "By car (Shortest) with cloudmade.com"
-msgstr "На автомобиле (по расстоянию, средствами maps.cloudmade.com (OSM))"
-
-msgid "By car (Shortest) with Maps@mail.ru"
-msgstr "На автомобиле (по расстоянию, средствами Maps@mail.ru)"
-
-msgid "By car (Shortest) with yournavigation.org"
-msgstr "На автомобиле (по расстоянию, средствами yournavigation.org (OSM))"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBCOORD..Caption
 msgid "By Coordinates"
@@ -511,14 +601,8 @@ msgstr "По умолчанию"
 msgid "By Foot (Fastest)"
 msgstr "Пешком (по скорости)"
 
-msgid "By foot (Fastest) with cloudmade.com"
-msgstr "Пешком (по скорости, средствами maps.cloudmade.com (OSM))"
-
 msgid "By Foot (Shortest)"
 msgstr "Пешком (по расстоянию)"
-
-msgid "By foot (Shortest) with cloudmade.com"
-msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com (OSM))"
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
 #. frmSettings..PageControl1..tsCache..Caption
@@ -529,9 +613,14 @@ msgstr "Кэш"
 msgid "Cache folder"
 msgstr "Папка в кэше"
 
-#. frmSettings..PageControl1..tsMaps..MapList......Caption
+#. frMapsList..MapList......Caption
 msgid "Cache Folder"
 msgstr "Папка в кэше"
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..tbitmCacheManager..Caption
+#. frmCacheManager..Caption
+msgid "Cache Manager"
+msgstr "Управление кэшем"
 
 #. frmMapTypeEdit..pnlCacheType..lblCacheType..Caption
 msgid "Cache type"
@@ -566,6 +655,7 @@ msgstr "Карта заполнения:"
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
+#. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -599,11 +689,16 @@ msgstr "Текущая позиция всегда в центре"
 msgid "Charging"
 msgstr "Заряжается"
 
+#. frExportToCE..pnlCenter..pnlRight..CheckBox1..Caption
+msgid "CheckBox1"
+msgstr ""
+
 #. frmAbout..pnlBottom..btnClose..Caption
 msgid "Close"
 msgstr "Закрыть"
 
 #. frmRegionProcess..pnlBottomButtons..CBCloseWithStart..Caption
+#. frmCacheManager..pnlBottomButtons..chkCloseWithStart..Caption
 msgid "Close this window after start"
 msgstr "Закрыть окно после старта"
 
@@ -624,6 +719,10 @@ msgstr "см"
 msgid "Color"
 msgstr "Цвет"
 
+#. frExportToCE..pnlCenter..pnlMain..CComment..Caption
+msgid "Comment"
+msgstr "Комментарий"
+
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineForum..Caption
 msgid "Community  (http://www.sasgis.ru/forum)"
 msgstr "Обсуждение (http://sasgis.ru/forum)"
@@ -637,12 +736,8 @@ msgstr ""
 "%0:s"
 
 #. frmMarksExplorer..ExportDialog....Filter
-msgid ""
-"Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|"
-"*.kml"
-msgstr ""
-"Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
-"(kml)|*.kml"
+msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
+msgstr "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -653,7 +748,7 @@ msgid "Compressing to ZIP"
 msgstr "Упаковка в ZIP"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
-#. frExportToJNX..pnlCenter..pnlMain..lblCompress..Caption
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
 msgid "Compression:"
@@ -685,6 +780,10 @@ msgstr "Контрастность"
 #. frmSettings..PageControl1..tsControl..Caption
 msgid "Control"
 msgstr "Управление"
+
+#. frmCacheManager..PageControl1..tsConverter..Caption
+msgid "Convert Cache Format"
+msgstr "Смена формата кэша"
 
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
@@ -833,44 +932,9 @@ msgstr "Удаляет:"
 msgid "Description:"
 msgstr "Описание"
 
-msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
-msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com (OSM))"
-
-msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
-msgstr "На велосипеде (по скорости, средствами yournavigation.org (OSM))"
-
-msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
-msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com (OSM))"
-
-msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
-msgstr "На велосипеде (по расстоянию, средствами yournavigation.org (OSM))"
-
-msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
-msgstr "На автомобиле (по расстоянию,  средствами Maps@mail.ru)"
-
-msgid "Detalize route by car (Fastest) with cloudmade.com"
-msgstr "На автомобиле (по скорости, средствами maps.cloudmade.com (OSM))"
-
-msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-msgstr "На автомобиле (по скорости, средствами Maps@mail.ru)"
-
-msgid "Detalize route by car (Fastest) with yournavigation.org"
-msgstr "На автомобиле (по скорости, средствами yournavigation.org (OSM))"
-
-msgid "Detalize route by car (Shortest) with cloudmade.com"
-msgstr "На автомобиле (по расстоянию, средствами maps.cloudmade.com (OSM))"
-
-msgid "Detalize route by car (Shortest) with Maps@mail.ru"
-msgstr "На автомобиле (по расстоянию, средствами Maps@mail.ru)"
-
-msgid "Detalize route by car (Shortest) with yournavigation.org"
-msgstr "На автомобиле (по расстоянию, средствами yournavigation.org (OSM))"
-
-msgid "Detalize route by foot (Fastest) with cloudmade.com"
-msgstr "Пешком (по скорости, средствами maps.cloudmade.com (OSM))"
-
-msgid "Detalize route by foot (Shortest) with cloudmade.com"
-msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com (OSM))"
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..Caption
+msgid "Dest Cache"
+msgstr "Результирующий кэш"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -938,8 +1002,8 @@ msgstr "Пройденный путь:"
 msgid "Don't store references to non-existent tiles"
 msgstr "Не сохранять пути к несуществующим тайлам"
 
+#. frMapsList..pnlMapsRightButtons..Button11..Caption
 #. frmDGAvailablePic..gbAvailImages..pnlRight..btnDown..Caption
-#. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button11..Caption
 msgid "Down"
 msgstr "Вниз"
 
@@ -1068,15 +1132,13 @@ msgstr "Пустое имя файла ZMP"
 msgid "Enable the following map types:"
 msgstr "Включить следующие типы карт:"
 
-#. frmSettings..PageControl1..tsMaps..MapList......Caption
+#. frMapsList..MapList......Caption
 msgid "Enabled"
 msgstr "Используется"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid ""
-"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr ""
-"Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
+msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
+msgstr "Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -1152,6 +1214,10 @@ msgstr "Экспорт выделенного участка в формат"
 msgid "Export visible placemarks"
 msgstr "Экспорт только отображаемых"
 
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblDefExtention..Caption
+msgid "Extention:"
+msgstr "Расширение:"
+
 #. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Failed
 msgid "Failed"
 msgstr "Ошибка"
@@ -1203,6 +1269,11 @@ msgstr "Размер шрифта"
 #. Programmer's name for it: SAS_STR_for
 msgid "For"
 msgstr "Для"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
+msgid "Format:"
+msgstr "Формат:"
 
 #. Programmer's name for it: SAS_STR_foundplace
 msgid "Found"
@@ -1287,6 +1358,7 @@ msgstr "Определить позицию по базовым станциям
 
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 msgid "GlobalMapper Tiles"
 msgstr "GlobalMapper Tiles"
 
@@ -1354,9 +1426,9 @@ msgstr "Не показывать метки"
 msgid "horizontally:"
 msgstr "по горизонтали, на"
 
+#. frMapsList..MapList......Caption
 #. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..lblHotKey..Caption
-#. frmSettings..PageControl1..tsMaps..MapList......Caption
 msgid "Hotkey"
 msgstr "Гор. кл."
 
@@ -1382,6 +1454,10 @@ msgstr "Иконка"
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
 msgstr "Размер иконки"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..chkIgnoreTNE..Caption
+msgid "Ignore *.tne"
+msgstr "Игнорировать *.tne"
 
 #. frMarksGeneralOptions..chkLineIgnore..Caption
 msgid "Ignore paths"
@@ -1425,7 +1501,7 @@ msgstr "GUID %0:s не соответствует формату"
 msgid "Inertial Movement"
 msgstr "Движение по инерции"
 
-#. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..btnMapInfo..Caption
+#. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
 msgstr "Информация"
 
@@ -1462,9 +1538,14 @@ msgid "JNX raster map for Garmin"
 msgstr "JNX растровая карта для Garmin"
 
 #
-#. frExportToJNX..pnlCenter..pnlMain..LVersion..Caption
+#. frExportToJNX..PageControl1..Info..PnlInfo..LVersion..Caption
 msgid "JNX version:"
 msgstr "Версия JNX:"
+
+#. frExportToOgf2..pnlCenter..pnlMain..cbbImageFormat..Text
+#. frExportToOgf2..pnlCenter..pnlMain..cbbImageFormat....Items.Strings
+msgid "JPEG"
+msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
@@ -1494,6 +1575,10 @@ msgstr "KMZ для Garmin"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
 msgid "Language"
 msgstr "Язык (Language)"
+
+#. frmProgressCacheConverter..lblLastTileName..Caption
+msgid "Last name:"
+msgstr "Имя последнего файла"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPrevious..Caption
 msgid "Last Selection"
@@ -1616,8 +1701,11 @@ msgstr "Операции с выделенной областью"
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
-#. frExportToJNX..pnlCenter..pnlMain..lblMap..Caption
+#. frExportToJNX..PageControl1..Map..Caption
+#. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
+#. frExportToJNX..PageControl1..Layer..Label_Map..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
@@ -1631,8 +1719,9 @@ msgstr "Использовать карту"
 msgid "Map Info"
 msgstr "Информация о карте"
 
-#. frmSettings..PageControl1..tsMaps..MapList......Caption
-#. frExportToJNX..pnlCenter..pnlMain..LMapName..Caption
+#. frMapsList..MapList......Caption
+#. frExportToCE..pnlCenter..pnlMain..CMapName..Caption
+#. frExportToJNX..PageControl1..Info..PnlInfo..LMapName..Caption
 msgid "Map Name"
 msgstr "Название карты"
 
@@ -1652,6 +1741,7 @@ msgstr "Параметры карты"
 msgid "Map Settings:"
 msgstr "Параметры карты:"
 
+#. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
 #. frTilesDownload..pnlBottom..pnlMain..lblMap..Caption
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblMap..Caption
@@ -1683,6 +1773,10 @@ msgstr "Отсутствующие тайлы"
 msgid "Marks Parameters"
 msgstr "Параметры меток"
 
+#. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
+msgid "Max volume size, Mb"
+msgstr "Размер тома, мб"
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedCaption
 msgid "Max.speed, km/h:"
 msgstr "Скорость макс., км/ч:"
@@ -1703,7 +1797,7 @@ msgstr "Мб"
 msgid "Measurements"
 msgstr "Измерения"
 
-#. frmSettings..PageControl1..tsMaps..MapList......Caption
+#. frMapsList..MapList......Caption
 msgid "Menu"
 msgstr "Путь в меню"
 
@@ -1712,6 +1806,7 @@ msgid "Minimap opacity"
 msgstr "Прозрачность карты обзора"
 
 #. frmProgressDownload..Panel1..pnlBottom..Button3..Caption
+#. frmProgressCacheConverter..pnlBottom..btnMinimize..Caption
 msgid "Minimize"
 msgstr "Свернуть"
 
@@ -1799,10 +1894,7 @@ msgstr ""
 msgid "No GPS receiver found"
 msgstr "Не найден приемник GPS"
 
-msgid "No one Map or Layer are selected!"
-msgstr "Не выбрано ни одной карты или слоя"
-
-#. frmDGAvailablePic..gbImagesSource..chkNMC..Caption
+#. frmDGAvailablePic..gbImagesSource..lbNMC..Caption
 msgid "Nokia map creator"
 msgstr ""
 
@@ -1835,6 +1927,18 @@ msgstr "Одометр"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2MenuItemName
 msgid "Odometer #2"
 msgstr "Одометр № 2"
+
+#. Programmer's name for it: SAS_STR_ExportOgf2PackCaption
+msgid "Ogf2 map for SmartComGPS 1.5x"
+msgstr ""
+
+#. frExportToOgf2..pnlCenter..pnlMain..lblImageFormat..Caption
+msgid "OGF2 tile format:"
+msgstr "OGF2 tile format:"
+
+#. frExportToOgf2..pnlCenter..pnlMain..lblTileRes..Caption
+msgid "OGF2 tile resolution:"
+msgstr ""
 
 #. frmMapTypeEdit..pnlBottomButtons..btnOk..Caption
 #. frmMarkCategoryEdit..pnlBottomButtons..btnOk..Caption
@@ -1906,6 +2010,9 @@ msgstr "Конвертировать в формат"
 msgid "Output format:"
 msgstr "Результирующий формат:"
 
+#. frExportToJNX..PageControl1..Layer..Caption
+#. frExportToJNX..PageControl1..Layer..PnlLayer..Llayer..Caption
+#. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblHybr..Caption
 msgid "Overlay layer:"
 msgstr "Наложить:"
@@ -1913,6 +2020,10 @@ msgstr "Наложить:"
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowMiniMap..Caption
 msgid "Overview Map"
 msgstr "Обзорная карта"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkOverwrite..Caption
+msgid "Overwrite exist tiles"
+msgstr "Перезаписать существующие тайлы"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
 msgid "Overwrite existing tiles"
@@ -1925,6 +2036,10 @@ msgstr "Заменять при совпадении"
 #. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
 msgid "Overwrite old tiles"
 msgstr "Заменять старые файлы"
+
+#. Programmer's name for it: SAS_STR_ExportCEPackCaption
+msgid "Packed cache for SAS4WinCE/SAS4Android"
+msgstr ""
 
 #. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
 msgid "Parameter"
@@ -1942,12 +2057,18 @@ msgstr "Путь %0:d"
 msgid "Path parameters"
 msgstr "Параметры путей"
 
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblPath..Caption
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestPath..Caption
+msgid "Path:"
+msgstr "Размещение:"
+
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
 msgstr "Полный путь к тайлу"
 
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..Button1..Caption
+#. frmProgressCacheConverter..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
 msgstr "Пауза"
@@ -1983,12 +2104,12 @@ msgstr "Экспорт метки"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbitmPlacemarkManager..Hint
 msgid "Placemark manager"
-msgstr "Параметры меток"
+msgstr "Управление метками"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbitmPlacemarkManager..Caption
 #. frmMarksExplorer..Caption
 msgid "Placemark Manager"
-msgstr "Параметры меток"
+msgstr "Управление метками"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..tbitmShowMarkCaption..Caption
 msgid "Placemark Names"
@@ -2010,8 +2131,7 @@ msgid "PlaceMarks"
 msgstr "Метки"
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
-msgid ""
-"Please choose another format (ECW, BMP, JP2) while stitching large images"
+msgid "Please choose another format (ECW, BMP, JP2) while stitching large images"
 msgstr "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
 
 #. Programmer's name for it: SAS_MSG_NeedHL
@@ -2024,11 +2144,16 @@ msgstr "Подождите, идет загрузка..."
 
 #. frmProgressDownload..Caption
 #. frmProgressSimple..Caption
+#. frmProgressCacheConverter..Caption
 msgid "Please wait..."
 msgstr "Пожалуйста, подождите..."
 
 msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
+
+#. frExportToOgf2..pnlCenter..pnlMain..cbbImageFormat....Items.Strings
+msgid "PNG"
+msgstr ""
 
 #. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
 msgid "PNG (Portable Network Graphics)"
@@ -2082,6 +2207,10 @@ msgstr "Обработано"
 msgid "Processed total:"
 msgstr "Всего обработано:"
 
+#. frmProgressCacheConverter..lblProcessedName..Caption
+msgid "Processed:"
+msgstr "Обработано:"
+
 #. Programmer's name for it: SAS_STR_ProcessedFile
 msgid "Processing tile: %0:s ..."
 msgstr "Обработка файла: %0:s ..."
@@ -2091,12 +2220,12 @@ msgid "Processing..."
 msgstr "Идет обработка..."
 
 #
-#. frExportToJNX..pnlCenter..pnlMain..LProductID..Caption
+#. frExportToJNX..PageControl1..Info..PnlInfo..LProductID..Caption
 msgid "Product ID"
 msgstr "Тип снимка (ID)"
 
 #
-#. frExportToJNX..pnlCenter..pnlMain..LProductName..Caption
+#. frExportToJNX..PageControl1..Info..PnlInfo..LProductName..Caption
 msgid "Product Name"
 msgstr "Наименование:"
 
@@ -2116,6 +2245,10 @@ msgstr "и пароль:"
 msgid "Quality (for JPEG and ECW):"
 msgstr "Качество (для JPEG и ECW):"
 
+#. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
+msgid "Quality (for JPEG):"
+msgstr "Качество (для JPEG):"
+
 #. Programmer's name for it: SAS_STR_queue
 msgid "Queue"
 msgstr "Осталось"
@@ -2124,6 +2257,7 @@ msgstr "Осталось"
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
 #. frmMain..TrayPopupMenu..TrayItemQuit..Caption
 #. frmProgressDownload..Panel1..pnlBottom..Button2..Caption
+#. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 msgid "Quit"
 msgstr "Выход"
 
@@ -2146,6 +2280,10 @@ msgstr "Период обновления (мс)"
 #. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Относительный путь к тайлам"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..chkRemove..Caption
+msgid "Remove tiles"
+msgstr "Удалить тайлы"
 
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
@@ -2179,8 +2317,7 @@ msgstr "Восстановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
 msgid "Restore download from last successful tile"
-msgstr ""
-"Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
+msgstr "Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
 
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
@@ -2203,6 +2340,9 @@ msgstr "Проложить маршрут"
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType..Text
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes..Text
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType..Text
@@ -2223,12 +2363,12 @@ msgstr ""
 msgid "Satellite"
 msgstr "Спутник"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..NSignalStrengthBar..Caption
-#. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Caption
+#. DGPS
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesMenuItemName
 msgid "Satellite Signal Strength"
 msgstr "Уровни сигнала"
 
-#. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..TBXLabel5..Caption
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesCaption
 msgid "Satellite Signal Strength:"
 msgstr "Уровни сигнала:"
 
@@ -2236,15 +2376,15 @@ msgstr "Уровни сигнала:"
 msgid "Satellites"
 msgstr "Спутники"
 
-#. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoVisible..lblSatInfoVisible..Caption
+#. frGpsSatellites..pnlSatInfoLegend..pnlSatInfoVisible..lblSatInfoVisible..Caption
 msgid "Satellites in range"
 msgstr "Видимые"
 
-#. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoActive..lblSatInfoActive..Caption
+#. frGpsSatellites..pnlSatInfoLegend..pnlSatInfoActive..lblSatInfoActive..Caption
 msgid "Satellites in use"
 msgstr "Активные спутники"
 
-#. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..pnlSatInfoLegend..pnlSatInfoZeroSignal..lblSatInfoZeroSignal..Caption
+#. frGpsSatellites..pnlSatInfoLegend..pnlSatInfoZeroSignal..lblSatInfoZeroSignal..Caption
 msgid "Satellites not in range"
 msgstr "Видимые с нулевым сигналом"
 
@@ -2265,6 +2405,10 @@ msgstr "Сохранять только полностью заполненны�
 msgid "Save PNG with alpha channel"
 msgstr "Сохранять  PNG с прозрачностью"
 
+#. frExportToCE..pnlCenter..pnlMain..SaveRecoverInfo..Caption
+msgid "Save recovery information"
+msgstr "Записывать информацию для восстановления"
+
 #. frmRegionProcess..pnlBottomButtons..SpeedButton1..Hint
 #. frTilesCopy..Panel1..Caption
 msgid "Save selection to file"
@@ -2273,8 +2417,10 @@ msgstr "Сохранить кэш  выделенного участка кар�
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
+#. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
@@ -2285,6 +2431,10 @@ msgstr "Куда сохранять:"
 #. Programmer's name for it: SAS_STR_Saves
 msgid "Saved"
 msgstr "Сохранено"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label2..Caption
+msgid "Scale"
+msgstr "Шкала"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowLine..Caption
 msgid "Scale Legend"
@@ -2340,14 +2490,12 @@ msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
 "Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output format (ECW "
-"is the best)."
+"Try select smaller region to stitch in %s or select other output format (ECW is the best)."
 msgstr ""
 "Выделенная область слишком велика для %s формата!\n"
 "Ширина = %d (max = %d)\n"
 "Высота = %d (max = %d)\n"
-"Уменьшите выделенную область склейки в %s или выберите другой формат (ECW - "
-"лучший)."
+"Уменьшите выделенную область склейки в %s или выберите другой формат (ECW - лучший)."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -2395,8 +2543,8 @@ msgstr "Сервис вернул тип \"%0:s\", а не один из ожи�
 msgid "Server timeout, ms"
 msgstr "Таймаут на сетевые операции, мс"
 
+#. frMapsList..pnlMapsRightButtons..Button15..Caption
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
-#. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button15..Caption
 msgid "Settings"
 msgstr "Параметры"
 
@@ -2466,7 +2614,7 @@ msgstr "Отображает текущую скорость движения"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
 msgid "Shows DGPS"
-msgstr "Отображать DGPS"
+msgstr "Отображает DGPS"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
@@ -2483,20 +2631,24 @@ msgstr "Отображает высоту над уровнем моря по д
 #
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoDescription
 msgid "Shows GPS Unit info"
-msgstr "Отображать информацию о GPS-приемнике"
+msgstr "Отображает информацию о GPS-приемнике"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
 msgid "Shows HDOP"
-msgstr "Отображать HDOP"
+msgstr "Отображает HDOP"
 
 #
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
 msgid "Shows local time"
-msgstr "Отображать местное время"
+msgstr "Отображает местное время"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedDescription
 msgid "Shows maximum speed"
 msgstr "Отображает максимальную скорость движения"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesDescription
+msgid "Shows Satellite Signal Strength bars"
+msgstr "Отображает уровни сигнала со спутника "
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingDescription
 msgid "Shows the course"
@@ -2510,19 +2662,19 @@ msgstr "Отображает весь пройденный путь"
 #
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeDescription
 msgid "Shows UTC time"
-msgstr "Отображать мировое время"
+msgstr "Отображает мировое время"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
 msgid "Shows VDOP"
-msgstr "Отображать VDOP"
-
-#. frmMain..TBDockRight..TBXSensorsBar..ScrollBox1..TBXDock1..TBXSignalStrengthBar..Hint
-msgid "Signal-to-noise ratio for satellites in use"
-msgstr "Отношение сигнал/шум для спутников, участвующих в определении позиции"
+msgstr "Отображает VDOP"
 
 #. Programmer's name for it: SAS_STR_Resolution
 msgid "size:"
 msgstr "размер:"
+
+#. frmProgressCacheConverter..lblSizeName..Caption
+msgid "Size:"
+msgstr "Размер:"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressCaption
 msgid "Size: %0:dx%1:d. Split to %2:d files"
@@ -2531,6 +2683,14 @@ msgstr "Размер: %0:dx%1:d. Разбить на %2:d файлов"
 #. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Skipped
 msgid "Skipped"
 msgstr ""
+
+#. frmProgressCacheConverter..lblSkippedName..Caption
+msgid "Skipped:"
+msgstr "Осталось:"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
+msgid "Source Cache"
+msgstr "Исходный кэш"
 
 #. frmMain..TBDock..SrcToolbar..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NsrcToolBarShow..Caption
@@ -2548,6 +2708,7 @@ msgstr "Разбить изображение"
 #. frmImportConfigEdit..btnOk..Caption
 #. frmMarksMultiEdit..btnOk..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
+#. frmCacheManager..pnlBottomButtons..btnStart..Caption
 msgid "Start"
 msgstr "Начать"
 
@@ -2578,6 +2739,10 @@ msgstr "Остановить"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
 msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
+
+#. frmProgressCacheConverter..Font.Name
+msgid "Tahoma"
+msgstr ""
 
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
@@ -2667,6 +2832,10 @@ msgstr "Такого изображения нет на сервере!"
 msgid "Tile is not found! Zero result size"
 msgstr "Такого изображения нет на сервере!"
 
+#. Programmer's name for it: SAS_STR_Tiles
+msgid "Tiles"
+msgstr "Тайлы"
+
 # NFillToolBar
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
 msgid "Time Interval"
@@ -2718,8 +2887,7 @@ msgstr "Невозможно определить позицию"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr ""
-"Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
 msgid "Unexpected content type"
@@ -2747,8 +2915,8 @@ msgstr "Неизвестно"
 msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
 
+#. frMapsList..pnlMapsRightButtons..Button12..Caption
 #. frmDGAvailablePic..gbAvailImages..pnlRight..btnUp..Caption
-#. frmSettings..PageControl1..tsMaps..pnlMapsRightButtons..Button12..Caption
 msgid "Up"
 msgstr "Вверх"
 
@@ -2805,6 +2973,7 @@ msgstr ""
 msgid "Use Age Gradient"
 msgstr "Существующие с градиентом"
 
+#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
 msgid "Use color settings"
 msgstr "Применять настройки цвета"
@@ -2834,6 +3003,11 @@ msgstr "Брать настройки подключения из реестра
 msgid "Use tile from lower zoom if tile not available"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 
+# pnlUsePrevTiles.chkUsePrevTiles
+#. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+msgid "Use tiles from lower zooms (on unavalible tile)"
+msgstr "Использовать вышележащие слои, если отсутствует текущий"
+
 #
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
@@ -2849,14 +3023,6 @@ msgstr "Мировое время (UTC)"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeCaption
 msgid "UTC time:"
 msgstr "Мировое время (UTC)"
-
-#. frExportToJNX..pnlCenter..pnlMain..v3..Caption
-msgid "v3"
-msgstr ""
-
-#. frExportToJNX..pnlCenter..pnlMain..v4..Caption
-msgid "v4"
-msgstr ""
 
 #. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
 msgid "Value"
@@ -2964,13 +3130,15 @@ msgstr "cредствами yournavigation.org (OSM)"
 msgid "Z:"
 msgstr ""
 
-#. frmSettings..PageControl1..tsMaps..MapList......Caption
+#. frMapsList..MapList......Caption
 msgid "ZMP Filename"
 msgstr "Путь к файлу"
 
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
+#. frmDGAvailablePic..gbImagesSource..lbNMCZoom..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
+#. Programmer's name for it: SAS_STR_Zoom
 msgid "Zoom"
 msgstr "Масштаб"
 
@@ -2994,6 +3162,7 @@ msgstr "Перемещать к курсору"
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
+#. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
 #. frTilesDownload..pnlBottom..pnlRight..lblZoom..Caption
@@ -3002,26 +3171,100 @@ msgstr "Масштаб:"
 
 #. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
+#. frExportToCE..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportToJNX..pnlCenter..pnlRight..lblZooms..Caption
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
 #. frExportYaMobileV3..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportYaMobileV4..pnlCenter..pnlRight..lblZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
 msgid "Zooms:"
 msgstr "Масштабы:"
 
-#. frExportToJNX..pnlCenter..pnlMain..LZOrder..Caption
+#. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
 
-#. fr_ExportToCE..fmCComment
-msgid "Comment"
-msgstr "Комментарий"
+#~ msgid "By bicycle (Fastest) with cloudmade.com"
+#~ msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com (OSM))"
 
-#. fr_ExportToCE..SaveRecoverInfo
-msgid "Save recovery information"
-msgstr "Записывать информацию для восстановления"
+#~ msgid "By bicycle (Fastest) with yournavigation.org"
+#~ msgstr "На велосипеде (по скорости, средствами yournavigation.org (OSM))"
 
-#. fr_ExportToCE..lVolSize
-msgid "Max volume size, Mb"
-msgstr "Размер тома, мб"
+#~ msgid "By bicycle (Shortest) with cloudmade.com"
+#~ msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "By bicycle (Shortest) with yournavigation.org"
+#~ msgstr "На велосипеде (по расстоянию, средствами yournavigation.org (OSM))"
+
+#~ msgid "By car (Fastest with traffic) with Maps@mail.ru"
+#~ msgstr "На автомобиле (по расстоянию,  средствами Maps@mail.ru)"
+
+#~ msgid "By car (Fastest) with cloudmade.com"
+#~ msgstr "На автомобиле (по скорости, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "By car (Fastest) with Maps@mail.ru"
+#~ msgstr "На автомобиле (по скорости, средствами Maps@mail.ru)"
+
+#~ msgid "By car (Fastest) with yournavigation.org"
+#~ msgstr "На автомобиле (по скорости, средствами yournavigation.org (OSM))"
+
+#~ msgid "By car (Shortest) with cloudmade.com"
+#~ msgstr "На автомобиле (по расстоянию, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "By car (Shortest) with Maps@mail.ru"
+#~ msgstr "На автомобиле (по расстоянию, средствами Maps@mail.ru)"
+
+#~ msgid "By car (Shortest) with yournavigation.org"
+#~ msgstr "На автомобиле (по расстоянию, средствами yournavigation.org (OSM))"
+
+#~ msgid "By foot (Fastest) with cloudmade.com"
+#~ msgstr "Пешком (по скорости, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "By foot (Shortest) with cloudmade.com"
+#~ msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
+#~ msgstr "На велосипеде (по скорости, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
+#~ msgstr "На велосипеде (по скорости, средствами yournavigation.org (OSM))"
+
+#~ msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
+#~ msgstr "На велосипеде (по расстоянию, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
+#~ msgstr "На велосипеде (по расстоянию, средствами yournavigation.org (OSM))"
+
+#~ msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
+#~ msgstr "На автомобиле (по расстоянию,  средствами Maps@mail.ru)"
+
+#~ msgid "Detalize route by car (Fastest) with cloudmade.com"
+#~ msgstr "На автомобиле (по скорости, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "Detalize route by car (Fastest) with Maps@mail.ru"
+#~ msgstr "На автомобиле (по скорости, средствами Maps@mail.ru)"
+
+#~ msgid "Detalize route by car (Fastest) with yournavigation.org"
+#~ msgstr "На автомобиле (по скорости, средствами yournavigation.org (OSM))"
+
+#~ msgid "Detalize route by car (Shortest) with cloudmade.com"
+#~ msgstr "На автомобиле (по расстоянию, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
+#~ msgstr "На автомобиле (по расстоянию, средствами Maps@mail.ru)"
+
+#~ msgid "Detalize route by car (Shortest) with yournavigation.org"
+#~ msgstr "На автомобиле (по расстоянию, средствами yournavigation.org (OSM))"
+
+#~ msgid "Detalize route by foot (Fastest) with cloudmade.com"
+#~ msgstr "Пешком (по скорости, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "Detalize route by foot (Shortest) with cloudmade.com"
+#~ msgstr "Пешком (по расстоянию, средствами maps.cloudmade.com (OSM))"
+
+#~ msgid "No one Map or Layer are selected!"
+#~ msgstr "Не выбрано ни одной карты или слоя"
+
+#~ msgid "Signal-to-noise ratio for satellites in use"
+#~ msgstr ""
+#~ "Отношение сигнал/шум для спутников, участвующих в определении позиции"
