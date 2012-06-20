@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-06-19 10:48\n"
-"PO-Revision-Date: 2012-06-19 10:48\n"
+"POT-Creation-Date: 2012-06-20 10:34\n"
+"PO-Revision-Date: 2012-06-20 10:34\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,6 +81,13 @@ msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_mperp
 msgid "/pixel"
+msgstr ""
+
+#. frmMarkCategoryEdit..pnlBottomButtons..btnSetAsTemplate..Caption
+#. frmMarkEditPath..pnlBottomButtons..btnSetAsTemplate..Caption
+#. frmMarkEditPoint..pnlBottomButtons..btnSetAsTemplate..Caption
+#. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Caption
+msgid "~"
 msgstr ""
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
@@ -329,7 +336,13 @@ msgid "About"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Hint
 msgid "Add"
+msgstr ""
+
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
+msgid "Add Category"
 msgstr ""
 
 #. frmMapTypeEdit..pnlSeparator..CheckBox1..Caption
@@ -372,6 +385,7 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Point..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 msgid "Add Placemark"
 msgstr ""
 
@@ -834,6 +848,10 @@ msgstr ""
 msgid "Create georeferencing file:"
 msgstr ""
 
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnAddMark..Hint
+msgid "Create new placemark"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmCreateShortcut..Caption
 msgid "Create Shortcut"
 msgstr ""
@@ -889,8 +907,14 @@ msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkDel..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
 #. frmRegionProcess..PageControl1..TabSheet4..Caption
 msgid "Delete"
+msgstr ""
+
+#. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Caption
+msgid "Delete Category"
 msgstr ""
 
 #. frTilesDelete..pnlTop..Caption
@@ -903,6 +927,10 @@ msgstr ""
 
 #. frmMain..MainPopupMenu..dlm..Caption
 msgid "Delete Overlay Layer Tile from Cache"
+msgstr ""
+
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
+msgid "Delete Placemark"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
@@ -1023,6 +1051,10 @@ msgstr ""
 msgid "Download completed"
 msgstr ""
 
+#. frmMapTypeEdit..pnlSeparator..chkDownloadEnabled..Caption
+msgid "Download enabled"
+msgstr ""
+
 msgid "Download error. Error code %d"
 msgstr ""
 
@@ -1093,9 +1125,12 @@ msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Hint
 msgid "Edit"
 msgstr ""
 
+#. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Caption
 #. Programmer's name for it: SAS_STR_EditCategory
 msgid "Edit Category"
 msgstr ""
@@ -1108,6 +1143,7 @@ msgstr ""
 msgid "Edit Path"
 msgstr ""
 
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #. Programmer's name for it: SAS_STR_EditMark
 msgid "Edit Placemark"
 msgstr ""
@@ -1205,11 +1241,21 @@ msgstr ""
 msgid "Export all placemarks and all categories"
 msgstr ""
 
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
+msgid "Export Placemark"
+msgstr ""
+
+#. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
+msgid "Export Placemarks"
+msgstr ""
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Hint
 msgid "Export placemarks from selected category"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
 msgid "Export selected placemark"
 msgstr ""
 
@@ -1264,6 +1310,10 @@ msgstr ""
 
 #. frmMain..TBDock..FillDates..Caption
 msgid "FillDates"
+msgstr ""
+
+#. frmMain..MainPopupMenu..tbitmFitToScreen..Caption
+msgid "Fit to Screen"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..Hint
@@ -1366,8 +1416,14 @@ msgstr ""
 msgid "Get Locaton from GSM (Google Query)"
 msgstr ""
 
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
+msgid "GlobalMapper Aux"
+msgstr ""
+
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 msgid "GlobalMapper Tiles"
 msgstr ""
@@ -1858,6 +1914,10 @@ msgstr ""
 msgid "Navigate to selected placemark"
 msgstr ""
 
+#. frmMain..TBDock..TBXMainMenu..NView..tbitmNavigationArrow..Caption
+msgid "Navigation Arrow"
+msgstr ""
+
 #. frMarkCategorySelectOrAdd..CBKateg..Text
 #. frmMarkEditPoly..pnlCategory..CBKateg..Text
 #. Programmer's name for it: SAS_STR_NewCategory
@@ -2224,6 +2284,10 @@ msgstr ""
 msgid "Product Name"
 msgstr ""
 
+#. frmMain..MainPopupMenu..tbitmProperties..Caption
+msgid "Properties"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_Authorization
 msgid "Proxy authorization error"
 msgstr ""
@@ -2534,6 +2598,13 @@ msgstr ""
 msgid "Server timeout, ms"
 msgstr ""
 
+#. frmMarkCategoryEdit..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPath..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPoint..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
+msgid "Set as default"
+msgstr ""
+
 #. frMapsList..pnlMapsRightButtons..Button15..Caption
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 msgid "Settings"
@@ -2698,6 +2769,10 @@ msgstr ""
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 msgid "Start"
+msgstr ""
+
+#. frTilesDownload..pnlBottom..pnlMain..chkStartPaused..Caption
+msgid "Start paused"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Showstatus..Caption
@@ -3161,34 +3236,3 @@ msgstr ""
 msgid "Z-Order:"
 msgstr ""
 
-#
-msgid "Create new placemark"
-msgstr ""
-
-#
-msgid "Add Category"
-msgstr ""
-
-#
-msgid "Delete Category"
-msgstr ""
-
-#
-msgid "Export Placemarks"
-msgstr ""
-
-#
-msgid "Export Placemark"
-msgstr ""
-
-#
-msgid "Delete Placemark"
-msgstr ""
-
-#
-msgid "Fit to Screen"
-msgstr ""
-
-#
-msgid "Properties"
-msgstr ""

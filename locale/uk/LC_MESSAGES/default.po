@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-06-19 10:48\n"
+"POT-Creation-Date: 2012-06-20 10:34\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -83,6 +83,13 @@ msgstr ""
 #. Programmer's name for it: SAS_UNITS_mperp
 msgid "/pixel"
 msgstr "/пікс."
+
+#. frmMarkCategoryEdit..pnlBottomButtons..btnSetAsTemplate..Caption
+#. frmMarkEditPath..pnlBottomButtons..btnSetAsTemplate..Caption
+#. frmMarkEditPoint..pnlBottomButtons..btnSetAsTemplate..Caption
+#. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Caption
+msgid "~"
+msgstr ""
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..EProductID....Items.Strings
 msgid "0 - BirdsEye"
@@ -338,8 +345,15 @@ msgid "About"
 msgstr "Про програму"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Hint
 msgid "Add"
 msgstr "Додати"
+
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
+#, fuzzy
+msgid "Add Category"
+msgstr "Додати нову категорію"
 
 #. frmMapTypeEdit..pnlSeparator..CheckBox1..Caption
 msgid "Add menu separator line after this map"
@@ -381,6 +395,7 @@ msgstr "Додати шлях"
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Point..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 msgid "Add Placemark"
 msgstr "Поставити позначку"
 
@@ -875,6 +890,11 @@ msgstr "Азимут:"
 msgid "Create georeferencing file:"
 msgstr "Створювати файл прив’язки:"
 
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnAddMark..Hint
+#, fuzzy
+msgid "Create new placemark"
+msgstr "Додати нову позначку"
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmCreateShortcut..Caption
 msgid "Create Shortcut"
 msgstr "Зберегти ярлик"
@@ -936,9 +956,16 @@ msgstr "Призначити поєднання"
 
 #. frmMain..MainPopupMenu..NMarkDel..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
 #. frmRegionProcess..PageControl1..TabSheet4..Caption
 msgid "Delete"
 msgstr "Видалити"
+
+#. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Caption
+#, fuzzy
+msgid "Delete Category"
+msgstr "Нова категорія"
 
 #. frTilesDelete..pnlTop..Caption
 msgid "Delete map tiles"
@@ -951,6 +978,11 @@ msgstr "Видаляти лише тайли, розмір яких, байт"
 #. frmMain..MainPopupMenu..dlm..Caption
 msgid "Delete Overlay Layer Tile from Cache"
 msgstr "Видалити тайл шару"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
+#, fuzzy
+msgid "Delete Placemark"
+msgstr "Змінити позначку"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
 msgid "Delete Point"
@@ -1070,6 +1102,11 @@ msgstr "Завантажити"
 msgid "Download completed"
 msgstr "Завантаження завершено"
 
+#. frmMapTypeEdit..pnlSeparator..chkDownloadEnabled..Caption
+#, fuzzy
+msgid "Download enabled"
+msgstr "Завантажено"
+
 msgid "Download error. Error code %d"
 msgstr ""
 
@@ -1140,9 +1177,12 @@ msgstr "Шлях до кеша EarthSlicer:"
 
 #. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Hint
 msgid "Edit"
 msgstr "Змінити"
 
+#. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Caption
 #. Programmer's name for it: SAS_STR_EditCategory
 msgid "Edit Category"
 msgstr "Змінити категорію"
@@ -1155,6 +1195,7 @@ msgstr "Змінити гарячу клавішу."
 msgid "Edit Path"
 msgstr "Змінити шлях"
 
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #. Programmer's name for it: SAS_STR_EditMark
 msgid "Edit Placemark"
 msgstr "Змінити позначку"
@@ -1253,11 +1294,23 @@ msgstr "Експорт"
 msgid "Export all placemarks and all categories"
 msgstr "Експорт всіх позначок та категорій"
 
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
+#, fuzzy
+msgid "Export Placemark"
+msgstr "Змінити позначку"
+
+#. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
+#, fuzzy
+msgid "Export Placemarks"
+msgstr "Змінити позначку"
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Hint
 msgid "Export placemarks from selected category"
 msgstr "Експорт обраної категорії"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
 msgid "Export selected placemark"
 msgstr "Експорт обраної позначки"
 
@@ -1317,6 +1370,11 @@ msgstr "Заповнення:"
 #, fuzzy
 msgid "FillDates"
 msgstr "Дата зйомки"
+
+#. frmMain..MainPopupMenu..tbitmFitToScreen..Caption
+#, fuzzy
+msgid "Fit to Screen"
+msgstr "На весь екран"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..Hint
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSCenterMap..Caption
@@ -1423,8 +1481,15 @@ msgstr "Географічні"
 msgid "Get Locaton from GSM (Google Query)"
 msgstr "Визначити позицію за базовими станціями стільникової мережі"
 
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
+#, fuzzy
+msgid "GlobalMapper Aux"
+msgstr "Шлях до кеша GM Tiles:"
+
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #, fuzzy
 msgid "GlobalMapper Tiles"
@@ -1941,6 +2006,10 @@ msgstr "Навігація на позначку"
 msgid "Navigate to selected placemark"
 msgstr "Навігація на вибрану позначку"
 
+#. frmMain..TBDock..TBXMainMenu..NView..tbitmNavigationArrow..Caption
+msgid "Navigation Arrow"
+msgstr ""
+
 #. frMarkCategorySelectOrAdd..CBKateg..Text
 #. frmMarkEditPoly..pnlCategory..CBKateg..Text
 #. Programmer's name for it: SAS_STR_NewCategory
@@ -2321,6 +2390,11 @@ msgstr ""
 msgid "Product Name"
 msgstr ""
 
+# 
+#. frmMain..MainPopupMenu..tbitmProperties..Caption
+msgid "Properties"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_Authorization
 msgid "Proxy authorization error"
 msgstr "Помилка авторизації на проксі!"
@@ -2639,6 +2713,14 @@ msgstr "Сервіс повернув тип „%0:s“, а не один з о�
 msgid "Server timeout, ms"
 msgstr "Таймаут на мережеві операції, мс"
 
+#. frmMarkCategoryEdit..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPath..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPoint..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
+#, fuzzy
+msgid "Set as default"
+msgstr "Стандартно"
+
 #. frMapsList..pnlMapsRightButtons..Button15..Caption
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 msgid "Settings"
@@ -2814,6 +2896,10 @@ msgstr "Розбити зображення"
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 msgid "Start"
 msgstr "Почати"
+
+#. frTilesDownload..pnlBottom..pnlMain..chkStartPaused..Caption
+msgid "Start paused"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Showstatus..Caption
 msgid "Status Bar"
@@ -3299,38 +3385,6 @@ msgstr "Масштаби:"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
-msgstr ""
-
-#, fuzzy
-msgid "Create new placemark"
-msgstr "Додати нову позначку"
-
-#, fuzzy
-msgid "Add Category"
-msgstr "Додати нову категорію"
-
-#, fuzzy
-msgid "Delete Category"
-msgstr "Нова категорія"
-
-#, fuzzy
-msgid "Export Placemarks"
-msgstr "Змінити позначку"
-
-#, fuzzy
-msgid "Export Placemark"
-msgstr "Змінити позначку"
-
-#, fuzzy
-msgid "Delete Placemark"
-msgstr "Змінити позначку"
-
-#, fuzzy
-msgid "Fit to Screen"
-msgstr "На весь екран"
-
-# 
-msgid "Properties"
 msgstr ""
 
 #, fuzzy
