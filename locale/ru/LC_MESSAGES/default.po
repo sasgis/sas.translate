@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-06-20 10:34\n"
-"PO-Revision-Date: 2012-06-20 14:26+0400\n"
+"POT-Creation-Date: 2012-06-21 10:39\n"
+"PO-Revision-Date: 2012-06-21 11:02+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -438,11 +438,8 @@ msgstr "Все"
 msgid "All by default"
 msgstr "Все по умолчанию"
 
-#. frmMarksExplorer..OpenDialog1....Filter
-msgid "All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
-msgstr "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
-
 #. frmMain..OpenSessionDialog....Filter
+#. frmMarksExplorer..OpenDialog1....Filter
 msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 msgstr "Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 
@@ -472,6 +469,10 @@ msgstr "Вы уверены?"
 msgid "Area"
 msgstr "Площадь"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..lblAreaFormat..Caption
+msgid "Area representation"
+msgstr "Формат отображения площади"
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
 msgid "Arrow color:"
 msgstr "Цвет стрелки:"
@@ -486,6 +487,7 @@ msgstr "Притягивать точки к существующим марке
 
 #
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 msgid "Auto"
 msgstr "Автоматически"
 
@@ -1133,6 +1135,10 @@ msgstr "Изменить категорию"
 msgid "Edit Hotkey"
 msgstr "Изменить гор. кл."
 
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..tbitmEditLastSelection..Caption
+msgid "Edit Last Selection"
+msgstr "Редактировать предыдущее выделение"
+
 #. Programmer's name for it: SAS_STR_EditPath
 msgid "Edit Path"
 msgstr "Изменить путь"
@@ -1459,6 +1465,14 @@ msgstr "GPS Вкл/Выкл"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
 msgstr "Подписи"
+
+#. Programmer's name for it: SAS_UNITS_Ha
+msgid "ha"
+msgstr "га"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Ha"
+msgstr "Га"
 
 #. Horizontal Dilution of Precision
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPMenuItemName
@@ -2784,6 +2798,14 @@ msgstr "Скорость"
 msgid "Split image"
 msgstr "Разбить изображение"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Sq Km"
+msgstr "Кв. Км"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Sq M"
+msgstr "Кв. М"
+
 #. frmImportConfigEdit..btnOk..Caption
 #. frmMarksMultiEdit..btnOk..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
@@ -3266,4 +3288,3 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
-

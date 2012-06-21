@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-06-20 10:34\n"
+"POT-Creation-Date: 2012-06-21 10:39\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -450,20 +450,8 @@ msgstr "Всі"
 msgid "All by default"
 msgstr "Все стандартно"
 
-#. frmMarksExplorer..OpenDialog1....Filter
-#, fuzzy
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*."
-"hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*."
-"hlg|GPS Exchange files (*.gpx)|*.gpx"
-msgstr ""
-"Всі підтримувані типи (*.kml,*.plt,*.kmz,*.sls,*.hlg)|*.kml;*.plt;*.kmz;*."
-"sls;*.hlg|Google KML-файли (*.kml)|*.kml|OziExplorer Track Point File "
-"Version 2.1 (*.plt)|*.plt|Google KMZ-файли (*.kmz)|*.kmz|Сесія завантаження "
-"(*.sls)|*.sls|Файл виділення (*.hlg)|*.hlg"
-
 #. frmMain..OpenSessionDialog....Filter
+#. frmMarksExplorer..OpenDialog1....Filter
 #, fuzzy
 msgid ""
 "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
@@ -503,6 +491,11 @@ msgstr "Ви дійсно бажаєте обнулити датчик?"
 msgid "Area"
 msgstr "Площа"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..lblAreaFormat..Caption
+#, fuzzy
+msgid "Area representation"
+msgstr "Формат показу масштабу"
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
 #, fuzzy
 msgid "Arrow color:"
@@ -517,6 +510,7 @@ msgid "Attract to The Existing Markers"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 #, fuzzy
 msgid "Auto"
 msgstr "до"
@@ -1191,6 +1185,11 @@ msgstr "Змінити категорію"
 msgid "Edit Hotkey"
 msgstr "Змінити гарячу клавішу."
 
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..tbitmEditLastSelection..Caption
+#, fuzzy
+msgid "Edit Last Selection"
+msgstr "Попереднє виділення"
+
 #. Programmer's name for it: SAS_STR_EditPath
 msgid "Edit Path"
 msgstr "Змінити шлях"
@@ -1529,6 +1528,14 @@ msgstr ""
 # CBDegreeBorderText
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_Ha
+msgid "ha"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Ha"
 msgstr ""
 
 #. Horizontal Dilution of Precision
@@ -2890,6 +2897,14 @@ msgstr "Швидкість"
 msgid "Split image"
 msgstr "Розбити зображення"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Sq Km"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Sq M"
+msgstr ""
+
 #. frmImportConfigEdit..btnOk..Caption
 #. frmMarksMultiEdit..btnOk..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
@@ -3386,316 +3401,3 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr ""
-
-#, fuzzy
-#~ msgid "By bicycle (Fastest) with cloudmade.com"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "By bicycle (Fastest) with yournavigation.org"
-#~ msgstr "Засобами yournavigation.org (OSM)"
-
-#, fuzzy
-#~ msgid "By bicycle (Shortest) with cloudmade.com"
-#~ msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-#~ msgid "By bicycle (Shortest) with yournavigation.org"
-#~ msgstr "Засобами yournavigation.org (OSM)"
-
-#, fuzzy
-#~ msgid "By car (Fastest with traffic) with Maps@mail.ru"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "By car (Fastest) with cloudmade.com"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "By car (Fastest) with Maps@mail.ru"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "By car (Fastest) with yournavigation.org"
-#~ msgstr "Засобами yournavigation.org (OSM)"
-
-#, fuzzy
-#~ msgid "By car (Shortest) with cloudmade.com"
-#~ msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-#~ msgid "By car (Shortest) with Maps@mail.ru"
-#~ msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-#~ msgid "By car (Shortest) with yournavigation.org"
-#~ msgstr "Засобами yournavigation.org (OSM)"
-
-#, fuzzy
-#~ msgid "By foot (Fastest) with cloudmade.com"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "By foot (Shortest) with cloudmade.com"
-#~ msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-#~ msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
-#~ msgstr "Засобами yournavigation.org (OSM)"
-
-#, fuzzy
-#~ msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
-#~ msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-#~ msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
-#~ msgstr "Засобами yournavigation.org (OSM)"
-
-#, fuzzy
-#~ msgid "Detalize route by car (Fastest) with cloudmade.com"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "Detalize route by car (Fastest) with yournavigation.org"
-#~ msgstr "Засобами yournavigation.org (OSM)"
-
-#, fuzzy
-#~ msgid "Detalize route by car (Shortest) with cloudmade.com"
-#~ msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-#~ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
-#~ msgstr "На автомобілі (за швидкістю)"
-
-#, fuzzy
-#~ msgid "Detalize route by car (Shortest) with yournavigation.org"
-#~ msgstr "Засобами yournavigation.org (OSM)"
-
-#, fuzzy
-#~ msgid "Detalize route by foot (Fastest) with cloudmade.com"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "Detalize route by foot (Shortest) with cloudmade.com"
-#~ msgstr "На автомобілі (за швидкістю)"
-
-#~ msgid "Signal-to-noise ratio for satellites in use"
-#~ msgstr ""
-#~ "Співвідношення сигнал/шум для супутників, що беруть участь у визначенні "
-#~ "позиції"
-
-#, fuzzy
-#~ msgid "SAS Palnet"
-#~ msgstr "SAS.Планета"
-
-#~ msgid "Color:"
-#~ msgstr "Колір:"
-
-#~ msgid "Date"
-#~ msgstr "Дата зйомки"
-
-#~ msgid "Date:"
-#~ msgstr "Дата зйомки:"
-
-#~ msgid "DigitalGlobe Availability"
-#~ msgstr ""
-#~ "Завантажити інформацію про доступні карти цього місця на DigitalGlobe"
-
-#~ msgid "Quality"
-#~ msgstr "Роздільна здатність"
-
-#~ msgid "Quality:"
-#~ msgstr "Роздільна здатність:"
-
-#~ msgid "Source:"
-#~ msgstr "Джерело:"
-
-#~ msgid "Authors:"
-#~ msgstr "Розробка:"
-
-#~ msgid "Autosave tracks to .nmea"
-#~ msgstr "Автоматично збергіати маршрути в .nmea"
-
-#~ msgid "Autosave tracks to .plt"
-#~ msgstr "Автоматично збергіати маршрути в .plt"
-
-#~ msgid "Category is not empty. Please delete child categories first"
-#~ msgstr "Категорія не порожня! Видаліть всі дочірні категорії."
-
-#~ msgid "Category name already exists"
-#~ msgstr "Така назва категорії вже існує"
-
-#~ msgid "Disk write error. The task will be aborted!"
-#~ msgstr "Помилка запису на диск. Операцію буде перервано!"
-
-#~ msgid "Error creating archive!"
-#~ msgstr "Помилка створення архіву!"
-
-#~ msgid "Error reading file!"
-#~ msgstr "Помилка читання файла!"
-
-#~ msgid ""
-#~ "Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 "
-#~ "(*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Selection (*.hlg)|*.hlg"
-#~ msgstr ""
-#~ "Google KML-файли (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 "
-#~ "(*.plt)|*.plt|Google KMZ-файли (*.kmz)|*.kmz|Файл виділення (*.hlg)|*.hlg"
-
-#~ msgid "How you may help:"
-#~ msgstr "Допомогти нам:"
-
-#~ msgid "Loading selection..."
-#~ msgstr "Завантаження виділення..."
-
-#~ msgid ""
-#~ "Map script error %0:s (%2:s):\n"
-#~ "%1:s"
-#~ msgstr ""
-#~ "Помилка скрипту карти %0:s (%2:s):\n"
-#~ "%1:s"
-
-#~ msgid "min."
-#~ msgstr "мін."
-
-#~ msgid "Proxy configuration string is not correct"
-#~ msgstr "Невірний формат запису проксі-сервера"
-
-#~ msgid "Retrying operation"
-#~ msgstr "Намагаємось повторити обробку"
-
-#~ msgid "SAS Group"
-#~ msgstr "Група SAS"
-
-#~ msgid "Saving track..."
-#~ msgstr "Збереження маршруту..."
-
-#~ msgid "Selection is out of the map!"
-#~ msgstr "Виділена область розташовується цілком поза картою!"
-
-#~ msgid "Show borders:"
-#~ msgstr "Показ меж:"
-
-#~ msgid "Show Genshtab borders:"
-#~ msgstr "Підписи ГенШтаба:"
-
-#~ msgid "Split to"
-#~ msgstr "Розбити на"
-
-#~ msgid "The map is unable to load"
-#~ msgstr "Карта не дозволяє завантажувати"
-
-#~ msgid ""
-#~ "The selection is partially outside the map.\n"
-#~ "The selection will be reduced to map boundaries."
-#~ msgstr ""
-#~ "Частина виділеної області знаходиться поза картою.\n"
-#~ "Область буде обмежена за розмірами карти."
-
-#~ msgid "The tile is corrupt!"
-#~ msgstr "Файл зіпсовано!"
-
-#~ msgid "Time"
-#~ msgstr "Час"
-
-#~ msgid "Yandex"
-#~ msgstr "Яндекс"
-
-#~ msgid "Yandex.Money"
-#~ msgstr "Яндекс.Деньги:"
-
-#, fuzzy
-#~ msgid "Show Degree borders:"
-#~ msgstr "Показ меж:"
-
-# NFillMode2
-#, fuzzy
-#~ msgid "Mark Existing Tiles Within Age Gradient"
-#~ msgstr "Существующие тайлы"
-
-# NFillMode2
-#, fuzzy
-#~ msgid "Mark Existing Tiles At Interval Only"
-#~ msgstr "Существующие тайлы"
-
-#, fuzzy
-#~ msgid "Distance to"
-#~ msgstr "Пройдений шлях"
-
-#, fuzzy
-#~ msgid "On car (Fastest)"
-#~ msgstr "На автомобілі (за довжиною)"
-
-#, fuzzy
-#~ msgid "Shortest"
-#~ msgstr "Джерела"
-
-#~ msgid "Latitude"
-#~ msgstr "Широта"
-
-#~ msgid "Longitude"
-#~ msgstr "Довгота"
-
-#~ msgid "Stored placemarks"
-#~ msgstr "Збережені позначки"
-
-#~ msgid "By Distance"
-#~ msgstr "За розкладом"
-
-#~ msgid "By Time"
-#~ msgstr "За часом"
-
-#~ msgid "By Time Using Traffic Info"
-#~ msgstr "За часом з врахуванням заторів"
-
-#~ msgid "Horizontally"
-#~ msgstr "По горизонталі"
-
-#~ msgid "Save Track"
-#~ msgstr "Зберегти маршрут"
-
-#~ msgid "URL to imageatlas.digitalglobe.com"
-#~ msgstr "Посилання для перегляду на imageatlas.digitalglobe.com"
-
-#~ msgid "Vertically"
-#~ msgstr "По вертикалі"
-
-#~ msgid "Zoom: x"
-#~ msgstr "Масштаб: x"
-
-#~ msgid "Abort"
-#~ msgstr "Зупинити"
-
-#~ msgid "Actions"
-#~ msgstr "Операції з областю"
-
-#~ msgid "Manage area within selected object"
-#~ msgstr "Операції з областю у межах вибраного об’єкта"
-
-#~ msgid "Manage selection"
-#~ msgstr "Операції з виділеною областю"
-
-#~ msgid "Name in cache"
-#~ msgstr "Назва у кеші"
-
-#~ msgid "New category"
-#~ msgstr "Нова категорія"
-
-#~ msgid "Select"
-#~ msgstr "Виділити"
-
-#~ msgid "Edit map description:"
-#~ msgstr "Редагувати опис карти:"
-
-#~ msgid "Manage placemarks"
-#~ msgstr "Керування позначками"
-
-#~ msgid "Manage Placemarks"
-#~ msgstr "Керування позначками"
