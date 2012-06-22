@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-06-22 13:53\n"
+"POT-Creation-Date: 2012-06-22 20:44\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -411,7 +411,7 @@ msgstr "Додати полігон"
 msgid "Add tiles to database"
 msgstr "Додавати тайли в існуючу базу"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathSave..Hint
+#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..Hint
 msgid "Add to Database"
 msgstr "Зберегти у базі"
 
@@ -481,10 +481,37 @@ msgstr "Застосувати"
 msgid "Approx. to download:"
 msgstr "Приблизно ще завантажити:"
 
-#. Programmer's name for it: SAS_MSG_youasure
-#. Programmer's name for it: SAS_MSG_youasurerefrsensor
-msgid "Are you sure?"
-msgstr "Ви дійсно бажаєте обнулити датчик?"
+#. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
+msgid "Are you sure you want to delete %0:d placemarks?"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
+msgid "Are you sure you want to delete category with name \"%0:s\"?"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
+msgid "Are you sure you want to delete path with name \"%0:s\"?"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
+msgid "Are you sure you want to delete point with name \"%0:s\"?"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPolyAsk
+msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
+msgid "Are you sure you want to delete tile with name \"%0:s\"?"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
+msgid "Are you sure you want to delete tiles in selected region?"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_ResetSensorAsk
+msgid "Are you sure you want to reset sensor?"
+msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsSq..Caption
 #. Programmer's name for it: SAS_STR_S
@@ -2574,6 +2601,10 @@ msgstr "Видимі з нульовим сигналом"
 msgid "Save"
 msgstr "Зберегти"
 
+#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
+msgid "Save as new"
+msgstr ""
+
 #. frmProgressDownload..Panel1..pnlBottom..ButtonSave..Hint
 msgid "Save current session"
 msgstr "Зберегти поточну сесію"
@@ -2581,6 +2612,10 @@ msgstr "Зберегти поточну сесію"
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
 msgid "Save only complete tiles"
 msgstr "Зберігати лише цілковито заповнені тайли"
+
+#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
+msgid "Save placemark in Database as new"
+msgstr ""
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
 msgid "Save PNG with alpha channel"
@@ -3407,6 +3442,5 @@ msgstr "Масштаби:"
 msgid "Z-Order:"
 msgstr ""
 
-#. 
-msgid "Save as new"
-msgstr ""
+#~ msgid "Are you sure?"
+#~ msgstr "Ви дійсно бажаєте обнулити датчик?"

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-06-22 13:53\n"
-"PO-Revision-Date: 2012-06-22 14:02+0400\n"
+"POT-Creation-Date: 2012-06-22 20:44\n"
+"PO-Revision-Date: 2012-06-22 20:48+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -172,7 +172,7 @@ msgstr "120м"
 #. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes..Text
 #. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
 msgid "128x128 pix"
-msgstr ""
+msgstr "128x128 пикс."
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
 msgid "12km"
@@ -212,7 +212,7 @@ msgstr "23,4 км"
 
 #. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
 msgid "256x256 pix"
-msgstr ""
+msgstr "256x256 пикс."
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
 msgid "2km"
@@ -400,7 +400,7 @@ msgstr "Добавить полигон"
 msgid "Add tiles to database"
 msgstr "Добавлять тайлы в существующую базу"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathSave..Hint
+#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..Hint
 msgid "Add to Database"
 msgstr "Сохранить в базе"
 
@@ -440,18 +440,8 @@ msgstr "Все по умолчанию"
 
 #. frmMain..OpenSessionDialog....Filter
 #. frmMarksExplorer..OpenDialog1....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
-"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
-"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
-"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
-"gpx"
-msgstr ""
-"Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
-"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
-"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия "
-"загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*."
-"gpx)|*.gpx"
+msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgstr "Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -469,10 +459,37 @@ msgstr "Применить"
 msgid "Approx. to download:"
 msgstr "Примерно еще загрузить:"
 
-#. Programmer's name for it: SAS_MSG_youasure
-#. Programmer's name for it: SAS_MSG_youasurerefrsensor
-msgid "Are you sure?"
-msgstr "Вы уверены?"
+#. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
+msgid "Are you sure you want to delete %0:d placemarks?"
+msgstr "Вы точно хотите удалить %0:d метки?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
+msgid "Are you sure you want to delete category with name \"%0:s\"?"
+msgstr "Вы точно хотите удалить категорию с именем \"%0:s\"?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
+msgid "Are you sure you want to delete path with name \"%0:s\"?"
+msgstr "Вы точно хотите удалить путь с именем \"%0:s\"?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
+msgid "Are you sure you want to delete point with name \"%0:s\"?"
+msgstr "Вы точно хотите удалить точку с именем \"%0:s\"?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPolyAsk
+msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
+msgstr "Вы точно хотите удалить полигон с именем \"%0:s\"?"
+
+#. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
+msgid "Are you sure you want to delete tile with name \"%0:s\"?"
+msgstr "Вы точно хотите удалить тайл с именем \"%0:s\"?"
+
+#. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
+msgid "Are you sure you want to delete tiles in selected region?"
+msgstr "Вы точно хотите удалить тайлы в выделенной области"
+
+#. Programmer's name for it: SAS_MSG_ResetSensorAsk
+msgid "Are you sure you want to reset sensor?"
+msgstr "Вы точно хотите сбросить показания датчика"
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsSq..Caption
 #. Programmer's name for it: SAS_STR_S
@@ -520,8 +537,7 @@ msgstr "Автопоиск:"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
-msgstr ""
-"Автоматически определять параметры базовых станций через подключенный телефон"
+msgstr "Автоматически определять параметры базовых станций через подключенный телефон"
 
 # GB_GpsTrackSave
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
@@ -764,12 +780,8 @@ msgstr ""
 "%0:s"
 
 #. frmMarksExplorer..ExportDialog....Filter
-msgid ""
-"Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|"
-"*.kml"
-msgstr ""
-"Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
-"(kml)|*.kml"
+msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
+msgstr "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -1198,10 +1210,8 @@ msgid "Enabled"
 msgstr "Используется"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid ""
-"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr ""
-"Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
+msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
+msgstr "Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -2233,8 +2243,7 @@ msgid "PlaceMarks"
 msgstr "Метки"
 
 #. Programmer's name for it: SAS_ERR_UseADifferentFormat
-msgid ""
-"Please choose another format (ECW, BMP, JP2) while stitching large images"
+msgid "Please choose another format (ECW, BMP, JP2) while stitching large images"
 msgstr "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
 
 #. Programmer's name for it: SAS_MSG_NeedHL
@@ -2425,8 +2434,7 @@ msgstr "Восстановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
 msgid "Restore download from last successful tile"
-msgstr ""
-"Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
+msgstr "Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
 
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
@@ -2501,6 +2509,10 @@ msgstr "Видимые с нулевым сигналом"
 msgid "Save"
 msgstr "Сохранить"
 
+#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
+msgid "Save as new"
+msgstr "Сохранить изменения как"
+
 #. frmProgressDownload..Panel1..pnlBottom..ButtonSave..Hint
 msgid "Save current session"
 msgstr "Сохранить текущую сессию"
@@ -2508,6 +2520,10 @@ msgstr "Сохранить текущую сессию"
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
 msgid "Save only complete tiles"
 msgstr "Сохранять только полностью заполненные тайлы"
+
+#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
+msgid "Save placemark in Database as new"
+msgstr "Сохранить метку в базе как новую"
 
 #
 #. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
@@ -2599,14 +2615,12 @@ msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
 "Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output format (ECW "
-"is the best)."
+"Try select smaller region to stitch in %s or select other output format (ECW is the best)."
 msgstr ""
 "Выделенная область слишком велика для %s формата!\n"
 "Ширина = %d (max = %d)\n"
 "Высота = %d (max = %d)\n"
-"Уменьшите выделенную область склейки в %s или выберите другой формат (ECW - "
-"лучший)."
+"Уменьшите выделенную область склейки в %s или выберите другой формат (ECW - лучший)."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -3017,8 +3031,7 @@ msgstr "Невозможно определить позицию"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr ""
-"Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
 msgid "Unexpected content type"
@@ -3314,7 +3327,3 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
-
-#.
-msgid "Save as new"
-msgstr "Сохранить изменения как"
