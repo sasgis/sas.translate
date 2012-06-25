@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-06-22 20:44\n"
-"PO-Revision-Date: 2012-06-22 20:44\n"
+"POT-Creation-Date: 2012-06-25 20:57\n"
+"PO-Revision-Date: 2012-06-25 20:57\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -423,7 +423,7 @@ msgstr ""
 msgid "Additional Operations"
 msgstr ""
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..CheckBox1..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..CheckBox2..Caption
 #. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
@@ -454,13 +454,12 @@ msgid "Altitude"
 msgstr ""
 
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
 #. frmShortCutEdit..pnlBottom..btnOk..Caption
 msgid "Apply"
 msgstr ""
 
-#. frmProgressDownload..Panel1..LabelName4..Caption
+#. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
 msgid "Approx. to download:"
 msgstr ""
 
@@ -529,6 +528,10 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
+#. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
+msgid "Auto close window after finish"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr ""
@@ -584,6 +587,7 @@ msgstr ""
 
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes..Text
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
@@ -704,7 +708,6 @@ msgstr ""
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnCancel..Caption
 #. frmMarksMultiEdit..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
@@ -786,7 +789,7 @@ msgid "Compilation error in script \n"
 "%0:s"
 msgstr ""
 
-#. frmMarksExplorer..ExportDialog....Filter
+#. ExportDialog
 msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup "
 "Language (kml)|*.kml"
 msgstr ""
@@ -849,6 +852,10 @@ msgstr ""
 #. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
+msgstr ""
+
+#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
+msgid "Copy coordinates"
 msgstr ""
 
 #. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Hint
@@ -1134,7 +1141,7 @@ msgstr ""
 msgid "Downloaded"
 msgstr ""
 
-#. frmProgressDownload..Panel1..LabelName2..Caption
+#. frmProgressDownload..Panel1..pnlDownloaded..lblDownloaded..Caption
 msgid "Downloaded total:"
 msgstr ""
 
@@ -1267,7 +1274,7 @@ msgstr ""
 msgid "Error while saving!"
 msgstr ""
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnExport..Caption
+#. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
 #. frmRegionProcess..PageControl1..TabSheet5..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
 msgid "Export"
@@ -1531,7 +1538,7 @@ msgstr ""
 msgid "Hide All Placemarks"
 msgstr ""
 
-#. frmMarksExplorer..rgMarksShowMode....Items.Strings
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Hide placemarks"
 msgstr ""
 
@@ -1599,7 +1606,7 @@ msgstr ""
 msgid "Images available"
 msgstr ""
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnImport..Caption
+#. frmMarksExplorer..pnlBottom..pnlButtons..btnImport..Caption
 msgid "Import"
 msgstr ""
 
@@ -1903,7 +1910,7 @@ msgstr ""
 msgid "Minimap opacity"
 msgstr ""
 
-#. frmProgressDownload..Panel1..pnlBottom..Button3..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnMinimize..Caption
 #. frmProgressCacheConverter..pnlBottom..btnMinimize..Caption
 msgid "Minimize"
 msgstr ""
@@ -2049,7 +2056,6 @@ msgstr ""
 #. frmMarkEditPath..pnlBottomButtons..btnOk..Caption
 #. frmMarkEditPoint..pnlBottomButtons..btnOk..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnOk..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnOk..Caption
 #. frmSettings..pnlBottomButtons..btnOk..Caption
 msgid "Ok"
 msgstr ""
@@ -2171,7 +2177,7 @@ msgid "Pathname to Tile in Cache"
 msgstr ""
 
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
-#. frmProgressDownload..Panel1..pnlBottom..Button1..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. frmProgressCacheConverter..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
@@ -2300,7 +2306,7 @@ msgstr ""
 msgid "Process not more than"
 msgstr ""
 
-#. frmProgressDownload..Panel1..LabelName0..Caption
+#. frmProgressDownload..Panel1..pnlToProcess..lblToProcess..Caption
 msgid "Process not more than:"
 msgstr ""
 
@@ -2308,7 +2314,7 @@ msgstr ""
 msgid "Processed"
 msgstr ""
 
-#. frmProgressDownload..Panel1..LabelName1..Caption
+#. frmProgressDownload..Panel1..pnlProcessed..lblProcessed..Caption
 msgid "Processed total:"
 msgstr ""
 
@@ -2363,7 +2369,7 @@ msgstr ""
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
 #. frmMain..TrayPopupMenu..TrayItemQuit..Caption
-#. frmProgressDownload..Panel1..pnlBottom..Button2..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
 #. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 msgid "Quit"
 msgstr ""
@@ -2495,7 +2501,7 @@ msgstr ""
 msgid "Satellites not in range"
 msgstr ""
 
-#. frmProgressDownload..Panel1..pnlBottom..ButtonSave..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnSave..Caption
 msgid "Save"
 msgstr ""
 
@@ -2503,7 +2509,7 @@ msgstr ""
 msgid "Save as new"
 msgstr ""
 
-#. frmProgressDownload..Panel1..pnlBottom..ButtonSave..Hint
+#. frmProgressDownload..Panel1..pnlBottom..btnSave..Hint
 msgid "Save current session"
 msgstr ""
 
@@ -2675,7 +2681,7 @@ msgstr ""
 msgid "Shortcut|*.lnk"
 msgstr ""
 
-#. frmMarksExplorer..rgMarksShowMode....Items.Strings
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show all placemarks"
 msgstr ""
 
@@ -2702,7 +2708,7 @@ msgstr ""
 msgid "Show on map"
 msgstr ""
 
-#. frmMarksExplorer..rgMarksShowMode....Items.Strings
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show only selected placemarks"
 msgstr ""
 
@@ -2867,10 +2873,6 @@ msgstr ""
 msgid "Store info about not found tiles"
 msgstr ""
 
-#. frmProgressCacheConverter..Font.Name
-msgid "Tahoma"
-msgstr ""
-
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr ""
@@ -2962,7 +2964,7 @@ msgstr ""
 msgid "Time Interval"
 msgstr ""
 
-#. frmProgressDownload..Panel1..LabelName3..Caption
+#. frmProgressDownload..Panel1..pnlTimeToFinish..lblTimeToFinish..Caption
 msgid "Time remaining:"
 msgstr ""
 

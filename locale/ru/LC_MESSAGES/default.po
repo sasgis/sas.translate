@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-06-22 20:44\n"
-"PO-Revision-Date: 2012-06-23 06:47+0300\n"
+"POT-Creation-Date: 2012-06-25 20:57\n"
+"PO-Revision-Date: 2012-06-25 21:08+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -422,7 +422,7 @@ msgstr "Дополнительные операции"
 msgid "Additional Operations"
 msgstr "Дополнительные операции"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..CheckBox1..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..CheckBox2..Caption
 #. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
@@ -449,13 +449,12 @@ msgid "Altitude"
 msgstr "Высота"
 
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
 #. frmShortCutEdit..pnlBottom..btnOk..Caption
 msgid "Apply"
 msgstr "Применить"
 
-#. frmProgressDownload..Panel1..LabelName4..Caption
+#. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
 msgid "Approx. to download:"
 msgstr "Примерно еще загрузить:"
 
@@ -518,6 +517,10 @@ msgstr "Притягивать точки к существующим марке
 msgid "Auto"
 msgstr "Автоматически"
 
+#. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
+msgid "Auto close window after finish"
+msgstr "Закрывать окно загрузки автоматически "
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматически показывать/скрывать панель датчиков"
@@ -574,6 +577,7 @@ msgstr "Батарея:"
 
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes..Text
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
@@ -694,7 +698,6 @@ msgstr "Карта заполнения:"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnCancel..Caption
 #. frmMarksMultiEdit..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
@@ -779,7 +782,7 @@ msgstr ""
 "Ошибка в скрипте при компиляции\n"
 "%0:s"
 
-#. frmMarksExplorer..ExportDialog....Filter
+#. ExportDialog
 msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
 msgstr "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
 
@@ -842,6 +845,10 @@ msgstr "Формат представления координат"
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Скопировать"
+
+#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
+msgid "Copy coordinates"
+msgstr "Копировать координаты"
 
 #. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Hint
 msgid "Copy TID's to clipboard"
@@ -1125,7 +1132,7 @@ msgstr "Кол-во тайлов, загружаемых за границей �
 msgid "Downloaded"
 msgstr "Скачано"
 
-#. frmProgressDownload..Panel1..LabelName2..Caption
+#. frmProgressDownload..Panel1..pnlDownloaded..lblDownloaded..Caption
 msgid "Downloaded total:"
 msgstr "Всего загружено:"
 
@@ -1257,7 +1264,7 @@ msgstr "Ошибка ввода координат: широта %s, долго�
 msgid "Error while saving!"
 msgstr "Ошибка при сохранении!"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnExport..Caption
+#. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
 #. frmRegionProcess..PageControl1..TabSheet5..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
 msgid "Export"
@@ -1526,7 +1533,7 @@ msgstr "Скрыть все метки"
 msgid "Hide All Placemarks"
 msgstr "Скрыть все метки"
 
-#. frmMarksExplorer..rgMarksShowMode....Items.Strings
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Hide placemarks"
 msgstr "Не показывать метки"
 
@@ -1593,7 +1600,7 @@ msgstr "Картографический сервис"
 msgid "Images available"
 msgstr "Доступные снимки"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnImport..Caption
+#. frmMarksExplorer..pnlBottom..pnlButtons..btnImport..Caption
 msgid "Import"
 msgstr "Импорт"
 
@@ -1913,7 +1920,7 @@ msgstr "Путь в меню"
 msgid "Minimap opacity"
 msgstr "Прозрачность карты обзора"
 
-#. frmProgressDownload..Panel1..pnlBottom..Button3..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnMinimize..Caption
 #. frmProgressCacheConverter..pnlBottom..btnMinimize..Caption
 msgid "Minimize"
 msgstr "Свернуть"
@@ -2057,7 +2064,6 @@ msgstr ""
 #. frmMarkEditPath..pnlBottomButtons..btnOk..Caption
 #. frmMarkEditPoint..pnlBottomButtons..btnOk..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnOk..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlButtons..btnOk..Caption
 #. frmSettings..pnlBottomButtons..btnOk..Caption
 msgid "Ok"
 msgstr ""
@@ -2179,7 +2185,7 @@ msgid "Pathname to Tile in Cache"
 msgstr "Полный путь к тайлу"
 
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
-#. frmProgressDownload..Panel1..pnlBottom..Button1..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. frmProgressCacheConverter..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
@@ -2307,7 +2313,7 @@ msgstr "Тайл основной карты"
 msgid "Process not more than"
 msgstr "Обработать не более"
 
-#. frmProgressDownload..Panel1..LabelName0..Caption
+#. frmProgressDownload..Panel1..pnlToProcess..lblToProcess..Caption
 msgid "Process not more than:"
 msgstr "Обработать не более"
 
@@ -2315,7 +2321,7 @@ msgstr "Обработать не более"
 msgid "Processed"
 msgstr "Обработано"
 
-#. frmProgressDownload..Panel1..LabelName1..Caption
+#. frmProgressDownload..Panel1..pnlProcessed..lblProcessed..Caption
 msgid "Processed total:"
 msgstr "Всего обработано:"
 
@@ -2373,7 +2379,7 @@ msgstr "Осталось"
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
 #. frmMain..TrayPopupMenu..TrayItemQuit..Caption
-#. frmProgressDownload..Panel1..pnlBottom..Button2..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
 #. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 msgid "Quit"
 msgstr "Выход"
@@ -2505,7 +2511,7 @@ msgstr "Активные спутники"
 msgid "Satellites not in range"
 msgstr "Видимые с нулевым сигналом"
 
-#. frmProgressDownload..Panel1..pnlBottom..ButtonSave..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnSave..Caption
 msgid "Save"
 msgstr "Сохранить"
 
@@ -2513,7 +2519,7 @@ msgstr "Сохранить"
 msgid "Save as new"
 msgstr "Сохранить изменения как"
 
-#. frmProgressDownload..Panel1..pnlBottom..ButtonSave..Hint
+#. frmProgressDownload..Panel1..pnlBottom..btnSave..Hint
 msgid "Save current session"
 msgstr "Сохранить текущую сессию"
 
@@ -2689,7 +2695,7 @@ msgstr "Цвет тени"
 msgid "Shortcut|*.lnk"
 msgstr "Ярлык|*.lnk"
 
-#. frmMarksExplorer..rgMarksShowMode....Items.Strings
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show all placemarks"
 msgstr "Показывать все метки"
 
@@ -2716,7 +2722,7 @@ msgstr "Отображать название карты на панели ин�
 msgid "Show on map"
 msgstr "Отображать это место на карте"
 
-#. frmMarksExplorer..rgMarksShowMode....Items.Strings
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show only selected placemarks"
 msgstr "Показывать только указанные метки"
 
@@ -2884,10 +2890,6 @@ msgstr "Остановить"
 msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
 
-#. frmProgressCacheConverter..Font.Name
-msgid "Tahoma"
-msgstr ""
-
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr "Операция"
@@ -2985,7 +2987,7 @@ msgstr "Тайлы"
 msgid "Time Interval"
 msgstr "Диапазон дат"
 
-#. frmProgressDownload..Panel1..LabelName3..Caption
+#. frmProgressDownload..Panel1..pnlTimeToFinish..lblTimeToFinish..Caption
 msgid "Time remaining:"
 msgstr "Осталось времени:"
 
