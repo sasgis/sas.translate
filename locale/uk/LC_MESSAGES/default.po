@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-06-25 20:57\n"
+"POT-Creation-Date: 2012-06-26 16:03\n"
 "PO-Revision-Date: 2011-04-30 14:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -892,6 +892,11 @@ msgstr "Скопіювати"
 msgid "Copy coordinates"
 msgstr "Координати"
 
+#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
+#, fuzzy
+msgid "Copy description"
+msgstr "Опис"
+
 #. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Hint
 msgid "Copy TID's to clipboard"
 msgstr "Копіювати вибрані tid для вставки у посилання"
@@ -923,6 +928,11 @@ msgstr "Створювати файл прив’язки:"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnAddMark..Hint
 #, fuzzy
 msgid "Create new placemark"
+msgstr "Додати нову позначку"
+
+#. frmMain..tbxpmnSearchResult..tbitmCreatePlaceMarkBySearchResult..Caption
+#, fuzzy
+msgid "Create placemark"
 msgstr "Додати нову позначку"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmCreateShortcut..Caption
@@ -3446,5 +3456,3 @@ msgstr "Масштаби:"
 msgid "Z-Order:"
 msgstr ""
 
-#~ msgid "Are you sure?"
-#~ msgstr "Ви дійсно бажаєте обнулити датчик?"
