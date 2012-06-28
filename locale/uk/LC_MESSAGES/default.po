@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-06-28 10:27\n"
-"PO-Revision-Date: 2012-06-28 13:54+0400\n"
+"POT-Creation-Date: 2012-06-28 15:01\n"
+"PO-Revision-Date: 2012-06-28 15:02+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -797,9 +797,6 @@ msgstr "Запакування в ZIP"
 msgid "Compression:"
 msgstr "Стиснення:"
 
-msgid "Connct to server error. Error code %d"
-msgstr "Помилка зв'язку з сервером. Код помилки:% D"
-
 #. frmMain..TBDock..GPSToolbar..TBGPSconn..Hint
 msgid "Connect to GPS receiver"
 msgstr "Під’єднатись до GPS-приймача"
@@ -807,6 +804,9 @@ msgstr "Під’єднатись до GPS-приймача"
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSConnect..Caption
 msgid "Connect to GPS Receiver"
 msgstr "Під’єднати приймач"
+
+msgid "Connect to server error. Error code %d"
+msgstr "Помилка зв'язку з сервером. Код помилки:% D"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
 msgid "Connection settings"
@@ -1347,7 +1347,11 @@ msgstr "Заповнення:"
 msgid "FillDates"
 msgstr "Дата створення"
 
-#. frmMain..MainPopupMenu..tbitmFitToScreen..Caption
+#. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
+msgid "Fit to screen"
+msgstr "За розміром екрана"
+
+#. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
 msgid "Fit to Screen"
 msgstr "За розміром екрана"
 
