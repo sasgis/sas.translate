@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-07-05 14:13\n"
-"PO-Revision-Date: 2012-07-05 14:19+0400\n"
+"POT-Creation-Date: 2012-07-06 19:36\n"
+"PO-Revision-Date: 2012-07-06 20:01+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -248,7 +248,6 @@ msgstr "О программе"
 msgid "Add"
 msgstr "Добавить"
 
-#
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
 msgid "Add Category"
 msgstr "Создать категорию"
@@ -420,7 +419,6 @@ msgstr "Внимание!"
 msgid "Attract to The Existing Markers"
 msgstr "Притягивать точки к существующим маркерам"
 
-#
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 msgid "Auto"
@@ -762,12 +760,10 @@ msgstr "Азимут:"
 msgid "Create georeferencing file:"
 msgstr "Создавать файл привязки:"
 
-#
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnAddMark..Hint
 msgid "Create new placemark"
 msgstr "Создать метку"
 
-#
 #. frmMain..tbxpmnSearchResult..tbitmCreatePlaceMarkBySearchResult..Caption
 msgid "Create placemark"
 msgstr "Создать метку"
@@ -833,7 +829,6 @@ msgstr "Назначить гор. кл."
 msgid "Delete"
 msgstr "Удалить"
 
-#
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Caption
 msgid "Delete Category"
 msgstr "Удалить категорию"
@@ -850,7 +845,6 @@ msgstr "Удалять только тайлы, размер которых, б�
 msgid "Delete Overlay Layer Tile from Cache"
 msgstr "Удалить тайл слоя"
 
-#
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
 msgid "Delete Placemark"
 msgstr "Удалить метку"
@@ -1150,12 +1144,10 @@ msgstr "Экспорт"
 msgid "Export all placemarks and all categories"
 msgstr "Экспорт всех меток и категорий"
 
-#
 #. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
 msgid "Export Placemark"
 msgstr "Экспортировать метку"
 
-#
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Экспортировать группу"
@@ -1224,12 +1216,10 @@ msgstr "Заполнение:"
 msgid "FillDates"
 msgstr "Дата создания"
 
-#
 #. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
 msgid "Fit to screen"
 msgstr "Уместить на экране"
 
-#
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
 msgid "Fit to Screen"
 msgstr "Уместить на экране"
@@ -1519,7 +1509,6 @@ msgstr "Багтрекер (http://sasgis.ru/mantis)"
 msgid "JNX raster map for Garmin"
 msgstr "JNX растровая карта для Garmin"
 
-#
 #. frExportToJNX..PageControl1..Info..PnlInfo..LVersion..Caption
 msgid "JNX version:"
 msgstr "Версия JNX:"
@@ -1618,13 +1607,11 @@ msgstr "Линия:"
 msgid "Load from File"
 msgstr "Загрузить из файла"
 
-#
 #. Local time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeMenuItemName
 msgid "Local time"
 msgstr "Местное время"
 
-#
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeCaption
 msgid "Local time:"
 msgstr "Местное время"
@@ -2173,17 +2160,14 @@ msgstr "Обработка файла: %0:s ..."
 msgid "Processing..."
 msgstr "Идет обработка..."
 
-#
 #. frExportToJNX..PageControl1..Info..PnlInfo..LProductID..Caption
 msgid "Product ID"
 msgstr "Тип снимка (ID)"
 
-#
 #. frExportToJNX..PageControl1..Info..PnlInfo..LProductName..Caption
 msgid "Product Name"
 msgstr "Наименование:"
 
-#
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
 msgstr "Свойства"
@@ -2371,7 +2355,6 @@ msgstr "Сохранять только полностью заполненны�
 msgid "Save placemark in Database as new"
 msgstr "Сохранить метку в базе как новую"
 
-#
 #. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
 msgid "Save PNG with alpha channel"
 msgstr "Сохранять  PNG с прозрачностью"
@@ -2602,7 +2585,6 @@ msgstr "Отображает расстояние до выбранной мет
 msgid "Shows GPS altitude"
 msgstr "Отображает высоту над уровнем моря по данным GPS-приемника"
 
-#
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoDescription
 msgid "Shows GPS Unit info"
 msgstr "Отображает информацию о GPS-приемнике"
@@ -2611,7 +2593,6 @@ msgstr "Отображает информацию о GPS-приемнике"
 msgid "Shows HDOP"
 msgstr "Отображает HDOP"
 
-#
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
 msgid "Shows local time"
 msgstr "Отображает местное время"
@@ -2633,7 +2614,6 @@ msgstr "Отображает азимут направления"
 msgid "Shows total distance"
 msgstr "Отображает весь пройденный путь"
 
-#
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeDescription
 msgid "Shows UTC time"
 msgstr "Отображает Всемирное Координированное Время"
@@ -2787,7 +2767,6 @@ msgstr ""
 "Файл %0:s уже есть у вас в кэше.\n"
 "Заменить этот файл вновь скачанным?"
 
-#
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..Label23..Caption
 msgid "Tile borders:"
 msgstr "Отображение границ:"
@@ -2870,13 +2849,11 @@ msgstr "Ошибочный тип данных"
 msgid "Unexpected proxy authorization"
 msgstr "Ошибка авторизации на прокси!"
 
-#
 #. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoMenuItemName
 msgid "Unit info"
 msgstr "Информация"
 
-#
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoCaption
 msgid "Unit info:"
 msgstr "Информация"
@@ -2974,18 +2951,15 @@ msgstr "Использовать вышележащие слои, если от�
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 
-#
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
 msgstr "Задано пользователем"
 
-#
 #. UTC time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
 msgid "UTC time"
 msgstr "Всемирное Координированное Время (UTC)"
 
-#
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeCaption
 msgid "UTC time:"
 msgstr "Время UTC:"
