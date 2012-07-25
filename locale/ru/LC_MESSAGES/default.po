@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-07-06 19:36\n"
-"PO-Revision-Date: 2012-07-13 19:21+0300\n"
-"Last-Translator: zed <starmen@tut.by>\n"
+"POT-Creation-Date: 2012-07-25 23:06\n"
+"PO-Revision-Date: 2012-07-25 23:15+0200\n"
+"Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -740,6 +740,10 @@ msgstr "Копировать описание"
 msgid "Copy TID's to clipboard"
 msgstr "Копировать выбранные TID для вставки в URL"
 
+#. frTilesCopy..Panel1..Caption
+msgid "Copy tiles from selection to folder"
+msgstr "Копировать тайлы из выделенной области в папку"
+
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
 msgid "Copy to Clipboard"
 msgstr "Копировать в буфер обмена"
@@ -1162,7 +1166,7 @@ msgstr "Экспорт выбранной категории"
 msgid "Export selected placemark"
 msgstr "Экспорт выбранной метки"
 
-#. frmRegionProcess..PageControl1..TabSheet5..Label9..Caption
+#. frExport..Label9..Caption
 msgid "Export selection to format"
 msgstr "Экспорт выделенного участка в формат"
 
@@ -2364,9 +2368,8 @@ msgid "Save recovery information"
 msgstr "Записывать информацию для восстановления"
 
 #. frmRegionProcess..pnlBottomButtons..SpeedButton1..Hint
-#. frTilesCopy..Panel1..Caption
-msgid "Save selection to file"
-msgstr "Сохранить кэш  выделенного участка карты"
+msgid "Save selection info to file"
+msgstr "Сохранить информацию о выделенной области в файл"
 
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
