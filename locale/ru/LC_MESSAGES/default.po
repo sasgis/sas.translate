@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-07-25 23:06\n"
-"PO-Revision-Date: 2012-07-25 23:15+0200\n"
+"POT-Creation-Date: 2012-08-01 11:05\n"
+"PO-Revision-Date: 2012-08-01 11:39+0200\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -30,6 +30,18 @@ msgstr "-- г.м.с. (-12°23\"43.35')"
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
 msgstr " по "
+
+#. Programmer's name for it: SAS_STR_ExtendedPathCaption
+msgid "%0:s (Path)"
+msgstr "%0:s (Путь)"
+
+#. Programmer's name for it: SAS_STR_ExtendedPointCaption
+msgid "%0:s (Placemark)"
+msgstr "%0:s (Метка)"
+
+#. Programmer's name for it: SAS_STR_ExtendedPolygonCaption
+msgid "%0:s (Polygon)"
+msgstr "%0:s (Полигон)"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -833,6 +845,10 @@ msgstr "Назначить гор. кл."
 msgid "Delete"
 msgstr "Удалить"
 
+#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+msgid "Delete both"
+msgstr "всё"
+
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Caption
 msgid "Delete Category"
 msgstr "Удалить категорию"
@@ -864,6 +880,18 @@ msgstr "Удалить тайл основной карты (Del+MLeft)"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnDelMark..Hint
 msgid "Delete selected placemark"
 msgstr "Удалить выбранную метку"
+
+#. frTilesDelete..pnlBottom..pnlCenter..rgTarget..Caption
+msgid "Delete target"
+msgstr "Удалить:"
+
+#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+msgid "Delete tiles"
+msgstr "тайлы"
+
+#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+msgid "Delete tne"
+msgstr "tne"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..TBItemDelTrack..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackClear..Caption
@@ -973,10 +1001,6 @@ msgstr "Ошибка загрузки. Неизвестный код ответ�
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
 msgid "Download next tile if no response"
 msgstr "Переходить к следующему тайлу, если сервер не отвечает"
-
-#. Programmer's name for it: SAS_ERR_MapDownloadByError
-msgid "Download of map %0:s disabled because of error: %1:s"
-msgstr "Для карты %0:s отключена загрузка тайлов из-за ошибки: %1:s"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -1166,7 +1190,7 @@ msgstr "Экспорт выбранной категории"
 msgid "Export selected placemark"
 msgstr "Экспорт выбранной метки"
 
-#. frExport..Label9..Caption
+#. frExport..pnlTop..Label9..Caption
 msgid "Export selection to format"
 msgstr "Экспорт выделенного участка в формат"
 
@@ -1194,11 +1218,7 @@ msgstr "файл"
 msgid "File %0:s not found"
 msgstr "Файл %0:s не найден"
 
-#. Programmer's name for it: SAS_ERR_FileNotFound
-msgid "File not found!"
-msgstr "Файл не найден"
-
-#. Programmer's name for it: SAS_STR_files
+#. Programmer's name for it: SAS_STR_Files
 msgid "files"
 msgstr "файлов"
 
@@ -1246,10 +1266,6 @@ msgstr "Для"
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
 msgid "Format:"
 msgstr "Формат:"
-
-#. Programmer's name for it: SAS_STR_foundplace
-msgid "Found"
-msgstr "Место, найденное по запросу"
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label3..Caption
 msgid "from"
@@ -1693,14 +1709,6 @@ msgstr "Информация о карте"
 msgid "Map Name"
 msgstr "Название карты"
 
-#. Programmer's name for it: SAS_ERR_UrlScriptUnexpectedError
-msgid ""
-"Map script error %0:s (%2:s):\n"
-"Unexpected error"
-msgstr ""
-"Ошибка скрипта карты %0:s (%2:s):\n"
-"Неожиданная ошибка"
-
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
 msgid "Map Settings"
 msgstr "Параметры карты"
@@ -1860,10 +1868,6 @@ msgstr "Нет вложений"
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
 msgstr "Не найден приемник GPS"
-
-#. Programmer's name for it: SAS_ERR_Memory
-msgid "Not enough memory to complete the task"
-msgstr "Невозможно выделить память для данной операции"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
@@ -2083,10 +2087,6 @@ msgstr "Метки "
 msgid "PlaceMarks"
 msgstr "Метки"
 
-#. Programmer's name for it: SAS_ERR_UseADifferentFormat
-msgid "Please choose another format (ECW, BMP, JP2) while stitching large images"
-msgstr "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
-
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr "Сначала необходимо выделить хотя бы одну область"
@@ -2159,10 +2159,6 @@ msgstr "Обработано:"
 #. Programmer's name for it: SAS_STR_ProcessedFile
 msgid "Processing tile: %0:s ..."
 msgstr "Обработка файла: %0:s ..."
-
-#. Programmer's name for it: SAS_STR_Process
-msgid "Processing..."
-msgstr "Идет обработка..."
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LProductID..Caption
 msgid "Product ID"
@@ -2385,10 +2381,6 @@ msgstr "Сохранить информацию о выделенной обла
 msgid "Save to:"
 msgstr "Куда сохранять:"
 
-#. Programmer's name for it: SAS_STR_Saves
-msgid "Saved"
-msgstr "Сохранено"
-
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label2..Caption
 msgid "Scale"
 msgstr "Шкала"
@@ -2409,10 +2401,6 @@ msgstr "Поиск"
 #. frmMain..TBDockLeft..TBSearchWindow..Caption
 msgid "Search Results"
 msgstr "Результаты поиска"
-
-#. Programmer's name for it: SAS_UNITS_Secund
-msgid "sec."
-msgstr "секунд"
 
 #. frmMain..TBDock..SrcToolbar..TBSrc..Hint
 msgid "Select data source"
@@ -2701,10 +2689,6 @@ msgstr "Склеить: %0:dx%1:d (%2:d) файлов"
 msgid "Stitching the map"
 msgstr "Склейка карты"
 
-#. Programmer's name for it: SAS_STR_Stop
-msgid "Stop"
-msgstr "Остановить"
-
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
 msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
@@ -2844,10 +2828,6 @@ msgstr "Невозможно определить позицию"
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
-
-#. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
-msgid "Unexpected content type"
-msgstr "Ошибочный тип данных"
 
 msgid "Unexpected proxy authorization"
 msgstr "Ошибка авторизации на прокси!"
@@ -2996,10 +2976,6 @@ msgstr "По размеру экрана"
 msgid "Visible on zooms:"
 msgstr "Масштабы видимости:"
 
-#. Programmer's name for it: SAS_STR_Wite
-msgid "Wait"
-msgstr "Ждем"
-
 #. Programmer's name for it: SAS_ERR_WaitTime
 msgid "Wait %0:d secons..."
 msgstr "Ждем %0:d секунд..."
@@ -3102,3 +3078,44 @@ msgstr "Масштабы:"
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
 
+#~ msgid "Download of map %0:s disabled because of error: %1:s"
+#~ msgstr "Для карты %0:s отключена загрузка тайлов из-за ошибки: %1:s"
+
+#~ msgid "File not found!"
+#~ msgstr "Файл не найден"
+
+#~ msgid "Found"
+#~ msgstr "Место, найденное по запросу"
+
+#~ msgid ""
+#~ "Map script error %0:s (%2:s):\n"
+#~ "Unexpected error"
+#~ msgstr ""
+#~ "Ошибка скрипта карты %0:s (%2:s):\n"
+#~ "Неожиданная ошибка"
+
+#~ msgid "Not enough memory to complete the task"
+#~ msgstr "Невозможно выделить память для данной операции"
+
+#~ msgid ""
+#~ "Please choose another format (ECW, BMP, JP2) while stitching large images"
+#~ msgstr ""
+#~ "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
+
+#~ msgid "Processing..."
+#~ msgstr "Идет обработка..."
+
+#~ msgid "Saved"
+#~ msgstr "Сохранено"
+
+#~ msgid "sec."
+#~ msgstr "секунд"
+
+#~ msgid "Stop"
+#~ msgstr "Остановить"
+
+#~ msgid "Unexpected content type"
+#~ msgstr "Ошибочный тип данных"
+
+#~ msgid "Wait"
+#~ msgstr "Ждем"

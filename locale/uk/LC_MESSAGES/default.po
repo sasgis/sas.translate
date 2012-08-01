@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-07-25 23:06\n"
+"POT-Creation-Date: 2012-08-01 11:05\n"
 "PO-Revision-Date: 2012-07-13 19:28+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -30,6 +30,20 @@ msgstr "-- г.хв.с. (-12°23\"43.35')"
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
 msgstr "До"
+
+#. Programmer's name for it: SAS_STR_ExtendedPathCaption
+msgid "%0:s (Path)"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_ExtendedPointCaption
+#, fuzzy
+msgid "%0:s (Placemark)"
+msgstr " Позначки "
+
+#. Programmer's name for it: SAS_STR_ExtendedPolygonCaption
+#, fuzzy
+msgid "%0:s (Polygon)"
+msgstr "Додати полігон"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -847,6 +861,11 @@ msgstr "Призначити гарячу клавішу"
 msgid "Delete"
 msgstr "Видалити"
 
+#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+#, fuzzy
+msgid "Delete both"
+msgstr "Видалити точку"
+
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Caption
 msgid "Delete Category"
 msgstr "Видалити категорію"
@@ -878,6 +897,21 @@ msgstr "Видалити тайл основної карти (Del+MLeft)"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnDelMark..Hint
 msgid "Delete selected placemark"
 msgstr "Видалити обрану позначку"
+
+#. frTilesDelete..pnlBottom..pnlCenter..rgTarget..Caption
+#, fuzzy
+msgid "Delete target"
+msgstr "Всього видалено:"
+
+#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+#, fuzzy
+msgid "Delete tiles"
+msgstr "Видалити тайли карти"
+
+#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+#, fuzzy
+msgid "Delete tne"
+msgstr "Видалити"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..TBItemDelTrack..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackClear..Caption
@@ -987,10 +1021,6 @@ msgstr "Помилка завантаження. Невідомий статус
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
 msgid "Download next tile if no response"
 msgstr "Переходити до наступного тайла, якщо сервер не відповідає"
-
-#. Programmer's name for it: SAS_ERR_MapDownloadByError
-msgid "Download of map %0:s disabled because of error: %1:s"
-msgstr "Для карти %0:s вимкнуто завантаження тайлів через помилки: %1:s"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -1182,7 +1212,7 @@ msgstr "Експортувати позначку з обраної катего
 msgid "Export selected placemark"
 msgstr "Експорт обраної позначки"
 
-#. frExport..Label9..Caption
+#. frExport..pnlTop..Label9..Caption
 msgid "Export selection to format"
 msgstr "Експорт виділеної ділянки у формат"
 
@@ -1210,11 +1240,7 @@ msgstr "файл"
 msgid "File %0:s not found"
 msgstr "Файл %0:s не знайдено"
 
-#. Programmer's name for it: SAS_ERR_FileNotFound
-msgid "File not found!"
-msgstr "Файл не знайдено!"
-
-#. Programmer's name for it: SAS_STR_files
+#. Programmer's name for it: SAS_STR_Files
 msgid "files"
 msgstr "файлів"
 
@@ -1262,10 +1288,6 @@ msgstr "Для"
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
 msgid "Format:"
 msgstr "Формат:"
-
-#. Programmer's name for it: SAS_STR_foundplace
-msgid "Found"
-msgstr "Місце, знайдене за запитом"
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label3..Caption
 msgid "from"
@@ -1708,14 +1730,6 @@ msgstr "Інформація про карту"
 msgid "Map Name"
 msgstr "Назва карти"
 
-#. Programmer's name for it: SAS_ERR_UrlScriptUnexpectedError
-msgid ""
-"Map script error %0:s (%2:s):\n"
-"Unexpected error"
-msgstr ""
-"Помилка скрипту карти %0:s (%2:s):\n"
-"Неочікувана помилка"
-
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
 msgid "Map Settings"
 msgstr "Параметри карти"
@@ -1875,10 +1889,6 @@ msgstr "Немає вкладень"
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
 msgstr "Не знайдено GPS-приймач"
-
-#. Programmer's name for it: SAS_ERR_Memory
-msgid "Not enough memory to complete the task"
-msgstr "Неможливо виділити пам’ять для цієї операції"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не знайдено \"params.txt\" у zmp"
@@ -2098,12 +2108,6 @@ msgstr " Позначки "
 msgid "PlaceMarks"
 msgstr " Позначки"
 
-#. Programmer's name for it: SAS_ERR_UseADifferentFormat
-msgid ""
-"Please choose another format (ECW, BMP, JP2) while stitching large images"
-msgstr ""
-"Для склеювання великих розмірів використовуйте інший формат (ecw, bmp, jp2)"
-
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr "Спочатку треба виділити хочаб одну область!"
@@ -2176,10 +2180,6 @@ msgstr "Оброблено:"
 #. Programmer's name for it: SAS_STR_ProcessedFile
 msgid "Processing tile: %0:s ..."
 msgstr "Обробка файла: %0:s ..."
-
-#. Programmer's name for it: SAS_STR_Process
-msgid "Processing..."
-msgstr "Йде обробка..."
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LProductID..Caption
 msgid "Product ID"
@@ -2401,10 +2401,6 @@ msgstr "Зберегти  виділену ділянку у файл"
 msgid "Save to:"
 msgstr "Куди зберігати:"
 
-#. Programmer's name for it: SAS_STR_Saves
-msgid "Saved"
-msgstr "Збережено"
-
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label2..Caption
 msgid "Scale"
 msgstr "Масштаб"
@@ -2425,10 +2421,6 @@ msgstr "Пошук"
 #. frmMain..TBDockLeft..TBSearchWindow..Caption
 msgid "Search Results"
 msgstr "Результати пошуку"
-
-#. Programmer's name for it: SAS_UNITS_Secund
-msgid "sec."
-msgstr "секунд"
 
 #. frmMain..TBDock..SrcToolbar..TBSrc..Hint
 msgid "Select data source"
@@ -2720,10 +2712,6 @@ msgstr "Склеїти: %0:dx%1:d (%2:d) файлів"
 msgid "Stitching the map"
 msgstr "Склейка карти"
 
-#. Programmer's name for it: SAS_STR_Stop
-msgid "Stop"
-msgstr "Зупинити"
-
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
 msgid "Store info about not found tiles"
 msgstr "Зберігати інформацію про відсутність тайлів на сервері"
@@ -2865,10 +2853,6 @@ msgstr "Неможливо визначити позицію"
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Неможливо завантажити карту! Преривання..."
-
-#. Programmer's name for it: SAS_ERR_TileDownloadContentTypeUnexpcted
-msgid "Unexpected content type"
-msgstr "Помилковий тип даних"
 
 msgid "Unexpected proxy authorization"
 msgstr "Помилка авторизації на проксі"
@@ -3015,10 +2999,6 @@ msgstr "За розміром екрану"
 msgid "Visible on zooms:"
 msgstr "Масштаби видимості:"
 
-#. Programmer's name for it: SAS_STR_Wite
-msgid "Wait"
-msgstr "Зачекайте"
-
 #. Programmer's name for it: SAS_ERR_WaitTime
 msgid "Wait %0:d secons..."
 msgstr "Зачекайте %0:d секунд..."
@@ -3120,3 +3100,46 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Download of map %0:s disabled because of error: %1:s"
+#~ msgstr "Для карти %0:s вимкнуто завантаження тайлів через помилки: %1:s"
+
+#~ msgid "File not found!"
+#~ msgstr "Файл не знайдено!"
+
+#~ msgid "Found"
+#~ msgstr "Місце, знайдене за запитом"
+
+#~ msgid ""
+#~ "Map script error %0:s (%2:s):\n"
+#~ "Unexpected error"
+#~ msgstr ""
+#~ "Помилка скрипту карти %0:s (%2:s):\n"
+#~ "Неочікувана помилка"
+
+#~ msgid "Not enough memory to complete the task"
+#~ msgstr "Неможливо виділити пам’ять для цієї операції"
+
+#~ msgid ""
+#~ "Please choose another format (ECW, BMP, JP2) while stitching large images"
+#~ msgstr ""
+#~ "Для склеювання великих розмірів використовуйте інший формат (ecw, bmp, "
+#~ "jp2)"
+
+#~ msgid "Processing..."
+#~ msgstr "Йде обробка..."
+
+#~ msgid "Saved"
+#~ msgstr "Збережено"
+
+#~ msgid "sec."
+#~ msgstr "секунд"
+
+#~ msgid "Stop"
+#~ msgstr "Зупинити"
+
+#~ msgid "Unexpected content type"
+#~ msgstr "Помилковий тип даних"
+
+#~ msgid "Wait"
+#~ msgstr "Зачекайте"
