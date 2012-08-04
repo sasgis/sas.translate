@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-08-01 11:05\n"
-"PO-Revision-Date: 2012-08-01 11:39+0200\n"
+"POT-Creation-Date: 2012-08-04 10:04\n"
+"PO-Revision-Date: 2012-08-04 10:07+0200\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -436,10 +436,6 @@ msgstr "Притягивать точки к существующим марке
 msgid "Auto"
 msgstr "Автоматически"
 
-#. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
-msgid "Auto close window after finish"
-msgstr "Закрывать окно загрузки автоматически "
-
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматически показывать/скрывать панель датчиков"
@@ -642,6 +638,10 @@ msgstr "Закрыть"
 #. frmCacheManager..pnlBottomButtons..chkCloseWithStart..Caption
 msgid "Close this window after start"
 msgstr "Закрыть окно после старта"
+
+#. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
+msgid "Close this window once finished"
+msgstr "Закрыть окно после завершения"
 
 #. Programmer's name for it: SAS_UNITS_sm
 msgid "cm"
@@ -1126,7 +1126,7 @@ msgstr "Ввод параметров"
 msgid "Error at script bytecode loading"
 msgstr "Ошибка при загрузке байт-кода"
 
-#. Programmer's name for it: SAS_ERR_code
+#. Programmer's name for it: SAS_ERR_Code
 msgid "Error code:"
 msgstr "Код ошибки:"
 
@@ -3078,44 +3078,3 @@ msgstr "Масштабы:"
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
 
-#~ msgid "Download of map %0:s disabled because of error: %1:s"
-#~ msgstr "Для карты %0:s отключена загрузка тайлов из-за ошибки: %1:s"
-
-#~ msgid "File not found!"
-#~ msgstr "Файл не найден"
-
-#~ msgid "Found"
-#~ msgstr "Место, найденное по запросу"
-
-#~ msgid ""
-#~ "Map script error %0:s (%2:s):\n"
-#~ "Unexpected error"
-#~ msgstr ""
-#~ "Ошибка скрипта карты %0:s (%2:s):\n"
-#~ "Неожиданная ошибка"
-
-#~ msgid "Not enough memory to complete the task"
-#~ msgstr "Невозможно выделить память для данной операции"
-
-#~ msgid ""
-#~ "Please choose another format (ECW, BMP, JP2) while stitching large images"
-#~ msgstr ""
-#~ "Для склейки больших размеров используйте другой формат (ECW, BMP, JP2)"
-
-#~ msgid "Processing..."
-#~ msgstr "Идет обработка..."
-
-#~ msgid "Saved"
-#~ msgstr "Сохранено"
-
-#~ msgid "sec."
-#~ msgstr "секунд"
-
-#~ msgid "Stop"
-#~ msgstr "Остановить"
-
-#~ msgid "Unexpected content type"
-#~ msgstr "Ошибочный тип данных"
-
-#~ msgid "Wait"
-#~ msgstr "Ждем"
