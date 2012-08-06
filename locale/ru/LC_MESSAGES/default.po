@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-08-04 10:04\n"
-"PO-Revision-Date: 2012-08-04 10:07+0200\n"
+"POT-Creation-Date: 2012-08-06 08:29\n"
+"PO-Revision-Date: 2012-08-06 08:35+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -42,6 +42,10 @@ msgstr "%0:s (Метка)"
 #. Programmer's name for it: SAS_STR_ExtendedPolygonCaption
 msgid "%0:s (Polygon)"
 msgstr "%0:s (Полигон)"
+
+#. Programmer's name for it: SAS_STR_LoadProcess
+msgid "%0:s Downloading"
+msgstr "%0:s Скачивание"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -1034,7 +1038,6 @@ msgstr "Скачано"
 msgid "Downloaded total:"
 msgstr "Всего загружено:"
 
-#. Programmer's name for it: SAS_STR_LoadProcess
 #. Programmer's name for it: SAS_STR_OperationDownloadCaption
 msgid "Downloading"
 msgstr "Скачивание"
@@ -2030,13 +2033,13 @@ msgstr "Полный путь к тайлу"
 msgid "Pause"
 msgstr "Пауза"
 
-#. Programmer's name for it: SAS_STR_Stop1
-msgid "Paused"
-msgstr "Приостановлено"
-
 #. Programmer's name for it: SAS_STR_UserStop
 msgid "Paused by user..."
 msgstr "Приостановлено пользователем..."
+
+#. Programmer's name for it: SAS_STR_Paused
+msgid "Paused... (%0:s)"
+msgstr "Приостановлено... (%0:s)"
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsPer..Caption
 #. Programmer's name for it: SAS_STR_P

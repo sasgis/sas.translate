@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-08-04 10:04\n"
+"POT-Creation-Date: 2012-08-06 08:29\n"
 "PO-Revision-Date: 2012-07-13 19:28+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -44,6 +44,11 @@ msgstr " Позначки "
 #, fuzzy
 msgid "%0:s (Polygon)"
 msgstr "Додати полігон"
+
+#. Programmer's name for it: SAS_STR_LoadProcess
+#, fuzzy
+msgid "%0:s Downloading"
+msgstr "Завантаження"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -1055,7 +1060,6 @@ msgstr "Завантажено"
 msgid "Downloaded total:"
 msgstr "Всього завантажено:"
 
-#. Programmer's name for it: SAS_STR_LoadProcess
 #. Programmer's name for it: SAS_STR_OperationDownloadCaption
 msgid "Downloading"
 msgstr "Завантаження"
@@ -2052,13 +2056,13 @@ msgstr "Відносний шлях до зображення"
 msgid "Pause"
 msgstr "Пауза"
 
-#. Programmer's name for it: SAS_STR_Stop1
-msgid "Paused"
-msgstr "Призупинено"
-
 #. Programmer's name for it: SAS_STR_UserStop
 msgid "Paused by user..."
 msgstr "Призупинено користувачем..."
+
+#. Programmer's name for it: SAS_STR_Paused
+msgid "Paused... (%0:s)"
+msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsPer..Caption
 #. Programmer's name for it: SAS_STR_P
@@ -3101,3 +3105,6 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Paused"
+#~ msgstr "Призупинено"

@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-08-04 10:04\n"
-"PO-Revision-Date: 2012-08-04 10:04\n"
+"POT-Creation-Date: 2012-08-06 08:29\n"
+"PO-Revision-Date: 2012-08-06 08:29\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +40,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExtendedPolygonCaption
 msgid "%0:s (Polygon)"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_LoadProcess
+msgid "%0:s Downloading"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
@@ -1044,7 +1048,6 @@ msgstr ""
 msgid "Downloaded total:"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_LoadProcess
 #. Programmer's name for it: SAS_STR_OperationDownloadCaption
 msgid "Downloading"
 msgstr ""
@@ -2032,12 +2035,12 @@ msgstr ""
 msgid "Pause"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_Stop1
-msgid "Paused"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_UserStop
 msgid "Paused by user..."
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_Paused
+msgid "Paused... (%0:s)"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsPer..Caption
