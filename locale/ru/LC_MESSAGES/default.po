@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-08-06 08:29\n"
-"PO-Revision-Date: 2012-08-06 08:35+0300\n"
-"Last-Translator: Fetser <Fetser@list.ru>\n"
+"POT-Creation-Date: 2012-08-07 20:46\n"
+"PO-Revision-Date: 2012-08-07 20:56+0300\n"
+"Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +43,7 @@ msgstr "%0:s (Метка)"
 msgid "%0:s (Polygon)"
 msgstr "%0:s (Полигон)"
 
-#. Programmer's name for it: SAS_STR_LoadProcess
+#. Programmer's name for it: SAS_STR_DownloadingCaption
 msgid "%0:s Downloading"
 msgstr "%0:s Скачивание"
 
@@ -1050,6 +1050,10 @@ msgstr "Загрузить вложение"
 msgid "Downloading with overwrite..."
 msgstr "Загрузка с заменой..."
 
+#. Programmer's name for it: SAS_STR_LoadProcess
+msgid "Downloading..."
+msgstr "Скачивание..."
+
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label1..Caption
 msgid "EarthSlicer cache folder:"
 msgstr "Путь к кэшу EarthSlicer:"
@@ -1216,6 +1220,14 @@ msgstr "Ошибка"
 #. Programmer's name for it: SAS_STR_file
 msgid "file"
 msgstr "файл"
+
+#. Programmer's name for it: SAS_MSG_FileExists
+msgid ""
+"File %0:s is available on disk.\n"
+"Replace?"
+msgstr ""
+"Файл %0:s уже есть на диске.\n"
+"Заменить?"
 
 #. Programmer's name for it: SAS_ERR_FileNotFoundFmt
 msgid "File %0:s not found"
@@ -1536,6 +1548,10 @@ msgstr "JNX растровая карта для Garmin"
 msgid "JNX version:"
 msgstr "Версия JNX:"
 
+#. frExportJPEG..dlgTargetFileSelect..Filter
+msgid "JPEG |*.jpeg"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "Кб"
@@ -1688,6 +1704,7 @@ msgstr "Операции с выделенной областью"
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2373,6 +2390,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -2412,10 +2430,6 @@ msgstr "Выберите источник, из которого програм�
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbHybr..Hint
 msgid "Select Hybrid as main layer"
 msgstr "Выбрать гибрид в качестве основного слоя"
-
-#. frMarksGeneralOptions..grpPoint..cbbPointIcon..Hint
-msgid "Select image"
-msgstr "Выберите графическое изображение"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbMap..Hint
 msgid "Select Map as main layer"
@@ -2749,7 +2763,7 @@ msgstr "Это не тайловый кэш, невозможно получит
 msgid "Tile"
 msgstr "Тайловые"
 
-#. Programmer's name for it: SAS_MSG_FileExists
+#. Programmer's name for it: SAS_MSG_TileExists
 msgid ""
 "Tile %0:s is available in cache.\n"
 "Replace?"
@@ -3059,6 +3073,7 @@ msgstr "Перемещать к курсору"
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
+#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
@@ -3081,3 +3096,5 @@ msgstr "Масштабы:"
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
 
+#~ msgid "Select image"
+#~ msgstr "Выберите графическое изображение"
