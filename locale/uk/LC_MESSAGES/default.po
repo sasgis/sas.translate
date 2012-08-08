@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-08-07 20:46\n"
-"PO-Revision-Date: 2012-08-07 20:57+0300\n"
-"Last-Translator: zed <starmen@tut.by>\n"
+"POT-Creation-Date: 2012-08-08 10:31\n"
+"PO-Revision-Date: 2012-08-08 10:44+0400\n"
+"Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1224,6 +1224,8 @@ msgid ""
 "File %0:s is available on disk.\n"
 "Replace?"
 msgstr ""
+"Файл %0:s вже є на диску.\n"
+"Замінити?"
 
 #. Programmer's name for it: SAS_ERR_FileNotFoundFmt
 msgid "File %0:s not found"
@@ -1544,10 +1546,6 @@ msgstr "JNX растровая карта для Garmin"
 msgid "JNX version:"
 msgstr "Версія JNX:"
 
-#. frExportJPEG..dlgTargetFileSelect..Filter
-msgid "JPEG |*.jpeg"
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "Кб"
@@ -1699,7 +1697,6 @@ msgstr "Операція з виділеною областю"
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
-#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2383,7 +2380,6 @@ msgstr "Зберегти  виділення у файл"
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
-#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -3064,7 +3060,6 @@ msgstr "Масштабувати за курсором"
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
-#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
@@ -3086,3 +3081,4 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
