@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-08-08 10:31\n"
+"POT-Creation-Date: 2012-08-13 08:04\n"
 "PO-Revision-Date: 2012-08-08 10:44+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
@@ -364,8 +364,18 @@ msgstr "Все за стандартними налаштуваннями"
 
 #. frmMain..OpenSessionDialog....Filter
 #. frmMarksExplorer..OpenDialog1....Filter
-msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
-msgstr "Всі підтримувані типи (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML-файли (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ-файли (*.kmz)|*.kmz|Сесія завантаження (*.sls)|*.sls|Файл виділення (*.hlg)|*.hlg|Файли обміну GPS  (*.gpx)|*.gpx"
+msgid ""
+"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
+"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
+"gpx"
+msgstr ""
+"Всі підтримувані типи (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg;*.gpx|Google KML-файли (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ-файли (*.kmz)|*.kmz|Сесія "
+"завантаження (*.sls)|*.sls|Файл виділення (*.hlg)|*.hlg|Файли обміну GPS  (*."
+"gpx)|*.gpx"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -458,7 +468,8 @@ msgstr "Автопошук:"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
-msgstr "Автоматично визначати параметри базових станцій через під’єднаний телефон"
+msgstr ""
+"Автоматично визначати параметри базових станцій через під’єднаний телефон"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
@@ -679,8 +690,12 @@ msgstr ""
 "%0:s"
 
 #. ExportDialog
-msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
-msgstr "Запакований Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
+msgid ""
+"Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|"
+"*.kml"
+msgstr ""
+"Запакований Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
+"(kml)|*.kml"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -1120,8 +1135,10 @@ msgid "Enabled"
 msgstr "Використовується"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr "Введіть через кому mnc, mcc, LAC, CellID (Наприклад: 02,250,17023,13023)"
+msgid ""
+"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
+msgstr ""
+"Введіть через кому mnc, mcc, LAC, CellID (Наприклад: 02,250,17023,13023)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -2441,12 +2458,14 @@ msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
 "Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output format (ECW is the best)."
+"Try select smaller region to stitch in %s or select other output format (ECW "
+"is the best)."
 msgstr ""
 "Виділена область занадто велика для формату %s!\n"
 " Ширина = %d  (max = %d)\n"
 " Висота = %d   (max = %d)\n"
-" Зменшіть виділену область склейки в %s або виберіть інший формат (ECW - найкращий)."
+" Зменшіть виділену область склейки в %s або виберіть інший формат (ECW - "
+"найкращий)."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -2572,7 +2591,8 @@ msgstr "Показує DGPS"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
-msgstr "Показує пройдений шлях, який розраховується від під’єднання до GPS-приймача"
+msgstr ""
+"Показує пройдений шлях, який розраховується від під’єднання до GPS-приймача"
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointDescription
 msgid "Shows distance to selected placemark"
@@ -2720,7 +2740,8 @@ msgid ""
 "and use resulting KMZ files separately"
 msgstr ""
 "Кількість отриманих jpeg-файлів превищить 100 штук. Якщо Ваш \n"
-"навігатор не показує карту, розбийте зображення, що зберігається, на частини у \n"
+"навігатор не показує карту, розбийте зображення, що зберігається, на частини "
+"у \n"
 "діалозі \"Операції з виділеною областю\\склеїти\" \n"
 "і використовуйте отримані kmz окремо"
 
@@ -2734,7 +2755,8 @@ msgstr "Цей тайл вже є в кеші"
 
 #. Programmer's name for it: SAS_MSG_FileBeCreateTime
 msgid "The tile is newer than the entered age, skipping."
-msgstr "Цей тайл створено пізніше зазначеного терміну, пропускаємо завантаження."
+msgstr ""
+"Цей тайл створено пізніше зазначеного терміну, пропускаємо завантаження."
 
 #. Programmer's name for it: SAS_MSG_FileBeCreateLen
 msgid "The tile size is equal to the existing one, skipping."
@@ -3081,4 +3103,3 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
-
