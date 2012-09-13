@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-08-15 23:47\n"
-"PO-Revision-Date: 2012-08-15 23:50+0300\n"
+"POT-Creation-Date: 2012-09-13 11:50\n"
+"PO-Revision-Date: 2012-09-13 12:27+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1488,7 +1488,7 @@ msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
-msgid "Image postprocess"
+msgid "Image postprocessing"
 msgstr "Коррекция изображения"
 
 #. frmDGAvailablePic..gbImagesSource..Caption
@@ -2911,11 +2911,6 @@ msgstr "Ссылку для просмотра на Яндекс.Картах"
 msgid "Use Age Gradient"
 msgstr "Существующие с градиентом"
 
-#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
-#. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
-msgid "Use color settings"
-msgstr "Применять настройки цвета"
-
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
 msgid "Use Garmin via USB (overrides COM settings if checked)"
 msgstr "Выбрать Garmin USB (отменяет выбор COM-порта)"
@@ -2927,6 +2922,11 @@ msgstr "Брать слои из меньших масштабов"
 #. frmMain..TBDock..TBXMainMenu..NView..Nbackload..Caption
 msgid "Use Maps from Lower Zooms"
 msgstr "Брать карты из меньших масштабов"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
+#. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
+msgid "Use postprocessing settings"
+msgstr "Применить коррекцию изображения"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblUseProxy..Caption
 msgid "Use proxy (IP:port)"
@@ -3089,3 +3089,4 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
