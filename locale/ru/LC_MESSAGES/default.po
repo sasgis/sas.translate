@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
 "POT-Creation-Date: 2012-09-13 11:50\n"
-"PO-Revision-Date: 2012-09-13 12:27+0400\n"
+"PO-Revision-Date: 2012-09-19 21:05+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -396,35 +396,35 @@ msgstr "Примерно еще загрузить:"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 msgid "Are you sure you want to delete %0:d placemarks?"
-msgstr "Вы точно хотите удалить %0:d метки?"
+msgstr "Вы действительно хотите удалить %0:d метки?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
-msgstr "Вы точно хотите удалить категорию с именем \"%0:s\"?"
+msgstr "Вы действительно хотите удалить категорию с именем \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
 msgid "Are you sure you want to delete path with name \"%0:s\"?"
-msgstr "Вы точно хотите удалить путь с именем \"%0:s\"?"
+msgstr "Вы действительно хотите удалить путь с именем \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
 msgid "Are you sure you want to delete point with name \"%0:s\"?"
-msgstr "Вы точно хотите удалить точку с именем \"%0:s\"?"
+msgstr "Вы действительно хотите удалить точку с именем \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPolyAsk
 msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
-msgstr "Вы точно хотите удалить полигон с именем \"%0:s\"?"
+msgstr "Вы действительно хотите удалить полигон с именем \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
 msgid "Are you sure you want to delete tile with name \"%0:s\"?"
-msgstr "Вы точно хотите удалить тайл с именем \"%0:s\"?"
+msgstr "Вы действительно хотите удалить тайл с именем \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
 msgid "Are you sure you want to delete tiles in selected region?"
-msgstr "Вы точно хотите удалить тайлы в выделенной области?"
+msgstr "Вы действительно хотите удалить тайлы в выделенной области?"
 
 #. Programmer's name for it: SAS_MSG_ResetSensorAsk
 msgid "Are you sure you want to reset sensor?"
-msgstr "Вы точно хотите сбросить показания датчика?"
+msgstr "Вы действительно хотите сбросить показания датчика?"
 
 #. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsSq..Caption
 #. Programmer's name for it: SAS_STR_S
@@ -472,7 +472,7 @@ msgstr "Автопоиск:"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
-msgstr "Автоматически определять параметры базовых станций через подключенный телефон"
+msgstr "Автоматически определять параметры базовых станций через подключённый телефон"
 
 # GB_GpsTrackSave
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
@@ -714,11 +714,11 @@ msgstr "Сжатие:"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSconn..Hint
 msgid "Connect to GPS receiver"
-msgstr "Подключиться к GPS приемнику"
+msgstr "Подключиться к GPS приёмнику"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSConnect..Caption
 msgid "Connect to GPS Receiver"
-msgstr "Подключить приемник"
+msgstr "Подключить приёмник"
 
 msgid "Connect to server error. Error code %d"
 msgstr "Ошибка соединения с сервером. Код ошибки %d"
@@ -938,7 +938,7 @@ msgstr "Результирующий кэш"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
-msgstr "Время ожидания ответа от приемника (сек.)"
+msgstr "Время ожидания ответа от приёмника (сек.)"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
@@ -1361,7 +1361,7 @@ msgstr "Отображать бланковку карт ГШ"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lbGCCachePath..Caption
 msgid "GeoCacher root folder:"
-msgstr "Путь к кэшу GeoCacher"
+msgstr "Путь к кэшу GeoCacher:"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
@@ -1891,7 +1891,7 @@ msgstr "Нет вложений"
 
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
-msgstr "Не найден приемник GPS"
+msgstr "Не найден приёмник GPS"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
@@ -2246,7 +2246,7 @@ msgstr "Обновить"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
 msgid "Refresh rate (ms)"
-msgstr "Период обновления (мс)"
+msgstr "Период обновления (мс):"
 
 #. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
@@ -2440,7 +2440,7 @@ msgstr "Выбрать карту в качестве основного сло�
 
 #. frmMain..TBDock..SrcToolbar..TBLayerSel..Hint
 msgid "Select overlay layers"
-msgstr "Выбор слоев, отображаемых поверх основной карты"
+msgstr "Выбор слоёв, отображаемых поверх основной карты"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbSat..Hint
 msgid "Select Satellite as main layer"
@@ -2490,7 +2490,7 @@ msgstr "Датчики"
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
 msgid "Serial port"
-msgstr "COM-порт"
+msgstr "Порт"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 msgid "Server returned type \"%0:s\", this is not bitmap image"
@@ -2586,7 +2586,7 @@ msgstr "Отображает DGPS"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
-msgstr "Отображает пройденный путь, считаемый от подключения к GPS-приемнику"
+msgstr "Отображает пройденный путь, считаемый от подключения к GPS-приёмнику"
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointDescription
 msgid "Shows distance to selected placemark"
@@ -2594,11 +2594,11 @@ msgstr "Отображает расстояние до выбранной мет
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeDescription
 msgid "Shows GPS altitude"
-msgstr "Отображает высоту над уровнем моря по данным GPS-приемника"
+msgstr "Отображает высоту над уровнем моря по данным GPS-приёмника"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoDescription
 msgid "Shows GPS Unit info"
-msgstr "Отображает информацию о GPS-приемнике"
+msgstr "Отображает информацию о GPS-приёмнике"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
 msgid "Shows HDOP"
