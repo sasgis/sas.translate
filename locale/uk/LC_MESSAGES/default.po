@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-09-13 11:50\n"
-"PO-Revision-Date: 2012-09-13 12:17+0400\n"
+"POT-Creation-Date: 2012-10-02 18:51\n"
+"PO-Revision-Date: 2012-10-03 07:58+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -378,6 +378,14 @@ msgstr "Все за стандартними налаштуваннями"
 #. frmMarksExplorer..OpenDialog1....Filter
 msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 msgstr "Всі підтримувані типи (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML-файли (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ-файли (*.kmz)|*.kmz|Сесія завантаження (*.sls)|*.sls|Файл виділення (*.hlg)|*.hlg|Файли обміну GPS  (*.gpx)|*.gpx"
+
+#. frmDGAvailablePic..gbAvailImages..pnlRight..chkALLImages..Caption
+msgid "All Images"
+msgstr ""
+
+#. frmDGAvailablePic..gbImagesSource..chkALLServices..Caption
+msgid "All Services"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -937,6 +945,10 @@ msgstr "Результуючий кеш"
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
 msgstr "Час очікування відповіді від приймача (сек.)"
+
+#. frmDGAvailablePic..gbImagesSource..chkDG2..Caption
+msgid "DigitalGlobe (Catalogservice)"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
@@ -1677,6 +1689,10 @@ msgstr ""
 msgid "Longitude:"
 msgstr "Довгота:"
 
+#. frmDGAvailablePic..gbImagesSource..chkLowResolutionToo..Caption
+msgid "Low Resolution too"
+msgstr ""
+
 #. frmLonLatRectEdit..grdpnlMain..grpBottomRight..Caption
 msgid "Lower right corner"
 msgstr "Правий нижній кут"
@@ -1698,6 +1714,11 @@ msgstr "Головна"
 #. frmMain..TBDock..TBXMainMenu..Caption
 msgid "Main Menu"
 msgstr "Головне меню"
+
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnMakePoly..Hint
+#. frmDGAvailablePic..gbAvailImages..pnlRight..btnMakePoly..Caption
+msgid "Make Polygon"
+msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
 msgid "Manage Selection"
