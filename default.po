@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-02 18:51\n"
-"PO-Revision-Date: 2012-10-02 18:51\n"
+"POT-Creation-Date: 2012-10-05 12:48\n"
+"PO-Revision-Date: 2012-10-05 12:48\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,8 +70,8 @@ msgstr ""
 msgid "&View"
 msgstr ""
 
-#. frmDGAvailablePic..gbImagesSource..lbZoom..Hint
-#. frmDGAvailablePic..gbImagesSource..lbZoom..Caption
+#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Hint
+#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Caption
 msgid "(zoom %)"
 msgstr ""
 
@@ -382,11 +382,11 @@ msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.p"
 "(*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 msgstr ""
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..chkALLImages..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
 msgid "All Images"
 msgstr ""
 
-#. frmDGAvailablePic..gbImagesSource..chkALLServices..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkALLServices..Caption
 msgid "All Services"
 msgstr ""
 
@@ -396,6 +396,7 @@ msgid "Altitude"
 msgstr ""
 
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
+#. frmMapLayersOptions..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
 #. frmShortCutEdit..pnlBottom..btnOk..Caption
 msgid "Apply"
@@ -451,6 +452,11 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..lblAreaFormat..Caption
 msgid "Area representation"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..edtStatBarFontName..Text
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..edtScaleLineFont..Text
+msgid "Arial"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
@@ -510,6 +516,10 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
 msgid "Background color"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundColor..Caption
+msgid "Background color:"
 msgstr ""
 
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblMap..Caption
@@ -617,6 +627,8 @@ msgstr ""
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmImportConfigEdit..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
+#. frmMapLayersOptions..btnCancel..Hint
+#. frmMapLayersOptions..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Hint
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Caption
@@ -694,6 +706,10 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
+msgid "Color:"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
 msgstr ""
@@ -768,7 +784,7 @@ msgstr ""
 msgid "Coordinates representation"
 msgstr ""
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr ""
@@ -781,7 +797,7 @@ msgstr ""
 msgid "Copy description"
 msgstr ""
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Hint
 msgid "Copy TID's to clipboard"
 msgstr ""
 
@@ -956,7 +972,7 @@ msgstr ""
 msgid "Device timeout (sec)"
 msgstr ""
 
-#. frmDGAvailablePic..gbImagesSource..chkDG2..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
 msgstr ""
 
@@ -1011,7 +1027,7 @@ msgid "Don't store references to non-existent "
 msgstr ""
 
 #. frMapsList..pnlMapsRightButtons..Button11..Caption
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnDown..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnDown..Caption
 msgid "Down"
 msgstr ""
 
@@ -1300,6 +1316,11 @@ msgstr ""
 msgid "Follow GPS Position"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..Caption
+msgid "Font"
+msgstr ""
+
 #. frMarksGeneralOptions..grpPoint..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
@@ -1382,6 +1403,10 @@ msgstr ""
 msgid "GeoCacher root folder:"
 msgstr ""
 
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD4..Caption
+msgid "GeoEye"
+msgstr ""
+
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Geographic"
@@ -1440,6 +1465,10 @@ msgstr ""
 msgid "Header"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarHeight..Caption
+msgid "Height:"
+msgstr ""
+
 #. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
 msgid "Hide"
 msgstr ""
@@ -1454,6 +1483,16 @@ msgstr ""
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Hide placemarks"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..chkScaleLineHide..Caption
+#. Programmer's name for it: rsHideScaleLegend
+msgid "Hide Scale Legend"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarHide..Caption
+#. Programmer's name for it: rsHideStatusBar
+msgid "Hide Status Bar"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
@@ -1506,16 +1545,20 @@ msgstr ""
 msgid "Ignore polygons"
 msgstr ""
 
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD5..Caption
+msgid "IKONOS"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
 msgid "Image postprocessing"
 msgstr ""
 
-#. frmDGAvailablePic..gbImagesSource..Caption
+#. frmDGAvailablePic..Up..PnlSearch..Caption
 msgid "Image services"
 msgstr ""
 
 #. frmDGAvailablePic..Caption
-#. frmDGAvailablePic..gbAvailImages..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..Caption
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr ""
@@ -1547,6 +1590,11 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
+#. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
+#. frmMapLayersOptions..Caption
+msgid "Interface Options"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
 msgid "Internet"
@@ -1574,6 +1622,10 @@ msgstr ""
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LVersion..Caption
 msgid "JNX version:"
+msgstr ""
+
+#. frExportJPEG..dlgTargetFileSelect..Filter
+msgid "JPEG |*.jpeg"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_kb
@@ -1691,7 +1743,7 @@ msgstr ""
 msgid "Longitude:"
 msgstr ""
 
-#. frmDGAvailablePic..gbImagesSource..chkLowResolutionToo..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkLowResolutionToo..Caption
 msgid "Low Resolution too"
 msgstr ""
 
@@ -1717,8 +1769,8 @@ msgstr ""
 msgid "Main Menu"
 msgstr ""
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnMakePoly..Hint
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnMakePoly..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
 msgid "Make Polygon"
 msgstr ""
 
@@ -1729,6 +1781,7 @@ msgstr ""
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -1887,6 +1940,11 @@ msgstr ""
 msgid "New Category"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsNice
+msgid "Nice"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..CBinvertcolor..Caption
 msgid "Night mode (color inversion)"
 msgstr ""
@@ -1929,6 +1987,11 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsCache..flwpnlMemCache..Label30..Caption
 msgid "Number of tiles to be cached in RAM"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
+#. Programmer's name for it: rsNumbersFormat
+msgid "Numbers Format"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1MenuItemName
@@ -1981,6 +2044,13 @@ msgstr ""
 msgid "Opacity %"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineColorOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineOutlineOpacity..Caption
+msgid "Opacity:"
+msgstr ""
+
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
 msgid "Open Overlay Layer Tile Folder"
 msgstr ""
@@ -1999,8 +2069,17 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
+#. Programmer's name for it: rsOptions
+#. Programmer's name for it: rsOptions
+msgid "Options..."
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
 msgid "Others"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineOutlineColor..Caption
+msgid "Outline color:"
 msgstr ""
 
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
@@ -2240,6 +2319,10 @@ msgstr ""
 msgid "Queue"
 msgstr ""
 
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD3..Caption
+msgid "QuickBird"
+msgstr ""
+
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
 #. frmMain..TrayPopupMenu..TrayItemQuit..Caption
@@ -2260,7 +2343,11 @@ msgstr ""
 msgid "Rectangular Selection"
 msgstr ""
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnRefresh..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarRedrawTime..Caption
+msgid "Redraw interval (ms):"
+msgstr ""
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Caption
 msgid "Refresh"
 msgstr ""
 
@@ -2321,6 +2408,11 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsRound
+msgid "Round"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
@@ -2414,6 +2506,7 @@ msgstr ""
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -2430,7 +2523,13 @@ msgid "Scale"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowLine..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
 msgid "Scale Legend"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsScience
+msgid "Science"
 msgstr ""
 
 #. frmGoTo..pgcSearchType..tsSearch..Caption
@@ -2546,6 +2645,11 @@ msgstr ""
 msgid "Show all placemarks"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarDownloadInfo..Caption
+#. Programmer's name for it: rsShowDownloadInfo
+msgid "Show Download Info"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
 msgid "Show for..."
 msgstr ""
@@ -2558,8 +2662,18 @@ msgstr ""
 msgid "Show GPS Track"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarLonLatInfo..Caption
+#. Programmer's name for it: rsShowLonLatInfo
+msgid "Show LonLat Info"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowmapname..Caption
 msgid "Show map name on toolbar"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarMetrPerPixInfo..Caption
+#. Programmer's name for it: rsShowMeterPerPixelInfo
+msgid "Show Meter Per Pixel Info"
 msgstr ""
 
 #. frmMarkCategoryEdit..CBShow..Caption
@@ -2577,8 +2691,33 @@ msgstr ""
 msgid "Show Primary Map Tile"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarQueueInfo..Caption
+#. Programmer's name for it: rsShowQueueInfo
+msgid "Show Queue Info"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
+#. Programmer's name for it: rsShowTilePathInfo
+msgid "Show Tile Path Info"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTimeZoneInfo..Caption
+#. Programmer's name for it: rsShowTimeZoneInfo
+msgid "Show Time Zone Info"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
 msgid "Show tooltips"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..chkShowVertScaleLine..Caption
+#. Programmer's name for it: rsShowVerticalScaleLegend
+msgid "Show Vertical Scale Legend"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarZoomInfo..Caption
+#. Programmer's name for it: rsShowZoomInfo
+msgid "Show Zoom Info"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabel..Hint
@@ -2699,6 +2838,7 @@ msgid "Start paused"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Showstatus..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
 msgid "Status Bar"
 msgstr ""
 
@@ -2722,6 +2862,11 @@ msgstr ""
 msgid "Store info about not found tiles"
 msgstr ""
 
+#. frmMapLayersOptions..Font.Name
+#. frmMapLayersOptions..dlgFont..Font.Name
+msgid "Tahoma"
+msgstr ""
+
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr ""
@@ -2729,6 +2874,10 @@ msgstr ""
 #. frMarksGeneralOptions..grpPoint..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextColor..Caption
+msgid "Text color:"
 msgstr ""
 
 #. Programmer's name for it: SAS_MSG_FunExForPoly
@@ -2874,7 +3023,7 @@ msgid "Unknown error during download"
 msgstr ""
 
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnUp..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnUp..Caption
 msgid "Up"
 msgstr ""
 
@@ -3019,8 +3168,20 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
+msgid "Width:"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NShowFillDates..Caption
 msgid "Within Time Interval"
+msgstr ""
+
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD1..Caption
+msgid "WorldView-1"
+msgstr ""
+
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD2..Caption
+msgid "WorldView-2"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
@@ -3034,6 +3195,10 @@ msgstr ""
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min.sec. (W12°23\"43.35')"
+msgstr ""
+
+#. frmDGAvailablePic..Up..PnlSearch..LabelDatadoors..Caption
+msgid "www.datadoors.net"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Yes
@@ -3053,7 +3218,7 @@ msgid "ZMP Filename"
 msgstr ""
 
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
-#. frmDGAvailablePic..gbImagesSource..lbNMCZoom..Caption
+#. frmDGAvailablePic..Up..PnlSearch..lbNMCZoom..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
 #. Programmer's name for it: SAS_STR_Zoom
@@ -3080,6 +3245,7 @@ msgstr ""
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
+#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption

@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-10-02 18:51\n"
-"PO-Revision-Date: 2012-10-03 07:52+0300\n"
-"Last-Translator: Fetser <Fetser@list.ru>\n"
+"POT-Creation-Date: 2012-10-05 12:48\n"
+"PO-Revision-Date: 2012-10-05 12:49+0300\n"
+"Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,8 +71,8 @@ msgstr "&Источник"
 msgid "&View"
 msgstr "&Вид"
 
-#. frmDGAvailablePic..gbImagesSource..lbZoom..Hint
-#. frmDGAvailablePic..gbImagesSource..lbZoom..Caption
+#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Hint
+#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Caption
 msgid "(zoom %)"
 msgstr "(масштаб %)"
 
@@ -379,11 +379,11 @@ msgstr "Все по умолчанию"
 msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 msgstr "Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..chkALLImages..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
 msgid "All Images"
 msgstr "Все снимки"
 
-#. frmDGAvailablePic..gbImagesSource..chkALLServices..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkALLServices..Caption
 msgid "All Services"
 msgstr "Все сервисы"
 
@@ -393,6 +393,7 @@ msgid "Altitude"
 msgstr "Высота"
 
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
+#. frmMapLayersOptions..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
 #. frmShortCutEdit..pnlBottom..btnOk..Caption
 msgid "Apply"
@@ -442,6 +443,11 @@ msgstr "Площадь"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..lblAreaFormat..Caption
 msgid "Area representation"
 msgstr "Формат отображения площади"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..edtStatBarFontName..Text
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..edtScaleLineFont..Text
+msgid "Arial"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
 msgid "Arrow color:"
@@ -502,6 +508,10 @@ msgstr "Скорость сред., км/ч:"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
 msgid "Background color"
 msgstr "Цвет фона"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundColor..Caption
+msgid "Background color:"
+msgstr "Цвет фона:"
 
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblMap..Caption
 msgid "Base Map:"
@@ -608,6 +618,8 @@ msgstr "Карта заполнения:"
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmImportConfigEdit..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
+#. frmMapLayersOptions..btnCancel..Hint
+#. frmMapLayersOptions..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Hint
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Caption
@@ -685,6 +697,10 @@ msgstr "см"
 msgid "Color"
 msgstr "Цвет"
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
+msgid "Color:"
+msgstr "Цвет:"
+
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
 msgstr "Комментарий"
@@ -760,7 +776,7 @@ msgstr "Координаты"
 msgid "Coordinates representation"
 msgstr "Формат представления координат"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Скопировать"
@@ -773,7 +789,7 @@ msgstr "Копировать координаты"
 msgid "Copy description"
 msgstr "Копировать описание"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Hint
 msgid "Copy TID's to clipboard"
 msgstr "Копировать выбранные TID для вставки в URL"
 
@@ -948,7 +964,7 @@ msgstr "Результирующий кэш"
 msgid "Device timeout (sec)"
 msgstr "Время ожидания ответа от приёмника (сек.)"
 
-#. frmDGAvailablePic..gbImagesSource..chkDG2..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
 msgstr "DigitalGlobe (Каталог севиса)"
 
@@ -1002,7 +1018,7 @@ msgid "Don't store references to non-existent tiles"
 msgstr "Не сохранять пути к несуществующим тайлам"
 
 #. frMapsList..pnlMapsRightButtons..Button11..Caption
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnDown..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnDown..Caption
 msgid "Down"
 msgstr "Вниз"
 
@@ -1293,6 +1309,11 @@ msgstr "Уместить на экране"
 msgid "Follow GPS Position"
 msgstr "Автоматически перемещать карту"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..Caption
+msgid "Font"
+msgstr "Шрифт"
+
 #. frMarksGeneralOptions..grpPoint..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
@@ -1375,6 +1396,10 @@ msgstr "Отображать бланковку карт ГШ"
 msgid "GeoCacher root folder:"
 msgstr "Путь к кэшу GeoCacher:"
 
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD4..Caption
+msgid "GeoEye"
+msgstr ""
+
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Geographic"
@@ -1434,6 +1459,10 @@ msgstr "га"
 msgid "Header"
 msgstr "Заголовок"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarHeight..Caption
+msgid "Height:"
+msgstr "Высота:"
+
 #. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
 msgid "Hide"
 msgstr "Скрыть"
@@ -1449,6 +1478,16 @@ msgstr "Скрыть все метки"
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Hide placemarks"
 msgstr "Не показывать метки"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..chkScaleLineHide..Caption
+#. Programmer's name for it: rsHideScaleLegend
+msgid "Hide Scale Legend"
+msgstr "Скрыть шкалу масштаба"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarHide..Caption
+#. Programmer's name for it: rsHideStatusBar
+msgid "Hide Status Bar"
+msgstr "Скрыть строку статуса"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -1499,16 +1538,20 @@ msgstr "Игнорировать метки"
 msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD5..Caption
+msgid "IKONOS"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
 msgid "Image postprocessing"
 msgstr "Коррекция изображения"
 
-#. frmDGAvailablePic..gbImagesSource..Caption
+#. frmDGAvailablePic..Up..PnlSearch..Caption
 msgid "Image services"
 msgstr "Картографический сервис"
 
 #. frmDGAvailablePic..Caption
-#. frmDGAvailablePic..gbAvailImages..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..Caption
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr "Доступные снимки"
@@ -1540,6 +1583,11 @@ msgstr "Ошибка инициализации LibPNG"
 msgid "Interface"
 msgstr "Элементы интерфейса"
 
+#. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
+#. frmMapLayersOptions..Caption
+msgid "Interface Options"
+msgstr "Настройки интерфейса"
+
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
 msgid "Internet"
@@ -1568,6 +1616,10 @@ msgstr "JNX растровая карта для Garmin"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LVersion..Caption
 msgid "JNX version:"
 msgstr "Версия JNX:"
+
+#. frExportJPEG..dlgTargetFileSelect..Filter
+msgid "JPEG |*.jpeg"
+msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
@@ -1692,7 +1744,7 @@ msgstr ""
 msgid "Longitude:"
 msgstr "Долгота:"
 
-#. frmDGAvailablePic..gbImagesSource..chkLowResolutionToo..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkLowResolutionToo..Caption
 msgid "Low Resolution too"
 msgstr "и низкого качества"
 
@@ -1718,8 +1770,8 @@ msgstr "Главная"
 msgid "Main Menu"
 msgstr "Главное меню"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnMakePoly..Hint
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnMakePoly..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
 msgid "Make Polygon"
 msgstr "Полигон"
 
@@ -1730,6 +1782,7 @@ msgstr "Операции с выделенной областью"
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -1888,6 +1941,11 @@ msgstr "Стрелка навигации"
 msgid "New Category"
 msgstr "Новая категория"
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsNice
+msgid "Nice"
+msgstr "Красивые"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..CBinvertcolor..Caption
 msgid "Night mode (color inversion)"
 msgstr "Ночной режим (Инверсия цветов)"
@@ -1931,6 +1989,11 @@ msgstr "Количество файлов"
 #. frmSettings..PageControl1..tsCache..flwpnlMemCache..Label30..Caption
 msgid "Number of tiles to be cached in RAM"
 msgstr "Количество тайлов, кэшируемых в оперативную память"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
+#. Programmer's name for it: rsNumbersFormat
+msgid "Numbers Format"
+msgstr "Формат чисел"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1MenuItemName
 msgid "Odometer"
@@ -1982,6 +2045,13 @@ msgstr "Прозрачность"
 msgid "Opacity %"
 msgstr "Прозрачность %"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineColorOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineOutlineOpacity..Caption
+msgid "Opacity:"
+msgstr "Прозрачность:"
+
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Открыть папку, содержащую тайл слоя"
@@ -2000,9 +2070,18 @@ msgstr "Открыть..."
 msgid "Options"
 msgstr "Настройки"
 
+#. Programmer's name for it: rsOptions
+#. Programmer's name for it: rsOptions
+msgid "Options..."
+msgstr "Настройки..."
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
 msgid "Others"
 msgstr "Другие"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineOutlineColor..Caption
+msgid "Outline color:"
+msgstr "Цвет контура:"
 
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
@@ -2241,6 +2320,10 @@ msgstr "Качество (для JPEG):"
 msgid "Queue"
 msgstr "Осталось"
 
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD3..Caption
+msgid "QuickBird"
+msgstr ""
+
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
 #. frmMain..TrayPopupMenu..TrayItemQuit..Caption
@@ -2261,7 +2344,11 @@ msgstr "Только для чтения"
 msgid "Rectangular Selection"
 msgstr "Прямоугольная область"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnRefresh..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarRedrawTime..Caption
+msgid "Redraw interval (ms):"
+msgstr "Перерисовывать не чаще (мс):"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Caption
 msgid "Refresh"
 msgstr "Обновить"
 
@@ -2322,6 +2409,11 @@ msgstr "Пытаться повторно загрузить тайл при е�
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr "Вращение на себя - приближение"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsRound
+msgid "Round"
+msgstr "Округлённые"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
 msgid "Route Calculation"
@@ -2415,6 +2507,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -2431,8 +2524,14 @@ msgid "Scale"
 msgstr "Шкала"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowLine..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
 msgid "Scale Legend"
 msgstr "Шкала масштаба"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsScience
+msgid "Science"
+msgstr "Точные"
 
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
@@ -2550,6 +2649,11 @@ msgstr "Ярлык|*.lnk"
 msgid "Show all placemarks"
 msgstr "Показывать все метки"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarDownloadInfo..Caption
+#. Programmer's name for it: rsShowDownloadInfo
+msgid "Show Download Info"
+msgstr "Отображать статистику о загрузке"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
 msgid "Show for..."
 msgstr "Формировать для..."
@@ -2562,9 +2666,19 @@ msgstr "Рисовать пройденный путь"
 msgid "Show GPS Track"
 msgstr "Отображать трек"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarLonLatInfo..Caption
+#. Programmer's name for it: rsShowLonLatInfo
+msgid "Show LonLat Info"
+msgstr "Отображать координаты"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowmapname..Caption
 msgid "Show map name on toolbar"
 msgstr "Отображать название карты на панели инструментов"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarMetrPerPixInfo..Caption
+#. Programmer's name for it: rsShowMeterPerPixelInfo
+msgid "Show Meter Per Pixel Info"
+msgstr "Отображать информацию о разрешении"
 
 #. frmMarkCategoryEdit..CBShow..Caption
 #. frmMarkEditPath..chkVisible..Caption
@@ -2581,9 +2695,34 @@ msgstr "Показывать только указанные метки"
 msgid "Show Primary Map Tile"
 msgstr "Просмотр тайла основной карты"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarQueueInfo..Caption
+#. Programmer's name for it: rsShowQueueInfo
+msgid "Show Queue Info"
+msgstr "Отображать очередь закачки"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
+#. Programmer's name for it: rsShowTilePathInfo
+msgid "Show Tile Path Info"
+msgstr "Отображать путь к тайлу"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTimeZoneInfo..Caption
+#. Programmer's name for it: rsShowTimeZoneInfo
+msgid "Show Time Zone Info"
+msgstr "Отображать время"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
 msgid "Show tooltips"
 msgstr "Отображать описание метки при наведении курсора"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..chkShowVertScaleLine..Caption
+#. Programmer's name for it: rsShowVerticalScaleLegend
+msgid "Show Vertical Scale Legend"
+msgstr "Отображать вертикальную шкалу масштаба"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarZoomInfo..Caption
+#. Programmer's name for it: rsShowZoomInfo
+msgid "Show Zoom Info"
+msgstr "Отображать зум"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabel..Hint
 msgid "Show/Hide Captions"
@@ -2703,6 +2842,7 @@ msgid "Start paused"
 msgstr "Запускать в паузе"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Showstatus..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
 msgid "Status Bar"
 msgstr "Строка статуса"
 
@@ -2726,6 +2866,11 @@ msgstr "Склейка карты"
 msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
 
+#. frmMapLayersOptions..Font.Name
+#. frmMapLayersOptions..dlgFont..Font.Name
+msgid "Tahoma"
+msgstr ""
+
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr "Операция"
@@ -2734,6 +2879,10 @@ msgstr "Операция"
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
 msgstr "Цвет текста"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextColor..Caption
+msgid "Text color:"
+msgstr "Цвет текста:"
 
 #. Programmer's name for it: SAS_MSG_FunExForPoly
 msgid "The feature can be used on polygons and polylines"
@@ -2883,7 +3032,7 @@ msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
 
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnUp..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnUp..Caption
 msgid "Up"
 msgstr "Вверх"
 
@@ -3028,10 +3177,22 @@ msgstr "Сайт:"
 msgid "Width"
 msgstr "Ширина"
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
+msgid "Width:"
+msgstr "Ширина:"
+
 # NFillToolBar
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NShowFillDates..Caption
 msgid "Within Time Interval"
 msgstr "Тайлы только в диапазоне дат"
+
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD1..Caption
+msgid "WorldView-1"
+msgstr ""
+
+#. frmDGAvailablePic..Up..PnlSearch..ChkDD2..Caption
+msgid "WorldView-2"
+msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg. (W12.1233°)"
@@ -3045,6 +3206,10 @@ msgstr "WS г.м. (W12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min.sec. (W12°23\"43.35')"
 msgstr "WS г.м.с. (W12°23\"43.35')"
+
+#. frmDGAvailablePic..Up..PnlSearch..LabelDatadoors..Caption
+msgid "www.datadoors.net"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
@@ -3062,7 +3227,7 @@ msgid "ZMP Filename"
 msgstr "Путь к файлу"
 
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
-#. frmDGAvailablePic..gbImagesSource..lbNMCZoom..Caption
+#. frmDGAvailablePic..Up..PnlSearch..lbNMCZoom..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
 #. Programmer's name for it: SAS_STR_Zoom
@@ -3089,6 +3254,7 @@ msgstr "Перемещать к курсору"
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
+#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
