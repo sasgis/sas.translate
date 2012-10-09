@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-10-02 18:51\n"
-"PO-Revision-Date: 2012-10-03 07:58+0300\n"
+"POT-Creation-Date: 2012-10-09 19:02\n"
+"PO-Revision-Date: 2012-10-09 23:57+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -71,8 +71,8 @@ msgstr "&Джерело"
 msgid "&View"
 msgstr "&Вигляд"
 
-#. frmDGAvailablePic..gbImagesSource..lbZoom..Hint
-#. frmDGAvailablePic..gbImagesSource..lbZoom..Caption
+#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Hint
+#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Caption
 msgid "(zoom %)"
 msgstr "(масштаб %)"
 
@@ -276,7 +276,6 @@ msgstr "Про програму"
 msgid "Add"
 msgstr "Додати"
 
-#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
 msgid "Add Category"
 msgstr "Додати категорію"
 
@@ -332,6 +331,10 @@ msgstr "Додати полігон"
 msgid "Add Polygon"
 msgstr "Додати полігон"
 
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
+msgid "Add SubCategory"
+msgstr "Додати підкатегорію"
+
 #. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
 msgid "Add tiles to database"
 msgstr "Додавати тайли в існуючу базу"
@@ -379,13 +382,23 @@ msgstr "Все за стандартними налаштуваннями"
 msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
 msgstr "Всі підтримувані типи (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML-файли (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ-файли (*.kmz)|*.kmz|Сесія завантаження (*.sls)|*.sls|Файл виділення (*.hlg)|*.hlg|Файли обміну GPS  (*.gpx)|*.gpx"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..chkALLImages..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
 msgid "All Images"
-msgstr ""
+msgstr "Всі знімки"
 
-#. frmDGAvailablePic..gbImagesSource..chkALLServices..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkALLServices..Caption
 msgid "All Services"
+msgstr "Всі сервіси"
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT....Hint
+msgid ""
+"Alt - snap to Lat/Lon grid (if enabled)\n"
+"Ctrl - snap to tile boundaries\n"
+"Shift - snap to GenShtab boundaries (if enabled)"
 msgstr ""
+"Alt - прив'язка до координатної сітки (якщо увімкн.)\n"
+"Ctrl -  прив'язка до границь тайлу\n"
+"Shift -  прив'язка до границь ГШ (якщо увімкн.)"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -393,6 +406,7 @@ msgid "Altitude"
 msgstr "Висота"
 
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
+#. frmMapLayersOptions..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
 #. frmShortCutEdit..pnlBottom..btnOk..Caption
 msgid "Apply"
@@ -497,9 +511,17 @@ msgstr "Середня швидкість"
 msgid "Average speed, km/h:"
 msgstr "Середня швидкість, км/год:"
 
+#. Programmer's name for it: SAS_STR_Azimuth
+msgid "Azimuth"
+msgstr "Азимут"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
 msgid "Background color"
 msgstr "Колір фону"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundColor..Caption
+msgid "Background color:"
+msgstr "Колір фону:"
 
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblMap..Caption
 msgid "Base Map:"
@@ -574,6 +596,20 @@ msgstr "Пішки (Найкоротший)"
 msgid "Cache"
 msgstr "Кеш"
 
+#. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
+msgid "Cache conversion is finished!"
+msgstr "Конвертацію кешу завершено!"
+
+#. Programmer's name for it: SAS_ERR_ContentTypeMismatch
+msgid ""
+"Cache converter aborted with error: Content-Type mismatch!\n"
+"Source: %s\n"
+"Destination: %s"
+msgstr ""
+"Конвертацію кешу припинено через помилку: Невідповідність типу даних!\n"
+"Джерело: %s\n"
+"Призначення:%s"
+
 #. frmMapTypeEdit..pnlCacheName..lblFolder..Caption
 msgid "Cache folder"
 msgstr "Тека кешу"
@@ -606,6 +642,8 @@ msgstr "Карта заповнення:"
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmImportConfigEdit..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
+#. frmMapLayersOptions..btnCancel..Hint
+#. frmMapLayersOptions..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Hint
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Caption
@@ -683,6 +721,10 @@ msgstr "см"
 msgid "Color"
 msgstr "Колір"
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
+msgid "Color:"
+msgstr "Колір:"
+
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
 msgstr "Коментарій"
@@ -758,7 +800,7 @@ msgstr "Координати"
 msgid "Coordinates representation"
 msgstr "Формат подання координат"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Копіювати"
@@ -771,7 +813,7 @@ msgstr "Копіювати координати"
 msgid "Copy description"
 msgstr "Копіювати опис:"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnCopy..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Hint
 msgid "Copy TID's to clipboard"
 msgstr "Копіювати вибрані tid для вставки у посилання"
 
@@ -946,9 +988,9 @@ msgstr "Результуючий кеш"
 msgid "Device timeout (sec)"
 msgstr "Час очікування відповіді від приймача (сек.)"
 
-#. frmDGAvailablePic..gbImagesSource..chkDG2..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
-msgstr ""
+msgstr "DigitalGlobe (Каталог сервісу)"
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
@@ -1000,7 +1042,7 @@ msgid "Don't store references to non-existent tiles"
 msgstr "Не зберігати шляхи до неіснуючих тайлів"
 
 #. frMapsList..pnlMapsRightButtons..Button11..Caption
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnDown..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnDown..Caption
 msgid "Down"
 msgstr "Вниз"
 
@@ -1278,6 +1320,10 @@ msgstr "Заповнення:"
 msgid "FillDates"
 msgstr "Дата створення"
 
+#. Programmer's name for it: SAS_STR_Finished
+msgid "Finished"
+msgstr "Завершено"
+
 #. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
 msgid "Fit to screen"
 msgstr "За розміром екрана"
@@ -1290,6 +1336,11 @@ msgstr "За розміром екрана"
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSCenterMap..Caption
 msgid "Follow GPS Position"
 msgstr "Автоматично переміщувати карту"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..Caption
+msgid "Font"
+msgstr "Шрифт"
 
 #. frMarksGeneralOptions..grpPoint..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
@@ -1432,6 +1483,10 @@ msgstr "га"
 msgid "Header"
 msgstr "Заголовок"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarHeight..Caption
+msgid "Height:"
+msgstr "Висота:"
+
 #. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
 msgid "Hide"
 msgstr "Приховати"
@@ -1447,6 +1502,16 @@ msgstr "Приховати всі позначки"
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Hide placemarks"
 msgstr "Не показувати позначки"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..chkScaleLineHide..Caption
+#. Programmer's name for it: rsHideScaleLegend
+msgid "Hide Scale Legend"
+msgstr "Приховати масштаб"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarHide..Caption
+#. Programmer's name for it: rsHideStatusBar
+msgid "Hide Status Bar"
+msgstr "Приховати рядок статусу"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -1501,12 +1566,12 @@ msgstr "Ігнорувати полігони"
 msgid "Image postprocessing"
 msgstr "Корегування зображення"
 
-#. frmDGAvailablePic..gbImagesSource..Caption
+#. frmDGAvailablePic..Up..PnlSearch..Caption
 msgid "Image services"
 msgstr "Картографічний сервіс"
 
 #. frmDGAvailablePic..Caption
-#. frmDGAvailablePic..gbAvailImages..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..Caption
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr "Доступні знімки"
@@ -1537,6 +1602,11 @@ msgstr "Помилка ініціалізації LibPNG"
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
 msgid "Interface"
 msgstr "Елементи інтерфейсу"
+
+#. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
+#. frmMapLayersOptions..Caption
+msgid "Interface Options"
+msgstr "Налаштування інтерфейсу"
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
@@ -1689,9 +1759,9 @@ msgstr ""
 msgid "Longitude:"
 msgstr "Довгота:"
 
-#. frmDGAvailablePic..gbImagesSource..chkLowResolutionToo..Caption
+#. frmDGAvailablePic..Up..PnlSearch..chkLowResolutionToo..Caption
 msgid "Low Resolution too"
-msgstr ""
+msgstr "та низької якості"
 
 #. frmLonLatRectEdit..grdpnlMain..grpBottomRight..Caption
 msgid "Lower right corner"
@@ -1715,10 +1785,10 @@ msgstr "Головна"
 msgid "Main Menu"
 msgstr "Головне меню"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnMakePoly..Hint
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnMakePoly..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
 msgid "Make Polygon"
-msgstr ""
+msgstr "Полігон"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
 msgid "Manage Selection"
@@ -1885,6 +1955,11 @@ msgstr "Стрілка навігації"
 msgid "New Category"
 msgstr "Нова категорія"
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsNice
+msgid "Nice"
+msgstr "Приємні"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..CBinvertcolor..Caption
 msgid "Night mode (color inversion)"
 msgstr "Нічний режим (Інверсія кольорів)"
@@ -1928,6 +2003,11 @@ msgstr "Кількість тайлів"
 #. frmSettings..PageControl1..tsCache..flwpnlMemCache..Label30..Caption
 msgid "Number of tiles to be cached in RAM"
 msgstr "Кількість тайлів, що кешується в оперативну пам’ять"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
+#. Programmer's name for it: rsNumbersFormat
+msgid "Numbers Format"
+msgstr "Числовий формат"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1MenuItemName
 msgid "Odometer"
@@ -1979,6 +2059,13 @@ msgstr "Прозорість"
 msgid "Opacity %"
 msgstr "Прозорість %"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineColorOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineOutlineOpacity..Caption
+msgid "Opacity:"
+msgstr "Прозорість:"
+
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Відкрити теку, що містить тайл шару"
@@ -1997,9 +2084,18 @@ msgstr "Відкрити..."
 msgid "Options"
 msgstr "Налаштування програми"
 
+#. Programmer's name for it: rsOptions
+#. Programmer's name for it: rsOptions
+msgid "Options..."
+msgstr "Налаштування..."
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
 msgid "Others"
 msgstr "Інші"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineOutlineColor..Caption
+msgid "Outline color:"
+msgstr "Колір обрамлення:"
 
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
@@ -2021,9 +2117,6 @@ msgid "Overview Map"
 msgstr "Карта огляду"
 
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkOverwrite..Caption
-msgid "Overwrite exist tiles"
-msgstr "Замінити існуючі тайли"
-
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
 msgid "Overwrite existing tiles"
 msgstr "Замінити існуючі файли"
@@ -2258,7 +2351,11 @@ msgstr "Тільки читання"
 msgid "Rectangular Selection"
 msgstr "Прямокутна область"
 
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnRefresh..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarRedrawTime..Caption
+msgid "Redraw interval (ms):"
+msgstr "Інтервал оновлення зображення (мс):"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Caption
 msgid "Refresh"
 msgstr "Оновити"
 
@@ -2319,6 +2416,11 @@ msgstr "Намагатись повторно завантажити тайл з
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr "Обератння на себе – наближення"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsRound
+msgid "Round"
+msgstr "Округлені"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
 msgid "Route Calculation"
@@ -2426,8 +2528,14 @@ msgid "Scale"
 msgstr "Масштаб"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowLine..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
 msgid "Scale Legend"
 msgstr "Лінійка"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+#. Programmer's name for it: rsScience
+msgid "Science"
+msgstr "Точні"
 
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
@@ -2545,6 +2653,11 @@ msgstr "Ярлик|*.lnk"
 msgid "Show all placemarks"
 msgstr "Показувати всі позначки"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarDownloadInfo..Caption
+#. Programmer's name for it: rsShowDownloadInfo
+msgid "Show Download Info"
+msgstr "Завантаження"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
 msgid "Show for..."
 msgstr "Формувати для..."
@@ -2557,9 +2670,19 @@ msgstr "Рисувати пройдений шлях"
 msgid "Show GPS Track"
 msgstr "Показувати маршрут"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarLonLatInfo..Caption
+#. Programmer's name for it: rsShowLonLatInfo
+msgid "Show LonLat Info"
+msgstr "Показувати довготу/широту"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowmapname..Caption
 msgid "Show map name on toolbar"
 msgstr "Показувати назву карти на панелі інструментів"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarMetrPerPixInfo..Caption
+#. Programmer's name for it: rsShowMeterPerPixelInfo
+msgid "Show Meter Per Pixel Info"
+msgstr "Показувати розрізнення"
 
 #. frmMarkCategoryEdit..CBShow..Caption
 #. frmMarkEditPath..chkVisible..Caption
@@ -2576,9 +2699,34 @@ msgstr "Показувати лише зазначені позначки"
 msgid "Show Primary Map Tile"
 msgstr "Перегляд тайла основної карти"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarQueueInfo..Caption
+#. Programmer's name for it: rsShowQueueInfo
+msgid "Show Queue Info"
+msgstr "Показувати чергу завантажень"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
+#. Programmer's name for it: rsShowTilePathInfo
+msgid "Show Tile Path Info"
+msgstr "Показувати шлях до тайлу"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTimeZoneInfo..Caption
+#. Programmer's name for it: rsShowTimeZoneInfo
+msgid "Show Time Zone Info"
+msgstr "Показувати часовий пояс"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
 msgid "Show tooltips"
 msgstr "Показувати опис позначки при наведенні курсору"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..chkShowVertScaleLine..Caption
+#. Programmer's name for it: rsShowVerticalScaleLegend
+msgid "Show Vertical Scale Legend"
+msgstr "Показувати масштаб за висотою"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarZoomInfo..Caption
+#. Programmer's name for it: rsShowZoomInfo
+msgid "Show Zoom Info"
+msgstr "Показувати масштабування"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabel..Hint
 msgid "Show/Hide Captions"
@@ -2698,6 +2846,7 @@ msgid "Start paused"
 msgstr "Запускати в паузі"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Showstatus..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
 msgid "Status Bar"
 msgstr "Рядок статусу"
 
@@ -2729,6 +2878,10 @@ msgstr "Операція"
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
 msgstr "Колір тексту"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextColor..Caption
+msgid "Text color:"
+msgstr "Колір тексту:"
 
 #. Programmer's name for it: SAS_MSG_FunExForPoly
 msgid "The feature can be used on polygons and polylines"
@@ -2878,7 +3031,7 @@ msgid "Unknown error during download"
 msgstr "Невідома помилка при завантаженні"
 
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
-#. frmDGAvailablePic..gbAvailImages..pnlRight..btnUp..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnUp..Caption
 msgid "Up"
 msgstr "Вгору"
 
@@ -3021,6 +3174,10 @@ msgstr "Сайт:"
 msgid "Width"
 msgstr "Ширина"
 
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
+msgid "Width:"
+msgstr "Ширина:"
+
 # NFillToolBar
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NShowFillDates..Caption
 msgid "Within Time Interval"
@@ -3055,7 +3212,7 @@ msgid "ZMP Filename"
 msgstr "Шлях до файла"
 
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
-#. frmDGAvailablePic..gbImagesSource..lbNMCZoom..Caption
+#. frmDGAvailablePic..Up..PnlSearch..lbNMCZoom..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
 #. Programmer's name for it: SAS_STR_Zoom
