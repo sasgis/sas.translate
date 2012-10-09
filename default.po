@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-09 14:58\n"
-"PO-Revision-Date: 2012-10-09 14:58\n"
+"POT-Creation-Date: 2012-10-09 19:02\n"
+"PO-Revision-Date: 2012-10-09 19:02\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -275,7 +275,6 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
 msgid "Add Category"
 msgstr ""
 
@@ -329,6 +328,10 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Poly..Caption
 msgid "Add Polygon"
+msgstr ""
+
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
+msgid "Add SubCategory"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
@@ -388,6 +391,13 @@ msgstr ""
 
 #. frmDGAvailablePic..Up..PnlSearch..chkALLServices..Caption
 msgid "All Services"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT....Hint
+msgid "Alt - snap to Lat/Lon grid (if enabled)\n"
+"Ctrl - snap to tile boundaries\n"
+"Shift - snap to GenShtab boundaries (if "
+"enabled)"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
@@ -594,14 +604,14 @@ msgstr ""
 msgid "Cache"
 msgstr ""
 
+#. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
+msgid "Cache conversion is finished!"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ContentTypeMismatch
 msgid "Cache converter aborted with error: Content-Type mismatch!\n"
 "Source: %s\n"
 "Destination: %s"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
-msgid "Cache convertion is finished!"
 msgstr ""
 
 #. frmMapTypeEdit..pnlCacheName..lblFolder..Caption
@@ -1629,10 +1639,6 @@ msgstr ""
 msgid "JNX version:"
 msgstr ""
 
-#. frExportJPEG..dlgTargetFileSelect..Filter
-msgid "JPEG |*.jpeg"
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr ""
@@ -1786,7 +1792,6 @@ msgstr ""
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
-#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2504,7 +2509,6 @@ msgstr ""
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
-#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -3226,7 +3230,6 @@ msgstr ""
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
-#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption

@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-10-09 14:58\n"
-"PO-Revision-Date: 2012-10-09 15:00+0300\n"
-"Last-Translator: zed <starmen@tut.by>\n"
+"POT-Creation-Date: 2012-10-09 19:02\n"
+"PO-Revision-Date: 2012-10-09 19:07+0300\n"
+"Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -276,7 +276,6 @@ msgstr "О программе"
 msgid "Add"
 msgstr "Добавить"
 
-#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
 msgid "Add Category"
 msgstr "Создать категорию"
 
@@ -332,6 +331,10 @@ msgstr "Добавить полигон"
 msgid "Add Polygon"
 msgstr "Добавить полигон"
 
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
+msgid "Add SubCategory"
+msgstr "Создать вложенную категорию"
+
 #. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
 msgid "Add tiles to database"
 msgstr "Добавлять тайлы в существующую базу"
@@ -386,6 +389,16 @@ msgstr "Все снимки"
 #. frmDGAvailablePic..Up..PnlSearch..chkALLServices..Caption
 msgid "All Services"
 msgstr "Все сервисы"
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT....Hint
+msgid ""
+"Alt - snap to Lat/Lon grid (if enabled)\n"
+"Ctrl - snap to tile boundaries\n"
+"Shift - snap to GenShtab boundaries (if enabled)"
+msgstr ""
+"Alt - согласно включённой градусной сетке\n"
+"Ctrl - согласно границам тайлов\n"
+"Shift - согласно включённой бланковке ГШ"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -585,6 +598,10 @@ msgstr "Пешком (по расстоянию)"
 msgid "Cache"
 msgstr "Кэш"
 
+#. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
+msgid "Cache conversion is finished!"
+msgstr "Конвертация кэша завершена!"
+
 #. Programmer's name for it: SAS_ERR_ContentTypeMismatch
 msgid ""
 "Cache converter aborted with error: Content-Type mismatch!\n"
@@ -594,10 +611,6 @@ msgstr ""
 "Конвертация кэша остановлена из за ошибки: Несовпадение типа данных!\n"
 "Источник: %s\n"
 "Приёмник: %s"
-
-#. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
-msgid "Cache convertion is finished!"
-msgstr "Конвертация кэша завершена!"
 
 #. frmMapTypeEdit..pnlCacheName..lblFolder..Caption
 msgid "Cache folder"
@@ -1626,10 +1639,6 @@ msgstr "JNX растровая карта для Garmin"
 msgid "JNX version:"
 msgstr "Версия JNX:"
 
-#. frExportJPEG..dlgTargetFileSelect..Filter
-msgid "JPEG |*.jpeg"
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "Кб"
@@ -1791,7 +1800,6 @@ msgstr "Операции с выделенной областью"
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
-#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2509,7 +2517,6 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
-#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -3239,7 +3246,6 @@ msgstr "Перемещать к курсору"
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
-#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
