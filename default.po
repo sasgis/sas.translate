@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-05 12:48\n"
-"PO-Revision-Date: 2012-10-05 12:48\n"
+"POT-Creation-Date: 2012-10-09 14:58\n"
+"PO-Revision-Date: 2012-10-09 14:58\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -454,11 +454,6 @@ msgstr ""
 msgid "Area representation"
 msgstr ""
 
-#. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..edtStatBarFontName..Text
-#. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..edtScaleLineFont..Text
-msgid "Arial"
-msgstr ""
-
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
 msgid "Arrow color:"
 msgstr ""
@@ -512,6 +507,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_Azimuth
+msgid "Azimuth"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
@@ -593,6 +592,16 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
 #. frmSettings..PageControl1..tsCache..Caption
 msgid "Cache"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ContentTypeMismatch
+msgid "Cache converter aborted with error: Content-Type mismatch!\n"
+"Source: %s\n"
+"Destenation: %s"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
+msgid "Cache convertion is finished!"
 msgstr ""
 
 #. frmMapTypeEdit..pnlCacheName..lblFolder..Caption
@@ -1303,6 +1312,10 @@ msgstr ""
 msgid "FillDates"
 msgstr ""
 
+#. Programmer's name for it: SAS_STR_Finished
+msgid "Finished"
+msgstr ""
+
 #. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
 msgid "Fit to screen"
 msgstr ""
@@ -1401,10 +1414,6 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lbGCCachePath..Caption
 msgid "GeoCacher root folder:"
-msgstr ""
-
-#. frmDGAvailablePic..Up..PnlSearch..ChkDD4..Caption
-msgid "GeoEye"
 msgstr ""
 
 #. frLonLat..pnlTop..cbbCoordType..Text
@@ -1545,10 +1554,6 @@ msgstr ""
 msgid "Ignore polygons"
 msgstr ""
 
-#. frmDGAvailablePic..Up..PnlSearch..ChkDD5..Caption
-msgid "IKONOS"
-msgstr ""
-
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
 msgid "Image postprocessing"
 msgstr ""
@@ -1622,10 +1627,6 @@ msgstr ""
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LVersion..Caption
 msgid "JNX version:"
-msgstr ""
-
-#. frExportJPEG..dlgTargetFileSelect..Filter
-msgid "JPEG |*.jpeg"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_kb
@@ -1781,7 +1782,6 @@ msgstr ""
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
-#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2102,9 +2102,6 @@ msgid "Overview Map"
 msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkOverwrite..Caption
-msgid "Overwrite exist tiles"
-msgstr ""
-
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
 msgid "Overwrite existing tiles"
 msgstr ""
@@ -2319,10 +2316,6 @@ msgstr ""
 msgid "Queue"
 msgstr ""
 
-#. frmDGAvailablePic..Up..PnlSearch..ChkDD3..Caption
-msgid "QuickBird"
-msgstr ""
-
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
 #. frmMain..TrayPopupMenu..TrayItemQuit..Caption
@@ -2506,7 +2499,6 @@ msgstr ""
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
-#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -2862,11 +2854,6 @@ msgstr ""
 msgid "Store info about not found tiles"
 msgstr ""
 
-#. frmMapLayersOptions..Font.Name
-#. frmMapLayersOptions..dlgFont..Font.Name
-msgid "Tahoma"
-msgstr ""
-
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr ""
@@ -3176,14 +3163,6 @@ msgstr ""
 msgid "Within Time Interval"
 msgstr ""
 
-#. frmDGAvailablePic..Up..PnlSearch..ChkDD1..Caption
-msgid "WorldView-1"
-msgstr ""
-
-#. frmDGAvailablePic..Up..PnlSearch..ChkDD2..Caption
-msgid "WorldView-2"
-msgstr ""
-
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg. (W12.1233°)"
 msgstr ""
@@ -3195,10 +3174,6 @@ msgstr ""
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min.sec. (W12°23\"43.35')"
-msgstr ""
-
-#. frmDGAvailablePic..Up..PnlSearch..LabelDatadoors..Caption
-msgid "www.datadoors.net"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Yes
@@ -3245,7 +3220,6 @@ msgstr ""
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
-#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
