@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
 "POT-Creation-Date: 2012-10-09 14:58\n"
-"PO-Revision-Date: 2012-10-09 15:14+0400\n"
-"Last-Translator: Fetser <Fetser@list.ru>\n"
+"PO-Revision-Date: 2012-10-09 15:00+0300\n"
+"Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -589,11 +589,11 @@ msgstr "Кэш"
 msgid ""
 "Cache converter aborted with error: Content-Type mismatch!\n"
 "Source: %s\n"
-"Destenation: %s"
+"Destination: %s"
 msgstr ""
-"Конвертация кэша остановлена из за ошибки: Несовпадение типа контента!\n"
+"Конвертация кэша остановлена из за ошибки: Несовпадение типа данных!\n"
 "Источник: %s\n"
-"Расположение: %s"
+"Приёмник: %s"
 
 #. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
 msgid "Cache convertion is finished!"
@@ -1626,6 +1626,10 @@ msgstr "JNX растровая карта для Garmin"
 msgid "JNX version:"
 msgstr "Версия JNX:"
 
+#. frExportJPEG..dlgTargetFileSelect..Filter
+msgid "JPEG |*.jpeg"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "Кб"
@@ -1787,6 +1791,7 @@ msgstr "Операции с выделенной областью"
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2504,6 +2509,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -3233,6 +3239,7 @@ msgstr "Перемещать к курсору"
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
+#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption

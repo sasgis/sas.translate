@@ -597,7 +597,7 @@ msgstr ""
 #. Programmer's name for it: SAS_ERR_ContentTypeMismatch
 msgid "Cache converter aborted with error: Content-Type mismatch!\n"
 "Source: %s\n"
-"Destenation: %s"
+"Destination: %s"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
@@ -1629,6 +1629,10 @@ msgstr ""
 msgid "JNX version:"
 msgstr ""
 
+#. frExportJPEG..dlgTargetFileSelect..Filter
+msgid "JPEG |*.jpeg"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr ""
@@ -1782,6 +1786,7 @@ msgstr ""
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportJPEG..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2499,6 +2504,7 @@ msgstr ""
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportJPEG..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -3220,6 +3226,7 @@ msgstr ""
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
+#. frExportJPEG..pnlCenter..pnlRight..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 #. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
 #. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
