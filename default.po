@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-09 19:02\n"
-"PO-Revision-Date: 2012-10-09 19:02\n"
+"POT-Creation-Date: 2012-10-19 00:09\n"
+"PO-Revision-Date: 2012-10-19 00:09\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -377,12 +377,20 @@ msgid "All by default"
 msgstr ""
 
 #. frmMain..OpenSessionDialog....Filter
-#. frmMarksExplorer..OpenDialog1....Filter
 msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.p"
 "lt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer "
 "Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files "
 "(*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection "
 "(*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgstr ""
+
+#. frmMarksExplorer..OpenDialog1....Filter
+msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv)|*.k"
+"ml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv|Google KML files "
+"(*.kml)|*.kml|OziExplorer Track Point File Version 2.1 "
+"(*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session "
+"(*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files "
+"(*.gpx)|*.gpx|Universal CSV files (*.csv)|*.csv"
 msgstr ""
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
@@ -455,13 +463,15 @@ msgstr ""
 msgid "Are you sure you want to reset sensor?"
 msgstr ""
 
-#. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsSq..Caption
 #. Programmer's name for it: SAS_STR_S
 msgid "Area"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..lblAreaFormat..Caption
 msgid "Area representation"
+msgstr ""
+
+msgid "Area: %s"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
@@ -696,6 +706,7 @@ msgid "Charging"
 msgstr ""
 
 #. frmAbout..pnlBottom..btnClose..Caption
+#. frmMarkInfo..pnlBottom..btnClose..Caption
 msgid "Close"
 msgstr ""
 
@@ -801,6 +812,9 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..Label84..Caption
 msgid "Coordinates representation"
+msgstr ""
+
+msgid "Coordinates: %s"
 msgstr ""
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Caption
@@ -993,6 +1007,10 @@ msgstr ""
 
 #. frmDGAvailablePic..Up..PnlSearch..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_DirectoryNotExistFmt
+msgid "Directory %0:s not exist"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
@@ -1710,9 +1728,11 @@ msgstr ""
 msgid "Layers"
 msgstr ""
 
-#. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsLen..Caption
 #. Programmer's name for it: SAS_STR_L
 msgid "Length"
+msgstr ""
+
+msgid "Length: %s"
 msgstr ""
 
 #. 64k
@@ -1846,6 +1866,11 @@ msgstr ""
 msgid "Mark Existing Tiles"
 msgstr ""
 
+#. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
+#. frmMarkInfo..Caption
+msgid "Mark Info"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode1..Caption
 msgid "Mark Nonexistent Tiles"
 msgstr ""
@@ -1872,10 +1897,6 @@ msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
-msgstr ""
-
-#. frmMain..MainPopupMenu..NMarksCalcs..Caption
-msgid "Measurements"
 msgstr ""
 
 #. frMapsList..MapList......Caption
@@ -2136,6 +2157,9 @@ msgstr ""
 msgid "Parent submenu"
 msgstr ""
 
+msgid "Parts count: %d"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_NewPath
 msgid "Path %0:d"
 msgstr ""
@@ -2168,9 +2192,11 @@ msgstr ""
 msgid "Paused... (%0:s)"
 msgstr ""
 
-#. frmMain..MainPopupMenu..NMarksCalcs..NMarksCalcsPer..Caption
 #. Programmer's name for it: SAS_STR_P
 msgid "Perimeter"
+msgstr ""
+
+msgid "Perimeter: %s"
 msgstr ""
 
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
@@ -2217,6 +2243,10 @@ msgstr ""
 msgid "PlaceMarks"
 msgstr ""
 
+#. frmMain..MainPopupMenu..NMarkPlay..Caption
+msgid "Play"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr ""
@@ -2236,6 +2266,9 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label10..Caption
 msgid "Pointer size:"
+msgstr ""
+
+msgid "Points count: %d"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_NewPoly
