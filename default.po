@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-22 13:25\n"
-"PO-Revision-Date: 2012-10-22 13:25\n"
+"POT-Creation-Date: 2012-10-30 10:24\n"
+"PO-Revision-Date: 2012-10-30 10:24\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -537,7 +537,7 @@ msgstr ""
 msgid "Azimuth"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..Label35..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..lblBGColor..Caption
 msgid "Background color"
 msgstr ""
 
@@ -734,9 +734,9 @@ msgstr ""
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label27..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..flwpnlTileBorders..Label27..Caption
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr ""
 
@@ -1432,11 +1432,11 @@ msgstr ""
 msgid "Generating upper zooms"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..LabelGsh1..Caption
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..LabelGsh1..Caption
 msgid "Genshtab Map boundaries:"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..CBGenshtabBorderText..Caption
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..CBGenshtabBorderText..Caption
 msgid "Genshtab Map names"
 msgstr ""
 
@@ -1494,8 +1494,12 @@ msgstr ""
 msgid "GPS On/Off"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..CBDegreeBorderText..Caption
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
+msgstr ""
+
+#. frmSettings..PageControl1..tsGrids..Caption
+msgid "Grids"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_Ha
@@ -1681,10 +1685,6 @@ msgstr ""
 msgid "KML (for Google Earth)"
 msgstr ""
 
-#. frMapCombine..pnlOutputFormat..cbbOutputFormat....Items.Strings
-msgid "KMZ for Garmin"
-msgstr ""
-
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
 msgid "Language"
@@ -1702,7 +1702,7 @@ msgstr ""
 msgid "Lat/Lon Grid"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..LabelDeg1..Caption
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..LabelDeg1..Caption
 msgid "Lat/Lon grid:"
 msgstr ""
 
@@ -1870,7 +1870,6 @@ msgstr ""
 msgid "Mark Existing Tiles"
 msgstr ""
 
-#. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
 #. frmMarkInfo..Caption
 msgid "Mark Info"
 msgstr ""
@@ -1907,7 +1906,7 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..Label17..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
 msgstr ""
 
@@ -2049,6 +2048,26 @@ msgstr ""
 msgid "OGF2 tiles resolution:"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeTileMatrixDraft..lblResizeTileMatrixDraft..Caption
+msgid "On change zoom draft"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDownloadResize..lblDownloadResize..Caption
+msgid "On download"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeGetPre..lblResizeGetPre..Caption
+msgid "On get from lower zoom"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeOnload..lblResizeOnLoad..Caption
+msgid "On load from cache"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlProjectionChange..lblProjectionChange..Caption
+msgid "On projection change"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineHelp..Caption
 msgid "Online Help (http://sasgis.ru/wikisasiya)"
 msgstr ""
@@ -2062,9 +2081,9 @@ msgid "only if different"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..Label28..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg3..Caption
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..flwpnlTileBorders..Label28..Caption
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg3..Caption
 msgid "Opacity"
 msgstr ""
 
@@ -2109,6 +2128,10 @@ msgstr ""
 msgid "Options..."
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
+msgid "Other"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
 msgid "Others"
 msgstr ""
@@ -2121,7 +2144,7 @@ msgstr ""
 msgid "Output format"
 msgstr ""
 
-#. frMapCombine..pnlOutputFormat..lblOutputFormat..Caption
+#. frCombine..pnlOutputFormat..lblOutputFormat..Caption
 msgid "Output format:"
 msgstr ""
 
@@ -2217,6 +2240,11 @@ msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkExport..Caption
 msgid "Placemark Export"
+msgstr ""
+
+#. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmMarkInfo..Caption
+msgid "Placemark Info"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbitmPlacemarkManager..Hint
@@ -2431,12 +2459,12 @@ msgstr ""
 msgid "Reset to default"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..Label16..Caption
-msgid "Resize algorithm"
-msgstr ""
-
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..lblResize..Caption
+msgid "Resize Algorithm:"
 msgstr ""
 
 #. frmMain..TrayPopupMenu..TrayItemRestore..Caption
@@ -2895,7 +2923,7 @@ msgstr ""
 msgid "Stitch"
 msgstr ""
 
-#. frMapCombine..pnlTop..Caption
+#. frCombine..pnlTop..Caption
 msgid "Stitch selection"
 msgstr ""
 
@@ -2972,7 +3000,7 @@ msgid "Tile %0:s is available in cache.\n"
 "Replace?"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..Label23..Caption
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..Label23..Caption
 msgid "Tile borders:"
 msgstr ""
 
@@ -2980,7 +3008,7 @@ msgstr ""
 msgid "Tile Boundaries"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlTileBorders..flwpnlTileBorders..CBBorderText..Caption
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..CBBorderText..Caption
 msgid "Tile coordinates"
 msgstr ""
 
