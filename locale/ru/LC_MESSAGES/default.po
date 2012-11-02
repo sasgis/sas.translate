@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-10-30 10:24\n"
-"PO-Revision-Date: 2012-10-30 10:46+0400\n"
+"POT-Creation-Date: 2012-11-02 10:25\n"
+"PO-Revision-Date: 2012-11-02 10:32+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -466,7 +466,7 @@ msgstr "Формат отображения площади"
 msgid "Area: %s"
 msgstr "Площадь: %s"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label12..Caption
+#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerColor..Caption
 msgid "Arrow color:"
 msgstr "Цвет стрелки:"
 
@@ -688,6 +688,9 @@ msgstr "Ошибка сохранения изображения заданно�
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
 msgid "Category:"
 msgstr "Категория:"
+
+msgid "Category: %s"
+msgstr "Категория: %s"
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With Zoom"
@@ -989,6 +992,13 @@ msgstr "Удаление"
 #. Programmer's name for it: SAS_STR_Deleted
 msgid "Deleting:"
 msgstr "Удаляет:"
+
+msgid ""
+"Description:\n"
+"%s"
+msgstr ""
+"Описание:\n"
+"%s"
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
 #. frmDGAvailablePic..gbImageParams..Caption
@@ -1485,6 +1495,10 @@ msgstr "Путь к кэшу Google Earth:"
 msgid "GoogleMV cache folder:"
 msgstr "Путь к кэшу GoogleMV:"
 
+#. frmSettings..PageControl1..tsGPSMarker..Caption
+msgid "GPS Marker"
+msgstr "Метка GPS"
+
 #. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
 msgid "GPS On/Off"
 msgstr "GPS Вкл/Выкл"
@@ -1955,6 +1969,9 @@ msgstr "Название"
 msgid "Name:"
 msgstr "Имя:"
 
+msgid "Name: %s"
+msgstr "Имя: %s"
+
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label15..Caption
 msgid "Native cache folder:"
 msgstr "Путь к \"родному\" кэшу:"
@@ -2017,6 +2034,10 @@ msgstr "Не найдена секция PARAMS в zmp"
 #. Programmer's name for it: SAS_STR_notfound
 msgid "Nothing found on current map."
 msgstr "Искомая комбинация на карте не встречается."
+
+#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingsCount..Caption
+msgid "Number of rings"
+msgstr "Количество окружностей"
 
 #. Programmer's name for it: SAS_STR_filesnum
 msgid "Number of tiles"
@@ -2299,7 +2320,7 @@ msgstr "Пожалуйста, подождите..."
 msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label10..Caption
+#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Размер указателя направления:"
 
@@ -2485,6 +2506,10 @@ msgstr "Продолжить"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
 msgid "Retry download if tile not found"
 msgstr "Пытаться повторно загрузить тайл при его отсутствии"
+
+#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
+msgid "Ring radius (m)"
+msgstr "Радиус окружности (м)"
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
