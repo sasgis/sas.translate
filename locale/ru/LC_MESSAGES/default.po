@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-11-09 19:24\n"
-"PO-Revision-Date: 2012-11-09 20:07+0300\n"
+"POT-Creation-Date: 2012-11-15 18:54\n"
+"PO-Revision-Date: 2012-11-15 19:46+0300\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -488,20 +488,20 @@ msgstr "Притягивать точки к существующим марке
 msgid "Auto"
 msgstr "Автоматически"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматически показывать/скрывать панель датчиков"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSAutodetectCOM..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSAutodetectCOM..Hint
 msgid "Autodetect COM port"
 msgstr "Автопоиск COM-порта"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Hint
 msgid "Autodetect COM port on connect"
 msgstr "Автопоиск подключённого COM-порта"
 
 # GB_GpsTrackSave
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Caption
 msgid "Autodetect:"
 msgstr "Автопоиск:"
 
@@ -510,7 +510,7 @@ msgid "Automatically detect location using GSM phone (Google query)"
 msgstr "Автоматически определять параметры базовых станций через подключённый телефон"
 
 # GB_GpsTrackSave
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
+#. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr "Автоматически сохранять трек:"
 
@@ -554,7 +554,7 @@ msgstr "Батарея:"
 msgid "BerkeleyDB cache folder:"
 msgstr "Путь к кэшу BerkeleyDB:"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
 msgstr "Скорость"
@@ -655,7 +655,7 @@ msgid "Cached tiles map:"
 msgstr "Карта заполнения:"
 
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
-#. frmImportConfigEdit..btnCancel..Caption
+#. frmImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMapLayersOptions..btnCancel..Hint
 #. frmMapLayersOptions..btnCancel..Caption
@@ -668,7 +668,7 @@ msgstr "Карта заполнения:"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
-#. frmMarksMultiEdit..btnCancel..Caption
+#. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
@@ -727,9 +727,9 @@ msgstr "Закрыть окно после завершения"
 msgid "cm"
 msgstr "см"
 
-#. frMarksGeneralOptions..grpLine..lblLineColor..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyLineColor..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyFillColor..Caption
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineColor..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineColor..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFillColor..Caption
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
@@ -883,6 +883,10 @@ msgstr "Высота над уровнем моря GTOPO30 (разрешени�
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "Высота над уровнем моря SRTM3 (разрешение ~90 м)"
 
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NoaaForecastMeteorology1..Caption
+msgid "Current and Forecast Meteorology"
+msgstr "Прогноз погоды"
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedCaption
 msgid "Current speed, km/h:"
 msgstr "Скорость, км/ч:"
@@ -1020,7 +1024,7 @@ msgstr ""
 msgid "Dest Cache"
 msgstr "Результирующий кэш"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
 msgstr "Время ожидания ответа от приёмника (сек.)"
 
@@ -1036,7 +1040,7 @@ msgstr "Папка %0:s не существует"
 msgid "Disable"
 msgstr "Отключить"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
 msgstr "Включить или выключить GPS"
 
@@ -1355,7 +1359,7 @@ msgstr "В файлах %0:s и %1:s одинаковые GUID"
 msgid "Fill From "
 msgstr "Даты: с"
 
-#. frMarksGeneralOptions..grpPoly..lblPolyFill..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFill..Caption
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
 msgid "Fill:"
 msgstr "Заполнение:"
@@ -1386,7 +1390,7 @@ msgstr "Автоматически перемещать карту"
 msgid "Font"
 msgstr "Шрифт"
 
-#. frMarksGeneralOptions..grpPoint..lblPointFontSize..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
 msgstr "Размер шрифта"
@@ -1518,7 +1522,7 @@ msgstr "Путь к кэшу GoogleMV:"
 msgid "GPS Marker"
 msgstr "Метка GPS"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
 msgid "GPS On/Off"
 msgstr "GPS Вкл/Выкл"
 
@@ -1597,7 +1601,7 @@ msgstr "Гибрид"
 msgid "Icon"
 msgstr "Иконка"
 
-#. frMarksGeneralOptions..grpPoint..lblPointIconSize..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
 msgstr "Размер иконки"
@@ -1776,7 +1780,7 @@ msgstr "Длина: %s"
 msgid "LibPNG: Failed to Create PngStruct!"
 msgstr "LibPNG: Ошибка создания PngStruct!"
 
-#. frMarksGeneralOptions..grpPoly..lblPolyLine..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLine..Caption
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
 msgid "Line:"
 msgstr "Линия:"
@@ -1928,7 +1932,7 @@ msgstr "Размер тома, мб"
 msgid "Max.speed, km/h:"
 msgstr "Скорость макс., км/ч:"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
 msgid "Maximum number of track points:"
 msgstr "Максимальное количество отображаемых точек трека:"
 
@@ -2130,10 +2134,11 @@ msgstr "только при их различии"
 msgid "Opacity"
 msgstr "Прозрачность"
 
-#. frMarksGeneralOptions..grpPoint..lblPointTextTransp..Caption
-#. frMarksGeneralOptions..grpLine..lblLineTransp..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyLineTransp..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyFillTransp..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextTransp..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowAlfa..Caption
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineTransp..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineTransp..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFillTransp..Caption
 #. frmMarkEditPath..flwpnlStyle..lblTransp..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
@@ -2175,7 +2180,7 @@ msgstr "Настройки..."
 msgid "Other"
 msgstr "Другие"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
 msgid "Others"
 msgstr "Другие"
 
@@ -2460,6 +2465,10 @@ msgstr "Радиус"
 msgid "Read only mode"
 msgstr "Только для чтения"
 
+#. frmDGAvailablePic..Up..PnlSearch..chkMNCasRecency..Caption
+msgid "Recency"
+msgstr "и Ч/Б"
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr "Прямоугольная область"
@@ -2472,7 +2481,7 @@ msgstr "Перерисовывать не чаще (мс):"
 msgid "Refresh"
 msgstr "Обновить"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
 msgid "Refresh rate (ms)"
 msgstr "Период обновления (мс):"
 
@@ -2580,7 +2589,7 @@ msgstr "Уровни сигнала"
 msgid "Satellite Signal Strength:"
 msgstr "Уровни сигнала:"
 
-#. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..Caption
+#. frGPSConfig..pnlGpsRight..GroupBox3..Caption
 msgid "Satellites"
 msgstr "Спутники"
 
@@ -2730,7 +2739,7 @@ msgstr "Файл выделения|*.hlg"
 msgid "Sensors"
 msgstr "Датчики"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
 msgid "Serial port"
 msgstr "Порт"
@@ -2759,7 +2768,7 @@ msgstr "Использовать данные настройки по умолч
 msgid "Settings"
 msgstr "Параметры"
 
-#. frMarksGeneralOptions..grpPoint..lblPointShadowColor..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
 msgid "Shadow color"
 msgstr "Цвет тени"
@@ -2957,8 +2966,8 @@ msgstr "Скорость"
 msgid "Split image"
 msgstr "Разбить изображение"
 
-#. frmImportConfigEdit..btnOk..Caption
-#. frmMarksMultiEdit..btnOk..Caption
+#. frmImportConfigEdit..pnlBottom..btnOk..Caption
+#. frmMarksMultiEdit..pnlBottom..btnOk..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 msgid "Start"
@@ -2997,7 +3006,7 @@ msgstr "Сохранять информацию об отсутствии тай
 msgid "Task"
 msgstr "Операция"
 
-#. frMarksGeneralOptions..grpPoint..lblPointTextColor..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
 msgstr "Цвет текста"
@@ -3117,7 +3126,7 @@ msgstr "Всего"
 msgid "Total to save:"
 msgstr "Всего сохранить:"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
 msgid "Track width:"
 msgstr "Ширина трека:"
 
@@ -3203,7 +3212,7 @@ msgstr "Ссылку для просмотра на Яндекс.Картах"
 msgid "Use Age Gradient"
 msgstr "Существующие с градиентом"
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
 msgid "Use Garmin via USB (overrides COM settings if checked)"
 msgstr "Выбрать Garmin USB (отменяет выбор COM-порта)"
 
@@ -3292,8 +3301,8 @@ msgstr "Сайт программы (http://sasgis.ru)"
 msgid "Website:"
 msgstr "Сайт:"
 
-#. frMarksGeneralOptions..grpLine..lblLineWidth..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyLineWidth..Caption
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
 msgid "Width"

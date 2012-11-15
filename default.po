@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-11-09 19:24\n"
-"PO-Revision-Date: 2012-11-09 19:24\n"
+"POT-Creation-Date: 2012-11-15 18:54\n"
+"PO-Revision-Date: 2012-11-15 18:54\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -500,19 +500,19 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSAutodetectCOM..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSAutodetectCOM..Hint
 msgid "Autodetect COM port"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Hint
 msgid "Autodetect COM port on connect"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Caption
 msgid "Autodetect:"
 msgstr ""
 
@@ -521,7 +521,7 @@ msgid "Automatically detect location using GSM phone (Google "
 "query)"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..GB_GpsTrackSave..Caption
+#. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr ""
 
@@ -565,7 +565,7 @@ msgstr ""
 msgid "BerkeleyDB cache folder:"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
 msgstr ""
@@ -662,7 +662,7 @@ msgid "Cached tiles map:"
 msgstr ""
 
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
-#. frmImportConfigEdit..btnCancel..Caption
+#. frmImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMapLayersOptions..btnCancel..Hint
 #. frmMapLayersOptions..btnCancel..Caption
@@ -675,7 +675,7 @@ msgstr ""
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
-#. frmMarksMultiEdit..btnCancel..Caption
+#. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
@@ -734,9 +734,9 @@ msgstr ""
 msgid "cm"
 msgstr ""
 
-#. frMarksGeneralOptions..grpLine..lblLineColor..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyLineColor..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyFillColor..Caption
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineColor..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineColor..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFillColor..Caption
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
@@ -889,6 +889,10 @@ msgstr ""
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr ""
 
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NoaaForecastMeteorology1..Caption
+msgid "Current and Forecast Meteorology"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedCaption
 msgid "Current speed, km/h:"
 msgstr ""
@@ -1020,7 +1024,7 @@ msgstr ""
 msgid "Dest Cache"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
 msgstr ""
 
@@ -1036,7 +1040,7 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
 msgstr ""
 
@@ -1354,7 +1358,7 @@ msgstr ""
 msgid "Fill From "
 msgstr ""
 
-#. frMarksGeneralOptions..grpPoly..lblPolyFill..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFill..Caption
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
 msgid "Fill:"
 msgstr ""
@@ -1385,7 +1389,7 @@ msgstr ""
 msgid "Font"
 msgstr ""
 
-#. frMarksGeneralOptions..grpPoint..lblPointFontSize..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
 msgstr ""
@@ -1517,7 +1521,7 @@ msgstr ""
 msgid "GPS Marker"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
 msgid "GPS On/Off"
 msgstr ""
 
@@ -1596,7 +1600,7 @@ msgstr ""
 msgid "Icon"
 msgstr ""
 
-#. frMarksGeneralOptions..grpPoint..lblPointIconSize..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
 msgstr ""
@@ -1770,7 +1774,7 @@ msgstr ""
 msgid "LibPNG: Failed to Create PngStruct!"
 msgstr ""
 
-#. frMarksGeneralOptions..grpPoly..lblPolyLine..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLine..Caption
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
 msgid "Line:"
 msgstr ""
@@ -1917,7 +1921,7 @@ msgstr ""
 msgid "Max.speed, km/h:"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
 msgid "Maximum number of track points:"
 msgstr ""
 
@@ -2121,10 +2125,11 @@ msgstr ""
 msgid "Opacity"
 msgstr ""
 
-#. frMarksGeneralOptions..grpPoint..lblPointTextTransp..Caption
-#. frMarksGeneralOptions..grpLine..lblLineTransp..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyLineTransp..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyFillTransp..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextTransp..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowAlfa..Caption
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineTransp..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineTransp..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFillTransp..Caption
 #. frmMarkEditPath..flwpnlStyle..lblTransp..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
@@ -2166,7 +2171,7 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
 msgid "Others"
 msgstr ""
 
@@ -2451,6 +2456,10 @@ msgstr ""
 msgid "Read only mode"
 msgstr ""
 
+#. frmDGAvailablePic..Up..PnlSearch..chkMNCasRecency..Caption
+msgid "Recency"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr ""
@@ -2463,7 +2472,7 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
 msgid "Refresh rate (ms)"
 msgstr ""
 
@@ -2571,7 +2580,7 @@ msgstr ""
 msgid "Satellite Signal Strength:"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGpsRight..GroupBox3..Caption
+#. frGPSConfig..pnlGpsRight..GroupBox3..Caption
 msgid "Satellites"
 msgstr ""
 
@@ -2717,7 +2726,7 @@ msgstr ""
 msgid "Sensors"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
 msgid "Serial port"
 msgstr ""
@@ -2747,7 +2756,7 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#. frMarksGeneralOptions..grpPoint..lblPointShadowColor..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
 msgid "Shadow color"
 msgstr ""
@@ -2945,8 +2954,8 @@ msgstr ""
 msgid "Split image"
 msgstr ""
 
-#. frmImportConfigEdit..btnOk..Caption
-#. frmMarksMultiEdit..btnOk..Caption
+#. frmImportConfigEdit..pnlBottom..btnOk..Caption
+#. frmMarksMultiEdit..pnlBottom..btnOk..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 msgid "Start"
@@ -2985,7 +2994,7 @@ msgstr ""
 msgid "Task"
 msgstr ""
 
-#. frMarksGeneralOptions..grpPoint..lblPointTextColor..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
 msgstr ""
@@ -3100,7 +3109,7 @@ msgstr ""
 msgid "Total to save:"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
 msgid "Track width:"
 msgstr ""
 
@@ -3185,7 +3194,7 @@ msgstr ""
 msgid "Use Age Gradient"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGPS..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
 msgid "Use Garmin via USB (overrides COM settings if "
 "checked)"
 msgstr ""
@@ -3275,8 +3284,8 @@ msgstr ""
 msgid "Website:"
 msgstr ""
 
-#. frMarksGeneralOptions..grpLine..lblLineWidth..Caption
-#. frMarksGeneralOptions..grpPoly..lblPolyLineWidth..Caption
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
 msgid "Width"
