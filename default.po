@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-11-15 18:54\n"
-"PO-Revision-Date: 2012-11-15 18:54\n"
+"POT-Creation-Date: 2012-11-19 14:14\n"
+"PO-Revision-Date: 2012-11-19 14:14\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -703,6 +703,10 @@ msgstr ""
 msgid "Category: %s"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevProviderList..Text
+msgid "cbbElevProviderList"
+msgstr ""
+
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With Zoom"
 msgstr ""
@@ -1208,6 +1212,10 @@ msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
 msgid "Edit selected placemark"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..Caption
+msgid "Elevation Info"
 msgstr ""
 
 #. frmAbout..lblEMailCaption..Caption
@@ -2370,6 +2378,10 @@ msgstr ""
 msgid "Primary Map Tile"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsElevation..lblElevPrimaryProvider..Caption
+msgid "Primary provider:"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
 msgstr ""
@@ -2774,8 +2786,18 @@ msgstr ""
 msgid "Show Download Info"
 msgstr ""
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarElevation..Caption
 #. Programmer's name for it: rsShowElevationInfo
 msgid "Show Elevation Info"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..chkElevTrySecondaryProviders..Caption
+msgid "Show Elevation Info From Any Available "
+"Source"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..chkElevShowInStatusBar..Caption
+msgid "Show Elevation Info In Status Bar"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption

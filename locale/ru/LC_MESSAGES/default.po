@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-11-15 18:54\n"
-"PO-Revision-Date: 2012-11-15 19:46+0300\n"
+"POT-Creation-Date: 2012-11-19 14:14\n"
+"PO-Revision-Date: 2012-11-19 15:08+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -414,7 +414,7 @@ msgstr "Высота"
 
 #. Programmer's name for it: rsAnyAvailableElevationSource
 msgid "Any Available Source"
-msgstr "Все источники данных"
+msgstr "Все доступные источники"
 
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -695,6 +695,10 @@ msgstr "Категория:"
 
 msgid "Category: %s"
 msgstr "Категория: %s"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevProviderList..Text
+msgid "cbbElevProviderList"
+msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With Zoom"
@@ -1207,6 +1211,10 @@ msgstr "Изменить полигон"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
 msgid "Edit selected placemark"
 msgstr "Редактировать выбранную метку"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..Caption
+msgid "Elevation Info"
+msgstr "Информация о высоте"
 
 #. frmAbout..lblEMailCaption..Caption
 msgid "Email:"
@@ -2379,6 +2387,10 @@ msgstr "Основной цвет"
 msgid "Primary Map Tile"
 msgstr "Тайл основной карты"
 
+#. frmMapLayersOptions..pgcOptions..tsElevation..lblElevPrimaryProvider..Caption
+msgid "Primary provider:"
+msgstr "Основной источник:"
+
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
 msgstr "Обработать не более"
@@ -2786,9 +2798,18 @@ msgstr "Показывать все метки"
 msgid "Show Download Info"
 msgstr "Отображать статистику о загрузке"
 
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarElevation..Caption
 #. Programmer's name for it: rsShowElevationInfo
 msgid "Show Elevation Info"
 msgstr "Отображать информацию о высоте"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..chkElevTrySecondaryProviders..Caption
+msgid "Show Elevation Info From Any Available Source"
+msgstr "Отображать информацию из всех доступных источников"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..chkElevShowInStatusBar..Caption
+msgid "Show Elevation Info In Status Bar"
+msgstr "Отображать информацию о высоте в строке статуса"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
 msgid "Show for..."
