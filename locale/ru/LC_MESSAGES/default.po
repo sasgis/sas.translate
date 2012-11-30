@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-11-19 14:14\n"
-"PO-Revision-Date: 2012-11-19 15:08+0400\n"
+"POT-Creation-Date: 2012-11-30 21:11\n"
+"PO-Revision-Date: 2012-11-30 21:13+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -696,10 +696,6 @@ msgstr "Категория:"
 msgid "Category: %s"
 msgstr "Категория: %s"
 
-#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevProviderList..Text
-msgid "cbbElevProviderList"
-msgstr ""
-
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With Zoom"
 msgstr "Центрировать с масштабом"
@@ -743,6 +739,10 @@ msgstr "см"
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr "Цвет"
+
+#. frmDGAvailablePic..Up..PnlSearch..chkMNCasColorOnly..Caption
+msgid "Color only"
+msgstr "Цветные"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
@@ -923,6 +923,10 @@ msgstr "Активный масштаб +4"
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid5p..Caption
 msgid "Current Zoom + 5"
 msgstr "Активный масштаб +5"
+
+#. frmSettings..PageControl1..tsCache..grdpnlCache..lbDBMSCachePath..Caption
+msgid "DBMS root:"
+msgstr "Путь к кэшу DBMS:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
 msgid "Default cache type"
@@ -2477,10 +2481,6 @@ msgstr "Радиус"
 msgid "Read only mode"
 msgstr "Только для чтения"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkMNCasRecency..Caption
-msgid "Recency"
-msgstr "и Ч/Б"
-
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr "Прямоугольная область"
@@ -2774,6 +2774,10 @@ msgstr "Таймаут на сетевые операции, мс"
 #. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
 msgid "Set as default"
 msgstr "Использовать данные настройки по умолчанию"
+
+#. frTilesCopy..pnlCenter..pnlMain..pnSetTargetVersionOptions..chkSetTargetVersionTo..Caption
+msgid "Set Version to"
+msgstr "Выбрать версию"
 
 #. frMapsList..pnlMapsRightButtons..Button15..Caption
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption

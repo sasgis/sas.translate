@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-11-19 14:14\n"
-"PO-Revision-Date: 2012-11-26 20:44+0200\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2012-11-30 21:11\n"
+"PO-Revision-Date: 2012-11-30 21:21+0400\n"
+"Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -694,10 +694,6 @@ msgstr "Категорія:"
 msgid "Category: %s"
 msgstr "Категорія: %s"
 
-#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevProviderList..Text
-msgid "cbbElevProviderList"
-msgstr "cbbElevProviderList"
-
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With Zoom"
 msgstr "Центрувати з масштабом"
@@ -740,6 +736,10 @@ msgstr "см"
 #. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
+msgstr "Колір"
+
+#. frmDGAvailablePic..Up..PnlSearch..chkMNCasColorOnly..Caption
+msgid "Color only"
 msgstr "Колір"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
@@ -921,6 +921,10 @@ msgstr "Активний масштаб + 4"
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid5p..Caption
 msgid "Current Zoom + 5"
 msgstr "Активний масштаб + 5"
+
+#. frmSettings..PageControl1..tsCache..grdpnlCache..lbDBMSCachePath..Caption
+msgid "DBMS root:"
+msgstr "Шлях до кешу DBMS:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
 msgid "Default cache type"
@@ -2474,10 +2478,6 @@ msgstr "Радіус"
 msgid "Read only mode"
 msgstr "Тільки читання"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkMNCasRecency..Caption
-msgid "Recency"
-msgstr "Новизна"
-
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr "Прямокутна область"
@@ -2769,6 +2769,10 @@ msgstr "Таймаут на мережеві операції, мс"
 #. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
 msgid "Set as default"
 msgstr "Використовувати стандартні налаштування"
+
+#. frTilesCopy..pnlCenter..pnlMain..pnSetTargetVersionOptions..chkSetTargetVersionTo..Caption
+msgid "Set Version to"
+msgstr "Вибрати версію"
 
 #. frMapsList..pnlMapsRightButtons..Button15..Caption
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
