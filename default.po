@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-11-30 21:11\n"
-"PO-Revision-Date: 2012-11-30 21:11\n"
+"POT-Creation-Date: 2012-12-26 18:50\n"
+"PO-Revision-Date: 2012-12-26 18:50\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -687,6 +687,14 @@ msgstr ""
 msgid "Cancelled"
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_ETS_CannotConnect
+msgid "Cannot connect to external tile storage"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ETS_CannotParseTile
+msgid "Cannot parse tile to get its version"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr ""
@@ -806,6 +814,11 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
 msgid "Connection timeout"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
+msgid "Connection to external tile storage is dead and cannot be "
+"reestablished"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Contrast
@@ -928,6 +941,17 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid5p..Caption
 msgid "Current Zoom + 5"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ETS_DataTruncation
+msgid "Data truncation occured because of external tile storage "
+"misconfiguration"
+msgstr ""
+
+#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+msgid "DBMS"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lbDBMSCachePath..Caption
@@ -1096,6 +1120,10 @@ msgstr ""
 #. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent "
 "tiles"
+msgstr ""
+
+#. Programmer's name for it: rsDoubleFree
+msgid "Double Free: Object is olready deleted!"
 msgstr ""
 
 #. frMapsList..pnlMapsRightButtons..Button11..Caption
@@ -1341,8 +1369,16 @@ msgstr ""
 msgid "Extention:"
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
+msgid "External tile storage is readonly"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Failed
 msgid "Failed"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ETS_FailToSaveTile
+msgid "Failed to save to external tile storage: error "
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_file
@@ -1388,6 +1424,7 @@ msgid "Fit to screen"
 msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmRegionProcess..pnlBottomButtons..SpeedButton_fit..Hint
 msgid "Fit to Screen"
 msgstr ""
 
@@ -1679,6 +1716,11 @@ msgstr ""
 msgid "Interface Options"
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_ETS_NotImplemented
+msgid "Interface to external tile storage not "
+"implemented"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
 msgid "Internet"
@@ -1686,6 +1728,11 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCic..Caption
 msgid "Internet && Cache"
+msgstr ""
+
+#. Programmer's name for it: rsInvalidDelete
+msgid "Invalid Delete: Object is still have active interface ref's! (Ref "
+"count: %d)"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
@@ -1847,6 +1894,10 @@ msgstr ""
 msgid "Main Menu"
 msgstr ""
 
+#. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
+msgid "Make by Placemark"
+msgstr ""
+
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
 msgid "Make Polygon"
@@ -1889,6 +1940,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_EditMap
 msgid "Map Settings:"
+msgstr ""
+
+#. frmMain..MainPopupMenu..NMapStorageInfo..Caption
+msgid "Map Storage Info"
 msgstr ""
 
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
@@ -2049,6 +2104,11 @@ msgstr ""
 
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
+msgid "No space available at external tile "
+"storage"
 msgstr ""
 
 msgid "Not found \"params.txt\" in zmp"
@@ -2681,6 +2741,10 @@ msgstr ""
 msgid "Search Results"
 msgstr ""
 
+#. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
+msgid "Select by Placemark"
+msgstr ""
+
 #. frmMain..TBDock..SrcToolbar..TBSrc..Hint
 msgid "Select data source"
 msgstr ""
@@ -3016,6 +3080,12 @@ msgstr ""
 msgid "Store info about not found tiles"
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
+msgid "Table not found and cannot be created (possibly due to insufficient "
+"privileges or readonly external tile "
+"storage)"
+msgstr ""
+
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr ""
@@ -3167,6 +3237,16 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_ETS_CriticalError
+msgid "Unknown critical error at external tile "
+"storage"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_ETS_UnknownError
+msgid "Unknown error at external tile storage, see Storage Options for more "
+"information"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
 msgstr ""
@@ -3218,6 +3298,10 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode3..Caption
 msgid "Use Age Gradient"
+msgstr ""
+
+#. Programmer's name for it: rsUseDeleted
+msgid "Use Deleted: Object is not exists!"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint

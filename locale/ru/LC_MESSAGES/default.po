@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-11-30 21:11\n"
-"PO-Revision-Date: 2012-11-30 21:13+0400\n"
+"POT-Creation-Date: 2012-12-26 18:50\n"
+"PO-Revision-Date: 2012-12-26 21:05+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -680,6 +680,14 @@ msgstr "Отменить"
 msgid "Cancelled"
 msgstr "Отменено"
 
+#. Programmer's name for it: SAS_ERR_ETS_CannotConnect
+msgid "Cannot connect to external tile storage"
+msgstr "Нет подключения к СУБД"
+
+#. Programmer's name for it: SAS_ERR_ETS_CannotParseTile
+msgid "Cannot parse tile to get its version"
+msgstr "Тайл не содержит информацию о своей версии"
+
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr "Ошибка загрузки изображения исходного типа"
@@ -801,6 +809,10 @@ msgstr "Настройки подключения"
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
 msgid "Connection timeout"
 msgstr "Ожидание ответа"
+
+#. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
+msgid "Connection to external tile storage is dead and cannot be reestablished"
+msgstr "Соединение с СУБД разорвано"
 
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
@@ -924,9 +936,19 @@ msgstr "Активный масштаб +4"
 msgid "Current Zoom + 5"
 msgstr "Активный масштаб +5"
 
+#. Programmer's name for it: SAS_ERR_ETS_DataTruncation
+msgid "Data truncation occured because of external tile storage misconfiguration"
+msgstr "Произошло искажение данных, исправьте настройки подключения к СУБД и повторите операцию"
+
+#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+msgid "DBMS"
+msgstr "СУБД"
+
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lbDBMSCachePath..Caption
 msgid "DBMS root:"
-msgstr "Путь к кэшу DBMS:"
+msgstr "Путь к кэшу СУБД:"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
 msgid "Default cache type"
@@ -1096,6 +1118,10 @@ msgstr "Пройденный путь:"
 #. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
 msgstr "Не сохранять пути к несуществующим тайлам"
+
+#. Programmer's name for it: rsDoubleFree
+msgid "Double Free: Object is olready deleted!"
+msgstr ""
 
 #. frMapsList..pnlMapsRightButtons..Button11..Caption
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnDown..Caption
@@ -1338,9 +1364,17 @@ msgstr "Экспорт только отображаемых"
 msgid "Extention:"
 msgstr "Расширение:"
 
+#. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
+msgid "External tile storage is readonly"
+msgstr "Подключение к БД только для чтения"
+
 #. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Failed
 msgid "Failed"
 msgstr "Ошибка"
+
+#. Programmer's name for it: SAS_ERR_ETS_FailToSaveTile
+msgid "Failed to save to external tile storage: error "
+msgstr "Ошибка при записи в БД: код ошибки "
 
 #. Programmer's name for it: SAS_STR_file
 msgid "file"
@@ -1389,6 +1423,7 @@ msgid "Fit to screen"
 msgstr "Уместить на экране"
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmRegionProcess..pnlBottomButtons..SpeedButton_fit..Hint
 msgid "Fit to Screen"
 msgstr "Уместить на экране"
 
@@ -1680,6 +1715,10 @@ msgstr "Элементы интерфейса"
 msgid "Interface Options"
 msgstr "Настройки интерфейса"
 
+#. Programmer's name for it: SAS_ERR_ETS_NotImplemented
+msgid "Interface to external tile storage not implemented"
+msgstr "Интерфейс подключения к внешнему хранилищу тайлов не реализован"
+
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
 msgid "Internet"
@@ -1688,6 +1727,10 @@ msgstr "Интернет"
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCic..Caption
 msgid "Internet && Cache"
 msgstr "Интернет и кэш"
+
+#. Programmer's name for it: rsInvalidDelete
+msgid "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
 msgid "iPhone (version 2.2 and above, 128x128)"
@@ -1856,6 +1899,10 @@ msgstr "Главная"
 msgid "Main Menu"
 msgstr "Главное меню"
 
+#. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
+msgid "Make by Placemark"
+msgstr "Создать из метки"
+
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
 msgid "Make Polygon"
@@ -1899,6 +1946,10 @@ msgstr "Параметры карты"
 #. Programmer's name for it: SAS_STR_EditMap
 msgid "Map Settings:"
 msgstr "Параметры карты:"
+
+#. frmMain..MainPopupMenu..NMapStorageInfo..Caption
+msgid "Map Storage Info"
+msgstr "Настройки хранилища"
 
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
@@ -2059,6 +2110,10 @@ msgstr "Нет вложений"
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
 msgstr "Не найден приёмник GPS"
+
+#. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
+msgid "No space available at external tile storage"
+msgstr "Недостаточно места в БД для выполнения операции"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
@@ -2690,6 +2745,10 @@ msgstr "Поиск"
 msgid "Search Results"
 msgstr "Результаты поиска"
 
+#. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
+msgid "Select by Placemark"
+msgstr "Выбрать по метке"
+
 #. frmMain..TBDock..SrcToolbar..TBSrc..Hint
 msgid "Select data source"
 msgstr "Выберите источник, из которого программа будет брать карты"
@@ -3027,6 +3086,10 @@ msgstr "Склейка карты"
 msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
 
+#. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
+msgid "Table not found and cannot be created (possibly due to insufficient privileges or readonly external tile storage)"
+msgstr "Таблица не найдена и не может быть создана (возможно недостаточно прав или доступ только для чтения)"
+
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr "Операция"
@@ -3183,6 +3246,14 @@ msgstr "Информация"
 msgid "Unknown"
 msgstr "Неизвестно"
 
+#. Programmer's name for it: SAS_ERR_ETS_CriticalError
+msgid "Unknown critical error at external tile storage"
+msgstr "Общая критическая ошибка в СУБД"
+
+#. Programmer's name for it: SAS_ERR_ETS_UnknownError
+msgid "Unknown error at external tile storage, see Storage Options for more information"
+msgstr "Общая ошибка в СУБД, см. Настройки хранилища"
+
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
@@ -3236,6 +3307,10 @@ msgstr "Ссылку для просмотра на Яндекс.Картах"
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode3..Caption
 msgid "Use Age Gradient"
 msgstr "Существующие с градиентом"
+
+#. Programmer's name for it: rsUseDeleted
+msgid "Use Deleted: Object is not exists!"
+msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
 msgid "Use Garmin via USB (overrides COM settings if checked)"
