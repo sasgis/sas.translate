@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-11-30 21:11\n"
-"PO-Revision-Date: 2012-11-30 21:21+0400\n"
+"POT-Creation-Date: 2013-01-02 10:55\n"
+"PO-Revision-Date: 2013-01-02 12:32+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -678,13 +678,33 @@ msgstr "Скасувати"
 msgid "Cancelled"
 msgstr "Скасовано"
 
+#. Programmer's name for it: SAS_ERR_ETS_CannotConnect
+msgid "Cannot connect to external tile storage"
+msgstr "Немає підключення до СУБД"
+
+#. Programmer's name for it: SAS_ERR_ETS_CannotParseTile
+msgid "Cannot parse tile to get its version"
+msgstr "Тайл не містить інформації про свою версію"
+
+#. Programmer's name for it: rsCantAcquireDB
+msgid "Can't acquire db: %s"
+msgstr "Неможливо отримати db: %s"
+
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr "Неможливо завантажити зображення з вихідного типу"
 
+#. Programmer's name for it: rsObjectNotInPool
+msgid "Can't release an object that is not in the pool!"
+msgstr "Неможливо створити об'єкт, що не входить в пул!"
+
 #. Programmer's name for it: SAS_ERR_CantSaveBitmapToTargetType
 msgid "Can't save bitmap to target type"
 msgstr "Неможливо зберегти зображення в цільової тип"
+
+#. Programmer's name for it: rsCantUseOldPoolRecord
+msgid "Can't use old pool record!"
+msgstr "Неможливо використати старий запис пула!"
 
 #. frMarkCategorySelectOrAdd..lblCategory..Caption
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
@@ -799,6 +819,10 @@ msgstr "Налаштування з’єднання"
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
 msgid "Connection timeout"
 msgstr "Очікування відповіді"
+
+#. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
+msgid "Connection to external tile storage is dead and cannot be reestablished"
+msgstr "З'єднання з СУБД розірвано"
 
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
@@ -921,6 +945,18 @@ msgstr "Активний масштаб + 4"
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid5p..Caption
 msgid "Current Zoom + 5"
 msgstr "Активний масштаб + 5"
+
+#. Programmer's name for it: SAS_ERR_ETS_DataTruncation
+msgid "Data truncation occured because of external tile storage misconfiguration"
+msgstr "Спотворення даних, виправте налаштування підключення до СУБД та повторіть операцію"
+
+#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
+#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+msgid "DBMS"
+msgstr "СУБД"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lbDBMSCachePath..Caption
 msgid "DBMS root:"
@@ -1094,6 +1130,10 @@ msgstr "Пройдений шлях:"
 #. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
 msgstr "Не зберігати шляхи до неіснуючих тайлів"
+
+#. Programmer's name for it: rsDoubleFree
+msgid "Double Free: Object is olready deleted!"
+msgstr "Спроба повторного видалення інтерфейсного об'єкту"
 
 #. frMapsList..pnlMapsRightButtons..Button11..Caption
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnDown..Caption
@@ -1336,9 +1376,17 @@ msgstr "Експорт видимих позначок"
 msgid "Extention:"
 msgstr "Протяжність:"
 
+#. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
+msgid "External tile storage is readonly"
+msgstr "Підключення до БД тільки для читання"
+
 #. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Failed
 msgid "Failed"
 msgstr "Помилка"
+
+#. Programmer's name for it: SAS_ERR_ETS_FailToSaveTile
+msgid "Failed to save to external tile storage: error "
+msgstr "Помилка запису до БД: код помилки "
 
 #. Programmer's name for it: SAS_STR_file
 msgid "file"
@@ -1387,6 +1435,7 @@ msgid "Fit to screen"
 msgstr "За розміром екрана"
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmRegionProcess..pnlBottomButtons..SpeedButton_fit..Hint
 msgid "Fit to Screen"
 msgstr "За розміром екрана"
 
@@ -1678,6 +1727,10 @@ msgstr "Елементи інтерфейсу"
 msgid "Interface Options"
 msgstr "Налаштування інтерфейсу"
 
+#. Programmer's name for it: SAS_ERR_ETS_NotImplemented
+msgid "Interface to external tile storage not implemented"
+msgstr "Інтерфейс підключення до зовнішнього сховища тайлів не реалізований"
+
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
 msgid "Internet"
@@ -1686,6 +1739,10 @@ msgstr "Інтернет"
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCic..Caption
 msgid "Internet && Cache"
 msgstr "Інтернет і кеш"
+
+#. Programmer's name for it: rsInvalidDelete
+msgid "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
+msgstr "Неможливо видалити: лічильник посилань об'єкту більше за нуль (%d активних посилань)"
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
 msgid "iPhone (version 2.2 and above, 128x128)"
@@ -1853,6 +1910,10 @@ msgstr "Головна"
 msgid "Main Menu"
 msgstr "Головне меню"
 
+#. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
+msgid "Make by Placemark"
+msgstr "Створити з позначки"
+
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
 msgid "Make Polygon"
@@ -1896,6 +1957,10 @@ msgstr "Параметри карти"
 #. Programmer's name for it: SAS_STR_EditMap
 msgid "Map Settings:"
 msgstr "Параметри карти:"
+
+#. frmMain..MainPopupMenu..NMapStorageInfo..Caption
+msgid "Map Storage Info"
+msgstr "Налаштування сховища"
 
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
@@ -2056,6 +2121,10 @@ msgstr "Немає вкладень"
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
 msgstr "Не знайдено GPS-приймач"
+
+#. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
+msgid "No space available at external tile storage"
+msgstr "Недостатньо місця в БД для здійснення операцій"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не знайдено \"params.txt\" у zmp"
@@ -2376,6 +2445,10 @@ msgstr "Полігональна область"
 msgid "Polyline Selection"
 msgstr "Вибрати шлях"
 
+#. Programmer's name for it: rsPoolIsDesabled
+msgid "Pool Disabled - Can't acquire db: %s"
+msgstr "Пул вимкнено - Неможливо отримати db: %s"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
 msgid "Previous Selection"
 msgstr "Останнє виділення"
@@ -2684,6 +2757,10 @@ msgstr "Пошук"
 #. frmMain..TBDockLeft..TBSearchWindow..Caption
 msgid "Search Results"
 msgstr "Результати пошуку"
+
+#. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
+msgid "Select by Placemark"
+msgstr "Обрати за позначкою"
 
 #. frmMain..TBDock..SrcToolbar..TBSrc..Hint
 msgid "Select data source"
@@ -3022,6 +3099,10 @@ msgstr "Склейка карти"
 msgid "Store info about not found tiles"
 msgstr "Зберігати інформацію про відсутність тайлів на сервері"
 
+#. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
+msgid "Table not found and cannot be created (possibly due to insufficient privileges or readonly external tile storage)"
+msgstr "Таблиця не знайдена та не може бути створена (можливо недостатньо прав або доступ тільки для читання)"
+
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr "Операція"
@@ -3066,6 +3147,10 @@ msgstr "Цей тайл створено пізніше зазначеного �
 #. Programmer's name for it: SAS_MSG_FileBeCreateLen
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "Розмір цього тайлу дорівнює існуючому, пропускаємо завантаження."
+
+#. Programmer's name for it: rsNoAvailableObjects
+msgid "There are no available objects in the pool!"
+msgstr "Немає доступних об'єктів у пулі!"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
 msgid "There is an error %1:s in map %0:s"
@@ -3178,6 +3263,14 @@ msgstr "Інформація:"
 msgid "Unknown"
 msgstr "Невідомо"
 
+#. Programmer's name for it: SAS_ERR_ETS_CriticalError
+msgid "Unknown critical error at external tile storage"
+msgstr "Невідома критична помилка в СУБД"
+
+#. Programmer's name for it: SAS_ERR_ETS_UnknownError
+msgid "Unknown error at external tile storage, see Storage Options for more information"
+msgstr "Невідома помилка в СУБД, див. Налаштування сховища"
+
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
 msgstr "Невідома помилка при завантаженні"
@@ -3231,6 +3324,10 @@ msgstr "Посилання на Яндекс.Карти"
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode3..Caption
 msgid "Use Age Gradient"
 msgstr "Використовувати градієнт за часом"
+
+#. Programmer's name for it: rsUseDeleted
+msgid "Use Deleted: Object is not exists!"
+msgstr "Спроба використати віддалений інтерфейсний об'єкт"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
 msgid "Use Garmin via USB (overrides COM settings if checked)"

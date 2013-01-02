@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2012-12-26 18:50\n"
-"PO-Revision-Date: 2012-12-27 12:52+0400\n"
+"POT-Creation-Date: 2013-01-02 10:55\n"
+"PO-Revision-Date: 2013-01-02 11:36+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -688,13 +688,25 @@ msgstr "Нет подключения к СУБД"
 msgid "Cannot parse tile to get its version"
 msgstr "Тайл не содержит информацию о своей версии"
 
+#. Programmer's name for it: rsCantAcquireDB
+msgid "Can't acquire db: %s"
+msgstr "Невозможно получить db: %s"
+
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr "Ошибка загрузки изображения исходного типа"
 
+#. Programmer's name for it: rsObjectNotInPool
+msgid "Can't release an object that is not in the pool!"
+msgstr "Невозможно создать объект, не входящий в пул!"
+
 #. Programmer's name for it: SAS_ERR_CantSaveBitmapToTargetType
 msgid "Can't save bitmap to target type"
 msgstr "Ошибка сохранения изображения заданного формата"
+
+#. Programmer's name for it: rsCantUseOldPoolRecord
+msgid "Can't use old pool record!"
+msgstr "Невозможно использовать старую запись пула!"
 
 #. frMarkCategorySelectOrAdd..lblCategory..Caption
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
@@ -942,6 +954,8 @@ msgstr "Произошло искажение данных, исправьте �
 
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 msgid "DBMS"
 msgstr "СУБД"
@@ -2434,6 +2448,10 @@ msgstr "Полигональная область"
 msgid "Polyline Selection"
 msgstr "Выделение по пути"
 
+#. Programmer's name for it: rsPoolIsDesabled
+msgid "Pool Disabled - Can't acquire db: %s"
+msgstr "Пул выключен - Невозможно получить db: %s"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
 msgid "Previous Selection"
 msgstr "Отображать последнее выделение"
@@ -3134,6 +3152,10 @@ msgstr "Данный файл создан позже указанного ср�
 #. Programmer's name for it: SAS_MSG_FileBeCreateLen
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "Данный файл равен по размеру существующему, пропускаем загрузку."
+
+#. Programmer's name for it: rsNoAvailableObjects
+msgid "There are no available objects in the pool!"
+msgstr "Нет доступных объектов в пуле!"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
 msgid "There is an error %1:s in map %0:s"
