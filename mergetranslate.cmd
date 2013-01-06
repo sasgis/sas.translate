@@ -1,3 +1,3 @@
-msgmerge -U locale\ru\LC_MESSAGES\default.po default.po
-msgmerge -U locale\uk\LC_MESSAGES\default.po default.po
+msgmerge -U ru.po default.po
+msgmerge -U uk.po default.po
 pause
