@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-01-02 10:55\n"
+"POT-Creation-Date: 2013-01-06 12:42\n"
 "PO-Revision-Date: 2013-01-02 12:32+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
@@ -689,6 +689,9 @@ msgstr "Тайл не містить інформації про свою вер
 #. Programmer's name for it: rsCantAcquireDB
 msgid "Can't acquire db: %s"
 msgstr "Неможливо отримати db: %s"
+
+msgid "Can't initialize in-memory tile storage. Check your config!"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
@@ -2546,6 +2549,11 @@ msgstr "Вихід"
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap1..Caption
 msgid "Radius"
 msgstr "Радіус"
+
+#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+msgid "RAM"
+msgstr ""
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
 msgid "Read only mode"
