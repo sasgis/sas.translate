@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-01-06 12:42\n"
-"PO-Revision-Date: 2013-01-02 12:32+0400\n"
+"POT-Creation-Date: 2013-01-17 11:46\n"
+"PO-Revision-Date: 2013-01-17 15:07+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -106,6 +106,10 @@ msgstr "1:10 000 (100 м)"
 msgid "1:100 000 (1 km)"
 msgstr "1:100 000 (1 км)"
 
+#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale2500..Caption
+msgid "1:2 500 (25 m)"
+msgstr "1:2 500 (25 м)"
+
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale200000..Caption
 msgid "1:200 000 (2 km)"
 msgstr "1:200 000 (2 км)"
@@ -113,6 +117,10 @@ msgstr "1:200 000 (2 км)"
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale25000..Caption
 msgid "1:25 000 (250 m)"
 msgstr "1:25 000 (250 м)"
+
+#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale5000..Caption
+msgid "1:5 000 (50 m)"
+msgstr "1:5 000 (50 м)"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale50000..Caption
 msgid "1:50 000 (500 m)"
@@ -366,7 +374,7 @@ msgid "Additional Operations"
 msgstr "Додаткові операції"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..CheckBox2..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
 #. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
 #. frExportToCE..pnlCenter..pnlRight..chkAllZooms..Caption
@@ -482,6 +490,7 @@ msgstr "Увага!"
 msgid "Attract to The Existing Markers"
 msgstr "Залучити до існуючих маркерів"
 
+#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
@@ -691,7 +700,7 @@ msgid "Can't acquire db: %s"
 msgstr "Неможливо отримати db: %s"
 
 msgid "Can't initialize in-memory tile storage. Check your config!"
-msgstr ""
+msgstr "Неможливо створити сховище в пам'яті. Перевірте налаштування!"
 
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
@@ -708,6 +717,10 @@ msgstr "Неможливо зберегти зображення в цільов
 #. Programmer's name for it: rsCantUseOldPoolRecord
 msgid "Can't use old pool record!"
 msgstr "Неможливо використати старий запис пула!"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox3..Caption
+msgid "Cascade"
+msgstr "Каскад"
 
 #. frMarkCategorySelectOrAdd..lblCategory..Caption
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
@@ -1933,7 +1946,6 @@ msgstr "Операція з виділеною областю"
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
-#. frExportToJNX..PageControl1..Layer..Label_Map..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
@@ -2277,8 +2289,6 @@ msgstr "Результуючий формат"
 msgid "Output format:"
 msgstr "Результуючий формат:"
 
-#. frExportToJNX..PageControl1..Layer..Caption
-#. frExportToJNX..PageControl1..Layer..PnlLayer..Llayer..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblHybr..Caption
 msgid "Overlay layer:"
@@ -2553,7 +2563,7 @@ msgstr "Радіус"
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
 msgid "RAM"
-msgstr ""
+msgstr "ОЗП"
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
 msgid "Read only mode"
