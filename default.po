@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-17 11:46\n"
-"PO-Revision-Date: 2013-01-17 11:46\n"
+"POT-Creation-Date: 2013-02-06 14:34\n"
+"PO-Revision-Date: 2013-02-06 14:34\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -331,6 +331,7 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
+#. frmRegionProcess..pnlBottomButtons..SpeedButton_mkMark..Hint
 msgid "Add Placemark"
 msgstr ""
 
@@ -376,6 +377,7 @@ msgstr ""
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
 #. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportToCE..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
@@ -1456,6 +1458,7 @@ msgid "Fit to screen"
 msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmProgressSimple..SpeedButton_fit..Hint
 #. frmRegionProcess..pnlBottomButtons..SpeedButton_fit..Hint
 msgid "Fit to Screen"
 msgstr ""
@@ -1942,6 +1945,7 @@ msgstr ""
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2570,6 +2574,10 @@ msgstr ""
 msgid "Read only mode"
 msgstr ""
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
+msgid "Recreate target database if exists"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr ""
@@ -2594,6 +2602,7 @@ msgstr ""
 msgid "Remove tiles"
 msgstr ""
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
@@ -2741,6 +2750,7 @@ msgstr ""
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -2826,6 +2836,7 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
 #. frmMain..MainPopupMenu..NMarkOper..Caption
+#. frmProgressSimple..SpeedButton_selmanager..Hint
 #. frmRegionProcess..Caption
 msgid "Selection Manager"
 msgstr ""
@@ -3331,6 +3342,10 @@ msgstr ""
 msgid "URL to Primary Map Tile"
 msgstr ""
 
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
+msgid "URL to Rosreestr"
+msgstr ""
+
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
 msgid "URL to Terraserver"
 msgstr ""
@@ -3518,6 +3533,7 @@ msgstr ""
 
 #. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToCE..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption

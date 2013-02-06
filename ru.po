@@ -5,14 +5,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-01-17 11:46\n"
-"PO-Revision-Date: 2013-01-17 11:49+0400\n"
+"POT-Creation-Date: 2013-02-06 14:34\n"
+"PO-Revision-Date: 2013-02-06 14:36+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -332,6 +332,7 @@ msgstr "Добавить путь"
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
+#. frmRegionProcess..pnlBottomButtons..SpeedButton_mkMark..Hint
 msgid "Add Placemark"
 msgstr "Поставить метку"
 
@@ -377,6 +378,7 @@ msgstr "Дополнительные операции"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
 #. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportToCE..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
@@ -390,12 +392,32 @@ msgid "All by default"
 msgstr "Все по умолчанию"
 
 #. frmMain..OpenSessionDialog....Filter
-msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
-msgstr "Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx"
+msgid ""
+"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
+"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
+"gpx"
+msgstr ""
+"Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
+"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
+"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия "
+"загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*."
+"gpx)|*.gpx"
 
 #. frmMarksExplorer..OpenDialog1....Filter
-msgid "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv|Google KML files (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx|Universal CSV files (*.csv)|*.csv"
-msgstr "Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv|Google KML файлы (*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ файлы (*.kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*.gpx|Универсальные CSV файлы (*.csv)|*.csv"
+msgid ""
+"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv)|*.kml;*."
+"plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv|Google KML files (*.kml)|*.kml|OziExplorer "
+"Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|"
+"Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*."
+"gpx)|*.gpx|Universal CSV files (*.csv)|*.csv"
+msgstr ""
+"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv)|*.kml;*."
+"plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv|Google KML файлы (*.kml)|*.kml|OziExplorer "
+"Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ файлы (*.kmz)|*.kmz|"
+"Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange "
+"files (*.gpx)|*.gpx|Универсальные CSV файлы (*.csv)|*.csv"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
 msgid "All Images"
@@ -516,7 +538,8 @@ msgstr "Автопоиск:"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
 msgid "Automatically detect location using GSM phone (Google query)"
-msgstr "Автоматически определять параметры базовых станций через подключённый телефон"
+msgstr ""
+"Автоматически определять параметры базовых станций через подключённый телефон"
 
 # GB_GpsTrackSave
 #. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
@@ -801,8 +824,12 @@ msgstr ""
 "%0:s"
 
 #. ExportDialog
-msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
-msgstr "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|*.kml"
+msgid ""
+"Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language (kml)|"
+"*.kml"
+msgstr ""
+"Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
+"(kml)|*.kml"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -965,8 +992,11 @@ msgid "Current Zoom + 5"
 msgstr "Активный масштаб +5"
 
 #. Programmer's name for it: SAS_ERR_ETS_DataTruncation
-msgid "Data truncation occured because of external tile storage misconfiguration"
-msgstr "Произошло искажение данных, исправьте настройки подключения к СУБД и повторите операцию"
+msgid ""
+"Data truncation occured because of external tile storage misconfiguration"
+msgstr ""
+"Произошло искажение данных, исправьте настройки подключения к СУБД и "
+"повторите операцию"
 
 #. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
@@ -1303,8 +1333,10 @@ msgid "Enabled"
 msgstr "Используется"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr "Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
+msgid ""
+"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
+msgstr ""
+"Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -1453,6 +1485,7 @@ msgid "Fit to screen"
 msgstr "Уместить на экране"
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmProgressSimple..SpeedButton_fit..Hint
 #. frmRegionProcess..pnlBottomButtons..SpeedButton_fit..Hint
 msgid "Fit to Screen"
 msgstr "Уместить на экране"
@@ -1759,8 +1792,11 @@ msgid "Internet && Cache"
 msgstr "Интернет и кэш"
 
 #. Programmer's name for it: rsInvalidDelete
-msgid "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
-msgstr "У удаляемого интерфейсного объекта счётчик ссылок больше нуля (%d активных ссылок)"
+msgid ""
+"Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
+msgstr ""
+"У удаляемого интерфейсного объекта счётчик ссылок больше нуля (%d активных "
+"ссылок)"
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
 msgid "iPhone (version 2.2 and above, 128x128)"
@@ -1945,6 +1981,7 @@ msgstr "Операции с выделенной областью"
 #. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2572,6 +2609,10 @@ msgstr "ОЗУ"
 msgid "Read only mode"
 msgstr "Только для чтения"
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
+msgid "Recreate target database if exists"
+msgstr "Пересоздать выбранную БД, если она существует"
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
 msgstr "Прямоугольная область"
@@ -2596,6 +2637,7 @@ msgstr "Относительный путь к тайлам"
 msgid "Remove tiles"
 msgstr "Перемещать тайлы"
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
@@ -2628,7 +2670,8 @@ msgstr "Восстановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
 msgid "Restore download from last successful tile"
-msgstr "Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
+msgstr ""
+"Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
 
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
@@ -2743,6 +2786,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
@@ -2814,12 +2858,14 @@ msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
 "Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output format (ECW is the best)."
+"Try select smaller region to stitch in %s or select other output format (ECW "
+"is the best)."
 msgstr ""
 "Выделенная область слишком велика для %s формата!\n"
 "Ширина = %d (max = %d)\n"
 "Высота = %d (max = %d)\n"
-"Уменьшите выделенную область склейки в %s или выберите другой формат (ECW - лучший)."
+"Уменьшите выделенную область склейки в %s или выберите другой формат (ECW - "
+"лучший)."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -2832,6 +2878,7 @@ msgstr "Операции с выделенной областью"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
 #. frmMain..MainPopupMenu..NMarkOper..Caption
+#. frmProgressSimple..SpeedButton_selmanager..Hint
 #. frmRegionProcess..Caption
 msgid "Selection Manager"
 msgstr "Операции с выделенной областью"
@@ -3123,8 +3170,12 @@ msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
-msgid "Table not found and cannot be created (possibly due to insufficient privileges or readonly external tile storage)"
-msgstr "Таблица не найдена и не может быть создана (возможно недостаточно прав или доступ только для чтения)"
+msgid ""
+"Table not found and cannot be created (possibly due to insufficient "
+"privileges or readonly external tile storage)"
+msgstr ""
+"Таблица не найдена и не может быть создана (возможно недостаточно прав или "
+"доступ только для чтения)"
 
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
@@ -3268,7 +3319,8 @@ msgstr "Невозможно определить позицию"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+msgstr ""
+"Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
 
 msgid "Unexpected proxy authorization"
 msgstr "Ошибка авторизации на прокси!"
@@ -3291,7 +3343,9 @@ msgid "Unknown critical error at external tile storage"
 msgstr "Общая критическая ошибка в СУБД"
 
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
-msgid "Unknown error at external tile storage, see Storage Options for more information"
+msgid ""
+"Unknown error at external tile storage, see Storage Options for more "
+"information"
 msgstr "Общая ошибка в СУБД, см. Настройки хранилища"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
@@ -3334,6 +3388,10 @@ msgstr "Ссылку для просмотра в osm.org"
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Ссылку на тайл основной карты"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
+msgid "URL to Rosreestr"
+msgstr "Ссылку для просмотра в Rosreestr"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
 msgid "URL to Terraserver"
@@ -3522,6 +3580,7 @@ msgstr "Масштаб:"
 
 #. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToCE..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
@@ -3534,4 +3593,3 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
-
