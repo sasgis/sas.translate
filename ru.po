@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-02-06 14:34\n"
-"PO-Revision-Date: 2013-02-06 14:36+0400\n"
+"POT-Creation-Date: 2013-02-10 11:56\n"
+"PO-Revision-Date: 2013-02-10 12:07+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,6 @@ msgstr "-- г.м. (-12°23.454)"
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- г.м.с. (-12°23\"43.35')"
 
-# NFillToolBar.label2
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
 msgstr " по "
@@ -531,7 +530,6 @@ msgstr "Автопоиск COM-порта"
 msgid "Autodetect COM port on connect"
 msgstr "Автопоиск подключённого COM-порта"
 
-# GB_GpsTrackSave
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Caption
 msgid "Autodetect:"
 msgstr "Автопоиск:"
@@ -541,7 +539,6 @@ msgid "Automatically detect location using GSM phone (Google query)"
 msgstr ""
 "Автоматически определять параметры базовых станций через подключённый телефон"
 
-# GB_GpsTrackSave
 #. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr "Автоматически сохранять трек:"
@@ -701,10 +698,10 @@ msgstr "Карта заполнения:"
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
-#. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmRegionProcess..pnlBottomButtons..Button3..Caption
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -773,8 +770,8 @@ msgstr "Заряжается"
 msgid "Close"
 msgstr "Закрыть"
 
-#. frmRegionProcess..pnlBottomButtons..CBCloseWithStart..Caption
 #. frmCacheManager..pnlBottomButtons..chkCloseWithStart..Caption
+#. frmRegionProcess..pnlBottomButtons..CBCloseWithStart..Caption
 msgid "Close this window after start"
 msgstr "Закрыть окно после старта"
 
@@ -1251,7 +1248,7 @@ msgstr "Скачивание"
 
 #. Programmer's name for it: SAS_STR_LoadAttachmentsBegin
 msgid "Downloading attachments..."
-msgstr "Загрузить вложение"
+msgstr "Загрузка вложений..."
 
 #. Programmer's name for it: SAS_STR_LoadProcessRepl
 msgid "Downloading with overwrite..."
@@ -1462,7 +1459,6 @@ msgstr "файлов"
 msgid "Files %0:s and %1:s have the same GUID"
 msgstr "В файлах %0:s и %1:s одинаковые GUID"
 
-# NFillToolBar.label1
 #. frmMain..TBDock..FillDates..Label1..Caption
 msgid "Fill From "
 msgstr "Даты: с"
@@ -1636,7 +1632,6 @@ msgstr "Метка GPS"
 msgid "GPS On/Off"
 msgstr "GPS Вкл/Выкл"
 
-# CBDegreeBorderText
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
 msgstr "Подписи"
@@ -1740,9 +1735,9 @@ msgstr "Коррекция изображения"
 msgid "Image services"
 msgstr "Картографический сервис"
 
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 #. frmDGAvailablePic..Caption
 #. frmDGAvailablePic..Up..gbAvailImages..Caption
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 msgid "Images available"
 msgstr "Доступные снимки"
 
@@ -1851,12 +1846,10 @@ msgstr "Имя последнего файла:"
 msgid "Last Selection"
 msgstr "Предыдущее выделение"
 
-# DegreedLinesSubMenu
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..Caption
 msgid "Lat/Lon Grid"
 msgstr "Градусная сетка"
 
-# DegreedLinesSubMenu
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..LabelDeg1..Caption
 msgid "Lat/Lon grid:"
 msgstr "Градусная сетка"
@@ -2035,7 +2028,6 @@ msgstr "средствами maps.cloudmade.com (OSM)"
 msgid "Maps@mail.ru"
 msgstr "средствами Карты@mail.ru"
 
-# NFillMode2
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode2..Caption
 msgid "Mark Existing Tiles"
 msgstr "Существующие тайлы"
@@ -2044,7 +2036,6 @@ msgstr "Существующие тайлы"
 msgid "Mark Info"
 msgstr "Информация о метке"
 
-# NFillMode1
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode1..Caption
 msgid "Mark Nonexistent Tiles"
 msgstr "Отсутствующие тайлы"
@@ -2081,8 +2072,8 @@ msgstr "Путь в меню"
 msgid "Minimap opacity"
 msgstr "Прозрачность карты обзора"
 
-#. frmProgressDownload..Panel1..pnlBottom..btnMinimize..Caption
 #. frmProgressCacheConverter..pnlBottom..btnMinimize..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnMinimize..Caption
 msgid "Minimize"
 msgstr "Свернуть"
 
@@ -2384,8 +2375,8 @@ msgid "Pathname to Tile in Cache"
 msgstr "Полный путь к тайлу"
 
 #. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
-#. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. frmProgressCacheConverter..pnlBottom..btnPause..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
 msgstr "Пауза"
@@ -2466,9 +2457,9 @@ msgstr "Сначала необходимо выделить хотя бы од�
 msgid "Please wait, download in progress..."
 msgstr "Подождите, идет загрузка..."
 
+#. frmProgressCacheConverter..Caption
 #. frmProgressDownload..Caption
 #. frmProgressSimple..Caption
-#. frmProgressCacheConverter..Caption
 msgid "Please wait..."
 msgstr "Пожалуйста, подождите..."
 
@@ -2591,8 +2582,8 @@ msgstr "Осталось"
 #. frmMain..TBDock..TBExit..TBXExit..Hint
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
 #. frmMain..TrayPopupMenu..TrayItemQuit..Caption
-#. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
 #. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
 msgid "Quit"
 msgstr "Выход"
 
@@ -2990,6 +2981,10 @@ msgstr "Отображать информацию о разрешении"
 msgid "Show on map"
 msgstr "Отображать это место на карте"
 
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
+msgid "Show only new"
+msgstr "Показать новые"
+
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show only selected placemarks"
 msgstr "Показывать только указанные метки"
@@ -3135,8 +3130,8 @@ msgstr "Разбить изображение"
 
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
-#. frmRegionProcess..pnlBottomButtons..Button1..Caption
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
+#. frmRegionProcess..pnlBottomButtons..Button1..Caption
 msgid "Start"
 msgstr "Начать"
 
@@ -3272,7 +3267,6 @@ msgstr "Такого изображения нет на сервере!"
 msgid "Tiles"
 msgstr "Тайлы"
 
-# NFillToolBar
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
 msgid "Time Interval"
 msgstr "Диапазон дат"
@@ -3401,7 +3395,6 @@ msgstr "Ссылку для просмотра в Terraserver"
 msgid "URL to Yandex.Maps"
 msgstr "Ссылку для просмотра на Яндекс.Картах"
 
-# NFillMode3
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode3..Caption
 msgid "Use Age Gradient"
 msgstr "Существующие с градиентом"
@@ -3435,12 +3428,10 @@ msgstr "Использовать прокси (IP:port)"
 msgid "Use system proxy settings"
 msgstr "Брать настройки подключения из реестра"
 
-# pnlUsePrevTiles.chkUsePrevTiles
 #. frTilesGenPrev..pnlBottom..pnlCenter..pnlUsePrevTiles..chkUsePrevTiles..Caption
 msgid "Use tile from lower zoom if tile not available"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 
-# pnlUsePrevTiles.chkUsePrevTiles
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
@@ -3510,7 +3501,6 @@ msgstr "Ширина"
 msgid "Width:"
 msgstr "Ширина:"
 
-# NFillToolBar
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NShowFillDates..Caption
 msgid "Within Time Interval"
 msgstr "Тайлы только в диапазоне дат"
@@ -3544,9 +3534,9 @@ msgid "ZMP Filename"
 msgstr "Путь к файлу"
 
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
-#. frmDGAvailablePic..Up..PnlSearch..lbNMCZoom..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
+#. frmDGAvailablePic..Up..PnlSearch..lbNMCZoom..Caption
 #. Programmer's name for it: SAS_STR_Zoom
 msgid "Zoom"
 msgstr "Масштаб"
