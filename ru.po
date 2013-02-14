@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-02-10 11:56\n"
-"PO-Revision-Date: 2013-02-10 12:07+0400\n"
+"POT-Creation-Date: 2013-02-14 16:19\n"
+"PO-Revision-Date: 2013-02-14 16:19+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -25,6 +25,18 @@ msgstr "-- г.м. (-12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- г.м.с. (-12°23\"43.35')"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..Caption
+msgid " Kosmosnimki "
+msgstr " Космоснимки "
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
+msgid " RosCosmos "
+msgstr " Роскосмос "
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
+msgid " Storage "
+msgstr " Хранилище "
 
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
@@ -74,8 +86,8 @@ msgstr "&Вид"
 msgid "(%s not found!)"
 msgstr "(%s отсутствует!)"
 
-#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Hint
-#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
 msgid "(zoom %)"
 msgstr "(масштаб %)"
 
@@ -422,7 +434,7 @@ msgstr ""
 msgid "All Images"
 msgstr "Все снимки"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkALLServices..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkALLServices..Caption
 msgid "All Services"
 msgstr "Все сервисы"
 
@@ -796,7 +808,7 @@ msgstr "см"
 msgid "Color"
 msgstr "Цвет"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkMNCasColorOnly..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCMain..chkMNCasColorOnly..Caption
 msgid "Color only"
 msgstr "Цветные"
 
@@ -890,7 +902,6 @@ msgstr "Формат представления координат"
 msgid "Coordinates: %s"
 msgstr "Координаты: %s"
 
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Скопировать"
@@ -903,7 +914,7 @@ msgstr "Копировать координаты"
 msgid "Copy description"
 msgstr "Копировать описание"
 
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXCopyTIDs..Hint
 msgid "Copy TID's to clipboard"
 msgstr "Копировать выбранные TID для вставки в URL"
 
@@ -1006,6 +1017,10 @@ msgstr "СУБД"
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lbDBMSCachePath..Caption
 msgid "DBMS root:"
 msgstr "Путь к кэшу СУБД:"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..Caption
+msgid "DD+RC"
+msgstr "DD+РК"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
 msgid "Default cache type"
@@ -1115,7 +1130,7 @@ msgstr "Результирующий кэш"
 msgid "Device timeout (sec)"
 msgstr "Время ожидания ответа от приёмника (сек.)"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkDG2..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
 msgstr "DigitalGlobe (Каталог сервиса)"
 
@@ -1181,7 +1196,7 @@ msgid "Double Free: Object is olready deleted!"
 msgstr "Попытка повторного удаления интерфейсного объекта"
 
 #. frMapsList..pnlMapsRightButtons..Button11..Caption
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnDown..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXDown..Hint
 msgid "Down"
 msgstr "Вниз"
 
@@ -1731,7 +1746,7 @@ msgstr "Игнорировать полигоны"
 msgid "Image postprocessing"
 msgstr "Коррекция изображения"
 
-#. frmDGAvailablePic..Up..PnlSearch..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..Caption
 msgid "Image services"
 msgstr "Картографический сервис"
 
@@ -1815,7 +1830,7 @@ msgstr "Версия JNX:"
 
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
-msgstr "Кб"
+msgstr "кБ"
 
 #. Programmer's name for it: SAS_UNITS_km
 msgid "km"
@@ -1832,6 +1847,14 @@ msgstr "км2"
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
 msgid "KML (for Google Earth)"
 msgstr "KML (Для просмотра в GE)"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkSearchKosmosnimki..Caption
+msgid "Kosmosnimki (search.kosmosnimki.ru)"
+msgstr "Космоснимки (search.kosmosnimki.ru)"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..Caption
+msgid "KS+Storage"
+msgstr "КС+Хранилище"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
@@ -1932,7 +1955,7 @@ msgstr ""
 msgid "Longitude:"
 msgstr "Долгота:"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkLowResolutionToo..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkLowResolutionToo..Caption
 msgid "Low Resolution too"
 msgstr "и низкого качества"
 
@@ -1965,7 +1988,11 @@ msgstr "Создать из метки"
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
 msgid "Make Polygon"
-msgstr "Полигон"
+msgstr "Создать полигон"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..TBXMakeRosreestrPolygon..Caption
+msgid "Make Polygon by RosReestr"
+msgstr "Создать полигон согласно РосРеестру"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
 msgid "Manage Selection"
@@ -2067,6 +2094,10 @@ msgstr "Мб"
 #. frMapsList..MapList......Caption
 msgid "Menu"
 msgstr "Путь в меню"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC3..Caption
+msgid "Meteor-M1"
+msgstr "Метеор-М1"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
@@ -2219,6 +2250,11 @@ msgstr "Фомат тайлов в OGF2:"
 msgid "OGF2 tiles resolution:"
 msgstr "Разрешение тайлов в OGF2:"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
+msgid "Old after days"
+msgstr "Старые после дней"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeTileMatrixDraft..lblResizeTileMatrixDraft..Caption
 msgid "On change zoom draft"
 msgstr "При смене масштаба"
@@ -2356,6 +2392,10 @@ msgstr "Родительский пункт меню"
 
 msgid "Parts count: %d"
 msgstr "Количество частей: %d"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
+msgid "Password"
+msgstr "Пароль"
 
 #. Programmer's name for it: SAS_STR_NewPath
 msgid "Path %0:d"
@@ -2515,7 +2555,7 @@ msgstr "Обработать не более"
 
 #. frmProgressDownload..Panel1..pnlToProcess..lblToProcess..Caption
 msgid "Process not more than:"
-msgstr "Обработать не более"
+msgstr "Обработать не более:"
 
 #. Programmer's name for it: SAS_STR_Processed
 msgid "Processed"
@@ -2612,6 +2652,7 @@ msgstr "Прямоугольная область"
 msgid "Redraw interval (ms):"
 msgstr "Перерисовывать не чаще (мс):"
 
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Caption
 msgid "Refresh"
 msgstr "Обновить"
@@ -2668,6 +2709,10 @@ msgstr ""
 msgid "Resume"
 msgstr "Продолжить"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC1..Caption
+msgid "Resurs-DK"
+msgstr "Ресурс-ДК"
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
 msgid "Retry download if tile not found"
 msgstr "Пытаться повторно загрузить тайл при его отсутствии"
@@ -2679,6 +2724,10 @@ msgstr "Радиус окружности (м)"
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr "Вращение на себя - приближение"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkRoscosmos..Caption
+msgid "Roscosmos (geoportal.ntsomz.ru)"
+msgstr "Роскосмос (geoportal.ntsomz.ru)"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
 #. Programmer's name for it: rsRound
@@ -2981,6 +3030,7 @@ msgstr "Отображать информацию о разрешении"
 msgid "Show on map"
 msgstr "Отображать это место на карте"
 
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
 msgid "Show only new"
 msgstr "Показать новые"
@@ -3127,6 +3177,26 @@ msgstr "Скорость"
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
 msgstr "Разбить изображение"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
+msgid "SPOT 5 - 10m Color"
+msgstr "SPOT 5 - 10м Цвет"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS12..Caption
+msgid "SPOT 5 - 2.5m BW"
+msgstr "SPOT 5 - 2.5м Ч/Б"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS13..Caption
+msgid "SPOT 5 - 2.5m Color"
+msgstr "SPOT 5 - 2.5м Цвет"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS10..Caption
+msgid "SPOT 5 - 5m BW"
+msgstr "SPOT 5 - 5м Ч/Б"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS11..Caption
+msgid "SPOT 5 - 5m Color"
+msgstr "SPOT 5 - 5м Цвет"
 
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
@@ -3347,7 +3417,7 @@ msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
 
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnUp..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 msgid "Up"
 msgstr "Вверх"
 
@@ -3424,6 +3494,10 @@ msgstr "Применить коррекцию изображения"
 msgid "Use proxy (IP:port)"
 msgstr "Использовать прокси (IP:port)"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
+msgid "Use storage to check new images"
+msgstr "Использовать для проверки новых снимков"
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
 msgid "Use system proxy settings"
 msgstr "Брать настройки подключения из реестра"
@@ -3439,6 +3513,10 @@ msgstr "Использовать вышележащие слои, если от�
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
 msgstr "Задано пользователем"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
+msgid "Username"
+msgstr "Логин"
 
 #. UTC time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
@@ -3527,7 +3605,7 @@ msgid "You need at least one MAP among your ZMP files"
 msgstr "Среди ZMP должна быть хотя бы одна карта"
 
 msgid "yournavigation.org (OSM)"
-msgstr "cредствами yournavigation.org (OSM)"
+msgstr "средствами yournavigation.org (OSM)"
 
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
@@ -3536,7 +3614,7 @@ msgstr "Путь к файлу"
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
-#. frmDGAvailablePic..Up..PnlSearch..lbNMCZoom..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCZoom..lbNMCZoom..Caption
 #. Programmer's name for it: SAS_STR_Zoom
 msgid "Zoom"
 msgstr "Масштаб"

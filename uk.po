@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-02-10 11:56\n"
-"PO-Revision-Date: 2013-02-11 20:11+0400\n"
+"POT-Creation-Date: 2013-02-14 16:19\n"
+"PO-Revision-Date: 2013-02-14 16:20+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,9 +26,21 @@ msgstr "-- г.хв. (-12°23.454)"
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- г.хв.с. (-12°23\"43.35')"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..Caption
+msgid " Kosmosnimki "
+msgstr " Космоснимки "
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
+msgid " RosCosmos "
+msgstr " Роскосмос "
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
+msgid " Storage "
+msgstr " Сховище "
+
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
-msgstr "До"
+msgstr " До "
 
 #. Programmer's name for it: SAS_STR_ExtendedPathCaption
 msgid "%0:s (Path)"
@@ -74,8 +86,8 @@ msgstr "&Вигляд"
 msgid "(%s not found!)"
 msgstr "(%s не знайдено!)"
 
-#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Hint
-#. frmDGAvailablePic..Up..PnlSearch..lbZoom..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
 msgid "(zoom %)"
 msgstr "(масштаб %)"
 
@@ -422,7 +434,7 @@ msgstr ""
 msgid "All Images"
 msgstr "Всі знімки"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkALLServices..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkALLServices..Caption
 msgid "All Services"
 msgstr "Всі сервіси"
 
@@ -796,7 +808,7 @@ msgstr "см"
 msgid "Color"
 msgstr "Колір"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkMNCasColorOnly..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCMain..chkMNCasColorOnly..Caption
 msgid "Color only"
 msgstr "Колір"
 
@@ -890,7 +902,6 @@ msgstr "Формат подання координат"
 msgid "Coordinates: %s"
 msgstr "Координати: %s"
 
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Копіювати"
@@ -903,7 +914,7 @@ msgstr "Копіювати координати"
 msgid "Copy description"
 msgstr "Копіювати опис:"
 
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnCopy..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXCopyTIDs..Hint
 msgid "Copy TID's to clipboard"
 msgstr "Копіювати вибрані tid для вставки у посилання"
 
@@ -1006,6 +1017,10 @@ msgstr "СУБД"
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lbDBMSCachePath..Caption
 msgid "DBMS root:"
 msgstr "Шлях до кешу DBMS:"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..Caption
+msgid "DD+RC"
+msgstr "DD+РК"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
 msgid "Default cache type"
@@ -1115,7 +1130,7 @@ msgstr "Результуючий кеш"
 msgid "Device timeout (sec)"
 msgstr "Час очікування відповіді від приймача (сек.)"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkDG2..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
 msgstr "DigitalGlobe (Каталог сервісу)"
 
@@ -1181,7 +1196,7 @@ msgid "Double Free: Object is olready deleted!"
 msgstr "Спроба повторного видалення інтерфейсного об'єкту"
 
 #. frMapsList..pnlMapsRightButtons..Button11..Caption
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnDown..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXDown..Hint
 msgid "Down"
 msgstr "Вниз"
 
@@ -1731,7 +1746,7 @@ msgstr "Ігнорувати полігони"
 msgid "Image postprocessing"
 msgstr "Корегування зображення"
 
-#. frmDGAvailablePic..Up..PnlSearch..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..Caption
 msgid "Image services"
 msgstr "Картографічний сервіс"
 
@@ -1833,6 +1848,14 @@ msgstr "км2"
 msgid "KML (for Google Earth)"
 msgstr "KML (Для перегляду в GE)"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkSearchKosmosnimki..Caption
+msgid "Kosmosnimki (search.kosmosnimki.ru)"
+msgstr "Космоснимкиi (search.kosmosnimki.ru)"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..Caption
+msgid "KS+Storage"
+msgstr "КС+Сховище"
+
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
 msgid "Language"
@@ -1932,7 +1955,7 @@ msgstr ""
 msgid "Longitude:"
 msgstr "Довгота:"
 
-#. frmDGAvailablePic..Up..PnlSearch..chkLowResolutionToo..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkLowResolutionToo..Caption
 msgid "Low Resolution too"
 msgstr "та низької якості"
 
@@ -1965,7 +1988,11 @@ msgstr "Створити з позначки"
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
 msgid "Make Polygon"
-msgstr "Полігон"
+msgstr "Створити полігон"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..TBXMakeRosreestrPolygon..Caption
+msgid "Make Polygon by RosReestr"
+msgstr "Створити полігон Росреестра"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
 msgid "Manage Selection"
@@ -2067,6 +2094,10 @@ msgstr "Мб"
 #. frMapsList..MapList......Caption
 msgid "Menu"
 msgstr "Шлях у меню"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC3..Caption
+msgid "Meteor-M1"
+msgstr "Метеор-М1"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
@@ -2219,6 +2250,11 @@ msgstr "Формат тайлів у OGF2:"
 msgid "OGF2 tiles resolution:"
 msgstr "Розрізнення тайлів у OGF2 :"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
+msgid "Old after days"
+msgstr "Старі після днів"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeTileMatrixDraft..lblResizeTileMatrixDraft..Caption
 msgid "On change zoom draft"
 msgstr "На зміну масштабу"
@@ -2356,6 +2392,10 @@ msgstr "Батьківський пункт меню"
 
 msgid "Parts count: %d"
 msgstr "Кількість деталей: %d"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
+msgid "Password"
+msgstr "Пароль"
 
 #. Programmer's name for it: SAS_STR_NewPath
 msgid "Path %0:d"
@@ -2612,6 +2652,7 @@ msgstr "Прямокутна область"
 msgid "Redraw interval (ms):"
 msgstr "Інтервал оновлення зображення (мс):"
 
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Caption
 msgid "Refresh"
 msgstr "Оновити"
@@ -2667,6 +2708,10 @@ msgstr "Відновити сесію завантаження з останнь
 msgid "Resume"
 msgstr "Продовжити"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC1..Caption
+msgid "Resurs-DK"
+msgstr "Ресурс-ДК"
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
 msgid "Retry download if tile not found"
 msgstr "Намагатись повторно завантажити тайл за його відсутністю"
@@ -2678,6 +2723,10 @@ msgstr "Радіус кілець (м)"
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr "Обератння на себе – наближення"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkRoscosmos..Caption
+msgid "Roscosmos (geoportal.ntsomz.ru)"
+msgstr "Роскосмос (geoportal.ntsomz.ru)"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
 #. Programmer's name for it: rsRound
@@ -2978,6 +3027,7 @@ msgstr "Показувати розрізнення"
 msgid "Show on map"
 msgstr "Показувати це місце на карті"
 
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
 msgid "Show only new"
 msgstr "Показати нові"
@@ -3125,6 +3175,26 @@ msgstr "Швидкість"
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
 msgstr "Розбити зображення"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
+msgid "SPOT 5 - 10m Color"
+msgstr "SPOT 5 - 10м Колір"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS12..Caption
+msgid "SPOT 5 - 2.5m BW"
+msgstr "SPOT 5 - 2.5м Ч/Б"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS13..Caption
+msgid "SPOT 5 - 2.5m Color"
+msgstr "SPOT 5 - 2.5м Колір"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS10..Caption
+msgid "SPOT 5 - 5m BW"
+msgstr "SPOT 5 - 5м Ч/Б"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS11..Caption
+msgid "SPOT 5 - 5m Color"
+msgstr "SPOT 5 - 5м Сховище"
 
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
@@ -3346,7 +3416,7 @@ msgid "Unknown error during download"
 msgstr "Невідома помилка при завантаженні"
 
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnUp..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 msgid "Up"
 msgstr "Вгору"
 
@@ -3423,6 +3493,10 @@ msgstr "Налаштувати корегування зображення"
 msgid "Use proxy (IP:port)"
 msgstr "Використовувати проксі (IP:port)"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
+msgid "Use storage to check new images"
+msgstr "Використати для перевірки нових знімків"
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
 msgid "Use system proxy settings"
 msgstr "Брати налаштування з’єднання з реєстру"
@@ -3438,6 +3512,10 @@ msgstr "Використовувати вищерозміщені шари, як
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
 msgstr "Задано користувачем"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
+msgid "Username"
+msgstr "Логін "
 
 #. UTC time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
@@ -3535,7 +3613,7 @@ msgstr "Шлях до файла"
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
-#. frmDGAvailablePic..Up..PnlSearch..lbNMCZoom..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCZoom..lbNMCZoom..Caption
 #. Programmer's name for it: SAS_STR_Zoom
 msgid "Zoom"
 msgstr "Масштаб"
