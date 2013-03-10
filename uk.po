@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-02-14 16:19\n"
-"PO-Revision-Date: 2013-02-14 16:20+0400\n"
+"POT-Creation-Date: 2013-03-10 12:03\n"
+"PO-Revision-Date: 2013-03-10 19:01+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -163,6 +163,7 @@ msgstr "120м"
 
 #. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes..Text
 #. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize....Items.Strings
 msgid "128x128 pix"
 msgstr "128x128 пікс"
 
@@ -207,6 +208,7 @@ msgid "23.4 km"
 msgstr "23,4 км"
 
 #. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize....Items.Strings
 msgid "256x256 pix"
 msgstr "256x256 пікс"
 
@@ -571,6 +573,10 @@ msgstr "Середня швидкість, км/год:"
 msgid "Azimuth"
 msgstr "Азимут"
 
+#. frmMain..TBDock..TBXMainMenu..NView..tbitmGauge..Caption
+msgid "Azimuth Circle"
+msgstr "Азимутальне кільце "
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..lblBGColor..Caption
 msgid "Background color"
 msgstr "Колір фону"
@@ -695,12 +701,18 @@ msgstr "Карта заповнення"
 msgid "Cached tiles map:"
 msgstr "Карта заповнення:"
 
+msgid "calc..."
+msgstr "розрахунок... "
+
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
-#. frmImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMapLayersOptions..btnCancel..Hint
 #. frmMapLayersOptions..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
+#. frmSettings..pnlBottomButtons..btnCancel..Caption
+#. frmShortCutEdit..pnlBottom..btnCancel..Caption
+#. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Hint
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPath..pnlBottomButtons..btnCancel..Hint
@@ -710,9 +722,6 @@ msgstr "Карта заповнення:"
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
-#. frmSettings..pnlBottomButtons..btnCancel..Caption
-#. frmShortCutEdit..pnlBottom..btnCancel..Caption
-#. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 msgid "Cancel"
 msgstr "Скасувати"
@@ -778,7 +787,6 @@ msgid "Charging"
 msgstr "Зарядка"
 
 #. frmAbout..pnlBottom..btnClose..Caption
-#. frmMarkInfo..pnlBottom..btnClose..Caption
 msgid "Close"
 msgstr "Закрити"
 
@@ -795,16 +803,16 @@ msgstr "Закрити вікно після закінчення"
 msgid "cm"
 msgstr "см"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..flwpnlTileBorders..Label27..Caption
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineColor..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineColor..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFillColor..Caption
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
-#. frmSettings..PageControl1..tsGrids..pnlTileBorders..flwpnlTileBorders..Label27..Caption
-#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
-#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
 msgid "Color"
 msgstr "Колір"
 
@@ -1103,15 +1111,8 @@ msgstr "Видалення"
 msgid "Deleting:"
 msgstr "Видаляє:"
 
-msgid ""
-"Description:\n"
-"%s"
-msgstr ""
-"Опис:\n"
-"%s"
-
-#. frMarkDescription..pnlDescriptionTop..Label2..Caption
 #. frmDGAvailablePic..gbImageParams..Caption
+#. frMarkDescription..pnlDescriptionTop..Label2..Caption
 msgid "Description:"
 msgstr "Опис:"
 
@@ -1552,10 +1553,6 @@ msgstr "На весь екран (F11)"
 #. Programmer's name for it: SAS_STR_Gamma
 msgid "Gamma"
 msgstr "Гамма-корекція"
-
-#. frmMain..TBDock..TBXMainMenu..NView..tbitmGauge..Caption
-msgid "Gauge"
-msgstr "Показувати шкалу"
 
 #. Programmer's name for it: SAS_UNITS_gb
 msgid "GB"
@@ -2005,7 +2002,6 @@ msgstr "Операція з виділеною областю"
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
-#. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
@@ -2037,6 +2033,7 @@ msgstr "Параметри карти:"
 msgid "Map Storage Info"
 msgstr "Налаштування сховища"
 
+#. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
 #. frTilesDownload..pnlBottom..pnlMain..lblMap..Caption
@@ -2640,6 +2637,18 @@ msgstr "ОЗП"
 msgid "Read only mode"
 msgstr "Тільки читання"
 
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress1..Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress2..Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress3..Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress4..Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress5..Hint
+msgid ""
+"Re-compress JPEG tiles\n"
+"Note: Non-JPEG tiles are always recompressed"
+msgstr ""
+"Стиснення JPEG тайлів\n"
+"Увага: Не-JPEG тайли завжди стискуються "
+
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
 msgid "Recreate target database if exists"
 msgstr "Оновити БД, якщо вона існує"
@@ -2835,14 +2844,14 @@ msgstr "Зберегти  виділення у файл"
 msgid "Save to:"
 msgstr "Куди зберігати:"
 
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label2..Caption
-msgid "Scale"
-msgstr "Масштаб"
-
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowLine..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
 msgid "Scale Legend"
 msgstr "Лінійка"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label2..Caption
+msgid "Scale:"
+msgstr "Шкала: "
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
 #. Programmer's name for it: rsScience
@@ -3196,9 +3205,9 @@ msgstr "SPOT 5 - 5м Ч/Б"
 msgid "SPOT 5 - 5m Color"
 msgstr "SPOT 5 - 5м Сховище"
 
+#. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
-#. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
 msgid "Start"
 msgstr "Почати"
@@ -3332,6 +3341,10 @@ msgstr "Такого зображення немає на сервері!"
 
 msgid "Tile is not found! Zero result size"
 msgstr "Такого зображення немає на сервері!"
+
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
+msgid "Tile Size"
+msgstr "Розмір тайлу"
 
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
