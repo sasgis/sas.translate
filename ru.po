@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-03-10 12:03\n"
-"PO-Revision-Date: 2013-03-10 12:05+0400\n"
+"POT-Creation-Date: 2013-05-01 11:33\n"
+"PO-Revision-Date: 2013-05-01 11:37+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -596,6 +596,14 @@ msgstr "Батарея"
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusCaption
 msgid "Battery:"
 msgstr "Батарея:"
+
+#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
+#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+msgid "BerkeleyDB (Versioned)"
+msgstr "BerkeleyDB (Версионный)"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lblBDBCachePath..Caption
 msgid "BerkeleyDB cache folder:"
@@ -1607,6 +1615,7 @@ msgstr "Определить позицию по базовым станциям
 #. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
+#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 msgid "GlobalMapper Tiles"
 msgstr "GlobalMapper Tiles"
 
@@ -3047,6 +3056,10 @@ msgstr "Показать новые"
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show only selected placemarks"
 msgstr "Показывать только указанные метки"
+
+#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowPrevVersion..Caption
+msgid "Show previous Version"
+msgstr "Отображать предыдущие версии"
 
 #. frmMain..MainPopupMenu..Nopendir..Caption
 msgid "Show Primary Map Tile"
