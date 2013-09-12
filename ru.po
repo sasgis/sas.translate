@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-05-01 11:33\n"
-"PO-Revision-Date: 2013-05-01 11:37+0400\n"
+"POT-Creation-Date: 2013-09-12 14:16\n"
+"PO-Revision-Date: 2013-09-12 14:36+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -261,12 +261,6 @@ msgid "5m"
 msgstr "5м"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale....Items.Strings
 msgid "800km"
 msgstr "800км"
 
@@ -294,6 +288,19 @@ msgstr "8м"
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmAbout..Caption
 msgid "About"
 msgstr "О программе"
+
+#. frMapSelect..FilterPopupMenu..TBX_Active..Caption
+msgid "Active"
+msgstr "Активные"
+
+msgid "Active Layers (%d)"
+msgstr "Активные слои (%d)"
+
+msgid "Active Maps (%d)"
+msgstr "Активные карты (%d)"
+
+msgid "Active Maps + Layers (%d)"
+msgstr "Активные карты + слои (%d)"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
@@ -394,43 +401,49 @@ msgstr "Дополнительные операции"
 #. frExportRMapsSQLite..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportToCE..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
+#. frMapSelect..FilterPopupMenu..TBX_All..Caption
 #. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
 msgid "All"
 msgstr "Все"
 
+msgid "All (%d)"
+msgstr "Все (%d)"
+
 #. frmMapTypeEdit..pnlBottomButtons..btnByDefault..Caption
 msgid "All by default"
 msgstr "Все по умолчанию"
 
-#. frmMain..OpenSessionDialog....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
-"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
-"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Download "
-"session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*.gpx)|*."
-"gpx"
-msgstr ""
-"Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx)|*.kml;*.plt;*."
-"kmz;*.sls;*.hlg;*.gpx|Google KML files (*.kml)|*.kml|OziExplorer Track Point "
-"File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|Сессия "
-"загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange files (*."
-"gpx)|*.gpx"
-
 #. frmMarksExplorer..OpenDialog1....Filter
 msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv)|*.kml;*."
-"plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv|Google KML files (*.kml)|*.kml|OziExplorer "
+"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv,*.jpg)|*."
+"kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv;*.jpg|Google KML files (*.kml)|*.kml|"
+"OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*."
+"kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS "
+"Exchange files (*.gpx)|*.gpx|Universal CSV files (*.csv)|*.csv|JPEG Image "
+"whtg GPS Exif (*.jpg)|*.jpg"
+msgstr ""
+"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv,*.jpg)|*."
+"kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv;*.jpg|Google KML файлы (*.kml)|*.kml|"
+"OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ файлы (*."
+"kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS "
+"Exchange files (*.gpx)|*.gpx|Универсальные CSV файлы (*.csv)|*.csv|JPEG "
+"изображения с GPS Exif (*.jpg)|*.jpg"
+
+#. frmMain..OpenSessionDialog....Filter
+msgid ""
+"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.jpg)|*.kml;*."
+"plt;*.kmz;*.sls;*.hlg;*.gpx;*.jpg|Google KML files (*.kml)|*.kml|OziExplorer "
 "Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|"
 "Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*."
-"gpx)|*.gpx|Universal CSV files (*.csv)|*.csv"
+"gpx)|*.gpx|JPEG Image with Exif (*.jpg)|*.jpg"
 msgstr ""
-"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv)|*.kml;*."
-"plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv|Google KML файлы (*.kml)|*.kml|OziExplorer "
-"Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ файлы (*.kmz)|*.kmz|"
+"Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.jpg)|*.kml;*."
+"plt;*.kmz;*.sls;*.hlg;*.gpx;*.jpg|Google KML files (*.kml)|*.kml|OziExplorer "
+"Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|"
 "Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange "
-"files (*.gpx)|*.gpx|Универсальные CSV файлы (*.csv)|*.csv"
+"files (*.gpx)|*.gpx|JPEG изображения с Exif (*.jpg)|*.jpg"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
 msgid "All Images"
@@ -585,10 +598,6 @@ msgstr "Цвет фона"
 msgid "Background color:"
 msgstr "Цвет фона:"
 
-#. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblMap..Caption
-msgid "Base Map:"
-msgstr "Тип карты:"
-
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
 msgstr "Батарея"
@@ -604,6 +613,10 @@ msgstr "Батарея:"
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 msgid "BerkeleyDB (Versioned)"
 msgstr "BerkeleyDB (Версионный)"
+
+#. frmSettings..PageControl1..tsCache..grdpnlCache..lblBDBVerCachePath..Caption
+msgid "BerkeleyDB (Versioned) cache folder:"
+msgstr "Путь к кэшу BerkeleyDB (версионный):"
 
 #. frmSettings..PageControl1..tsCache..grdpnlCache..lblBDBCachePath..Caption
 msgid "BerkeleyDB cache folder:"
@@ -1459,9 +1472,9 @@ msgstr "Ошибка"
 msgid "Failed to save to external tile storage: error "
 msgstr "Ошибка при записи в БД: код ошибки "
 
-#. Programmer's name for it: SAS_STR_file
-msgid "file"
-msgstr "файл"
+#. Programmer's name for it: SAS_STR_File
+msgid "File"
+msgstr "Файл"
 
 #. Programmer's name for it: SAS_MSG_FileExists
 msgid ""
@@ -1495,6 +1508,13 @@ msgstr "Заполнение:"
 #. frmMain..TBDock..FillDates..Caption
 msgid "FillDates"
 msgstr "Дата создания"
+
+#. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid "Filter: \"%s\" (%d)"
+msgstr "Фильтр: \"%s\" (%d)"
 
 #. Programmer's name for it: SAS_STR_Finished
 msgid "Finished"
@@ -1542,7 +1562,7 @@ msgstr "c"
 msgid "From mains"
 msgstr "От сети"
 
-#. frTilesGenPrev..pnlBottom..pnlRight..lblFromZoom..Caption
+#. frTilesGenPrev..pnlMapSelect..pnlZoom..lblFromZoom..Caption
 msgid "From zoom:"
 msgstr "Из слоя масштаба:"
 
@@ -1908,9 +1928,13 @@ msgid "Layer Settings"
 msgstr "Параметры слоя"
 
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
+#. frMapSelect..FilterPopupMenu..TBX_Layers..Caption
 #. Programmer's name for it: SAS_STR_Layers
 msgid "Layers"
 msgstr "Слои"
+
+msgid "Layers (%d)"
+msgstr "Слои (%d)"
 
 #. Programmer's name for it: SAS_STR_L
 msgid "Length"
@@ -2000,16 +2024,19 @@ msgstr "Создать полигон"
 msgid "Make Polygon by RosReestr"
 msgstr "Создать полигон согласно РосРеестру"
 
+#. frTilesCopy..pnlCenter..pnlMain..chkPlaceInNameSubFolder..Caption
+msgid "Make subfolder with map path name"
+msgstr "Раскладывать по подпапкам, соответствующим именам карты"
+
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
 msgid "Manage Selection"
 msgstr "Операции с выделенной областью"
 
-#. frExportAUX..pnlCenter..pnlMain..lblMap..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
-#. frExportToFileCont..pnlCenter..pnlMain..lblMap..Caption
+#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
@@ -2042,18 +2069,24 @@ msgstr "Параметры карты:"
 msgid "Map Storage Info"
 msgstr "Настройки хранилища"
 
+#. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
-#. frTilesDelete..pnlBottom..pnlCenter..lblMap..Caption
-#. frTilesDownload..pnlBottom..pnlMain..lblMap..Caption
-#. frTilesGenPrev..pnlBottom..pnlCenter..lblMap..Caption
+#. frMapCombine..pnlMapSelect..pnlMapFrame..lblMapCaption..Caption
+#. frTilesDelete..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 msgid "Map:"
 msgstr "Тип карты:"
 
 #. frmSettings..PageControl1..tsMaps..Caption
+#. frMapSelect..FilterPopupMenu..TBX_Maps..Caption
 #. Programmer's name for it: SAS_STR_Maps
 msgid "Maps"
 msgstr "Карты"
+
+msgid "Maps (%d)"
+msgstr "Карты (%d)"
 
 msgid "maps.cloudmade.com (OSM)"
 msgstr "средствами maps.cloudmade.com (OSM)"
@@ -2191,8 +2224,6 @@ msgstr "Ночной режим (Инверсия цветов)"
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale0..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale0..Caption
 #. frmShortCutEdit..pnlBottom..btnClear..Caption
-#. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..cbbHybr..Text
-#. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..cbbHybr....Items.Strings
 #. Programmer's name for it: SAS_STR_No
 msgid "No"
 msgstr "Нет"
@@ -2363,7 +2394,7 @@ msgid "Output format:"
 msgstr "Результирующий формат:"
 
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
-#. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..lblHybr..Caption
+#. frMapCombine..pnlMapSelect..pnlLayerFrame..lblLayerCaption..Caption
 msgid "Overlay layer:"
 msgstr "Наложить:"
 
@@ -2563,6 +2594,10 @@ msgstr "Обработать не более"
 msgid "Process not more than:"
 msgstr "Обработать не более:"
 
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..chkCheckSourceVersion..Caption
+msgid "Process only tiles  with version:"
+msgstr "Обрабатывать только тайлы с версией:"
+
 #. Programmer's name for it: SAS_STR_Processed
 msgid "Processed"
 msgstr "Обработано"
@@ -2593,7 +2628,7 @@ msgstr "Проекция слоя"
 msgid "Projection of map"
 msgstr "Проекция карты"
 
-#. frMapCombine..pnlCenter..pnlCenterMain..pnlMapSource..pnlProjection..lblProjection..Caption
+#. frMapCombine..pnlMapSelect..pnlProjection..lblProjection..Caption
 msgid "Projection:"
 msgstr "Проекция:"
 
@@ -2646,11 +2681,11 @@ msgstr "ОЗУ"
 msgid "Read only mode"
 msgstr "Только для чтения"
 
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress1..Hint
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress2..Hint
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress3..Hint
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress4..Hint
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress5..Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress1....Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress2....Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress3....Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress4....Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress5....Hint
 msgid ""
 "Re-compress JPEG tiles\n"
 "Note: Non-JPEG tiles are always recompressed"
@@ -2974,6 +3009,10 @@ msgstr "Таймаут на сетевые операции, мс"
 #. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
 msgid "Set as default"
 msgstr "Использовать данные настройки по умолчанию"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkReplaceDestVersion..Caption
+msgid "Set same version for all processed tiles:"
+msgstr "Установить следующую версию для всех обрабатываемых тайлов"
 
 #. frTilesCopy..pnlCenter..pnlMain..pnSetTargetVersionOptions..chkSetTargetVersionTo..Caption
 msgid "Set Version to"
@@ -3664,11 +3703,11 @@ msgid "Zoom to Cursor"
 msgstr "Перемещать к курсору"
 
 #. frmGoTo..pnlBottomButtons..lblZoom..Caption
-#. frExportAUX..pnlCenter..pnlRight..lblZoom..Caption
+#. frExportAUX..pnlCenter..pnlMapSelect..pnlZoom..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
-#. frMapCombine..pnlCenter..pnlZoom..lblZoom..Caption
-#. frTilesDelete..pnlBottom..pnlRight..lblZoom..Caption
-#. frTilesDownload..pnlBottom..pnlRight..lblZoom..Caption
+#. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
+#. frTilesDelete..pnlMapSelect..pnlZoom..Labelzoom..Caption
+#. frTilesDownload..pnlMapSelect..pnlZoom..lblZoom..Caption
 msgid "Zoom:"
 msgstr "Масштаб:"
 
