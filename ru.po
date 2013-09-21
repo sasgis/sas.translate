@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-09-12 14:16\n"
-"PO-Revision-Date: 2013-09-12 14:36+0400\n"
-"Last-Translator: Fetser <Fetser@list.ru>\n"
+"POT-Creation-Date: 2013-09-22 00:13\n"
+"PO-Revision-Date: 2013-09-22 00:17+0300\n"
+"Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1190,7 +1190,7 @@ msgstr "Измерить расстояние"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..Label3..Caption
 msgid "Distance representation"
-msgstr "Формат отображения масштаба"
+msgstr "Формат отображения расстояний"
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointMenuItemName
 msgid "Distance to placemark"
@@ -2855,6 +2855,10 @@ msgstr "Сохранить изменения как"
 #. frmProgressDownload..Panel1..pnlBottom..btnSave..Hint
 msgid "Save current session"
 msgstr "Сохранить текущую сессию"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkSaveGeoRefInfoToJpegExif..Caption
+msgid "Save GeoRef info to Exif"
+msgstr "Сохранить гео-привязку в Exif"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
 msgid "Save only complete tiles"
