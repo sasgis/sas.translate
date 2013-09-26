@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-09-22 00:13\n"
-"PO-Revision-Date: 2013-09-22 00:17+0300\n"
-"Last-Translator: zed <starmen@tut.by>\n"
+"POT-Creation-Date: 2013-09-26 12:05\n"
+"PO-Revision-Date: 2013-09-26 12:09+0400\n"
+"Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1673,6 +1673,10 @@ msgstr "Метка GPS"
 msgid "GPS On/Off"
 msgstr "GPS Вкл/Выкл"
 
+#. Programmer's name for it: SAS_MSG_UnknownGPSOrigin
+msgid "GPS origin misconfiguration: unknown mode %d"
+msgstr "GPS неверные настройки: неизвестный режим %d"
+
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
 msgstr "Подписи"
@@ -2235,6 +2239,10 @@ msgstr "Нет вложений"
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
 msgstr "Не найден приёмник GPS"
+
+#. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
+msgid "No source for Fly-on-Track mode"
+msgstr "Нет источника для метода Fly-on-Track"
 
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile storage"
@@ -3542,6 +3550,10 @@ msgstr "Существующие с градиентом"
 msgid "Use Deleted: Object is not exists!"
 msgstr "Попытка использовать удалённый интерфейсный объект"
 
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_FlyOnTrack..Hint
+msgid "Use Fly-on-Track mode (overrides ALL settings if checked)"
+msgstr "Выбрать Fly-on-Track (отменяет ВСЕ выбранные настройки)"
+
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
 msgid "Use Garmin via USB (overrides COM settings if checked)"
 msgstr "Выбрать Garmin USB (отменяет выбор COM-порта)"
@@ -3549,6 +3561,10 @@ msgstr "Выбрать Garmin USB (отменяет выбор COM-порта)"
 #. frmMain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
 msgid "Use Layers from Lower Zooms"
 msgstr "Брать слои из меньших масштабов"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_LocationAPI..Hint
+msgid "Use Location API (overrides PREV settings if checked)"
+msgstr "Выбрать Location API (отменяет РАНЕЕ выбранные настройки)"
 
 #. frmMain..TBDock..TBXMainMenu..NView..Nbackload..Caption
 msgid "Use Maps from Lower Zooms"
