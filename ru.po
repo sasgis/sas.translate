@@ -1,13 +1,9 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-09-26 12:05\n"
-"PO-Revision-Date: 2013-09-26 12:09+0400\n"
-"Last-Translator: Fetser <Fetser@list.ru>\n"
+"POT-Creation-Date: 2013-10-16 23:48\n"
+"PO-Revision-Date: 2013-10-17 00:11+0300\n"
+"Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -637,6 +633,14 @@ msgstr "BMP: Сбой прорисовки линии!"
 msgid "Border color"
 msgstr "Цвет окаймления"
 
+#. frmAbout..lblTimeStamp..Caption
+msgid "Build date:"
+msgstr "Дата сборки:"
+
+#. frmAbout..lblBuildInfo..Caption
+msgid "Build info:"
+msgstr "Инф. о сборке:"
+
 msgid "By Bicycle (Fastest)"
 msgstr "На велосипеде (по скорости)"
 
@@ -724,6 +728,14 @@ msgstr "Карта заполнения:"
 
 msgid "calc..."
 msgstr "расчёт..."
+
+#. Programmer's name for it: rsTabMapCalibrationDescription
+msgid "Calibration for MapInfo programm (*.tab)"
+msgstr ""
+
+#. Programmer's name for it: rsOziMapCalibrationDescription
+msgid "Calibration for OziExplorer programm (*.map)"
+msgstr ""
 
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -860,6 +872,10 @@ msgid ""
 msgstr ""
 "Ошибка в скрипте при компиляции\n"
 "%0:s"
+
+#. frmAbout..lblCompiler..Caption
+msgid "Compiler:"
+msgstr "Компилятор:"
 
 #. ExportDialog
 msgid ""
@@ -1339,10 +1355,6 @@ msgstr "Редактировать выбранную метку"
 #. frmMapLayersOptions..pgcOptions..tsElevation..Caption
 msgid "Elevation Info"
 msgstr "Информация о высоте"
-
-#. frmAbout..lblEMailCaption..Caption
-msgid "Email:"
-msgstr "Почта:"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -1950,6 +1962,10 @@ msgstr "Длина: %s"
 #. 64k
 msgid "LibPNG: Failed to Create PngStruct!"
 msgstr "LibPNG: Ошибка создания PngStruct!"
+
+#. frmAbout..pnlBottom..btnLicense..Caption
+msgid "License"
+msgstr "Лицензия"
 
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLine..Caption
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
@@ -2815,6 +2831,10 @@ msgstr "Проложить маршрут"
 msgid "SAS.Planet"
 msgstr "SAS.Планета"
 
+#. Programmer's name for it: rsDevelopmentTeam
+msgid "SAS.Planet Development Team"
+msgstr "команда разработчиков SAS.Планета"
+
 #. Programmer's name for it: SAS_MSG_need_reload_application_curln
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr ""
@@ -3372,6 +3392,10 @@ msgstr "В карте %0:s ошибка: %1:s"
 msgid "This is not simple file storage. Tile's file name does not exist."
 msgstr "Это не тайловый кэш, невозможно получить имя файла с тайлом."
 
+#. frmAbout..lblLicense....Caption
+msgid "This program is freeware, opensource and released under the GNU General Public License (GPLv3)"
+msgstr "Эта программа распространяется бесплатно, с исходными кодами под лицензией GNU GPLv3"
+
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Тайловые"
@@ -3648,10 +3672,6 @@ msgstr "Ждем %0:d секунд..."
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineHome..Caption
 msgid "Web Site (http://www.sasgis.ru)"
 msgstr "Сайт программы (http://sasgis.ru)"
-
-#. frmAbout..lblWebSiteCaption..Caption
-msgid "Website:"
-msgstr "Сайт:"
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
