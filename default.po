@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-21 18:38\n"
-"PO-Revision-Date: 2013-10-21 18:38\n"
+"POT-Creation-Date: 2013-11-30 22:43\n"
+"PO-Revision-Date: 2013-11-30 22:43\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -352,7 +352,6 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
-#. frmRegionProcess..pnlBottomButtons..SpeedButton_mkMark..Hint
 msgid "Add Placemark"
 msgstr ""
 
@@ -396,15 +395,10 @@ msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
-#. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
-#. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlRight..chkAllZooms..Caption
-#. frExportToCE..pnlCenter..pnlRight..chkAllZooms..Caption
-#. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
-#. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
+#. frZoomsSelect..chkAllZooms..Caption
 msgid "All"
 msgstr ""
 
@@ -775,6 +769,9 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
+msgstr ""
+
+msgid "Can't open file: %s"
 msgstr ""
 
 #. Programmer's name for it: rsObjectNotInPool
@@ -2057,6 +2054,9 @@ msgstr ""
 msgid "Map Name"
 msgstr ""
 
+msgid "Map Original Projection (from zmp)"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
 msgid "Map Settings"
 msgstr ""
@@ -2537,6 +2537,9 @@ msgstr ""
 msgid "Please select at least one region"
 msgstr ""
 
+msgid "Please select at least one zoom"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr ""
@@ -2629,6 +2632,10 @@ msgstr ""
 msgid "Product Name"
 msgstr ""
 
+#. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
+msgid "Projection"
+msgstr ""
+
 msgid "Projection of layer"
 msgstr ""
 
@@ -2655,12 +2662,12 @@ msgstr ""
 msgid "Proxy password:"
 msgstr ""
 
-#. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
-msgid "Quality (for JPEG and ECW):"
-msgstr ""
-
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 msgid "Quality (for JPEG):"
+msgstr ""
+
+#. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
+msgid "Quality, %"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_queue
@@ -3310,6 +3317,10 @@ msgstr ""
 msgid "Store info about not found tiles"
 msgstr ""
 
+#. frmRegionProcess..pnlBottomButtons..SpeedButton_mkMark..Hint
+msgid "Store selection as Poligon"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
 msgid "Table not found and cannot be created (possibly due to insufficient "
 "privileges or readonly external tile "
@@ -3735,15 +3746,8 @@ msgstr ""
 msgid "Zoom:"
 msgstr ""
 
-#. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportToCE..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
-#. frExportYaMobileV3..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportYaMobileV4..pnlCenter..pnlRight..lblZooms..Caption
-#. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
+#. frZoomsSelect..lblZooms..Caption
 msgid "Zooms:"
 msgstr ""
 

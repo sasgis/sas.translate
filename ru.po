@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-10-21 18:38\n"
-"PO-Revision-Date: 2013-10-21 18:39+0300\n"
+"POT-Creation-Date: 2013-11-30 22:43\n"
+"PO-Revision-Date: 2013-11-30 22:46+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -348,7 +348,6 @@ msgstr "Добавить путь"
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
-#. frmRegionProcess..pnlBottomButtons..SpeedButton_mkMark..Hint
 msgid "Add Placemark"
 msgstr "Поставить метку"
 
@@ -392,15 +391,10 @@ msgstr "Дополнительные операции"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
-#. frExportGEKml..pnlCenter..pnlRight..chkAllZooms..Caption
-#. frExportIPhone..pnlBottom..pnlRight..chkAllZooms..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlRight..chkAllZooms..Caption
-#. frExportToCE..pnlCenter..pnlRight..chkAllZooms..Caption
-#. frExportToFileCont..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
-#. frTilesCopy..pnlCenter..pnlRight..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
+#. frZoomsSelect..chkAllZooms..Caption
 msgid "All"
 msgstr "Все"
 
@@ -781,6 +775,9 @@ msgstr "Невозможно создать хранилище в памяти. 
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr "Ошибка загрузки изображения исходного типа"
+
+msgid "Can't open file: %s"
+msgstr "Невозможно открыть файл: %s"
 
 #. Programmer's name for it: rsObjectNotInPool
 msgid "Can't release an object that is not in the pool!"
@@ -2077,6 +2074,9 @@ msgstr "Информация о карте"
 msgid "Map Name"
 msgstr "Название карты"
 
+msgid "Map Original Projection (from zmp)"
+msgstr "Оригинальная проекция карты (из zmp)"
+
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
 msgid "Map Settings"
 msgstr "Параметры карты"
@@ -2554,6 +2554,9 @@ msgstr "Воспроизвести"
 msgid "Please select at least one region"
 msgstr "Сначала необходимо выделить хотя бы одну область"
 
+msgid "Please select at least one zoom"
+msgstr "Сначала необходимо выбрать хотя бы один зум"
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr "Подождите, идет загрузка..."
@@ -2646,6 +2649,10 @@ msgstr "Тип снимка (ID)"
 msgid "Product Name"
 msgstr "Наименование:"
 
+#. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
+msgid "Projection"
+msgstr "Проекция"
+
 msgid "Projection of layer"
 msgstr "Проекция слоя"
 
@@ -2672,13 +2679,13 @@ msgstr "Использовать логин:"
 msgid "Proxy password:"
 msgstr "и пароль:"
 
-#. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
-msgid "Quality (for JPEG and ECW):"
-msgstr "Качество (для JPEG и ECW):"
-
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 msgid "Quality (for JPEG):"
 msgstr "Качество (для JPEG):"
+
+#. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
+msgid "Quality, %"
+msgstr "Качество, %"
 
 #. Programmer's name for it: SAS_STR_queue
 msgid "Queue"
@@ -3335,6 +3342,10 @@ msgstr "Склейка карты"
 msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
 
+#. frmRegionProcess..pnlBottomButtons..SpeedButton_mkMark..Hint
+msgid "Store selection as Poligon"
+msgstr "Сохранить выделенную область как полигон"
+
 #. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
 msgid ""
 "Table not found and cannot be created (possibly due to insufficient "
@@ -3763,18 +3774,14 @@ msgstr "Перемещать к курсору"
 msgid "Zoom:"
 msgstr "Масштаб:"
 
-#. frExportGEKml..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportIPhone..pnlBottom..pnlRight..lblZooms..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportToCE..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportToFileCont..pnlCenter..pnlRight..lblZooms..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
-#. frExportYaMobileV3..pnlCenter..pnlRight..lblZooms..Caption
-#. frExportYaMobileV4..pnlCenter..pnlRight..lblZooms..Caption
-#. frTilesCopy..pnlCenter..pnlRight..lblZooms..Caption
+#. frZoomsSelect..lblZooms..Caption
 msgid "Zooms:"
 msgstr "Масштабы:"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "Quality (for JPEG and ECW):"
+#~ msgstr "Качество (для JPEG и ECW):"
