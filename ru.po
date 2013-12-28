@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2013-11-30 22:43\n"
-"PO-Revision-Date: 2013-11-30 22:46+0300\n"
+"POT-Creation-Date: 2013-12-28 16:17\n"
+"PO-Revision-Date: 2013-12-28 16:35+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -53,6 +53,10 @@ msgstr "%0:s (Полигон)"
 #. Programmer's name for it: SAS_STR_DownloadingCaption
 msgid "%0:s Downloading"
 msgstr "%0:s Скачивание"
+
+#. Programmer's name for it: rsDownloadProgressInfo
+msgid "%s %.2f of %.2f MB (%.2f%s)"
+msgstr "%s %.2f из %.2f Мб (%.2f%s)"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -532,6 +536,7 @@ msgstr "Притягивать точки к существующим марке
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "Auto"
 msgstr "Автоматически"
 
@@ -563,6 +568,10 @@ msgstr "Автоматически сохранять трек:"
 #. Programmer's name for it: SAS_STR_ExportAUXGeoServerCaption
 msgid "AUX for LizardTech GeoExpress Server"
 msgstr "AUX для GeoExpress Server"
+
+#. frmUpdateChecker..lblNewVer..Caption
+msgid "Available version:"
+msgstr "Доступная версия:"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedMenuItemName
 msgid "Average speed"
@@ -816,7 +825,12 @@ msgstr "Текущая позиция всегда в центре"
 msgid "Charging"
 msgstr "Заряжается"
 
+#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmCheckUpdate..Caption
+msgid "Check for updates..."
+msgstr "Проверить наличие обновлений..."
+
 #. frmAbout..pnlBottom..btnClose..Caption
+#. frmUpdateChecker..btnClose..Caption
 msgid "Close"
 msgstr "Закрыть"
 
@@ -889,6 +903,10 @@ msgstr "Упаковка в TAR"
 #. Programmer's name for it: SAS_STR_ExportZipPackCaption
 msgid "Compressing to ZIP"
 msgstr "Упаковка в ZIP"
+
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
+msgid "Compression (for PNG):"
+msgstr "Сжатие (для PNG):"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
@@ -1169,6 +1187,10 @@ msgstr "Время ожидания ответа от приёмника (сек
 msgid "DigitalGlobe (Catalogservice)"
 msgstr "DigitalGlobe (Каталог сервиса)"
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkDirectTilesCopy..Caption
+msgid "Direct tiles copy (without any modifications)"
+msgstr "Прямое копирование тайлов (без каких-либо модификаций)"
+
 #. Programmer's name for it: SAS_ERR_DirectoryNotExistFmt
 msgid "Directory %0:s not exist"
 msgstr "Папка %0:s не существует"
@@ -1236,12 +1258,17 @@ msgid "Down"
 msgstr "Вниз"
 
 #. frmRegionProcess..PageControl1..TabSheet1..Caption
+#. frmUpdateChecker..btnDownload..Caption
 msgid "Download"
 msgstr "Загрузить"
 
 #. Programmer's name for it: SAS_MSG_LoadComplete
 msgid "Download completed"
 msgstr "Загрузка завершена"
+
+#. Programmer's name for it: rsDownloadFinished
+msgid "Download completed successfully. You can update the program manually from file: %s"
+msgstr "Загрузка завершена. Вы можете обновить программу вручную: %s"
 
 #. frmMapTypeEdit..pnlSeparator..chkDownloadEnabled..Caption
 msgid "Download enabled"
@@ -1267,6 +1294,10 @@ msgstr "Загрузить тайл слоя"
 #. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr "Загрузить тайл основной карты (Ins+MLeft)"
+
+#. frmUpdateChecker..lblProgressInfo..Caption
+msgid "Download progress:"
+msgstr "Состояние загрузки:"
 
 #. frmProgressDownload..SaveSessionDialog..Filter
 msgid "Download session (*.sls)|*.sls"
@@ -1384,6 +1415,10 @@ msgstr ""
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
 msgstr "Ввод параметров"
+
+#. Programmer's name for it: rsError
+msgid "Error"
+msgstr "Ошибка"
 
 #. Programmer's name for it: SAS_ERR_UrlScriptByteCodeLoad
 msgid "Error at script bytecode loading"
@@ -1781,6 +1816,10 @@ msgstr "Игнорировать метки"
 msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
+msgid "Image format:"
+msgstr "Формат:"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
 msgid "Image postprocessing"
 msgstr "Коррекция изображения"
@@ -1814,9 +1853,6 @@ msgstr "Движение по инерции"
 #. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
 msgstr "Информация"
-
-msgid "Initialization of LibPNG failed."
-msgstr "Ошибка инициализации LibPNG"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
 msgid "Interface"
@@ -1955,10 +1991,6 @@ msgstr "Длина"
 
 msgid "Length: %s"
 msgstr "Длина: %s"
-
-#. 64k
-msgid "LibPNG: Failed to Create PngStruct!"
-msgstr "LibPNG: Ошибка создания PngStruct!"
 
 #. frmAbout..pnlBottom..btnLicense..Caption
 msgid "License"
@@ -2240,6 +2272,11 @@ msgstr "Ночной режим (Инверсия цветов)"
 msgid "Night Mode (Color Inversion)"
 msgstr "Ночной режим (Инверсия цветов)"
 
+#. frmUpdateChecker..cbbChannel..Text
+#. frmUpdateChecker..cbbChannel....Items.Strings
+msgid "Nightly (testing)"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N000..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale0..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale0..Caption
@@ -2417,6 +2454,10 @@ msgstr "Конвертировать в формат"
 msgid "Output format:"
 msgstr "Результирующий формат:"
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+msgid "Overlay layer"
+msgstr "Наложить"
+
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frMapCombine..pnlMapSelect..pnlLayerFrame..lblLayerCaption..Caption
 msgid "Overlay layer:"
@@ -2550,12 +2591,18 @@ msgstr "Метки"
 msgid "Play"
 msgstr "Воспроизвести"
 
+msgid "Please select at least one map or overlay layer"
+msgstr "Сначала необходимо выбрать хотя бы одну карту или слой"
+
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr "Сначала необходимо выделить хотя бы одну область"
 
 msgid "Please select at least one zoom"
 msgstr "Сначала необходимо выбрать хотя бы один зум"
+
+msgid "Please select map or layer"
+msgstr "Сначала необходимо выбрать карту или слой"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
@@ -2569,6 +2616,18 @@ msgstr "Пожалуйста, подождите..."
 
 msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
+
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+msgid "PNG (Indexed Colors)"
+msgstr ""
+
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+msgid "PNG (TrueColor + Alpha)"
+msgstr ""
+
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+msgid "PNG (TrueColor)"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
@@ -2679,6 +2738,7 @@ msgstr "Использовать логин:"
 msgid "Proxy password:"
 msgstr "и пароль:"
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 msgid "Quality (for JPEG):"
 msgstr "Качество (для JPEG):"
@@ -2748,6 +2808,10 @@ msgstr "Период обновления (мс):"
 #. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Относительный путь к тайлам"
+
+#. frmUpdateChecker..cbbChannel....Items.Strings
+msgid "Release (stable)"
+msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkRemove..Caption
 msgid "Remove tiles"
@@ -2838,6 +2902,7 @@ msgstr "Проложить маршрут"
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType..Text
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+#. frmUpdateChecker..Caption
 #. Programmer's name for it: SAS_STR_ApplicationTitle
 msgid "SAS.Planet"
 msgstr "SAS.Планета"
@@ -2960,6 +3025,10 @@ msgstr "Поиск"
 #. frmMain..TBDockLeft..TBSearchWindow..Caption
 msgid "Search Results"
 msgstr "Результаты поиска"
+
+#. Programmer's name for it: rsSearchAvailableVersionInfo
+msgid "searching"
+msgstr "поиск"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
 msgid "Select by Placemark"
@@ -3638,6 +3707,7 @@ msgstr "Брать настройки подключения из реестра
 msgid "Use tile from lower zoom if tile not available"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
@@ -3731,6 +3801,10 @@ msgstr "Да"
 #. Programmer's name for it: SAS_ERR_MainMapNotExists
 msgid "You need at least one MAP among your ZMP files"
 msgstr "Среди ZMP должна быть хотя бы одна карта"
+
+#. frmUpdateChecker..lblCurVer..Caption
+msgid "Your version:"
+msgstr "Ваша версия:"
 
 msgid "yournavigation.org (OSM)"
 msgstr "средствами yournavigation.org (OSM)"
