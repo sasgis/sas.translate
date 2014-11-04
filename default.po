@@ -6,25 +6,13 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-12-28 16:17\n"
-"PO-Revision-Date: 2013-12-28 16:17\n"
+"POT-Creation-Date: 2014-11-04 14:47\n"
+"PO-Revision-Date: 2014-11-04 14:47\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: dxgettext 1.2.2\n"
-
-msgid "Show Logo on startup"
-msgstr ""
-
-msgid "Delete hidden placemarks"
-msgstr ""
-
-msgid "Polygons"
-msgstr ""
-
-msgid "Paths"
-msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -327,7 +315,7 @@ msgstr ""
 msgid "Add Category"
 msgstr ""
 
-#. frmMapTypeEdit..pnlSeparator..CheckBox1..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlSeparator..chkBoxSeparator..Caption
 msgid "Add menu separator line after this map"
 msgstr ""
 
@@ -396,8 +384,12 @@ msgstr ""
 msgid "Add Track to Database"
 msgstr ""
 
-#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
+#. frMapCombine..pnlBottom..pnlOptions..chkUseMapGrids..Caption
+msgid "Add visible grids"
+msgstr ""
+
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
+#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
 msgstr ""
 
@@ -412,9 +404,9 @@ msgstr ""
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
+#. frZoomsSelect..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
-#. frZoomsSelect..chkAllZooms..Caption
 msgid "All"
 msgstr ""
 
@@ -423,6 +415,9 @@ msgstr ""
 
 #. frmMapTypeEdit..pnlBottomButtons..btnByDefault..Caption
 msgid "All by default"
+msgstr ""
+
+msgid "All compatible formats"
 msgstr ""
 
 #. frmMarksExplorer..OpenDialog1....Filter
@@ -450,6 +445,10 @@ msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkALLServices..Caption
 msgid "All Services"
+msgstr ""
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
+msgid "All Visible"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT....Hint
@@ -489,8 +488,17 @@ msgid "Are you sure you want to delete category with name "
 "\"%0:s\"?"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
+msgid "Are you sure you want to delete Marks in selected "
+"region?"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
 msgid "Are you sure you want to delete path with name "
+"\"%0:s\"?"
+msgstr ""
+
+msgid "Are you sure you want to delete placemark of unknown type with name "
 "\"%0:s\"?"
 msgstr ""
 
@@ -553,16 +561,20 @@ msgstr ""
 msgid "Auto show/hide sensors toolbar"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSAutodetectCOM..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..Caption
+msgid "Autodetect"
+msgstr ""
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
 msgid "Autodetect COM port"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Hint
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Hint
 msgid "Autodetect COM port on connect"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOnConnect..Caption
-msgid "Autodetect:"
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
+msgid "Autodetect on conntect"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
@@ -590,6 +602,7 @@ msgstr ""
 msgid "Average speed, km/h:"
 msgstr ""
 
+#. frmPointProjecting..pnlAzimuth..lblAzimuth..Caption
 #. Programmer's name for it: SAS_STR_Azimuth
 msgid "Azimuth"
 msgstr ""
@@ -614,23 +627,15 @@ msgstr ""
 msgid "Battery:"
 msgstr ""
 
-#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
-#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 msgid "BerkeleyDB (Versioned)"
 msgstr ""
 
-#. frmSettings..PageControl1..tsCache..grdpnlCache..lblBDBVerCachePath..Caption
-msgid "BerkeleyDB (Versioned) cache folder:"
-msgstr ""
-
-#. frmSettings..PageControl1..tsCache..grdpnlCache..lblBDBCachePath..Caption
-msgid "BerkeleyDB cache folder:"
-msgstr ""
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..Label65..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
 msgstr ""
@@ -672,15 +677,15 @@ msgstr ""
 msgid "By Coordinates"
 msgstr ""
 
-#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
-#. frmMapTypeEdit..pnlCacheType..btnResetCacheType..Hint
-#. frmMapTypeEdit..pnlParentItem..btnResetSubMenu..Hint
-#. frmMapTypeEdit..pnlCacheName..btnResetFolder..Hint
-#. frmMapTypeEdit..pnlUrl..pnlUrlRight..btnResetUrl..Hint
-#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..btnResetHotKey..Hint
-#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..btnResetPause..Hint
-#. frmMapTypeEdit..pnlVersion..btnResetVersion..Hint
-#. frmMapTypeEdit..pnlHeader..pnlHeaderReset..btnResetHeader..Hint
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheName..btnResetFolder..Hint
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..btnResetCacheType..Hint
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlHeader..pnlHeaderReset..btnResetHeader..Hint
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlParentItem..btnResetSubMenu..Hint
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlUrl..pnlUrlRight..btnResetUrl..Hint
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlVersion..btnResetVersion..Hint
+#. frmMapTypeEdit..PageControl1..tsMaps..grdpnlSleepAndKey..grdpnlHotKey..btnResetHotKey..Hint
+#. frmMapTypeEdit..PageControl1..tsMaps..grdpnlSleepAndKey..grdpnlSleep..btnResetPause..Hint
 msgid "By default"
 msgstr ""
 
@@ -705,7 +710,7 @@ msgid "Cache converter aborted with error: Content-Type mismatch!\n"
 "Destination: %s"
 msgstr ""
 
-#. frmMapTypeEdit..pnlCacheName..lblFolder..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheName..lblFolder..Caption
 msgid "Cache folder"
 msgstr ""
 
@@ -718,7 +723,7 @@ msgstr ""
 msgid "Cache Manager"
 msgstr ""
 
-#. frmMapTypeEdit..pnlCacheType..lblCacheType..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..lblCacheType..Caption
 msgid "Cache type"
 msgstr ""
 
@@ -750,11 +755,12 @@ msgstr ""
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMapLayersOptions..btnCancel..Hint
 #. frmMapLayersOptions..btnCancel..Caption
-#. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmImportConfigEdit..pnlBottom..btnCancel..Caption
+#. frmJpegImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Hint
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPath..pnlBottomButtons..btnCancel..Hint
@@ -766,10 +772,6 @@ msgstr ""
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 msgid "Cancel"
-msgstr ""
-
-#. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Cancelled
-msgid "Cancelled"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
@@ -806,6 +808,10 @@ msgstr ""
 
 #. Programmer's name for it: rsCantUseOldPoolRecord
 msgid "Can't use old pool record!"
+msgstr ""
+
+#. frJpegImportOptions..grpPoint..Caption
+msgid "Caption parameters"
 msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox3..Caption
@@ -876,6 +882,10 @@ msgstr ""
 msgid "Color:"
 msgstr ""
 
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType....Items.Strings
+msgid "COM"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
 msgstr ""
@@ -891,11 +901,6 @@ msgstr ""
 
 #. frmAbout..lblCompiler..Caption
 msgid "Compiler:"
-msgstr ""
-
-#. ExportDialog
-msgid "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup "
-"Language (kml)|*.kml"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
@@ -1068,15 +1073,15 @@ msgid "Data truncation occured because of external tile storage "
 "misconfiguration"
 msgstr ""
 
-#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
-#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 msgid "DBMS"
 msgstr ""
 
-#. frmSettings..PageControl1..tsCache..grdpnlCache..lbDBMSCachePath..Caption
+#. frmSettings..PageControl1..tsCache..pnlDBMSPath..lbDBMSCachePath..Caption
 msgid "DBMS root:"
 msgstr ""
 
@@ -1084,7 +1089,7 @@ msgstr ""
 msgid "DD+RC"
 msgstr ""
 
-#. frmSettings..PageControl1..tsCache..grdpnlCache..Label37..Caption
+#. frmSettings..PageControl1..tsCache..pnlDefCache..lbl..Caption
 msgid "Default cache type"
 msgstr ""
 
@@ -1100,7 +1105,7 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+#. frDeleteTiles..rgTarget....Items.Strings
 msgid "Delete both"
 msgstr ""
 
@@ -1108,11 +1113,15 @@ msgstr ""
 msgid "Delete Category"
 msgstr ""
 
-#. frTilesDelete..pnlTop..Caption
-msgid "Delete map tiles"
+#. frDeleteTiles..rgTarget....Items.Strings
+msgid "Delete empty tiles"
 msgstr ""
 
-#. frTilesDelete..pnlBottom..pnlCenter..flwpnlDelBySize..lblDelSize..Caption
+#. frDeleteMarks..chkDelHidden..Caption
+msgid "Delete hidden placemarks"
+msgstr ""
+
+#. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
 msgid "Delete only tiles of size, bytes:"
 msgstr ""
 
@@ -1136,15 +1145,15 @@ msgstr ""
 msgid "Delete selected placemark"
 msgstr ""
 
-#. frTilesDelete..pnlBottom..pnlCenter..rgTarget..Caption
+#. frDeleteTiles..rgTarget..Caption
 msgid "Delete target"
 msgstr ""
 
-#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+#. frDeleteTiles..rgTarget....Items.Strings
 msgid "Delete tiles"
 msgstr ""
 
-#. frTilesDelete..pnlBottom..pnlCenter..rgTarget....Items.Strings
+#. frDeleteTiles..rgTarget....Items.Strings
 msgid "Delete tne"
 msgstr ""
 
@@ -1202,6 +1211,7 @@ msgstr ""
 msgid "Disable or enable GPS"
 msgstr ""
 
+#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..tbitmFillingMapAsMain..Caption
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
 msgid "Displayed Main Map"
 msgstr ""
@@ -1232,6 +1242,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointCaption
 msgid "Distance to placemark:"
+msgstr ""
+
+#. frmPointProjecting..pnlDist..lblDist..Caption
+msgid "Distance, km"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1Caption
@@ -1271,7 +1285,7 @@ msgid "Download completed successfully. You can update the program manually "
 "from file: %s"
 msgstr ""
 
-#. frmMapTypeEdit..pnlSeparator..chkDownloadEnabled..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlSeparator..chkDownloadEnabled..Caption
 msgid "Download enabled"
 msgstr ""
 
@@ -1305,7 +1319,7 @@ msgstr ""
 msgid "Download session (*.sls)|*.sls"
 msgstr ""
 
-#. frmMapTypeEdit..pnlDownloaderState..lblDownloaderState..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlDownloaderState..lblDownloaderState..Caption
 msgid "Download state"
 msgstr ""
 
@@ -1329,20 +1343,12 @@ msgstr ""
 msgid "Downloading"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_LoadAttachmentsBegin
-msgid "Downloading attachments..."
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_LoadProcessRepl
 msgid "Downloading with overwrite..."
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_LoadProcess
 msgid "Downloading..."
-msgstr ""
-
-#. frmSettings..PageControl1..tsCache..grdpnlCache..Label1..Caption
-msgid "EarthSlicer cache folder:"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkEdit..Caption
@@ -1392,6 +1398,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_EmptyServerResponse
 msgid "Empty server response"
+msgstr ""
+
+msgid "Empty tile samples do not exist for this "
+"map"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_EmptyZMPFileName
@@ -1509,10 +1519,6 @@ msgstr ""
 msgid "External tile storage is readonly"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Failed
-msgid "Failed"
-msgstr ""
-
 #. Programmer's name for it: SAS_ERR_ETS_FailToSaveTile
 msgid "Failed to save to external tile storage: error "
 msgstr ""
@@ -1567,8 +1573,9 @@ msgid "Fit to screen"
 msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
-#. frmProgressSimple..SpeedButton_fit..Hint
-#. frmRegionProcess..pnlBottomButtons..SpeedButton_fit..Hint
+#. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmZoom..Hint
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr ""
 
@@ -1582,6 +1589,7 @@ msgstr ""
 msgid "Font"
 msgstr ""
 
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
@@ -1608,7 +1616,8 @@ msgstr ""
 msgid "From zoom:"
 msgstr ""
 
-#. frSearchResultsItem..PanelFullDesc..LabelFullDesc..Caption
+#. frSearchResultsItem..PanelFullDescImg..LabelFullDescImg..Caption
+#. frSearchResultsItem..PanelFullDescShort..LabelFullDescShort..Caption
 msgid "Full Description"
 msgstr ""
 
@@ -1660,10 +1669,6 @@ msgstr ""
 msgid "GenShtab Maps Boundaries"
 msgstr ""
 
-#. frmSettings..PageControl1..tsCache..grdpnlCache..lbGCCachePath..Caption
-msgid "GeoCacher root folder:"
-msgstr ""
-
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Geographic"
@@ -1673,16 +1678,16 @@ msgstr ""
 msgid "Get Locaton from GSM (Google Query)"
 msgstr ""
 
-#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
-#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-msgid "GlobalMapper Tiles"
+#. frmMapTypeEdit..PageControl1..tsGetURLScript..Caption
+msgid "GetURLScript.txt"
 msgstr ""
 
-#. frmSettings..PageControl1..tsCache..grdpnlCache..Label19..Caption
-msgid "GlobalMapper Tiles (GMT) cache folder:"
+#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
+#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+msgid "GlobalMapper Tiles"
 msgstr ""
 
 #. frmGoTo..pnlBottomButtons..btnGoTo..Caption
@@ -1699,14 +1704,6 @@ msgstr ""
 msgid "Go to..."
 msgstr ""
 
-#. frmSettings..PageControl1..tsCache..grdpnlCache..Label31..Caption
-msgid "GoogleEarth cache folder:"
-msgstr ""
-
-#. frmSettings..PageControl1..tsCache..grdpnlCache..Label2..Caption
-msgid "GoogleMV cache folder:"
-msgstr ""
-
 #. frmSettings..PageControl1..tsGPSMarker..Caption
 msgid "GPS Marker"
 msgstr ""
@@ -1720,6 +1717,10 @@ msgid "GPS origin misconfiguration: unknown mode "
 "%d"
 msgstr ""
 
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType..Caption
+msgid "GPS type"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
 msgstr ""
@@ -1728,11 +1729,15 @@ msgstr ""
 msgid "Grids"
 msgstr ""
 
+#. Programmer's name for it: rsCmdLineArgProcessorGUIDParserError
+msgid "GUIDParserError"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_Ha
 msgid "ha"
 msgstr ""
 
-#. frmMapTypeEdit..pnlHeader..lblHeader..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlHeader..lblHeader..Caption
 msgid "Header"
 msgstr ""
 
@@ -1744,15 +1749,16 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
+#. frmMain..TBDock..SrcToolbar..TBLayerSel..btnHideAll..Caption
+msgid "Hide All"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Hint
 msgid "Hide all placemarks"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Caption
 msgid "Hide All Placemarks"
-msgstr ""
-
-msgid "Hide All"
 msgstr ""
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
@@ -1775,7 +1781,7 @@ msgstr ""
 
 #. frMapsList..MapList......Caption
 #. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
-#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlHotKey..lblHotKey..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..grdpnlSleepAndKey..grdpnlHotKey..lblHotKey..Caption
 msgid "Hotkey"
 msgstr ""
 
@@ -1798,9 +1804,17 @@ msgstr ""
 msgid "Icon"
 msgstr ""
 
+#. frJpegImportOptions..grp1..Caption
+msgid "Icon parameters"
+msgstr ""
+
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
+msgstr ""
+
+#. frJpegImportOptions..grp1..lblPointIconSize..Caption
+msgid "Icon size:"
 msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkIgnoreTNE..Caption
@@ -1841,6 +1855,10 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
+msgid "Import finished. Total processed: %d files. Successfull imported: %d "
+"files."
+msgstr ""
+
 #. frmImportConfigEdit..Caption
 msgid "Import Parameters"
 msgstr ""
@@ -1857,8 +1875,17 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
+#. frmMapTypeEdit..PageControl1..tsInfo..Caption
+msgid "Info.txt"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
 msgid "Interface"
+msgstr ""
+
+#. Programmer's name for it: SInterfaceIsNilError
+#. Programmer's name for it: SInterfaceIsNilError
+msgid "Interface is nil"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
@@ -1903,6 +1930,10 @@ msgstr ""
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LVersion..Caption
 msgid "JNX version:"
+msgstr ""
+
+#. frmJpegImportConfigEdit..Caption
+msgid "Jpeg Import Parameters"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_kb
@@ -1984,6 +2015,14 @@ msgstr ""
 msgid "Layers (%d)"
 msgstr ""
 
+#. frmUpdateChecker..lblCurVerValue..Caption
+msgid "lblCurVerValue"
+msgstr ""
+
+#. frmUpdateChecker..lblNewVerValue..Caption
+msgid "lblNewVerValue"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_L
 msgid "Length"
 msgstr ""
@@ -1998,6 +2037,21 @@ msgstr ""
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLine..Caption
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
 msgid "Line:"
+msgstr ""
+
+#. Programmer's name for it: SListCapacityError
+#. Programmer's name for it: SListCapacityError
+msgid "List capacity out of bounds (%d)"
+msgstr ""
+
+#. Programmer's name for it: SListCountError
+#. Programmer's name for it: SListCountError
+msgid "List count out of bounds (%d)"
+msgstr ""
+
+#. Programmer's name for it: SListIndexError
+#. Programmer's name for it: SListIndexError
+msgid "List index out of bounds (%d)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBLoadSelFromFile..Caption
@@ -2028,6 +2082,14 @@ msgstr ""
 
 #. frLonLat..grdpnlLonLat..lblLon..Caption
 msgid "Longitude:"
+msgstr ""
+
+#. Programmer's name for it: rsCmdLineArgProcessorLonLatOutOfBounds
+msgid "LonLatOutOfBounds"
+msgstr ""
+
+#. Programmer's name for it: rsCmdLineArgProcessorLonLatParserError
+msgid "LonLatParserError"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkLowResolutionToo..Caption
@@ -2077,18 +2139,19 @@ msgstr ""
 msgid "Manage Selection"
 msgstr ""
 
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..Caption
+#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportToJNX..PageControl1..Map..Caption
+#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
-#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
-#. frExportToJNX..PageControl1..Map..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
 msgstr ""
 
-#. frmMapTypeEdit..pnlSeparator..CheckEnabled..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlSeparator..CheckEnabled..Caption
 msgid "Map enabled"
 msgstr ""
 
@@ -2097,8 +2160,8 @@ msgid "Map Info"
 msgstr ""
 
 #. frMapsList..MapList......Caption
-#. frExportToCE..pnlCenter..pnlMain..CMapName..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..LMapName..Caption
+#. frExportToCE..pnlCenter..pnlMain..CMapName..Caption
 msgid "Map Name"
 msgstr ""
 
@@ -2117,12 +2180,12 @@ msgstr ""
 msgid "Map Storage Info"
 msgstr ""
 
+#. frMapCombine..pnlMapSelect..pnlMapFrame..lblMapCaption..Caption
+#. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
-#. frMapCombine..pnlMapSelect..pnlMapFrame..lblMapCaption..Caption
-#. frTilesDelete..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 msgid "Map:"
 msgstr ""
@@ -2235,10 +2298,6 @@ msgstr ""
 msgid "Name: %s"
 msgstr ""
 
-#. frmSettings..PageControl1..tsCache..grdpnlCache..Label15..Caption
-msgid "Native cache folder:"
-msgstr ""
-
 #. frmMain..MainPopupMenu..NMarkNav..Caption
 msgid "Navigate to Placemark"
 msgstr ""
@@ -2249,6 +2308,10 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbitmNavigationArrow..Caption
 msgid "Navigation Arrow"
+msgstr ""
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
+msgid "Network operations timeout, ms"
 msgstr ""
 
 #. frMarkCategorySelectOrAdd..CBKateg..Text
@@ -2283,10 +2346,6 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Nothing
-msgid "No attachments"
-msgstr ""
-
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
 msgid "No GPS receiver found"
 msgstr ""
@@ -2310,6 +2369,9 @@ msgstr ""
 msgid "Nothing found on current map."
 msgstr ""
 
+msgid "Nothing to import!"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingsCount..Caption
 msgid "Number of rings"
 msgstr ""
@@ -2325,6 +2387,10 @@ msgstr ""
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
 #. Programmer's name for it: rsNumbersFormat
 msgid "Numbers Format"
+msgstr ""
+
+#. Programmer's name for it: SObjectIsNilError
+msgid "Object is nil"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1MenuItemName
@@ -2391,6 +2457,8 @@ msgstr ""
 msgid "Opacity"
 msgstr ""
 
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextTransp..Caption
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowAlfa..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextTransp..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowAlfa..Caption
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineTransp..Caption
@@ -2437,7 +2505,7 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_GPSAutodetectCOMOthers..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..CB_GPSAutodetectCOMOthers..Caption
 msgid "Others"
 msgstr ""
 
@@ -2457,8 +2525,8 @@ msgstr ""
 msgid "Overlay layer"
 msgstr ""
 
-#. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frMapCombine..pnlMapSelect..pnlLayerFrame..lblLayerCaption..Caption
+#. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 msgid "Overlay layer:"
 msgstr ""
 
@@ -2487,7 +2555,11 @@ msgstr ""
 msgid "Parameter"
 msgstr ""
 
-#. frmMapTypeEdit..pnlParentItem..lblSubMenu..Caption
+#. frmMapTypeEdit..PageControl1..tsParams..Caption
+msgid "Params.txt"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
 msgstr ""
 
@@ -2515,8 +2587,13 @@ msgstr ""
 msgid "Pathname to Tile in Cache"
 msgstr ""
 
-#. frmMapTypeEdit..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
+#. frmSettings..PageControl1..tsPaths..Caption
+#. frDeleteMarks..PnlTop..chkPaths..Caption
+msgid "Paths"
+msgstr ""
+
 #. frmProgressCacheConverter..pnlBottom..btnPause..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
@@ -2539,6 +2616,10 @@ msgstr ""
 
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Pixel"
+msgstr ""
+
+#. frmPointProjecting..rgSourcePointType....Items.Strings
+msgid "Placemark"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_NewMark
@@ -2579,15 +2660,21 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
 #. frmMain..TBDock..TBXMainMenu..NMarks..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
+#. frDelete..PageControl1..tsMarks..Caption
+#. frDeleteMarks..PnlTop..chkPlacemarks..Caption
 msgid "Placemarks"
 msgstr ""
 
 #. frmGoTo..pgcSearchType..tsPlaceMarks..Caption
+#. Programmer's name for it: SAS_STR_PlaceMarks
 msgid "PlaceMarks"
 msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
+msgstr ""
+
+msgid "Please select at least one map"
 msgstr ""
 
 msgid "Please select at least one map or overlay "
@@ -2601,6 +2688,9 @@ msgstr ""
 msgid "Please select at least one zoom"
 msgstr ""
 
+msgid "Please select at one placemark type"
+msgstr ""
+
 msgid "Please select map or layer"
 msgstr ""
 
@@ -2609,8 +2699,8 @@ msgid "Please wait, download in progress..."
 msgstr ""
 
 #. frmProgressCacheConverter..Caption
-#. frmProgressDownload..Caption
 #. frmProgressSimple..Caption
+#. frmProgressDownload..Caption
 msgid "Please wait..."
 msgstr ""
 
@@ -2646,6 +2736,10 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBREGION..Caption
 msgid "Polygonal Selection"
+msgstr ""
+
+#. frDeleteMarks..PnlTop..chkPolygons..Caption
+msgid "Polygons"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPolylineSelect..Caption
@@ -2708,6 +2802,18 @@ msgstr ""
 msgid "Product Name"
 msgstr ""
 
+#. frmPointProjecting..pnlBottom..btnCreatePoint..Caption
+msgid "Project"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..tbitmPointProject..Caption
+msgid "Project Point"
+msgstr ""
+
+#. frmPointProjecting..Caption
+msgid "Projecting"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
 msgstr ""
@@ -2738,8 +2844,8 @@ msgstr ""
 msgid "Proxy password:"
 msgstr ""
 
-#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 msgid "Quality (for JPEG):"
 msgstr ""
 
@@ -2763,8 +2869,8 @@ msgstr ""
 msgid "Radius"
 msgstr ""
 
-#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
-#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
 msgid "RAM"
 msgstr ""
 
@@ -2889,16 +2995,16 @@ msgstr ""
 
 #. frmAbout..lblProgramName..Caption
 #. frmMain..Caption
-#. frmMapTypeEdit..pnlCacheType..CBCacheType....Items.Strings
-#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType..Text
-#. frmSettings..PageControl1..tsCache..grdpnlCache..CBCacheType....Items.Strings
+#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType..Text
+#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes..Text
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
-#. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType..Text
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
+#. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
+#. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmUpdateChecker..Caption
 #. Programmer's name for it: SAS_STR_ApplicationTitle
 msgid "SAS.Planet"
@@ -2911,6 +3017,10 @@ msgstr ""
 #. Programmer's name for it: SAS_MSG_need_reload_application_curln
 msgid "SAS.Planet must be restarted for the changes to take "
 "effect"
+msgstr ""
+
+#. Programmer's name for it: rsCmdLineArgProcessorSASExceptionRaised
+msgid "SASExceptionRaised"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
@@ -2944,15 +3054,11 @@ msgstr ""
 msgid "Satellites not in range"
 msgstr ""
 
-#. frmProgressDownload..Panel1..pnlBottom..btnSave..Caption
-msgid "Save"
-msgstr ""
-
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
 msgid "Save as new"
 msgstr ""
 
-#. frmProgressDownload..Panel1..pnlBottom..btnSave..Hint
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..Hint
 msgid "Save current session"
 msgstr ""
 
@@ -2976,22 +3082,22 @@ msgstr ""
 msgid "Save recovery information"
 msgstr ""
 
-#. frmRegionProcess..pnlBottomButtons..SpeedButton1..Hint
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmMark..Hint
 msgid "Save selection info to file"
 msgstr ""
 
-#. frExportAUX..pnlTop..lblTargetFile..Caption
-#. frExportGEKml..pnlTop..lblTargetFile..Caption
-#. frExportIPhone..pnlTop..lblTargetPath..Caption
-#. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
-#. frExportToCE..pnlTop..lblTargetFile..Caption
-#. frExportToFileCont..pnlTop..lblTargetFile..Caption
-#. frExportToJNX..pnlTop..lblTargetFile..Caption
-#. frExportToOgf2..pnlTop..lblTargetFile..Caption
-#. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
-#. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
 #. frTilesCopy..pnlTop..lblTargetPath..Caption
+#. frExportToFileCont..pnlTop..lblTargetFile..Caption
+#. frExportAUX..pnlTop..lblTargetFile..Caption
+#. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportToJNX..pnlTop..lblTargetFile..Caption
+#. frExportGEKml..pnlTop..lblTargetFile..Caption
+#. frExportToOgf2..pnlTop..lblTargetFile..Caption
+#. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
+#. frExportToCE..pnlTop..lblTargetFile..Caption
+#. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
+#. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
 msgstr ""
 
@@ -3007,6 +3113,10 @@ msgstr ""
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
 #. Programmer's name for it: rsScience
 msgid "Science"
+msgstr ""
+
+#. frmPointProjecting..rgSourcePointType....Items.Strings
+msgid "Screen center"
 msgstr ""
 
 #. frmGoTo..pgcSearchType..tsSearch..Caption
@@ -3054,6 +3164,11 @@ msgstr ""
 msgid "Selected basemap"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_DeleteSubCategoryAsk
+msgid "Selected category \"%0:s\" contain %d sub categories. Are you realy "
+"want to delete all of them?"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ImageIsTooBig
 msgid "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
@@ -3073,8 +3188,9 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
 #. frmMain..MainPopupMenu..NMarkOper..Caption
-#. frmProgressSimple..SpeedButton_selmanager..Hint
+#. frmProgressSimple..TBXOperationsToolbar..tbtmSelect..Hint
 #. frmRegionProcess..Caption
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSelect..Hint
 msgid "Selection Manager"
 msgstr ""
 
@@ -3088,7 +3204,7 @@ msgstr ""
 msgid "Sensors"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..Label4..Caption
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
 msgid "Serial port"
 msgstr ""
@@ -3102,8 +3218,8 @@ msgstr ""
 msgid "Server returned unexpected type \"%0:s\""
 msgstr ""
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
-msgid "Server timeout, ms"
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
+msgid "Set all marks in all categories visible"
 msgstr ""
 
 #. frmMarkCategoryEdit..pnlBottomButtons..btnSetAsTemplate..Hint
@@ -3126,6 +3242,7 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
 msgid "Shadow color"
@@ -3137,6 +3254,11 @@ msgstr ""
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show all placemarks"
+msgstr ""
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelShowAzimuth..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelShowAzimuth..Hint
+msgid "Show azimuth"
 msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarDownloadInfo..Caption
@@ -3170,6 +3292,10 @@ msgstr ""
 msgid "Show GPS Track"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkShowLogo..Caption
+msgid "Show Logo on startup"
+msgstr ""
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarLonLatInfo..Caption
 #. Programmer's name for it: rsShowLonLatInfo
 msgid "Show LonLat Info"
@@ -3189,6 +3315,11 @@ msgstr ""
 #. frmMarkEditPoint..chkVisible..Caption
 #. frmMarkEditPoly..chkVisible..Caption
 msgid "Show on map"
+msgstr ""
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Hint
+msgid "Show only final distance"
 msgstr ""
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
@@ -3237,8 +3368,12 @@ msgstr ""
 msgid "Show Zoom Info"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabel..Hint
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..Hint
 msgid "Show/Hide Captions"
+msgstr ""
+
+#. Programmer's name for it: rsCmdLineArgProcessorShowMarksParserError
+msgid "ShowMarksParserError"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedDescription
@@ -3289,6 +3424,14 @@ msgstr ""
 msgid "Shows Satellite Signal Strength bars"
 msgstr ""
 
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeDescription
+msgid "Shows Sunraise time for current position"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeDescription
+msgid "Shows Sunset time for current position"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingDescription
 msgid "Shows the course"
 msgstr ""
@@ -3318,16 +3461,20 @@ msgstr ""
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr ""
 
-#. Programmer's name for it: SAS_STR_LoadAttachmentsEnd_Skipped
-msgid "Skipped"
-msgstr ""
-
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
 msgstr ""
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnl1..lbl1..Caption
+msgid "Sleep on reset connection, ms"
+msgstr ""
+
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
 msgid "Source Cache"
+msgstr ""
+
+#. frmPointProjecting..rgSourcePointType..Caption
+msgid "Source point type"
 msgstr ""
 
 #. frmMain..TBDock..SrcToolbar..Caption
@@ -3369,6 +3516,7 @@ msgstr ""
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
+#. frmJpegImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
 #. frmRegionProcess..pnlBottomButtons..Button1..Caption
 msgid "Start"
@@ -3403,8 +3551,27 @@ msgstr ""
 msgid "Store info about not found tiles"
 msgstr ""
 
-#. frmRegionProcess..pnlBottomButtons..SpeedButton_mkMark..Hint
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmSave..Hint
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmMark..Hint
 msgid "Store selection as Poligon"
+msgstr ""
+
+#. Sunraise time
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeMenuItemName
+msgid "Sunraise time"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeCaption
+msgid "Sunraise time:"
+msgstr ""
+
+#. Sunset time
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeMenuItemName
+msgid "Sunset time"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
+msgid "Sunset time:"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
@@ -3417,6 +3584,7 @@ msgstr ""
 msgid "Task"
 msgstr ""
 
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
@@ -3510,6 +3678,7 @@ msgstr ""
 msgid "Tile Size"
 msgstr ""
 
+#. frDelete..PageControl1..tsTiles..Caption
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
 msgstr ""
@@ -3592,6 +3761,14 @@ msgstr ""
 msgid "Unknown error during download"
 msgstr ""
 
+#. Programmer's name for it: rsCmdLineArgProcessorUnknownError
+msgid "UnknownError: %s"
+msgstr ""
+
+#. Programmer's name for it: rsCmdLineArgProcessorUnknownGUID
+msgid "UnknownGUID"
+msgstr ""
+
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 msgid "Up"
@@ -3649,31 +3826,16 @@ msgstr ""
 msgid "Use Deleted: Object is not exists!"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_FlyOnTrack..Hint
-msgid "Use Fly-on-Track mode (overrides ALL settings if "
-"checked)"
-msgstr ""
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_USBGarmin..Hint
-msgid "Use Garmin via USB (overrides COM settings if "
-"checked)"
-msgstr ""
-
 #. frmMain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
 msgid "Use Layers from Lower Zooms"
-msgstr ""
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..CB_LocationAPI..Hint
-msgid "Use Location API (overrides PREV settings if "
-"checked)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..Nbackload..Caption
 msgid "Use Maps from Lower Zooms"
 msgstr ""
 
-#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
+#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
 msgstr ""
 
@@ -3689,19 +3851,27 @@ msgstr ""
 msgid "Use system proxy settings"
 msgstr ""
 
+#. frJpegImportOptions..grp1..chk1..Caption
+msgid "Use thumbnail as Icon"
+msgstr ""
+
 #. frTilesGenPrev..pnlBottom..pnlCenter..pnlUsePrevTiles..chkUsePrevTiles..Caption
 msgid "Use tile from lower zoom if tile not "
 "available"
 msgstr ""
 
-#. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible "
 "tile)"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
+msgstr ""
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnl1..lbl2..Caption
+msgid "User-Agent:"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
@@ -3722,7 +3892,7 @@ msgid "Value"
 msgstr ""
 
 #. frmMain..MainPopupMenu..tbpmiVersions..Caption
-#. frmMapTypeEdit..pnlVersion..lblVersion..Caption
+#. frmMapTypeEdit..PageControl1..tsMaps..pnlVersion..lblVersion..Caption
 msgid "Version"
 msgstr ""
 
@@ -3828,17 +3998,24 @@ msgstr ""
 msgid "Zoom to Cursor"
 msgstr ""
 
-#. frmGoTo..pnlBottomButtons..lblZoom..Caption
+#. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
+#. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption
+#. frTilesDownload..pnlMapSelect..pnlZoom..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlZoom..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
-#. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
-#. frTilesDelete..pnlMapSelect..pnlZoom..Labelzoom..Caption
-#. frTilesDownload..pnlMapSelect..pnlZoom..lblZoom..Caption
 msgid "Zoom:"
 msgstr ""
 
-#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
+#. Programmer's name for it: rsCmdLineArgProcessorZoomOutOfBounds
+msgid "ZoomOutOfBounds"
+msgstr ""
+
+#. Programmer's name for it: rsCmdLineArgProcessorZoomParserError
+msgid "ZoomParserError"
+msgstr ""
+
 #. frZoomsSelect..lblZooms..Caption
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
 msgid "Zooms:"
 msgstr ""
 
