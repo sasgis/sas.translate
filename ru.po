@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2014-12-03 19:24\n"
-"PO-Revision-Date: 2014-12-03 19:31+0300\n"
+"POT-Creation-Date: 2014-12-12 20:29\n"
+"PO-Revision-Date: 2014-12-12 20:34+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -2217,10 +2217,6 @@ msgstr "Параметры карты:"
 msgid "Map Storage Info"
 msgstr "Настройки хранилища"
 
-#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmnMapVer..Caption
-msgid "Map version"
-msgstr "Версия карты"
-
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
 #. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
@@ -2837,16 +2833,16 @@ msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул выключен - Невозможно получить db: %s"
 
 #. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..tbxprevmap..Caption
-msgid "Prev map with tile"
-msgstr ""
-
-#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmnMapVer..TBXPrevVer..Caption
-msgid "Prev version"
-msgstr "Предыдущая версия"
+msgid "Previous map with tile"
+msgstr "Предыдущая карта с тайлом"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
 msgid "Previous Selection"
 msgstr "Отображать последнее выделение"
+
+#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmnMapVer..TBXPrevVer..Caption
+msgid "Previous version"
+msgstr "Предыдущая версия"
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMainColor..Caption
 msgid "Primary color"
@@ -4010,6 +4006,10 @@ msgstr "Версия"
 msgid "Version:"
 msgstr "Версия:"
 
+#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmnMapVer..Caption
+msgid "Versions"
+msgstr "Версии"
+
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitVert..Caption
 msgid "vertically:"
 msgstr "по вертикали, на"
@@ -4132,6 +4132,9 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "Map version"
+#~ msgstr "Версия карты"
 
 #~ msgid "Cancelled"
 #~ msgstr "Отменено"
