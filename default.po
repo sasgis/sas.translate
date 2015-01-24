@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-12-12 20:29\n"
-"PO-Revision-Date: 2014-12-12 20:29\n"
+"POT-Creation-Date: 2015-01-24 15:40\n"
+"PO-Revision-Date: 2015-01-24 15:40\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -315,7 +315,7 @@ msgstr ""
 msgid "Add Category"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlSeparator..chkBoxSeparator..Caption
+#. frmMapTypeEdit..PageControl1..tsOthers..chkBoxSeparator..Caption
 msgid "Add menu separator line after this map"
 msgstr ""
 
@@ -622,6 +622,10 @@ msgstr ""
 msgid "Base Cache path"
 msgstr ""
 
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
+msgid "Base part of request URL:"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
 msgstr ""
@@ -632,7 +636,7 @@ msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 msgid "BerkeleyDB (Versioned)"
@@ -686,15 +690,15 @@ msgstr ""
 msgid "By Coordinates"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheName..btnResetFolder..Hint
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..btnResetCacheType..Hint
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlHeader..pnlHeaderReset..btnResetHeader..Hint
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlParentItem..btnResetSubMenu..Hint
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlUrl..pnlUrlRight..btnResetUrl..Hint
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlVersion..btnResetVersion..Hint
-#. frmMapTypeEdit..PageControl1..tsMaps..grdpnlSleepAndKey..grdpnlHotKey..btnResetHotKey..Hint
-#. frmMapTypeEdit..PageControl1..tsMaps..grdpnlSleepAndKey..grdpnlSleep..btnResetPause..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..pnlHeaderReset..btnResetHeader..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..pnlUrlRight..btnResetUrl..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..btnResetVersion..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..btnResetPause..Hint
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..btnResetFolder..Hint
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..btnResetCacheType..Hint
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..btnResetSubMenu..Hint
+#. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
 msgid "By default"
 msgstr ""
 
@@ -709,6 +713,10 @@ msgstr ""
 msgid "Cache"
 msgstr ""
 
+#. frmMapTypeEdit..PageControl1..tsOthers..Caption
+msgid "Cache and Other"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
 msgid "Cache conversion is finished!"
 msgstr ""
@@ -719,7 +727,7 @@ msgid "Cache converter aborted with error: Content-Type mismatch!\n"
 "Destination: %s"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheName..lblFolder..Caption
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..lblFolder..Caption
 msgid "Cache folder"
 msgstr ""
 
@@ -732,7 +740,7 @@ msgstr ""
 msgid "Cache Manager"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..lblCacheType..Caption
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..lblCacheType..Caption
 msgid "Cache type"
 msgstr ""
 
@@ -1077,6 +1085,10 @@ msgstr ""
 msgid "Current Zoom + 5"
 msgstr ""
 
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..lblHeader..Caption
+msgid "Custom HTTP Headers:"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ETS_DataTruncation
 msgid "Data truncation occured because of external tile storage "
 "misconfiguration"
@@ -1084,7 +1096,7 @@ msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 msgid "DBMS"
@@ -1294,8 +1306,12 @@ msgid "Download completed successfully. You can update the program manually "
 "from file: %s"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlSeparator..chkDownloadEnabled..Caption
+#. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
 msgid "Download enabled"
+msgstr ""
+
+#. download availability
+msgid "Download Enabled"
 msgstr ""
 
 msgid "Download error. Error code %d"
@@ -1328,8 +1344,8 @@ msgstr ""
 msgid "Download session (*.sls)|*.sls"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlDownloaderState..lblDownloaderState..Caption
-msgid "Download state"
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlDownloaderState..lblDownloaderState..Caption
+msgid "Download state:"
 msgstr ""
 
 #. frTilesDownload..pnlTop..Caption
@@ -1699,7 +1715,7 @@ msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 msgid "GlobalMapper Tiles"
@@ -1761,10 +1777,6 @@ msgstr ""
 msgid "ha"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlHeader..lblHeader..Caption
-msgid "Header"
-msgstr ""
-
 #. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarHeight..Caption
 msgid "Height:"
 msgstr ""
@@ -1803,7 +1815,7 @@ msgstr ""
 msgid "horizontally:"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..grdpnlSleepAndKey..grdpnlHotKey..lblHotKey..Caption
+#. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..lblHotKey..Caption
 #. frMapsList..MapList......Caption
 #. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
 msgid "Hotkey"
@@ -1923,6 +1935,7 @@ msgid "Interface to external tile storage not "
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
+#. frmMapTypeEdit..PageControl1..tsInternet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
 msgid "Internet"
 msgstr ""
@@ -2078,6 +2091,9 @@ msgstr ""
 msgid "List index out of bounds (%d)"
 msgstr ""
 
+msgid "Listings"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBLoadSelFromFile..Caption
 msgid "Load from File"
 msgstr ""
@@ -2163,7 +2179,6 @@ msgstr ""
 msgid "Manage Selection"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2175,7 +2190,7 @@ msgstr ""
 msgid "Map"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlSeparator..CheckEnabled..Caption
+#. frmMapTypeEdit..PageControl1..tsOthers..CheckEnabled..Caption
 msgid "Map enabled"
 msgstr ""
 
@@ -2202,6 +2217,10 @@ msgstr ""
 
 #. frmMain..MainPopupMenu..NMapStorageInfo..Caption
 msgid "Map Storage Info"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..lblVersion..Caption
+msgid "Map Version:"
 msgstr ""
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
@@ -2298,7 +2317,7 @@ msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 msgid "MobileAtlas"
@@ -2404,6 +2423,10 @@ msgstr ""
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile "
 "storage"
+msgstr ""
+
+#. check storage write access
+msgid "No write access to tile storage"
 msgstr ""
 
 msgid "Not found \"params.txt\" in zmp"
@@ -2606,7 +2629,7 @@ msgstr ""
 msgid "Params.txt"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlParentItem..lblSubMenu..Caption
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
 msgstr ""
 
@@ -2664,7 +2687,7 @@ msgid "Paths"
 msgstr ""
 
 #. frmProgressCacheConverter..pnlBottom..btnPause..Caption
-#. frmMapTypeEdit..PageControl1..tsMaps..grdpnlSleepAndKey..grdpnlSleep..lblPause..Caption
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
@@ -2948,7 +2971,7 @@ msgstr ""
 msgid "Radius"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
 #. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 msgid "RAM"
 msgstr ""
@@ -3076,7 +3099,7 @@ msgstr ""
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #. frmMain..Caption
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlCacheType..CBCacheType....Items.Strings
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType..Text
 #. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
@@ -3318,6 +3341,7 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frMapsList..pnlMapsRightButtons..Button15..Caption
+#. build menu
 msgid "Settings"
 msgstr ""
 
@@ -3971,7 +3995,6 @@ msgid "Value"
 msgstr ""
 
 #. frmMain..MainPopupMenu..tbpmiVersions..Caption
-#. frmMapTypeEdit..PageControl1..tsMaps..pnlVersion..lblVersion..Caption
 msgid "Version"
 msgstr ""
 
@@ -4053,6 +4076,10 @@ msgstr ""
 
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
+msgstr ""
+
+#. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
+msgid "ZMP:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
