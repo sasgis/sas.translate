@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-01-24 15:40\n"
-"PO-Revision-Date: 2015-01-24 15:49+0300\n"
+"POT-Creation-Date: 2015-01-27 21:07\n"
+"PO-Revision-Date: 2015-01-27 21:12+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -868,7 +868,6 @@ msgid "Close"
 msgstr "Закрыть"
 
 #. frmCacheManager..pnlBottomButtons..chkCloseWithStart..Caption
-#. frmRegionProcess..pnlBottomButtons..CBCloseWithStart..Caption
 msgid "Close this window after start"
 msgstr "Закрыть окно после старта"
 
@@ -1282,6 +1281,14 @@ msgstr "Одометр, км:"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistCaption
 msgid "Distance:"
 msgstr "Пройденный путь:"
+
+#. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+msgid "Do not close this window after start"
+msgstr "Не закрывать окно после старта"
+
+#. frmProgressSimple..TBXOperationsToolbar..tbtmDontClose..Hint
+msgid "Do not close this window when finish"
+msgstr "Не закрывать окно после завершения"
 
 #. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
