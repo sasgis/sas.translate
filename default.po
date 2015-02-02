@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-01-27 21:07\n"
-"PO-Revision-Date: 2015-01-27 21:07\n"
+"POT-Creation-Date: 2015-02-02 15:51\n"
+"PO-Revision-Date: 2015-02-02 15:51\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -388,6 +388,10 @@ msgstr ""
 msgid "Add visible grids"
 msgstr ""
 
+#. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
+msgid "Add visible layers"
+msgstr ""
+
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
@@ -634,11 +638,7 @@ msgstr ""
 msgid "Battery:"
 msgstr ""
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsBerkeleyDBVersionedCacheName
 msgid "BerkeleyDB (Versioned)"
 msgstr ""
 
@@ -695,7 +695,6 @@ msgstr ""
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..btnResetVersion..Hint
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..btnResetPause..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..btnResetFolder..Hint
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..btnResetCacheType..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..btnResetSubMenu..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
@@ -733,6 +732,10 @@ msgstr ""
 
 #. frMapsList..MapList......Caption
 msgid "Cache Folder"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsOthers..chkCacheReadOnly..Caption
+msgid "Cache is Read-Only"
 msgstr ""
 
 #. frmCacheManager..Caption
@@ -821,6 +824,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_CantSaveBitmapToTargetType
 msgid "Can't save bitmap to target type"
+msgstr ""
+
+msgid "Can't use in-memory tile storage as output "
+"format!"
 msgstr ""
 
 #. Programmer's name for it: rsCantUseOldPoolRecord
@@ -1093,11 +1100,7 @@ msgid "Data truncation occured because of external tile storage "
 "misconfiguration"
 msgstr ""
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsDBMSCacheName
 msgid "DBMS"
 msgstr ""
 
@@ -1704,6 +1707,10 @@ msgstr ""
 msgid "GenShtab Maps Boundaries"
 msgstr ""
 
+#. Programmer's name for it: rsGeoCacherCacheName
+msgid "GeoCacher"
+msgstr ""
+
 msgid "GeoCacher root folder:"
 msgstr ""
 
@@ -1720,11 +1727,11 @@ msgstr ""
 msgid "GetURLScript.txt"
 msgstr ""
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsGlobalMapperBingCacheName
+msgid "GlobalMapper Bing"
+msgstr ""
+
+#. Programmer's name for it: rsGlobalMapperCacheName
 msgid "GlobalMapper Tiles"
 msgstr ""
 
@@ -1743,6 +1750,10 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmGoToModal..Caption
 #. frmGoTo..Caption
 msgid "Go to..."
+msgstr ""
+
+#. Programmer's name for it: rsGoogleEarthCacheName
+msgid "GoogleEarth"
 msgstr ""
 
 msgid "GoogleEarth cache folder:"
@@ -2322,11 +2333,7 @@ msgid "Mobile Yandex.Maps (version 3.91 and "
 "above)"
 msgstr ""
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsMobileAtlasCacheName
 msgid "MobileAtlas"
 msgstr ""
 
@@ -2978,8 +2985,7 @@ msgstr ""
 msgid "Radius"
 msgstr ""
 
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsRAMCacheName
 msgid "RAM"
 msgstr ""
 
@@ -3102,20 +3108,13 @@ msgstr ""
 msgid "Route Calculation"
 msgstr ""
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes..Text
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #. frmMain..Caption
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType..Text
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmAbout..lblProgramName..Caption
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType..Text
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 #. frmUpdateChecker..Caption
 #. Programmer's name for it: SAS_STR_ApplicationTitle
+#. Programmer's name for it: rsSASPlanetCacheName
 msgid "SAS.Planet"
 msgstr ""
 

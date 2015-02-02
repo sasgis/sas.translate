@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-01-27 21:07\n"
-"PO-Revision-Date: 2015-01-27 21:12+0300\n"
+"POT-Creation-Date: 2015-02-02 15:51\n"
+"PO-Revision-Date: 2015-02-02 15:53+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -384,6 +384,10 @@ msgstr "Сохранить трек в базе"
 msgid "Add visible grids"
 msgstr "Накладывать отображаемые сетки"
 
+#. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
+msgid "Add visible layers"
+msgstr "Накладывать отображаемые слои"
+
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
@@ -635,11 +639,7 @@ msgstr "Батарея"
 msgid "Battery:"
 msgstr "Батарея:"
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsBerkeleyDBVersionedCacheName
 msgid "BerkeleyDB (Versioned)"
 msgstr "BerkeleyDB (Версионный)"
 
@@ -696,7 +696,6 @@ msgstr "По координатам"
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..btnResetVersion..Hint
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..btnResetPause..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..btnResetFolder..Hint
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..btnResetCacheType..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..btnResetSubMenu..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
@@ -739,6 +738,10 @@ msgstr "Папка в кэше"
 #. frMapsList..MapList......Caption
 msgid "Cache Folder"
 msgstr "Папка в кэше"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..chkCacheReadOnly..Caption
+msgid "Cache is Read-Only"
+msgstr "Кэш только для чтения"
 
 #. frmCacheManager..Caption
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmCacheManager..Caption
@@ -824,6 +827,10 @@ msgstr "Невозможно создать объект, не входящий 
 #. Programmer's name for it: SAS_ERR_CantSaveBitmapToTargetType
 msgid "Can't save bitmap to target type"
 msgstr "Ошибка сохранения изображения заданного формата"
+
+#, fuzzy
+msgid "Can't use in-memory tile storage as output format!"
+msgstr "Невозможно создать хранилище в памяти. Проверьте настройки."
 
 #. Programmer's name for it: rsCantUseOldPoolRecord
 msgid "Can't use old pool record!"
@@ -1095,11 +1102,7 @@ msgstr "Дополнительные HTTP заголовки:"
 msgid "Data truncation occured because of external tile storage misconfiguration"
 msgstr "Произошло искажение данных, исправьте настройки подключения к СУБД и повторите операцию"
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsDBMSCacheName
 msgid "DBMS"
 msgstr "СУБД"
 
@@ -1709,6 +1712,11 @@ msgstr "Отображать названия листов"
 msgid "GenShtab Maps Boundaries"
 msgstr "Отображать бланковку карт ГШ"
 
+#. Programmer's name for it: rsGeoCacherCacheName
+#, fuzzy
+msgid "GeoCacher"
+msgstr "Кэш"
+
 msgid "GeoCacher root folder:"
 msgstr "Путь к кэшу GeoCacher:"
 
@@ -1725,11 +1733,12 @@ msgstr "Определить позицию по базовым станциям
 msgid "GetURLScript.txt"
 msgstr ""
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsGlobalMapperBingCacheName
+#, fuzzy
+msgid "GlobalMapper Bing"
+msgstr "GlobalMapper Tiles"
+
+#. Programmer's name for it: rsGlobalMapperCacheName
 msgid "GlobalMapper Tiles"
 msgstr "GlobalMapper Tiles"
 
@@ -1749,6 +1758,11 @@ msgstr "Перейти к выбранному объекту"
 #. frmGoTo..Caption
 msgid "Go to..."
 msgstr "Перейти к..."
+
+#. Programmer's name for it: rsGoogleEarthCacheName
+#, fuzzy
+msgid "GoogleEarth"
+msgstr "KML (Для просмотра в GE)"
 
 msgid "GoogleEarth cache folder:"
 msgstr "Путь к кэшу Google Earth:"
@@ -2332,11 +2346,7 @@ msgstr "Мобильные Яндекс.Карты (версия 3)"
 msgid "Mobile Yandex.Maps (version 3.91 and above)"
 msgstr "Мобильные Яндекс.Карты (версия 3.91 и выше)"
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsMobileAtlasCacheName
 msgid "MobileAtlas"
 msgstr ""
 
@@ -2986,8 +2996,7 @@ msgstr "Выход"
 msgid "Radius"
 msgstr "Радиус"
 
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
+#. Programmer's name for it: rsRAMCacheName
 msgid "RAM"
 msgstr "ОЗУ"
 
@@ -3113,20 +3122,13 @@ msgstr "Округлённые"
 msgid "Route Calculation"
 msgstr "Проложить маршрут"
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes..Text
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbCacheTypes....Items.Strings
-#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestCacheTypes....Items.Strings
 #. frmMain..Caption
-#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..CBCacheType....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType..Text
-#. frTilesCopy..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmAbout..lblProgramName..Caption
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType..Text
-#. frmSettings..PageControl1..tsCache..pnlDefCache..CBCacheType....Items.Strings
 #. frmUpdateChecker..Caption
 #. Programmer's name for it: SAS_STR_ApplicationTitle
+#. Programmer's name for it: rsSASPlanetCacheName
 msgid "SAS.Planet"
 msgstr "SAS.Планета"
 
