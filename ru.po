@@ -828,10 +828,6 @@ msgstr "Невозможно создать объект, не входящий 
 msgid "Can't save bitmap to target type"
 msgstr "Ошибка сохранения изображения заданного формата"
 
-#, fuzzy
-msgid "Can't use in-memory tile storage as output format!"
-msgstr "Невозможно создать хранилище в памяти. Проверьте настройки."
-
 #. Programmer's name for it: rsCantUseOldPoolRecord
 msgid "Can't use old pool record!"
 msgstr "Невозможно использовать старую запись пула!"
@@ -1905,11 +1901,14 @@ msgstr "Коррекция изображения"
 msgid "Image services"
 msgstr "Картографический сервис"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
 #. frmDGAvailablePic..Caption
 #. frmDGAvailablePic..Up..gbAvailImages..Caption
 msgid "Images available"
 msgstr "Доступные снимки"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
+msgid "Images available (F6+MLeft)"
+msgstr "Доступные снимки (F6+MLeft)"
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnImport..Caption
 msgid "Import"
@@ -2200,8 +2199,8 @@ msgid "Make Polygon"
 msgstr "Создать полигон"
 
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..TBXMakeRosreestrPolygon..Caption
-msgid "Make Polygon by RosReestr"
-msgstr "Создать полигон согласно РосРеестру"
+msgid "Make Polygon by RosReestr (F8+MLeft)"
+msgstr "Создать полигон согласно РосРеестру (F8+MLeft)"
 
 #. frTilesCopy..pnlCenter..pnlMain..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
@@ -4165,6 +4164,10 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#, fuzzy
+#~ msgid "Can't use in-memory tile storage as output format!"
+#~ msgstr "Невозможно создать хранилище в памяти. Проверьте настройки."
 
 #~ msgid "Header"
 #~ msgstr "Заголовок"
