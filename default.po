@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-13 18:19\n"
-"PO-Revision-Date: 2015-02-13 18:19\n"
+"POT-Creation-Date: 2015-05-06 20:25\n"
+"PO-Revision-Date: 2015-05-06 20:25\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,6 +62,10 @@ msgstr ""
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr ""
 
+#. Programmer's name for it: rsInvalidGUID
+msgid "'%s' is not a valid GUID value"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
 msgstr ""
@@ -97,6 +101,14 @@ msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_mperp
 msgid "/pixel"
+msgstr ""
+
+#. Programmer's name for it: rsClip
+msgid "[clip]"
+msgstr ""
+
+#. Programmer's name for it: rsSubject
+msgid "[subject]"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
@@ -379,6 +391,15 @@ msgstr ""
 msgid "Add to Database"
 msgstr ""
 
+#. frmMarksExplorer..tbpmnCategories..tbxtmCatAddToMergePolygons..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxtmAddToMergePolygons..Caption
+msgid "Add to Merge Polygons"
+msgstr ""
+
+#. frmMain..MainPopupMenu..tbxtmAddToMergePolygons..Caption
+msgid "Add to Merge Polygons (Ctrl+MLeft)"
+msgstr ""
+
 #. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmGPSTrackSaveToMarks..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackSaveToDb..Caption
 msgid "Add Track to Database"
@@ -465,6 +486,10 @@ msgstr ""
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
 msgid "Altitude"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
+msgid "AND"
 msgstr ""
 
 #. Programmer's name for it: rsAnyAvailableElevationSource
@@ -913,7 +938,7 @@ msgstr ""
 msgid "Community  (http://www.sasgis.org/forum)"
 msgstr ""
 
-#. Programmer's name for it: SAS_ERR_UrlScriptCompileError
+#. Programmer's name for it: SAS_ERR_PascalScriptCompileError
 msgid "Compilation error in script \n"
 "%0:s"
 msgstr ""
@@ -1108,6 +1133,14 @@ msgstr ""
 msgid "DD+RC"
 msgstr ""
 
+#. frmPascalScriptDbgOut..Caption
+msgid "Debug Output"
+msgstr ""
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmDecompile..Caption
+msgid "Decompile"
+msgstr ""
+
 #. frmSettings..PageControl1..tsCache..pnlDefCache..lbl..Caption
 msgid "Default cache type"
 msgstr ""
@@ -1204,6 +1237,58 @@ msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..Caption
 msgid "Dest Cache"
+msgstr ""
+
+msgid "Detalize route by bicycle (Fastest) with "
+"cloudmade.com"
+msgstr ""
+
+msgid "Detalize route by bicycle (Fastest) with "
+"yournavigation.org"
+msgstr ""
+
+msgid "Detalize route by bicycle (Shortest) with "
+"cloudmade.com"
+msgstr ""
+
+msgid "Detalize route by bicycle (Shortest) with "
+"yournavigation.org"
+msgstr ""
+
+msgid "Detalize route by car (Fastest with traffic) with "
+"Maps@mail.ru"
+msgstr ""
+
+msgid "Detalize route by car (Fastest) with "
+"cloudmade.com"
+msgstr ""
+
+msgid "Detalize route by car (Fastest) with "
+"Maps@mail.ru"
+msgstr ""
+
+msgid "Detalize route by car (Fastest) with "
+"yournavigation.org"
+msgstr ""
+
+msgid "Detalize route by car (Shortest) with "
+"cloudmade.com"
+msgstr ""
+
+msgid "Detalize route by car (Shortest) with "
+"Maps@mail.ru"
+msgstr ""
+
+msgid "Detalize route by car (Shortest) with "
+"yournavigation.org"
+msgstr ""
+
+msgid "Detalize route by foot (Fastest) with "
+"cloudmade.com"
+msgstr ""
+
+msgid "Detalize route by foot (Shortest) with "
+"cloudmade.com"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
@@ -1465,7 +1550,7 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#. Programmer's name for it: SAS_ERR_UrlScriptByteCodeLoad
+#. Programmer's name for it: SAS_ERR_PascalScriptByteCodeLoad
 msgid "Error at script bytecode loading"
 msgstr ""
 
@@ -1503,6 +1588,22 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
+msgstr ""
+
+msgid "Every map part must have height less than %0:d but exist "
+"%1:d"
+msgstr ""
+
+msgid "Every map part must have height more than %0:d but exist "
+"%1:d"
+msgstr ""
+
+msgid "Every map part must have width less than %0:d but exist "
+"%1:d"
+msgstr ""
+
+msgid "Every map part must have width more than %0:d but exist "
+"%1:d"
 msgstr ""
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
@@ -1564,6 +1665,10 @@ msgstr ""
 #. Programmer's name for it: SAS_MSG_FileExists
 msgid "File %0:s is available on disk.\n"
 "Replace?"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_FileNotExistFmt
+msgid "File %0:s not exist"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_FileNotFoundFmt
@@ -1642,8 +1747,24 @@ msgstr ""
 msgid "from"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..tbxtmFromZip..Caption
+msgid "From Archive"
+msgstr ""
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..tbxtmFromFolder..Caption
+msgid "From Folder"
+msgstr ""
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..tbxsbmntmLayer..Caption
+msgid "From Layer"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_BattaryStateOnLine
 msgid "From mains"
+msgstr ""
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..tbxsbmntmMap..Caption
+msgid "From Map"
 msgstr ""
 
 #. frTilesGenPrev..pnlMapSelect..pnlZoom..lblFromZoom..Caption
@@ -1719,8 +1840,24 @@ msgstr ""
 msgid "Get Locaton from GSM (Google Query)"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
+msgid "GetUrlScript"
+msgstr ""
+
 #. frmMapTypeEdit..PageControl1..tsGetURLScript..Caption
 msgid "GetURLScript.txt"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblGetX..Caption
+msgid "GetX:"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblGetY..Caption
+msgid "GetY:"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblGetZ..Caption
+msgid "GetZ:"
 msgstr ""
 
 #. Programmer's name for it: rsGlobalMapperBingCacheName
@@ -1781,6 +1918,10 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsGrids..Caption
 msgid "Grids"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
+msgid "Group"
 msgstr ""
 
 #. Programmer's name for it: rsCmdLineArgProcessorGUIDParserError
@@ -1930,6 +2071,10 @@ msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsInfo..Caption
 msgid "Info.txt"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
+msgid "Input Vars"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
@@ -2306,6 +2451,26 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
+#. Programmer's name for it: rsMergeFail
+msgid "Merge failed!"
+msgstr ""
+
+#. Programmer's name for it: rsMergeFinish
+msgid "Merge operation finished successful!\n"
+"Result contains %d polygon(s) with %d "
+"hole(s)"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbMerge..Caption
+msgid "Merge polygons"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxMergePolygonsShow..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..tbxMergePolygonsShow1..Caption
+#. frmMain..TBDockLeft..tbMergePolygons..Caption
+msgid "Merge Polygons"
+msgstr ""
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC3..Caption
 msgid "Meteor-M1"
 msgstr ""
@@ -2315,7 +2480,6 @@ msgid "Minimap opacity"
 msgstr ""
 
 #. frmProgressCacheConverter..pnlBottom..btnMinimize..Caption
-#. frmProgressDownload..Panel1..pnlBottom..btnMinimize..Caption
 msgid "Minimize"
 msgstr ""
 
@@ -2351,6 +2515,15 @@ msgstr ""
 #. frmMain..TBDock..TBMainToolBar..TBmove..Hint
 #. frTilesCopy..pnlCenter..pnlMain..chkDeleteSource..Caption
 msgid "Move"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbDown..Hint
+msgid "Move selected item Down (Shift + Down "
+"Arrow)"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbUp..Hint
+msgid "Move selected item Up (Shift + Up Arrow)"
 msgstr ""
 
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
@@ -2429,6 +2602,9 @@ msgstr ""
 msgid "No GPS receiver found"
 msgstr ""
 
+msgid "No one polygon selected!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
 msgid "No source for Fly-on-Track mode"
 msgstr ""
@@ -2440,6 +2616,10 @@ msgstr ""
 
 #. check storage write access
 msgid "No write access to tile storage"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
+msgid "NOT"
 msgstr ""
 
 msgid "Not found \"params.txt\" in zmp"
@@ -2465,6 +2645,10 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsCache..flwpnlMemCache..Label30..Caption
 msgid "Number of tiles to be cached in RAM"
+msgstr ""
+
+msgid "Number of tiles: %0:sx%1:s (%2:s), size: "
+"%3:sx%4:s"
 msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
@@ -2521,6 +2705,10 @@ msgstr ""
 msgid "On projection change"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmHelp..Caption
+msgid "On-Line Help"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineHelp..Caption
 msgid "Online Help (http://sasgis.org/wikisasiya)"
 msgstr ""
@@ -2569,8 +2757,16 @@ msgstr ""
 msgid "Open Primary Map Tile Folder"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
+msgid "Open zmp"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmOpenFile..Caption
 msgid "Open..."
+msgstr ""
+
+#. frMergePolygons..tbTop..tbxOperation..Hint
+msgid "Operation type"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSOptions..Caption
@@ -2582,6 +2778,10 @@ msgstr ""
 #. Programmer's name for it: rsOptions
 #. Programmer's name for it: rsOptions
 msgid "Options..."
+msgstr ""
+
+#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
+msgid "OR"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
@@ -2638,6 +2838,10 @@ msgstr ""
 msgid "Parameter"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
+msgid "Params"
+msgstr ""
+
 #. frmMapTypeEdit..PageControl1..tsParams..Caption
 msgid "Params.txt"
 msgstr ""
@@ -2647,6 +2851,11 @@ msgid "Parent submenu"
 msgstr ""
 
 msgid "Parts count: %d"
+msgstr ""
+
+#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbxtmPascalScriptIDE..Caption
+#. frmPascalScriptIDE..Caption
+msgid "PascalScript IDE"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
@@ -2792,6 +3001,7 @@ msgstr ""
 msgid "Please select at least one region"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_NeedZoom
 msgid "Please select at least one zoom"
 msgstr ""
 
@@ -2811,6 +3021,13 @@ msgstr ""
 msgid "Please wait..."
 msgstr ""
 
+msgid "Please, select at least one polygon!"
+msgstr ""
+
+msgid "Please, select category with at least one "
+"polygon!"
+msgstr ""
+
 msgid "Please, select output file first!"
 msgstr ""
 
@@ -2824,6 +3041,18 @@ msgstr ""
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsScript..pnlLog..Caption
+msgid "pnlLog"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlParamsTxt..Caption
+msgid "pnlParamsTxt"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsScript..pnlScriptEditor..Caption
+msgid "pnlScriptEditor"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
@@ -2855,6 +3084,10 @@ msgstr ""
 
 #. Programmer's name for it: rsPoolIsDesabled
 msgid "Pool Disabled - Can't acquire db: %s"
+msgstr ""
+
+msgid "Press Ctrl and click on polygon to add "
+"one..."
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..tbxprevmap..Caption
@@ -2895,6 +3128,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_Processed
 msgid "Processed"
+msgstr ""
+
+#. Programmer's name for it: rsProcessedAt
+msgid "Processed at: %.8f sec."
 msgstr ""
 
 #. frmProgressDownload..Panel1..pnlProcessed..lblProcessed..Caption
@@ -2988,6 +3225,9 @@ msgstr ""
 msgid "RAM"
 msgstr ""
 
+msgid "RAW: Fill line failure!"
+msgstr ""
+
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
 msgid "Read only mode"
 msgstr ""
@@ -3028,6 +3268,14 @@ msgstr ""
 
 #. frmUpdateChecker..cbbChannel....Items.Strings
 msgid "Release (stable)"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbtmClear..Hint
+msgid "Remove All"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbDel..Hint
+msgid "Remove selected (Delete)"
 msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkRemove..Caption
@@ -3107,6 +3355,10 @@ msgstr ""
 msgid "Route Calculation"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Caption
+msgid "Run (F9)"
+msgstr ""
+
 #. frmMain..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
@@ -3181,12 +3433,12 @@ msgstr ""
 msgid "Save placemark in Database as new"
 msgstr ""
 
-#. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
-msgid "Save PNG with alpha channel"
-msgstr ""
-
 #. frExportToCE..pnlCenter..pnlMain..SaveRecoverInfo..Caption
 msgid "Save recovery information"
+msgstr ""
+
+#. frMergePolygons..tbTop..tbtmSave..Hint
+msgid "Save result polygon as..."
 msgstr ""
 
 #. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmMark..Hint
@@ -3208,6 +3460,14 @@ msgstr ""
 msgid "Save to:"
 msgstr ""
 
+#. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
+msgid "Save with alpha channel"
+msgstr ""
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxSave..Caption
+msgid "Save zmp"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowLine..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
 msgid "Scale Legend"
@@ -3223,6 +3483,7 @@ msgid "Science"
 msgstr ""
 
 #. frmPointProjecting..rgSourcePointType....Items.Strings
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..btnSetXYZ..Caption
 msgid "Screen center"
 msgstr ""
 
@@ -3295,6 +3556,7 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
 #. frmMain..MainPopupMenu..NMarkOper..Caption
+#. frMergePolygons..tbTop..tbtmSelect..Hint
 #. frmProgressSimple..TBXOperationsToolbar..tbtmSelect..Hint
 #. frmRegionProcess..Caption
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSelect..Hint
@@ -3660,8 +3922,16 @@ msgid "Store info about not found tiles"
 msgstr ""
 
 #. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmSave..Hint
-#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmMark..Hint
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..tbtmMark..Caption
 msgid "Store selection as Poligon"
+msgstr ""
+
+#. Programmer's name for it: rsSuccessfullyCompiled
+msgid "Successfully compiled"
+msgstr ""
+
+#. Programmer's name for it: rsSuccessfullyExecuted
+msgid "Successfully executed"
 msgstr ""
 
 #. Sunraise time
@@ -3682,6 +3952,10 @@ msgstr ""
 msgid "Sunset time:"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Caption
+msgid "Syntax Check"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
 msgid "Table not found and cannot be created (possibly due to insufficient "
 "privileges or readonly external tile "
@@ -3690,6 +3964,14 @@ msgstr ""
 
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
+msgstr ""
+
+#. frmPascalScriptIDE..tbtlbrMain..Caption
+msgid "tbtlbrMain"
+msgstr ""
+
+#. frMergePolygons..tbTop..Caption
+msgid "tbTop"
 msgstr ""
 
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
@@ -3807,6 +4089,14 @@ msgstr ""
 msgid "to"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxSave..tbxtmToArchive..Caption
+msgid "To Archive"
+msgstr ""
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxSave..tbxtmToFolder..Caption
+msgid "To Folder"
+msgstr ""
+
 #. frTilesGenPrev..pnlBottom..pnlRight..lblZooms..Caption
 msgid "To zooms:"
 msgstr ""
@@ -3829,6 +4119,14 @@ msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try to re-download missing tiles"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsParams..Caption
+msgid "tsParams"
+msgstr ""
+
+#. frmPascalScriptIDE..pgcMain..tsScript..Caption
+msgid "tsScript"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
@@ -4050,6 +4348,10 @@ msgstr ""
 msgid "Within Time Interval"
 msgstr ""
 
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Caption
+msgid "Word Wrap"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg. (W12.1233°)"
 msgstr ""
@@ -4063,8 +4365,20 @@ msgstr ""
 msgid "WS deg.min.sec. (W12°23\"43.35')"
 msgstr ""
 
+#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
+msgid "XOR"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
+msgstr ""
+
+#. Programmer's name for it: rsErrorTwoPolygons
+msgid "You must add at least TWO polygons!"
+msgstr ""
+
+#. Programmer's name for it: rsErrorNeedMerge
+msgid "You must MERGE polygons first!"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_MainMapNotExists
@@ -4079,8 +4393,20 @@ msgstr ""
 msgid "yournavigation.org (OSM)"
 msgstr ""
 
+#. frmPascalScriptIDE..dlgOpenZmpFile..Filter
+#. frmPascalScriptIDE..dlgSaveZmpFile..Filter
+msgid "ZMP | *.zmp"
+msgstr ""
+
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
+msgstr ""
+
+#. Programmer's name for it: rsSuccessfullyExecuted
+msgid "ZMP has been modified, but not saved yet!\n"
+"\n"
+"Do you really want to close without "
+"saving?"
 msgstr ""
 
 #. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
@@ -4115,7 +4441,6 @@ msgstr ""
 
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption
-#. frTilesDownload..pnlMapSelect..pnlZoom..lblZoom..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlZoom..lblZoom..Caption
 #. frExportToOgf2..pnlZoom..lblZoom..Caption
 msgid "Zoom:"
