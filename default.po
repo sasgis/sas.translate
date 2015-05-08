@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-05-06 20:25\n"
-"PO-Revision-Date: 2015-05-06 20:25\n"
+"POT-Creation-Date: 2015-05-08 21:32\n"
+"PO-Revision-Date: 2015-05-08 21:32\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -300,6 +300,10 @@ msgstr ""
 msgid "8m"
 msgstr ""
 
+#. frmMergePolygonsProgress..btnAbort..Caption
+msgid "Abort"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmAbout..Caption
 #. frmAbout..Caption
 msgid "About"
@@ -385,10 +389,6 @@ msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
 msgid "Add tiles to database"
-msgstr ""
-
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..Hint
-msgid "Add to Database"
 msgstr ""
 
 #. frmMarksExplorer..tbpmnCategories..tbxtmCatAddToMergePolygons..Caption
@@ -572,10 +572,6 @@ msgstr ""
 
 #. Programmer's name for it: SAS_MSG_coution
 msgid "Attention!"
-msgstr ""
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
-msgid "Attract to The Existing Markers"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
@@ -1507,6 +1503,10 @@ msgstr ""
 msgid "Edit selected placemark"
 msgstr ""
 
+#. Programmer's name for it: rsElapsedTime
+msgid "Elapsed time: %s"
+msgstr ""
+
 #. frmMapLayersOptions..pgcOptions..tsElevation..Caption
 msgid "Elevation Info"
 msgstr ""
@@ -2057,6 +2057,10 @@ msgstr ""
 msgid "Import Parameters"
 msgstr ""
 
+#. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
+msgid "Include alpha channel"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_MapGUIDBad
 msgid "Incorrect GUID: %0:s"
 msgstr ""
@@ -2455,12 +2459,6 @@ msgstr ""
 msgid "Merge failed!"
 msgstr ""
 
-#. Programmer's name for it: rsMergeFinish
-msgid "Merge operation finished successful!\n"
-"Result contains %d polygon(s) with %d "
-"hole(s)"
-msgstr ""
-
 #. frMergePolygons..tbTop..tbMerge..Caption
 msgid "Merge polygons"
 msgstr ""
@@ -2469,6 +2467,12 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NMarks..tbxMergePolygonsShow1..Caption
 #. frmMain..TBDockLeft..tbMergePolygons..Caption
 msgid "Merge Polygons"
+msgstr ""
+
+#. Programmer's name for it: rsMergeFinish
+msgid "Merge process completed successfully!\n"
+"Result contains %d polygon(s) with %d "
+"hole(s)"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC3..Caption
@@ -3016,6 +3020,7 @@ msgid "Please wait, download in progress..."
 msgstr ""
 
 #. frmProgressCacheConverter..Caption
+#. frmMergePolygonsProgress..Caption
 #. frmProgressSimple..Caption
 #. frmProgressDownload..Caption
 msgid "Please wait..."
@@ -3413,8 +3418,16 @@ msgstr ""
 msgid "Satellites not in range"
 msgstr ""
 
+#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..Hint
+msgid "Save"
+msgstr ""
+
+msgid "Save as.."
+msgstr ""
+
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
-msgid "Save as new"
+#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
+msgid "Save as..."
 msgstr ""
 
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..Hint
@@ -3425,20 +3438,16 @@ msgstr ""
 msgid "Save GeoRef info to Exif"
 msgstr ""
 
+#. frMergePolygons..tbTop..tbtmSave..Hint
+msgid "Save merged polygon as..."
+msgstr ""
+
 #. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
 msgid "Save only complete tiles"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
-msgid "Save placemark in Database as new"
-msgstr ""
-
 #. frExportToCE..pnlCenter..pnlMain..SaveRecoverInfo..Caption
 msgid "Save recovery information"
-msgstr ""
-
-#. frMergePolygons..tbTop..tbtmSave..Hint
-msgid "Save result polygon as..."
 msgstr ""
 
 #. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmMark..Hint
@@ -3458,10 +3467,6 @@ msgstr ""
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
-msgstr ""
-
-#. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
-msgid "Save with alpha channel"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxSave..Caption
@@ -3837,6 +3842,10 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnl1..lbl1..Caption
 msgid "Sleep on reset connection, ms"
+msgstr ""
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
+msgid "Snap to Existing Markers"
 msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
