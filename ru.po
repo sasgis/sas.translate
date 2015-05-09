@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-05-08 21:32\n"
-"PO-Revision-Date: 2015-05-08 21:34+0300\n"
+"POT-Creation-Date: 2015-05-09 15:26\n"
+"PO-Revision-Date: 2015-05-09 15:32+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1140,9 +1140,9 @@ msgstr "DD+РК"
 msgid "Debug Output"
 msgstr ""
 
-#. frmPascalScriptIDE..tbtlbrMain..tbxtmDecompile..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmDecompile..Hint
 msgid "Decompile"
-msgstr ""
+msgstr "Декомпилировать"
 
 #. frmSettings..PageControl1..tsCache..pnlDefCache..lbl..Caption
 msgid "Default cache type"
@@ -1838,6 +1838,10 @@ msgstr "Определить позицию по базовым станциям
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
 msgid "GetUrlScript"
+msgstr ""
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Hint
+msgid "GetUrlScript.txt"
 msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsGetURLScript..Caption
@@ -2713,7 +2717,7 @@ msgstr "При загрузке из кэша"
 msgid "On projection change"
 msgstr "При смене проекции слоя"
 
-#. frmPascalScriptIDE..tbtlbrMain..tbxtmHelp..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmHelp..Hint
 msgid "On-Line Help"
 msgstr "Помощь"
 
@@ -2766,6 +2770,7 @@ msgid "Open Primary Map Tile Folder"
 msgstr "Открыть папку, содержащую тайл основной карты"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Hint
 msgid "Open zmp"
 msgstr "Открыть zmp"
 
@@ -2852,6 +2857,7 @@ msgid "Params"
 msgstr "Параметр"
 
 #. frmMapTypeEdit..PageControl1..tsParams..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Hint
 #, fuzzy
 msgid "Params.txt"
 msgstr "Параметр"
@@ -3368,8 +3374,9 @@ msgid "Route Calculation"
 msgstr "Проложить маршрут"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Caption
-msgid "Run (F9)"
-msgstr ""
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Hint
+msgid "Run"
+msgstr "Выполнить"
 
 #. frmMain..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
@@ -3430,13 +3437,16 @@ msgstr "Видимые с нулевым сигналом"
 msgid "Save"
 msgstr "Сохранить"
 
-msgid "Save as.."
-msgstr "Сохранить как..."
+msgid "Save (Enter)"
+msgstr "Сохранить (Enter)"
 
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
 msgid "Save as..."
 msgstr "Сохранить как..."
+
+msgid "Save as... (Enter)"
+msgstr "Сохранить как... (Enter)"
 
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..Hint
 msgid "Save current session"
@@ -3478,6 +3488,7 @@ msgid "Save to:"
 msgstr "Куда сохранять:"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxSave..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxSave..Hint
 msgid "Save zmp"
 msgstr "Сохранить zmp"
 
@@ -3976,9 +3987,9 @@ msgstr "Закат"
 msgid "Sunset time:"
 msgstr "Закат:"
 
-#. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
-msgstr ""
+msgstr "Проверить синтаксис"
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
 msgid ""
@@ -4383,7 +4394,7 @@ msgstr "Ширина:"
 msgid "Within Time Interval"
 msgstr "Тайлы только в диапазоне дат"
 
-#. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Hint
 msgid "Word Wrap"
 msgstr "Перенос строк"
 
@@ -4499,6 +4510,9 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "Save as.."
+#~ msgstr "Сохранить как..."
 
 #, fuzzy
 #~ msgid "Can't use in-memory tile storage as output format!"
