@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-05-09 15:26\n"
-"PO-Revision-Date: 2015-05-09 15:32+0300\n"
+"POT-Creation-Date: 2015-05-13 20:19\n"
+"PO-Revision-Date: 2015-05-13 20:24+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -37,6 +37,18 @@ msgstr " Хранилище "
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
 msgstr " по "
+
+#. Programmer's name for it: SAS_STR_ExtendedMultiPathCaption
+msgid "%0:s (MultiPath %d)"
+msgstr "%0:s (МультиПуть %d)"
+
+#. Programmer's name for it: SAS_STR_ExtendedMultiPointCaption
+msgid "%0:s (MultiPlacemark %d)"
+msgstr "%0:s (МультиМетка %d)"
+
+#. Programmer's name for it: SAS_STR_ExtendedMultiPolygonCaption
+msgid "%0:s (MultiPolygon %d)"
+msgstr "%0:s (МультиПолигон %d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPathCaption
 msgid "%0:s (Path)"
@@ -497,10 +509,6 @@ msgstr ""
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
 msgid "Altitude"
 msgstr "Высота"
-
-#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
-msgid "AND"
-msgstr ""
 
 #. Programmer's name for it: rsAnyAvailableElevationSource
 msgid "Any Available Source"
@@ -1288,6 +1296,10 @@ msgstr ""
 msgid "Device timeout (sec)"
 msgstr "Время ожидания ответа от приёмника (сек.)"
 
+#. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
+msgid "Difference (NOT)"
+msgstr "Разница (НЕ)"
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
 msgstr "DigitalGlobe (Каталог сервиса)"
@@ -1598,6 +1610,10 @@ msgstr ""
 msgid "Every map part must have width more than %0:d but exist %1:d"
 msgstr ""
 
+#. frMergePolygons..tbTop..tbOperationType..tbtmXOR..Caption
+msgid "Exclusive or (XOR)"
+msgstr "Исключительное ИЛИ (XOR)"
+
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
 #. frmRegionProcess..PageControl1..TabSheet5..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
@@ -1820,9 +1836,8 @@ msgid "GenShtab Maps Boundaries"
 msgstr "Отображать бланковку карт ГШ"
 
 #. Programmer's name for it: rsGeoCacherCacheName
-#, fuzzy
 msgid "GeoCacher"
-msgstr "Кэш"
+msgstr ""
 
 msgid "GeoCacher root folder:"
 msgstr "Путь к кэшу GeoCacher:"
@@ -1861,9 +1876,8 @@ msgid "GetZ:"
 msgstr ""
 
 #. Programmer's name for it: rsGlobalMapperBingCacheName
-#, fuzzy
 msgid "GlobalMapper Bing"
-msgstr "GlobalMapper Tiles"
+msgstr ""
 
 #. Programmer's name for it: rsGlobalMapperCacheName
 msgid "GlobalMapper Tiles"
@@ -1887,9 +1901,8 @@ msgid "Go to..."
 msgstr "Перейти к..."
 
 #. Programmer's name for it: rsGoogleEarthCacheName
-#, fuzzy
 msgid "GoogleEarth"
-msgstr "KML (Для просмотра в GE)"
+msgstr ""
 
 msgid "GoogleEarth cache folder:"
 msgstr "Путь к кэшу Google Earth:"
@@ -1921,9 +1934,9 @@ msgstr "Подписи"
 msgid "Grids"
 msgstr "Сетки"
 
-#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
+#. frMergePolygons..tbTop..tbOperationType..tbtmGroup..Caption
 msgid "Group"
-msgstr ""
+msgstr "Сгруппировать"
 
 #. Programmer's name for it: rsCmdLineArgProcessorGUIDParserError
 msgid "GUIDParserError"
@@ -2076,9 +2089,8 @@ msgid "Info"
 msgstr "Информация"
 
 #. frmMapTypeEdit..PageControl1..tsInfo..Caption
-#, fuzzy
 msgid "Info.txt"
-msgstr "Информация"
+msgstr ""
 
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
@@ -2112,6 +2124,10 @@ msgstr "Интернет"
 #. frmMain..TBDock..TBXMainMenu..NSources..NSRCic..Caption
 msgid "Internet && Cache"
 msgstr "Интернет и кэш"
+
+#. frMergePolygons..tbTop..tbOperationType..tbtmAND..Caption
+msgid "Intersection (AND)"
+msgstr "Пересечение (И)"
 
 #. Programmer's name for it: rsInvalidDelete
 msgid ""
@@ -2631,10 +2647,6 @@ msgstr "Недостаточно места в БД для выполнения 
 msgid "No write access to tile storage"
 msgstr "Нет доступа на запись в хранилище тайлов"
 
-#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
-msgid "NOT"
-msgstr ""
-
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
 
@@ -2778,10 +2790,6 @@ msgstr "Открыть zmp"
 msgid "Open..."
 msgstr "Открыть..."
 
-#. frMergePolygons..tbTop..tbxOperation..Hint
-msgid "Operation type"
-msgstr "Тип операции"
-
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSOptions..Caption
 #. frmMain..TBDock..TBXMainMenu..NParams..tbitmOptions..Caption
 #. frmSettings..Caption
@@ -2792,10 +2800,6 @@ msgstr "Настройки"
 #. Programmer's name for it: rsOptions
 msgid "Options..."
 msgstr "Настройки..."
-
-#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
-msgid "OR"
-msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
@@ -2858,9 +2862,8 @@ msgstr "Параметр"
 
 #. frmMapTypeEdit..PageControl1..tsParams..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Hint
-#, fuzzy
 msgid "Params.txt"
-msgstr "Параметр"
+msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
@@ -4186,6 +4189,14 @@ msgstr ""
 msgid "Unexpected proxy authorization"
 msgstr "Ошибка авторизации на прокси!"
 
+#. frmMarksExplorer..tbpmnMarks..tbxtmUngroup..Caption
+msgid "Ungroup"
+msgstr "Разгруппировать"
+
+#. frMergePolygons..tbTop..tbOperationType..tbtmOR..Caption
+msgid "Union (OR)"
+msgstr "Объединение (ИЛИ)"
+
 #. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoMenuItemName
 msgid "Unit info"
@@ -4411,10 +4422,6 @@ msgstr "WS г.м. (W12°23.454)"
 msgid "WS deg.min.sec. (W12°23\"43.35')"
 msgstr "WS г.м.с. (W12°23\"43.35')"
 
-#. frMergePolygons..tbTop..tbxOperation....Lines.Strings
-msgid "XOR"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
 msgstr "Да"
@@ -4510,6 +4517,9 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "Operation type"
+#~ msgstr "Тип операции"
 
 #~ msgid "Save as.."
 #~ msgstr "Сохранить как..."
