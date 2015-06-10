@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-05-13 20:19\n"
-"PO-Revision-Date: 2015-05-13 20:42+0300\n"
+"POT-Creation-Date: 2015-06-04 19:18\n"
+"PO-Revision-Date: 2015-06-10 12:57+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.7.7\n"
+"Language: ru\n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -69,10 +70,6 @@ msgstr "%0:s Скачивание"
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f из %.2f Мб (%.2f%s)"
-
-#. Programmer's name for it: rsInvalidGUID
-msgid "'%s' is not a valid GUID value"
-msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -587,6 +584,8 @@ msgstr "Внимание!"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
@@ -966,6 +965,7 @@ msgstr "Упаковка в TAR"
 msgid "Compressing to ZIP"
 msgstr "Упаковка в ZIP"
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
 msgstr "Сжатие (для PNG):"
@@ -1146,7 +1146,7 @@ msgstr "DD+РК"
 
 #. frmPascalScriptDbgOut..Caption
 msgid "Debug Output"
-msgstr ""
+msgstr "Отладка"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmDecompile..Hint
 msgid "Decompile"
@@ -1254,43 +1254,43 @@ msgid "Dest Cache"
 msgstr "Результирующий кэш"
 
 msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
-msgstr ""
+msgstr "Маршрут для велосипеда (по скорости) cloudmade.com"
 
 msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
-msgstr ""
+msgstr "Маршрут для велосипеда (по скорости) yournavigation.org"
 
 msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
-msgstr ""
+msgstr "Маршрут для велосипеда (по расстоянию) cloudmade.com"
 
 msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
-msgstr ""
+msgstr "Маршрут для велосипеда (по расстоянию) yournavigation.org"
 
 msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
-msgstr ""
+msgstr "Маршрут для автомобиля (по скорости с учётом пробок) Maps@mail.ru"
 
 msgid "Detalize route by car (Fastest) with cloudmade.com"
-msgstr ""
+msgstr "Маршрут для автомобиля (по скорости) cloudmade.com"
 
 msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-msgstr ""
+msgstr "Маршрут для автомобиля (по скорости) Maps@mail.ru"
 
 msgid "Detalize route by car (Fastest) with yournavigation.org"
-msgstr ""
+msgstr "Маршрут для автомобиля (по скорости) yournavigation.org"
 
 msgid "Detalize route by car (Shortest) with cloudmade.com"
-msgstr ""
+msgstr "Маршрут для автомобиля (по расстоянию) cloudmade.com"
 
 msgid "Detalize route by car (Shortest) with Maps@mail.ru"
-msgstr ""
+msgstr "Маршрут для автомобиля (по расстоянию) Maps@mail.ru"
 
 msgid "Detalize route by car (Shortest) with yournavigation.org"
-msgstr ""
+msgstr "Маршрут для автомобиля (по расстоянию) yournavigation.org"
 
 msgid "Detalize route by foot (Fastest) with cloudmade.com"
-msgstr ""
+msgstr "Маршрут для пешехода (по скорости) cloudmade.com"
 
 msgid "Detalize route by foot (Shortest) with cloudmade.com"
-msgstr ""
+msgstr "Маршрут для пешехода (по расстоянию) cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -1599,16 +1599,16 @@ msgid "Error while saving!"
 msgstr "Ошибка при сохранении!"
 
 msgid "Every map part must have height less than %0:d but exist %1:d"
-msgstr ""
+msgstr "Каждая часть карты должна иметь высоту менее %0: d сейчас %1: d"
 
 msgid "Every map part must have height more than %0:d but exist %1:d"
-msgstr ""
+msgstr "Каждая часть карты должна иметь высоту более %0: d сейчас %1: d"
 
 msgid "Every map part must have width less than %0:d but exist %1:d"
-msgstr ""
+msgstr "Каждая часть карты должна иметь ширину менее %0: d сейчас %1: d"
 
 msgid "Every map part must have width more than %0:d but exist %1:d"
-msgstr ""
+msgstr "Каждая часть карты должна иметь ширину более %0: d сейчас %1: d"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmXOR..Caption
 msgid "Exclusive or (XOR)"
@@ -1902,7 +1902,7 @@ msgstr "Перейти к..."
 
 #. Programmer's name for it: rsGoogleEarthCacheName
 msgid "GoogleEarth"
-msgstr ""
+msgstr "Google Планета Земля"
 
 msgid "GoogleEarth cache folder:"
 msgstr "Путь к кэшу Google Earth:"
@@ -2037,6 +2037,7 @@ msgstr "Игнорировать метки"
 msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
 msgstr "Формат:"
@@ -2102,9 +2103,8 @@ msgstr "Элементы интерфейса"
 
 #. Programmer's name for it: SInterfaceIsNilError
 #. Programmer's name for it: SInterfaceIsNilError
-#, fuzzy
 msgid "Interface is nil"
-msgstr "Настройки интерфейса"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
 #. frmMapLayersOptions..Caption
@@ -2376,6 +2376,7 @@ msgstr "Операции с выделенной областью"
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
@@ -2596,7 +2597,7 @@ msgstr "Новая категория"
 
 #. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..tbxnxtmap..Caption
 msgid "Next map with tile"
-msgstr "Следующая карта с тайлом"
+msgstr "Следующая тайловая карта"
 
 #. frmMain..TBDock..TBXMainMenu..NView..TBXSubmnMapVer..TBXNextVer..Caption
 msgid "Next version"
@@ -2618,7 +2619,7 @@ msgstr "Ночной режим (Инверсия цветов)"
 #. frmUpdateChecker..cbbChannel..Text
 #. frmUpdateChecker..cbbChannel....Items.Strings
 msgid "Nightly (testing)"
-msgstr ""
+msgstr "Ночная (тестирование)"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N000..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale0..Caption
@@ -2801,6 +2802,10 @@ msgstr "Настройки"
 msgid "Options..."
 msgstr "Настройки..."
 
+#. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
+msgid "OruxMaps (SQLite)"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
 msgstr "Другие"
@@ -2821,6 +2826,7 @@ msgstr "Конвертировать в формат"
 msgid "Output format:"
 msgstr "Результирующий формат:"
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer"
 msgstr "Наложить"
@@ -2856,9 +2862,8 @@ msgid "Parameter"
 msgstr "Параметр"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
-#, fuzzy
 msgid "Params"
-msgstr "Параметр"
+msgstr "Параметры"
 
 #. frmMapTypeEdit..PageControl1..tsParams..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Hint
@@ -2875,7 +2880,7 @@ msgstr "Количество частей: %d"
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbxtmPascalScriptIDE..Caption
 #. frmPascalScriptIDE..Caption
 msgid "PascalScript IDE"
-msgstr ""
+msgstr "Редактор zmp"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
@@ -3029,6 +3034,9 @@ msgstr "Сначала необходимо выбрать тип метки"
 msgid "Please select map or layer"
 msgstr "Сначала необходимо выбрать карту или слой"
 
+msgid "Please set target path"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr "Подождите, идет загрузка..."
@@ -3049,26 +3057,28 @@ msgstr "Сначала необходимо выделить категорию 
 msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
-msgstr ""
+msgstr "PNG (индексированные цвета)"
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
-msgstr ""
+msgstr "PNG (полноцветный с прозрачностью)"
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
-msgstr ""
+msgstr "PNG (полноцветный)"
 
 #. frmPascalScriptIDE..pgcMain..tsScript..pnlLog..Caption
 msgid "pnlLog"
 msgstr ""
 
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlParamsTxt..Caption
-#, fuzzy
 msgid "pnlParamsTxt"
-msgstr "Параметр"
+msgstr ""
 
 #. frmPascalScriptIDE..pgcMain..tsScript..pnlScriptEditor..Caption
 msgid "pnlScriptEditor"
@@ -3110,7 +3120,7 @@ msgstr "Для добавления полигона нажмите Ctrl и кл
 
 #. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..tbxprevmap..Caption
 msgid "Previous map with tile"
-msgstr "Предыдущая карта с тайлом"
+msgstr "Предыдущая тайловая карта"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
 msgid "Previous Selection"
@@ -3215,6 +3225,7 @@ msgid "Proxy password:"
 msgstr "и пароль:"
 
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 msgid "Quality (for JPEG):"
 msgstr "Качество (для JPEG):"
@@ -3289,7 +3300,7 @@ msgstr "Относительный путь к тайлам"
 
 #. frmUpdateChecker..cbbChannel....Items.Strings
 msgid "Release (stable)"
-msgstr ""
+msgstr "Релиз (стабильный)"
 
 #. frMergePolygons..tbTop..tbtmClear..Hint
 msgid "Remove All"
@@ -3483,6 +3494,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
+#. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
@@ -3955,6 +3967,10 @@ msgstr "Склеить: %0:dx%1:d (%2:d) файлов"
 msgid "Stitching the map"
 msgstr "Склейка карты"
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkStoreBlankTiles..Caption
+msgid "Store blank tiles"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
 msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
@@ -4168,14 +4184,12 @@ msgid "Try to re-download missing tiles"
 msgstr "Пытаться загружать отсутствующие тайлы"
 
 #. frmPascalScriptIDE..pgcMain..tsParams..Caption
-#, fuzzy
 msgid "tsParams"
-msgstr "Параметр"
+msgstr ""
 
 #. frmPascalScriptIDE..pgcMain..tsScript..Caption
-#, fuzzy
 msgid "tsScript"
-msgstr "Описание"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
@@ -4225,14 +4239,12 @@ msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
 
 #. Programmer's name for it: rsCmdLineArgProcessorUnknownError
-#, fuzzy
 msgid "UnknownError: %s"
-msgstr "Неизвестно"
+msgstr "Неизвестная ошибка: %s"
 
 #. Programmer's name for it: rsCmdLineArgProcessorUnknownGUID
-#, fuzzy
 msgid "UnknownGUID"
-msgstr "Неизвестно"
+msgstr "Неизвестный CUID"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
@@ -4325,6 +4337,7 @@ msgid "Use tile from lower zoom if tile not available"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
@@ -4335,7 +4348,7 @@ msgstr "Задано пользователем"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnl1..lbl2..Caption
 msgid "User-Agent:"
-msgstr ""
+msgstr "Интерфейс пользователя"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
 msgid "Username"
@@ -4501,9 +4514,8 @@ msgid "Zoom:"
 msgstr "Масштаб:"
 
 #. Programmer's name for it: rsCmdLineArgProcessorZoomOutOfBounds
-#, fuzzy
 msgid "ZoomOutOfBounds"
-msgstr "Уменьшить"
+msgstr ""
 
 #. Programmer's name for it: rsCmdLineArgProcessorZoomParserError
 msgid "ZoomParserError"

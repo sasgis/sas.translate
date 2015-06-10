@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-05-13 20:19\n"
-"PO-Revision-Date: 2015-05-13 20:19\n"
+"POT-Creation-Date: 2015-06-09 11:49\n"
+"PO-Revision-Date: 2015-06-09 11:49\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,10 +72,6 @@ msgstr ""
 
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
-msgstr ""
-
-#. Programmer's name for it: rsInvalidGUID
-msgid "'%s' is not a valid GUID value"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
@@ -584,6 +580,8 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
@@ -959,6 +957,7 @@ msgstr ""
 msgid "Compressing to ZIP"
 msgstr ""
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
 msgstr ""
@@ -2044,6 +2043,7 @@ msgstr ""
 msgid "Ignore polygons"
 msgstr ""
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
 msgstr ""
@@ -2373,6 +2373,7 @@ msgstr ""
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
@@ -2801,6 +2802,10 @@ msgstr ""
 msgid "Options..."
 msgstr ""
 
+#. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
+msgid "OruxMaps (SQLite)"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
 msgstr ""
@@ -2821,6 +2826,7 @@ msgstr ""
 msgid "Output format:"
 msgstr ""
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer"
 msgstr ""
@@ -3029,6 +3035,9 @@ msgstr ""
 msgid "Please select map or layer"
 msgstr ""
 
+msgid "Please set target path"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr ""
@@ -3050,14 +3059,17 @@ msgstr ""
 msgid "Please, select output file first!"
 msgstr ""
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr ""
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr ""
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
 msgstr ""
@@ -3216,6 +3228,7 @@ msgid "Proxy password:"
 msgstr ""
 
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 msgid "Quality (for JPEG):"
 msgstr ""
@@ -3480,6 +3493,7 @@ msgstr ""
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
+#. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
@@ -3945,6 +3959,10 @@ msgstr ""
 msgid "Stitching the map"
 msgstr ""
 
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkStoreBlankTiles..Caption
+msgid "Store blank tiles"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
 msgid "Store info about not found tiles"
 msgstr ""
@@ -4303,6 +4321,7 @@ msgid "Use tile from lower zoom if tile not "
 msgstr ""
 
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible "
 "tile)"
