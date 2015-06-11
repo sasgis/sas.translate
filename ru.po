@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-06-04 19:18\n"
-"PO-Revision-Date: 2015-06-10 16:16+0300\n"
+"POT-Creation-Date: 2015-06-11 21:53\n"
+"PO-Revision-Date: 2015-06-11 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -70,6 +70,10 @@ msgstr "%0:s Скачивание"
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f из %.2f Мб (%.2f%s)"
+
+#. Programmer's name for it: rsInvalidGUID
+msgid "'%s' is not a valid GUID value"
+msgstr "'%s' невалидный GUID"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -1144,10 +1148,6 @@ msgstr "Путь к кэшу СУБД:"
 msgid "DD+RC"
 msgstr "DD+РК"
 
-#. frmPascalScriptDbgOut..Caption
-msgid "Debug Output"
-msgstr "Отладка"
-
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmDecompile..Hint
 msgid "Decompile"
 msgstr "Декомпилировать"
@@ -1899,10 +1899,6 @@ msgstr "Перейти к выбранному объекту"
 #. frmGoTo..Caption
 msgid "Go to..."
 msgstr "Перейти к..."
-
-#. Programmer's name for it: rsGoogleEarthCacheName
-msgid "GoogleEarth"
-msgstr "Google Планета Земля"
 
 msgid "GoogleEarth cache folder:"
 msgstr "Путь к кэшу Google Earth:"
@@ -2877,11 +2873,6 @@ msgstr "Родительский пункт меню"
 msgid "Parts count: %d"
 msgstr "Количество частей: %d"
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbxtmPascalScriptIDE..Caption
-#. frmPascalScriptIDE..Caption
-msgid "PascalScript IDE"
-msgstr "Редактор zmp"
-
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
 msgstr "Пароль"
@@ -3035,7 +3026,7 @@ msgid "Please select map or layer"
 msgstr "Сначала необходимо выбрать карту или слой"
 
 msgid "Please set target path"
-msgstr ""
+msgstr "Пожалуйста, укажите целевую папку"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
@@ -3969,7 +3960,7 @@ msgstr "Склейка карты"
 
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkStoreBlankTiles..Caption
 msgid "Store blank tiles"
-msgstr ""
+msgstr "Сохранять пустые тайлы"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
 msgid "Store info about not found tiles"
@@ -4345,10 +4336,6 @@ msgstr "Использовать вышележащие слои, если от�
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
 msgstr "Задано пользователем"
-
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnl1..lbl2..Caption
-msgid "User-Agent:"
-msgstr "Интерфейс пользователя"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
 msgid "Username"
