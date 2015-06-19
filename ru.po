@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-06-11 21:53\n"
-"PO-Revision-Date: 2015-06-11 22:01+0300\n"
+"POT-Creation-Date: 2015-06-19 22:17\n"
+"PO-Revision-Date: 2015-06-19 22:21+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -791,6 +791,7 @@ msgid "Cached tiles map"
 msgstr "Карта заполнения слоя"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..Caption
+#. frmMain..MainPopupMenu..tbxFillingMap..Caption
 msgid "Cached Tiles Map"
 msgstr "Карта заполнения"
 
@@ -2060,10 +2061,11 @@ msgid "Import"
 msgstr "Импорт"
 
 msgid ""
-"Import finished. Total processed: %d files. Successfull imported: %d files."
+"Import finished. Total processed: %d files. Successfull imported: %d files.\n"
+"Fit to screen the last imported item?"
 msgstr ""
-"Импорт завершен. Всего обработано: %d файлов. Успешно импортировано: %d "
-"файлов."
+"Импорт завершен. Всего обработано: %d файлов. Успешно импортировано: %d файлов.\n"
+"Уместить на экране последний импортированный элемент?"
 
 #. frmImportConfigEdit..Caption
 msgid "Import Parameters"
@@ -2517,6 +2519,13 @@ msgstr "Свернуть"
 msgid "Minimize to tray"
 msgstr "Сворачивать в трей"
 
+msgid "MOBAC cache folder:"
+msgstr "Путь к кэшу MOBAC:"
+
+#. Programmer's name for it: rsMobileAtlasCacheName
+msgid "Mobile Atlas Creator (MOBAC)"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
 msgid "Mobile Yandex.Maps (version 3)"
 msgstr "Мобильные Яндекс.Карты (версия 3)"
@@ -2524,13 +2533,6 @@ msgstr "Мобильные Яндекс.Карты (версия 3)"
 #. Programmer's name for it: SAS_STR_ExportYaMobileV4Caption
 msgid "Mobile Yandex.Maps (version 3.91 and above)"
 msgstr "Мобильные Яндекс.Карты (версия 3.91 и выше)"
-
-#. Programmer's name for it: rsMobileAtlasCacheName
-msgid "MobileAtlas"
-msgstr ""
-
-msgid "MobileAtlas cache folder:"
-msgstr "Путь к кэшу MobileAtlas:"
 
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
@@ -3384,8 +3386,6 @@ msgid "Run"
 msgstr "Выполнить"
 
 #. frmMain..Caption
-#. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
-#. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmAbout..lblProgramName..Caption
 #. frmUpdateChecker..Caption
 #. Programmer's name for it: SAS_STR_ApplicationTitle
