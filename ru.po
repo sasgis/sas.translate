@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-06-19 22:17\n"
-"PO-Revision-Date: 2015-06-19 22:21+0300\n"
+"POT-Creation-Date: 2015-07-02 21:30\n"
+"PO-Revision-Date: 2015-07-02 21:35+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -337,8 +337,16 @@ msgstr "Активные карты + слои (%d)"
 msgid "Add"
 msgstr "Добавить"
 
+#. frmMarksExplorer..TBXToolbar3..tbxAdd..Caption
+msgid "Add a database"
+msgstr "Добавить базу"
+
 msgid "Add Category"
 msgstr "Создать категорию"
+
+#. frmMarkSystemConfigEdit..Caption
+msgid "Add Marks Database"
+msgstr "Добавление базы меток"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..chkBoxSeparator..Caption
 msgid "Add menu separator line after this map"
@@ -515,6 +523,7 @@ msgstr "Высота"
 msgid "Any Available Source"
 msgstr "Все доступные источники"
 
+#. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
@@ -526,6 +535,9 @@ msgstr "Применить"
 msgid "Approx. to download:"
 msgstr "Примерно еще загрузить:"
 
+msgid "Are you sure you want switch to database \"%s\"?"
+msgstr "Вы действительно хотите переключиться на базу \"%s\"?"
+
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 msgid "Are you sure you want to delete %0:d placemarks?"
 msgstr "Вы действительно хотите удалить %0:d метки?"
@@ -533,6 +545,9 @@ msgstr "Вы действительно хотите удалить %0:d мет�
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
 msgstr "Вы действительно хотите удалить категорию с именем \"%0:s\"?"
+
+msgid "Are you sure you want to delete database \"%s\"?"
+msgstr "Вы действительно хотите удалить базу  \"%s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
 msgid "Are you sure you want to delete Marks in selected region?"
@@ -823,6 +838,7 @@ msgstr "Калибровка для программы OziExplorer (*.map)"
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
+#. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -871,7 +887,7 @@ msgstr "Невозможно использовать старую запись 
 msgid "Caption parameters"
 msgstr "Параметры заголовка"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox3..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "Каскад"
 
@@ -1131,11 +1147,12 @@ msgid "Custom HTTP Headers:"
 msgstr "Дополнительные HTTP заголовки:"
 
 #. Programmer's name for it: SAS_ERR_ETS_DataTruncation
-msgid ""
-"Data truncation occured because of external tile storage misconfiguration"
-msgstr ""
-"Произошло искажение данных, исправьте настройки подключения к СУБД и "
-"повторите операцию"
+msgid "Data truncation occured because of external tile storage misconfiguration"
+msgstr "Произошло искажение данных, исправьте настройки подключения к СУБД и повторите операцию"
+
+#. frmMarkSystemConfigEdit..grpDBType..Caption
+msgid "Database type"
+msgstr "Тип базы"
 
 #. Programmer's name for it: rsDBMSCacheName
 msgid "DBMS"
@@ -1212,6 +1229,10 @@ msgstr "Удалить выбранную метку"
 #. frDeleteTiles..rgTarget..Caption
 msgid "Delete target"
 msgstr "Удалить:"
+
+#. frmMarksExplorer..TBXToolbar3..tbxDelete..Caption
+msgid "Delete the database"
+msgstr "Удалить базу"
 
 #. frDeleteTiles..rgTarget....Items.Strings
 msgid "Delete tiles"
@@ -1495,6 +1516,9 @@ msgstr "Изменить гор. кл."
 msgid "Edit Last Selection"
 msgstr "Редактировать предыдущее выделение"
 
+msgid "Edit Marks Database"
+msgstr "Редактирование базы меток"
+
 #. Programmer's name for it: SAS_STR_EditPath
 msgid "Edit Path"
 msgstr "Изменить путь"
@@ -1511,6 +1535,10 @@ msgstr "Изменить полигон"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
 msgid "Edit selected placemark"
 msgstr "Редактировать выбранную метку"
+
+#. frmMarksExplorer..TBXToolbar3..tbxEdit..Caption
+msgid "Edit the database"
+msgstr "Редактировать базу"
 
 #. Programmer's name for it: rsElapsedTime
 msgid "Elapsed time: %s"
@@ -1686,6 +1714,10 @@ msgstr "Файл %0:s не существует"
 #. Programmer's name for it: SAS_ERR_FileNotFoundFmt
 msgid "File %0:s not found"
 msgstr "Файл %0:s не найден"
+
+#. frmMarkSystemConfigEdit..grpFile..Caption
+msgid "File name"
+msgstr "Путь к файлу"
 
 #. Programmer's name for it: SAS_STR_Files
 msgid "files"
@@ -2457,6 +2489,20 @@ msgstr "Отсутствующие тайлы"
 msgid "Marks Parameters"
 msgstr "Параметры меток"
 
+msgid "MarkSystemConfig: Item #%d Database GUID read error!"
+msgstr ""
+
+#. ORM
+msgid "MarkSystemConfig: Item #%d has unknown Impl GUID: %s"
+msgstr ""
+
+#. ORM
+msgid "MarkSystemConfig: Item #%d has unknown Impl interface!"
+msgstr ""
+
+msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
 msgstr "Размер тома, мб"
@@ -2555,9 +2601,16 @@ msgstr "Переместить выделенный элемент вниз (Shi
 msgid "Move selected item Up (Shift + Up Arrow)"
 msgstr "Переместить выделенный элемент вверх (Shift + Стрелка Вверх)"
 
+msgid "My Marks"
+msgstr "Мои метки"
+
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
 msgid "Name"
 msgstr "Название"
+
+#. frmMarkSystemConfigEdit..grpDisplayName..Caption
+msgid "Name (on the list)"
+msgstr "Имя (в списке)"
 
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
@@ -2791,6 +2844,7 @@ msgstr "Открыть..."
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSOptions..Caption
 #. frmMain..TBDock..TBXMainMenu..NParams..tbitmOptions..Caption
+#. frmMarkSystemConfigEdit..grpOptions..Caption
 #. frmSettings..Caption
 msgid "Options"
 msgstr "Настройки"
@@ -3252,6 +3306,10 @@ msgstr "RAW: Сбой заполнения!"
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
 msgid "Read only mode"
+msgstr "Только для чтения"
+
+#. frmMarkSystemConfigEdit..grpOptions..chkReadOnly..Caption
+msgid "Read-Only"
 msgstr "Только для чтения"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress1....Hint
@@ -3876,6 +3934,10 @@ msgstr "Пропущено:"
 msgid "Sleep on reset connection, ms"
 msgstr "Пауза, при обрыве связи, мс"
 
+#. Programmer's name for it: rsSMLMarksDbName
+msgid "SML"
+msgstr ""
+
 #. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
 msgid "Snap to Existing Markers"
 msgstr "Притягивать точки к существующим маркерам"
@@ -3924,6 +3986,10 @@ msgstr "SPOT 5 - 5м Ч/Б"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS11..Caption
 msgid "SPOT 5 - 5m Color"
 msgstr "SPOT 5 - 5м Цвет"
+
+#. Programmer's name for it: rsORMSQLiteMarksDbName
+msgid "SQLite3"
+msgstr ""
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
@@ -4336,6 +4402,10 @@ msgstr "Использовать вышележащие слои, если от�
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
 msgstr "Задано пользователем"
+
+#. frmMarkSystemConfigEdit..grpOptions..lblUserName..Caption
+msgid "User Name:"
+msgstr "Имя пользователя:"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
 msgid "Username"
