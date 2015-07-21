@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-07-02 21:30\n"
-"PO-Revision-Date: 2015-07-21 07:50+0300\n"
+"POT-Creation-Date: 2015-07-21 15:13\n"
+"PO-Revision-Date: 2015-07-21 15:17+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -447,7 +447,7 @@ msgstr "Дополнительные операции"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
 #. frZoomsSelect..chkAllZooms..Caption
-#. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
 msgid "All"
 msgstr "Все"
@@ -603,6 +603,8 @@ msgstr "Внимание!"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -986,6 +988,7 @@ msgstr "Упаковка в TAR"
 msgid "Compressing to ZIP"
 msgstr "Упаковка в ZIP"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
@@ -1064,12 +1067,6 @@ msgstr "Копировать выбранные TID для вставки в URL
 #. frTilesCopy..Panel1..Caption
 msgid "Copy tiles from selection to folder"
 msgstr "Копировать тайлы из выделенной области в папку"
-
-msgid "Direct Copy"
-msgstr "Прямое копирование"
-
-msgid "Modify"
-msgstr "Изменить"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
 msgid "Copy to Clipboard"
@@ -1331,6 +1328,10 @@ msgstr "Разница (НЕ)"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
 msgstr "DigitalGlobe (Каталог сервиса)"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..Caption
+msgid "Direct Copy"
+msgstr "Прямое копирование"
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkDirectTilesCopy..Caption
 msgid "Direct tiles copy (without any modifications)"
@@ -1942,6 +1943,10 @@ msgstr "Перейти к..."
 msgid "GoogleEarth cache folder:"
 msgstr "Путь к кэшу Google Earth:"
 
+#. Programmer's name for it: rsGoogleEarthTerrainCacheName
+msgid "GoogleEarth Terrain"
+msgstr ""
+
 msgid "GoogleMV cache folder:"
 msgstr "Путь к кэшу GoogleMV:"
 
@@ -2072,6 +2077,7 @@ msgstr "Игнорировать метки"
 msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
@@ -2400,7 +2406,7 @@ msgstr "Создать полигон"
 msgid "Make Polygon by RosReestr (F8+MLeft)"
 msgstr "Создать полигон согласно РосРеестру (F8+MLeft)"
 
-#. frTilesCopy..pnlCenter..pnlMain..chkPlaceInNameSubFolder..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr "Раскладывать по подпапкам, соответствующим именам карты"
 
@@ -2408,6 +2414,7 @@ msgstr "Раскладывать по подпапкам, соответству
 msgid "Manage Selection"
 msgstr "Операции с выделенной областью"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2586,6 +2593,10 @@ msgstr "Мобильные Яндекс.Карты (версия 3)"
 msgid "Mobile Yandex.Maps (version 3.91 and above)"
 msgstr "Мобильные Яндекс.Карты (версия 3.91 и выше)"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..Caption
+msgid "Modify"
+msgstr "Изменить"
+
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
 msgstr "Высока вероятность того, что вас забанили!"
@@ -2595,7 +2606,7 @@ msgid "Mouse wheel"
 msgstr "Колёсико мыши"
 
 #. frmMain..TBDock..TBMainToolBar..TBmove..Hint
-#. frTilesCopy..pnlCenter..pnlMain..chkDeleteSource..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkDeleteSource..Caption
 msgid "Move"
 msgstr "Перемещать"
 
@@ -2864,6 +2875,10 @@ msgstr "Настройки..."
 msgid "OruxMaps (SQLite)"
 msgstr ""
 
+#. Programmer's name for it: rsOsmAndCacheName
+msgid "OsmAnd+ Tiles"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
 msgstr "Другие"
@@ -2890,6 +2905,7 @@ msgid "Overlay layer"
 msgstr "Наложить"
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 msgid "Overlay layer:"
 msgstr "Наложить:"
@@ -3087,7 +3103,7 @@ msgstr "Сначала необходимо выбрать тип метки"
 msgid "Please select map or layer"
 msgstr "Сначала необходимо выбрать карту или слой"
 
-msgid "Please set target path"
+msgid "Please select output folder"
 msgstr "Пожалуйста, укажите целевую папку"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
@@ -3110,16 +3126,19 @@ msgstr "Сначала необходимо выделить категорию 
 msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr "PNG (индексированные цвета)"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr "PNG (полноцветный с прозрачностью)"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
@@ -3277,6 +3296,7 @@ msgstr "Использовать логин:"
 msgid "Proxy password:"
 msgstr "и пароль:"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4091,6 +4111,10 @@ msgstr ""
 
 #. frMergePolygons..tbTop..Caption
 msgid "tbTop"
+msgstr ""
+
+#. frmMarksExplorer..TBXToolbar3..Caption
+msgid "TBXToolbar3"
 msgstr ""
 
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption

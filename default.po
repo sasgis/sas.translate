@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-02 21:30\n"
-"PO-Revision-Date: 2015-07-02 21:30\n"
+"POT-Creation-Date: 2015-07-21 15:13\n"
+"PO-Revision-Date: 2015-07-21 15:13\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -450,7 +450,7 @@ msgstr ""
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
 #. frZoomsSelect..chkAllZooms..Caption
-#. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
 msgid "All"
 msgstr ""
@@ -601,6 +601,8 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -980,6 +982,7 @@ msgstr ""
 msgid "Compressing to ZIP"
 msgstr ""
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
@@ -1331,6 +1334,10 @@ msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkDG2..Caption
 msgid "DigitalGlobe (Catalogservice)"
+msgstr ""
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..Caption
+msgid "Direct Copy"
 msgstr ""
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkDirectTilesCopy..Caption
@@ -1945,6 +1952,10 @@ msgstr ""
 msgid "GoogleEarth cache folder:"
 msgstr ""
 
+#. Programmer's name for it: rsGoogleEarthTerrainCacheName
+msgid "GoogleEarth Terrain"
+msgstr ""
+
 msgid "GoogleMV cache folder:"
 msgstr ""
 
@@ -2077,6 +2088,7 @@ msgstr ""
 msgid "Ignore polygons"
 msgstr ""
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
@@ -2396,7 +2408,7 @@ msgstr ""
 msgid "Make Polygon by RosReestr (F8+MLeft)"
 msgstr ""
 
-#. frTilesCopy..pnlCenter..pnlMain..chkPlaceInNameSubFolder..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr ""
 
@@ -2404,6 +2416,7 @@ msgstr ""
 msgid "Manage Selection"
 msgstr ""
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
@@ -2585,6 +2598,10 @@ msgid "Mobile Yandex.Maps (version 3.91 and "
 "above)"
 msgstr ""
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..Caption
+msgid "Modify"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the "
 "server!"
@@ -2595,7 +2612,7 @@ msgid "Mouse wheel"
 msgstr ""
 
 #. frmMain..TBDock..TBMainToolBar..TBmove..Hint
-#. frTilesCopy..pnlCenter..pnlMain..chkDeleteSource..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkDeleteSource..Caption
 msgid "Move"
 msgstr ""
 
@@ -2867,6 +2884,10 @@ msgstr ""
 msgid "OruxMaps (SQLite)"
 msgstr ""
 
+#. Programmer's name for it: rsOsmAndCacheName
+msgid "OsmAnd+ Tiles"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
 msgstr ""
@@ -2893,6 +2914,7 @@ msgid "Overlay layer"
 msgstr ""
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 msgid "Overlay layer:"
 msgstr ""
@@ -3091,7 +3113,7 @@ msgstr ""
 msgid "Please select map or layer"
 msgstr ""
 
-msgid "Please set target path"
+msgid "Please select output folder"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_WiteLoad
@@ -3115,16 +3137,19 @@ msgstr ""
 msgid "Please, select output file first!"
 msgstr ""
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr ""
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr ""
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
@@ -3283,6 +3308,7 @@ msgstr ""
 msgid "Proxy password:"
 msgstr ""
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
