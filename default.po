@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-07-21 15:13\n"
-"PO-Revision-Date: 2015-07-21 15:13\n"
+"POT-Creation-Date: 2015-08-02 20:49\n"
+"PO-Revision-Date: 2015-08-02 20:49\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -793,6 +793,10 @@ msgstr ""
 msgid "Cache Manager"
 msgstr ""
 
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlCache..lblCacheSize..Caption
+msgid "Cache Size, Mb:"
+msgstr ""
+
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..lblCacheType..Caption
 msgid "Cache type"
 msgstr ""
@@ -1011,6 +1015,9 @@ msgstr ""
 msgid "Connection settings"
 msgstr ""
 
+msgid "Connection string"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
 msgid "Connection timeout"
 msgstr ""
@@ -1156,6 +1163,14 @@ msgstr ""
 
 #. Programmer's name for it: rsDBMSCacheName
 msgid "DBMS"
+msgstr ""
+
+#. Programmer's name for it: rsORMZDBCMarksDbName
+msgid "DBMS (Native driver)"
+msgstr ""
+
+#. Programmer's name for it: rsORMODBCMarksDbName
+msgid "DBMS (ODBC driver)"
 msgstr ""
 
 #. frmSettings..PageControl1..tsCache..pnlDBMSPath..lbDBMSCachePath..Caption
@@ -2602,6 +2617,10 @@ msgstr ""
 msgid "Modify"
 msgstr ""
 
+#. Programmer's name for it: rsORMMongoDbMarksDbName
+msgid "MongoDB"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the "
 "server!"
@@ -2962,6 +2981,10 @@ msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
+msgstr ""
+
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..lblPass..Caption
+msgid "Password:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_NewPath
@@ -3346,7 +3369,7 @@ msgstr ""
 msgid "Read only mode"
 msgstr ""
 
-#. frmMarkSystemConfigEdit..grpOptions..chkReadOnly..Caption
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlReadOnly..chkReadOnly..Caption
 msgid "Read-Only"
 msgstr ""
 
@@ -3720,6 +3743,12 @@ msgstr ""
 msgid "Set as default"
 msgstr ""
 
+msgid "Set Connection string first!"
+msgstr ""
+
+msgid "Set File name first!"
+msgstr ""
+
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkReplaceDestVersion..Caption
 msgid "Set same version for all processed tiles:"
 msgstr ""
@@ -3862,6 +3891,10 @@ msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..Hint
 msgid "Show/Hide Captions"
+msgstr ""
+
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..chkShowPass..Hint
+msgid "Show/Hide Password"
 msgstr ""
 
 #. Programmer's name for it: rsCmdLineArgProcessorShowMarksParserError
@@ -4427,7 +4460,7 @@ msgstr ""
 msgid "User defined"
 msgstr ""
 
-#. frmMarkSystemConfigEdit..grpOptions..lblUserName..Caption
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlUser..lblUserName..Caption
 msgid "User Name:"
 msgstr ""
 
