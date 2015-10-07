@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-08-02 20:49\n"
+"POT-Creation-Date: 2015-10-07 23:23\n"
 "PO-Revision-Date: 2015-08-02 20:53+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -70,10 +70,6 @@ msgstr "%0:s Скачивание"
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f из %.2f Мб (%.2f%s)"
-
-#. Programmer's name for it: rsInvalidGUID
-msgid "'%s' is not a valid GUID value"
-msgstr "'%s' невалидный GUID"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -534,9 +530,6 @@ msgstr "Применить"
 #. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
 msgid "Approx. to download:"
 msgstr "Примерно еще загрузить:"
-
-msgid "Are you sure you want switch to database \"%s\"?"
-msgstr "Вы действительно хотите переключиться на базу \"%s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 msgid "Are you sure you want to delete %0:d placemarks?"
@@ -1157,8 +1150,11 @@ msgid "Custom HTTP Headers:"
 msgstr "Дополнительные HTTP заголовки:"
 
 #. Programmer's name for it: SAS_ERR_ETS_DataTruncation
-msgid "Data truncation occured because of external tile storage misconfiguration"
-msgstr "Произошло искажение данных, исправьте настройки подключения к СУБД и повторите операцию"
+msgid ""
+"Data truncation occured because of external tile storage misconfiguration"
+msgstr ""
+"Произошло искажение данных, исправьте настройки подключения к СУБД и "
+"повторите операцию"
 
 #. frmMarkSystemConfigEdit..grpDBType..Caption
 msgid "Database type"
@@ -1902,6 +1898,9 @@ msgstr "Путь к кэшу GeoCacher:"
 msgid "Geographic"
 msgstr "Географические"
 
+msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmPositionByGSM..Caption
 msgid "Get Locaton from GSM (Google Query)"
 msgstr "Определить позицию по базовым станциям сотовой сети"
@@ -2053,6 +2052,19 @@ msgstr "Горячая клавиша уже используется, пожа�
 msgid "Hotkeys"
 msgstr "Горячие клавиши"
 
+msgid "HTTP %d Bad Request"
+msgstr ""
+
+msgid "HTTP %d No Content"
+msgstr ""
+
+msgid "HTTP %d Not Found"
+msgstr ""
+
+#, fuzzy
+msgid "HTTP %d Unknown Error"
+msgstr "Неизвестная ошибка: %s"
+
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
@@ -2123,7 +2135,8 @@ msgid ""
 "Import finished. Total processed: %d files. Successfull imported: %d files.\n"
 "Fit to screen the last imported item?"
 msgstr ""
-"Импорт завершен. Всего обработано: %d файлов. Успешно импортировано: %d файлов.\n"
+"Импорт завершен. Всего обработано: %d файлов. Успешно импортировано: %d "
+"файлов.\n"
 "Уместить на экране последний импортированный элемент?"
 
 #. frmImportConfigEdit..Caption
@@ -2298,14 +2311,6 @@ msgstr "Слои"
 
 msgid "Layers (%d)"
 msgstr "Слои (%d)"
-
-#. frmUpdateChecker..lblCurVerValue..Caption
-msgid "lblCurVerValue"
-msgstr ""
-
-#. frmUpdateChecker..lblNewVerValue..Caption
-msgid "lblNewVerValue"
-msgstr ""
 
 #. Programmer's name for it: SAS_STR_L
 msgid "Length"
@@ -2554,6 +2559,12 @@ msgstr "Мб"
 #. frMapsList..MapList......Caption
 msgid "Menu"
 msgstr "Путь в меню"
+
+msgid "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
+msgstr ""
+
+msgid "Mercator / WGS84 / EPSG:3395"
+msgstr ""
 
 #. Programmer's name for it: rsMergeFail
 msgid "Merge failed!"
@@ -3973,6 +3984,9 @@ msgstr "Отображает Всемирное Координированное
 msgid "Shows VDOP"
 msgstr "Отображает VDOP"
 
+msgid "Size of answer is zero"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Resolution
 msgid "size:"
 msgstr "размер:"
@@ -4246,9 +4260,16 @@ msgstr "Такого изображения нет на сервере!"
 msgid "Tile is not found! Zero result size"
 msgstr "Такого изображения нет на сервере!"
 
+#. crop single tile
+msgid "Tile is recognized as empty"
+msgstr ""
+
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
 msgid "Tile Size"
 msgstr "Размер тайла"
+
+msgid "Tile with same size exists"
+msgstr ""
 
 #. frDelete..PageControl1..tsTiles..Caption
 #. Programmer's name for it: SAS_STR_Tiles
@@ -4320,6 +4341,9 @@ msgid "Unable to load map(s)! Aborting..."
 msgstr ""
 "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
 
+msgid "Unexpected content type %s"
+msgstr ""
+
 msgid "Unexpected proxy authorization"
 msgstr "Ошибка авторизации на прокси!"
 
@@ -4357,6 +4381,10 @@ msgstr "Общая ошибка в СУБД, см. Настройки храни
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
+
+#, fuzzy
+msgid "Unknown status code %d"
+msgstr "Ошибка загрузки. Неизвестный код ответа %d"
 
 #. Programmer's name for it: rsCmdLineArgProcessorUnknownError
 msgid "UnknownError: %s"
@@ -4649,6 +4677,12 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "'%s' is not a valid GUID value"
+#~ msgstr "'%s' невалидный GUID"
+
+#~ msgid "Are you sure you want switch to database \"%s\"?"
+#~ msgstr "Вы действительно хотите переключиться на базу \"%s\"?"
 
 #~ msgid "Operation type"
 #~ msgstr "Тип операции"

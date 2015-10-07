@@ -6,13 +6,13 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-08-02 20:49\n"
-"PO-Revision-Date: 2015-08-02 20:49\n"
+"POT-Creation-Date: 2015-10-07 23:23\n"
+"PO-Revision-Date: 2015-10-07 23:23\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: dxgettext 1.2.2\n"
+"X-Generator: dxgettext 1.3.0\n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -72,10 +72,6 @@ msgstr ""
 
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
-msgstr ""
-
-#. Programmer's name for it: rsInvalidGUID
-msgid "'%s' is not a valid GUID value"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
@@ -522,10 +518,6 @@ msgstr ""
 
 #. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
 msgid "Approx. to download:"
-msgstr ""
-
-msgid "Are you sure you want switch to database "
-"\"%s\"?"
 msgstr ""
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
@@ -1911,6 +1903,10 @@ msgstr ""
 msgid "Geographic"
 msgstr ""
 
+msgid "Geographic (Latitude/Longitude) / WGS84 / "
+"EPSG:4326"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmPositionByGSM..Caption
 msgid "Get Locaton from GSM (Google Query)"
 msgstr ""
@@ -2062,6 +2058,18 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox5..Caption
 msgid "Hotkeys"
+msgstr ""
+
+msgid "HTTP %d Bad Request"
+msgstr ""
+
+msgid "HTTP %d No Content"
+msgstr ""
+
+msgid "HTTP %d Not Found"
+msgstr ""
+
+msgid "HTTP %d Unknown Error"
 msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
@@ -2302,14 +2310,6 @@ msgid "Layers"
 msgstr ""
 
 msgid "Layers (%d)"
-msgstr ""
-
-#. frmUpdateChecker..lblCurVerValue..Caption
-msgid "lblCurVerValue"
-msgstr ""
-
-#. frmUpdateChecker..lblNewVerValue..Caption
-msgid "lblNewVerValue"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_L
@@ -2559,6 +2559,13 @@ msgstr ""
 
 #. frMapsList..MapList......Caption
 msgid "Menu"
+msgstr ""
+
+msgid "Mercator / Google Maps (Sphere Radius 6378137) / "
+"EPSG:3785"
+msgstr ""
+
+msgid "Mercator / WGS84 / EPSG:3395"
 msgstr ""
 
 #. Programmer's name for it: rsMergeFail
@@ -3974,6 +3981,9 @@ msgstr ""
 msgid "Shows VDOP"
 msgstr ""
 
+msgid "Size of answer is zero"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Resolution
 msgid "size:"
 msgstr ""
@@ -4239,8 +4249,15 @@ msgstr ""
 msgid "Tile is not found! Zero result size"
 msgstr ""
 
+#. crop single tile
+msgid "Tile is recognized as empty"
+msgstr ""
+
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
 msgid "Tile Size"
+msgstr ""
+
+msgid "Tile with same size exists"
 msgstr ""
 
 #. frDelete..PageControl1..tsTiles..Caption
@@ -4312,6 +4329,9 @@ msgstr ""
 msgid "Unable to load map(s)! Aborting..."
 msgstr ""
 
+msgid "Unexpected content type %s"
+msgstr ""
+
 msgid "Unexpected proxy authorization"
 msgstr ""
 
@@ -4348,6 +4368,9 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
+msgstr ""
+
+msgid "Unknown status code %d"
 msgstr ""
 
 #. Programmer's name for it: rsCmdLineArgProcessorUnknownError
