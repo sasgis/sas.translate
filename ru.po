@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-10-07 23:30\n"
-"PO-Revision-Date: 2015-10-07 23:40+0300\n"
+"POT-Creation-Date: 2015-10-19 18:02\n"
+"PO-Revision-Date: 2015-10-19 18:06+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -418,17 +418,24 @@ msgstr "Добавить в Слияние полигонов (Ctrl+MLeft)"
 msgid "Add Track to Database"
 msgstr "Сохранить трек в базе"
 
+#. frMapCombine..pnlBottom..pnlOptions..chkUseFillingMap..Caption
+msgid "Add visible Cached Tiles Map"
+msgstr "Накладывать карту заполнения"
+
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapGrids..Caption
-msgid "Add visible grids"
+msgid "Add visible Grids"
 msgstr "Накладывать отображаемые сетки"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
-msgid "Add visible layers"
+msgid "Add visible Layers"
 msgstr "Накладывать отображаемые слои"
 
-#. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
+msgstr "Накладывать отображаемые метки"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
+msgid "Add visible Placemarks"
 msgstr "Накладывать отображаемые метки"
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -623,7 +630,7 @@ msgid "Autodetect COM port on connect"
 msgstr "Автопоиск подключённого COM-порта"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
-msgid "Autodetect on conntect"
+msgid "Autodetect on connect"
 msgstr "Автоопределение при подключении"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
@@ -2434,14 +2441,8 @@ msgstr "Раскладывать по подпапкам, соответству
 msgid "Manage Selection"
 msgstr "Операции с выделенной областью"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
-#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
-#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
-#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
@@ -2480,13 +2481,22 @@ msgstr "Настройки хранилища"
 msgid "Map Version:"
 msgstr "Версия карты:"
 
-#. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
 #. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
+#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+msgid "Map/Overlay layer:"
+msgstr "Карта/Слой:"
+
+#. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
-#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr "Тип карты:"
 
@@ -2929,14 +2939,11 @@ msgstr "Конвертировать в формат"
 msgid "Output format:"
 msgstr "Результирующий формат:"
 
-#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-msgid "Overlay layer"
-msgstr "Наложить"
-
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr "Наложить:"
 
@@ -3201,6 +3208,10 @@ msgstr "Количество точек: %d"
 msgid "Polygon %0:d"
 msgstr "Полигон %0:d"
 
+#, fuzzy
+msgid "Polygon isn't selected"
+msgstr "Не выбрано ни одного полигона!"
+
 #. frMarksGeneralOptions..grpPoly..Caption
 msgid "Polygon parameters"
 msgstr "Параметры полигонов"
@@ -3303,6 +3314,10 @@ msgstr "Проецирование"
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
 msgstr "Проекция"
+
+#, fuzzy
+msgid "Projection isn't selected"
+msgstr "Проекция слоя"
 
 msgid "Projection of layer"
 msgstr "Проекция слоя"
@@ -3924,8 +3939,8 @@ msgid "Shows current speed"
 msgstr "Отображает текущую скорость движения"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
-msgid "Shows DGPS"
-msgstr "Отображает DGPS"
+msgid "Shows differential GPS"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
@@ -3944,8 +3959,8 @@ msgid "Shows GPS Unit info"
 msgstr "Отображает информацию о GPS-приёмнике"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
-msgid "Shows HDOP"
-msgstr "Отображает HDOP"
+msgid "Shows horizontal dilution of precision"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
 msgid "Shows local time"
@@ -3981,8 +3996,8 @@ msgid "Shows UTC time"
 msgstr "Отображает Всемирное Координированное Время"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
-msgid "Shows VDOP"
-msgstr "Отображает VDOP"
+msgid "Shows vertical dilution of precision"
+msgstr ""
 
 msgid "Size of answer is zero"
 msgstr ""
@@ -4389,9 +4404,8 @@ msgstr "Общая ошибка в СУБД, см. Настройки храни
 msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
 
-#, fuzzy
 msgid "Unknown status code %d"
-msgstr "Ошибка загрузки. Неизвестный код ответа %d"
+msgstr "Неизвестный код ответа %d"
 
 #. Programmer's name for it: rsCmdLineArgProcessorUnknownError
 msgid "UnknownError: %s"
@@ -4684,6 +4698,18 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "Overlay layer"
+#~ msgstr "Наложить"
+
+#~ msgid "Shows DGPS"
+#~ msgstr "Отображает DGPS"
+
+#~ msgid "Shows HDOP"
+#~ msgstr "Отображает HDOP"
+
+#~ msgid "Shows VDOP"
+#~ msgstr "Отображает VDOP"
 
 #~ msgid "'%s' is not a valid GUID value"
 #~ msgstr "'%s' невалидный GUID"

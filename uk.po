@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-10-07 23:30\n"
+"POT-Creation-Date: 2015-10-19 18:02\n"
 "PO-Revision-Date: 2013-03-10 19:01+0400\n"
 "Last-Translator: Fetser <Fetser@list.ru>\n"
 "Language-Team: \n"
@@ -428,19 +428,28 @@ msgstr ""
 msgid "Add Track to Database"
 msgstr "Зберегти маршрут у базі"
 
+#. frMapCombine..pnlBottom..pnlOptions..chkUseFillingMap..Caption
+#, fuzzy
+msgid "Add visible Cached Tiles Map"
+msgstr "Карта заповнення"
+
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapGrids..Caption
 #, fuzzy
-msgid "Add visible grids"
+msgid "Add visible Grids"
 msgstr "Накладати позначки, що показуються"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 #, fuzzy
-msgid "Add visible layers"
+msgid "Add visible Layers"
+msgstr "Накладати позначки, що показуються"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
+msgid "Add visible placemarks"
 msgstr "Накладати позначки, що показуються"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
-#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
-msgid "Add visible placemarks"
+#, fuzzy
+msgid "Add visible Placemarks"
 msgstr "Накладати позначки, що показуються"
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -642,7 +651,7 @@ msgstr "Автовизначення підключеного COM-порту"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
 #, fuzzy
-msgid "Autodetect on conntect"
+msgid "Autodetect on connect"
 msgstr "Автовизначення підключеного COM-порту"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
@@ -2496,14 +2505,8 @@ msgstr ""
 msgid "Manage Selection"
 msgstr "Операція з виділеною областю"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
-#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
-#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
-#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
@@ -2543,13 +2546,23 @@ msgstr "Налаштування сховища"
 msgid "Map Version:"
 msgstr "Версія:"
 
-#. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
 #. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
+#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#, fuzzy
+msgid "Map/Overlay layer:"
+msgstr "Накласти шар:"
+
+#. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
-#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr "Тип карти:"
 
@@ -2998,15 +3011,11 @@ msgstr "Результуючий формат"
 msgid "Output format:"
 msgstr "Результуючий формат:"
 
-#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-#, fuzzy
-msgid "Overlay layer"
-msgstr "Накласти шар:"
-
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr "Накласти шар:"
 
@@ -3286,6 +3295,10 @@ msgstr "Кількість точок: %d"
 msgid "Polygon %0:d"
 msgstr "Полігон %0:d"
 
+#, fuzzy
+msgid "Polygon isn't selected"
+msgstr "Полігональна область"
+
 #. frMarksGeneralOptions..grpPoly..Caption
 msgid "Polygon parameters"
 msgstr "Параметри полігонів"
@@ -3395,6 +3408,10 @@ msgstr "Проекція:"
 #, fuzzy
 msgid "Projection"
 msgstr "Проекція:"
+
+#, fuzzy
+msgid "Projection isn't selected"
+msgstr "Проекція слою"
 
 msgid "Projection of layer"
 msgstr "Проекція слою"
@@ -4031,8 +4048,8 @@ msgid "Shows current speed"
 msgstr "Показує поточну швидкість руху"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
-msgid "Shows DGPS"
-msgstr "Показує DGPS"
+msgid "Shows differential GPS"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
@@ -4052,8 +4069,8 @@ msgid "Shows GPS Unit info"
 msgstr "Показує інформацію про пристрій GPS"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
-msgid "Shows HDOP"
-msgstr "Показує HDOP"
+msgid "Shows horizontal dilution of precision"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
 msgid "Shows local time"
@@ -4089,8 +4106,8 @@ msgid "Shows UTC time"
 msgstr "Показує час UTC"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
-msgid "Shows VDOP"
-msgstr "Показує VDOP"
+msgid "Shows vertical dilution of precision"
+msgstr ""
 
 msgid "Size of answer is zero"
 msgstr ""
@@ -4803,6 +4820,19 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#, fuzzy
+#~ msgid "Overlay layer"
+#~ msgstr "Накласти шар:"
+
+#~ msgid "Shows DGPS"
+#~ msgstr "Показує DGPS"
+
+#~ msgid "Shows HDOP"
+#~ msgstr "Показує HDOP"
+
+#~ msgid "Shows VDOP"
+#~ msgstr "Показує VDOP"
 
 #~ msgid "Base Map:"
 #~ msgstr "Тип карти:"

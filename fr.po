@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-10-08 00:03\n"
+"POT-Creation-Date: 2015-10-19 18:02\n"
 "PO-Revision-Date: 2015-09-24 11:50+0200\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "Language-Team: \n"
@@ -424,17 +424,28 @@ msgstr "Ajouter pour fusionner les polygones (Ctrl+MGauche)"
 msgid "Add Track to Database"
 msgstr "Ajouter une piste à la base de données"
 
+#. frMapCombine..pnlBottom..pnlOptions..chkUseFillingMap..Caption
+#, fuzzy
+msgid "Add visible Cached Tiles Map"
+msgstr "Dalles de carte mises en cache"
+
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapGrids..Caption
-msgid "Add visible grids"
+#, fuzzy
+msgid "Add visible Grids"
 msgstr "Ajouter les grilles visibles"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
-msgid "Add visible layers"
+#, fuzzy
+msgid "Add visible Layers"
 msgstr "Ajouter les couches visibles"
 
-#. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
+msgstr "Ajouter les marqueurs visibles"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
+#, fuzzy
+msgid "Add visible Placemarks"
 msgstr "Ajouter les marqueurs visibles"
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -635,7 +646,8 @@ msgid "Autodetect COM port on connect"
 msgstr "Autodétecte le port COM à la connexion"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
-msgid "Autodetect on conntect"
+#, fuzzy
+msgid "Autodetect on connect"
 msgstr "Autodétecte à la connexion"
 
 #. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
@@ -2467,14 +2479,8 @@ msgstr "Créer un sous-répertoire avec le nom du chemin de la carte"
 msgid "Manage Selection"
 msgstr "Gestion de la sélection"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
-#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
-#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
-#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
@@ -2513,13 +2519,23 @@ msgstr "Info sur le stockage de la carte"
 msgid "Map Version:"
 msgstr "Version de la carte :"
 
-#. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
 #. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
+#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#, fuzzy
+msgid "Map/Overlay layer:"
+msgstr "Couche :"
+
+#. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
-#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr "Carte :"
 
@@ -2964,14 +2980,11 @@ msgstr "Format de sortie"
 msgid "Output format:"
 msgstr "Format de sortie :"
 
-#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-msgid "Overlay layer"
-msgstr "Couche"
-
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr "Couche :"
 
@@ -3236,6 +3249,10 @@ msgstr "Comptage des points : %d"
 msgid "Polygon %0:d"
 msgstr "Polygone %0:d"
 
+#, fuzzy
+msgid "Polygon isn't selected"
+msgstr "Aucun polygone sélectionné !"
+
 #. frMarksGeneralOptions..grpPoly..Caption
 msgid "Polygon parameters"
 msgstr "Propriétés du polygone"
@@ -3338,6 +3355,10 @@ msgstr "Projection de la balise"
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
 msgstr "Projection"
+
+#, fuzzy
+msgid "Projection isn't selected"
+msgstr "Projection de la couche"
 
 msgid "Projection of layer"
 msgstr "Projection de la couche"
@@ -3959,8 +3980,8 @@ msgid "Shows current speed"
 msgstr "Afficher la vitesse courante"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
-msgid "Shows DGPS"
-msgstr "Afficher DGPS"
+msgid "Shows differential GPS"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
@@ -3979,8 +4000,8 @@ msgid "Shows GPS Unit info"
 msgstr "Afficher l'info du GPS"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
-msgid "Shows HDOP"
-msgstr "Afficher HDOP"
+msgid "Shows horizontal dilution of precision"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
 msgid "Shows local time"
@@ -4016,8 +4037,8 @@ msgid "Shows UTC time"
 msgstr "Afficher l'heure UTC"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
-msgid "Shows VDOP"
-msgstr "Afficher VDOP"
+msgid "Shows vertical dilution of precision"
+msgstr ""
 
 msgid "Size of answer is zero"
 msgstr ""
@@ -4727,6 +4748,18 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Overlay layer"
+#~ msgstr "Couche"
+
+#~ msgid "Shows DGPS"
+#~ msgstr "Afficher DGPS"
+
+#~ msgid "Shows HDOP"
+#~ msgstr "Afficher HDOP"
+
+#~ msgid "Shows VDOP"
+#~ msgstr "Afficher VDOP"
 
 #~ msgid "'%s' is not a valid GUID value"
 #~ msgstr "'%s' n'est pas un GUID valide"
