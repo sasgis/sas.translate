@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-10-19 18:02\n"
+"POT-Creation-Date: 2015-10-22 12:02\n"
 "PO-Revision-Date: 2015-09-24 11:50+0200\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "Language-Team: \n"
@@ -28,10 +28,6 @@ msgstr "-- deg.min. (-12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- deg.min.sec. (-12°23\"43.35')"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..Caption
-msgid " Kosmosnimki "
-msgstr "Kosmosnimki"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
 msgid " RosCosmos "
@@ -475,36 +471,6 @@ msgstr "Tout par défaut"
 msgid "All compatible formats"
 msgstr "Tous formats compatibles"
 
-#. frmMarksExplorer..OpenDialog1....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv,*.jpg)|*."
-"kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv;*.jpg|Google KML files (*.kml)|*.kml|"
-"OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*."
-"kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS "
-"Exchange files (*.gpx)|*.gpx|Universal CSV files (*.csv)|*.csv|JPEG Image "
-"whtg GPS Exif (*.jpg)|*.jpg"
-msgstr ""
-"Tous formats compatibles (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv,*.jpg)|*."
-"kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv;*.jpg|Fichiers Google KML (*.kml)|*."
-"kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Fichiers Google "
-"KMZ (*.kmz)|*.kmz|Session de téléchargement (*.sls)|*.sls|Sélection (*.hlg)|"
-"*.hlg|Fichiers GPS Exchange (*.gpx)|*.gpx|Fichiers universels CSV (*.csv)|*."
-"csv|Image JPEG whtg GPS Exif (*.jpg)|*.jpg"
-
-#. frmMain..OpenSessionDialog....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.jpg)|*.kml;*."
-"plt;*.kmz;*.sls;*.hlg;*.gpx;*.jpg|Google KML files (*.kml)|*.kml|OziExplorer "
-"Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|"
-"Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*."
-"gpx)|*.gpx|JPEG Image with Exif (*.jpg)|*.jpg"
-msgstr ""
-"Tous formats compatibles (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.jpg)|*.kml;*."
-"plt;*.kmz;*.sls;*.hlg;*.gpx;*.jpg|Fichiers Google KML (*.kml)|*.kml|"
-"OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Fichiers Google KMZ "
-"(*.kmz)|*.kmz|Session de téléchargement (*.sls)|*.sls|Sélection (*.hlg)|*."
-"hlg|Fichiers GPS Exchange (*.gpx)|*.gpx|Image JPEG avec Exif (*.jpg)|*.jpg"
-
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
 msgid "All Images"
 msgstr "Toutes les images"
@@ -516,16 +482,6 @@ msgstr "Tous les services"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
 msgstr "Tout visible"
-
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT....Hint
-msgid ""
-"Alt - snap to Lat/Lon grid (if enabled)\n"
-"Ctrl - snap to tile boundaries\n"
-"Shift - snap to GenShtab boundaries (if enabled)"
-msgstr ""
-"Alt - va vers la grille Lat/Lon (si autorisé)\n"
-"Ctrl - va vers les frontières de dalle \n"
-"Shift - va vers les frontières de GenShtab (si autorisé)"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -2295,6 +2251,11 @@ msgstr "km2"
 msgid "KML (for Google Earth)"
 msgstr "KML (pour Google Earth)"
 
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..Caption
+#, fuzzy
+msgid "Kosmosnimki"
+msgstr "Kosmosnimki"
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkSearchKosmosnimki..Caption
 msgid "Kosmosnimki (search.kosmosnimki.ru)"
 msgstr "Kosmosnimki (search.kosmosnimki.ru)"
@@ -3226,18 +3187,6 @@ msgstr "PNG (vraies couleurs+ alpha)"
 msgid "PNG (TrueColor)"
 msgstr "PNG (vraies couleurs)"
 
-#. frmPascalScriptIDE..pgcMain..tsScript..pnlLog..Caption
-msgid "pnlLog"
-msgstr "pnlLog"
-
-#. frmPascalScriptIDE..pgcMain..tsParams..pnlParamsTxt..Caption
-msgid "pnlParamsTxt"
-msgstr "pnlParamsTxt"
-
-#. frmPascalScriptIDE..pgcMain..tsScript..pnlScriptEditor..Caption
-msgid "pnlScriptEditor"
-msgstr "pnlEditeur de scripts"
-
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Taille du pointeur :"
@@ -3836,6 +3785,10 @@ msgstr ""
 "Couleur\n"
 "de l'ombre"
 
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
+msgid "Shift - snap to active grids (if enabled)"
+msgstr ""
+
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
 msgstr "Raccourci|*.lnk"
@@ -4208,10 +4161,6 @@ msgstr ""
 msgid "Task"
 msgstr "Tâche"
 
-#. frmPascalScriptIDE..tbtlbrMain..Caption
-msgid "tbtlbrMain"
-msgstr "tbtlbrMain"
-
 #. frMergePolygons..tbTop..Caption
 msgid "tbTop"
 msgstr "tbTop"
@@ -4390,14 +4339,6 @@ msgstr "Largeur de la piste"
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try to re-download missing tiles"
 msgstr "Essayer de re-télécharger les dalles manquantes"
-
-#. frmPascalScriptIDE..pgcMain..tsParams..Caption
-msgid "tsParams"
-msgstr "tsParams"
-
-#. frmPascalScriptIDE..pgcMain..tsScript..Caption
-msgid "tsScript"
-msgstr "tsScript"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
@@ -4748,6 +4689,62 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid ""
+#~ "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv,*.jpg)|"
+#~ "*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv;*.jpg|Google KML files (*.kml)|"
+#~ "*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ "
+#~ "files (*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*."
+#~ "hlg|GPS Exchange files (*.gpx)|*.gpx|Universal CSV files (*.csv)|*.csv|"
+#~ "JPEG Image whtg GPS Exif (*.jpg)|*.jpg"
+#~ msgstr ""
+#~ "Tous formats compatibles (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv,*."
+#~ "jpg)|*.kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv;*.jpg|Fichiers Google KML "
+#~ "(*.kml)|*.kml|OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|"
+#~ "Fichiers Google KMZ (*.kmz)|*.kmz|Session de téléchargement (*.sls)|*.sls|"
+#~ "Sélection (*.hlg)|*.hlg|Fichiers GPS Exchange (*.gpx)|*.gpx|Fichiers "
+#~ "universels CSV (*.csv)|*.csv|Image JPEG whtg GPS Exif (*.jpg)|*.jpg"
+
+#~ msgid ""
+#~ "All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.jpg)|*.kml;"
+#~ "*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.jpg|Google KML files (*.kml)|*.kml|"
+#~ "OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files "
+#~ "(*.kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS "
+#~ "Exchange files (*.gpx)|*.gpx|JPEG Image with Exif (*.jpg)|*.jpg"
+#~ msgstr ""
+#~ "Tous formats compatibles (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.jpg)|*."
+#~ "kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.jpg|Fichiers Google KML (*.kml)|*.kml|"
+#~ "OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Fichiers Google "
+#~ "KMZ (*.kmz)|*.kmz|Session de téléchargement (*.sls)|*.sls|Sélection (*."
+#~ "hlg)|*.hlg|Fichiers GPS Exchange (*.gpx)|*.gpx|Image JPEG avec Exif (*."
+#~ "jpg)|*.jpg"
+
+#~ msgid ""
+#~ "Alt - snap to Lat/Lon grid (if enabled)\n"
+#~ "Ctrl - snap to tile boundaries\n"
+#~ "Shift - snap to GenShtab boundaries (if enabled)"
+#~ msgstr ""
+#~ "Alt - va vers la grille Lat/Lon (si autorisé)\n"
+#~ "Ctrl - va vers les frontières de dalle \n"
+#~ "Shift - va vers les frontières de GenShtab (si autorisé)"
+
+#~ msgid "pnlLog"
+#~ msgstr "pnlLog"
+
+#~ msgid "pnlParamsTxt"
+#~ msgstr "pnlParamsTxt"
+
+#~ msgid "pnlScriptEditor"
+#~ msgstr "pnlEditeur de scripts"
+
+#~ msgid "tbtlbrMain"
+#~ msgstr "tbtlbrMain"
+
+#~ msgid "tsParams"
+#~ msgstr "tsParams"
+
+#~ msgid "tsScript"
+#~ msgstr "tsScript"
 
 #~ msgid "Overlay layer"
 #~ msgstr "Couche"

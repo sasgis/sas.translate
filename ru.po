@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-10-19 18:02\n"
-"PO-Revision-Date: 2015-10-19 18:06+0300\n"
+"POT-Creation-Date: 2015-10-22 12:02\n"
+"PO-Revision-Date: 2015-10-22 12:06+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,10 +22,6 @@ msgstr "-- г.м. (-12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- г.м.с. (-12°23\"43.35')"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..Caption
-msgid " Kosmosnimki "
-msgstr " Космоснимки "
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
 msgid " RosCosmos "
@@ -465,36 +461,6 @@ msgstr "Все по умолчанию"
 msgid "All compatible formats"
 msgstr "Все поддерживаемые форматы"
 
-#. frmMarksExplorer..OpenDialog1....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv,*.jpg)|*."
-"kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv;*.jpg|Google KML files (*.kml)|*.kml|"
-"OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*."
-"kmz)|*.kmz|Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS "
-"Exchange files (*.gpx)|*.gpx|Universal CSV files (*.csv)|*.csv|JPEG Image "
-"whtg GPS Exif (*.jpg)|*.jpg"
-msgstr ""
-"Все поддерживаемые типы (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.csv,*.jpg)|*."
-"kml;*.plt;*.kmz;*.sls;*.hlg;*.gpx;*.csv;*.jpg|Google KML файлы (*.kml)|*.kml|"
-"OziExplorer Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ файлы (*."
-"kmz)|*.kmz|Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS "
-"Exchange files (*.gpx)|*.gpx|Универсальные CSV файлы (*.csv)|*.csv|JPEG "
-"изображения с GPS Exif (*.jpg)|*.jpg"
-
-#. frmMain..OpenSessionDialog....Filter
-msgid ""
-"All compatible formats (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.jpg)|*.kml;*."
-"plt;*.kmz;*.sls;*.hlg;*.gpx;*.jpg|Google KML files (*.kml)|*.kml|OziExplorer "
-"Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|"
-"Download session (*.sls)|*.sls|Selection (*.hlg)|*.hlg|GPS Exchange files (*."
-"gpx)|*.gpx|JPEG Image with Exif (*.jpg)|*.jpg"
-msgstr ""
-"Все поддерживаемые типы  (*.kml,*.plt,*.kmz,*.sls,*.hlg,*.gpx,*.jpg)|*.kml;*."
-"plt;*.kmz;*.sls;*.hlg;*.gpx;*.jpg|Google KML files (*.kml)|*.kml|OziExplorer "
-"Track Point File Version 2.1 (*.plt)|*.plt|Google KMZ files (*.kmz)|*.kmz|"
-"Сессия загрузки (*.sls)|*.sls|Файл выделения (*.hlg)|*.hlg|GPS Exchange "
-"files (*.gpx)|*.gpx|JPEG изображения с Exif (*.jpg)|*.jpg"
-
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
 msgid "All Images"
 msgstr "Все снимки"
@@ -506,16 +472,6 @@ msgstr "Все сервисы"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
 msgstr "Все видимы"
-
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT....Hint
-msgid ""
-"Alt - snap to Lat/Lon grid (if enabled)\n"
-"Ctrl - snap to tile boundaries\n"
-"Shift - snap to GenShtab boundaries (if enabled)"
-msgstr ""
-"Alt - согласно включённой градусной сетке\n"
-"Ctrl - согласно границам тайлов\n"
-"Shift - согласно включённой бланковке ГШ"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -2068,9 +2024,8 @@ msgstr ""
 msgid "HTTP %d Not Found"
 msgstr ""
 
-#, fuzzy
 msgid "HTTP %d Unknown Error"
-msgstr "Неизвестная ошибка: %s"
+msgstr "HTTP %d Неизвестная ошибка"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
@@ -2256,6 +2211,10 @@ msgstr "км2"
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
 msgid "KML (for Google Earth)"
 msgstr "KML (Для просмотра в GE)"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..Caption
+msgid "Kosmosnimki"
+msgstr "Космоснимки"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkSearchKosmosnimki..Caption
 msgid "Kosmosnimki (search.kosmosnimki.ru)"
@@ -3185,18 +3144,6 @@ msgstr "PNG (полноцветный с прозрачностью)"
 msgid "PNG (TrueColor)"
 msgstr "PNG (полноцветный)"
 
-#. frmPascalScriptIDE..pgcMain..tsScript..pnlLog..Caption
-msgid "pnlLog"
-msgstr ""
-
-#. frmPascalScriptIDE..pgcMain..tsParams..pnlParamsTxt..Caption
-msgid "pnlParamsTxt"
-msgstr ""
-
-#. frmPascalScriptIDE..pgcMain..tsScript..pnlScriptEditor..Caption
-msgid "pnlScriptEditor"
-msgstr ""
-
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Размер указателя направления:"
@@ -3795,6 +3742,10 @@ msgstr "Параметры"
 msgid "Shadow color"
 msgstr "Цвет тени"
 
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
+msgid "Shift - snap to active grids (if enabled)"
+msgstr ""
+
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
 msgstr "Ярлык|*.lnk"
@@ -4167,10 +4118,6 @@ msgstr ""
 msgid "Task"
 msgstr "Операция"
 
-#. frmPascalScriptIDE..tbtlbrMain..Caption
-msgid "tbtlbrMain"
-msgstr ""
-
 #. frMergePolygons..tbTop..Caption
 msgid "tbTop"
 msgstr ""
@@ -4345,14 +4292,6 @@ msgstr "Ширина трека:"
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try to re-download missing tiles"
 msgstr "Пытаться загружать отсутствующие тайлы"
-
-#. frmPascalScriptIDE..pgcMain..tsParams..Caption
-msgid "tsParams"
-msgstr ""
-
-#. frmPascalScriptIDE..pgcMain..tsScript..Caption
-msgid "tsScript"
-msgstr ""
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
@@ -4698,68 +4637,3 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
-
-#~ msgid "Overlay layer"
-#~ msgstr "Наложить"
-
-#~ msgid "Shows DGPS"
-#~ msgstr "Отображает DGPS"
-
-#~ msgid "Shows HDOP"
-#~ msgstr "Отображает HDOP"
-
-#~ msgid "Shows VDOP"
-#~ msgstr "Отображает VDOP"
-
-#~ msgid "'%s' is not a valid GUID value"
-#~ msgstr "'%s' невалидный GUID"
-
-#~ msgid "Are you sure you want switch to database \"%s\"?"
-#~ msgstr "Вы действительно хотите переключиться на базу \"%s\"?"
-
-#~ msgid "Operation type"
-#~ msgstr "Тип операции"
-
-#~ msgid "Save as.."
-#~ msgstr "Сохранить как..."
-
-#, fuzzy
-#~ msgid "Can't use in-memory tile storage as output format!"
-#~ msgstr "Невозможно создать хранилище в памяти. Проверьте настройки."
-
-#~ msgid "Header"
-#~ msgstr "Заголовок"
-
-#~ msgid "Cancelled"
-#~ msgstr "Отменено"
-
-#~ msgid ""
-#~ "Compressed Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
-#~ "(kml)|*.kml"
-#~ msgstr ""
-#~ "Упакованный Keyhole Markup Language (kmz)|*.kmz|Keyhole Markup Language "
-#~ "(kml)|*.kml"
-
-#~ msgid "Downloading attachments..."
-#~ msgstr "Загрузка вложений..."
-
-#~ msgid "Failed"
-#~ msgstr "Ошибка"
-
-#~ msgid "No attachments"
-#~ msgstr "Нет вложений"
-
-#~ msgid "Skipped"
-#~ msgstr "Пропущено"
-
-#~ msgid "Use Fly-on-Track mode (overrides ALL settings if checked)"
-#~ msgstr "Выбрать Fly-on-Track (отменяет ВСЕ выбранные настройки)"
-
-#~ msgid "Use Garmin via USB (overrides COM settings if checked)"
-#~ msgstr "Выбрать Garmin USB (отменяет выбор COM-порта)"
-
-#~ msgid "Use Location API (overrides PREV settings if checked)"
-#~ msgstr "Выбрать Location API (отменяет РАНЕЕ выбранные настройки)"
-
-#~ msgid "Quality (for JPEG and ECW):"
-#~ msgstr "Качество (для JPEG и ECW):"
