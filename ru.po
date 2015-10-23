@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-10-22 12:02\n"
-"PO-Revision-Date: 2015-10-22 12:06+0300\n"
+"POT-Creation-Date: 2015-10-23 21:13\n"
+"PO-Revision-Date: 2015-10-23 21:21+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -557,10 +557,16 @@ msgstr "Цвет стрелки:"
 msgid "Attention!"
 msgstr "Внимание!"
 
+#. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
+msgid "Attribution:"
+msgstr "Атрибуция:"
+
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -949,6 +955,7 @@ msgid "Compressing to ZIP"
 msgstr "Упаковка в ZIP"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
@@ -1238,8 +1245,9 @@ msgstr "Удаляет:"
 
 #. frmDGAvailablePic..gbImageParams..Caption
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
 msgid "Description:"
-msgstr "Описание"
+msgstr "Описание:"
 
 msgid ""
 "Description:<br>\n"
@@ -2067,6 +2075,7 @@ msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
@@ -2453,6 +2462,7 @@ msgstr "Карта/Слой:"
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
@@ -2524,6 +2534,14 @@ msgstr "Скорость максимальная"
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
 msgstr "Мб"
+
+#. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
+msgid "MBTiles 1.2 (SQLite)"
+msgstr ""
+
+#. frExportMBTiles..dlgSaveTo..Filter
+msgid "mbtiles|*.mbtiles"
+msgstr ""
 
 #. frMapsList..MapList......Caption
 msgid "Menu"
@@ -2631,6 +2649,7 @@ msgstr "Имя (в списке)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
 msgid "Name:"
 msgstr "Имя:"
 
@@ -2900,6 +2919,7 @@ msgstr "Результирующий формат:"
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
@@ -3103,6 +3123,9 @@ msgstr "Сначала необходимо выбрать тип метки"
 msgid "Please select map or layer"
 msgstr "Сначала необходимо выбрать карту или слой"
 
+msgid "Please select output file"
+msgstr "Пожалуйста выберите целевой файл"
+
 msgid "Please select output folder"
 msgstr "Пожалуйста, укажите целевую папку"
 
@@ -3127,18 +3150,21 @@ msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr "PNG (индексированные цвета)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr "PNG (полноцветный с прозрачностью)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
@@ -3155,9 +3181,8 @@ msgstr "Количество точек: %d"
 msgid "Polygon %0:d"
 msgstr "Полигон %0:d"
 
-#, fuzzy
 msgid "Polygon isn't selected"
-msgstr "Не выбрано ни одного полигона!"
+msgstr "Не выбран полигон"
 
 #. frMarksGeneralOptions..grpPoly..Caption
 msgid "Polygon parameters"
@@ -3262,9 +3287,8 @@ msgstr "Проецирование"
 msgid "Projection"
 msgstr "Проекция"
 
-#, fuzzy
 msgid "Projection isn't selected"
-msgstr "Проекция слоя"
+msgstr "Не выбрана проекция"
 
 msgid "Projection of layer"
 msgstr "Проекция слоя"
@@ -3293,6 +3317,7 @@ msgid "Proxy password:"
 msgstr "и пароль:"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -3564,6 +3589,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
+#. frExportMBTiles..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
@@ -3744,7 +3770,7 @@ msgstr "Цвет тени"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
 msgid "Shift - snap to active grids (if enabled)"
-msgstr ""
+msgstr "Shif - прилипать к активным сеткам (если включено)"
 
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
@@ -4444,11 +4470,16 @@ msgstr "Использовать Thumbnail в качестве иконки"
 msgid "Use tile from lower zoom if tile not available"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 
+#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
+
+#. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
+msgid "Use xyz scheme"
+msgstr "Использовать xyz схему"
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"

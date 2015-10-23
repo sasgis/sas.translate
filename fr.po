@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-10-22 12:02\n"
+"POT-Creation-Date: 2015-10-23 21:13\n"
 "PO-Revision-Date: 2015-09-24 11:50+0200\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "Language-Team: \n"
@@ -573,10 +573,17 @@ msgstr "Couleur de flèche :"
 msgid "Attention!"
 msgstr "Attention !"
 
+#. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
+#, fuzzy
+msgid "Attribution:"
+msgstr "Attention !"
+
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -969,6 +976,7 @@ msgid "Compressing to ZIP"
 msgstr "Compression en ZIP"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
@@ -1261,6 +1269,7 @@ msgstr "En train de supprimer :"
 
 #. frmDGAvailablePic..gbImageParams..Caption
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
 msgid "Description:"
 msgstr "Description :"
 
@@ -2106,6 +2115,7 @@ msgid "Ignore polygons"
 msgstr "Ignorer les polygones"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
@@ -2494,6 +2504,7 @@ msgstr "Couche :"
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
@@ -2567,6 +2578,14 @@ msgstr "Vitesse maximum"
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
 msgstr "Mb"
+
+#. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
+msgid "MBTiles 1.2 (SQLite)"
+msgstr ""
+
+#. frExportMBTiles..dlgSaveTo..Filter
+msgid "mbtiles|*.mbtiles"
+msgstr ""
 
 #. frMapsList..MapList......Caption
 msgid "Menu"
@@ -2674,6 +2693,7 @@ msgstr "Nom (sur la liste)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
 msgid "Name:"
 msgstr "Nom :"
 
@@ -2943,6 +2963,7 @@ msgstr "Format de sortie :"
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
@@ -3146,6 +3167,10 @@ msgstr "SVP, sélectionner au moins un type de marqueur"
 msgid "Please select map or layer"
 msgstr "SVP, sélectionner une carte ou une couche"
 
+#, fuzzy
+msgid "Please select output file"
+msgstr "SVP, sélectionner le répertoire de sortie"
+
 msgid "Please select output folder"
 msgstr "SVP, sélectionner le répertoire de sortie"
 
@@ -3170,18 +3195,21 @@ msgid "Please, select output file first!"
 msgstr "SVP, sélectionner le fichier de sortie d'abord !"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr "PNG (couleurs indexées)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr "PNG (vraies couleurs+ alpha)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
@@ -3336,6 +3364,7 @@ msgid "Proxy password:"
 msgstr "Mot de passe du proxy :"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -3605,6 +3634,7 @@ msgstr "Sauvegarder l'info de sélection dans un fichier"
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
+#. frExportMBTiles..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
@@ -4495,12 +4525,17 @@ msgstr ""
 "Utilisation des dalles à partir du plus petit zoom si les dalles ne sont pas "
 "disponibles"
 
+#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr ""
 "Utilisation des dalles à partir du plus petit zoom si dalles non valides"
+
+#. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
+msgid "Use xyz scheme"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"

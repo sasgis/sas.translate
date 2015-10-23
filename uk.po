@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-10-22 12:02\n"
+"POT-Creation-Date: 2015-10-23 21:13\n"
 "PO-Revision-Date: 2013-03-10 19:01+0400\n"
 "Last-Translator: Viktor Demidov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -558,10 +558,17 @@ msgstr "Колір стрілки:"
 msgid "Attention!"
 msgstr "Увага!"
 
+#. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
+#, fuzzy
+msgid "Attribution:"
+msgstr "Увага!"
+
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -950,6 +957,7 @@ msgid "Compressing to ZIP"
 msgstr "Запакування в ZIP"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
@@ -1240,6 +1248,7 @@ msgstr "Видаляє:"
 
 #. frmDGAvailablePic..gbImageParams..Caption
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
 msgid "Description:"
 msgstr "Опис:"
 
@@ -2073,6 +2082,7 @@ msgid "Ignore polygons"
 msgstr "Ігнорувати полігони"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
@@ -2461,6 +2471,7 @@ msgstr "Карта/Шар:"
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
@@ -2532,6 +2543,14 @@ msgstr "Максимальна швидкість"
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
 msgstr "Мб"
+
+#. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
+msgid "MBTiles 1.2 (SQLite)"
+msgstr ""
+
+#. frExportMBTiles..dlgSaveTo..Filter
+msgid "mbtiles|*.mbtiles"
+msgstr ""
 
 #. frMapsList..MapList......Caption
 msgid "Menu"
@@ -2640,6 +2659,7 @@ msgstr "Ім'я (у списку)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
 msgid "Name:"
 msgstr "Назва:"
 
@@ -2909,6 +2929,7 @@ msgstr "Результуючий формат:"
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
@@ -3113,6 +3134,10 @@ msgstr "Спочатку треба обрати тип позначки"
 msgid "Please select map or layer"
 msgstr "Спочатку треба вибрати карту або шар"
 
+#, fuzzy
+msgid "Please select output file"
+msgstr "Будьласка, оберіть спочатку вихідну папку!"
+
 msgid "Please select output folder"
 msgstr "Будьласка, оберіть спочатку вихідну папку!"
 
@@ -3137,18 +3162,21 @@ msgid "Please, select output file first!"
 msgstr "Будьласка, оберіть спочатку вихідний файл!"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr "PNG (індексовані кольори)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr "PNG (повнокольоровий з прозорістю)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
@@ -3301,6 +3329,7 @@ msgid "Proxy password:"
 msgstr "Пароль проксі:"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -3569,6 +3598,7 @@ msgstr "Зберегти  виділення у файл"
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
+#. frExportMBTiles..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
@@ -4453,11 +4483,16 @@ msgstr "Використовувати Thumbnail у якості іконки"
 msgid "Use tile from lower zoom if tile not available"
 msgstr "Використовувати вищерозміщені шари, якщо поточний відсутній"
 
+#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Використовувати вищерозміщені шари, якщо поточний відсутній"
+
+#. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
+msgid "Use xyz scheme"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
