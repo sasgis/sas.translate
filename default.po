@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-11-02 09:08\n"
-"PO-Revision-Date: 2015-11-02 09:08\n"
+"POT-Creation-Date: 2015-11-07 19:51\n"
+"PO-Revision-Date: 2015-11-07 19:51\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -606,11 +606,6 @@ msgstr ""
 msgid "Autodetect on connect"
 msgstr ""
 
-#. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
-msgid "Automatically detect location using GSM phone (Google "
-"query)"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr ""
@@ -674,7 +669,6 @@ msgid "BerkeleyDB cache folder:"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
 msgstr ""
 
@@ -992,10 +986,6 @@ msgid "Connection settings"
 msgstr ""
 
 msgid "Connection string"
-msgstr ""
-
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
-msgid "Connection timeout"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
@@ -1381,12 +1371,12 @@ msgstr ""
 msgid "Distance to placemark:"
 msgstr ""
 
-#. frmPointProjecting..pnlDist..lblDist..Caption
-msgid "Distance, km"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1Caption
 msgid "Distance, km:"
+msgstr ""
+
+#. frmPointProjecting..pnlDist..lblDist..Caption
+msgid "Distance, m"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_MarshLen
@@ -1890,10 +1880,6 @@ msgstr ""
 
 msgid "Geographic (Latitude/Longitude) / WGS84 / "
 "EPSG:4326"
-msgstr ""
-
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmPositionByGSM..Caption
-msgid "Get Locaton from GSM (Google Query)"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
@@ -3303,11 +3289,8 @@ msgid "Project"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..tbitmPointProject..Caption
-msgid "Project Point"
-msgstr ""
-
 #. frmPointProjecting..Caption
-msgid "Projecting"
+msgid "Project New Placemark"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
@@ -3733,7 +3716,6 @@ msgid "Sensors"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
 msgid "Serial port"
 msgstr ""
 

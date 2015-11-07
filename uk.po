@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-11-02 09:08\n"
+"POT-Creation-Date: 2015-11-07 19:51\n"
 "PO-Revision-Date: 2013-03-10 19:01+0400\n"
 "Last-Translator: Viktor Demidov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -421,16 +421,8 @@ msgid "Add visible Cached Tiles Map"
 msgstr "Наладати видиму Карту заповнення"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapGrids..Caption
-msgid "Add visible grids"
-msgstr "Накладати сітки, що показуються"
-
-#. frMapCombine..pnlBottom..pnlOptions..chkUseMapGrids..Caption
 msgid "Add visible Grids"
 msgstr "Накладати сітки, що показуються"
-
-#. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
-msgid "Add visible layers"
-msgstr "Накладати шари, що показуються"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
@@ -524,8 +516,7 @@ msgid "Are you sure you want to delete path with name \"%0:s\"?"
 msgstr "Ви дійсно хочете видалити шлях „%0:s“?"
 
 msgid ""
-"Are you sure you want to delete placemark of unknown type with name \"%0:"
-"s\"?"
+"Are you sure you want to delete placemark of unknown type with name \"%0:s\"?"
 msgstr "Ви дійсно хочете видалити позначку невідомого типу \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
@@ -605,15 +596,6 @@ msgstr "Автопошук підключеного COM-порту"
 msgid "Autodetect on connect"
 msgstr "Автовизначення при підключенні"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
-msgid "Autodetect on conntect"
-msgstr "Автовизначення при підключенні"
-
-#. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
-msgid "Automatically detect location using GSM phone (Google query)"
-msgstr ""
-"Автоматично визначати параметри базових станцій через під’єднаний телефон"
-
 #. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr "Автоматично зберігати маршрут:"
@@ -677,7 +659,6 @@ msgid "BerkeleyDB cache folder:"
 msgstr "Шлях до кешу BerkeleyDB:"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
 msgstr "Швидкість, біт/с"
 
@@ -949,9 +930,11 @@ msgid "Community  (http://www.sasgis.org/forum)"
 msgstr "Обговорення (http://sasgis.org/forum)"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
-msgid "Compilation error in script \n"
+msgid ""
+"Compilation error in script \n"
 "%0:s"
-msgstr "Помилка у скрипті при компіляції \n"
+msgstr ""
+"Помилка у скрипті при компіляції \n"
 "%0:s"
 
 #. frmAbout..lblCompiler..Caption
@@ -998,13 +981,8 @@ msgstr "Налаштування з’єднання"
 msgid "Connection string"
 msgstr "Налаштування з’єднання"
 
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
-msgid "Connection timeout"
-msgstr "Очікування відповіді"
-
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
-msgid ""
-"Connection to external tile storage is dead and cannot be reestablished"
+msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr "З’єднання з СУБД розірвано"
 
 #. Programmer's name for it: SAS_STR_Contrast
@@ -1262,7 +1240,8 @@ msgstr "Видаляє:"
 msgid "Description:"
 msgstr "Опис:"
 
-msgid "Description:<br>\n"
+msgid ""
+"Description:<br>\n"
 "%s"
 msgstr "Опис:<br> %s"
 
@@ -1283,8 +1262,7 @@ msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
 msgstr "Маршрут для велосипеда (найкоротший) yournavigation.org"
 
 msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
-msgstr ""
-"Маршрут для автомобіля (найшвидший з урахуванням трафіку) Maps@mail.ru"
+msgstr "Маршрут для автомобіля (найшвидший з урахуванням трафіку) Maps@mail.ru"
 
 msgid "Detalize route by car (Fastest) with cloudmade.com"
 msgstr "Маршрут для автомобіля (найшвидший) cloudmade.com"
@@ -1375,12 +1353,13 @@ msgstr "Відстань до позначки"
 msgid "Distance to placemark:"
 msgstr "Відстань до позначки:"
 
-#. frmPointProjecting..pnlDist..lblDist..Caption
-msgid "Distance, km"
-msgstr "Відстань, км:"
-
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1Caption
 msgid "Distance, km:"
+msgstr "Відстань, км:"
+
+#. frmPointProjecting..pnlDist..lblDist..Caption
+#, fuzzy
+msgid "Distance, m"
 msgstr "Відстань, км:"
 
 #. Programmer's name for it: SAS_STR_MarshLen
@@ -1700,9 +1679,11 @@ msgid "File"
 msgstr "Файл"
 
 #. Programmer's name for it: SAS_MSG_FileExists
-msgid "File %0:s is available on disk.\n"
+msgid ""
+"File %0:s is available on disk.\n"
 "Replace?"
-msgstr "Файл %0:s вже є на диску.\n"
+msgstr ""
+"Файл %0:s вже є на диску.\n"
 "Замінити?"
 
 #. Programmer's name for it: SAS_ERR_FileNotExistFmt
@@ -1881,10 +1862,6 @@ msgstr "Географічні"
 
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr ""
-
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmPositionByGSM..Caption
-msgid "Get Locaton from GSM (Google Query)"
-msgstr "Визначити позицію за базовими станціями стільникової мережі"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
 msgid "GetUrlScript"
@@ -2156,6 +2133,12 @@ msgstr "Вхідні змінні"
 msgid "Interface"
 msgstr "Елементи інтерфейсу"
 
+#. Programmer's name for it: SInterfaceIsNilError
+#. Programmer's name for it: SInterfaceIsNilError
+#, fuzzy
+msgid "Interface is nil"
+msgstr "Налаштування інтерфейсу"
+
 #. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
 #. frmMapLayersOptions..Caption
 msgid "Interface Options"
@@ -2178,6 +2161,11 @@ msgstr "Інтернет і кеш"
 #. frMergePolygons..tbTop..tbOperationType..tbtmAND..Caption
 msgid "Intersection (AND)"
 msgstr "Перетин (AND)"
+
+#. Programmer's name for it: rsInvalidDelete
+msgid ""
+"Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
 msgid "iPhone (version 2.2 and above, 128x128)"
@@ -2304,6 +2292,21 @@ msgstr "Ліцензія"
 msgid "Line:"
 msgstr "Лінія:"
 
+#. Programmer's name for it: SListCapacityError
+#. Programmer's name for it: SListCapacityError
+msgid "List capacity out of bounds (%d)"
+msgstr ""
+
+#. Programmer's name for it: SListCountError
+#. Programmer's name for it: SListCountError
+msgid "List count out of bounds (%d)"
+msgstr ""
+
+#. Programmer's name for it: SListIndexError
+#. Programmer's name for it: SListIndexError
+msgid "List index out of bounds (%d)"
+msgstr ""
+
 msgid "Listings"
 msgstr "Лістинги"
 
@@ -2338,6 +2341,14 @@ msgstr ""
 #. frLonLat..grdpnlLonLat..lblLon..Caption
 msgid "Longitude:"
 msgstr "Довгота:"
+
+#. Programmer's name for it: rsCmdLineArgProcessorLonLatOutOfBounds
+msgid "LonLatOutOfBounds"
+msgstr ""
+
+#. Programmer's name for it: rsCmdLineArgProcessorLonLatParserError
+msgid "LonLatParserError"
+msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkLowResolutionToo..Caption
 msgid "Low Resolution too"
@@ -2890,11 +2901,6 @@ msgstr "Інші"
 msgid "Others"
 msgstr "Інші"
 
-#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-msgid "Overlay layer"
-msgstr "Накласти шар:"
-
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineOutlineColor..Caption
 msgid "Outline color:"
 msgstr "Колір обрамлення:"
@@ -2943,6 +2949,12 @@ msgstr "Параметр"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
 msgid "Params"
+msgstr "Параметр"
+
+#. frmMapTypeEdit..PageControl1..tsParams..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Hint
+#, fuzzy
+msgid "Params.txt"
 msgstr "Параметр"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
@@ -3261,12 +3273,10 @@ msgid "Project"
 msgstr "Спроектувати"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..tbitmPointProject..Caption
-msgid "Project Point"
-msgstr "Спроектувати точку"
-
 #. frmPointProjecting..Caption
-msgid "Projecting"
-msgstr "Проектування"
+#, fuzzy
+msgid "Project New Placemark"
+msgstr "Додати нову позначку"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
@@ -3349,9 +3359,11 @@ msgstr "Тільки читання"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress3....Hint
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress4....Hint
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress5....Hint
-msgid "Re-compress JPEG tiles\n"
+msgid ""
+"Re-compress JPEG tiles\n"
 "Note: Non-JPEG tiles are always recompressed"
-msgstr "Стиснення JPEG тайлів\n"
+msgstr ""
+"Стиснення JPEG тайлів\n"
 "Увага: Не-JPEG тайли завжди стискуються "
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
@@ -3378,6 +3390,10 @@ msgstr "Період оновлення (мс)"
 #. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Відносний шлях до тайлів"
+
+#. frmUpdateChecker..cbbChannel....Items.Strings
+msgid "Release (stable)"
+msgstr ""
 
 #. frMergePolygons..tbTop..tbtmClear..Hint
 msgid "Remove All"
@@ -3483,6 +3499,10 @@ msgstr "Команда розробників SAS.Планета"
 #. Programmer's name for it: SAS_MSG_need_reload_application_curln
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr "Для того щоб зміни набрали чинності, слід перезавантажити програму"
+
+#. Programmer's name for it: rsCmdLineArgProcessorSASExceptionRaised
+msgid "SASExceptionRaised"
+msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
@@ -3691,7 +3711,6 @@ msgid "Sensors"
 msgstr "Датчики"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
 msgid "Serial port"
 msgstr "COM-порт"
 
@@ -3871,9 +3890,9 @@ msgstr "Приховати/Показати підписи"
 msgid "Show/Hide Password"
 msgstr "Приховати/Показати пароль"
 
-#. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
-msgid "Shows DGPS"
-msgstr "Показує DGPS"
+#. Programmer's name for it: rsCmdLineArgProcessorShowMarksParserError
+msgid "ShowMarksParserError"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedDescription
 msgid "Shows average speed"
@@ -3895,10 +3914,6 @@ msgstr "Показує DGPS"
 msgid "Shows distance since last GPS connection"
 msgstr ""
 "Показує пройдений шлях, який розраховується від під’єднання до GPS-приймача"
-
-#. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
-msgid "Shows HDOP"
-msgstr "Показує HDOP"
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointDescription
 msgid "Shows distance to selected placemark"
@@ -3936,10 +3951,6 @@ msgstr "Показує час сходу Сонця в точці GPS"
 msgid "Shows Sunset time for current position"
 msgstr "Показує час заходу Сонця в точці GPS"
 
-#. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
-msgid "Shows VDOP"
-msgstr "Показує VDOP"
-
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingDescription
 msgid "Shows the course"
 msgstr "Показує азимут напрямку руху"
@@ -3956,6 +3967,9 @@ msgstr "Показує час UTC"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
 msgid "Shows vertical dilution of precision"
 msgstr "Показує VDOP"
+
+msgid "Size of answer is zero"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_Resolution
 msgid "size:"
@@ -3976,6 +3990,10 @@ msgstr "Пропущено:"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnl1..lbl1..Caption
 msgid "Sleep on reset connection, ms"
 msgstr "Пауза, у випадку втрати зв'язку, мс"
+
+#. Programmer's name for it: rsSMLMarksDbName
+msgid "SML"
+msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
 msgid "Snap to Existing Markers"
@@ -4025,6 +4043,10 @@ msgstr "SPOT 5 - 5м Ч/Б"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS11..Caption
 msgid "SPOT 5 - 5m Color"
 msgstr "SPOT 5 - 5м Колір"
+
+#. Programmer's name for it: rsORMSQLiteMarksDbName
+msgid "SQLite3"
+msgstr ""
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
@@ -4114,6 +4136,15 @@ msgstr ""
 msgid "Task"
 msgstr "Операція"
 
+#. frMergePolygons..tbTop..Caption
+msgid "tbTop"
+msgstr ""
+
+#. frmMarksExplorer..TBXToolbar3..Caption
+#, fuzzy
+msgid "TBXToolbar3"
+msgstr "Панелі"
+
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
@@ -4183,9 +4214,11 @@ msgid "Tile"
 msgstr "Тайлові"
 
 #. Programmer's name for it: SAS_MSG_TileExists
-msgid "Tile %0:s is available in cache.\n"
+msgid ""
+"Tile %0:s is available in cache.\n"
 "Replace?"
-msgstr "Тайл %0:s вже є у Вас у кеші.\n"
+msgstr ""
+"Тайл %0:s вже є у Вас у кеші.\n"
 "Замінити знов завантаженим?"
 
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..Label23..Caption
@@ -4213,6 +4246,11 @@ msgstr "Такого зображення немає на сервері! Нул
 #. crop single tile
 msgid "Tile is recognized as empty"
 msgstr "Тайл розпізнано як порожній"
+
+#. Programmer's name for it: rsTMSCacheName
+#, fuzzy
+msgid "Tile Map Service (TMS)"
+msgstr "Шлях до кешу Tile Map Service (TMS):"
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Шлях до кешу Tile Map Service (TMS):"
@@ -4284,6 +4322,9 @@ msgstr "Неможливо визначити позицію"
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Неможливо завантажити жодної карти! Преривання..."
+
+msgid "Unexpected content type %s"
+msgstr ""
 
 msgid "Unexpected proxy authorization"
 msgstr "Помилка авторизації на проксі"
@@ -4551,6 +4592,11 @@ msgstr "Ваша версія:"
 msgid "yournavigation.org (OSM)"
 msgstr "Засобами yournavigation.org (OSM)"
 
+#. frmPascalScriptIDE..dlgOpenZmpFile..Filter
+#. frmPascalScriptIDE..dlgSaveZmpFile..Filter
+msgid "ZMP | *.zmp"
+msgstr ""
+
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
 msgstr "Шлях до файла"
@@ -4564,6 +4610,10 @@ msgstr ""
 "ZMP було змінено, але не збережено!\n"
 "\n"
 "Ви дійсно хочете закрити вікно без збереження?"
+
+#. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
+msgid "ZMP:"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
@@ -4598,6 +4648,15 @@ msgstr "Масштабувати за курсором"
 msgid "Zoom:"
 msgstr "Масштаб:"
 
+#. Programmer's name for it: rsCmdLineArgProcessorZoomOutOfBounds
+#, fuzzy
+msgid "ZoomOutOfBounds"
+msgstr "Зменшити"
+
+#. Programmer's name for it: rsCmdLineArgProcessorZoomParserError
+msgid "ZoomParserError"
+msgstr ""
+
 #. frZoomsSelect..lblZooms..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
 msgid "Zooms:"
@@ -4606,3 +4665,40 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Project Point"
+#~ msgstr "Спроектувати точку"
+
+#~ msgid "Projecting"
+#~ msgstr "Проектування"
+
+#~ msgid "Automatically detect location using GSM phone (Google query)"
+#~ msgstr ""
+#~ "Автоматично визначати параметри базових станцій через під’єднаний телефон"
+
+#~ msgid "Connection timeout"
+#~ msgstr "Очікування відповіді"
+
+#~ msgid "Get Locaton from GSM (Google Query)"
+#~ msgstr "Визначити позицію за базовими станціями стільникової мережі"
+
+#~ msgid "Add visible grids"
+#~ msgstr "Накладати сітки, що показуються"
+
+#~ msgid "Add visible layers"
+#~ msgstr "Накладати шари, що показуються"
+
+#~ msgid "Autodetect on conntect"
+#~ msgstr "Автовизначення при підключенні"
+
+#~ msgid "Overlay layer"
+#~ msgstr "Накласти шар:"
+
+#~ msgid "Shows DGPS"
+#~ msgstr "Показує DGPS"
+
+#~ msgid "Shows HDOP"
+#~ msgstr "Показує HDOP"
+
+#~ msgid "Shows VDOP"
+#~ msgstr "Показує VDOP"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-11-02 09:08\n"
-"PO-Revision-Date: 2015-11-02 09:10+0300\n"
+"POT-Creation-Date: 2015-11-07 19:51\n"
+"PO-Revision-Date: 2015-11-07 20:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -595,11 +595,6 @@ msgstr "Автопоиск подключённого COM-порта"
 msgid "Autodetect on connect"
 msgstr "Автоопределение при подключении"
 
-#. frmSettings..PageControl1..tsGSM..pnlGSM..chkPosFromGSM..Caption
-msgid "Automatically detect location using GSM phone (Google query)"
-msgstr ""
-"Автоматически определять параметры базовых станций через подключённый телефон"
-
 #. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr "Автоматически сохранять трек:"
@@ -663,7 +658,6 @@ msgid "BerkeleyDB cache folder:"
 msgstr "Путь к кэшу BerkeleyDB:"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
 msgstr "Скорость"
 
@@ -985,10 +979,6 @@ msgstr "Настройки подключения"
 
 msgid "Connection string"
 msgstr "Строка подключения"
-
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label36..Caption
-msgid "Connection timeout"
-msgstr "Ожидание ответа"
 
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
 msgid "Connection to external tile storage is dead and cannot be reestablished"
@@ -1364,13 +1354,13 @@ msgstr "Расстояние до метки"
 msgid "Distance to placemark:"
 msgstr "Расстояние до метки:"
 
-#. frmPointProjecting..pnlDist..lblDist..Caption
-msgid "Distance, km"
-msgstr "Расстояние, км:"
-
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1Caption
 msgid "Distance, km:"
 msgstr "Одометр, км:"
+
+#. frmPointProjecting..pnlDist..lblDist..Caption
+msgid "Distance, m"
+msgstr "Расстояние, м"
 
 #. Programmer's name for it: SAS_STR_MarshLen
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistCaption
@@ -1871,10 +1861,6 @@ msgstr "Географические"
 
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr ""
-
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmPositionByGSM..Caption
-msgid "Get Locaton from GSM (Google Query)"
-msgstr "Определить позицию по базовым станциям сотовой сети"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
 msgid "GetUrlScript"
@@ -3283,12 +3269,9 @@ msgid "Project"
 msgstr "Спроецировать"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..tbitmPointProject..Caption
-msgid "Project Point"
-msgstr "Спроецировать точку"
-
 #. frmPointProjecting..Caption
-msgid "Projecting"
-msgstr "Проецирование"
+msgid "Project New Placemark"
+msgstr "Спроецировать новую метку"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
@@ -3726,7 +3709,6 @@ msgid "Sensors"
 msgstr "Датчики"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
 msgid "Serial port"
 msgstr "Порт"
 
