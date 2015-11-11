@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-11-07 19:51\n"
+"POT-Creation-Date: 2015-11-11 14:30\n"
 "PO-Revision-Date: 2013-03-10 19:01+0400\n"
 "Last-Translator: Viktor Demidov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -2821,6 +2821,7 @@ msgid "Online Help (http://sasgis.org/wikisasiya)"
 msgstr "Довідка (http://sasgis.org/wikisasiya)"
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
+#. frTilesDownload..pnlBottom..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
 msgstr "лише створені до "
 
@@ -4189,6 +4190,12 @@ msgstr ""
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "Розмір цього тайлу дорівнює існуючому, пропускаємо завантаження."
 
+#. Programmer's name for it: SAS_MSG_TneBeCreateTime
+#, fuzzy
+msgid "The tne is newer than the entered age, skipping."
+msgstr ""
+"Цей тайл створено пізніше зазначеного терміну, пропускаємо завантаження."
+
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
 msgstr "Немає доступних об'єктів у пулі!"
@@ -4312,8 +4319,9 @@ msgid "Track width:"
 msgstr "Ширина треку:"
 
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
-msgid "Try to re-download missing tiles"
-msgstr "Намагатись завантажувати відсутні тайли"
+#, fuzzy
+msgid "Try download if tne exists"
+msgstr "Намагатись повторно завантажити тайл за його відсутністю"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
@@ -4665,6 +4673,9 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Try to re-download missing tiles"
+#~ msgstr "Намагатись завантажувати відсутні тайли"
 
 #~ msgid "Project Point"
 #~ msgstr "Спроектувати точку"

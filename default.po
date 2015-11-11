@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-11-07 19:51\n"
-"PO-Revision-Date: 2015-11-07 19:51\n"
+"POT-Creation-Date: 2015-11-11 14:30\n"
+"PO-Revision-Date: 2015-11-11 14:30\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2835,6 +2835,7 @@ msgid "Online Help (http://sasgis.org/wikisasiya)"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
+#. frTilesDownload..pnlBottom..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
 msgstr ""
 
@@ -4188,6 +4189,11 @@ msgid "The tile size is equal to the existing one, "
 "skipping."
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_TneBeCreateTime
+msgid "The tne is newer than the entered age, "
+"skipping."
+msgstr ""
+
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the "
 "pool!"
@@ -4306,7 +4312,7 @@ msgid "Track width:"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
-msgid "Try to re-download missing tiles"
+msgid "Try download if tne exists"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_UnablePposition

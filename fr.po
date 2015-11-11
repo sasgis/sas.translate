@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-11-07 19:51\n"
+"POT-Creation-Date: 2015-11-11 14:30\n"
 "PO-Revision-Date: 2015-11-03 15:41+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -2857,6 +2857,7 @@ msgid "Online Help (http://sasgis.org/wikisasiya)"
 msgstr "Aide en ligne (http://sasgis.org/wikisasiya) en russe"
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
+#. frTilesDownload..pnlBottom..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
 msgstr "Seulement créées avant"
 
@@ -4225,6 +4226,11 @@ msgstr "La dalle est plus récente que celle qui entre : annuler."
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "La dalle a la même taille que celle qui entre : annuler."
 
+#. Programmer's name for it: SAS_MSG_TneBeCreateTime
+#, fuzzy
+msgid "The tne is newer than the entered age, skipping."
+msgstr "La dalle est plus récente que celle qui entre : annuler."
+
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
 msgstr "Il n'y a pas d'objets disponibles dans le lot !"
@@ -4349,8 +4355,9 @@ msgid "Track width:"
 msgstr "Largeur de la piste"
 
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
-msgid "Try to re-download missing tiles"
-msgstr "Essayer de re-télécharger les dalles manquantes"
+#, fuzzy
+msgid "Try download if tne exists"
+msgstr "Réessayer le téléchargement si dalle non trouvée"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
@@ -4704,6 +4711,9 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Try to re-download missing tiles"
+#~ msgstr "Essayer de re-télécharger les dalles manquantes"
 
 #~ msgid "Project Point"
 #~ msgstr "Projection d'une nouvelle balise"
