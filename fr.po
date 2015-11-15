@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-05-13 20:19\n"
+"POT-Creation-Date: 2015-11-16 00:10\n"
 "PO-Revision-Date: 2015-11-13 22:23+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.3\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Language-Team: \n"
 "Language: fr\n"
 "X-Language: fr_FR\n"
 "X-Source-Language: C\n"
@@ -39,37 +39,30 @@ msgid " To "
 msgstr "à"
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPathCaption
-#, qt-format
 msgid "%0:s (MultiPath %d)"
 msgstr "%0:s (Multi-Piste %d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPointCaption
-#, qt-format
 msgid "%0:s (MultiPlacemark %d)"
 msgstr "%0:s (Multi-Marqueur %d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPolygonCaption
-#, qt-format
 msgid "%0:s (MultiPolygon %d)"
 msgstr "%0:s (Multi-Polygone %d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPathCaption
-#, qt-format
 msgid "%0:s (Path)"
 msgstr "%0:s (Piste)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPointCaption
-#, qt-format
 msgid "%0:s (Placemark)"
 msgstr "%0:s (Balise)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPolygonCaption
-#, qt-format
 msgid "%0:s (Polygon)"
 msgstr "%0:s (Polygone)"
 
 #. Programmer's name for it: SAS_STR_DownloadingCaption
-#, qt-format
 msgid "%0:s Downloading"
 msgstr "%0:s Téléchargement"
 
@@ -456,7 +449,7 @@ msgstr "Opérations additionnelles :"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
 #. frZoomsSelect..chkAllZooms..Caption
-#. frTilesCopy..pnlCenter..pnlMain..chkAllMaps..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkAllMaps..Caption
 #. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
 msgid "All"
 msgstr "Tout"
@@ -492,6 +485,7 @@ msgstr "Altitude"
 msgid "Any Available Source"
 msgstr "N'importe quelle source disponible"
 
+#. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
@@ -504,12 +498,10 @@ msgid "Approx. to download:"
 msgstr "Total à télécharger (estimé) :"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
-#, qt-format
 msgid "Are you sure you want to delete %0:d placemarks?"
 msgstr "Etes vous certain de vouloir effacer %0:d balises ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
-#, qt-format
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
 msgstr ""
 "Etes vous certain de vouloir effacer la catégorie avec le nom \"%0:s\"?"
@@ -524,11 +516,9 @@ msgstr ""
 "sélectionnée  ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
-#, qt-format
 msgid "Are you sure you want to delete path with name \"%0:s\"?"
 msgstr "Etes vous certain de vouloir effacer la piste avec le nom \"%0:s\" ?"
 
-#, qt-format
 msgid ""
 "Are you sure you want to delete placemark of unknown type with name \"%0:s\"?"
 msgstr ""
@@ -536,18 +526,15 @@ msgstr ""
 "\"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
-#, qt-format
 msgid "Are you sure you want to delete point with name \"%0:s\"?"
 msgstr "Etes vous certain de vouloir effacer la balise avec le nom \"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPolyAsk
-#, qt-format
 msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
 msgstr ""
 "Etes vous certain de vouloir effacer le polygone avec le nom \"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
-#, qt-format
 msgid "Are you sure you want to delete tile with name \"%0:s\"?"
 msgstr "Etes vous certain de vouloir effacer la dalle avec le nom \"%0:s\" ?"
 
@@ -585,6 +572,12 @@ msgstr "Attribution :"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
@@ -674,7 +667,6 @@ msgid "BerkeleyDB cache folder:"
 msgstr "BerkeleyDB, répertoire du cache :"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label34..Caption
 msgid "Bits per second"
 msgstr "Bits par seconde"
 
@@ -786,6 +778,7 @@ msgid "Cached tiles map"
 msgstr "Afficher les dalles en cache"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..Caption
+#. frmMain..MainPopupMenu..tbxFillingMap..Caption
 msgid "Cached Tiles Map"
 msgstr "Afficher les dalles en cache"
 
@@ -817,6 +810,7 @@ msgstr "Calibration pour le programme d'OziExplorer (*.map)"
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
+#. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -867,7 +861,7 @@ msgstr "Ne peut pas utiliser un vieil enregistrement du lot !"
 msgid "Caption parameters"
 msgstr "Paramètres de la légende"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox3..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "Cascade"
 
@@ -947,7 +941,6 @@ msgid "Community  (http://www.sasgis.org/forum)"
 msgstr "Communauté (http://www.sasgis.org/forum) en russe"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
-#, qt-format
 msgid ""
 "Compilation error in script \n"
 "%0:s"
@@ -967,6 +960,9 @@ msgstr "Compression en TAR"
 msgid "Compressing to ZIP"
 msgstr "Compression en ZIP"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
 msgstr "Compression (pour PNG) :"
@@ -1258,6 +1254,7 @@ msgstr "En train de supprimer :"
 
 #. frmDGAvailablePic..gbImageParams..Caption
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
 msgid "Description:"
 msgstr "Description :"
 
@@ -1335,7 +1332,6 @@ msgid "Direct tiles copy (without any modifications)"
 msgstr "Copier directement les dalles (sans aucune modification)"
 
 #. Programmer's name for it: SAS_ERR_DirectoryNotExistFmt
-#, qt-format
 msgid "Directory %0:s not exist"
 msgstr "Le répertoire %0:s n'existe pas"
 
@@ -1624,7 +1620,6 @@ msgid "Error in parameters!"
 msgstr "Erreur dans les paramètres !"
 
 #. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
-#, qt-format
 msgid "Error in projection \"%0:s\" of the map"
 msgstr "Erreur dans la projection \"%0:s\" de cette carte"
 
@@ -1640,25 +1635,21 @@ msgstr "Erreur dans l'analyse des coordonnées : Lat=%s Lon=%s"
 msgid "Error while saving!"
 msgstr "Erreur pendant la sauvegarde !"
 
-#, qt-format
 msgid "Every map part must have height less than %0:d but exist %1:d"
 msgstr ""
 "Chaque partie de carte doit avoir une hauteur plus petite que %0:d mais "
 "existe %1:d"
 
-#, qt-format
 msgid "Every map part must have height more than %0:d but exist %1:d"
 msgstr ""
 "Chaque partie de carte doit avoir une hauteur plus grande que %0:d mais "
 "existe %1:d"
 
-#, qt-format
 msgid "Every map part must have width less than %0:d but exist %1:d"
 msgstr ""
 "Chaque partie de carte doit avoir une largeur plus petite que %0:d mais "
 "existe %1:d"
 
-#, qt-format
 msgid "Every map part must have width more than %0:d but exist %1:d"
 msgstr ""
 "Chaque partie de carte doit avoir une largeur plus grande que %0:d mais "
@@ -1725,7 +1716,6 @@ msgid "File"
 msgstr "Fichier"
 
 #. Programmer's name for it: SAS_MSG_FileExists
-#, qt-format
 msgid ""
 "File %0:s is available on disk.\n"
 "Replace?"
@@ -1734,12 +1724,10 @@ msgstr ""
 "Le remplacer ?"
 
 #. Programmer's name for it: SAS_ERR_FileNotExistFmt
-#, qt-format
 msgid "File %0:s not exist"
 msgstr "Le fichier %0:s n'existe pas"
 
 #. Programmer's name for it: SAS_ERR_FileNotFoundFmt
-#, qt-format
 msgid "File %0:s not found"
 msgstr "Le fichier %0:s n'est pas trouvé"
 
@@ -1752,7 +1740,6 @@ msgid "files"
 msgstr "Fichiers"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDDuplicate
-#, qt-format
 msgid "Files %0:s and %1:s have the same GUID"
 msgstr "Les fichiers %0:s et %1:s ont le même GUID"
 
@@ -2110,6 +2097,9 @@ msgstr "Ignorer les marqueurs"
 msgid "Ignore polygons"
 msgstr "Ignorer les polygones"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
 msgstr "Format de l'image :"
@@ -2152,7 +2142,6 @@ msgid "Include alpha channel"
 msgstr "Inclus canal alpha"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDBad
-#, qt-format
 msgid "Incorrect GUID: %0:s"
 msgstr "GUID incorrect : %0:s"
 
@@ -2435,7 +2424,7 @@ msgstr "Ajouter un polygone"
 msgid "Make Polygon by RosReestr (F8+MLeft)"
 msgstr "Ajouter un polygone par RosReestr (F8+Clic)"
 
-#. frTilesCopy..pnlCenter..pnlMain..chkPlaceInNameSubFolder..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr ""
 "Créer un sous-répertoire avec le nom du chemin de la carte ( le NameInCache)"
@@ -2444,12 +2433,8 @@ msgstr ""
 msgid "Manage Selection"
 msgstr "Gestion de la sélection"
 
-#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
-#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
@@ -2506,12 +2491,12 @@ msgid "Map/Overlay layer:"
 msgstr "Carte/Couche :"
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
-#. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
-#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr "Carte :"
 
@@ -2671,7 +2656,7 @@ msgid "Mouse wheel"
 msgstr "Contrôle de la roue de la souris"
 
 #. frmMain..TBDock..TBMainToolBar..TBmove..Hint
-#. frTilesCopy..pnlCenter..pnlMain..chkDeleteSource..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkDeleteSource..Caption
 msgid "Move"
 msgstr "Déplacer"
 
@@ -2697,6 +2682,7 @@ msgstr "Nom (sur la liste)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
 msgid "Name:"
 msgstr "Nom :"
 
@@ -2806,7 +2792,6 @@ msgstr "Nombre de dalles"
 msgid "Number of tiles to be cached in RAM"
 msgstr "Nombre de dalles placées dans la mémoire cache"
 
-#, qt-format
 msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s"
 msgstr "Nombre de dalles : %0:sx%1:s (%2:s), taille : %3:sx%4:s"
 
@@ -2928,6 +2913,7 @@ msgstr "Ouvrir..."
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSOptions..Caption
 #. frmMain..TBDock..TBXMainMenu..NParams..tbitmOptions..Caption
+#. frmMarkSystemConfigEdit..grpOptions..Caption
 #. frmSettings..Caption
 msgid "Options"
 msgstr "Options générales"
@@ -2966,7 +2952,11 @@ msgid "Output format:"
 msgstr "Format de sortie :"
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr "Couche :"
 
@@ -3020,7 +3010,6 @@ msgid "Password:"
 msgstr "Mot de passe :"
 
 #. Programmer's name for it: SAS_STR_NewPath
-#, qt-format
 msgid "Path %0:d"
 msgstr "Piste %0:d"
 
@@ -3078,7 +3067,6 @@ msgid "Paused by user..."
 msgstr "Pause par utilisateur..."
 
 #. Programmer's name for it: SAS_STR_Paused
-#, qt-format
 msgid "Paused... (%0:s)"
 msgstr "Pause... (%0:s)"
 
@@ -3098,7 +3086,6 @@ msgid "Placemark"
 msgstr "Marqueur"
 
 #. Programmer's name for it: SAS_STR_NewMark
-#, qt-format
 msgid "Placemark %0:d"
 msgstr "Balise %0:d"
 
@@ -3196,14 +3183,23 @@ msgstr "Sélectionner une catégorie avec au moins un polygone !"
 msgid "Please, select output file first!"
 msgstr "SVP, sélectionner le fichier de sortie d'abord !"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr "PNG (couleurs indexées)"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr "PNG (vraies couleurs+ alpha)"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor)"
 msgstr "PNG (vraies couleurs)"
@@ -3216,7 +3212,6 @@ msgid "Points count: %d"
 msgstr "Comptage des points : %d"
 
 #. Programmer's name for it: SAS_STR_NewPoly
-#, qt-format
 msgid "Polygon %0:d"
 msgstr "Polygone %0:d"
 
@@ -3299,7 +3294,6 @@ msgid "Processed:"
 msgstr "Procédé :"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
-#, qt-format
 msgid "Processing tile: %0:s ..."
 msgstr "Dalle en process : %0:s ..."
 
@@ -3353,7 +3347,10 @@ msgstr "Login du proxy :"
 msgid "Proxy password:"
 msgstr "Mot de passe du proxy :"
 
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 msgid "Quality (for JPEG):"
 msgstr "Qualité (pour JPEG):"
@@ -3525,8 +3522,6 @@ msgid "Run"
 msgstr "Marche"
 
 #. frmMain..Caption
-#. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType..Text
-#. frExportToFileCont..pnlCenter..pnlMain..cbbNamesType....Items.Strings
 #. frmAbout..lblProgramName..Caption
 #. frmUpdateChecker..Caption
 #. Programmer's name for it: SAS_STR_ApplicationTitle
@@ -3623,7 +3618,9 @@ msgstr "Sauvegarder la sélection dans un fichier .hlg"
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
 #. frExportGEKml..pnlTop..lblTargetFile..Caption
+#. frExportMBTiles..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
+#. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
@@ -3701,7 +3698,6 @@ msgid "Selected basemap"
 msgstr "Carte de base sélectionnée"
 
 #. Programmer's name for it: SAS_MSG_DeleteSubCategoryAsk
-#, qt-format
 msgid ""
 "Selected category \"%0:s\" contain %d sub categories. Are you realy want to "
 "delete all of them?"
@@ -3752,17 +3748,14 @@ msgid "Sensors"
 msgstr "Capteurs"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
-#. frmSettings..PageControl1..tsGSM..pnlGSM..flwpnlGSM..Label33..Caption
 msgid "Serial port"
 msgstr "Port série"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
-#, qt-format
 msgid "Server returned type \"%0:s\", this is not bitmap image"
 msgstr "Le serveur retourne un type \"%0:s\", ceci n'est pas une image bitmap"
 
 #. Programmer's name for it: SAS_ERR_BadMIME
-#, qt-format
 msgid "Server returned unexpected type \"%0:s\""
 msgstr "Le serveur retourne un type inattendu \"%0:s\""
 
@@ -4026,7 +4019,6 @@ msgid "Size:"
 msgstr "Taille :"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressCaption
-#, qt-format
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "Taille (en pixels) : %0:dx%1:d, divisée entre %2:d fichier(s)"
 
@@ -4121,7 +4113,6 @@ msgid "Stitch selection"
 msgstr "Sélection pour l'assemblage"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressLine0
-#, qt-format
 msgid "Stitch: %0:dx%1:d (%2:d) files"
 msgstr "Assembler : %0:dx%1:d (%2:d) fichiers"
 
@@ -4244,7 +4235,6 @@ msgid "There are no available objects in the pool!"
 msgstr "Il n'y a pas d'objets disponibles dans le lot !"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
-#, qt-format
 msgid "There is an error %1:s in map %0:s"
 msgstr "Il y a une erreur %1:s dans la carte %0:s"
 
@@ -4267,7 +4257,6 @@ msgid "Tile"
 msgstr "Par dalle"
 
 #. Programmer's name for it: SAS_MSG_TileExists
-#, qt-format
 msgid ""
 "Tile %0:s is available in cache.\n"
 "Replace?"
@@ -4522,7 +4511,9 @@ msgstr ""
 "Prendre les dalles à partir des petits zooms, si dalles utiles non "
 "disponibles"
 
+#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr ""
@@ -4587,7 +4578,6 @@ msgid "Visible on zooms:"
 msgstr "Visible aux zooms :"
 
 #. Programmer's name for it: SAS_ERR_WaitTime
-#, qt-format
 msgid "Wait %0:d secons..."
 msgstr "Attendre %0:d secondes..."
 
