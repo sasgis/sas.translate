@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-11-11 14:30\n"
+"POT-Creation-Date: 2015-11-24 17:19\n"
 "PO-Revision-Date: 2015-11-11 14:51+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -553,6 +553,15 @@ msgstr "Площадь: %s"
 msgid "Arrow color:"
 msgstr "Цвет стрелки:"
 
+msgid ""
+"At least one calibration type doesn't support file name with characters not "
+"from current locale!"
+msgstr ""
+
+msgid ""
+"At least one calibration type supports file name with ASCII characters only!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_coution
 msgid "Attention!"
 msgstr "Внимание!"
@@ -779,6 +788,13 @@ msgstr "Карта заполнения:"
 msgid "calc..."
 msgstr "расчёт..."
 
+msgid "Calibration by World file and files with projection description"
+msgstr ""
+
+#, fuzzy
+msgid "Calibration for Google Earth programm (*.kml)"
+msgstr "Калибровка для программы OziExplorer (*.map)"
+
 #. Programmer's name for it: rsTabMapCalibrationDescription
 msgid "Calibration for MapInfo programm (*.tab)"
 msgstr "Калибровка для программы MapInfo (*.tab)"
@@ -786,6 +802,10 @@ msgstr "Калибровка для программы MapInfo (*.tab)"
 #. Programmer's name for it: rsOziMapCalibrationDescription
 msgid "Calibration for OziExplorer programm (*.map)"
 msgstr "Калибровка для программы OziExplorer (*.map)"
+
+#, fuzzy
+msgid "Calibration for Radio Mobile programm (*.dat)"
+msgstr "Калибровка для программы MapInfo (*.tab)"
 
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -882,10 +902,6 @@ msgstr "Проверить наличие обновлений..."
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
 msgstr "Закрыть"
-
-#. frmCacheManager..pnlBottomButtons..chkCloseWithStart..Caption
-msgid "Close this window after start"
-msgstr "Закрыть окно после старта"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
 msgid "Close this window once finished"
@@ -1367,7 +1383,9 @@ msgstr "Расстояние, м"
 msgid "Distance:"
 msgstr "Пройденный путь:"
 
+#. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+#. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 msgid "Do not close this window after start"
 msgstr "Не закрывать окно после старта"
 
@@ -4196,6 +4214,14 @@ msgstr "Нет доступных объектов в пуле!"
 msgid "There is an error %1:s in map %0:s"
 msgstr "В карте %0:s ошибка: %1:s"
 
+msgid ""
+"This format doesn't support file name with characters not from current "
+"locale!"
+msgstr ""
+
+msgid "This format supports file name with ASCII characters only!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
 msgid "This is not simple file storage. Tile's file name does not exist."
 msgstr "Это не тайловый кэш, невозможно получить имя файла с тайлом."
@@ -4662,6 +4688,9 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "Close this window after start"
+#~ msgstr "Закрыть окно после старта"
 
 #~ msgid "Try to re-download missing tiles"
 #~ msgstr "Пытаться загружать отсутствующие тайлы"

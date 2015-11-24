@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-11-16 00:10\n"
+"POT-Creation-Date: 2015-11-24 17:19\n"
 "PO-Revision-Date: 2015-11-22 08:25+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -562,6 +562,15 @@ msgstr "Surface : %s"
 msgid "Arrow color:"
 msgstr "Couleur de flèche :"
 
+msgid ""
+"At least one calibration type doesn't support file name with characters not "
+"from current locale!"
+msgstr ""
+
+msgid ""
+"At least one calibration type supports file name with ASCII characters only!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_coution
 msgid "Attention!"
 msgstr "Attention !"
@@ -789,6 +798,13 @@ msgstr "Affichage des dalles en cache :"
 msgid "calc..."
 msgstr "calcul..."
 
+msgid "Calibration by World file and files with projection description"
+msgstr ""
+
+#, fuzzy
+msgid "Calibration for Google Earth programm (*.kml)"
+msgstr "Étalonnage pour le programme d'OziExplorer (*.map)"
+
 #. Programmer's name for it: rsTabMapCalibrationDescription
 msgid "Calibration for MapInfo programm (*.tab)"
 msgstr "Étalonnage pour le programme de CarteInfo (*.tab)"
@@ -796,6 +812,10 @@ msgstr "Étalonnage pour le programme de CarteInfo (*.tab)"
 #. Programmer's name for it: rsOziMapCalibrationDescription
 msgid "Calibration for OziExplorer programm (*.map)"
 msgstr "Étalonnage pour le programme d'OziExplorer (*.map)"
+
+#, fuzzy
+msgid "Calibration for Radio Mobile programm (*.dat)"
+msgstr "Étalonnage pour le programme de CarteInfo (*.tab)"
 
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -894,10 +914,6 @@ msgstr "Recherche des mises à jour"
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
 msgstr "Fermer"
-
-#. frmCacheManager..pnlBottomButtons..chkCloseWithStart..Caption
-msgid "Close this window after start"
-msgstr "Fermer cette fenêtre au début de l'action"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
 msgid "Close this window once finished"
@@ -1389,7 +1405,9 @@ msgstr "Distance, m"
 msgid "Distance:"
 msgstr "Distance :"
 
+#. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+#. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 msgid "Do not close this window after start"
 msgstr "Ne pas fermer la fenêtre au début de l'action"
 
@@ -4239,6 +4257,14 @@ msgstr "Il n'y a pas d'objets disponibles dans le lot !"
 msgid "There is an error %1:s in map %0:s"
 msgstr "Il y a une erreur %1:s dans la carte %0:s"
 
+msgid ""
+"This format doesn't support file name with characters not from current "
+"locale!"
+msgstr ""
+
+msgid "This format supports file name with ASCII characters only!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
 msgid "This is not simple file storage. Tile's file name does not exist."
 msgstr ""
@@ -4712,3 +4738,6 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Close this window after start"
+#~ msgstr "Fermer cette fenêtre au début de l'action"
