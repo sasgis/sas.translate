@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
 "POT-Creation-Date: 2015-12-11 13:04\n"
-"PO-Revision-Date: 2015-11-11 14:51+0300\n"
+"PO-Revision-Date: 2015-12-11 13:20+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -403,7 +403,7 @@ msgid "Add tiles to database"
 msgstr "Добавлять тайлы в существующую базу"
 
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Добавить в избранное"
 
 #. frmMarksExplorer..tbpmnCategories..tbxtmCatAddToMergePolygons..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxtmAddToMergePolygons..Caption
@@ -798,9 +798,8 @@ msgstr "расчёт..."
 msgid "Calibration by World file and files with projection description"
 msgstr ""
 
-#, fuzzy
 msgid "Calibration for Google Earth programm (*.kml)"
-msgstr "Калибровка для программы OziExplorer (*.map)"
+msgstr "Калибровка для программы Google Earth (*.kml)"
 
 #. Programmer's name for it: rsTabMapCalibrationDescription
 msgid "Calibration for MapInfo programm (*.tab)"
@@ -810,9 +809,8 @@ msgstr "Калибровка для программы MapInfo (*.tab)"
 msgid "Calibration for OziExplorer programm (*.map)"
 msgstr "Калибровка для программы OziExplorer (*.map)"
 
-#, fuzzy
 msgid "Calibration for Radio Mobile programm (*.dat)"
-msgstr "Калибровка для программы MapInfo (*.tab)"
+msgstr "Калибровка для программы Radio Mobile (*.dat)"
 
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
@@ -1201,7 +1199,7 @@ msgid "Delete empty tiles"
 msgstr "Удалить пустые тайлы"
 
 msgid "Delete from Favorites: '%s'?"
-msgstr ""
+msgstr "Удалить '%s' из избранного?"
 
 #. frDeleteMarks..chkDelHidden..Caption
 msgid "Delete hidden placemarks"
@@ -1518,7 +1516,7 @@ msgstr "Изменить"
 
 #. frFavoriteMapSetManager..chkEditByDblClick..Caption
 msgid "Edit / Apply on double click"
-msgstr ""
+msgstr "Редактировать / Применить по двойному клику"
 
 #. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Caption
 #. Programmer's name for it: SAS_STR_EditCategory
@@ -1714,19 +1712,17 @@ msgstr "Ошибка при записи в БД: код ошибки "
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
 msgid "Favorite maps/layers"
-msgstr ""
+msgstr "Избранные карты/слои"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
 #. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
 #. frmSettings..PageControl1..tsFavorite..Caption
-#, fuzzy
 msgid "Favorites"
-msgstr "Координаты"
+msgstr "Избранное"
 
 #. frmFavoriteMapSetManager..Caption
-#, fuzzy
 msgid "Favorites Manager"
-msgstr "Управление кэшем"
+msgstr "Управление избранным"
 
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
@@ -2032,9 +2028,8 @@ msgid "Hide All Placemarks"
 msgstr "Скрыть все метки"
 
 #. frmFavoriteMapSetEditor..pnlMain..chkMergeLayers..Caption
-#, fuzzy
 msgid "Hide non-selected layers"
-msgstr "Показывать только указанные метки"
+msgstr "Скрывать не выбранные слои"
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Hide placemarks"
@@ -2317,9 +2312,8 @@ msgstr "Широта:"
 msgid "Latitude-Longitude order"
 msgstr "Отображать в порядке: широта-долгота"
 
-#, fuzzy
 msgid "Layer"
-msgstr "Слои"
+msgstr "Слой"
 
 #. frmMain..MainPopupMenu..TBLayerInfo..Caption
 msgid "Layer Info"
@@ -2339,9 +2333,8 @@ msgid "Layers (%d)"
 msgstr "Слои (%d)"
 
 #. frmFavoriteMapSetEditor..pnlMain..chkLayers..Caption
-#, fuzzy
 msgid "Layers:"
-msgstr "Слои"
+msgstr "Слои:"
 
 #. Programmer's name for it: SAS_STR_L
 msgid "Length"
@@ -2462,9 +2455,8 @@ msgid "Make subfolder with map path name"
 msgstr "Раскладывать по подпапкам, соответствующим именам карты"
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..tbxManageFavorite..Caption
-#, fuzzy
 msgid "Manage"
-msgstr "Язык (Language)"
+msgstr "Управление"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
 msgid "Manage Selection"
@@ -2697,7 +2689,6 @@ msgid "Move"
 msgstr "Перемещать"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnDown..Caption
-#, fuzzy
 msgid "Move Down"
 msgstr "Вниз"
 
@@ -2710,9 +2701,8 @@ msgid "Move selected item Up (Shift + Up Arrow)"
 msgstr "Переместить выделенный элемент вверх (Shift + Стрелка Вверх)"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnUp..Caption
-#, fuzzy
 msgid "Move Up"
-msgstr "Перемещать"
+msgstr "Вверх"
 
 msgid "My Marks"
 msgstr "Мои метки"
@@ -3223,9 +3213,8 @@ msgstr "Подождите, идет загрузка..."
 msgid "Please wait..."
 msgstr "Пожалуйста, подождите..."
 
-#, fuzzy
 msgid "Please, select at least one Layer or Map first!"
-msgstr "Сначала необходимо выбрать хотя бы одну карту"
+msgstr "Сначала необходимо выбрать хотя бы один слой или карту!"
 
 msgid "Please, select at least one polygon!"
 msgstr "Сначала необходимо выделить хотя бы один полигон!"
@@ -4252,7 +4241,7 @@ msgid "The feature can be used on polygons and polylines"
 msgstr "В данной версии функция доступна только для полигонов и путей"
 
 msgid "The Name can't be empty!"
-msgstr ""
+msgstr "Имя не может быть пустым!"
 
 #. Programmer's name for it: SAS_MSG_GarminMax1Mp
 msgid ""
