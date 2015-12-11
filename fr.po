@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-11-24 17:19\n"
-"PO-Revision-Date: 2015-11-22 08:25+0100\n"
+"PO-Revision-Date: 2015-12-11 09:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -566,10 +566,14 @@ msgid ""
 "At least one calibration type doesn't support file name with characters not "
 "from current locale!"
 msgstr ""
+"Au moins un type d'étalonnage ne supporte pas un nom de fichier avec des "
+"caractères non locaux !"
 
 msgid ""
 "At least one calibration type supports file name with ASCII characters only!"
 msgstr ""
+"Au moins un type d'étalonnage supporte un nom de fichier avec seulement des "
+"caractères  ASCII !"
 
 #. Programmer's name for it: SAS_MSG_coution
 msgid "Attention!"
@@ -799,11 +803,10 @@ msgid "calc..."
 msgstr "calcul..."
 
 msgid "Calibration by World file and files with projection description"
-msgstr ""
+msgstr "Etalonnage par World file (fichiers raster avec projection)"
 
-#, fuzzy
 msgid "Calibration for Google Earth programm (*.kml)"
-msgstr "Étalonnage pour le programme d'OziExplorer (*.map)"
+msgstr "Etalonnage pour le programme de Google Earth (*.kml)"
 
 #. Programmer's name for it: rsTabMapCalibrationDescription
 msgid "Calibration for MapInfo programm (*.tab)"
@@ -813,9 +816,8 @@ msgstr "Étalonnage pour le programme de CarteInfo (*.tab)"
 msgid "Calibration for OziExplorer programm (*.map)"
 msgstr "Étalonnage pour le programme d'OziExplorer (*.map)"
 
-#, fuzzy
 msgid "Calibration for Radio Mobile programm (*.dat)"
-msgstr "Étalonnage pour le programme de CarteInfo (*.tab)"
+msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -1233,7 +1235,7 @@ msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnDelMark..Hint
 msgid "Delete selected placemark"
-msgstr "Supprimer le marqueur sélectionné"
+msgstr "Supprimer le marqueur surligné"
 
 #. frDeleteTiles..rgTarget..Caption
 msgid "Delete target"
@@ -1551,7 +1553,7 @@ msgstr "Propriétés de la piste"
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #. Programmer's name for it: SAS_STR_EditMark
 msgid "Edit Placemark"
-msgstr "Propriétés de la balise"
+msgstr "Propriétés du marqueur"
 
 #. Programmer's name for it: SAS_STR_EditPoly
 msgid "Edit Polygon"
@@ -1559,7 +1561,7 @@ msgstr "Propriétés du polygone"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
 msgid "Edit selected placemark"
-msgstr "Editer le marqueur sélectionné"
+msgstr "Propriétés du marqueur surligné"
 
 #. frmMarksExplorer..TBXToolbar3..tbxEdit..Caption
 msgid "Edit the database"
@@ -1698,12 +1700,12 @@ msgstr "Exporter les marqueurs"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Hint
 msgid "Export placemarks from selected category"
-msgstr "Exporter les marqueurs de la catégorie sélectionnée"
+msgstr "Exporter les marqueurs de la catégorie surlignée"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
 msgid "Export selected placemark"
-msgstr "Exporter le marqueur sélectionné"
+msgstr "Exporter le marqueur surligné"
 
 #. frExport..pnlTop..Label9..Caption
 msgid "Export selection to format"
@@ -1768,7 +1770,7 @@ msgstr "Remplir à partir de"
 #. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFill..Caption
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
 msgid "Fill:"
-msgstr "Remplir :"
+msgstr "Remplissage :"
 
 #. frmMain..TBDock..FillDates..Caption
 msgid "FillDates"
@@ -1810,7 +1812,7 @@ msgstr "Police"
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
-msgstr "Taille de la police"
+msgstr "Taille de la police :"
 
 #. Programmer's name for it: SAS_STR_for
 msgid "For"
@@ -1959,7 +1961,7 @@ msgstr "Aller vers"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnGoToMark..Hint
 msgid "Go to selected object"
-msgstr "Aller vers le marqueur sélectionné"
+msgstr "Aller vers le marqueur surligné"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmGoToModal..Caption
 #. frmGoTo..Caption
@@ -2093,7 +2095,7 @@ msgstr "Paramètres des icones"
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
-msgstr "Taille des icones"
+msgstr "Taille de l'icone :"
 
 #. frJpegImportOptions..grp1..lblPointIconSize..Caption
 msgid "Icon size:"
@@ -2632,7 +2634,7 @@ msgstr "Meteor-M1"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
-msgstr "Opacité de la mini-carte :"
+msgstr "Transparence de la mini-carte :"
 
 #. frmProgressCacheConverter..pnlBottom..btnMinimize..Caption
 msgid "Minimize"
@@ -2712,11 +2714,11 @@ msgstr "Répertoire du cache natif :"
 
 #. frmMain..MainPopupMenu..NMarkNav..Caption
 msgid "Navigate to Placemark"
-msgstr "Naviguer vers la balise sélectionnée (GPS)"
+msgstr "Naviguer vers la balise surlignée (GPS)"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnNavOnMark..Hint
 msgid "Navigate to selected placemark"
-msgstr "Naviguer vers la balise sélectionnée (GPS)"
+msgstr "Naviguer vers la balise surlignée (GPS)"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbitmNavigationArrow..Caption
 msgid "Navigation Arrow"
@@ -2889,7 +2891,7 @@ msgstr "Seulement si différentes"
 #. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg3..Caption
 msgid "Opacity"
-msgstr "Opacité :"
+msgstr "Transparence :"
 
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextTransp..Caption
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowAlfa..Caption
@@ -2903,14 +2905,14 @@ msgstr "Opacité :"
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
 msgid "Opacity %"
-msgstr "Opacité %"
+msgstr "Transparence % :"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextOpacity..Caption
 #. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundOpacity..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineColorOpacity..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineOutlineOpacity..Caption
 msgid "Opacity:"
-msgstr "Opacité :"
+msgstr "Transparence :"
 
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
 msgid "Open Overlay Layer Tile Folder"
@@ -3455,7 +3457,7 @@ msgstr "Supprimer tout"
 
 #. frMergePolygons..tbTop..tbDel..Hint
 msgid "Remove selected (Delete)"
-msgstr "Supprimer la sélection (Supprimer)"
+msgstr "Supprimer la sélection (Suppr)"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkRemove..Caption
 msgid "Remove tiles"
@@ -3813,9 +3815,7 @@ msgstr "Paramètres"
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
 msgid "Shadow color"
-msgstr ""
-"Couleur\n"
-"de l'ombre"
+msgstr "Couleur de l'ombre :"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
 msgid "Shift - snap to active grids (if enabled)"
@@ -3975,7 +3975,7 @@ msgstr "Afficher la distance parcourue depuis la dernière connexion au GPS"
 
 #. Programmer's name for it: SAS_STR_SensorNavToPointDescription
 msgid "Shows distance to selected placemark"
-msgstr "Afficher la distance jusqu' au marqueur sélectionné"
+msgstr "Afficher la distance jusqu'au marqueur sélectionné"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeDescription
 msgid "Shows GPS altitude"
@@ -4206,7 +4206,7 @@ msgstr "TBXToolbar3"
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
-msgstr "Couleur du texte"
+msgstr "Couleur du texte :"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextColor..Caption
 msgid "Text color:"
@@ -4261,9 +4261,11 @@ msgid ""
 "This format doesn't support file name with characters not from current "
 "locale!"
 msgstr ""
+"Ce format ne supporte pas un nom de fichier avec des caractères non locaux !"
 
 msgid "This format supports file name with ASCII characters only!"
 msgstr ""
+"Ce format supporte un nom de fichier avec des caractères ASCII seulement !"
 
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
 msgid "This is not simple file storage. Tile's file name does not exist."
@@ -4617,7 +4619,7 @@ msgstr "Site Web (http://www.sasgis.org) en russe"
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
 msgid "Width"
-msgstr "Largeur"
+msgstr "Largeur :"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
 msgid "Width:"
