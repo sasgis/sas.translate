@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-12-11 13:04\n"
-"PO-Revision-Date: 2015-12-11 09:14+0100\n"
+"PO-Revision-Date: 2015-12-12 12:08+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -406,7 +406,7 @@ msgid "Add tiles to database"
 msgstr "Ajouter les dalles à la base de données"
 
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Ajouter aux favoris"
 
 #. frmMarksExplorer..tbpmnCategories..tbxtmCatAddToMergePolygons..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxtmAddToMergePolygons..Caption
@@ -864,7 +864,7 @@ msgid "Can't acquire db: %s"
 msgstr "Ne peut pas acquérir la base de données : %s"
 
 msgid "Can't bound the Map - GUID not found!"
-msgstr ""
+msgstr "Impossible de créer la carte. Le GUID ne peut pas être trouvé !"
 
 msgid "Can't initialize in-memory tile storage. Check your config!"
 msgstr ""
@@ -1218,7 +1218,7 @@ msgid "Delete empty tiles"
 msgstr "Supprimer les dalles vierges"
 
 msgid "Delete from Favorites: '%s'?"
-msgstr ""
+msgstr "Supprimer des favoris : '%s'?"
 
 #. frDeleteMarks..chkDelHidden..Caption
 msgid "Delete hidden placemarks"
@@ -1548,7 +1548,7 @@ msgstr "Editer"
 
 #. frFavoriteMapSetManager..chkEditByDblClick..Caption
 msgid "Edit / Apply on double click"
-msgstr ""
+msgstr "Editer avec un double clic sur le nom"
 
 #. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Caption
 #. Programmer's name for it: SAS_STR_EditCategory
@@ -1753,19 +1753,17 @@ msgstr "Problème pour sauvegarder vers le stockage externe des dalles : erreur"
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
 msgid "Favorite maps/layers"
-msgstr ""
+msgstr "Cartes/couches favorites"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
 #. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
 #. frmSettings..PageControl1..tsFavorite..Caption
-#, fuzzy
 msgid "Favorites"
-msgstr "les coordonnées du point"
+msgstr "Favoris"
 
 #. frmFavoriteMapSetManager..Caption
-#, fuzzy
 msgid "Favorites Manager"
-msgstr "Gestionnaire de cache (conversion)"
+msgstr "Gestionnaire des favoris"
 
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
@@ -2071,9 +2069,8 @@ msgid "Hide All Placemarks"
 msgstr "Afficher/Masquer les marqueurs"
 
 #. frmFavoriteMapSetEditor..pnlMain..chkMergeLayers..Caption
-#, fuzzy
 msgid "Hide non-selected layers"
-msgstr "Afficher seulement les marqueurs sélectionnés"
+msgstr "Cacher les couches non sélectionnées"
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Hide placemarks"
@@ -2103,7 +2100,7 @@ msgstr "Raccourci clavier"
 
 #. Programmer's name for it: SAS_MSG_HotKeyExists
 msgid "Hotkey in use. Please select another one"
-msgstr "Raccourci clavier déjà utilisé. SVP, en sélectionner un autre."
+msgstr "Raccourci clavier déjà utilisé. En sélectionner un autre."
 
 #. frmSettings..PageControl1..tsControl..GroupBox5..Caption
 msgid "Hotkeys"
@@ -2378,9 +2375,8 @@ msgid "Layers (%d)"
 msgstr "Couches (%d)"
 
 #. frmFavoriteMapSetEditor..pnlMain..chkLayers..Caption
-#, fuzzy
 msgid "Layers:"
-msgstr "Couches"
+msgstr "Couches :"
 
 #. Programmer's name for it: SAS_STR_L
 msgid "Length"
@@ -2502,9 +2498,8 @@ msgstr ""
 "Créer un sous-répertoire avec le nom du chemin de la carte ( le NameInCache)"
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..tbxManageFavorite..Caption
-#, fuzzy
 msgid "Manage"
-msgstr "Langue :"
+msgstr "Gérer"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
 msgid "Manage Selection"
@@ -2752,9 +2747,8 @@ msgid "Move selected item Up (Shift + Up Arrow)"
 msgstr "Déplacer l'item sélectionné vers le haut (Maj + Flèche haut)"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnUp..Caption
-#, fuzzy
 msgid "Move Up"
-msgstr "Déplacer"
+msgstr "Vers le haut"
 
 msgid "My Marks"
 msgstr "Mes marqueurs"
@@ -3229,45 +3223,44 @@ msgid "Play"
 msgstr "Fonctionne"
 
 msgid "Please select at least one map"
-msgstr "SVP, sélectionner au moins une carte."
+msgstr "Sélectionner au moins une carte."
 
 msgid "Please select at least one map or overlay layer"
-msgstr "SVP, sélectionner au moins une carte ou couche."
+msgstr "Sélectionner au moins une carte ou une couche."
 
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
-msgstr "SVP, sélectionner au moins une région."
+msgstr "Sélectionner au moins une région."
 
 #. Programmer's name for it: SAS_MSG_NeedZoom
 msgid "Please select at least one zoom"
-msgstr "SVP, sélectionner au moins un zoom."
+msgstr "Sélectionner au moins un zoom."
 
 msgid "Please select at one placemark type"
-msgstr "SVP, sélectionner au moins un type de marqueur."
+msgstr "Sélectionner au moins un type de marqueur."
 
 msgid "Please select map or layer"
-msgstr "SVP, sélectionner une carte ou une couche."
+msgstr "Sélectionner une carte ou une couche."
 
 msgid "Please select output file"
-msgstr "SVP, sélectionner le fichier de sortie d'abord !"
+msgstr "Sélectionner le fichier de sortie d'abord !"
 
 msgid "Please select output folder"
-msgstr "SVP, sélectionner le répertoire de sortie d'abord !"
+msgstr "Sélectionner le répertoire de sortie d'abord !"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
-msgstr "SVP attendre, téléchargement en cours..."
+msgstr "Attendre, téléchargement en cours..."
 
 #. frmProgressCacheConverter..Caption
 #. frmMergePolygonsProgress..Caption
 #. frmProgressSimple..Caption
 #. frmProgressDownload..Caption
 msgid "Please wait..."
-msgstr "SVP attendre..."
+msgstr "Attendre..."
 
-#, fuzzy
 msgid "Please, select at least one Layer or Map first!"
-msgstr "SVP, sélectionner au moins une carte."
+msgstr "Sélectionner au moins une carte ou une couche d'abord !"
 
 msgid "Please, select at least one polygon!"
 msgstr "Sélectionner au moins un polygone !"
@@ -3276,7 +3269,7 @@ msgid "Please, select category with at least one polygon!"
 msgstr "Sélectionner une catégorie avec au moins un polygone !"
 
 msgid "Please, select output file first!"
-msgstr "SVP, sélectionner le fichier de sortie d'abord !"
+msgstr "Sélectionner le fichier de sortie d'abord !"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -4295,7 +4288,7 @@ msgstr ""
 "La caractéristique peut être utilisée avec les polygones et les polylignes."
 
 msgid "The Name can't be empty!"
-msgstr ""
+msgstr "Ecrire un nom dans la case !"
 
 #. Programmer's name for it: SAS_MSG_GarminMax1Mp
 msgid ""
@@ -4779,7 +4772,7 @@ msgstr "Chemin du ZMP :"
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
 #. Programmer's name for it: SAS_STR_Zoom
 msgid "Zoom"
-msgstr "Zoom latéral"
+msgstr "Zoom"
 
 #. frmMain..TBDock..TBXMainMenu..NView..Nanimate..Caption
 msgid "Zoom Animation"
