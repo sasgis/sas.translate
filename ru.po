@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-12-11 13:04\n"
-"PO-Revision-Date: 2015-12-11 13:20+0300\n"
+"POT-Creation-Date: 2015-12-13 20:18\n"
+"PO-Revision-Date: 2015-12-13 20:20+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1020,6 +1020,10 @@ msgstr "Управление"
 #. frmCacheManager..PageControl1..tsConverter..Caption
 msgid "Convert Cache Format"
 msgstr "Смена формата кэша"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..lblCoordSysType..Caption
+msgid "Coordinate system"
+msgstr "Система координат"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
@@ -4064,6 +4068,10 @@ msgstr "Размер:"
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "Размер: %0:dx%1:d. Разбить на %2:d файлов"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK42"
+msgstr "СК-42"
+
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
 msgstr "Пропущено:"
@@ -4631,6 +4639,11 @@ msgstr "Ждем %0:d секунд..."
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineHome..Caption
 msgid "Web Site (http://www.sasgis.org)"
 msgstr "Сайт программы (http://sasgis.org)"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS84 (default)"
+msgstr "WGS84 (по умолчанию)"
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption

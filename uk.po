@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-12-11 13:04\n"
+"POT-Creation-Date: 2015-12-13 20:18\n"
 "PO-Revision-Date: 2013-03-10 19:01+0400\n"
 "Last-Translator: Viktor Demidov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -1023,6 +1023,11 @@ msgstr "Керування"
 #. frmCacheManager..PageControl1..tsConverter..Caption
 msgid "Convert Cache Format"
 msgstr "Конвертувати формат кешу"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..lblCoordSysType..Caption
+#, fuzzy
+msgid "Coordinate system"
+msgstr "Координати"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
@@ -4078,6 +4083,10 @@ msgstr "Розмір:"
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "Розмір: %0:dx%1:d Розбити на %2:d файлів"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK42"
+msgstr ""
+
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
 msgstr "Пропущено:"
@@ -4651,6 +4660,12 @@ msgstr "Зачекайте %0:d секунд..."
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineHome..Caption
 msgid "Web Site (http://www.sasgis.org)"
 msgstr "Сайт програми (http://sasgis.org)"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+#, fuzzy
+msgid "WGS84 (default)"
+msgstr "Стандартно"
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
