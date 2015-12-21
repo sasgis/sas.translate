@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-12-13 20:18\n"
-"PO-Revision-Date: 2015-12-13 20:18\n"
+"POT-Creation-Date: 2015-12-21 09:05\n"
+"PO-Revision-Date: 2015-12-21 09:05\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1929,13 +1929,13 @@ msgstr ""
 msgid "GeoCacher root folder:"
 msgstr ""
 
-#. frLonLat..pnlTop..cbbCoordType..Text
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
-msgid "Geographic"
-msgstr ""
-
 msgid "Geographic (Latitude/Longitude) / WGS84 / "
 "EPSG:4326"
+msgstr ""
+
+#. frLonLat..pnlTop..cbbCoordType..Text
+#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+msgid "Geographic Coordinates"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
@@ -2827,6 +2827,10 @@ msgstr ""
 msgid "No write access to tile storage"
 msgstr ""
 
+#. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
+msgid "North"
+msgstr ""
+
 msgid "Not found \"params.txt\" in zmp"
 msgstr ""
 
@@ -3381,6 +3385,9 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NMarks..tbitmPointProject..Caption
 #. frmPointProjecting..Caption
 msgid "Project New Placemark"
+msgstr ""
+
+msgid "Projected Coordinates"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
@@ -4084,6 +4091,10 @@ msgstr ""
 msgid "SK42"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK42 (Gauss-Kruger)"
+msgstr ""
+
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
 msgstr ""
@@ -4725,6 +4736,10 @@ msgstr ""
 
 #. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
 msgid "ZMP:"
+msgstr ""
+
+#. frLonLat..pnlProjected..grdpnlZone..lblZone..Caption
+msgid "Zone:"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption

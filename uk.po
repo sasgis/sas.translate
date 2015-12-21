@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-12-13 20:18\n"
+"POT-Creation-Date: 2015-12-21 09:05\n"
 "PO-Revision-Date: 2013-03-10 19:01+0400\n"
 "Last-Translator: Viktor Demidov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -1914,13 +1914,14 @@ msgstr "Кеш"
 msgid "GeoCacher root folder:"
 msgstr "Шлях до кешу GeoCacher"
 
-#. frLonLat..pnlTop..cbbCoordType..Text
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
-msgid "Geographic"
-msgstr "Географічні"
-
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr ""
+
+#. frLonLat..pnlTop..cbbCoordType..Text
+#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#, fuzzy
+msgid "Geographic Coordinates"
+msgstr "Помилка введення координат"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
 msgid "GetUrlScript"
@@ -2823,6 +2824,11 @@ msgstr "Недостатньо місця в БД для здійснення о
 msgid "No write access to tile storage"
 msgstr "Немає доступу на запис до тайлосховища"
 
+#. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
+#, fuzzy
+msgid "North"
+msgstr "Перервати"
+
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не знайдено \"params.txt\" у zmp"
 
@@ -3376,6 +3382,10 @@ msgstr "Спроектувати"
 #, fuzzy
 msgid "Project New Placemark"
 msgstr "Додати нову позначку"
+
+#, fuzzy
+msgid "Projected Coordinates"
+msgstr "Спроектувати точку"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
@@ -4087,6 +4097,10 @@ msgstr "Розмір: %0:dx%1:d Розбити на %2:d файлів"
 msgid "SK42"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK42 (Gauss-Kruger)"
+msgstr ""
+
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
 msgstr "Пропущено:"
@@ -4745,6 +4759,11 @@ msgstr ""
 msgid "ZMP:"
 msgstr ""
 
+#. frLonLat..pnlProjected..grdpnlZone..lblZone..Caption
+#, fuzzy
+msgid "Zone:"
+msgstr "Масштаб:"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..chkZoom..Caption
@@ -4797,14 +4816,14 @@ msgstr "Масштаби:"
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
 
+#~ msgid "Geographic"
+#~ msgstr "Географічні"
+
 #~ msgid "Close this window after start"
 #~ msgstr "Закрити вікно після старту"
 
 #~ msgid "Try to re-download missing tiles"
 #~ msgstr "Намагатись завантажувати відсутні тайли"
-
-#~ msgid "Project Point"
-#~ msgstr "Спроектувати точку"
 
 #~ msgid "Projecting"
 #~ msgstr "Проектування"

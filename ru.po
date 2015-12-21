@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2015-12-13 20:18\n"
+"POT-Creation-Date: 2015-12-21 09:05\n"
 "PO-Revision-Date: 2015-12-13 20:20+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1908,13 +1908,14 @@ msgstr ""
 msgid "GeoCacher root folder:"
 msgstr "Путь к кэшу GeoCacher:"
 
-#. frLonLat..pnlTop..cbbCoordType..Text
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
-msgid "Geographic"
-msgstr "Географические"
-
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr ""
+
+#. frLonLat..pnlTop..cbbCoordType..Text
+#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#, fuzzy
+msgid "Geographic Coordinates"
+msgstr "Ошибка ввода координат"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
 msgid "GetUrlScript"
@@ -2809,6 +2810,11 @@ msgstr "Недостаточно места в БД для выполнения 
 msgid "No write access to tile storage"
 msgstr "Нет доступа на запись в хранилище тайлов"
 
+#. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
+#, fuzzy
+msgid "North"
+msgstr "Прервать"
+
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
 
@@ -3359,6 +3365,10 @@ msgstr "Спроецировать"
 #. frmPointProjecting..Caption
 msgid "Project New Placemark"
 msgstr "Спроецировать новую метку"
+
+#, fuzzy
+msgid "Projected Coordinates"
+msgstr "Координаты"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
@@ -4072,6 +4082,10 @@ msgstr "Размер: %0:dx%1:d. Разбить на %2:d файлов"
 msgid "SK42"
 msgstr "СК-42"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK42 (Gauss-Kruger)"
+msgstr ""
+
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
 msgstr "Пропущено:"
@@ -4722,6 +4736,11 @@ msgstr ""
 msgid "ZMP:"
 msgstr ""
 
+#. frLonLat..pnlProjected..grdpnlZone..lblZone..Caption
+#, fuzzy
+msgid "Zone:"
+msgstr "Масштаб:"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..chkZoom..Caption
@@ -4772,6 +4791,9 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "Geographic"
+#~ msgstr "Географические"
 
 #~ msgid "Close this window after start"
 #~ msgstr "Закрыть окно после старта"
