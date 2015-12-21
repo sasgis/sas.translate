@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-12-21 09:05\n"
-"PO-Revision-Date: 2015-12-17 23:07+0100\n"
+"PO-Revision-Date: 2015-12-21 07:50+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1954,9 +1954,8 @@ msgstr "Géographique (Latitude/Longitude) / WGS84 / EPSG:4326"
 
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
-#, fuzzy
 msgid "Geographic Coordinates"
-msgstr "Erreur dans les coordonnées géographiques"
+msgstr "Coordonnées géographiques"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
 msgid "GetUrlScript"
@@ -2358,9 +2357,8 @@ msgstr "Latitude :"
 msgid "Latitude-Longitude order"
 msgstr "Ordre Latitude-Longitude"
 
-#, fuzzy
 msgid "Layer"
-msgstr "Couches"
+msgstr "Couche"
 
 #. frmMain..MainPopupMenu..TBLayerInfo..Caption
 msgid "Layer Info"
@@ -2856,9 +2854,8 @@ msgid "No write access to tile storage"
 msgstr "Pas d'accès écriture dans le stockage des dalles"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
-#, fuzzy
 msgid "North"
-msgstr "Abandonne"
+msgstr "Nord"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "\"params.txt\" non trouvé dans le zmp"
@@ -3411,9 +3408,8 @@ msgstr "Ajout de cette balise"
 msgid "Project New Placemark"
 msgstr "Positionnement d'une nouvelle balise"
 
-#, fuzzy
 msgid "Projected Coordinates"
-msgstr "les coordonnées du point"
+msgstr "Coordonnées projetées"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
@@ -4129,7 +4125,7 @@ msgstr "SK42 ou Krasovsky ellipsoid"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "SK42 (Gauss-Kruger)"
-msgstr ""
+msgstr "SK42 (Gauss-Kruger)"
 
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
@@ -4792,9 +4788,8 @@ msgid "ZMP:"
 msgstr "Chemin du ZMP :"
 
 #. frLonLat..pnlProjected..grdpnlZone..lblZone..Caption
-#, fuzzy
 msgid "Zone:"
-msgstr "Zoom :"
+msgstr "Zone :"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
@@ -4846,9 +4841,3 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
-
-#~ msgid "Geographic"
-#~ msgstr "Géographiques"
-
-#~ msgid "Close this window after start"
-#~ msgstr "Fermer cette fenêtre au début de l'action"
