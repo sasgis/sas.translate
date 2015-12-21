@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-12-13 20:18\n"
-"PO-Revision-Date: 2015-12-12 12:08+0100\n"
+"PO-Revision-Date: 2015-12-17 23:07+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1040,9 +1040,8 @@ msgid "Convert Cache Format"
 msgstr "Convertir le format du cache"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..lblCoordSysType..Caption
-#, fuzzy
 msgid "Coordinate system"
-msgstr "les coordonnées du point"
+msgstr "Système de coordonnées :"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
@@ -1223,7 +1222,7 @@ msgid "Delete empty tiles"
 msgstr "Supprimer les dalles vierges"
 
 msgid "Delete from Favorites: '%s'?"
-msgstr "Supprimer des favoris : '%s'?"
+msgstr "Supprimer le favori : '%s'?"
 
 #. frDeleteMarks..chkDelHidden..Caption
 msgid "Delete hidden placemarks"
@@ -2923,7 +2922,7 @@ msgstr "Obtenir le zoom prévu :"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDownloadResize..lblDownloadResize..Caption
 msgid "On download"
-msgstr "En téléchargement :"
+msgstr "Télécharger les dalles :"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeGetPre..lblResizeGetPre..Caption
 msgid "On get from lower zoom"
@@ -3565,7 +3564,7 @@ msgstr "Redimensionner l'algorithme :"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..lblResize..Caption
 msgid "Resize Algorithm:"
-msgstr "Redimensionner l'algorithme (étirer image) :"
+msgstr "Redimensionner l'algorithme (modifier image) pour :"
 
 #. frmMain..TrayPopupMenu..TrayItemRestore..Caption
 msgid "Restore"
@@ -4116,7 +4115,7 @@ msgstr "Taille (en pixels) : %0:dx%1:d, divisée entre %2:d fichier(s)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "SK42"
-msgstr ""
+msgstr "SK42 ou Krasovsky ellipsoid"
 
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
@@ -4698,9 +4697,8 @@ msgstr "Site Web (http://www.sasgis.org) en russe"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-#, fuzzy
 msgid "WGS84 (default)"
-msgstr "Par défaut"
+msgstr "WGS84 (par défaut)"
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
