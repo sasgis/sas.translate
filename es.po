@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-01-13 09:17\n"
-"PO-Revision-Date: 2016-01-16 15:19-0300\n"
+"PO-Revision-Date: 2016-01-20 14:26-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
 "Language: es\n"
-"Language-Team: \n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -2101,16 +2101,16 @@ msgstr "Icon"
 
 #. frJpegImportOptions..grp1..Caption
 msgid "Icon parameters"
-msgstr ""
+msgstr "Icono parámetros"
 
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
-msgstr ""
+msgstr "Icono tamaño"
 
 #. frJpegImportOptions..grp1..lblPointIconSize..Caption
 msgid "Icon size:"
-msgstr ""
+msgstr "Icono tamaño:"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkIgnoreTNE..Caption
 msgid "Ignore *.tne"
@@ -2133,11 +2133,11 @@ msgstr "Ignorar Polígonos"
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
-msgstr ""
+msgstr "Formato de imagen:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
 msgid "Image postprocessing"
-msgstr ""
+msgstr "Postprocesamiento de imágen"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..Caption
 msgid "Image services"
@@ -2199,7 +2199,7 @@ msgstr "Interface"
 #. Programmer's name for it: SInterfaceIsNilError
 #. Programmer's name for it: SInterfaceIsNilError
 msgid "Interface is nil"
-msgstr ""
+msgstr "La Interfase es nula"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
 #. frmMapLayersOptions..Caption
@@ -2503,7 +2503,7 @@ msgid "Map Name"
 msgstr "Nombre de Mapa"
 
 msgid "Map Original Projection (from zmp)"
-msgstr ""
+msgstr "Proyección Original del Mapa ( desde zmp)"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
 msgid "Map Settings"
@@ -2856,7 +2856,7 @@ msgstr "Formato de números"
 
 #. Programmer's name for it: SObjectIsNilError
 msgid "Object is nil"
-msgstr ""
+msgstr "El objeto es nulo"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1MenuItemName
 msgid "Odometer"
@@ -2914,7 +2914,7 @@ msgstr "Ayuda Online (http://sasgis.org/wikisasiya)"
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
 #. frTilesDownload..pnlBottom..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
-msgstr ""
+msgstr "Solo creados antes de "
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
 msgid "only if different"
@@ -3051,7 +3051,7 @@ msgstr "Params.txt"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
-msgstr ""
+msgstr "Submenu padre"
 
 msgid "Parts count: %d"
 msgstr ""
@@ -3402,11 +3402,11 @@ msgstr "Error de autorización del Proxi"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
 msgid "Proxy login:"
-msgstr ""
+msgstr "Proxy login:"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
 msgid "Proxy password:"
-msgstr ""
+msgstr "Proxy password:"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -3460,10 +3460,12 @@ msgid ""
 "Re-compress JPEG tiles\n"
 "Note: Non-JPEG tiles are always recompressed"
 msgstr ""
+"Recomprimir mosaicos JPEG \n"
+"Nota: Mosaicos no-JPEG son siempr recomprimid"
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
 msgid "Recreate target database if exists"
-msgstr ""
+msgstr "Recrear database objeto si existe"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
 msgid "Rectangular Selection"
@@ -3471,7 +3473,7 @@ msgstr "Selección Rectangular"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarRedrawTime..Caption
 msgid "Redraw interval (ms):"
-msgstr ""
+msgstr "Intervalo actualización (ms)"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Caption
@@ -3754,7 +3756,7 @@ msgstr "Selecciona Satellite as layer principal"
 
 #. frmMain..TBDock..SrcToolbar..TBSMB..Hint
 msgid "Selected basemap"
-msgstr ""
+msgstr "Mapa Seleccionado"
 
 #. Programmer's name for it: SAS_MSG_DeleteSubCategoryAsk
 msgid ""
@@ -3811,7 +3813,7 @@ msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap "
 
 #. Programmer's name for it: SAS_ERR_BadMIME
 msgid "Server returned unexpected type \"%0:s\""
-msgstr ""
+msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap "
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
@@ -3825,10 +3827,10 @@ msgid "Set as default"
 msgstr "Establecer por defecto"
 
 msgid "Set Connection string first!"
-msgstr ""
+msgstr "¡Ingrese string de Conección primero!"
 
 msgid "Set File name first!"
-msgstr ""
+msgstr "¡Ingrese nombre de archivo primero!"
 
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkReplaceDestVersion..Caption
 msgid "Set same version for all processed tiles:"
@@ -3836,7 +3838,7 @@ msgstr "Fijar la misma versión a todos los mosaicos procesados"
 
 #. frTilesCopy..pnlCenter..pnlMain..pnSetTargetVersionOptions..chkSetTargetVersionTo..Caption
 msgid "Set Version to"
-msgstr ""
+msgstr "Fijar Versión a"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frMapsList..pnlMapsRightButtons..Button15..Caption
@@ -3852,7 +3854,7 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
 msgid "Shift - snap to active grids (if enabled)"
-msgstr ""
+msgstr "Selección por coordenadas"
 
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
@@ -4083,7 +4085,7 @@ msgstr "SK42 (Gauss-Kruger)"
 
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
-msgstr ""
+msgstr "Ignorados:"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnl1..lbl1..Caption
 msgid "Sleep on reset connection, ms"
@@ -4228,10 +4230,12 @@ msgid ""
 "Table not found and cannot be created (possibly due to insufficient "
 "privileges or readonly external tile storage)"
 msgstr ""
+"Tabla no encontrada y no puede ser creada (posible falta de privilegios o "
+"almacenamiento de solo lectura)"
 
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
-msgstr ""
+msgstr "Tarea"
 
 #. frMergePolygons..tbTop..Caption
 msgid "tbTop"
@@ -4253,7 +4257,7 @@ msgstr "Color de texto:"
 
 #. Programmer's name for it: SAS_MSG_FunExForPoly
 msgid "The feature can be used on polygons and polylines"
-msgstr ""
+msgstr "El dispositivo puede ser usado en polígonos y polilíneas"
 
 msgid "The Name can't be empty!"
 msgstr "¡El nombre no puede estar vacío!"
@@ -4265,10 +4269,14 @@ msgid ""
 "\"Manage Selection - Stitch\" window\n"
 "and use resulting KMZ files separately"
 msgstr ""
+"El número de archivos JPEG excederá de 100. Si su\n"
+"dispositivo de navegación separa la imagen usando\n"
+"ventanas \"Manage Selection - Stitch\" \n"
+"resultando archivos KMZ separadamente"
 
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
-msgstr ""
+msgstr "¡La tarea está completada!"
 
 #. Programmer's name for it: SAS_ERR_FileExistsShort
 msgid "The tile already exists"
@@ -4276,35 +4284,40 @@ msgstr "El mosaico ya existe"
 
 #. Programmer's name for it: SAS_MSG_FileBeCreateTime
 msgid "The tile is newer than the entered age, skipping."
-msgstr ""
+msgstr "El mosaico es más nuevo que el periodo entrado, ignorado."
 
 #. Programmer's name for it: SAS_MSG_FileBeCreateLen
 msgid "The tile size is equal to the existing one, skipping."
-msgstr ""
+msgstr "El tamaño del mosaico es igual al existente, ignorado."
 
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
-msgstr ""
+msgstr "El tne es más nuevo que el periodo entrado, ignorado."
 
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
-msgstr ""
+msgstr "¡No hay objetos disponibles en el pool"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
 msgid "There is an error %1:s in map %0:s"
-msgstr ""
+msgstr "Hay un error %1:s en mapa %0:s"
 
 msgid ""
 "This format doesn't support file name with characters not from current "
 "locale!"
 msgstr ""
+"¡Este formato no soporta nombres de archivos con caracteres de distinta "
+"configuración!"
 
 msgid "This format supports file name with ASCII characters only!"
 msgstr ""
+"¡Este formato soporta nombres de archivo con caracteres ASCII únicamente! "
 
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
 msgid "This is not simple file storage. Tile's file name does not exist."
 msgstr ""
+"¡Este no es un archivo de almacenamiento válido. No existen nombres de "
+"mosaicos!"
 
 #. frmAbout..lblLicense....Caption
 msgid ""
@@ -4323,6 +4336,8 @@ msgid ""
 "Tile %0:s is available in cache.\n"
 "Replace?"
 msgstr ""
+"%0:s mosaicos disponibles en caché.\n"
+"Reemplazar?"
 
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..Label23..Caption
 msgid "Tile borders:"
@@ -4415,25 +4430,25 @@ msgstr "Ancho de Ruta"
 
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
-msgstr ""
+msgstr "Intentar descarga si no existe tne"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
-msgstr ""
+msgstr "Imposible fijar posición"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr ""
+msgstr "¡Imposible cargar mapas(s)! Cancelando..."
 
 msgid "Unexpected content type %s"
-msgstr ""
+msgstr "Tipo de contenido no esperado %s"
 
 msgid "Unexpected proxy authorization"
-msgstr ""
+msgstr "Autorización de proxi no esperada"
 
 #. frmMarksExplorer..tbpmnMarks..tbxtmUngroup..Caption
 msgid "Ungroup"
-msgstr ""
+msgstr "Desagrupar"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmOR..Caption
 msgid "Union (OR)"
@@ -4454,28 +4469,29 @@ msgstr "Desconocido"
 
 #. Programmer's name for it: SAS_ERR_ETS_CriticalError
 msgid "Unknown critical error at external tile storage"
-msgstr ""
+msgstr "Error desconocido en almacenamiento externo de mosaicos"
 
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
 msgid ""
 "Unknown error at external tile storage, see Storage Options for more "
 "information"
 msgstr ""
+"Error desconocido en almacenamiento externo, ver Opciones de Almacenamiento"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
-msgstr ""
+msgstr "Error desconocido durante descarga"
 
 msgid "Unknown status code %d"
-msgstr ""
+msgstr "Código de estado desconocido %d"
 
 #. Programmer's name for it: rsCmdLineArgProcessorUnknownError
 msgid "UnknownError: %s"
-msgstr ""
+msgstr "Error desconocido: %s"
 
 #. Programmer's name for it: rsCmdLineArgProcessorUnknownGUID
 msgid "UnknownGUID"
-msgstr ""
+msgstr "GUID desconocido"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
@@ -4532,7 +4548,7 @@ msgstr "Usar gradiente de antigüedad"
 
 #. Programmer's name for it: rsUseDeleted
 msgid "Use Deleted: Object is not exists!"
-msgstr ""
+msgstr "¡El objeto no existe!"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
 msgid "Use Layers from Lower Zooms"
@@ -4545,23 +4561,23 @@ msgstr "Usar Mapas de zoom menores"
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
-msgstr ""
+msgstr "Usar opciones de postprocesamiento"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblUseProxy..Caption
 msgid "Use proxy (IP:port)"
-msgstr ""
+msgstr "Usar proxy (IP:port)"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
 msgid "Use storage to check new images"
-msgstr ""
+msgstr "Usar almacenamiento para validar nuevas imágenes"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
 msgid "Use system proxy settings"
-msgstr ""
+msgstr "Usar opciones proxi del sistema"
 
 #. frJpegImportOptions..grp1..chk1..Caption
 msgid "Use thumbnail as Icon"
-msgstr ""
+msgstr "Usar thumbnail como Icon"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..pnlUsePrevTiles..chkUsePrevTiles..Caption
 msgid "Use tile from lower zoom if tile not available"
@@ -4576,7 +4592,7 @@ msgstr "Usar mosaicos de menor zoom (si no hay mosaico disponible)"
 
 #. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
 msgid "Use xyz scheme"
-msgstr ""
+msgstr "Usar esquema xyz"
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
 msgid "User defined"
@@ -4634,7 +4650,7 @@ msgstr "Visible en zooms:"
 
 #. Programmer's name for it: SAS_ERR_WaitTime
 msgid "Wait %0:d secons..."
-msgstr ""
+msgstr "Esperar %0:d segundos..."
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineHome..Caption
 msgid "Web Site (http://www.sasgis.org)"
@@ -4683,7 +4699,7 @@ msgstr "\vSi"
 
 #. Programmer's name for it: rsErrorTwoPolygons
 msgid "You must add at least TWO polygons!"
-msgstr ""
+msgstr "¡Debe agregar al menos dos polígonos!"
 
 #. Programmer's name for it: rsErrorNeedMerge
 msgid "You must MERGE polygons first!"
@@ -4691,7 +4707,7 @@ msgstr "¡Debe combinar primero los polígonos!"
 
 #. Programmer's name for it: SAS_ERR_MainMapNotExists
 msgid "You need at least one MAP among your ZMP files"
-msgstr ""
+msgstr "Necesita al menos un Mapa entre sus archivos ZMP"
 
 #. frmUpdateChecker..lblCurVer..Caption
 msgid "Your version:"
@@ -4715,6 +4731,9 @@ msgid ""
 "\n"
 "Do you really want to close without saving?"
 msgstr ""
+"ZMP ha sido modificadoo, pero no guardado todavía!\n"
+"\n"
+"¿Está seguro de cerrar sin guardar?"
 
 #. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
 msgid "ZMP:"
@@ -4760,7 +4779,7 @@ msgstr "Zoom"
 
 #. Programmer's name for it: rsCmdLineArgProcessorZoomOutOfBounds
 msgid "ZoomOutOfBounds"
-msgstr ""
+msgstr "Zoom fuera de contorno"
 
 #. Programmer's name for it: rsCmdLineArgProcessorZoomParserError
 msgid "ZoomParserError"
