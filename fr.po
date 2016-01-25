@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-01-13 09:17\n"
-"PO-Revision-Date: 2015-12-21 07:50+0100\n"
+"POT-Creation-Date: 2015-12-21 09:05\n"
+"PO-Revision-Date: 2016-01-14 19:05+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.3\n"
+"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language: fr\n"
 "X-Language: fr_FR\n"
@@ -431,10 +431,6 @@ msgid "Add visible Grids"
 msgstr "Ajouter les grilles visibles"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
-#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
-#. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Ajouter les couches visibles"
 
@@ -510,53 +506,53 @@ msgstr "Total à télécharger (estimé) :"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 msgid "Are you sure you want to delete %0:d placemarks?"
-msgstr "Etes vous certain de vouloir effacer %0:d balises ?"
+msgstr "Etes-vous certain de vouloir effacer %0:d balises ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
 msgstr ""
-"Etes vous certain de vouloir effacer la catégorie avec le nom \"%0:s\"?"
+"Etes-vous certain de vouloir effacer la catégorie avec le nom \"%0:s\"?"
 
 msgid "Are you sure you want to delete database \"%s\"?"
-msgstr "Etes vous certain de vouloir effacer la base de données \"%s\"?"
+msgstr "Etes-vous certain de vouloir effacer la base de données \"%s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
 msgid "Are you sure you want to delete Marks in selected region?"
 msgstr ""
-"Etes vous certain de vouloir effacer les marqueurs dans la région "
+"Etes-vous certain de vouloir effacer les marqueurs dans la région "
 "sélectionnée  ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
 msgid "Are you sure you want to delete path with name \"%0:s\"?"
-msgstr "Etes vous certain de vouloir effacer la piste avec le nom \"%0:s\" ?"
+msgstr "Etes-vous certain de vouloir effacer la piste avec le nom \"%0:s\" ?"
 
 msgid ""
 "Are you sure you want to delete placemark of unknown type with name \"%0:s\"?"
 msgstr ""
-"Etes vous certain de vouloir effacer la balise de type inconnu avec le nom "
+"Etes-vous certain de vouloir effacer la balise de type inconnu avec le nom "
 "\"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
 msgid "Are you sure you want to delete point with name \"%0:s\"?"
-msgstr "Etes vous certain de vouloir effacer la balise avec le nom \"%0:s\" ?"
+msgstr "Etes-vous certain de vouloir effacer la balise avec le nom \"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPolyAsk
 msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
 msgstr ""
-"Etes vous certain de vouloir effacer le polygone avec le nom \"%0:s\" ?"
+"Etes-vous certain de vouloir effacer le polygone avec le nom \"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
 msgid "Are you sure you want to delete tile with name \"%0:s\"?"
-msgstr "Etes vous certain de vouloir effacer la dalle avec le nom \"%0:s\" ?"
+msgstr "Etes-vous certain de vouloir effacer la dalle avec le nom \"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
 msgid "Are you sure you want to delete tiles in selected region?"
 msgstr ""
-"Etes vous certain de vouloir effacer les dalles dans la région sélectionnée ?"
+"Etes-vous certain de vouloir effacer les dalles dans la région sélectionnée ?"
 
 #. Programmer's name for it: SAS_MSG_ResetSensorAsk
 msgid "Are you sure you want to reset sensor?"
-msgstr "Etes vous certain de vouloir réinitialiser le capteur ?"
+msgstr "Etes-vous certain de vouloir réinitialiser le capteur ?"
 
 #. Programmer's name for it: SAS_STR_S
 msgid "Area"
@@ -1344,7 +1340,7 @@ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
 msgstr "Détaille la route par voiture (la plus courte) avec Maps@mail.ru"
 
 msgid "Detalize route by car (Shortest) with yournavigation.org"
-msgstr "Détaille la route par voiture (Le plus court) avec yournavigation.org"
+msgstr "Détaille la route par voiture (La plus courte) avec yournavigation.org"
 
 msgid "Detalize route by foot (Fastest) with cloudmade.com"
 msgstr "Détaille la route à pied (la plus rapide) avec cloudmade.com"
@@ -1467,7 +1463,7 @@ msgid ""
 "Download completed successfully. You can update the program manually from "
 "file: %s"
 msgstr ""
-"Téléchargement complèté avec succès. Faire la mise à jour du programme, "
+"Téléchargement complété avec succès. Faire la mise à jour du programme, "
 "manuellement, à partir du fichier : %s"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
@@ -2062,7 +2058,7 @@ msgstr "Hauteur :"
 
 #. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
 msgid "Hide"
-msgstr "Masquer"
+msgstr "Masquer le marqueur"
 
 #. frmMain..TBDock..SrcToolbar..TBLayerSel..btnHideAll..Caption
 msgid "Hide All"
@@ -2155,11 +2151,11 @@ msgstr "Ignorer dalles absentes"
 
 #. frMarksGeneralOptions..chkLineIgnore..Caption
 msgid "Ignore paths"
-msgstr "Ignorer les chemins"
+msgstr "Ignorer les pistes"
 
 #. frMarksGeneralOptions..chkPointIgnore..Caption
 msgid "Ignore placemarks"
-msgstr "Ignorer les marqueurs"
+msgstr "Ignorer les balises"
 
 #. frMarksGeneralOptions..chkPolyIgnore..Caption
 msgid "Ignore polygons"
@@ -2197,8 +2193,8 @@ msgid ""
 "Import finished. Total processed: %d files. Successfull imported: %d files.\n"
 "Fit to screen the last imported item?"
 msgstr ""
-"Importation terminée. Total réalisé: %d fichiers. Importés avec succès: %d "
-"fichiers.\n"
+"Importation terminée. Total réalisé : %d fichier(s). Importé(s) avec "
+"succès : %d fichier(s).\n"
 "Ajuster à l'écran le dernier item importé ?"
 
 #. frmImportConfigEdit..Caption
@@ -2502,7 +2498,7 @@ msgstr "Ajouter un polygone suivant RosReestr (F8+Clic)"
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr ""
-"Créer un sous-répertoire avec le nom du chemin de la carte ( le NameInCache)"
+"Créer un sous-répertoire avec le nom du chemin de la carte (le NameInCache)"
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..tbxManageFavorite..Caption
 msgid "Manage"
@@ -3212,7 +3208,7 @@ msgstr "Afficher le nom des balises"
 
 #. frMarksGeneralOptions..grpPoint..Caption
 msgid "Placemark parameters"
-msgstr "Paramètres des marqueurs"
+msgstr "Propriétés de la balise"
 
 #. frmMain..TBDock..TBMarksToolbar..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
@@ -3805,7 +3801,7 @@ msgid ""
 "Selected category \"%0:s\" contain %d sub categories. Are you realy want to "
 "delete all of them?"
 msgstr ""
-"La catégorie sélectionnée \"%0:s\" contient %d des sous-catégories. Faut-il "
+"La catégorie sélectionnée \"%0:s\" contient %d sous-catégorie(s). Faut-il "
 "tout supprimer ?"
 
 #. Programmer's name for it: SAS_ERR_ImageIsTooBig
@@ -3901,7 +3897,7 @@ msgstr "Couleur de l'ombre :"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
 msgid "Shift - snap to active grids (if enabled)"
-msgstr "Maj- Aller vers les grilles actives (si elles existent)"
+msgstr "Maj - Aller vers les grilles actives (si elles existent)"
 
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
@@ -3979,7 +3975,7 @@ msgstr "Afficher seulement la distance finale"
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
 msgid "Show only new"
-msgstr "Afficher seulement les nouveaux"
+msgstr "Afficher seulement les nouvelles"
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show only selected placemarks"
@@ -4320,7 +4316,7 @@ msgid ""
 msgstr ""
 "Le nombre de fichiers JPEG va dépasser 100.\n"
 "Diviser l'image en utilisant\n"
-"la fenêtre \"Gestion de la sélection - Assemblage\"\n"
+"la fenêtre \"Gestionnaire de sélection - Assembler\"\n"
 "et utiliser les fichiers KMZ séparément."
 
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
