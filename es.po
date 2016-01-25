@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-01-13 09:17\n"
-"PO-Revision-Date: 2016-01-20 14:26-0300\n"
+"PO-Revision-Date: 2016-01-25 13:39-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
 "Language: es\n"
+"Language-Team: \n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -1443,7 +1443,7 @@ msgstr "Descarga completa"
 msgid ""
 "Download completed successfully. You can update the program manually from "
 "file: %s"
-msgstr "Descarga completada satisfactoriamente. Ud. puede actualizar la..."
+msgstr "Descarga completada. Ver file: %s"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
 msgid "Download enabled"
@@ -1817,7 +1817,7 @@ msgstr "Fuente"
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
-msgstr "Tamaño de Font"
+msgstr "Tamaño de Fuente"
 
 #. Programmer's name for it: SAS_STR_for
 msgid "For"
@@ -1907,7 +1907,7 @@ msgstr "Nombres mapas Genshtab"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..Caption
 msgid "GenShtab Maps Boundaries"
-msgstr "Grilla límites GenShtab"
+msgstr "Grilla GenShtab"
 
 #. Programmer's name for it: rsGeoCacherCacheName
 msgid "GeoCacher"
@@ -2059,7 +2059,7 @@ msgstr "Ocultar Barra de Estado"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
-msgstr "horizontalidad:"
+msgstr "horizontalmente:"
 
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..lblHotKey..Caption
@@ -2101,16 +2101,16 @@ msgstr "Icon"
 
 #. frJpegImportOptions..grp1..Caption
 msgid "Icon parameters"
-msgstr "Icono parámetros"
+msgstr "Icon parámetros"
 
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
-msgstr "Icono tamaño"
+msgstr "Tamaño Icono"
 
 #. frJpegImportOptions..grp1..lblPointIconSize..Caption
 msgid "Icon size:"
-msgstr "Icono tamaño:"
+msgstr "Tamaño Icono:"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkIgnoreTNE..Caption
 msgid "Ignore *.tne"
@@ -2166,7 +2166,7 @@ msgstr ""
 
 #. frmImportConfigEdit..Caption
 msgid "Import Parameters"
-msgstr "Importar parametros"
+msgstr "Importar Posiciones"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
 msgid "Include alpha channel"
@@ -2468,7 +2468,7 @@ msgstr "Crear sub carpeta con nombre de la ruta"
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..tbxManageFavorite..Caption
 msgid "Manage"
-msgstr "Onganizar"
+msgstr "Organizar"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
 msgid "Manage Selection"
@@ -2706,11 +2706,11 @@ msgstr "Mover Abajo"
 
 #. frMergePolygons..tbTop..tbDown..Hint
 msgid "Move selected item Down (Shift + Down Arrow)"
-msgstr ""
+msgstr "Mover ítem seleccionado hacia abajo (Mayúsculas + Flecha Abajo)"
 
 #. frMergePolygons..tbTop..tbUp..Hint
 msgid "Move selected item Up (Shift + Up Arrow)"
-msgstr ""
+msgstr "Mover ítem seleccionado hacia arriba (Mayúsculas + Flecha Arriba)"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnUp..Caption
 msgid "Move Up"
@@ -3070,7 +3070,7 @@ msgstr ""
 
 #. frMarksGeneralOptions..grpLine..Caption
 msgid "Path parameters"
-msgstr ""
+msgstr "Parámetros de Rutas"
 
 msgid "Path to gps tracks"
 msgstr "Pistas GPS"
@@ -3172,7 +3172,7 @@ msgstr "Mostrar Nombres en Pantalla"
 
 #. frMarksGeneralOptions..grpPoint..Caption
 msgid "Placemark parameters"
-msgstr ""
+msgstr "Parámetros de Marcas"
 
 #. frmMain..TBDock..TBMarksToolbar..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
@@ -3278,7 +3278,7 @@ msgstr "Polígono no seleccionado"
 
 #. frMarksGeneralOptions..grpPoly..Caption
 msgid "Polygon parameters"
-msgstr "Parámetros del polígono"
+msgstr "Parámetros de Polígonos"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBREGION..Caption
 msgid "Polygonal Selection"
@@ -3461,7 +3461,7 @@ msgid ""
 "Note: Non-JPEG tiles are always recompressed"
 msgstr ""
 "Recomprimir mosaicos JPEG \n"
-"Nota: Mosaicos no-JPEG son siempr recomprimid"
+"Nota: Mosaicos no-JPEG son siempr recomprimidos"
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
 msgid "Recreate target database if exists"
@@ -3542,7 +3542,7 @@ msgstr "Restaurar"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
 msgid "Restore download from last successful tile"
-msgstr ""
+msgstr "Restaurar descarga desde el último mosaico satisfactorio"
 
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
@@ -3554,7 +3554,7 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
 msgid "Retry download if tile not found"
-msgstr ""
+msgstr "Volver a descargar si no encuentra mosaico  "
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
@@ -3596,7 +3596,7 @@ msgstr "SAS.Planet Development Team"
 
 #. Programmer's name for it: SAS_MSG_need_reload_application_curln
 msgid "SAS.Planet must be restarted for the changes to take effect"
-msgstr "SAS.Planet debe ser reinicidopara que los cambios tengan efecto"
+msgstr "SAS.Planet debe ser reinicido para que los cambios tengan efecto"
 
 #. Programmer's name for it: rsCmdLineArgProcessorSASExceptionRaised
 msgid "SASExceptionRaised"
@@ -3774,10 +3774,15 @@ msgid ""
 "Try select smaller region to stitch in %s or select other output format (ECW "
 "is the best)."
 msgstr ""
+"¡Resolución Seleccionada is muy alta para %s formato!\n"
+"Ancho = %d (max = %d)\n"
+"Alto = %d (max = %d)\n"
+"Pruebe seleccionar una región más chica para pegar (stitch) en %s o "
+"selecione otro formato (ECW es el mejor)."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
-msgstr ""
+msgstr "Selección por Coordenadas"
 
 #. frmMain..TBDock..TBMainToolBar..TBRectSave..Hint
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnOpSelectMark..Hint
@@ -3813,7 +3818,7 @@ msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap "
 
 #. Programmer's name for it: SAS_ERR_BadMIME
 msgid "Server returned unexpected type \"%0:s\""
-msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap "
+msgstr "Servidor retorná tipo no esperado \"%0:s\""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
@@ -3854,7 +3859,7 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
 msgid "Shift - snap to active grids (if enabled)"
-msgstr "Selección por coordenadas"
+msgstr ""
 
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
@@ -3906,7 +3911,7 @@ msgstr "Mostrar Logo al iniciar"
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarLonLatInfo..Caption
 #. Programmer's name for it: rsShowLonLatInfo
 msgid "Show LonLat Info"
-msgstr "Mostrar Lat/Lon"
+msgstr "Mostrar Latitud / Longitud"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowmapname..Caption
 msgid "Show map name on toolbar"
@@ -4276,7 +4281,7 @@ msgstr ""
 
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
-msgstr "¡La tarea está completada!"
+msgstr "La tarea está completada!"
 
 #. Programmer's name for it: SAS_ERR_FileExistsShort
 msgid "The tile already exists"
@@ -4296,7 +4301,7 @@ msgstr "El tne es más nuevo que el periodo entrado, ignorado."
 
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
-msgstr "¡No hay objetos disponibles en el pool"
+msgstr "No hay objetos disponibles en el pool"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
 msgid "There is an error %1:s in map %0:s"
@@ -4311,7 +4316,7 @@ msgstr ""
 
 msgid "This format supports file name with ASCII characters only!"
 msgstr ""
-"¡Este formato soporta nombres de archivo con caracteres ASCII únicamente! "
+"¡¡Este formato soporta nombres de archivo con caracteres ASCII únicamente! "
 
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
 msgid "This is not simple file storage. Tile's file name does not exist."
@@ -4345,7 +4350,7 @@ msgstr "Contorno Mosaico "
 
 #. frmMain..TBDock..TBXMainMenu..NView..NShowGran..Caption
 msgid "Tile Boundaries"
-msgstr "Grilla de mosaicos"
+msgstr "Grilla Zoom"
 
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..CBBorderText..Caption
 msgid "Tile coordinates"
@@ -4438,7 +4443,7 @@ msgstr "Imposible fijar posición"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr "¡Imposible cargar mapas(s)! Cancelando..."
+msgstr "Imposible cargar mapas(s)! Cancelando..."
 
 msgid "Unexpected content type %s"
 msgstr "Tipo de contenido no esperado %s"
@@ -4634,7 +4639,7 @@ msgstr "Versiones"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitVert..Caption
 msgid "vertically:"
-msgstr ""
+msgstr "verticalmente:"
 
 #. frmSettings..PageControl1..tsView..Caption
 msgid "View"
