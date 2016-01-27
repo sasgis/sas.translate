@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-01-26 01:02\n"
-"PO-Revision-Date: 2016-01-25 13:39-0300\n"
+"POT-Creation-Date: 2016-01-13 09:17\n"
+"PO-Revision-Date: 2016-01-27 11:36-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -344,7 +344,7 @@ msgstr "Agregar Base de Marcas"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..chkBoxSeparator..Caption
 msgid "Add menu separator line after this map"
-msgstr "Agregar una línea de sparación después de este mapa"
+msgstr "Agregar una línea de separación después de este mapa"
 
 #. frmMarkCategoryEdit..Caption
 #. Programmer's name for it: SAS_STR_AddNewCategory
@@ -473,7 +473,7 @@ msgstr "Todos los formatos compatibles"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
 msgid "All Images"
-msgstr "Todas las Images"
+msgstr "Todas las Imágenes"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkALLServices..Caption
 msgid "All Services"
@@ -518,7 +518,7 @@ msgstr "¿Está seguro de borrar database con nombre \"%s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
 msgid "Are you sure you want to delete Marks in selected region?"
-msgstr "¿Está seguro de borrar las Marcas de la región seleccionada?"
+msgstr "¿Está seguro de borrar las marcas de la región seleccionada?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
 msgid "Are you sure you want to delete path with name \"%0:s\"?"
@@ -542,7 +542,7 @@ msgstr "¿Está seguro de borrar mosaicos con nombre \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
 msgid "Are you sure you want to delete tiles in selected region?"
-msgstr "¿Está seguro de borrar los Mosaicos de la región seleccionada?"
+msgstr "¿Está seguro de borrar los mosaicos de la región seleccionada?"
 
 #. Programmer's name for it: SAS_MSG_ResetSensorAsk
 msgid "Are you sure you want to reset sensor?"
@@ -656,7 +656,7 @@ msgid "Background color:"
 msgstr "Color de fondo:"
 
 msgid "Base Cache path"
-msgstr "Caché"
+msgstr "Carpeta del Caché"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
 msgid "Base part of request URL:"
@@ -749,7 +749,7 @@ msgstr "Caché y Otros"
 
 #. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
 msgid "Cache conversion is finished!"
-msgstr "Conversión de Caché terminada!"
+msgstr "¡Conversión de Caché terminada!"
 
 #. Programmer's name for it: SAS_ERR_ContentTypeMismatch
 msgid ""
@@ -757,7 +757,7 @@ msgid ""
 "Source: %s\n"
 "Destination: %s"
 msgstr ""
-"Conversión Caché abortada. Error: Contenido-Tipo distinto!\n"
+"¡Conversión Caché abortada. Error: Contenido-Tipo distinto!\n"
 "Fuente: %s\n"
 "Destino: %s"
 
@@ -1041,7 +1041,7 @@ msgstr "Coordenadas"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..Label84..Caption
 msgid "Coordinates representation"
-msgstr "Representación de oordenadas"
+msgstr "Representación de coordenadas"
 
 msgid "Coordinates: %s"
 msgstr "Coordenadas: %s"
@@ -1648,7 +1648,7 @@ msgstr "¡Error abriendo puerto!"
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
 msgid "Error parsing coordinates: Lat=%s Lon=%s"
-msgstr "error analizando coordenadas: Lat=%s Lon=%s"
+msgstr "Error analizando coordenadas: Lat=%s Lon=%s"
 
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
@@ -1691,7 +1691,7 @@ msgstr "Exportar Marcas"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Hint
 msgid "Export placemarks from selected category"
-msgstr "Exportar posiciones de categoría seleccionada"
+msgstr "Exportar posiciones de categorías seleccionadas"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
@@ -2093,15 +2093,15 @@ msgstr "HTTP %d error desconocido"
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
 msgid "Hybrid"
-msgstr "Hybrid"
+msgstr "Híbrido"
 
 #. frMarksGeneralOptions..grpPoint..lblPointIcon..Caption
 msgid "Icon"
-msgstr "Icon"
+msgstr "Icono"
 
 #. frJpegImportOptions..grp1..Caption
 msgid "Icon parameters"
-msgstr "Icon parámetros"
+msgstr "Icono parámetros"
 
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
@@ -2204,7 +2204,7 @@ msgstr "La Interfase es nula"
 #. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
 #. frmMapLayersOptions..Caption
 msgid "Interface Options"
-msgstr "Opciones de Interfase"
+msgstr "Opciones de Pantalla"
 
 #. Programmer's name for it: SAS_ERR_ETS_NotImplemented
 msgid "Interface to external tile storage not implemented"
@@ -2425,7 +2425,7 @@ msgstr "LonLatParserError"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkLowResolutionToo..Caption
 msgid "Low Resolution too"
-msgstr "Baja resolución tambien"
+msgstr "Baja resolución también"
 
 #. frmLonLatRectEdit..grdpnlMain..grpBottomRight..Caption
 msgid "Lower right corner"
@@ -2775,7 +2775,7 @@ msgstr "Próxima versión"
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
 #. Programmer's name for it: rsNice
 msgid "Nice"
-msgstr ""
+msgstr "Entero"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..CBinvertcolor..Caption
 msgid "Night mode (color inversion)"
@@ -2995,7 +2995,7 @@ msgstr "Otros"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineOutlineColor..Caption
 msgid "Outline color:"
-msgstr ""
+msgstr "Color de Borde"
 
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
@@ -3073,28 +3073,28 @@ msgid "Path parameters"
 msgstr "Parámetros de Rutas"
 
 msgid "Path to gps tracks"
-msgstr "Pistas GPS"
+msgstr "Carpeta de Pistas GPS"
 
 msgid "Path to map scan DB"
-msgstr "Map Scan DB"
+msgstr "Carpeta Map Scan DB"
 
 msgid "Path to Maps"
-msgstr "Mapas"
+msgstr "Carpeta de Mapas"
 
 msgid "Path to Marks database"
-msgstr "Marcas"
+msgstr "Carpeta de Marcas"
 
 msgid "Path to marks icon"
-msgstr "Iconos"
+msgstr "Carpeta de Iconos"
 
 msgid "Path to MediaData"
-msgstr "MediaData"
+msgstr "Carpeta MediaData"
 
 msgid "Path to Terrain data"
-msgstr "Terrain"
+msgstr "Carpeta Datos de Terreno"
 
 msgid "Path to user data"
-msgstr "User Data"
+msgstr "Carpeta de Datos de Usuario"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblPath..Caption
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestPath..Caption
@@ -3103,7 +3103,7 @@ msgstr "Archivos:"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
-msgstr ""
+msgstr "Ruta al mosaico en caché "
 
 #. frDeleteMarks..PnlTop..chkPaths..Caption
 #. frmSettings..PageControl1..tsPaths..Caption
@@ -3138,7 +3138,7 @@ msgstr "Pixel"
 
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 msgid "Placemark"
-msgstr "En Posición Existente"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_NewMark
 msgid "Placemark %0:d"
@@ -3146,7 +3146,7 @@ msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Caption
 msgid "Placemark Categories"
-msgstr "Categorías"
+msgstr "Categorías de Posiciones"
 
 #. frmMain..MainPopupMenu..NMarkExport..Caption
 msgid "Placemark Export"
@@ -3461,7 +3461,7 @@ msgid ""
 "Note: Non-JPEG tiles are always recompressed"
 msgstr ""
 "Recomprimir mosaicos JPEG \n"
-"Nota: Mosaicos no-JPEG son siempr recomprimidos"
+"Nota: Mosaicos no-JPEG son siempre recomprimidos"
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
 msgid "Recreate target database if exists"
@@ -3486,7 +3486,7 @@ msgstr "Actualización (ms)"
 
 #. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
-msgstr ""
+msgstr "Ruta relativa a mosaicos"
 
 #. frmUpdateChecker..cbbChannel....Items.Strings
 msgid "Release (stable)"
@@ -3571,7 +3571,7 @@ msgstr "Roscosmos (geoportal.ntsomz.ru)"
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
 #. Programmer's name for it: rsRound
 msgid "Round"
-msgstr ""
+msgstr "Redondeado"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
 msgid "Route Calculation"
@@ -3706,7 +3706,7 @@ msgstr "Escala:"
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
 #. Programmer's name for it: rsScience
 msgid "Science"
-msgstr ""
+msgstr "Decimal"
 
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..btnSetXYZ..Caption
@@ -3855,7 +3855,7 @@ msgstr "Opciones"
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
 msgid "Shadow color"
-msgstr ""
+msgstr "Color de sombra"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
 msgid "Shift - snap to active grids (if enabled)"
@@ -3932,7 +3932,7 @@ msgstr "Mostrar en Mapa"
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Caption
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Hint
 msgid "Show only final distance"
-msgstr "Mostrarsolo distancia final"
+msgstr "Mostrar solo distancia final"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
@@ -3964,7 +3964,7 @@ msgstr "Mostrar dirección del Mosaico"
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTimeZoneInfo..Caption
 #. Programmer's name for it: rsShowTimeZoneInfo
 msgid "Show Time Zone Info"
-msgstr "Mostrar información de Zona horaria"
+msgstr "Mostrar Zona horaria"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
 msgid "Show tooltips"
@@ -4574,7 +4574,7 @@ msgstr "Usar proxy (IP:port)"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
 msgid "Use storage to check new images"
-msgstr "Usar almacenamiento para validar nuevas imágenes"
+msgstr "Usar almacenamiento para validar imágenes"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
 msgid "Use system proxy settings"
@@ -4675,7 +4675,7 @@ msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
 msgid "Width:"
-msgstr ""
+msgstr "Ancho:"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NShowFillDates..Caption
 msgid "Within Time Interval"
