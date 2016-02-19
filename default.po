@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-01-13 09:17\n"
-"PO-Revision-Date: 2016-01-13 09:17\n"
+"POT-Creation-Date: 2016-02-19 21:32\n"
+"PO-Revision-Date: 2016-02-19 21:32\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -435,6 +435,7 @@ msgstr ""
 #. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr ""
 
@@ -1438,6 +1439,11 @@ msgid "Don't store references to non-existent "
 "tiles"
 msgstr ""
 
+#. frExportRMP..pnlCenter..pnlMain..chkDontProjectToLatLon..Caption
+msgid "Don't transform tiles to Geographic "
+"projection"
+msgstr ""
+
 #. Programmer's name for it: rsDoubleFree
 msgid "Double Free: Object is olready deleted!"
 msgstr ""
@@ -2271,6 +2277,10 @@ msgstr ""
 msgid "Jpeg Import Parameters"
 msgstr ""
 
+#. frExportRMP..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
+msgid "JPEG quality:"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr ""
@@ -2546,6 +2556,7 @@ msgstr ""
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr ""
 
@@ -2620,7 +2631,7 @@ msgid "MB"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
-msgid "MBTiles 1.2 (SQLite)"
+msgid "MBTiles 1.2 (SQLite3)"
 msgstr ""
 
 #. frExportMBTiles..dlgSaveTo..Filter
@@ -2993,7 +3004,7 @@ msgid "Options..."
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
-msgid "OruxMaps (SQLite)"
+msgid "OruxMaps (SQLite3)"
 msgstr ""
 
 #. Programmer's name for it: rsOsmAndCacheName
@@ -3026,6 +3037,7 @@ msgstr ""
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr ""
 
@@ -3382,6 +3394,10 @@ msgstr ""
 msgid "Product Name"
 msgstr ""
 
+#. frExportRMP..pnlCenter..pnlMain..lblDesc..Caption
+msgid "Product:"
+msgstr ""
+
 #. frmPointProjecting..pnlBottom..btnCreatePoint..Caption
 msgid "Project"
 msgstr ""
@@ -3413,6 +3429,10 @@ msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
+msgstr ""
+
+#. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
+msgid "Provider:"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Authorization
@@ -3577,6 +3597,18 @@ msgstr ""
 msgid "Ring radius (m)"
 msgstr ""
 
+#. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
+msgid "RMaps (SQLite3)"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_ExportRMPExportCaption
+msgid "RMP raster map for Magellan"
+msgstr ""
+
+#. frExportRMP..dlgSaveTo..Filter
+msgid "rmp|*.rmp"
+msgstr ""
+
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr ""
@@ -3701,6 +3733,7 @@ msgstr ""
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
+#. frExportRMP..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
@@ -4591,6 +4624,7 @@ msgstr ""
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible "
 "tile)"
 msgstr ""

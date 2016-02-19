@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-01-13 09:17\n"
-"PO-Revision-Date: 2015-12-13 20:20+0300\n"
+"POT-Creation-Date: 2016-02-19 21:32\n"
+"PO-Revision-Date: 2016-02-19 21:39+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -432,6 +432,7 @@ msgstr "Накладывать отображаемые сетки"
 #. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Накладывать отображаемые слои"
 
@@ -1418,6 +1419,10 @@ msgstr "Не закрывать окно после завершения"
 msgid "Don't store references to non-existent tiles"
 msgstr "Не сохранять пути к несуществующим тайлам"
 
+#. frExportRMP..pnlCenter..pnlMain..chkDontProjectToLatLon..Caption
+msgid "Don't transform tiles to Geographic projection"
+msgstr "Не трансформировать тайлы в Географическую проекцию"
+
 #. Programmer's name for it: rsDoubleFree
 msgid "Double Free: Object is olready deleted!"
 msgstr "Попытка повторного удаления интерфейсного объекта"
@@ -2252,6 +2257,10 @@ msgstr "Версия JNX:"
 msgid "Jpeg Import Parameters"
 msgstr "Параметры импорта Jpeg"
 
+#. frExportRMP..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
+msgid "JPEG quality:"
+msgstr "Качество JPEG:"
+
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "кБ"
@@ -2536,6 +2545,7 @@ msgstr "Карта/Слой:"
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr "Тип карты:"
 
@@ -2606,7 +2616,7 @@ msgid "MB"
 msgstr "Мб"
 
 #. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
-msgid "MBTiles 1.2 (SQLite)"
+msgid "MBTiles 1.2 (SQLite3)"
 msgstr ""
 
 #. frExportMBTiles..dlgSaveTo..Filter
@@ -2976,7 +2986,7 @@ msgid "Options..."
 msgstr "Настройки..."
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
-msgid "OruxMaps (SQLite)"
+msgid "OruxMaps (SQLite3)"
 msgstr ""
 
 #. Programmer's name for it: rsOsmAndCacheName
@@ -3009,6 +3019,7 @@ msgstr "Результирующий формат:"
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr "Наложить:"
 
@@ -3361,6 +3372,11 @@ msgstr "Тип снимка (ID)"
 msgid "Product Name"
 msgstr "Наименование:"
 
+#. frExportRMP..pnlCenter..pnlMain..lblDesc..Caption
+#, fuzzy
+msgid "Product:"
+msgstr "Тип снимка (ID)"
+
 #. frmPointProjecting..pnlBottom..btnCreatePoint..Caption
 msgid "Project"
 msgstr "Спроецировать"
@@ -3394,6 +3410,11 @@ msgstr "Проекция:"
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
 msgstr "Свойства"
+
+#. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
+#, fuzzy
+msgid "Provider:"
+msgstr "Основной источник:"
 
 #. Programmer's name for it: SAS_ERR_Authorization
 msgid "Proxy authorization error"
@@ -3560,6 +3581,18 @@ msgstr "Пытаться повторно загрузить тайл при е�
 msgid "Ring radius (m)"
 msgstr "Радиус окружности (м)"
 
+#. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
+msgid "RMaps (SQLite3)"
+msgstr ""
+
+#. Programmer's name for it: SAS_STR_ExportRMPExportCaption
+msgid "RMP raster map for Magellan"
+msgstr "RMP растровая карта для Magellan"
+
+#. frExportRMP..dlgSaveTo..Filter
+msgid "rmp|*.rmp"
+msgstr ""
+
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr "Вращение на себя - приближение"
@@ -3685,6 +3718,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
+#. frExportRMP..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
@@ -4589,6 +4623,7 @@ msgstr "Использовать вышележащие слои, если от�
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 

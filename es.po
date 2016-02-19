@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-01-13 09:17\n"
+"POT-Creation-Date: 2016-02-19 21:32\n"
 "PO-Revision-Date: 2016-01-27 11:36-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
 "Language: es\n"
-"Language-Team: \n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -432,6 +432,7 @@ msgstr "Agregar Grillas visibles"
 #. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Agregar Layers visibles"
 
@@ -1421,6 +1422,10 @@ msgstr "No cierre esta ventana al terminar"
 msgid "Don't store references to non-existent tiles"
 msgstr "No almacenar referencias para mosaicos no existentes"
 
+#. frExportRMP..pnlCenter..pnlMain..chkDontProjectToLatLon..Caption
+msgid "Don't transform tiles to Geographic projection"
+msgstr ""
+
 #. Programmer's name for it: rsDoubleFree
 msgid "Double Free: Object is olready deleted!"
 msgstr "Doble Borre: ¡El objeto ya está borrado!"
@@ -2255,6 +2260,10 @@ msgstr "JNX version:"
 msgid "Jpeg Import Parameters"
 msgstr "Jpeg Import Parameters"
 
+#. frExportRMP..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
+msgid "JPEG quality:"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "KB"
@@ -2539,6 +2548,7 @@ msgstr "Mapa/Overlay layer:"
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr "Mapa:"
 
@@ -2609,7 +2619,8 @@ msgid "MB"
 msgstr "MB"
 
 #. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
-msgid "MBTiles 1.2 (SQLite)"
+#, fuzzy
+msgid "MBTiles 1.2 (SQLite3)"
 msgstr "MBTiles 1.2 (SQLite)"
 
 #. frExportMBTiles..dlgSaveTo..Filter
@@ -2978,7 +2989,8 @@ msgid "Options..."
 msgstr "Opciones..."
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
-msgid "OruxMaps (SQLite)"
+#, fuzzy
+msgid "OruxMaps (SQLite3)"
 msgstr "OruxMaps (SQLite)"
 
 #. Programmer's name for it: rsOsmAndCacheName
@@ -3011,6 +3023,7 @@ msgstr "Formato de Salida:"
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr "Layer superpuesto:"
 
@@ -3363,6 +3376,11 @@ msgstr ""
 msgid "Product Name"
 msgstr "Nombre producto"
 
+#. frExportRMP..pnlCenter..pnlMain..lblDesc..Caption
+#, fuzzy
+msgid "Product:"
+msgstr "Nombre producto"
+
 #. frmPointProjecting..pnlBottom..btnCreatePoint..Caption
 msgid "Project"
 msgstr "Crear"
@@ -3395,6 +3413,11 @@ msgstr "Projeccion:"
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
 msgstr "Propiedades"
+
+#. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
+#, fuzzy
+msgid "Provider:"
+msgstr "Proveedor primario:"
 
 #. Programmer's name for it: SAS_ERR_Authorization
 msgid "Proxy authorization error"
@@ -3560,6 +3583,20 @@ msgstr "Volver a descargar si no encuentra mosaico  "
 msgid "Ring radius (m)"
 msgstr "Radio (m)"
 
+#. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
+#, fuzzy
+msgid "RMaps (SQLite3)"
+msgstr "OruxMaps (SQLite)"
+
+#. Programmer's name for it: SAS_STR_ExportRMPExportCaption
+#, fuzzy
+msgid "RMP raster map for Magellan"
+msgstr "Mapa raster JNX para Garmin"
+
+#. frExportRMP..dlgSaveTo..Filter
+msgid "rmp|*.rmp"
+msgstr ""
+
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr ""
@@ -3683,6 +3720,7 @@ msgstr "Guardar info de seleccion al archivo"
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
+#. frExportRMP..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
@@ -4592,6 +4630,7 @@ msgstr "Usar mosaico de menor zoom si no hay mosaico disponible"
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Usar mosaicos de menor zoom (si no hay mosaico disponible)"
 

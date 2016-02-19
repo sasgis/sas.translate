@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-12-21 09:05\n"
+"POT-Creation-Date: 2016-02-19 21:32\n"
 "PO-Revision-Date: 2016-01-25 21:26+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -435,6 +435,7 @@ msgstr "Ajouter les grilles visibles"
 #. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Ajouter les couches visibles"
 
@@ -1444,6 +1445,10 @@ msgstr "Ne pas fermer la fenêtre à la fin de l'action"
 msgid "Don't store references to non-existent tiles"
 msgstr "Ne pas stocker de références pour des dalles inexistantes"
 
+#. frExportRMP..pnlCenter..pnlMain..chkDontProjectToLatLon..Caption
+msgid "Don't transform tiles to Geographic projection"
+msgstr ""
+
 #. Programmer's name for it: rsDoubleFree
 msgid "Double Free: Object is olready deleted!"
 msgstr "Action inutile : l'objet est déjà supprimé !"
@@ -2292,6 +2297,10 @@ msgstr "JNX version :"
 msgid "Jpeg Import Parameters"
 msgstr "Jpeg, paramètres d'importation"
 
+#. frExportRMP..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
+msgid "JPEG quality:"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "Kb"
@@ -2577,6 +2586,7 @@ msgstr "Carte ou Couche :"
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr "Carte :"
 
@@ -2649,7 +2659,8 @@ msgid "MB"
 msgstr "Mb"
 
 #. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
-msgid "MBTiles 1.2 (SQLite)"
+#, fuzzy
+msgid "MBTiles 1.2 (SQLite3)"
 msgstr "MBTiles 1.2 (SQLite)"
 
 #. frExportMBTiles..dlgSaveTo..Filter
@@ -3018,7 +3029,8 @@ msgid "Options..."
 msgstr "Options de l'affichage de l'interface"
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
-msgid "OruxMaps (SQLite)"
+#, fuzzy
+msgid "OruxMaps (SQLite3)"
 msgstr "OruxMaps (SQLite)"
 
 #. Programmer's name for it: rsOsmAndCacheName
@@ -3051,6 +3063,7 @@ msgstr "Format de sortie :"
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr "Couche :"
 
@@ -3403,6 +3416,11 @@ msgstr "Type d'image (ID) :"
 msgid "Product Name"
 msgstr "Nom du produit :"
 
+#. frExportRMP..pnlCenter..pnlMain..lblDesc..Caption
+#, fuzzy
+msgid "Product:"
+msgstr "Type d'image (ID) :"
+
 #. frmPointProjecting..pnlBottom..btnCreatePoint..Caption
 msgid "Project"
 msgstr "Ajout de cette balise"
@@ -3435,6 +3453,11 @@ msgstr "Projection :"
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
 msgstr "Propriétés"
+
+#. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
+#, fuzzy
+msgid "Provider:"
+msgstr "Source principale :"
 
 #. Programmer's name for it: SAS_ERR_Authorization
 msgid "Proxy authorization error"
@@ -3602,6 +3625,20 @@ msgstr "Reprendre le téléchargement si dalle non trouvée"
 msgid "Ring radius (m)"
 msgstr "Rayon de l'anneau (m) :"
 
+#. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
+#, fuzzy
+msgid "RMaps (SQLite3)"
+msgstr "OruxMaps (SQLite)"
+
+#. Programmer's name for it: SAS_STR_ExportRMPExportCaption
+#, fuzzy
+msgid "RMP raster map for Magellan"
+msgstr "JNX, carte raster pour Garmin"
+
+#. frExportRMP..dlgSaveTo..Filter
+msgid "rmp|*.rmp"
+msgstr ""
+
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr "Rouler en arrière pour actionner le zoom vers le haut"
@@ -3725,6 +3762,7 @@ msgstr "Sauvegarder la sélection dans un fichier .hlg"
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
+#. frExportRMP..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
@@ -4638,6 +4676,7 @@ msgstr ""
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr ""
 "Prendre les dalles à partir des petits zooms, si dalles utiles non "
