@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-02-19 21:32\n"
-"PO-Revision-Date: 2016-01-25 21:26+0100\n"
+"PO-Revision-Date: 2016-02-20 18:22+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1447,7 +1447,7 @@ msgstr "Ne pas stocker de références pour des dalles inexistantes"
 
 #. frExportRMP..pnlCenter..pnlMain..chkDontProjectToLatLon..Caption
 msgid "Don't transform tiles to Geographic projection"
-msgstr ""
+msgstr "Ne pas convertir les dalles en projection géographique"
 
 #. Programmer's name for it: rsDoubleFree
 msgid "Double Free: Object is olready deleted!"
@@ -2299,7 +2299,7 @@ msgstr "Jpeg, paramètres d'importation"
 
 #. frExportRMP..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 msgid "JPEG quality:"
-msgstr ""
+msgstr "Qualité JPEG :"
 
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
@@ -2659,9 +2659,8 @@ msgid "MB"
 msgstr "Mb"
 
 #. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
-#, fuzzy
 msgid "MBTiles 1.2 (SQLite3)"
-msgstr "MBTiles 1.2 (SQLite)"
+msgstr "MBTiles 1.2 (SQLite3)"
 
 #. frExportMBTiles..dlgSaveTo..Filter
 msgid "mbtiles|*.mbtiles"
@@ -3029,9 +3028,8 @@ msgid "Options..."
 msgstr "Options de l'affichage de l'interface"
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
-#, fuzzy
 msgid "OruxMaps (SQLite3)"
-msgstr "OruxMaps (SQLite)"
+msgstr "OruxMaps (SQLite3)"
 
 #. Programmer's name for it: rsOsmAndCacheName
 msgid "OsmAnd+ Tiles"
@@ -3417,9 +3415,8 @@ msgid "Product Name"
 msgstr "Nom du produit :"
 
 #. frExportRMP..pnlCenter..pnlMain..lblDesc..Caption
-#, fuzzy
 msgid "Product:"
-msgstr "Type d'image (ID) :"
+msgstr "Produit :"
 
 #. frmPointProjecting..pnlBottom..btnCreatePoint..Caption
 msgid "Project"
@@ -3455,7 +3452,6 @@ msgid "Properties"
 msgstr "Propriétés"
 
 #. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
-#, fuzzy
 msgid "Provider:"
 msgstr "Source principale :"
 
@@ -3626,18 +3622,16 @@ msgid "Ring radius (m)"
 msgstr "Rayon de l'anneau (m) :"
 
 #. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
-#, fuzzy
 msgid "RMaps (SQLite3)"
-msgstr "OruxMaps (SQLite)"
+msgstr "RMaps (SQLite3)"
 
 #. Programmer's name for it: SAS_STR_ExportRMPExportCaption
-#, fuzzy
 msgid "RMP raster map for Magellan"
-msgstr "JNX, carte raster pour Garmin"
+msgstr "RMP, carte raster pour Magellan"
 
 #. frExportRMP..dlgSaveTo..Filter
 msgid "rmp|*.rmp"
-msgstr ""
+msgstr "rmp|*.rmp"
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
