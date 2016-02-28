@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-02-19 21:32\n"
-"PO-Revision-Date: 2016-02-19 21:39+0300\n"
+"POT-Creation-Date: 2016-02-28 20:27\n"
+"PO-Revision-Date: 2016-02-28 20:29+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -513,6 +513,10 @@ msgstr "Вы действительно хотите удалить %0:d мет�
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
 msgstr "Вы действительно хотите удалить категорию с именем \"%0:s\"?"
+
+#. Programmer's name for it: SAS_MSG_DeleteGPSTrackAsk
+msgid "Are you sure you want to delete current GPS track?"
+msgstr "Вы действительно хотите удалить текущий GPS трек?"
 
 msgid "Are you sure you want to delete database \"%s\"?"
 msgstr "Вы действительно хотите удалить базу  \"%s\"?"
@@ -2838,6 +2842,9 @@ msgstr "Не найдена секция PARAMS в zmp"
 #. Programmer's name for it: SAS_STR_notfound
 msgid "Nothing found on current map."
 msgstr "Искомая комбинация на карте не встречается."
+
+msgid "Nothing to delete - GPS track is empty."
+msgstr "Нечего удалять - GPS трек пуст"
 
 msgid "Nothing to import!"
 msgstr "Нечего импортировать!"
