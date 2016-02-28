@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-02-19 21:32\n"
-"PO-Revision-Date: 2016-01-27 11:36-0300\n"
+"POT-Creation-Date: 2016-01-13 09:17\n"
+"PO-Revision-Date: 2016-02-27 19:28-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
 "Language: es\n"
+"Language-Team: \n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -432,7 +432,6 @@ msgstr "Agregar Grillas visibles"
 #. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
-#. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Agregar Layers visibles"
 
@@ -504,7 +503,7 @@ msgstr "Aplicar"
 
 #. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
 msgid "Approx. to download:"
-msgstr "Aprox. a descargar:"
+msgstr "Restan descargar (aprox.):"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 msgid "Are you sure you want to delete %0:d placemarks?"
@@ -804,7 +803,7 @@ msgid "calc..."
 msgstr "calc..."
 
 msgid "Calibration by World file and files with projection description"
-msgstr "Calibración por World file y archivos con descripción de projección"
+msgstr "Calibración por World file y archivos con descripción de proyección"
 
 msgid "Calibration for Google Earth programm (*.kml)"
 msgstr "Calibración para  programa Google Earth (*.kml)"
@@ -905,7 +904,7 @@ msgstr "Centrar con Zoom"
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSToPointCenter..Caption
 msgid "Centered GPS Position"
-msgstr "Centrar posición GPS"
+msgstr "Centrar Posición GPS"
 
 #. Programmer's name for it: SAS_STR_BattaryStateCharge
 msgid "Charging"
@@ -1422,10 +1421,6 @@ msgstr "No cierre esta ventana al terminar"
 msgid "Don't store references to non-existent tiles"
 msgstr "No almacenar referencias para mosaicos no existentes"
 
-#. frExportRMP..pnlCenter..pnlMain..chkDontProjectToLatLon..Caption
-msgid "Don't transform tiles to Geographic projection"
-msgstr ""
-
 #. Programmer's name for it: rsDoubleFree
 msgid "Double Free: Object is olready deleted!"
 msgstr "Doble Borre: ¡El objeto ya está borrado!"
@@ -1545,7 +1540,7 @@ msgstr "Editar Hotkey"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..tbitmEditLastSelection..Caption
 msgid "Edit Last Selection"
-msgstr "Editar Ultima Selección"
+msgstr "Editar última Selección"
 
 msgid "Edit Marks Database"
 msgstr "Editar Base de Marcas"
@@ -1645,7 +1640,7 @@ msgstr "¡Error en parámetros!"
 
 #. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
 msgid "Error in projection \"%0:s\" of the map"
-msgstr "Error de projección \"%0:s\" del mapa"
+msgstr "Error de proyección \"%0:s\" del mapa"
 
 #. Programmer's name for it: SAS_ERR_PortOpen
 msgid "Error opening port!"
@@ -1701,7 +1696,7 @@ msgstr "Exportar posiciones de categorías seleccionadas"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
 msgid "Export selected placemark"
-msgstr "Exportar posición seleccionada"
+msgstr "Exportar Posición seleccionada"
 
 #. frExport..pnlTop..Label9..Caption
 msgid "Export selection to format"
@@ -1811,7 +1806,7 @@ msgstr "Ajustar a Pantalla"
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..Hint
 #. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSCenterMap..Caption
 msgid "Follow GPS Position"
-msgstr "Seguir posición GPS"
+msgstr "Seguir Posición GPS"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..Caption
@@ -1908,7 +1903,7 @@ msgstr "Contornos de mapas Genshtab:"
 
 #. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..CBGenshtabBorderText..Caption
 msgid "Genshtab Map names"
-msgstr "Nombres mapas Genshtab"
+msgstr "Nombres Mapas Genshtab"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..Caption
 msgid "GenShtab Maps Boundaries"
@@ -2042,7 +2037,7 @@ msgstr "Ocultar todas las Marcas"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Caption
 msgid "Hide All Placemarks"
-msgstr "Ocultar Todas las Marcas"
+msgstr "Ocultar todas las Marcas"
 
 #. frmFavoriteMapSetEditor..pnlMain..chkMergeLayers..Caption
 msgid "Hide non-selected layers"
@@ -2260,10 +2255,6 @@ msgstr "JNX version:"
 msgid "Jpeg Import Parameters"
 msgstr "Jpeg Import Parameters"
 
-#. frExportRMP..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
-msgid "JPEG quality:"
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "KB"
@@ -2307,7 +2298,7 @@ msgstr "Last name:"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPrevious..Caption
 msgid "Last Selection"
-msgstr "Ultima selección"
+msgstr "Última Selección"
 
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..Caption
 msgid "Lat/Lon Grid"
@@ -2498,7 +2489,7 @@ msgid ""
 "Map has unknown projection (EPSG=%d).\n"
 "Do you want to set the projection manually?"
 msgstr ""
-"El Mapa tiene projección desconocida (EPSG=%d).\n"
+"El Mapa tiene proyección desconocida (EPSG=%d).\n"
 "¿Quiere fijar la proyección manualmente?"
 
 #. frmMain..MainPopupMenu..NMapInfo..Caption
@@ -2538,7 +2529,7 @@ msgstr "Versión de Mapa"
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 msgid "Map/Overlay layer:"
-msgstr "Mapa/Overlay layer:"
+msgstr "Mapa/Layer superpuesto:"
 
 #. frmFavoriteMapSetEditor..pnlMain..chkMap..Caption
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
@@ -2548,7 +2539,6 @@ msgstr "Mapa/Overlay layer:"
 #. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
-#. frExportRMP..pnlCenter..pnlMain..lblMap..Caption
 msgid "Map:"
 msgstr "Mapa:"
 
@@ -2619,8 +2609,7 @@ msgid "MB"
 msgstr "MB"
 
 #. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
-#, fuzzy
-msgid "MBTiles 1.2 (SQLite3)"
+msgid "MBTiles 1.2 (SQLite)"
 msgstr "MBTiles 1.2 (SQLite)"
 
 #. frExportMBTiles..dlgSaveTo..Filter
@@ -2858,7 +2847,7 @@ msgid "Number of tiles to be cached in RAM"
 msgstr "Número de mosaicos en caché RAM"
 
 msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s"
-msgstr "Númer de mosaicos: %0:sx%1:s (%2:s), size: %3:sx%4:s"
+msgstr "Número de mosaicos: %0:sx%1:s (%2:s), tamaño: %3:sx%4:s"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
 #. Programmer's name for it: rsNumbersFormat
@@ -2989,8 +2978,7 @@ msgid "Options..."
 msgstr "Opciones..."
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
-#, fuzzy
-msgid "OruxMaps (SQLite3)"
+msgid "OruxMaps (SQLite)"
 msgstr "OruxMaps (SQLite)"
 
 #. Programmer's name for it: rsOsmAndCacheName
@@ -3023,7 +3011,6 @@ msgstr "Formato de Salida:"
 #. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
-#. frExportRMP..pnlCenter..pnlMain..lblOverlay..Caption
 msgid "Overlay layer:"
 msgstr "Layer superpuesto:"
 
@@ -3181,7 +3168,7 @@ msgstr "Administrador de Posiciones"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..tbitmShowMarkCaption..Caption
 msgid "Placemark Names"
-msgstr "Mostrar Nombres en Pantalla"
+msgstr "Mostrar nombres en Pantalla"
 
 #. frMarksGeneralOptions..grpPoint..Caption
 msgid "Placemark parameters"
@@ -3338,7 +3325,7 @@ msgstr "Proveedor primario:"
 
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
-msgstr "Procesar no mas de"
+msgstr "Procesar no más de"
 
 #. frmProgressDownload..Panel1..pnlToProcess..lblToProcess..Caption
 msgid "Process not more than:"
@@ -3350,7 +3337,7 @@ msgstr "Procesar solo mosaicos con versión:"
 
 #. Programmer's name for it: SAS_STR_Processed
 msgid "Processed"
-msgstr "Procesados;"
+msgstr "Procesados"
 
 #. Programmer's name for it: rsProcessedAt
 msgid "Processed at: %.8f sec."
@@ -3358,7 +3345,7 @@ msgstr "Procesados a: %.8f sec."
 
 #. frmProgressDownload..Panel1..pnlProcessed..lblProcessed..Caption
 msgid "Processed total:"
-msgstr "Procesados Total:"
+msgstr "Total Procesados:"
 
 #. frmProgressCacheConverter..lblProcessedName..Caption
 msgid "Processed:"
@@ -3376,11 +3363,6 @@ msgstr ""
 msgid "Product Name"
 msgstr "Nombre producto"
 
-#. frExportRMP..pnlCenter..pnlMain..lblDesc..Caption
-#, fuzzy
-msgid "Product:"
-msgstr "Nombre producto"
-
 #. frmPointProjecting..pnlBottom..btnCreatePoint..Caption
 msgid "Project"
 msgstr "Crear"
@@ -3395,29 +3377,24 @@ msgstr "Coordenadas proyectadas"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
-msgstr "Projeccion"
+msgstr "Proyección"
 
 msgid "Projection isn't selected"
 msgstr "Proyección no seleccionada"
 
 msgid "Projection of layer"
-msgstr "Projección del layer"
+msgstr "Proyección del layer"
 
 msgid "Projection of map"
-msgstr "Projección del mapa"
+msgstr "Proyección del mapa"
 
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlProjection..lblProjection..Caption
 msgid "Projection:"
-msgstr "Projeccion:"
+msgstr "Proyección:"
 
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
 msgstr "Propiedades"
-
-#. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
-#, fuzzy
-msgid "Provider:"
-msgstr "Proveedor primario:"
 
 #. Programmer's name for it: SAS_ERR_Authorization
 msgid "Proxy authorization error"
@@ -3445,7 +3422,7 @@ msgstr "Calidad, %"
 
 #. Programmer's name for it: SAS_STR_queue
 msgid "Queue"
-msgstr "Cola"
+msgstr ""
 
 #. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 #. frmMain..TBDock..TBExit..TBXExit..Hint
@@ -3553,7 +3530,7 @@ msgstr ""
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
-msgstr ""
+msgstr "Algoritmo a utilizar:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..lblResize..Caption
 msgid "Resize Algorithm:"
@@ -3582,20 +3559,6 @@ msgstr "Volver a descargar si no encuentra mosaico  "
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
 msgstr "Radio (m)"
-
-#. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
-#, fuzzy
-msgid "RMaps (SQLite3)"
-msgstr "OruxMaps (SQLite)"
-
-#. Programmer's name for it: SAS_STR_ExportRMPExportCaption
-#, fuzzy
-msgid "RMP raster map for Magellan"
-msgstr "Mapa raster JNX para Garmin"
-
-#. frExportRMP..dlgSaveTo..Filter
-msgid "rmp|*.rmp"
-msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
@@ -3720,7 +3683,6 @@ msgstr "Guardar info de seleccion al archivo"
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
-#. frExportRMP..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetFile..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
@@ -4166,7 +4128,7 @@ msgstr "Velocidad"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
-msgstr ""
+msgstr "Abrir imágen"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"
@@ -4202,7 +4164,7 @@ msgstr "Iniciar"
 
 #. frTilesDownload..pnlBottom..pnlMain..chkStartPaused..Caption
 msgid "Start paused"
-msgstr ""
+msgstr "Iniciar con Pausa"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Showstatus..Caption
 #. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
@@ -4453,7 +4415,7 @@ msgstr "A Carpeta"
 
 #. frTilesGenPrev..pnlBottom..pnlRight..lblZooms..Caption
 msgid "To zooms:"
-msgstr "Para? Zooms:"
+msgstr "a Zooms:"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..Caption
 msgid "Toolbars"
@@ -4477,7 +4439,7 @@ msgstr "Intentar descarga si no existe tne"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
-msgstr "Imposible fijar posición"
+msgstr "Imposible fijar Posición"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
@@ -4630,7 +4592,6 @@ msgstr "Usar mosaico de menor zoom si no hay mosaico disponible"
 #. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
-#. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Usar mosaicos de menor zoom (si no hay mosaico disponible)"
 
