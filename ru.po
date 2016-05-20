@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-03-23 13:09\n"
-"PO-Revision-Date: 2016-03-23 13:11+0300\n"
+"POT-Creation-Date: 2016-05-20 18:38\n"
+"PO-Revision-Date: 2016-05-20 18:14+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -727,6 +727,7 @@ msgstr "По координатам"
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..pnlUrlRight..btnResetUrl..Hint
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..btnResetVersion..Hint
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..btnResetPause..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..btnResetMaxConnect..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..btnResetFolder..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..btnResetCacheType..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..btnResetSubMenu..Hint
@@ -2612,6 +2613,10 @@ msgstr ""
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr ""
 
+#. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
+msgid "Max concurrent http(s)-requests number:"
+msgstr "Макс. число параллельных http(s)-запросов:"
+
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
 msgstr "Размер тома, мб"
@@ -3140,11 +3145,14 @@ msgid "Paths"
 msgstr "Пути"
 
 #. frmProgressCacheConverter..pnlBottom..btnPause..Caption
-#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
 msgstr "Пауза"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
+msgid "Pause, ms:"
+msgstr "Пауза, мс"
 
 #. Programmer's name for it: SAS_STR_UserStop
 msgid "Paused by user..."
@@ -4197,6 +4205,10 @@ msgstr "Разбить изображение"
 msgid "Split Line"
 msgstr "Разбить изображение"
 
+#. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
+msgid "Split selection to, parts:"
+msgstr "Разбить область на, части:"
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"
 msgstr "SPOT 5 - 10м Цвет"
@@ -4807,9 +4819,8 @@ msgid "ZMP:"
 msgstr ""
 
 #. frLonLat..pnlProjected..grdpnlZone..lblZone..Caption
-#, fuzzy
 msgid "Zone:"
-msgstr "Масштаб:"
+msgstr "Зона:"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption

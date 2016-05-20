@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-03-23 13:09\n"
+"POT-Creation-Date: 2016-05-20 18:38\n"
 "PO-Revision-Date: 2016-02-21 10:08+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -729,6 +729,7 @@ msgstr "За координатами"
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..pnlUrlRight..btnResetUrl..Hint
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..btnResetVersion..Hint
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..btnResetPause..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..btnResetMaxConnect..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..btnResetFolder..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..btnResetCacheType..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..btnResetSubMenu..Hint
@@ -2626,6 +2627,10 @@ msgstr ""
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr ""
 
+#. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
+msgid "Max concurrent http(s)-requests number:"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
 msgstr "Розмір тому, Мб"
@@ -3158,10 +3163,14 @@ msgid "Paths"
 msgstr "Шлях:"
 
 #. frmProgressCacheConverter..pnlBottom..btnPause..Caption
-#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
+msgstr "Пауза"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
+#, fuzzy
+msgid "Pause, ms:"
 msgstr "Пауза"
 
 #. Programmer's name for it: SAS_STR_UserStop
@@ -4215,6 +4224,11 @@ msgstr "Розбити зображення"
 #, fuzzy
 msgid "Split Line"
 msgstr "Розбити зображення"
+
+#. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
+#, fuzzy
+msgid "Split selection to, parts:"
+msgstr "Експорт виділеної ділянки у формат:"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"

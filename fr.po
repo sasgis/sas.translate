@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-03-23 13:09\n"
+"POT-Creation-Date: 2016-05-20 18:38\n"
 "PO-Revision-Date: 2016-03-23 19:15+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -740,6 +740,7 @@ msgstr "Sélection par coordonnées"
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..pnlUrlRight..btnResetUrl..Hint
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..btnResetVersion..Hint
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..btnResetPause..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..btnResetMaxConnect..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..btnResetFolder..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..btnResetCacheType..Hint
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..btnResetSubMenu..Hint
@@ -2655,6 +2656,10 @@ msgstr "MarkSystemConfig: l'Item #%d a une interface inconnue !"
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr "MarkSystemConfig: l'Item #%d a une erreur de lecture du GUID !"
 
+#. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
+msgid "Max concurrent http(s)-requests number:"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
 msgstr "Mb maxi du volume"
@@ -3182,10 +3187,14 @@ msgid "Paths"
 msgstr "Répertoires"
 
 #. frmProgressCacheConverter..pnlBottom..btnPause..Caption
-#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
 #. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
 #. Programmer's name for it: SAS_STR_Pause
 msgid "Pause"
+msgstr "Pause"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
+#, fuzzy
+msgid "Pause, ms:"
 msgstr "Pause"
 
 #. Programmer's name for it: SAS_STR_UserStop
@@ -4233,6 +4242,11 @@ msgstr "Image divisée"
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathSplit..Hint
 msgid "Split Line"
 msgstr "Ligne divisée"
+
+#. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
+#, fuzzy
+msgid "Split selection to, parts:"
+msgstr "Exporter la sélection au format :"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"
