@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-05-20 18:38\n"
-"PO-Revision-Date: 2016-05-20 18:14+0300\n"
+"POT-Creation-Date: 2016-05-28 14:24\n"
+"PO-Revision-Date: 2016-05-28 14:28+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -99,6 +99,10 @@ msgstr "(%s отсутствует!)"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
 msgid "(zoom %)"
 msgstr "(масштаб %)"
+
+#. Programmer's name for it: rsLimitHint
+msgid "* - Limited by max concurrent http(s) requests for current map: %d"
+msgstr "* - Ограничено числом параллельных http(s) запросов для карты: %d"
 
 #. Programmer's name for it: SAS_UNITS_mperp
 msgid "/pixel"
@@ -2861,6 +2865,9 @@ msgstr "Не найдена секция PARAMS в zmp"
 msgid "Nothing found on current map."
 msgstr "Искомая комбинация на карте не встречается."
 
+msgid "Nothing to copy: URL is empty!"
+msgstr "Нечего копировать: URL пуст!"
+
 msgid "Nothing to delete - GPS track is empty."
 msgstr "Нечего удалять - GPS трек пуст"
 
@@ -3152,7 +3159,7 @@ msgstr "Пауза"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
 msgid "Pause, ms:"
-msgstr "Пауза, мс"
+msgstr "Пауза, мс:"
 
 #. Programmer's name for it: SAS_STR_UserStop
 msgid "Paused by user..."
@@ -4206,8 +4213,8 @@ msgid "Split Line"
 msgstr "Разбить изображение"
 
 #. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
-msgid "Split selection to, parts:"
-msgstr "Разбить область на, части:"
+msgid "Split selection to, parts*:"
+msgstr "Разбить область на, части*:"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"

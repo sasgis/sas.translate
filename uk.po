@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-05-20 18:38\n"
+"POT-Creation-Date: 2016-05-28 14:24\n"
 "PO-Revision-Date: 2016-02-21 10:08+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -101,6 +101,10 @@ msgstr "(%s не знайдено!)"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
 msgid "(zoom %)"
 msgstr "(масштаб %)"
+
+#. Programmer's name for it: rsLimitHint
+msgid "* - Limited by max concurrent http(s) requests for current map: %d"
+msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_mperp
 msgid "/pixel"
@@ -2878,6 +2882,10 @@ msgstr "Не знайдено секцію PARAMS у ZMP"
 msgid "Nothing found on current map."
 msgstr "Шукана комбінація на карті не зустрічається."
 
+#, fuzzy
+msgid "Nothing to copy: URL is empty!"
+msgstr "Нічого імпортувати!"
+
 msgid "Nothing to delete - GPS track is empty."
 msgstr ""
 
@@ -4227,7 +4235,7 @@ msgstr "Розбити зображення"
 
 #. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
 #, fuzzy
-msgid "Split selection to, parts:"
+msgid "Split selection to, parts*:"
 msgstr "Експорт виділеної ділянки у формат:"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption

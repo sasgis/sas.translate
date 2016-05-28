@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-05-20 18:38\n"
-"PO-Revision-Date: 2016-05-20 18:38\n"
+"POT-Creation-Date: 2016-05-28 14:24\n"
+"PO-Revision-Date: 2016-05-28 14:24\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -101,6 +101,11 @@ msgstr ""
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
 msgid "(zoom %)"
+msgstr ""
+
+#. Programmer's name for it: rsLimitHint
+msgid "* - Limited by max concurrent http(s) requests for current map: "
+"%d"
 msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_mperp
@@ -2879,6 +2884,9 @@ msgstr ""
 msgid "Nothing found on current map."
 msgstr ""
 
+msgid "Nothing to copy: URL is empty!"
+msgstr ""
+
 msgid "Nothing to delete - GPS track is empty."
 msgstr ""
 
@@ -4213,7 +4221,7 @@ msgid "Split Line"
 msgstr ""
 
 #. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
-msgid "Split selection to, parts:"
+msgid "Split selection to, parts*:"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
