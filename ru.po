@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-06-04 00:26\n"
-"PO-Revision-Date: 2016-05-28 14:28+0300\n"
+"POT-Creation-Date: 2016-06-04 00:39\n"
+"PO-Revision-Date: 2016-06-04 00:44+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1049,7 +1049,6 @@ msgstr "Система координат"
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
-#, fuzzy
 msgid "Coordinates"
 msgstr "Координаты"
 
@@ -1945,9 +1944,8 @@ msgstr ""
 
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
-#, fuzzy
 msgid "Geographic Coordinates"
-msgstr "Ошибка ввода координат"
+msgstr "Географические координаты"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
 msgid "GetUrlScript"
@@ -3287,9 +3285,9 @@ msgstr "Сначала необходимо выделить категорию 
 msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
 
-#, fuzzy
 msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
-msgstr "Сначала необходимо выбрать хотя бы один слой или карту!"
+msgstr ""
+"Необходимо указать зум/координаты или выбрать хотя бы один слой или карту!"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -3427,9 +3425,8 @@ msgstr "Спроецировать"
 msgid "Project New Placemark"
 msgstr "Спроецировать новую метку"
 
-#, fuzzy
 msgid "Projected Coordinates"
-msgstr "Координаты"
+msgstr "Спроецированные координаты"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
@@ -3718,9 +3715,8 @@ msgstr "Сохранить (Enter)"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
 #. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
-#, fuzzy
 msgid "Save as separate placemarks..."
-msgstr "Сохранить как..."
+msgstr "Сохранить как отдельные метки..."
 
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
@@ -3913,6 +3909,10 @@ msgstr "Сделать видимыми все метки во всех кате
 #. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
 msgid "Set as default"
 msgstr "Использовать данные настройки по умолчанию"
+
+#. Programmer's name for it: SAS_MSG_SetAsDefaultForNewMarks
+msgid "Set as default for new marks?"
+msgstr "Использовать данные настройки по умолчанию?"
 
 msgid "Set Connection string first!"
 msgstr "Заполните строку подключения!"
@@ -4214,9 +4214,8 @@ msgid "Split image"
 msgstr "Разбить изображение"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathSplit..Hint
-#, fuzzy
 msgid "Split Line"
-msgstr "Разбить изображение"
+msgstr "Разрезать путь"
 
 #. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
 msgid "Split selection to, parts*:"
