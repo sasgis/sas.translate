@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-05-28 14:24\n"
+"POT-Creation-Date: 2016-06-04 00:26\n"
 "PO-Revision-Date: 2016-02-21 10:08+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -68,6 +68,16 @@ msgstr "%0:s Завантаження"
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f з %.2f Мб (%.2f%s)"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#, fuzzy
+msgid "&Coordinates"
+msgstr "Координати"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
+#, fuzzy
+msgid "&Copy to Clipboard"
+msgstr "Копіювати у буфер обміну"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -909,7 +919,8 @@ msgid "Category: %s"
 msgstr "Категорія: %s"
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
-msgid "Center With Zoom"
+#, fuzzy
+msgid "Center With &Zoom"
 msgstr "Центрувати з масштабом"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
@@ -1044,7 +1055,7 @@ msgstr "Конвертувати формат кешу"
 msgid "Coordinate system"
 msgstr "Координати"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "Координати"
@@ -1075,10 +1086,6 @@ msgstr "Копіювати вибрані tid для вставки у URL"
 #. frTilesCopy..Panel1..Caption
 msgid "Copy tiles from selection to folder"
 msgstr "Копіювати тайли з виділення в папку"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
-msgid "Copy to Clipboard"
-msgstr "Копіювати у буфер обміну"
 
 #. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
 msgid "Copying"
@@ -3293,10 +3300,6 @@ msgstr "Зачекайте, йде завантаження..."
 msgid "Please wait..."
 msgstr "Зачекайте будь ласка..."
 
-#, fuzzy
-msgid "Please, select at least one Layer or Map first!"
-msgstr "Спочатку треба виділити хочаб одну карту!"
-
 msgid "Please, select at least one polygon!"
 msgstr "Спочатку треба виділити хочаб один полігон!"
 
@@ -3305,6 +3308,10 @@ msgstr "Спочатку треба виділити категорію з хо�
 
 msgid "Please, select output file first!"
 msgstr "Будьласка, оберіть спочатку вихідний файл!"
+
+#, fuzzy
+msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
+msgstr "Спочатку треба виділити хочаб одну карту!"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -3730,10 +3737,10 @@ msgstr "Зберегти"
 msgid "Save (Enter)"
 msgstr "Зберегти (Enter)"
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbxtmSaveMarkAsSeparateSegment..Caption
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbxtmSaveMarkAsSeparateSegment..Hint
+#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
+#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
 #, fuzzy
-msgid "Save as separate..."
+msgid "Save as separate placemarks..."
 msgstr "Зберегти як..."
 
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption

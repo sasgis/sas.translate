@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-05-28 14:24\n"
+"POT-Creation-Date: 2016-06-04 00:26\n"
 "PO-Revision-Date: 2016-05-28 14:28+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -66,6 +66,14 @@ msgstr "%0:s Скачивание"
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f из %.2f Мб (%.2f%s)"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+msgid "&Coordinates"
+msgstr "Координаты"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
+msgid "&Copy to Clipboard"
+msgstr "Копировать в буфер обмена"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -1039,9 +1047,10 @@ msgstr "Смена формата кэша"
 msgid "Coordinate system"
 msgstr "Система координат"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
-msgid "&Coordinates"
+#, fuzzy
+msgid "Coordinates"
 msgstr "Координаты"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..Label84..Caption
@@ -1070,10 +1079,6 @@ msgstr "Копировать выбранные TID для вставки в URL
 #. frTilesCopy..Panel1..Caption
 msgid "Copy tiles from selection to folder"
 msgstr "Копировать тайлы из выделенной области в папку"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
-msgid "&Copy to Clipboard"
-msgstr "Копировать в буфер обмена"
 
 #. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
 msgid "Copying"
@@ -3273,9 +3278,6 @@ msgstr "Подождите, идет загрузка..."
 msgid "Please wait..."
 msgstr "Пожалуйста, подождите..."
 
-msgid "Please, select at least one Layer or Map first!"
-msgstr "Сначала необходимо выбрать хотя бы один слой или карту!"
-
 msgid "Please, select at least one polygon!"
 msgstr "Сначала необходимо выделить хотя бы один полигон!"
 
@@ -3284,6 +3286,10 @@ msgstr "Сначала необходимо выделить категорию 
 
 msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
+
+#, fuzzy
+msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
+msgstr "Сначала необходимо выбрать хотя бы один слой или карту!"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -3710,10 +3716,10 @@ msgstr "Сохранить"
 msgid "Save (Enter)"
 msgstr "Сохранить (Enter)"
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbxtmSaveMarkAsSeparateSegment..Caption
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbxtmSaveMarkAsSeparateSegment..Hint
+#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
+#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
 #, fuzzy
-msgid "Save as separate..."
+msgid "Save as separate placemarks..."
 msgstr "Сохранить как..."
 
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption

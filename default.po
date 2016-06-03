@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-05-28 14:24\n"
-"PO-Revision-Date: 2016-05-28 14:24\n"
+"POT-Creation-Date: 2016-06-04 00:26\n"
+"PO-Revision-Date: 2016-06-04 00:26\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,6 +68,14 @@ msgstr ""
 
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
+msgstr ""
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+msgid "&Coordinates"
+msgstr ""
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
+msgid "&Copy to Clipboard"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
@@ -919,7 +927,7 @@ msgid "Category: %s"
 msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
-msgid "Center With Zoom"
+msgid "Center With &Zoom"
 msgstr ""
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
@@ -1052,7 +1060,7 @@ msgstr ""
 msgid "Coordinate system"
 msgstr ""
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr ""
@@ -1082,10 +1090,6 @@ msgstr ""
 
 #. frTilesCopy..Panel1..Caption
 msgid "Copy tiles from selection to folder"
-msgstr ""
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
-msgid "Copy to Clipboard"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
@@ -3294,10 +3298,6 @@ msgstr ""
 msgid "Please wait..."
 msgstr ""
 
-msgid "Please, select at least one Layer or Map "
-"first!"
-msgstr ""
-
 msgid "Please, select at least one polygon!"
 msgstr ""
 
@@ -3306,6 +3306,10 @@ msgid "Please, select category with at least one "
 msgstr ""
 
 msgid "Please, select output file first!"
+msgstr ""
+
+msgid "Please, select zoom/coordinates or at least one Layer or Map "
+"first!"
 msgstr ""
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -3727,9 +3731,9 @@ msgstr ""
 msgid "Save (Enter)"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbxtmSaveMarkAsSeparateSegment..Caption
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbxtmSaveMarkAsSeparateSegment..Hint
-msgid "Save as separate..."
+#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
+#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
+msgid "Save as separate placemarks..."
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption

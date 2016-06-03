@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-05-28 14:24\n"
+"POT-Creation-Date: 2016-06-04 00:26\n"
 "PO-Revision-Date: 2016-05-28 20:28+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -69,6 +69,16 @@ msgstr "%0:s Téléchargement"
 #. Programmer's name for it: rsDownloadProgressInfo
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f de %.2f Mb (%.2f%s)"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#, fuzzy
+msgid "&Coordinates"
+msgstr "les coordonnées du point"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
+#, fuzzy
+msgid "&Copy to Clipboard"
+msgstr "Copier vers la mémoire..."
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -923,7 +933,8 @@ msgid "Category: %s"
 msgstr "Catégorie : %s"
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
-msgid "Center With Zoom"
+#, fuzzy
+msgid "Center With &Zoom"
 msgstr "Centrer le point (sélectionné par clic droit) avec le zoom suivant :"
 
 #. frmMain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
@@ -1059,7 +1070,7 @@ msgstr "Convertir le format du cache"
 msgid "Coordinate system"
 msgstr "Système de coordonnées :"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "les coordonnées du point"
@@ -1091,10 +1102,6 @@ msgstr "Copier TID's vers la mémoire"
 msgid "Copy tiles from selection to folder"
 msgstr ""
 "Copier les dalles de la sélection vers un répertoire différent du cache"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
-msgid "Copy to Clipboard"
-msgstr "Copier vers la mémoire..."
 
 #. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
 msgid "Copying"
@@ -3317,9 +3324,6 @@ msgstr "Attendre, téléchargement en cours..."
 msgid "Please wait..."
 msgstr "Attendre..."
 
-msgid "Please, select at least one Layer or Map first!"
-msgstr "Sélectionner au moins une carte ou une couche d'abord !"
-
 msgid "Please, select at least one polygon!"
 msgstr "Sélectionner au moins un polygone !"
 
@@ -3328,6 +3332,10 @@ msgstr "Sélectionner une catégorie avec au moins un polygone !"
 
 msgid "Please, select output file first!"
 msgstr "Sélectionner le fichier de sortie d'abord !"
+
+#, fuzzy
+msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
+msgstr "Sélectionner au moins une carte ou une couche d'abord !"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -3750,9 +3758,10 @@ msgstr "Sauvegarder"
 msgid "Save (Enter)"
 msgstr "Sauvegarder (Entrée)"
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbxtmSaveMarkAsSeparateSegment..Caption
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbxtmSaveMarkAsSeparateSegment..Hint
-msgid "Save as separate..."
+#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
+#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
+#, fuzzy
+msgid "Save as separate placemarks..."
 msgstr "Sauvegarder sous..."
 
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
