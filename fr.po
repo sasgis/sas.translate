@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-06-04 00:39\n"
-"PO-Revision-Date: 2016-05-28 20:28+0200\n"
+"PO-Revision-Date: 2016-06-04 09:21+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language: fr\n"
 "X-Language: fr_FR\n"
@@ -71,12 +71,10 @@ msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f de %.2f Mb (%.2f%s)"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
-#, fuzzy
 msgid "&Coordinates"
 msgstr "les coordonnées du point"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
-#, fuzzy
 msgid "&Copy to Clipboard"
 msgstr "Copier vers la mémoire..."
 
@@ -933,7 +931,6 @@ msgid "Category: %s"
 msgstr "Catégorie : %s"
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
-#, fuzzy
 msgid "Center With &Zoom"
 msgstr "Centrer le point (sélectionné par clic droit) avec le zoom suivant :"
 
@@ -3333,9 +3330,10 @@ msgstr "Sélectionner une catégorie avec au moins un polygone !"
 msgid "Please, select output file first!"
 msgstr "Sélectionner le fichier de sortie d'abord !"
 
-#, fuzzy
 msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
-msgstr "Sélectionner au moins une carte ou une couche d'abord !"
+msgstr ""
+"Sélectionner un zoom, des coordonnées ou au moins une carte ou une couche "
+"d'abord !"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -3760,9 +3758,8 @@ msgstr "Sauvegarder (Entrée)"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
 #. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
-#, fuzzy
 msgid "Save as separate placemarks..."
-msgstr "Sauvegarder sous..."
+msgstr "Sauvegarder comme pistes séparées..."
 
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
@@ -3957,9 +3954,8 @@ msgid "Set as default"
 msgstr "Enregistrer ces paramètres comme paramètres par défaut"
 
 #. Programmer's name for it: SAS_MSG_SetAsDefaultForNewMarks
-#, fuzzy
 msgid "Set as default for new marks?"
-msgstr "Enregistrer ces paramètres comme paramètres par défaut"
+msgstr "Enregistrer comme paramètres par défaut pour les nouveaux marqueurs ?"
 
 msgid "Set Connection string first!"
 msgstr "Fixer la chaîne de connexion d'abord !"
