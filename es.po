@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-06-04 00:39\n"
-"PO-Revision-Date: 2016-03-14 23:51-0300\n"
+"PO-Revision-Date: 2016-06-05 17:32+0200\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.8\n"
 "Language: es\n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
@@ -68,14 +68,12 @@ msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f of %.2f MB (%.2f%s)"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
-#, fuzzy
 msgid "&Coordinates"
 msgstr "Coordenadas"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
-#, fuzzy
 msgid "&Copy to Clipboard"
-msgstr "Copiar al Portapapeles"
+msgstr "&Copiar al Portapapeles"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
 msgid "&Help"
@@ -113,6 +111,8 @@ msgstr "(zoom %)"
 #. Programmer's name for it: rsLimitHint
 msgid "* - Limited by max concurrent http(s) requests for current map: %d"
 msgstr ""
+"* - Limitado por las peticiones http máxima concurrente (s) para el mapa "
+"actual: %d"
 
 #. Programmer's name for it: SAS_UNITS_mperp
 msgid "/pixel"
@@ -363,7 +363,7 @@ msgstr "Agregar una línea de separación después de este mapa"
 #. frmMarkCategoryEdit..Caption
 #. Programmer's name for it: SAS_STR_AddNewCategory
 msgid "Add New Category"
-msgstr "Agregar nueva Categoría "
+msgstr "Agregar nueva Categoría"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Line..Hint
 msgid "Add new path"
@@ -588,7 +588,7 @@ msgid ""
 "from current locale!"
 msgstr ""
 "¡Al menos un tipo de calibración no soporta nombre de archivo con caracteres "
-"no locales! "
+"no locales!"
 
 msgid ""
 "At least one calibration type supports file name with ASCII characters only!"
@@ -716,11 +716,11 @@ msgstr "Color de borde"
 
 #. frmAbout..lblTimeStamp..Caption
 msgid "Build date:"
-msgstr "Build date:"
+msgstr "Fecha de construcción:"
 
 #. frmAbout..lblBuildInfo..Caption
 msgid "Build info:"
-msgstr "Build info:"
+msgstr "Info de construcción:"
 
 msgid "By Bicycle (Fastest)"
 msgstr "En Bicicleta (más rápido)"
@@ -792,7 +792,7 @@ msgstr "Carpeta Caché"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..chkCacheReadOnly..Caption
 msgid "Cache is Read-Only"
-msgstr "Caché is Read-Only"
+msgstr "Caché es de sólo lectura"
 
 #. frmCacheManager..Caption
 #. frmMain..TBDock..TBXMainMenu..NOperations..tbitmCacheManager..Caption
@@ -827,15 +827,15 @@ msgid "Calibration by World file and files with projection description"
 msgstr "Calibración por World file y archivos con descripción de projección"
 
 msgid "Calibration for Google Earth programm (*.kml)"
-msgstr "Calibración para  programa Google Earth (*.kml)"
+msgstr "Calibración para programa Google Earth (*.kml)"
 
 #. Programmer's name for it: rsTabMapCalibrationDescription
 msgid "Calibration for MapInfo programm (*.tab)"
-msgstr "Calibración para  programa MapInfo (*.tab)"
+msgstr "Calibración para programa MapInfo (*.tab)"
 
 #. Programmer's name for it: rsOziMapCalibrationDescription
 msgid "Calibration for OziExplorer programm (*.map)"
-msgstr "Calibración para  programa OziExplorer (*.map)"
+msgstr "Calibración para programa OziExplorer (*.map)"
 
 msgid "Calibration for Radio Mobile programm (*.dat)"
 msgstr "Calibración para programa Radio Mobile (*.dat)"
@@ -867,7 +867,7 @@ msgstr "Cancelar"
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
-msgstr "Imposible conectar almacenamiento exterm¡no de mosaicos"
+msgstr "Imposible conectar almacenamiento externo de mosaicos"
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotParseTile
 msgid "Cannot parse tile to get its version"
@@ -919,7 +919,6 @@ msgid "Category: %s"
 msgstr "Categoría: %s"
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
-#, fuzzy
 msgid "Center With &Zoom"
 msgstr "Centrar con Zoom"
 
@@ -980,7 +979,7 @@ msgstr "Comentario"
 
 #. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineForum..Caption
 msgid "Community  (http://www.sasgis.org/forum)"
-msgstr "Community  (http://www.sasgis.org/forum)"
+msgstr "Comunidad (http://www.sasgis.org/forum)"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
 msgid ""
@@ -1032,7 +1031,7 @@ msgid "Connection settings"
 msgstr "Opciones de conexión"
 
 msgid "Connection string"
-msgstr "String de Conexión"
+msgstr "Cuerda de Conexión"
 
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
 msgid "Connection to external tile storage is dead and cannot be reestablished"
@@ -1106,7 +1105,7 @@ msgstr "Crear archivo georeferenciado:"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnAddMark..Hint
 msgid "Create new placemark"
-msgstr "Crear nueva Posición"
+msgstr "Crear nueva Marca"
 
 #. frmMain..tbxpmnSearchResult..tbitmCreatePlaceMarkBySearchResult..Caption
 msgid "Create placemark"
@@ -1256,7 +1255,7 @@ msgstr "Borrar Mosaico del Mapa del Caché (Del+MLeft)"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnDelMark..Hint
 msgid "Delete selected placemark"
-msgstr "Borrar"
+msgstr "Borrar marca de posición seleccionada"
 
 #. frDeleteTiles..rgTarget..Caption
 msgid "Delete target"
@@ -1349,7 +1348,7 @@ msgstr "Optimizar ruta a pié Auto (más corta) con cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
-msgstr "Device timeout (sec)"
+msgstr "Tiempo de espera de dispositivo (sec)"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
 msgid "Difference (NOT)"
@@ -1380,11 +1379,10 @@ msgid "Disable or enable GPS"
 msgstr "Desactivar o activar GPS"
 
 msgid "Disabled by map params"
-msgstr ""
+msgstr "Inactivo por mapa parámetros"
 
-#, fuzzy
 msgid "Disabled by Zmp"
-msgstr "Inactivo"
+msgstr "Inactivo por Zmp"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..tbitmFillingMapAsMain..Caption
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
@@ -1609,9 +1607,8 @@ msgstr "Info de Elevación"
 msgid "Empty GUID"
 msgstr "GUID vacío"
 
-#, fuzzy
 msgid "Empty script"
-msgstr "Copiar descripción"
+msgstr "Guión vacío"
 
 #. Programmer's name for it: SAS_ERR_EmptyServerResponse
 msgid "Empty server response"
@@ -1651,7 +1648,7 @@ msgstr "Error"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptByteCodeLoad
 msgid "Error at script bytecode loading"
-msgstr "Error cargando bytecode de script  "
+msgstr "Error cargando bytecode de script"
 
 #. Programmer's name for it: SAS_ERR_Code
 msgid "Error code:"
@@ -2036,11 +2033,11 @@ msgstr "GPS Tipo"
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
-msgstr "Etiquetas de líneas Grid"
+msgstr "Etiquetas de líneas Grilla"
 
 #. frmSettings..PageControl1..tsGrids..Caption
 msgid "Grids"
-msgstr "Grids"
+msgstr "Grillas"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmGroup..Caption
 msgid "Group"
@@ -2113,10 +2110,10 @@ msgid "Hotkeys"
 msgstr "Hotkeys"
 
 msgid "HTTP %d Bad Request"
-msgstr "HTTP %d Bad Request"
+msgstr "HTTP %d Requerida incorrecta"
 
 msgid "HTTP %d No Content"
-msgstr "HTTP %d No Content"
+msgstr "HTTP %d Sin contenido"
 
 msgid "HTTP %d Not Found"
 msgstr "HTTP %d No encontrado"
@@ -2213,7 +2210,7 @@ msgstr "GUID Incorrect : %0:s"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NAnimateMove..Caption
 msgid "Inertial Movement"
-msgstr "Movimiento Inercial de Pantalla "
+msgstr "Movimiento Inercial de Pantalla"
 
 #. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
@@ -2329,11 +2326,11 @@ msgstr "KS+Storage"
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
 msgid "Language"
-msgstr "Language"
+msgstr "Idioma"
 
 #. frmProgressCacheConverter..lblLastTileName..Caption
 msgid "Last name:"
-msgstr "Last name:"
+msgstr "Último nombre:"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPrevious..Caption
 msgid "Last Selection"
@@ -2490,7 +2487,7 @@ msgstr "Menú Principal"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
 msgid "Make by Placemark"
-msgstr ""
+msgstr "Hacer por marca de posición"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
@@ -2507,7 +2504,7 @@ msgstr "Crear sub carpeta con nombre igual a ruta del mapa"
 
 #. frExportMBTiles..pnlCenter..pnlMain..chkMakeTileMillStruct..Caption
 msgid "Make TileMill compatible structure"
-msgstr ""
+msgstr "Hacer estructura compatible TileMill"
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..tbxManageFavorite..Caption
 msgid "Manage"
@@ -2634,7 +2631,7 @@ msgstr "¡MarkSystemConfig: Item #%d Impl GUID error de lectura!"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
 msgid "Max concurrent http(s)-requests number:"
-msgstr ""
+msgstr "Máximo http (s) concurrente requerida número:"
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
@@ -2823,7 +2820,7 @@ msgstr "Próxima versión"
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
 #. Programmer's name for it: rsNice
 msgid "Nice"
-msgstr ""
+msgstr "Bonito"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..CBinvertcolor..Caption
 msgid "Night mode (color inversion)"
@@ -2855,7 +2852,7 @@ msgstr "¡Ningún polígono seleccionado!"
 
 #. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
 msgid "No source for Fly-on-Track mode"
-msgstr ""
+msgstr "Ninguna fuente para Fly-on-Track Modo"
 
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile storage"
@@ -2870,7 +2867,7 @@ msgid "North"
 msgstr "Norte"
 
 msgid "Not found \"params.txt\" in zmp"
-msgstr "\"params.txt\" no encontrado enzmp"
+msgstr "\"params.txt\" no encontrado en zmp"
 
 msgid "Not found PARAMS section in zmp"
 msgstr "\"PARAMS section\" no encontrada en zmp"
@@ -2879,9 +2876,8 @@ msgstr "\"PARAMS section\" no encontrada en zmp"
 msgid "Nothing found on current map."
 msgstr "Nada encontrado en el corriente mapa."
 
-#, fuzzy
 msgid "Nothing to copy: URL is empty!"
-msgstr "¡Nada para importar!"
+msgstr "¡No hay nada que copiar: URL está vacía!"
 
 msgid "Nothing to delete - GPS track is empty."
 msgstr "Nada para borrar - derrota GPS está vacía."
@@ -2923,7 +2919,7 @@ msgstr "Odómetro #2"
 
 #. Programmer's name for it: SAS_STR_ExportOgf2PackCaption
 msgid "Ogf2 map for SmartComGPS 1.5x"
-msgstr "Ogf2 map for SmartComGPS 1.5x"
+msgstr "Ogf2 map para SmartComGPS 1.5x"
 
 #. frExportToOgf2..pnlCenter..pnlMain..lblImageFormat..Caption
 msgid "OGF2 tiles format:"
@@ -2936,7 +2932,7 @@ msgstr "Resolución de mosaicos OGF2:"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
 msgid "Old after days"
-msgstr ""
+msgstr "Edad, después de días"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeTileMatrixDraft..lblResizeTileMatrixDraft..Caption
 msgid "On change zoom draft"
@@ -2969,7 +2965,7 @@ msgstr "Ayuda Online (http://sasgis.org/wikisasiya)"
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
 #. frTilesDownload..pnlBottom..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
-msgstr "Solo creados antes de "
+msgstr "Solo creados antes de"
 
 #. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
 msgid "only if different"
@@ -3110,7 +3106,7 @@ msgid "Parent submenu"
 msgstr "Submenu padre"
 
 msgid "Parts count: %d"
-msgstr ""
+msgstr "El número de componentes:% d"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
@@ -3122,7 +3118,7 @@ msgstr "Password:"
 
 #. Programmer's name for it: SAS_STR_NewPath
 msgid "Path %0:d"
-msgstr ""
+msgstr "Ruta %0:d"
 
 #. frMarksGeneralOptions..grpLine..Caption
 msgid "Path parameters"
@@ -3159,7 +3155,7 @@ msgstr "Archivos:"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
-msgstr "Ruta al mosaico en caché "
+msgstr "Ruta al mosaico en caché"
 
 #. frDeleteMarks..PnlTop..chkPaths..Caption
 #. frmSettings..PageControl1..tsPaths..Caption
@@ -3173,9 +3169,8 @@ msgid "Pause"
 msgstr "Pausa"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
-#, fuzzy
 msgid "Pause, ms:"
-msgstr "Pausa"
+msgstr "Pausa, ms:"
 
 #. Programmer's name for it: SAS_STR_UserStop
 msgid "Paused by user..."
@@ -3198,11 +3193,11 @@ msgstr "Pixel"
 
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 msgid "Placemark"
-msgstr ""
+msgstr "Posicione"
 
 #. Programmer's name for it: SAS_STR_NewMark
 msgid "Placemark %0:d"
-msgstr ""
+msgstr "Posicione %0:d"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Caption
 msgid "Placemark Categories"
@@ -3210,12 +3205,12 @@ msgstr "Categorías de Posiciones"
 
 #. frmMain..MainPopupMenu..NMarkExport..Caption
 msgid "Placemark Export"
-msgstr ""
+msgstr "Exportación marca de posición"
 
 #. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmMarkInfo..Caption
 msgid "Placemark Info"
-msgstr ""
+msgstr "Información de marca de posición"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbitmPlacemarkManager..Hint
 msgid "Placemark manager"
@@ -3250,7 +3245,7 @@ msgstr "Posiciones"
 
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
-msgstr "Play"
+msgstr "Tocar"
 
 msgid "Please select at least one map"
 msgstr "Por favor, seleccione un mapa como mínimo"
@@ -3298,9 +3293,8 @@ msgstr "¡Por favor, seleccione categoría con un polígono como mínimo!"
 msgid "Please, select output file first!"
 msgstr "¡Por favor, seleccione un archivo de salida primero!"
 
-#, fuzzy
 msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
-msgstr "¡Por favor, seleccione un mapa o un layer primero!"
+msgstr "¡Por favor, seleccione Zoom/coordenadas o un mapa o un layer primero!"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -3418,7 +3412,7 @@ msgstr "Mosaicos procesados: %0:s ..."
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LProductID..Caption
 msgid "Product ID"
-msgstr ""
+msgstr "ID del Producto"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LProductName..Caption
 msgid "Product Name"
@@ -3491,7 +3485,7 @@ msgstr "Calidad, %"
 
 #. Programmer's name for it: SAS_STR_queue
 msgid "Queue"
-msgstr ""
+msgstr "Cola"
 
 #. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 #. frmMain..TBDock..TBExit..TBXExit..Hint
@@ -3581,21 +3575,21 @@ msgstr "Remover mosaicos existentes"
 
 #. Programmer's name for it: SAS_ERR_Nopoints
 msgid "Required pointset is not found!"
-msgstr ""
+msgstr "¡El conjunto de puntos requerida no se encuentra!"
 
 #. frmAbout..lblRequires..Caption
 msgid "Requires:"
-msgstr ""
+msgstr "Se requiere:"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
-msgstr ""
+msgstr "Reiniciar"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
 msgid "Reset to default"
-msgstr ""
+msgstr "Restablecen a los predeterminados"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
@@ -3619,11 +3613,11 @@ msgstr "Reasume"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC1..Caption
 msgid "Resurs-DK"
-msgstr ""
+msgstr "Resurs-DK"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
 msgid "Retry download if tile not found"
-msgstr "Volver a descargar si no encuentra mosaico  "
+msgstr "Volver a descargar si no encuentra mosaico"
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
@@ -3639,11 +3633,11 @@ msgstr "Mapa raster RMP para Magellan"
 
 #. frExportRMP..dlgSaveTo..Filter
 msgid "rmp|*.rmp"
-msgstr ""
+msgstr "rmp|*.rmp"
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
-msgstr ""
+msgstr "Rodar hacia atrás para hacer un zoom"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkRoscosmos..Caption
 msgid "Roscosmos (geoportal.ntsomz.ru)"
@@ -3661,7 +3655,7 @@ msgstr "Cálculo de Ruta"
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Hint
 msgid "Run"
-msgstr ""
+msgstr "Ejecutar"
 
 #. frmMain..Caption
 #. frmAbout..lblProgramName..Caption
@@ -3723,9 +3717,8 @@ msgstr "Guardar (Enter)"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
 #. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
-#, fuzzy
 msgid "Save as separate placemarks..."
-msgstr "Guardar como..."
+msgstr "Guardar como marcas de posición por separado..."
 
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
 #. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
@@ -3812,7 +3805,7 @@ msgstr "Búsqueda"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSearchResults..Caption
 #. frmMain..TBDockLeft..TBSearchWindow..Caption
 msgid "Search Results"
-msgstr "Resultados de Busqueda"
+msgstr "Resultados de Búsqueda"
 
 #. Programmer's name for it: rsSearchAvailableVersionInfo
 msgid "searching"
@@ -3889,7 +3882,7 @@ msgstr "Administrador de Selecciones"
 #. frmMain..OpenDialog1..Filter
 #. frmRegionProcess..SaveSelDialog..Filter
 msgid "Selections|*.hlg"
-msgstr ""
+msgstr "Selecciones|*.hlg"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
@@ -3902,7 +3895,7 @@ msgstr "Puerto serial"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 msgid "Server returned type \"%0:s\", this is not bitmap image"
-msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap "
+msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap"
 
 #. Programmer's name for it: SAS_ERR_BadMIME
 msgid "Server returned unexpected type \"%0:s\""
@@ -3920,9 +3913,8 @@ msgid "Set as default"
 msgstr "Establecer por defecto"
 
 #. Programmer's name for it: SAS_MSG_SetAsDefaultForNewMarks
-#, fuzzy
 msgid "Set as default for new marks?"
-msgstr "Establecer por defecto"
+msgstr "¿Establecer por defecto para las nuevas marcas?"
 
 msgid "Set Connection string first!"
 msgstr "¡Ingrese string de Conección primero!"
@@ -3952,11 +3944,11 @@ msgstr "Color de sombra"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
 msgid "Shift - snap to active grids (if enabled)"
-msgstr ""
+msgstr "Mayúsculas - ajusten a las cuadrículas activos (si está activado)"
 
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
-msgstr ""
+msgstr "Atajo|*.lnk"
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show all placemarks"
@@ -4159,19 +4151,19 @@ msgid "Shows vertical dilution of precision"
 msgstr "Índice de pérdida de precisión vertical"
 
 msgid "Size of answer is zero"
-msgstr ""
+msgstr "Tamaño de respuesta es cero"
 
 #. Programmer's name for it: SAS_STR_Resolution
 msgid "size:"
-msgstr ""
+msgstr "tamaño:"
 
 #. frmProgressCacheConverter..lblSizeName..Caption
 msgid "Size:"
-msgstr ""
+msgstr "Tamaño:"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressCaption
 msgid "Size: %0:dx%1:d. Split to %2:d files"
-msgstr "Size: %0:dx%1:d. abierto en %2:d archivos"
+msgstr "tamaño: %0:dx%1:d. abierto en %2:d archivos"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "SK42"
@@ -4195,7 +4187,7 @@ msgstr "SML"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
 msgid "Snap to Existing Markers"
-msgstr ""
+msgstr "Ajustar a marcadores existentes"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
 msgid "Source Cache"
@@ -4203,7 +4195,7 @@ msgstr "Caché Origen"
 
 #. frmPointProjecting..rgSourcePointType..Caption
 msgid "Source point type"
-msgstr "Tipo de Origen de la Posición "
+msgstr "Tipo de Origen de la Posición"
 
 #. frmMain..TBDock..SrcToolbar..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NsrcToolBarShow..Caption
@@ -4224,14 +4216,12 @@ msgid "Split image"
 msgstr "Separar imagen"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathSplit..Hint
-#, fuzzy
 msgid "Split Line"
-msgstr "Separar imagen"
+msgstr "Linea divisoria"
 
 #. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
-#, fuzzy
 msgid "Split selection to, parts*:"
-msgstr "Exportar selección a formato:"
+msgstr "Dividir la selección en, partes*:"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"
@@ -4284,7 +4274,7 @@ msgstr "Unir Selección"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressLine0
 msgid "Stitch: %0:dx%1:d (%2:d) files"
-msgstr "Stitch: %0:dx%1:d (%2:d) archivos"
+msgstr "Unir: %0:dx%1:d (%2:d) archivos"
 
 #. Programmer's name for it: SAS_STR_OperationMapCombineCaption
 msgid "Stitching the map"
@@ -4379,12 +4369,12 @@ msgid ""
 msgstr ""
 "El número de archivos JPEG excederá de 100. Si su\n"
 "dispositivo de navegación separa la imagen usando\n"
-"ventanas \"Organizar Selección - Stitch\" \n"
+"ventanas \"Organizar Selección - Unir\" \n"
 "usando archivos KMZ resultantes separadamente"
 
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
-msgstr "La tarea está completada!"
+msgstr "¡La tarea está completada!"
 
 #. Programmer's name for it: SAS_ERR_FileExistsShort
 msgid "The tile already exists"
@@ -4419,7 +4409,7 @@ msgstr ""
 
 msgid "This format supports file name with ASCII characters only!"
 msgstr ""
-"¡Este formato soporta nombres de archivo con caracteres ASCII únicamente! "
+"¡Este formato soporta nombres de archivo con caracteres ASCII únicamente!"
 
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
 msgid "This is not simple file storage. Tile's file name does not exist."
@@ -4709,11 +4699,11 @@ msgstr "Definida por Usuario"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlUser..lblUserName..Caption
 msgid "User Name:"
-msgstr ""
+msgstr "Nombre de usuario:"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
 msgid "Username"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #. UTC time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
@@ -4775,7 +4765,7 @@ msgstr "WGS84 (defecto)"
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
 msgid "Width"
-msgstr ""
+msgstr "Ancho"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
 msgid "Width:"
@@ -4787,7 +4777,7 @@ msgstr "Dentro del intervalo de fechas"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Hint
 msgid "Word Wrap"
-msgstr ""
+msgstr "Envolver de palabra"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg. (W12.1233°)"
@@ -4840,7 +4830,7 @@ msgid ""
 "\n"
 "Do you really want to close without saving?"
 msgstr ""
-"ZMP ha sido modificadoo, pero no guardado todavía!\n"
+"iZMP ha sido modificadoo, pero no guardado todavía!\n"
 "\n"
 "¿Está seguro de cerrar sin guardar?"
 
@@ -4892,7 +4882,7 @@ msgstr "Zoom fuera de contorno"
 
 #. Programmer's name for it: rsCmdLineArgProcessorZoomParserError
 msgid "ZoomParserError"
-msgstr ""
+msgstr "ZoomParserError"
 
 #. frZoomsSelect..lblZooms..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
@@ -4901,4 +4891,4 @@ msgstr "Zooms:"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
-msgstr ""
+msgstr "Z-Order:"
