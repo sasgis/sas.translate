@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-06-04 00:39\n"
+"POT-Creation-Date: 2016-06-10 20:05\n"
 "PO-Revision-Date: 2016-06-04 00:44+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -600,6 +600,8 @@ msgstr "Атрибуция:"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat..Text
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
@@ -693,6 +695,10 @@ msgstr "Путь к кэшу BerkeleyDB (версионный):"
 
 msgid "BerkeleyDB cache folder:"
 msgstr "Путь к кэшу BerkeleyDB:"
+
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+msgid "BigTIFF"
+msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
@@ -1002,6 +1008,7 @@ msgstr "Упаковка в ZIP"
 msgid "Compression (for PNG):"
 msgstr "Сжатие (для PNG):"
 
+#. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
@@ -1848,6 +1855,7 @@ msgstr "Для"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
+#. frMapCombineCustomOptions..flwpnlFormat..lblFormat..Caption
 msgid "Format:"
 msgstr "Формат:"
 
@@ -2191,7 +2199,7 @@ msgstr ""
 msgid "Import Parameters"
 msgstr "Параметры импорта"
 
-#. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
+#. frMapCombineCustomOptions..chkPngWithAlpha..Caption
 msgid "Include alpha channel"
 msgstr "Сохранять с прозрачностью"
 
@@ -2457,6 +2465,11 @@ msgstr "и низкого качества"
 #. frmLonLatRectEdit..grdpnlMain..grpBottomRight..Caption
 msgid "Lower right corner"
 msgstr "Правый нижний угол"
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression..Text
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+msgid "LZW"
+msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap2..Caption
 #. Programmer's name for it: SAS_UNITS_m
@@ -2852,6 +2865,11 @@ msgstr "Недостаточно места в БД для выполнения 
 #. check storage write access
 msgid "No write access to tile storage"
 msgstr "Нет доступа на запись в хранилище тайлов"
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+#, fuzzy
+msgid "None"
+msgstr "Зона:"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 #, fuzzy
@@ -3474,7 +3492,7 @@ msgstr "и пароль:"
 msgid "Quality (for JPEG):"
 msgstr "Качество (для JPEG):"
 
-#. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
+#. frMapCombineCustomOptions..flwpnlJpegQuality..lblJpgQulity..Caption
 msgid "Quality, %"
 msgstr "Качество, %"
 
@@ -3730,7 +3748,7 @@ msgstr "Сохранить как... (Enter)"
 msgid "Save current session"
 msgstr "Сохранить текущую сессию"
 
-#. frMapCombine..pnlBottom..pnlOptions..chkSaveGeoRefInfoToJpegExif..Caption
+#. frMapCombineCustomOptions..chkSaveGeoRefInfoToJpegExif..Caption
 msgid "Save GeoRef info to Exif"
 msgstr "Сохранить гео-привязку в Exif"
 
@@ -4418,6 +4436,10 @@ msgstr ""
 "Эта программа распространяется бесплатно, с исходными кодами под лицензией "
 "GNU GPLv3"
 
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+msgid "TIFF"
+msgstr ""
+
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Тайловые"
@@ -4807,6 +4829,10 @@ msgstr "Ваша версия:"
 
 msgid "yournavigation.org (OSM)"
 msgstr "средствами yournavigation.org (OSM)"
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+msgid "ZIP (Deflate)"
+msgstr ""
 
 #. frmPascalScriptIDE..dlgOpenZmpFile..Filter
 #. frmPascalScriptIDE..dlgSaveZmpFile..Filter

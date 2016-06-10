@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-06-04 00:39\n"
+"POT-Creation-Date: 2016-06-10 20:05\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -606,6 +606,8 @@ msgstr "Atribución:"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat..Text
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
@@ -699,6 +701,10 @@ msgstr "Carpeta del Caché BerkeleyDB (Versioned):"
 
 msgid "BerkeleyDB cache folder:"
 msgstr "Carpeta del Caché BerkeleyDB:"
+
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+msgid "BigTIFF"
+msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
@@ -1008,6 +1014,7 @@ msgstr "Comprimiendo a ZIP"
 msgid "Compression (for PNG):"
 msgstr "Compresion (para PNG):"
 
+#. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
@@ -1857,6 +1864,7 @@ msgstr "Para"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
+#. frMapCombineCustomOptions..flwpnlFormat..lblFormat..Caption
 msgid "Format:"
 msgstr "Formato:"
 
@@ -2200,7 +2208,7 @@ msgstr ""
 msgid "Import Parameters"
 msgstr "Importar Posiciones"
 
-#. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
+#. frMapCombineCustomOptions..chkPngWithAlpha..Caption
 msgid "Include alpha channel"
 msgstr "Incluir canal alpha"
 
@@ -2466,6 +2474,11 @@ msgstr "Baja resolución también"
 #. frmLonLatRectEdit..grdpnlMain..grpBottomRight..Caption
 msgid "Lower right corner"
 msgstr "Esquina inferior derecha"
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression..Text
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+msgid "LZW"
+msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap2..Caption
 #. Programmer's name for it: SAS_UNITS_m
@@ -2861,6 +2874,11 @@ msgstr "Sin espacio disponible para almacenamiento de mosaicos"
 #. check storage write access
 msgid "No write access to tile storage"
 msgstr "Sin acceso de grabación a almacenamiento de mosaicos"
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+#, fuzzy
+msgid "None"
+msgstr "Zona:"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
@@ -3479,7 +3497,7 @@ msgstr "Proxy password:"
 msgid "Quality (for JPEG):"
 msgstr "Calidad (para JPEG):"
 
-#. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
+#. frMapCombineCustomOptions..flwpnlJpegQuality..lblJpgQulity..Caption
 msgid "Quality, %"
 msgstr "Calidad, %"
 
@@ -3732,7 +3750,7 @@ msgstr "Guardar como...(Enter)"
 msgid "Save current session"
 msgstr "Guardar sesión actual"
 
-#. frMapCombine..pnlBottom..pnlOptions..chkSaveGeoRefInfoToJpegExif..Caption
+#. frMapCombineCustomOptions..chkSaveGeoRefInfoToJpegExif..Caption
 msgid "Save GeoRef info to Exif"
 msgstr "Guardar Info GeoRef a Exif"
 
@@ -4425,6 +4443,10 @@ msgstr ""
 "Este programa es freeware, opensource y liberado bajo la GNU General Public "
 "License (GPLv3)"
 
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+msgid "TIFF"
+msgstr ""
+
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Mosaico"
@@ -4814,6 +4836,10 @@ msgstr "Su Versión:"
 
 msgid "yournavigation.org (OSM)"
 msgstr "yournavigation.org (OSM)"
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+msgid "ZIP (Deflate)"
+msgstr ""
 
 #. frmPascalScriptIDE..dlgOpenZmpFile..Filter
 #. frmPascalScriptIDE..dlgSaveZmpFile..Filter

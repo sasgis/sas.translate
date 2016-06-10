@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-06-04 00:39\n"
-"PO-Revision-Date: 2016-06-04 00:39\n"
+"POT-Creation-Date: 2016-06-10 20:05\n"
+"PO-Revision-Date: 2016-06-10 20:05\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -612,6 +612,8 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
 #. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat..Text
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
@@ -704,6 +706,10 @@ msgid "BerkeleyDB (Versioned) cache folder:"
 msgstr ""
 
 msgid "BerkeleyDB cache folder:"
+msgstr ""
+
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+msgid "BigTIFF"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
@@ -1013,6 +1019,7 @@ msgstr ""
 msgid "Compression (for PNG):"
 msgstr ""
 
+#. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
@@ -1872,6 +1879,7 @@ msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
+#. frMapCombineCustomOptions..flwpnlFormat..lblFormat..Caption
 msgid "Format:"
 msgstr ""
 
@@ -2215,7 +2223,7 @@ msgstr ""
 msgid "Import Parameters"
 msgstr ""
 
-#. frMapCombine..pnlBottom..pnlOptions..chkPngWithAlpha..Caption
+#. frMapCombineCustomOptions..chkPngWithAlpha..Caption
 msgid "Include alpha channel"
 msgstr ""
 
@@ -2473,6 +2481,11 @@ msgstr ""
 
 #. frmLonLatRectEdit..grdpnlMain..grpBottomRight..Caption
 msgid "Lower right corner"
+msgstr ""
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression..Text
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+msgid "LZW"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap2..Caption
@@ -2872,6 +2885,10 @@ msgstr ""
 
 #. check storage write access
 msgid "No write access to tile storage"
+msgstr ""
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+msgid "None"
 msgstr ""
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
@@ -3496,7 +3513,7 @@ msgstr ""
 msgid "Quality (for JPEG):"
 msgstr ""
 
-#. frMapCombine..pnlBottom..pnlOptions..flwpnlJpegQuality..lblJpgQulity..Caption
+#. frMapCombineCustomOptions..flwpnlJpegQuality..lblJpgQulity..Caption
 msgid "Quality, %"
 msgstr ""
 
@@ -3748,7 +3765,7 @@ msgstr ""
 msgid "Save current session"
 msgstr ""
 
-#. frMapCombine..pnlBottom..pnlOptions..chkSaveGeoRefInfoToJpegExif..Caption
+#. frMapCombineCustomOptions..chkSaveGeoRefInfoToJpegExif..Caption
 msgid "Save GeoRef info to Exif"
 msgstr ""
 
@@ -4425,6 +4442,10 @@ msgid "This program is freeware, opensource and released under the GNU "
 "General Public License (GPLv3)"
 msgstr ""
 
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+msgid "TIFF"
+msgstr ""
+
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr ""
@@ -4812,6 +4833,10 @@ msgid "Your version:"
 msgstr ""
 
 msgid "yournavigation.org (OSM)"
+msgstr ""
+
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+msgid "ZIP (Deflate)"
 msgstr ""
 
 #. frmPascalScriptIDE..dlgOpenZmpFile..Filter
