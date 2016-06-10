@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-06-04 00:39\n"
-"PO-Revision-Date: 2016-06-05 17:32+0200\n"
+"PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.6\n"
 "Language: es\n"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
@@ -111,7 +111,7 @@ msgstr "(zoom %)"
 #. Programmer's name for it: rsLimitHint
 msgid "* - Limited by max concurrent http(s) requests for current map: %d"
 msgstr ""
-"* - Limitado por las peticiones http máxima concurrente (s) para el mapa "
+"* - Limitado por máximo de peticiones http(s) concurrentes para el mapa "
 "actual: %d"
 
 #. Programmer's name for it: SAS_UNITS_mperp
@@ -2110,7 +2110,7 @@ msgid "Hotkeys"
 msgstr "Hotkeys"
 
 msgid "HTTP %d Bad Request"
-msgstr "HTTP %d Requerida incorrecta"
+msgstr "HTTP %d Requerimiento incorrecto"
 
 msgid "HTTP %d No Content"
 msgstr "HTTP %d Sin contenido"
@@ -2631,7 +2631,7 @@ msgstr "¡MarkSystemConfig: Item #%d Impl GUID error de lectura!"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
 msgid "Max concurrent http(s)-requests number:"
-msgstr "Máximo http (s) concurrente requerida número:"
+msgstr "Número máximo de requerimientos http (s):"
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
@@ -2932,7 +2932,7 @@ msgstr "Resolución de mosaicos OGF2:"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
 msgid "Old after days"
-msgstr "Edad, después de días"
+msgstr "Viejo después de días"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeTileMatrixDraft..lblResizeTileMatrixDraft..Caption
 msgid "On change zoom draft"
@@ -3106,7 +3106,7 @@ msgid "Parent submenu"
 msgstr "Submenu padre"
 
 msgid "Parts count: %d"
-msgstr "El número de componentes:% d"
+msgstr "Número de componentes: % d"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
@@ -3193,7 +3193,7 @@ msgstr "Pixel"
 
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 msgid "Placemark"
-msgstr "Posicione"
+msgstr "Posición"
 
 #. Programmer's name for it: SAS_STR_NewMark
 msgid "Placemark %0:d"
@@ -3205,7 +3205,7 @@ msgstr "Categorías de Posiciones"
 
 #. frmMain..MainPopupMenu..NMarkExport..Caption
 msgid "Placemark Export"
-msgstr "Exportación marca de posición"
+msgstr "Exportar Posición"
 
 #. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmMarkInfo..Caption
@@ -3575,7 +3575,7 @@ msgstr "Remover mosaicos existentes"
 
 #. Programmer's name for it: SAS_ERR_Nopoints
 msgid "Required pointset is not found!"
-msgstr "¡El conjunto de puntos requerida no se encuentra!"
+msgstr "¡El conjunto de puntos requerido no se encuentra!"
 
 #. frmAbout..lblRequires..Caption
 msgid "Requires:"
@@ -3589,7 +3589,7 @@ msgstr "Reiniciar"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
 msgid "Reset to default"
-msgstr "Restablecen a los predeterminados"
+msgstr "Restablecer a predeterminado"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
@@ -3944,7 +3944,7 @@ msgstr "Color de sombra"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
 msgid "Shift - snap to active grids (if enabled)"
-msgstr "Mayúsculas - ajusten a las cuadrículas activos (si está activado)"
+msgstr "Mayúsculas - ajustar a cuadrículas activas (si está activado)"
 
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
@@ -4830,7 +4830,7 @@ msgid ""
 "\n"
 "Do you really want to close without saving?"
 msgstr ""
-"iZMP ha sido modificadoo, pero no guardado todavía!\n"
+"iZMP ha sido modificado, pero no guardado todavía!\n"
 "\n"
 "¿Está seguro de cerrar sin guardar?"
 
