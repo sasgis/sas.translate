@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-06-10 20:05\n"
-"PO-Revision-Date: 2016-06-04 00:44+0300\n"
+"POT-Creation-Date: 2016-07-06 12:47\n"
+"PO-Revision-Date: 2016-07-06 12:51+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2867,14 +2867,12 @@ msgid "No write access to tile storage"
 msgstr "Нет доступа на запись в хранилище тайлов"
 
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
-#, fuzzy
 msgid "None"
-msgstr "Зона:"
+msgstr "Нет"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
-#, fuzzy
 msgid "North"
-msgstr "Прервать"
+msgstr "Север"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
@@ -4045,8 +4043,8 @@ msgid "Show only selected placemarks"
 msgstr "Показывать только указанные метки"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowPrevVersion..Caption
-msgid "Show previous Version"
-msgstr "Отображать предыдущие версии"
+msgid "Show other Versions"
+msgstr "Отображать другие версии"
 
 #. frmMain..MainPopupMenu..Nopendir..Caption
 msgid "Show Primary Map Tile"
@@ -4187,7 +4185,7 @@ msgstr "СК-42"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "SK42 (Gauss-Kruger)"
-msgstr ""
+msgstr "СК-42 (Гаусс-Крюгер)"
 
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
@@ -4260,8 +4258,12 @@ msgid "SPOT 5 - 5m Color"
 msgstr "SPOT 5 - 5м Цвет"
 
 #. Programmer's name for it: rsORMSQLiteMarksDbName
+#. Programmer's name for it: rsSQLiteCacheName
 msgid "SQLite3"
 msgstr ""
+
+msgid "SQLite3 cache folder:"
+msgstr "Путь к кэшу SQLite3:"
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-06-10 20:05\n"
+"POT-Creation-Date: 2016-07-06 12:47\n"
 "PO-Revision-Date: 2016-06-04 09:21+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -4088,7 +4088,8 @@ msgid "Show only selected placemarks"
 msgstr "Afficher seulement les marqueurs sélectionnés"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowPrevVersion..Caption
-msgid "Show previous Version"
+#, fuzzy
+msgid "Show other Versions"
 msgstr "Afficher la version précédente"
 
 #. frmMain..MainPopupMenu..Nopendir..Caption
@@ -4304,8 +4305,13 @@ msgid "SPOT 5 - 5m Color"
 msgstr "SPOT 5 - 5 m Couleur"
 
 #. Programmer's name for it: rsORMSQLiteMarksDbName
+#. Programmer's name for it: rsSQLiteCacheName
 msgid "SQLite3"
 msgstr "SQLite3"
+
+#, fuzzy
+msgid "SQLite3 cache folder:"
+msgstr "Répertoire du cache natif :"
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
