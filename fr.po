@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-07-06 12:47\n"
-"PO-Revision-Date: 2016-06-04 09:21+0200\n"
+"PO-Revision-Date: 2016-07-15 10:17+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -521,7 +521,7 @@ msgstr "Appliquer"
 
 #. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
 msgid "Approx. to download:"
-msgstr "Total à télécharger (estimé) :"
+msgstr "Reste à télécharger (estimé) :"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 msgid "Are you sure you want to delete %0:d placemarks?"
@@ -713,7 +713,7 @@ msgstr "BerkeleyDB, répertoire du cache :"
 
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 msgid "BigTIFF"
-msgstr ""
+msgstr "BigTIFF"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
@@ -2913,9 +2913,8 @@ msgid "No write access to tile storage"
 msgstr "Pas d'accès écriture dans le stockage des dalles"
 
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
-#, fuzzy
 msgid "None"
-msgstr "Zone :"
+msgstr "Aucune"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
@@ -3449,7 +3448,7 @@ msgstr "Procéder seulement avec la version des dalles :"
 
 #. Programmer's name for it: SAS_STR_Processed
 msgid "Processed"
-msgstr "Procédé "
+msgstr "Procédé :"
 
 #. Programmer's name for it: rsProcessedAt
 msgid "Processed at: %.8f sec."
@@ -4088,9 +4087,8 @@ msgid "Show only selected placemarks"
 msgstr "Afficher seulement les marqueurs sélectionnés"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowPrevVersion..Caption
-#, fuzzy
 msgid "Show other Versions"
-msgstr "Afficher la version précédente"
+msgstr "Afficher les autres versions"
 
 #. frmMain..MainPopupMenu..Nopendir..Caption
 msgid "Show Primary Map Tile"
@@ -4309,9 +4307,8 @@ msgstr "SPOT 5 - 5 m Couleur"
 msgid "SQLite3"
 msgstr "SQLite3"
 
-#, fuzzy
 msgid "SQLite3 cache folder:"
-msgstr "Répertoire du cache natif :"
+msgstr "SQLite3, répertoire du cache :"
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
@@ -4493,7 +4490,7 @@ msgstr ""
 
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 msgid "TIFF"
-msgstr ""
+msgstr "TIFF"
 
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
@@ -4892,7 +4889,7 @@ msgstr "yournavigation.org (OSM)"
 
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 msgid "ZIP (Deflate)"
-msgstr ""
+msgstr "ZIP (Deflate)"
 
 #. frmPascalScriptIDE..dlgOpenZmpFile..Filter
 #. frmPascalScriptIDE..dlgSaveZmpFile..Filter
