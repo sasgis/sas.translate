@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-07-06 12:47\n"
+"POT-Creation-Date: 2016-12-08 13:26\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -136,39 +136,39 @@ msgstr "0..9 макс"
 msgid "1.2km"
 msgstr "1,2 км"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale1000000..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_1_000_000..Caption
 msgid "1:1 000 000 (10 km)"
 msgstr "1:1 000 000 (10 км)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale10000..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_10_000..Caption
 msgid "1:10 000 (100 m)"
 msgstr "1:10 000 (100 м)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale100000..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_100_000..Caption
 msgid "1:100 000 (1 km)"
 msgstr "1:100 000 (1 км)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale2500..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_2_500..Caption
 msgid "1:2 500 (25 m)"
 msgstr "1:2 500 (25 м)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale200000..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_200_000..Caption
 msgid "1:200 000 (2 km)"
 msgstr "1:200 000 (2 км)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale25000..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_25_000..Caption
 msgid "1:25 000 (250 m)"
 msgstr "1:25 000 (250 м)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale5000..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_5_000..Caption
 msgid "1:5 000 (50 m)"
 msgstr "1:5 000 (50 м)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale50000..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_50_000..Caption
 msgid "1:50 000 (500 m)"
 msgstr "1:50 000 (500 м)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale500000..Caption
+#. frmMain..actlstMain..actViewGridGenShtab_500_000..Caption
 msgid "1:500 000 (5 km)"
 msgstr "1:500 000 (5 км)"
 
@@ -319,7 +319,7 @@ msgstr "8 м"
 msgid "Abort"
 msgstr "Перервати"
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmAbout..Caption
+#. frmMain..actlstMain..actHelpShowAbout..Caption
 #. frmAbout..Caption
 msgid "About"
 msgstr "Про програму"
@@ -337,7 +337,7 @@ msgstr "Активні карти (%d)"
 msgid "Active Maps + Layers (%d)"
 msgstr "Активні карти + шари (%d)"
 
-#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..tbxAddToFavorite..Caption
+#. frmMain..actlstMain..actFavoriteAdd..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnAdd..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
@@ -365,7 +365,7 @@ msgstr "Додавати у меню роздільник після назви 
 msgid "Add New Category"
 msgstr "Додати нову категорію"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Line..Hint
+#. frmMain..actlstMain..actMarksAddLine..Hint
 msgid "Add new path"
 msgstr "Додати новий шлях"
 
@@ -374,7 +374,7 @@ msgstr "Додати новий шлях"
 msgid "Add New Path"
 msgstr "Додати новий шлях"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Point..Hint
+#. frmMain..actlstMain..actMarksAddPoint..Hint
 msgid "Add new placemark"
 msgstr "Додати нову позначку"
 
@@ -388,23 +388,22 @@ msgstr "Додати нову позначку"
 msgid "Add New Polygon"
 msgstr "Додати новий полігон"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Line..Caption
+#. frmMain..actlstMain..actMarksAddLine..Caption
 msgid "Add Path"
 msgstr "Додати шлях"
 
-#. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmSaveCurrentPositionToolbar..Caption
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Point..Caption
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmSaveCurrentPosition..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
+#. frmMain..actlstMain..actMarksAddPoint..Caption
+#. frmMain..actlstMain..actGpsMarkPointAdd..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 msgid "Add Placemark"
 msgstr "Додати позначку"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Poly..Hint
+#. frmMain..actlstMain..actMarksAddPolygon..Hint
 msgid "Add polygon"
 msgstr "Додати полігон"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBAdd_Poly..Caption
+#. frmMain..actlstMain..actMarksAddPolygon..Caption
 msgid "Add Polygon"
 msgstr "Додати полігон"
 
@@ -428,8 +427,7 @@ msgstr "Додати до злиття полігонів"
 msgid "Add to Merge Polygons (Ctrl+MLeft)"
 msgstr "Додати до злиття полігонів (Ctrl+MLeft)"
 
-#. frmMain..TBDock..GPSToolbar..TBGPSPath..tbitmGPSTrackSaveToMarks..Caption
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackSaveToDb..Caption
+#. frmMain..actlstMain..actGpsTrackSaveToDb..Caption
 msgid "Add Track to Database"
 msgstr "Зберегти маршрут у базі"
 
@@ -602,8 +600,8 @@ msgstr "Увага!"
 msgid "Attribution:"
 msgstr "Атрибуція:"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShauto..Caption
-#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleAuto..Caption
+#. frmMain..actlstMain..actViewGridGenShtabAuto..Caption
+#. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat..Text
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
@@ -663,7 +661,7 @@ msgstr "Середня швидкість, км/год:"
 msgid "Azimuth"
 msgstr "Азимут"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbitmGauge..Caption
+#. frmMain..actlstMain..actConfigAzimuthCircle..Caption
 msgid "Azimuth Circle"
 msgstr "Азимутальне кільце "
 
@@ -741,7 +739,7 @@ msgstr "На автомобілі (найшвидший)"
 msgid "By Car (Shortest)"
 msgstr "На автомобілі (найкоротший)"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBCOORD..Caption
+#. frmMain..actlstMain..actSelectByCoordinates..Caption
 msgid "By Coordinates"
 msgstr "За координатами"
 
@@ -763,7 +761,7 @@ msgstr "Пішки (найшвидший)"
 msgid "By Foot (Shortest)"
 msgstr "Пішки (найкоротший)"
 
-#. frmMain..TBDock..TBXMainMenu..NSources..NSRCesh..Caption
+#. frmMain..actlstMain..actConfigDownloadModeCache..Caption
 #. frmSettings..PageControl1..tsCache..Caption
 msgid "Cache"
 msgstr "Кеш"
@@ -799,7 +797,7 @@ msgid "Cache is Read-Only"
 msgstr "Кеш тільки для читання"
 
 #. frmCacheManager..Caption
-#. frmMain..TBDock..TBXMainMenu..NOperations..tbitmCacheManager..Caption
+#. frmMain..actlstMain..actShowCacheManager..Caption
 msgid "Cache Manager"
 msgstr "Керування кешем"
 
@@ -926,8 +924,7 @@ msgstr "Категорія: %s"
 msgid "Center With &Zoom"
 msgstr "Центрувати з масштабом"
 
-#. frmMain..TBDock..GPSToolbar..TBGPSToPoint..TBGPSToPointCenter..Caption
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSToPointCenter..Caption
+#. frmMain..actlstMain..actConfigGpsFollowPositionAtCenter..Caption
 msgid "Centered GPS Position"
 msgstr "Поточна позиція завжди в центрі"
 
@@ -935,7 +932,7 @@ msgstr "Поточна позиція завжди в центрі"
 msgid "Charging"
 msgstr "Зарядка"
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmCheckUpdate..Caption
+#. frmMain..actlstMain..actShowUpddateChecker..Caption
 msgid "Check for updates..."
 msgstr "Перевірити наявність оновлень..."
 
@@ -943,6 +940,11 @@ msgstr "Перевірити наявність оновлень..."
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
 msgstr "Закрити"
+
+#. frTilesDownload..pnlBottom..pnlMain..chkCloseAfterFinish..Caption
+#, fuzzy
+msgid "Close download window once finish"
+msgstr "Закрити вікно після закінчення"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
 msgid "Close this window once finished"
@@ -981,7 +983,7 @@ msgstr ""
 msgid "Comment"
 msgstr "Коментар"
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineForum..Caption
+#. frmMain..actlstMain..actHelpOpenCommunity..Caption
 msgid "Community  (http://www.sasgis.org/forum)"
 msgstr "Обговорення (http://sasgis.org/forum)"
 
@@ -1020,11 +1022,29 @@ msgstr "Стиснення (для PNG):"
 msgid "Compression:"
 msgstr "Стиснення:"
 
-#. frmMain..TBDock..GPSToolbar..TBGPSconn..Hint
+#. frmMain..actlstMain..actConfigZoomToCursor..Category
+#. frmMain..actlstMain..actConfigUsePrevForMap..Category
+#. frmMain..actlstMain..actConfigUsePrevForLayers..Category
+#. frmMain..actlstMain..actConfigUseZoomAnimation..Category
+#. frmMain..actlstMain..actConfigUseInertialMovement..Category
+#. frmMain..actlstMain..actConfigAzimuthCircle..Category
+#. frmMain..actlstMain..actConfigColorInversion..Category
+#. frmMain..actlstMain..actConfigPreviousSelectionVisible..Category
+#. frmMain..actlstMain..actConfigStatusBarVisible..Category
+#. frmMain..actlstMain..actConfigMiniMapVisible..Category
+#. frmMain..actlstMain..actConfigScaleLineVisible..Category
+#. frmMain..actlstMain..actConfigMarksNamesVisible..Category
+#. frmMain..actlstMain..actConfigOptionsShow..Category
+#. frmMain..actlstMain..actConfigInterfaceOptionsShow..Category
+#, fuzzy
+msgid "Config"
+msgstr "Копіювання тайлів"
+
+#. frmMain..actlstMain..actGpsConnect..Hint
 msgid "Connect to GPS receiver"
 msgstr "Під’єднатись до GPS-приймача"
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSConnect..Caption
+#. frmMain..actlstMain..actGpsConnect..Caption
 msgid "Connect to GPS Receiver"
 msgstr "Під’єднатись до GPS-приймача"
 
@@ -1054,18 +1074,24 @@ msgstr "Керування"
 msgid "Convert Cache Format"
 msgstr "Конвертувати формат кешу"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..lblCoordSysType..Caption
-msgid "Coordinate system"
-msgstr "Система координат"
-
 #. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "Координати"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..lblCoordSysInfoType..Caption
+#, fuzzy
+msgid "Coordinates info"
+msgstr "Координати"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..Label84..Caption
 msgid "Coordinates representation"
 msgstr "Формат подання координат"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..lblCoordSysType..Caption
+#, fuzzy
+msgid "Coordinates type"
+msgstr "Координати"
 
 msgid "Coordinates: %s"
 msgstr "Координати: %s"
@@ -1114,7 +1140,7 @@ msgstr "Створити нову позначку"
 msgid "Create placemark"
 msgstr "Створити  позначку"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..tbitmCreateShortcut..Caption
+#. frmMain..actlstMain..actMakeLinkOnDesktop..Caption
 msgid "Create Shortcut"
 msgstr "Створити ярлик"
 
@@ -1138,30 +1164,9 @@ msgstr "Швидкість, км/год:"
 msgid "Current zoom"
 msgstr "Активний масштаб"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N001..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
 msgid "Current Zoom"
 msgstr "Активний масштаб"
-
-#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid1p..Caption
-msgid "Current Zoom + 1"
-msgstr "Активний масштаб + 1"
-
-#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid2p..Caption
-msgid "Current Zoom + 2"
-msgstr "Активний масштаб + 2"
-
-#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid3p..Caption
-msgid "Current Zoom + 3"
-msgstr "Активний масштаб + 3"
-
-#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid4p..Caption
-msgid "Current Zoom + 4"
-msgstr "Активний масштаб + 4"
-
-#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..tbitmTileGrid5p..Caption
-msgid "Current Zoom + 5"
-msgstr "Активний масштаб + 5"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..lblHeader..Caption
 msgid "Custom HTTP Headers:"
@@ -1278,8 +1283,7 @@ msgstr "тайли"
 msgid "Delete tne"
 msgstr "tne"
 
-#. frmMain..TBDock..GPSToolbar..TBGPSPath..TBItemDelTrack..Caption
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackClear..Caption
+#. frmMain..actlstMain..actGpsTrackClear..Caption
 msgid "Delete Track"
 msgstr "Видалити трек"
 
@@ -1387,7 +1391,7 @@ msgstr "Вимкнено в параметрах карти"
 msgid "Disabled by Zmp"
 msgstr "Вимкнено в Zmp"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..tbitmFillingMapAsMain..Caption
+#. frmMain..actlstMain..actViewFillingMapMainMapUse..Caption
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
 msgid "Displayed Main Map"
 msgstr "Як на головній карті"
@@ -1400,11 +1404,11 @@ msgstr "Пройдений шлях"
 msgid "Distance #2, km:"
 msgstr "Відстань № 2, км:"
 
-#. frmMain..TBDock..TBMainToolBar..TBCalcRas..Hint
+#. frmMain..actlstMain..actDistanceCalculation..Hint
 msgid "Distance calculation"
 msgstr "Виміряти  відстань"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NCalcRast..Caption
+#. frmMain..actlstMain..actDistanceCalculation..Caption
 msgid "Distance Calculation"
 msgstr "Виміряти відстань"
 
@@ -1442,6 +1446,15 @@ msgstr "Не закривати вікно після старту"
 #. frmProgressSimple..TBXOperationsToolbar..tbtmDontClose..Hint
 msgid "Do not close this window when finish"
 msgstr "Не закривати вікно після закінчення"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
+msgid "Don't show for All"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
+msgid "Don't show for Geographic / WGS84"
+msgstr ""
 
 #. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
@@ -1491,6 +1504,13 @@ msgstr "Помилка завантаження. Код статусу %d"
 
 msgid "Download error. Unknown status code %d"
 msgstr "Помилка завантаження. Невідомий код статус %d"
+
+#. frmMain..actlstMain..actConfigDownloadModeCache..Category
+#. frmMain..actlstMain..actConfigDownloadModeInternet..Category
+#. frmMain..actlstMain..actConfigDownloadModeCacheInternet..Category
+#, fuzzy
+msgid "Download Mode"
+msgstr "Завантажено"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
 msgid "Download next tile if no response"
@@ -1568,7 +1588,7 @@ msgstr "Редагувати категорію"
 msgid "Edit Hotkey"
 msgstr "Редагувати гарячу клавішу."
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..tbitmEditLastSelection..Caption
+#. frmMain..actlstMain..actSelectByLastSelectionEdit..Caption
 msgid "Edit Last Selection"
 msgstr "Редагувати останнє виділення"
 
@@ -1754,6 +1774,12 @@ msgstr "Підключення до БД тільки для читання"
 msgid "Failed to save to external tile storage: error "
 msgstr "Помилка запису до БД: код помилки "
 
+#. frmMain..actlstMain..actFavoriteAdd..Category
+#. frmMain..actlstMain..actFavoriteManage..Category
+#, fuzzy
+msgid "Favorite"
+msgstr "Обране"
+
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
 msgid "Favorite maps/layers"
 msgstr "Обрані карти/шари"
@@ -1835,8 +1861,8 @@ msgstr "За розміром екрана"
 msgid "Fit to Screen"
 msgstr "За розміром екрана"
 
-#. frmMain..TBDock..GPSToolbar..TBGPSToPoint..Hint
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSCenterMap..Caption
+#. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
+#. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
 msgid "Follow GPS Position"
 msgstr "Автоматично переміщувати карту"
 
@@ -1894,17 +1920,19 @@ msgstr "Із шару масштабу:"
 msgid "Full Description"
 msgstr "Повний опис"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NFoolSize..Caption
-msgid "Full Screen"
+#. frmMain..actlstMain..actViewFullScreen..Caption
+#. frmMain..actlstMain..actViewFullScreen..Hint
+#, fuzzy
+msgid "Full screen"
 msgstr "На весь екран"
-
-#. frmMain..TBDock..TBMainToolBar..TBFullSize..Hint
-msgid "Full screen (F11)"
-msgstr "На весь екран (F11)"
 
 #. Programmer's name for it: SAS_STR_Gamma
 msgid "Gamma"
 msgstr "Гамма-корекція"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Gauss Krueger (6 degree zones) / S-42 "
+msgstr ""
 
 #. Programmer's name for it: SAS_UNITS_gb
 msgid "GB"
@@ -1952,6 +1980,16 @@ msgstr "Шлях до кешу GeoCacher"
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Geographic / S-42 (Pulkovo 1942)"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+#, fuzzy
+msgid "Geographic / WGS84"
+msgstr "Географічні"
+
 #. frLonLat..pnlTop..cbbCoordType..Text
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Geographic Coordinates"
@@ -1992,7 +2030,7 @@ msgstr ""
 msgid "GlobalMapper Tiles (GMT) cache folder:"
 msgstr "Шлях до кешу GlobalMapper Tiles (GMT):"
 
-#. frmMain..TBDock..TBMainToolBar..TBGoTo..Hint
+#. frmMain..actlstMain..actShowGoTo..Hint
 #. frmGoTo..pnlBottomButtons..btnGoTo..Caption
 msgid "Go to"
 msgstr "Перейти"
@@ -2001,7 +2039,7 @@ msgstr "Перейти"
 msgid "Go to selected object"
 msgstr "Перейти до вибраного об’єкту"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..tbitmGoToModal..Caption
+#. frmMain..actlstMain..actShowGoTo..Caption
 #. frmGoTo..Caption
 msgid "Go to..."
 msgstr "Перейти до..."
@@ -2044,10 +2082,6 @@ msgstr "Сітка"
 msgid "Group"
 msgstr "Згрупувати"
 
-#. Programmer's name for it: rsCmdLineArgProcessorGUIDParserError
-msgid "GUIDParserError"
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_Ha
 msgid "ha"
 msgstr "га"
@@ -2056,19 +2090,30 @@ msgstr "га"
 msgid "Height:"
 msgstr "Висота:"
 
+#. frmMain..actlstMain..actHelpOpenOnline..Category
+#. frmMain..actlstMain..actHelpShowAbout..Category
+#. frmMain..actlstMain..actHelpOpenWebSite..Category
+#. frmMain..actlstMain..actHelpOpenIssueTracker..Category
+#. frmMain..actlstMain..actHelpOpenCommunity..Category
+#. frmMain..actlstMain..actShowPascalScriptIde..Category
+#. frmMain..actlstMain..actShowUpddateChecker..Category
+#, fuzzy
+msgid "Help"
+msgstr "&Допомога"
+
 #. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
 msgid "Hide"
 msgstr "Приховати"
 
-#. frmMain..TBDock..SrcToolbar..TBLayerSel..btnHideAll..Caption
+#. frmMain..actlstMain..actMapsAllLayersHide..Caption
 msgid "Hide All"
 msgstr "Приховати все"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Hint
+#. frmMain..actlstMain..actConfigMarksHide..Hint
 msgid "Hide all placemarks"
 msgstr "Приховати всі позначки"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..TBHideMarks..Caption
+#. frmMain..actlstMain..actConfigMarksHide..Caption
 msgid "Hide All Placemarks"
 msgstr "Приховати всі позначки"
 
@@ -2121,6 +2166,26 @@ msgstr "HTTP не знайдено: %d"
 
 msgid "HTTP %d Unknown Error"
 msgstr "HTTP невідома помилка: %d"
+
+#. frmMain..actlstMain..actHelpOpenWebSite..URL
+#, fuzzy
+msgid "http://sasgis.org/"
+msgstr "Сайт програми (http://sasgis.org)"
+
+#. frmMain..actlstMain..actHelpOpenCommunity..URL
+#, fuzzy
+msgid "http://sasgis.org/forum/"
+msgstr "Обговорення (http://sasgis.org/forum)"
+
+#. frmMain..actlstMain..actHelpOpenIssueTracker..URL
+#, fuzzy
+msgid "http://sasgis.org/mantis/"
+msgstr "Багтрекер (http://sasgis.org/mantis)"
+
+#. frmMain..actlstMain..actHelpOpenOnline..URL
+#, fuzzy
+msgid "http://sasgis.org/wikisasiya/"
+msgstr "Довідка (http://sasgis.org/wikisasiya)"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
@@ -2210,7 +2275,7 @@ msgstr "Зберігати PNG з прозорістю"
 msgid "Incorrect GUID: %0:s"
 msgstr "GUID %0:s не відповідає формату"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NAnimateMove..Caption
+#. frmMain..actlstMain..actConfigUseInertialMovement..Caption
 msgid "Inertial Movement"
 msgstr "Рух за інерцією"
 
@@ -2235,7 +2300,7 @@ msgstr "Елементи інтерфейсу"
 msgid "Interface is nil"
 msgstr ""
 
-#. frmMain..TBDock..TBXMainMenu..NParams..tbitmInterfaceOptions..Caption
+#. frmMain..actlstMain..actConfigInterfaceOptionsShow..Caption
 #. frmMapLayersOptions..Caption
 msgid "Interface Options"
 msgstr "Налаштування інтерфейсу"
@@ -2244,13 +2309,13 @@ msgstr "Налаштування інтерфейсу"
 msgid "Interface to external tile storage not implemented"
 msgstr "Інтерфейс підключення до зовнішнього сховища тайлів не реалізований"
 
-#. frmMain..TBDock..TBXMainMenu..NSources..NSRCinet..Caption
+#. frmMain..actlstMain..actConfigDownloadModeInternet..Caption
 #. frmMapTypeEdit..PageControl1..tsInternet..Caption
 #. frmSettings..PageControl1..tsInternet..Caption
 msgid "Internet"
 msgstr "Інтернет"
 
-#. frmMain..TBDock..TBXMainMenu..NSources..NSRCic..Caption
+#. frmMain..actlstMain..actConfigDownloadModeCacheInternet..Caption
 msgid "Internet && Cache"
 msgstr "Інтернет і кеш"
 
@@ -2271,7 +2336,7 @@ msgstr "iPhone (версії 2.2 та вище, 128х128)"
 msgid "iPhone (version prior to 2.2, 64x64)"
 msgstr "iPhone (версії нижче 2.2, 64х64)"
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbtmHelpBugTrack..Caption
+#. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
 msgid "Issue Tracker (http://sasgis.org/mantis)"
 msgstr "Багтрекер (http://sasgis.org/mantis)"
 
@@ -2332,7 +2397,7 @@ msgstr "Мова (Language)"
 msgid "Last name:"
 msgstr "Назва останнього файла:"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPrevious..Caption
+#. frmMain..actlstMain..actSelectByLastSelection..Caption
 msgid "Last Selection"
 msgstr "Попереднє виділення"
 
@@ -2417,7 +2482,7 @@ msgstr ""
 msgid "Listings"
 msgstr "Лістинги"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBLoadSelFromFile..Caption
+#. frmMain..actlstMain..actSelectBySelectionFromFile..Caption
 msgid "Load from File"
 msgstr "Завантажити з файла"
 
@@ -2434,7 +2499,7 @@ msgstr "Місцевий час:"
 msgid "Lock toolbars"
 msgstr "Прикріпити панелі інструментів"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NBlock_toolbars..Caption
+#. frmMain..actlstMain..actViewToolbarsLock..Caption
 msgid "Lock Toolbars"
 msgstr "Прикріпити панелі інструментів"
 
@@ -2448,14 +2513,6 @@ msgstr ""
 #. frLonLat..grdpnlLonLat..lblLon..Caption
 msgid "Longitude:"
 msgstr "Довгота:"
-
-#. Programmer's name for it: rsCmdLineArgProcessorLonLatOutOfBounds
-msgid "LonLatOutOfBounds"
-msgstr ""
-
-#. Programmer's name for it: rsCmdLineArgProcessorLonLatParserError
-msgid "LonLatParserError"
-msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkLowResolutionToo..Caption
 msgid "Low Resolution too"
@@ -2509,7 +2566,7 @@ msgstr "Розділяти по підпапкам, відповідно до і
 msgid "Make TileMill compatible structure"
 msgstr "Створити сумісну з TileMill структуру"
 
-#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..tbxManageFavorite..Caption
+#. frmMain..actlstMain..actFavoriteManage..Caption
 msgid "Manage"
 msgstr "Керування"
 
@@ -2545,10 +2602,11 @@ msgstr "Інформація про карту"
 msgid "Map Name"
 msgstr "Назва карти"
 
+#. frmMain..actlstMain..actConfigProjectionOfMapUse..Caption
 msgid "Map Original Projection (from zmp)"
 msgstr "Оригінальна проекція карты (з zmp)"
 
-#. frmMain..TBDock..TBXMainMenu..NParams..NMapParams..Caption
+#. frmMain..actlstMain..actMapsEditMapParams..Caption
 msgid "Map Settings"
 msgstr "Параметри карти"
 
@@ -2587,6 +2645,8 @@ msgid "Map:"
 msgstr "Тип карти:"
 
 #. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..Caption
+#. frmMain..actlstMain..actMapsEditMapParams..Category
+#. frmMain..actlstMain..actMapsAllLayersHide..Category
 #. frMapSelect..FilterPopupMenu..TBX_Maps..Caption
 #. frmSettings..PageControl1..tsMaps..Caption
 #. Programmer's name for it: SAS_STR_Maps
@@ -2602,7 +2662,7 @@ msgstr "засобами maps.cloudmade.com (OSM)"
 msgid "Maps@mail.ru"
 msgstr "засобами Maps@mail.ru "
 
-#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode2..Caption
+#. frmMain..actlstMain..actViewFillingMapMarkExisting..Caption
 msgid "Mark Existing Tiles"
 msgstr "Існуючі тайли"
 
@@ -2610,9 +2670,19 @@ msgstr "Існуючі тайли"
 msgid "Mark Info"
 msgstr "Інформація про позначку"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode1..Caption
+#. frmMain..actlstMain..actViewFillingMapMarkUnexisting..Caption
 msgid "Mark Nonexistent Tiles"
 msgstr "Відсутні тайли"
+
+#. frmMain..actlstMain..actShowPointProject..Category
+#. frmMain..actlstMain..actMarksAddPoint..Category
+#. frmMain..actlstMain..actMarksAddLine..Category
+#. frmMain..actlstMain..actMarksAddPolygon..Category
+#. frmMain..actlstMain..actShowPlacemarkManager..Category
+#. frmMain..actlstMain..actConfigMarksHide..Category
+#, fuzzy
+msgid "Marks"
+msgstr "Мої позначки"
 
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
@@ -2744,7 +2814,7 @@ msgstr "Висока вірогідність того, що Вас забане
 msgid "Mouse wheel"
 msgstr "Коліщатко миші"
 
-#. frmMain..TBDock..TBMainToolBar..TBmove..Hint
+#. frmMain..actlstMain..actMoveMap..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkDeleteSource..Caption
 msgid "Move"
 msgstr "Переміщувати"
@@ -2799,7 +2869,7 @@ msgstr "Навігація на позначку"
 msgid "Navigate to selected placemark"
 msgstr "Навігація на вибрану позначку"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbitmNavigationArrow..Caption
+#. frmMain..actlstMain..actViewNavigation..Caption
 msgid "Navigation Arrow"
 msgstr "Стрілка навігації"
 
@@ -2813,11 +2883,11 @@ msgstr "Таймаут на мережеві операції, мс"
 msgid "New Category"
 msgstr "Нова категорія"
 
-#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..tbxnxtmap..Caption
+#. frmMain..actlstMain..actViewSelectNextMapWithTile..Caption
 msgid "Next map with tile"
 msgstr "Наступна карта з тайлом"
 
-#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmnMapVer..TBXNextVer..Caption
+#. frmMain..actlstMain..actViewSelectNextMapVersion..Caption
 msgid "Next version"
 msgstr "Наступна версія"
 
@@ -2830,7 +2900,7 @@ msgstr "Приємні"
 msgid "Night mode (color inversion)"
 msgstr "Нічний режим (Інверсія кольорів)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..Ninvertcolor..Caption
+#. frmMain..actlstMain..actConfigColorInversion..Caption
 msgid "Night Mode (Color Inversion)"
 msgstr "Нічний режим (Інверсія кольорів)"
 
@@ -2839,9 +2909,8 @@ msgstr "Нічний режим (Інверсія кольорів)"
 msgid "Nightly (testing)"
 msgstr "Нічна (тестування)"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..N000..Caption
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..NGShScale0..Caption
-#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScale0..Caption
+#. frmMain..actlstMain..actViewGridGenShtabNo..Caption
+#. frmMain..actlstMain..actViewGridLonLatNo..Caption
 #. frmShortCutEdit..pnlBottom..btnClear..Caption
 #. Programmer's name for it: SAS_STR_No
 msgid "No"
@@ -2966,7 +3035,7 @@ msgstr "При зміні проекції"
 msgid "On-Line Help"
 msgstr "Допомога"
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineHelp..Caption
+#. frmMain..actlstMain..actHelpOpenOnline..Caption
 msgid "Online Help (http://sasgis.org/wikisasiya)"
 msgstr "Довідка (http://sasgis.org/wikisasiya)"
 
@@ -3020,12 +3089,37 @@ msgstr "Відкрити папку, що містить тайл основно
 msgid "Open zmp"
 msgstr "Відкрити zmp"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..tbitmOpenFile..Caption
+#. frmMain..actlstMain..actFileOpen..Caption
 msgid "Open..."
 msgstr "Відкрити..."
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSOptions..Caption
-#. frmMain..TBDock..TBXMainMenu..NParams..tbitmOptions..Caption
+#. frmMain..actlstMain..actMakeLinkOnDesktop..Category
+#. frmMain..actlstMain..actFileOpen..Category
+#. frmMain..actlstMain..actZoomIn..Category
+#. frmMain..actlstMain..actZoomOut..Category
+#. frmMain..actlstMain..actShowGoTo..Category
+#. frmMain..actlstMain..actMoveMap..Category
+#. frmMain..actlstMain..actDistanceCalculation..Category
+#. frmMain..actlstMain..actShowCacheManager..Category
+#. frmMain..actlstMain..actQuit..Category
+#, fuzzy
+msgid "Operations"
+msgstr "&Операції"
+
+#. frmMain..actlstMain..actSelectByRect..Category
+#. frmMain..actlstMain..actSelectByPolygon..Category
+#. frmMain..actlstMain..actSelectByLine..Category
+#. frmMain..actlstMain..actSelectByCoordinates..Category
+#. frmMain..actlstMain..actSelectByVisibleArea..Category
+#. frmMain..actlstMain..actSelectByLastSelection..Category
+#. frmMain..actlstMain..actSelectByLastSelectionEdit..Category
+#. frmMain..actlstMain..actSelectBySelectionFromFile..Category
+#, fuzzy
+msgid "Operations\\Selection"
+msgstr "Останнє виділення"
+
+#. frmMain..actlstMain..actConfigOptionsShow..Caption
+#. frmMain..actlstMain..actConfigGpsOptionsShow..Caption
 #. frmMarkSystemConfigEdit..grpOptions..Caption
 #. frmSettings..Caption
 msgid "Options"
@@ -3074,7 +3168,7 @@ msgstr "Результуючий формат:"
 msgid "Overlay layer:"
 msgstr "Накласти шар:"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowMiniMap..Caption
+#. frmMain..actlstMain..actConfigMiniMapVisible..Caption
 msgid "Overview Map"
 msgstr "Карта огляду"
 
@@ -3220,16 +3314,16 @@ msgstr "Експорт позначки"
 msgid "Placemark Info"
 msgstr " Інф. про позначку"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbitmPlacemarkManager..Hint
+#. frmMain..actlstMain..actShowPlacemarkManager..Hint
 msgid "Placemark manager"
 msgstr "Управління позначками"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbitmPlacemarkManager..Caption
+#. frmMain..actlstMain..actShowPlacemarkManager..Caption
 #. frmMarksExplorer..Caption
 msgid "Placemark Manager"
 msgstr "Управління позначками"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..tbitmShowMarkCaption..Caption
+#. frmMain..actlstMain..actConfigMarksNamesVisible..Caption
 msgid "Placemark Names"
 msgstr "Показувати назви позначок"
 
@@ -3343,7 +3437,7 @@ msgstr "Полігон не вибраний"
 msgid "Polygon parameters"
 msgstr "Параметри полігонів"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBREGION..Caption
+#. frmMain..actlstMain..actSelectByPolygon..Caption
 msgid "Polygonal Selection"
 msgstr "Полігональна область"
 
@@ -3351,7 +3445,7 @@ msgstr "Полігональна область"
 msgid "Polygons"
 msgstr "Полігони"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBPolylineSelect..Caption
+#. frmMain..actlstMain..actSelectByLine..Caption
 msgid "Polyline Selection"
 msgstr "Виділення по шляху"
 
@@ -3362,15 +3456,15 @@ msgstr "Пул вимкнено - Неможливо отримати db: %s"
 msgid "Press Ctrl and click on polygon to add one..."
 msgstr "Для додавання полігону натисніть Ctrl і клікніть по ньому"
 
-#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..tbxprevmap..Caption
+#. frmMain..actlstMain..actViewSelectPrevMapWithTile..Caption
 msgid "Previous map with tile"
 msgstr "Попередня карта за тайлом"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NShowSelection..Caption
+#. frmMain..actlstMain..actConfigPreviousSelectionVisible..Caption
 msgid "Previous Selection"
 msgstr "Останнє виділення"
 
-#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmnMapVer..TBXPrevVer..Caption
+#. frmMain..actlstMain..actViewSelectPrevMapVersion..Caption
 msgid "Previous version"
 msgstr "Попередня версія"
 
@@ -3434,7 +3528,7 @@ msgstr "Продукт:"
 msgid "Project"
 msgstr "Спроектувати"
 
-#. frmMain..TBDock..TBXMainMenu..NMarks..tbitmPointProject..Caption
+#. frmMain..actlstMain..actShowPointProject..Caption
 #. frmPointProjecting..Caption
 msgid "Project New Placemark"
 msgstr "Спроектувати нову позначку"
@@ -3496,9 +3590,8 @@ msgid "Queue"
 msgstr "Залишилось"
 
 #. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
-#. frmMain..TBDock..TBExit..TBXExit..Hint
-#. frmMain..TBDock..TBXMainMenu..NOperations..tbitmQuit..Caption
-#. frmMain..TrayPopupMenu..TrayItemQuit..Caption
+#. frmMain..actlstMain..actQuit..Caption
+#. frmMain..actlstMain..actQuit..Hint
 #. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
 msgid "Quit"
 msgstr "Вихід"
@@ -3538,7 +3631,7 @@ msgstr ""
 msgid "Recreate target database if exists"
 msgstr "Перестворити обрану БД, якщо вона існує"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Caption
+#. frmMain..actlstMain..actSelectByRect..Caption
 msgid "Rectangular Selection"
 msgstr "Прямокутна область"
 
@@ -3607,7 +3700,7 @@ msgstr "Алгоритм:"
 msgid "Resize Algorithm:"
 msgstr "Алгоритм розтягування зображень:"
 
-#. frmMain..TrayPopupMenu..TrayItemRestore..Caption
+#. frmMain..actlstMain..actViewNotMinimized..Caption
 msgid "Restore"
 msgstr "Відновити"
 
@@ -3680,10 +3773,6 @@ msgstr "Команда розробників SAS.Планета"
 #. Programmer's name for it: SAS_MSG_need_reload_application_curln
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr "Для того щоб зміни набрали чинності, слід перезавантажити програму"
-
-#. Programmer's name for it: rsCmdLineArgProcessorSASExceptionRaised
-msgid "SASExceptionRaised"
-msgstr ""
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
@@ -3783,7 +3872,7 @@ msgstr "Куди зберігати:"
 msgid "Save zmp"
 msgstr "Зберегти zmp"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..ShowLine..Caption
+#. frmMain..actlstMain..actConfigScaleLineVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
 msgid "Scale Legend"
 msgstr "Лінійка"
@@ -3873,7 +3962,6 @@ msgstr ""
 msgid "Selection by Coordinates"
 msgstr "Виділення за координатами"
 
-#. frmMain..TBDock..TBMainToolBar..TBRectSave..Hint
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnOpSelectMark..Hint
 msgid "Selection manager"
 msgstr "Операції з виділеною областю"
@@ -3887,7 +3975,7 @@ msgstr "Операції з виділеною областю"
 msgid "Selection Manager"
 msgstr "Операції з виділеною областю"
 
-#. frmMain..OpenDialog1..Filter
+#. frmMain..dlgOpenHlgLoad..Filter
 #. frmRegionProcess..SaveSelDialog..Filter
 msgid "Selections|*.hlg"
 msgstr "Файл виділення|*.hlg"
@@ -3950,7 +4038,7 @@ msgstr "Параметри"
 msgid "Shadow color"
 msgstr "Колір тіні"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBRECT..Hint
+#. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
 msgstr "Shift - притягує до активних сіток (якщо увімкнені)"
 
@@ -3985,15 +4073,20 @@ msgstr "Показувати інф. про висоту з будь-якого 
 msgid "Show Elevation Info In Status Bar"
 msgstr "Показувати інф. про висоту в рядку стану"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
+#, fuzzy
+msgid "Show for All"
+msgstr "Формувати для..."
+
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
 msgid "Show for..."
 msgstr "Формувати для..."
 
-#. frmMain..TBDock..GPSToolbar..TBGPSPath..Hint
+#. frmMain..actlstMain..actConfigGpsShowTrack..Hint
 msgid "Show GPS track"
 msgstr "Показувати GPS трек"
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmGPS..tbitmGPSTrackShow..Caption
+#. frmMain..actlstMain..actConfigGpsShowTrack..Caption
 msgid "Show GPS Track"
 msgstr "Показувати GPS трек"
 
@@ -4036,7 +4129,7 @@ msgstr "Показати нові"
 msgid "Show only selected placemarks"
 msgstr "Показувати лише зазначені позначки"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowPrevVersion..Caption
+#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowOtherVersions..Caption
 msgid "Show other Versions"
 msgstr "Показувти інші версії"
 
@@ -4080,10 +4173,6 @@ msgstr "Приховати/Показати підписи"
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..chkShowPass..Hint
 msgid "Show/Hide Password"
 msgstr "Приховати/Показати пароль"
-
-#. Programmer's name for it: rsCmdLineArgProcessorShowMarksParserError
-msgid "ShowMarksParserError"
-msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedDescription
 msgid "Shows average speed"
@@ -4174,13 +4263,10 @@ msgstr "Розмір:"
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "Розмір: %0:dx%1:d Розбити на %2:d файлів"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "SK42"
-msgstr "СК-42"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "SK42 (Gauss-Kruger)"
-msgstr "СК-42 (Гаусс-Крюгер)"
+#. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
+#, fuzzy
+msgid "Skip existing result files"
+msgstr "Існуючі тайли"
 
 #. frmProgressCacheConverter..lblSkippedName..Caption
 msgid "Skipped:"
@@ -4272,7 +4358,7 @@ msgstr "Почати"
 msgid "Start paused"
 msgstr "Запускати в паузі"
 
-#. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Showstatus..Caption
+#. frmMain..actlstMain..actConfigStatusBarVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
 msgid "Status Bar"
 msgstr "Рядок статусу"
@@ -4599,14 +4685,6 @@ msgstr "Невідома помилка при завантаженні"
 msgid "Unknown status code %d"
 msgstr "Помилка завантаження. Невідомий статус коду %d"
 
-#. Programmer's name for it: rsCmdLineArgProcessorUnknownError
-msgid "UnknownError: %s"
-msgstr "Невідома помилка: %s"
-
-#. Programmer's name for it: rsCmdLineArgProcessorUnknownGUID
-msgid "UnknownGUID"
-msgstr "Невідомий GUID"
-
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 #. frMapsList..pnlMapsRightButtons..Button12..Caption
 msgid "Up"
@@ -4656,7 +4734,7 @@ msgstr "Посилання на Terraserver"
 msgid "URL to Yandex.Maps"
 msgstr "Посилання на Яндекс.Карти"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NFillMode3..Caption
+#. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
 msgid "Use Age Gradient"
 msgstr "Використовувати градієнт за часом"
 
@@ -4664,11 +4742,11 @@ msgstr "Використовувати градієнт за часом"
 msgid "Use Deleted: Object is not exists!"
 msgstr "Спроба використати віддалений інтерфейсний об'єкт"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NbackloadLayer..Caption
+#. frmMain..actlstMain..actConfigUsePrevForLayers..Caption
 msgid "Use Layers from Lower Zooms"
 msgstr "Брати шари з менших масштабів"
 
-#. frmMain..TBDock..TBXMainMenu..NView..Nbackload..Caption
+#. frmMain..actlstMain..actConfigUsePrevForMap..Caption
 msgid "Use Maps from Lower Zooms"
 msgstr "Брати карти з менших масштабів"
 
@@ -4709,7 +4787,7 @@ msgstr "Використовувати вищерозміщені шари, як
 msgid "Use xyz scheme"
 msgstr "Використовувати xyz схему"
 
-#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..NDegScaleUser..Caption
+#. frmMain..actlstMain..actViewGridLonLat_User..Caption
 msgid "User defined"
 msgstr "Задано користувачем"
 
@@ -4751,11 +4829,60 @@ msgstr "Версії"
 msgid "vertically:"
 msgstr "по вертикалі, на"
 
+#. frmMain..actlstMain..actViewFullScreen..Category
+#. frmMain..actlstMain..actViewNavigation..Category
+#. frmMain..actlstMain..actShowDebugInfo..Category
+#. frmMain..actlstMain..actViewToolbarsLock..Category
+#. frmMain..actlstMain..actViewSelectNextMapWithTile..Category
+#. frmMain..actlstMain..actViewSelectPrevMapWithTile..Category
+#. frmMain..actlstMain..actViewSelectNextMapVersion..Category
+#. frmMain..actlstMain..actViewSelectPrevMapVersion..Category
+#. frmMain..actlstMain..actConfigProjectionOfMapUse..Category
+#. frmMain..actlstMain..actViewNotMinimized..Category
 #. frmSettings..PageControl1..tsView..Caption
 msgid "View"
 msgstr "Вигляд"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..TBScreenSelect..Caption
+#. frmMain..actlstMain..actViewFillingMapMarkUnexisting..Category
+#. frmMain..actlstMain..actViewFillingMapMarkExisting..Category
+#. frmMain..actlstMain..actViewFillingMapMarkGradient..Category
+#. frmMain..actlstMain..actViewFillingMapFilterMode..Category
+#. frmMain..actlstMain..actViewFillingMapMainMapUse..Category
+msgid "View\\FillingMap"
+msgstr ""
+
+#. frmMain..actlstMain..actViewGridGenShtabNo..Category
+#. frmMain..actlstMain..actViewGridGenShtab_1_000_000..Category
+#. frmMain..actlstMain..actViewGridGenShtab_500_000..Category
+#. frmMain..actlstMain..actViewGridGenShtab_200_000..Category
+#. frmMain..actlstMain..actViewGridGenShtab_100_000..Category
+#. frmMain..actlstMain..actViewGridGenShtab_50_000..Category
+#. frmMain..actlstMain..actViewGridGenShtab_25_000..Category
+#. frmMain..actlstMain..actViewGridGenShtab_10_000..Category
+#. frmMain..actlstMain..actViewGridGenShtab_5_000..Category
+#. frmMain..actlstMain..actViewGridGenShtab_2_500..Category
+#. frmMain..actlstMain..actViewGridGenShtabAuto..Category
+msgid "View\\GridGenShtab"
+msgstr ""
+
+#. frmMain..actlstMain..actViewGridLonLatNo..Category
+#. frmMain..actlstMain..actViewGridLonLat_10_000..Category
+#. frmMain..actlstMain..actViewGridLonLat_05_000..Category
+#. frmMain..actlstMain..actViewGridLonLat_02_000..Category
+#. frmMain..actlstMain..actViewGridLonLat_01_000..Category
+#. frmMain..actlstMain..actViewGridLonLat_00_500..Category
+#. frmMain..actlstMain..actViewGridLonLat_00_250..Category
+#. frmMain..actlstMain..actViewGridLonLat_00_125..Category
+#. frmMain..actlstMain..actViewGridLonLat_User..Category
+#. frmMain..actlstMain..actViewGridLonLatAuto..Category
+msgid "View\\GridLonLat"
+msgstr ""
+
+#. do not Localize
+msgid "View\\GridTile"
+msgstr ""
+
+#. frmMain..actlstMain..actSelectByVisibleArea..Caption
 msgid "Visible Area"
 msgstr "За розміром екрану"
 
@@ -4764,17 +4891,13 @@ msgid "Visible on zooms:"
 msgstr "Масштаби видимості:"
 
 #. Programmer's name for it: SAS_ERR_WaitTime
-msgid "Wait %0:d secons..."
+#, fuzzy
+msgid "Wait %0:d seconds..."
 msgstr "Зачекайте %0:d секунд..."
 
-#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..tbitmOnlineHome..Caption
+#. frmMain..actlstMain..actHelpOpenWebSite..Caption
 msgid "Web Site (http://www.sasgis.org)"
 msgstr "Сайт програми (http://sasgis.org)"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "WGS84 (default)"
-msgstr "WGS84 (за замовчуванням)"
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
@@ -4787,7 +4910,7 @@ msgstr "Ширина"
 msgid "Width:"
 msgstr "Ширина:"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..NShowFillDates..Caption
+#. frmMain..actlstMain..actViewFillingMapFilterMode..Caption
 msgid "Within Time Interval"
 msgstr "В межах часового інтервалу"
 
@@ -4871,21 +4994,21 @@ msgstr "Зона:"
 msgid "Zoom"
 msgstr "Масштаб"
 
-#. frmMain..TBDock..TBXMainMenu..NView..Nanimate..Caption
+#. frmMain..actlstMain..actConfigUseZoomAnimation..Caption
 msgid "Zoom Animation"
 msgstr "Анімація при масштабуванні"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NZoomIn..Caption
-#. frmMain..TBDockLeft..ZoomToolBar..TBZoomIn..Hint
+#. frmMain..actlstMain..actZoomIn..Caption
+#. frmMain..actlstMain..actZoomIn..Hint
 msgid "Zoom In"
 msgstr "Збільшити"
 
-#. frmMain..TBDock..TBXMainMenu..NOperations..NZoomOut..Caption
-#. frmMain..TBDockLeft..ZoomToolBar..TBZoom_out..Hint
+#. frmMain..actlstMain..actZoomOut..Caption
+#. frmMain..actlstMain..actZoomOut..Hint
 msgid "Zoom Out"
 msgstr "Зменшити"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NGoToCur..Caption
+#. frmMain..actlstMain..actConfigZoomToCursor..Caption
 msgid "Zoom to Cursor"
 msgstr "Масштабувати за курсором"
 
@@ -4896,14 +5019,6 @@ msgstr "Масштабувати за курсором"
 msgid "Zoom:"
 msgstr "Масштаб:"
 
-#. Programmer's name for it: rsCmdLineArgProcessorZoomOutOfBounds
-msgid "ZoomOutOfBounds"
-msgstr ""
-
-#. Programmer's name for it: rsCmdLineArgProcessorZoomParserError
-msgid "ZoomParserError"
-msgstr ""
-
 #. frZoomsSelect..lblZooms..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
 msgid "Zooms:"
@@ -4913,8 +5028,137 @@ msgstr "Масштаби:"
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
 
-#~ msgid "Geographic"
-#~ msgstr "Географічні"
+#~ msgid "Coordinate system"
+#~ msgstr "Система координат"
+
+#~ msgid "Current Zoom + 1"
+#~ msgstr "Активний масштаб + 1"
+
+#~ msgid "Current Zoom + 2"
+#~ msgstr "Активний масштаб + 2"
+
+#~ msgid "Current Zoom + 3"
+#~ msgstr "Активний масштаб + 3"
+
+#~ msgid "Current Zoom + 4"
+#~ msgstr "Активний масштаб + 4"
+
+#~ msgid "Current Zoom + 5"
+#~ msgstr "Активний масштаб + 5"
+
+#, fuzzy
+#~ msgid "For z1"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z10"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z11"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z12"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z13"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z14"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z15"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z16"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z17"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z18"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z19"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z2"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z20"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z21"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z22"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z23"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z24"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z3"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z4"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z5"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z6"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z7"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z8"
+#~ msgstr "Для"
+
+#, fuzzy
+#~ msgid "For z9"
+#~ msgstr "Для"
+
+#~ msgid "SK42"
+#~ msgstr "СК-42"
+
+#~ msgid "SK42 (Gauss-Kruger)"
+#~ msgstr "СК-42 (Гаусс-Крюгер)"
+
+#~ msgid "WGS84 (default)"
+#~ msgstr "WGS84 (за замовчуванням)"
+
+#~ msgid "Full screen (F11)"
+#~ msgstr "На весь екран (F11)"
+
+#~ msgid "UnknownError: %s"
+#~ msgstr "Невідома помилка: %s"
+
+#~ msgid "UnknownGUID"
+#~ msgstr "Невідомий GUID"
 
 #~ msgid "Close this window after start"
 #~ msgstr "Закрити вікно після старту"
