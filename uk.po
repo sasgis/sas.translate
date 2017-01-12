@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2016-12-08 13:26\n"
+"POT-Creation-Date: 2017-01-12 21:10\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -1033,12 +1033,20 @@ msgstr "Стиснення:"
 #. frmMain..actlstMain..actConfigStatusBarVisible..Category
 #. frmMain..actlstMain..actConfigMiniMapVisible..Category
 #. frmMain..actlstMain..actConfigScaleLineVisible..Category
+#. frmMain..actlstMain..actConfigScaleLineExtended..Category
+#. frmMain..actlstMain..actConfigScaleLineOptionsShow..Category
 #. frmMain..actlstMain..actConfigMarksNamesVisible..Category
 #. frmMain..actlstMain..actConfigOptionsShow..Category
 #. frmMain..actlstMain..actConfigInterfaceOptionsShow..Category
 #, fuzzy
 msgid "Config"
 msgstr "Копіювання тайлів"
+
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatNice..Category
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Category
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatScience..Category
+msgid "Config\\ScaleLineNumberFormat"
+msgstr ""
 
 #. frmMain..actlstMain..actGpsConnect..Hint
 msgid "Connect to GPS receiver"
@@ -1099,6 +1107,11 @@ msgstr "Координати: %s"
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Копіювати"
+
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
+#, fuzzy
+msgid "Copy BBOX coordinates"
+msgstr "Копіювати координати"
 
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
@@ -2126,7 +2139,6 @@ msgid "Hide placemarks"
 msgstr "Не показувати позначки"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..chkScaleLineHide..Caption
-#. Programmer's name for it: rsHideScaleLegend
 msgid "Hide Scale Legend"
 msgstr "Приховати шкалу масштабу"
 
@@ -2891,8 +2903,8 @@ msgstr "Наступна карта з тайлом"
 msgid "Next version"
 msgstr "Наступна версія"
 
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatNice..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
-#. Programmer's name for it: rsNice
 msgid "Nice"
 msgstr "Приємні"
 
@@ -2930,6 +2942,10 @@ msgstr "Нема даних для режиму  Fly-on-Track"
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile storage"
 msgstr "Недостатньо місця в БД для здійснення операцій"
+
+#, fuzzy
+msgid "No write access to current Marks DB!"
+msgstr "Немає доступу на запис до тайлосховища"
 
 #. check storage write access
 msgid "No write access to tile storage"
@@ -2977,8 +2993,8 @@ msgstr "Кількість тайлів, що кешується в операт
 msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s"
 msgstr "Кількість тайлів: %0:sx%1:s (%2:s), розмір: %3:sx%4:s"
 
+#. frmMain..tbxpmnScaleLine..tbxsbmScaleLineNumberFormat..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
-#. Programmer's name for it: rsNumbersFormat
 msgid "Numbers Format"
 msgstr "Числовий формат"
 
@@ -3118,6 +3134,7 @@ msgstr "&Операції"
 msgid "Operations\\Selection"
 msgstr "Останнє виділення"
 
+#. frmMain..actlstMain..actConfigScaleLineOptionsShow..Caption
 #. frmMain..actlstMain..actConfigOptionsShow..Caption
 #. frmMain..actlstMain..actConfigGpsOptionsShow..Caption
 #. frmMarkSystemConfigEdit..grpOptions..Caption
@@ -3125,7 +3142,6 @@ msgstr "Останнє виділення"
 msgid "Options"
 msgstr "Налаштування"
 
-#. Programmer's name for it: rsOptions
 #. Programmer's name for it: rsOptions
 msgid "Options..."
 msgstr "Налаштування..."
@@ -3607,6 +3623,10 @@ msgstr "ОЗП"
 msgid "RAW: Fill line failure!"
 msgstr "BMP: Помилка заповнення!"
 
+#. frmMarkCategoryEdit..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPath..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPoint..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPoly..pnlBottomButtons..lblReadOnly..Caption
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
 msgid "Read only mode"
 msgstr "Тільки читання"
@@ -3744,8 +3764,8 @@ msgstr "Обератння на себе – наближення"
 msgid "Roscosmos (geoportal.ntsomz.ru)"
 msgstr "Роскосмос (geoportal.ntsomz.ru)"
 
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
-#. Programmer's name for it: rsRound
 msgid "Round"
 msgstr "Округлені"
 
@@ -3881,8 +3901,8 @@ msgstr "Лінійка"
 msgid "Scale:"
 msgstr "Шкала: "
 
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatScience..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
-#. Programmer's name for it: rsScience
 msgid "Science"
 msgstr "Точні"
 
@@ -4156,8 +4176,8 @@ msgstr "Показувати часовий пояс"
 msgid "Show tooltips"
 msgstr "Показувати опис позначки при наведенні курсору"
 
+#. frmMain..actlstMain..actConfigScaleLineExtended..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..chkShowVertScaleLine..Caption
-#. Programmer's name for it: rsShowVerticalScaleLegend
 msgid "Show Vertical Scale Legend"
 msgstr "Показувати вертикальну шкалу масштабу"
 
@@ -4876,10 +4896,6 @@ msgstr ""
 #. frmMain..actlstMain..actViewGridLonLat_User..Category
 #. frmMain..actlstMain..actViewGridLonLatAuto..Category
 msgid "View\\GridLonLat"
-msgstr ""
-
-#. do not Localize
-msgid "View\\GridTile"
 msgstr ""
 
 #. frmMain..actlstMain..actSelectByVisibleArea..Caption

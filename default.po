@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-12-08 13:26\n"
-"PO-Revision-Date: 2016-12-08 13:26\n"
+"POT-Creation-Date: 2017-01-12 21:10\n"
+"PO-Revision-Date: 2017-01-12 21:10\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1039,10 +1039,18 @@ msgstr ""
 #. frmMain..actlstMain..actConfigStatusBarVisible..Category
 #. frmMain..actlstMain..actConfigMiniMapVisible..Category
 #. frmMain..actlstMain..actConfigScaleLineVisible..Category
+#. frmMain..actlstMain..actConfigScaleLineExtended..Category
+#. frmMain..actlstMain..actConfigScaleLineOptionsShow..Category
 #. frmMain..actlstMain..actConfigMarksNamesVisible..Category
 #. frmMain..actlstMain..actConfigOptionsShow..Category
 #. frmMain..actlstMain..actConfigInterfaceOptionsShow..Category
 msgid "Config"
+msgstr ""
+
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatNice..Category
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Category
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatScience..Category
+msgid "Config\\ScaleLineNumberFormat"
 msgstr ""
 
 #. frmMain..actlstMain..actGpsConnect..Hint
@@ -1103,6 +1111,10 @@ msgstr ""
 
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
+msgstr ""
+
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
+msgid "Copy BBOX coordinates"
 msgstr ""
 
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
@@ -2141,7 +2153,6 @@ msgid "Hide placemarks"
 msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..chkScaleLineHide..Caption
-#. Programmer's name for it: rsHideScaleLegend
 msgid "Hide Scale Legend"
 msgstr ""
 
@@ -2897,8 +2908,8 @@ msgstr ""
 msgid "Next version"
 msgstr ""
 
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatNice..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
-#. Programmer's name for it: rsNice
 msgid "Nice"
 msgstr ""
 
@@ -2936,6 +2947,9 @@ msgstr ""
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile "
 "storage"
+msgstr ""
+
+msgid "No write access to current Marks DB!"
 msgstr ""
 
 #. check storage write access
@@ -2985,8 +2999,8 @@ msgid "Number of tiles: %0:sx%1:s (%2:s), size: "
 "%3:sx%4:s"
 msgstr ""
 
+#. frmMain..tbxpmnScaleLine..tbxsbmScaleLineNumberFormat..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
-#. Programmer's name for it: rsNumbersFormat
 msgid "Numbers Format"
 msgstr ""
 
@@ -3124,6 +3138,7 @@ msgstr ""
 msgid "Operations\\Selection"
 msgstr ""
 
+#. frmMain..actlstMain..actConfigScaleLineOptionsShow..Caption
 #. frmMain..actlstMain..actConfigOptionsShow..Caption
 #. frmMain..actlstMain..actConfigGpsOptionsShow..Caption
 #. frmMarkSystemConfigEdit..grpOptions..Caption
@@ -3131,7 +3146,6 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#. Programmer's name for it: rsOptions
 #. Programmer's name for it: rsOptions
 msgid "Options..."
 msgstr ""
@@ -3617,6 +3631,10 @@ msgstr ""
 msgid "RAW: Fill line failure!"
 msgstr ""
 
+#. frmMarkCategoryEdit..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPath..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPoint..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPoly..pnlBottomButtons..lblReadOnly..Caption
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
 msgid "Read only mode"
 msgstr ""
@@ -3752,8 +3770,8 @@ msgstr ""
 msgid "Roscosmos (geoportal.ntsomz.ru)"
 msgstr ""
 
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
-#. Programmer's name for it: rsRound
 msgid "Round"
 msgstr ""
 
@@ -3890,8 +3908,8 @@ msgstr ""
 msgid "Scale:"
 msgstr ""
 
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatScience..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
-#. Programmer's name for it: rsScience
 msgid "Science"
 msgstr ""
 
@@ -4157,8 +4175,8 @@ msgstr ""
 msgid "Show tooltips"
 msgstr ""
 
+#. frmMain..actlstMain..actConfigScaleLineExtended..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..chkShowVertScaleLine..Caption
-#. Programmer's name for it: rsShowVerticalScaleLegend
 msgid "Show Vertical Scale Legend"
 msgstr ""
 
@@ -4865,10 +4883,6 @@ msgstr ""
 #. frmMain..actlstMain..actViewGridLonLat_User..Category
 #. frmMain..actlstMain..actViewGridLonLatAuto..Category
 msgid "View\\GridLonLat"
-msgstr ""
-
-#. do not Localize
-msgid "View\\GridTile"
 msgstr ""
 
 #. frmMain..actlstMain..actSelectByVisibleArea..Caption
