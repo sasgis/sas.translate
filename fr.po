@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-02 12:35\n"
+"POT-Creation-Date: 2017-08-14 17:14\n"
 "PO-Revision-Date: 2016-07-15 10:17+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1024,6 +1024,9 @@ msgstr "En train de charger"
 msgid "Check for updates..."
 msgstr "Recherche des mises à jour"
 
+msgid "Cleaning up. "
+msgstr ""
+
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -1086,6 +1089,10 @@ msgstr ""
 #. frmAbout..lblCompiler..Caption
 msgid "Compiler:"
 msgstr "Compileur :"
+
+#, fuzzy
+msgid "Compiling the map(s). "
+msgstr "Assembler la carte"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -1224,11 +1231,15 @@ msgstr ""
 msgid "Copying"
 msgstr "En train de copier"
 
-msgid "Could not build IMG file. Export aborted."
+msgid "Could not build IMG file."
 msgstr ""
 
-msgid "Could not start the map compiler. Export aborted."
+msgid "Could not start GMapTool: %s."
 msgstr ""
+
+#, fuzzy
+msgid "Could not start the map compiler: %s."
+msgstr "Répertoire des icones des marqueurs :"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingMenuItemName
 msgid "Course"
@@ -2086,6 +2097,10 @@ msgstr "Taille de la police :"
 msgid "For"
 msgstr "Pour"
 
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlForcedSchemaName..lblForcedSchemaName..Caption
+msgid "Forced Schema Name:"
+msgstr ""
+
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
 #. frMapCombineCustomOptions..flwpnlFormat..lblFormat..Caption
@@ -2827,7 +2842,7 @@ msgstr "Carte :"
 msgid "Map Code Page"
 msgstr ""
 
-msgid "Map compilation failed. Export aborted."
+msgid "Map compilation failed."
 msgstr ""
 
 msgid ""
@@ -3596,15 +3611,6 @@ msgstr "Périmètre"
 msgid "Perimeter: %s"
 msgstr "Périmètre : %s"
 
-msgid "Phase 1 - saving tiles. %s %d %s"
-msgstr ""
-
-msgid "Phase 2 - compiling the map(s). "
-msgstr ""
-
-msgid "Phase 3 - cleaning up. "
-msgstr ""
-
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Pixel"
 msgstr "Par pixels"
@@ -3664,6 +3670,10 @@ msgstr "Marqueurs"
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
 msgstr "Fonctionne"
+
+#, fuzzy
+msgid "Please select a map"
+msgstr "Sélectionner au moins une carte."
 
 msgid "Please select at least one map"
 msgstr "Sélectionner au moins une carte."
@@ -3937,7 +3947,7 @@ msgstr "RAW : problème de remplissage de ligne !"
 msgid "Read only mode"
 msgstr "Mode lecture seule"
 
-#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlReadOnly..chkReadOnly..Caption
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions2..pnlReadOnly..chkReadOnly..Caption
 msgid "Read-Only"
 msgstr "Lecture seule"
 
@@ -4213,6 +4223,9 @@ msgstr "Sauvegarder vers :"
 #. frmPascalScriptIDE..tbtlbrMain..tbxSave..Hint
 msgid "Save zmp"
 msgstr "Sauvegarder le zmp"
+
+msgid "Saving tiles. %s %d %s"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigScaleLineVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption

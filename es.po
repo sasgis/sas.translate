@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-03-02 12:35\n"
+"POT-Creation-Date: 2017-08-14 17:14\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1012,6 +1012,9 @@ msgstr "Cargando"
 msgid "Check for updates..."
 msgstr "Ver actualizaciones..."
 
+msgid "Cleaning up. "
+msgstr ""
+
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -1074,6 +1077,10 @@ msgstr ""
 #. frmAbout..lblCompiler..Caption
 msgid "Compiler:"
 msgstr "Compilador:"
+
+#, fuzzy
+msgid "Compiling the map(s). "
+msgstr "Uniendo el mapa"
 
 #. Programmer's name for it: SAS_STR_ExportTarPackCaption
 msgid "Compressing to TAR"
@@ -1211,11 +1218,15 @@ msgstr "Copiar mosaicos seleccionados a carpeta"
 msgid "Copying"
 msgstr "Copiando"
 
-msgid "Could not build IMG file. Export aborted."
+msgid "Could not build IMG file."
 msgstr ""
 
-msgid "Could not start the map compiler. Export aborted."
+msgid "Could not start GMapTool: %s."
 msgstr ""
+
+#, fuzzy
+msgid "Could not start the map compiler: %s."
+msgstr "Carpeta de Iconos"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingMenuItemName
 msgid "Course"
@@ -2052,6 +2063,10 @@ msgstr "Tamaño de Fuente"
 msgid "For"
 msgstr "Para"
 
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlForcedSchemaName..lblForcedSchemaName..Caption
+msgid "Forced Schema Name:"
+msgstr ""
+
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
 #. frMapCombineCustomOptions..flwpnlFormat..lblFormat..Caption
@@ -2792,7 +2807,7 @@ msgstr "Mapa"
 msgid "Map Code Page"
 msgstr ""
 
-msgid "Map compilation failed. Export aborted."
+msgid "Map compilation failed."
 msgstr ""
 
 msgid ""
@@ -3560,15 +3575,6 @@ msgstr "Perímetro"
 msgid "Perimeter: %s"
 msgstr "Perímetro: %s"
 
-msgid "Phase 1 - saving tiles. %s %d %s"
-msgstr ""
-
-msgid "Phase 2 - compiling the map(s). "
-msgstr ""
-
-msgid "Phase 3 - cleaning up. "
-msgstr ""
-
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Pixel"
 msgstr "Pixel"
@@ -3628,6 +3634,10 @@ msgstr "Posiciones"
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
 msgstr "Tocar"
+
+#, fuzzy
+msgid "Please select a map"
+msgstr "Por favor, seleccione un mapa como mínimo"
 
 msgid "Please select at least one map"
 msgstr "Por favor, seleccione un mapa como mínimo"
@@ -3899,7 +3909,7 @@ msgstr "¡RAW: Falla en carga de línea!"
 msgid "Read only mode"
 msgstr "Mode Read only"
 
-#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlReadOnly..chkReadOnly..Caption
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions2..pnlReadOnly..chkReadOnly..Caption
 msgid "Read-Only"
 msgstr "Lectura solamente"
 
@@ -4173,6 +4183,9 @@ msgstr "Guardar en:"
 #. frmPascalScriptIDE..tbtlbrMain..tbxSave..Hint
 msgid "Save zmp"
 msgstr "Guardar zmp"
+
+msgid "Saving tiles. %s %d %s"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigScaleLineVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
