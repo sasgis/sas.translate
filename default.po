@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-08-14 17:14\n"
-"PO-Revision-Date: 2017-08-14 17:14\n"
+"POT-Creation-Date: 2017-09-30 15:08\n"
+"PO-Revision-Date: 2017-09-30 15:08\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -560,11 +560,17 @@ msgstr ""
 msgid "Altitude"
 msgstr ""
 
+#. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
+#. frmMarkPictureEditor..grpAnchor..Caption
+msgid "Anchor"
+msgstr ""
+
 #. Programmer's name for it: rsAnyAvailableElevationSource
 msgid "Any Available Source"
 msgstr ""
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
+#. frmMarkPictureEditor..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -914,6 +920,7 @@ msgstr ""
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
+#. frmMarkPictureEditor..btnCancel..Caption
 #. frmImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmJpegImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Hint
@@ -1013,6 +1020,7 @@ msgstr ""
 msgid "Cleaning up. "
 msgstr ""
 
+#. frmMarkPictureConfig..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -1735,6 +1743,7 @@ msgstr ""
 
 #. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnEdit..Caption
+#. frmMarkPictureConfig..btnEdit..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Hint
 msgid "Edit"
@@ -2382,8 +2391,13 @@ msgstr ""
 msgid "Hybrid"
 msgstr ""
 
+#. frmMarkPictureConfig..pnlCaptions..lblIcon..Caption
 #. frMarksGeneralOptions..grpPoint..lblPointIcon..Caption
 msgid "Icon"
+msgstr ""
+
+#. frmMarkPictureEditor..Caption
+msgid "Icon Editor"
 msgstr ""
 
 #. frJpegImportOptions..grp1..Caption
@@ -2397,6 +2411,11 @@ msgstr ""
 
 #. frJpegImportOptions..grp1..lblPointIconSize..Caption
 msgid "Icon size:"
+msgstr ""
+
+#. frmMain..actlstMain..actIconsSettings..Caption
+#. frmMarkPictureConfig..Caption
+msgid "Icons Settings"
 msgstr ""
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkIgnoreTNE..Caption
@@ -2898,6 +2917,7 @@ msgstr ""
 #. frmMain..actlstMain..actMarksAddPolygon..Category
 #. frmMain..actlstMain..actShowPlacemarkManager..Category
 #. frmMain..actlstMain..actConfigMarksHide..Category
+#. frmMain..actlstMain..actIconsSettings..Category
 msgid "Marks"
 msgstr ""
 
@@ -3064,6 +3084,7 @@ msgid "My Marks"
 msgstr ""
 
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
+#. frmMarkPictureConfig..pnlCaptions..lblName..Caption
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
 msgid "Name"
 msgstr ""
@@ -4538,6 +4559,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressCaption
 msgid "Size: %0:dx%1:d. Split to %2:d files"
+msgstr ""
+
+#. Programmer's name for it: rsPositionInfo
+msgid "Size: %dx%d; Mouse at: %dx%d"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2017-08-14 17:14\n"
+"POT-Creation-Date: 2017-09-30 15:08\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -567,11 +567,17 @@ msgstr "Всі видимі"
 msgid "Altitude"
 msgstr "Висота"
 
+#. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
+#. frmMarkPictureEditor..grpAnchor..Caption
+msgid "Anchor"
+msgstr ""
+
 #. Programmer's name for it: rsAnyAvailableElevationSource
 msgid "Any Available Source"
 msgstr "Будь-яке доступне джерело"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
+#. frmMarkPictureEditor..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -915,6 +921,7 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
+#. frmMarkPictureEditor..btnCancel..Caption
 #. frmImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmJpegImportConfigEdit..pnlBottom..btnCancel..Caption
 #. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Hint
@@ -1013,6 +1020,7 @@ msgstr "Перевірити наявність оновлень..."
 msgid "Cleaning up. "
 msgstr ""
 
+#. frmMarkPictureConfig..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -1733,6 +1741,7 @@ msgstr "Шлях до кешу EarthSlicer:"
 
 #. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnEdit..Caption
+#. frmMarkPictureConfig..btnEdit..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Hint
 msgid "Edit"
@@ -2385,9 +2394,15 @@ msgstr "Довідка (http://sasgis.org/wikisasiya)"
 msgid "Hybrid"
 msgstr "Гібрид"
 
+#. frmMarkPictureConfig..pnlCaptions..lblIcon..Caption
 #. frMarksGeneralOptions..grpPoint..lblPointIcon..Caption
 msgid "Icon"
 msgstr "Іконка"
+
+#. frmMarkPictureEditor..Caption
+#, fuzzy
+msgid "Icon Editor"
+msgstr "Розмір іконки"
 
 #. frJpegImportOptions..grp1..Caption
 msgid "Icon parameters"
@@ -2401,6 +2416,12 @@ msgstr "Розмір іконки"
 #. frJpegImportOptions..grp1..lblPointIconSize..Caption
 msgid "Icon size:"
 msgstr "Розмір іконки:"
+
+#. frmMain..actlstMain..actIconsSettings..Caption
+#. frmMarkPictureConfig..Caption
+#, fuzzy
+msgid "Icons Settings"
+msgstr "Параметри"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkIgnoreTNE..Caption
 msgid "Ignore *.tne"
@@ -2916,6 +2937,7 @@ msgstr "Відсутні тайли"
 #. frmMain..actlstMain..actMarksAddPolygon..Category
 #. frmMain..actlstMain..actShowPlacemarkManager..Category
 #. frmMain..actlstMain..actConfigMarksHide..Category
+#. frmMain..actlstMain..actIconsSettings..Category
 #, fuzzy
 msgid "Marks"
 msgstr "Мої позначки"
@@ -3078,6 +3100,7 @@ msgid "My Marks"
 msgstr "Мої позначки"
 
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
+#. frmMarkPictureConfig..pnlCaptions..lblName..Caption
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
 msgid "Name"
 msgstr "Назва"
@@ -4569,6 +4592,10 @@ msgstr "Розмір:"
 #. Programmer's name for it: SAS_STR_MapCombineProgressCaption
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "Розмір: %0:dx%1:d Розбити на %2:d файлів"
+
+#. Programmer's name for it: rsPositionInfo
+msgid "Size: %dx%d; Mouse at: %dx%d"
+msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
 #, fuzzy
