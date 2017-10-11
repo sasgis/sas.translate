@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-09-30 15:08\n"
+"POT-Creation-Date: 2017-10-11 16:31\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -38,6 +38,10 @@ msgstr "Almacenamiento"
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
 msgstr "a"
+
+#. frMapsList..MapList......Caption
+msgid "#"
+msgstr ""
 
 #. frExportToIMG..PageControl1..Settings..PnlSettings..edtVolumeSize..Text
 msgid "$79999999"
@@ -3056,13 +3060,17 @@ msgstr "Carpeta del Caché MOBAC"
 msgid "Mobile Atlas Creator (MOBAC)"
 msgstr "Mobile Atlas Creator (MOBAC)"
 
+#. for Symbian prior v3.91 and Android prior v1.72
 #. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
-msgid "Mobile Yandex.Maps (version 3)"
+#, fuzzy
+msgid "Mobile Yandex.Maps (cache v3)"
 msgstr "Mobile Yandex.Maps (version 3)"
 
+#. for Symbian v3.91..v3.96 and Android v1.72..v3.99
 #. Programmer's name for it: SAS_STR_ExportYaMobileV4Caption
-msgid "Mobile Yandex.Maps (version 3.91 and above)"
-msgstr "Mobile Yandex.Maps (version 3.91 and above)"
+#, fuzzy
+msgid "Mobile Yandex.Maps (cache v4)"
+msgstr "Mobile Yandex.Maps (version 3)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..Caption
 msgid "Modify"
@@ -5380,6 +5388,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Mobile Yandex.Maps (version 3.91 and above)"
+#~ msgstr "Mobile Yandex.Maps (version 3.91 and above)"
 
 #~ msgid "Coordinate system"
 #~ msgstr "Systema de coordenadas"
