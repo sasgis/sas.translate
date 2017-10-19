@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2017-10-12 09:48\n"
-"PO-Revision-Date: 2017-10-12 09:55+0700\n"
+"POT-Creation-Date: 2017-10-19 21:16\n"
+"PO-Revision-Date: 2017-10-19 21:18+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1007,6 +1007,11 @@ msgstr "Заряжается"
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
 msgid "Check for updates..."
 msgstr "Проверить наличие обновлений..."
+
+#. frmMain..actlstMain..actCircleCalculation..Caption
+#. frmMain..actlstMain..actCircleCalculation..Hint
+msgid "Circle Calculation"
+msgstr "Измерить окружность"
 
 msgid "Cleaning up. "
 msgstr "Очистка. "
@@ -3364,6 +3369,7 @@ msgstr "Открыть..."
 #. frmMain..actlstMain..actShowGoTo..Category
 #. frmMain..actlstMain..actMoveMap..Category
 #. frmMain..actlstMain..actDistanceCalculation..Category
+#. frmMain..actlstMain..actCircleCalculation..Category
 #. frmMain..actlstMain..actShowCacheManager..Category
 #. frmMain..actlstMain..actQuit..Category
 #, fuzzy
@@ -3881,6 +3887,7 @@ msgid "Quit"
 msgstr "Выход"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap1..Caption
+#. Programmer's name for it: SAS_STR_Radius
 msgid "Radius"
 msgstr "Радиус"
 
