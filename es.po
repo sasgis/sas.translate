@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 21:16\n"
+"POT-Creation-Date: 2017-11-17 16:10\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -566,6 +566,10 @@ msgstr "Todos los Servicios"
 msgid "All Visible"
 msgstr "Todos los Visibles"
 
+#. Programmer's name for it: rsAlt
+msgid "Alt."
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
 msgid "Altitude"
@@ -657,6 +661,14 @@ msgstr "Área: %s"
 msgid "Arrow color:"
 msgstr "Color"
 
+#. Programmer's name for it: rsAstroEnd
+msgid "Astro. twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsAstroStart
+msgid "Astro. twilight start"
+msgstr ""
+
 msgid ""
 "At least one calibration type doesn't support file name with characters not "
 "from current locale!"
@@ -733,6 +745,10 @@ msgstr "Velocidad promedio"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Velocidad promedio, km/h:"
+
+#. Programmer's name for it: rsAz
+msgid "Az."
+msgstr ""
 
 #. frmPointProjecting..pnlAzimuth..lblAzimuth..Caption
 #. Programmer's name for it: SAS_STR_Azimuth
@@ -1029,6 +1045,14 @@ msgstr "Ver actualizaciones..."
 msgid "Circle Calculation"
 msgstr "Medir Distancia"
 
+#. Programmer's name for it: rsCivilEnd
+msgid "Civil twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsCivilStart
+msgid "Civil twilight start"
+msgstr ""
+
 msgid "Cleaning up. "
 msgstr ""
 
@@ -1067,6 +1091,10 @@ msgstr "Color"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCMain..chkMNCasColorOnly..Caption
 msgid "Color only"
 msgstr "Color solo"
+
+#. Programmer's name for it: rsDefaultColorSchemaFmt
+msgid "Color schema %d"
+msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
@@ -1496,6 +1524,10 @@ msgstr ""
 msgid "Dest Cache"
 msgstr "Caché destino"
 
+#. Programmer's name for it: rsDetailedViewCaption
+msgid "Detailed View"
+msgstr ""
+
 msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
 msgstr "Optimizar ruta por bicicleta (más rápida) con cloudmade.com"
 
@@ -1863,6 +1895,10 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "Ingrese parámetros"
 
+#. Programmer's name for it: rsEquinox
+msgid "Equinox at"
+msgstr ""
+
 #. Programmer's name for it: rsError
 msgid "Error"
 msgstr "Error"
@@ -1906,6 +1942,10 @@ msgstr "Error analizando coordenadas: Lat=%s Lon=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "¡Error durante guardado!"
+
+#. Programmer's name for it: rsEvent
+msgid "Event"
+msgstr ""
 
 msgid "Every map part must have height less than %0:d but exist %1:d"
 msgstr "Toda parte de mapa debe tener menos altura que %0:d pero existe %1:d"
@@ -2262,6 +2302,14 @@ msgstr "Ir a Posición seleccionada"
 msgid "Go to..."
 msgstr "Ir a..."
 
+#. Programmer's name for it: rsGoldenHrEnd
+msgid "Golden hour end"
+msgstr ""
+
+#. Programmer's name for it: rsGoldenHrStart
+msgid "Golden hour start"
+msgstr ""
+
 msgid "GoogleEarth cache folder:"
 msgstr "Carpeta caché GoogleEarth:"
 
@@ -2351,6 +2399,11 @@ msgstr "Ocultar Escala"
 #. Programmer's name for it: rsHideStatusBar
 msgid "Hide Status Bar"
 msgstr "Ocultar Barra de Estado"
+
+#. Programmer's name for it: rsHideSunCalcCaption
+#, fuzzy
+msgid "Hide Sun Calculator"
+msgstr "Medir Distancia"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -3050,6 +3103,10 @@ msgstr ""
 msgid "Meteor-M1"
 msgstr "Meteor-M1"
 
+#. Programmer's name for it: rsMidnight
+msgid "Midnight"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
 msgstr "Opacidad de Minimapa"
@@ -3148,6 +3205,14 @@ msgstr "Nombre: %s"
 msgid "Native cache folder:"
 msgstr "Carpeta del Caché Nativo:"
 
+#. Programmer's name for it: rsNauticalEnd
+msgid "Nautical twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsNauticalSatrt
+msgid "Nautical twilight start"
+msgstr ""
+
 #. frmMain..MainPopupMenu..NMarkNav..Caption
 msgid "Navigate to Placemark"
 msgstr "Navegar a Posición seleccionada"
@@ -3239,6 +3304,11 @@ msgstr "Sin acceso de grabación a almacenamiento de mosaicos"
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 #, fuzzy
 msgid "None"
+msgstr "Zona:"
+
+#. Programmer's name for it: rsNoon
+#, fuzzy
+msgid "Noon"
 msgstr "Zona:"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
@@ -4073,6 +4143,11 @@ msgstr "Volver a descargar si no encuentra mosaico"
 msgid "Ring radius (m)"
 msgstr "Radio (m)"
 
+#. Programmer's name for it: rsRise
+#, fuzzy
+msgid "Rise"
+msgstr "Reiniciar"
+
 #. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
 msgid "RMaps (SQLite3)"
 msgstr "RMaps (SQLite3)"
@@ -4353,6 +4428,10 @@ msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap"
 #. Programmer's name for it: SAS_ERR_BadMIME
 msgid "Server returned unexpected type \"%0:s\""
 msgstr "Servidor retornó tipo no esperado \"%0:s\""
+
+#. Programmer's name for it: rsSet
+msgid "Set"
+msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
@@ -4646,6 +4725,10 @@ msgstr "SML"
 msgid "Snap to Existing Markers"
 msgstr "Ajustar a marcadores existentes"
 
+#. Programmer's name for it: rsSolstice
+msgid "Solstice at"
+msgstr ""
+
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
 msgid "Source Cache"
 msgstr "Caché Origen"
@@ -4762,6 +4845,11 @@ msgstr "Compilación satisfactoria"
 #. Programmer's name for it: rsSuccessfullyExecuted
 msgid "Successfully executed"
 msgstr "Ejecución satisfactoria"
+
+#. frmMain..actlstMain..actViewSunCalc..Caption
+#, fuzzy
+msgid "Sun Calculator"
+msgstr "Cálculo de Ruta"
 
 #. Sunraise time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeMenuItemName
@@ -4947,6 +5035,11 @@ msgstr "Existe mosaico igual medida"
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
 msgstr "Mosaicos"
+
+#. Programmer's name for it: rsTime
+#, fuzzy
+msgid "Time"
+msgstr "Mosaico"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
 msgid "Time Interval"
@@ -5209,6 +5302,7 @@ msgstr "verticalmente:"
 #. frmMain..actlstMain..actViewSelectPrevMapVersion..Category
 #. frmMain..actlstMain..actConfigProjectionOfMapUse..Category
 #. frmMain..actlstMain..actViewNotMinimized..Category
+#. frmMain..actlstMain..actViewSunCalc..Category
 #. frmSettings..PageControl1..tsView..Caption
 msgid "View"
 msgstr "Vista"

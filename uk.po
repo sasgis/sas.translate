@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2017-10-19 21:16\n"
+"POT-Creation-Date: 2017-11-17 16:10\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -566,6 +566,10 @@ msgstr "Всі сервіси"
 msgid "All Visible"
 msgstr "Всі видимі"
 
+#. Programmer's name for it: rsAlt
+msgid "Alt."
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
 msgid "Altitude"
@@ -656,6 +660,14 @@ msgstr "Площа: %s"
 msgid "Arrow color:"
 msgstr "Колір стрілки:"
 
+#. Programmer's name for it: rsAstroEnd
+msgid "Astro. twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsAstroStart
+msgid "Astro. twilight start"
+msgstr ""
+
 msgid ""
 "At least one calibration type doesn't support file name with characters not "
 "from current locale!"
@@ -731,6 +743,10 @@ msgstr "Середня швидкість"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Середня швидкість, км/год:"
+
+#. Programmer's name for it: rsAz
+msgid "Az."
+msgstr ""
 
 #. frmPointProjecting..pnlAzimuth..lblAzimuth..Caption
 #. Programmer's name for it: SAS_STR_Azimuth
@@ -1027,6 +1043,14 @@ msgstr "Перевірити наявність оновлень..."
 msgid "Circle Calculation"
 msgstr "Виміряти відстань"
 
+#. Programmer's name for it: rsCivilEnd
+msgid "Civil twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsCivilStart
+msgid "Civil twilight start"
+msgstr ""
+
 msgid "Cleaning up. "
 msgstr ""
 
@@ -1065,6 +1089,10 @@ msgstr "Колір"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCMain..chkMNCasColorOnly..Caption
 msgid "Color only"
 msgstr "Кольорові"
+
+#. Programmer's name for it: rsDefaultColorSchemaFmt
+msgid "Color schema %d"
+msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
@@ -1492,6 +1520,10 @@ msgstr "Опис:<br> %s"
 msgid "Dest Cache"
 msgstr "Результуючий кеш"
 
+#. Programmer's name for it: rsDetailedViewCaption
+msgid "Detailed View"
+msgstr ""
+
 msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
 msgstr "Маршрут для велосипеда (найшвидший) cloudmade.com"
 
@@ -1856,6 +1888,10 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "Введення параметрів"
 
+#. Programmer's name for it: rsEquinox
+msgid "Equinox at"
+msgstr ""
+
 #. Programmer's name for it: rsError
 msgid "Error"
 msgstr "Помилка"
@@ -1899,6 +1935,10 @@ msgstr "Помилка вводу координат: широта=%s довго
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Помилка при збереженні!"
+
+#. Programmer's name for it: rsEvent
+msgid "Event"
+msgstr ""
 
 msgid "Every map part must have height less than %0:d but exist %1:d"
 msgstr "Кожна частина карты повинна мати высоту мнеше ніж %0:d, а зараз %1:d"
@@ -2256,6 +2296,14 @@ msgstr "Перейти до вибраного об’єкту"
 msgid "Go to..."
 msgstr "Перейти до..."
 
+#. Programmer's name for it: rsGoldenHrEnd
+msgid "Golden hour end"
+msgstr ""
+
+#. Programmer's name for it: rsGoldenHrStart
+msgid "Golden hour start"
+msgstr ""
+
 msgid "GoogleEarth cache folder:"
 msgstr "Шлях до кешу Google Earth:"
 
@@ -2345,6 +2393,11 @@ msgstr "Приховати шкалу масштабу"
 #. Programmer's name for it: rsHideStatusBar
 msgid "Hide Status Bar"
 msgstr "Приховати рядок стану"
+
+#. Programmer's name for it: rsHideSunCalcCaption
+#, fuzzy
+msgid "Hide Sun Calculator"
+msgstr "Виміряти відстань"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -3042,6 +3095,10 @@ msgstr ""
 msgid "Meteor-M1"
 msgstr "Метеор-М1"
 
+#. Programmer's name for it: rsMidnight
+msgid "Midnight"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
 msgstr "Прозорість карти огляду"
@@ -3140,6 +3197,14 @@ msgstr "Назва: %s"
 msgid "Native cache folder:"
 msgstr "Шлях до „рідного“ кешу:"
 
+#. Programmer's name for it: rsNauticalEnd
+msgid "Nautical twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsNauticalSatrt
+msgid "Nautical twilight start"
+msgstr ""
+
 #. frmMain..MainPopupMenu..NMarkNav..Caption
 msgid "Navigate to Placemark"
 msgstr "Навігація на позначку"
@@ -3231,6 +3296,11 @@ msgstr "Немає доступу на запис до тайлосховища"
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 msgid "None"
 msgstr ""
+
+#. Programmer's name for it: rsNoon
+#, fuzzy
+msgid "Noon"
+msgstr "Ні"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
@@ -4064,6 +4134,11 @@ msgstr "Намагатись повторно завантажити тайл з
 msgid "Ring radius (m)"
 msgstr "Радіус кілець (м)"
 
+#. Programmer's name for it: rsRise
+#, fuzzy
+msgid "Rise"
+msgstr "Скинути"
+
 #. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
 msgid "RMaps (SQLite3)"
 msgstr ""
@@ -4344,6 +4419,10 @@ msgstr "Сервіс повернув тип \"%0:s\", це не растров�
 #. Programmer's name for it: SAS_ERR_BadMIME
 msgid "Server returned unexpected type \"%0:s\""
 msgstr "Сервіс повернув несподіваний тип \"%0:s\""
+
+#. Programmer's name for it: rsSet
+msgid "Set"
+msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
@@ -4637,6 +4716,10 @@ msgstr ""
 msgid "Snap to Existing Markers"
 msgstr "Магнітні маркери"
 
+#. Programmer's name for it: rsSolstice
+msgid "Solstice at"
+msgstr ""
+
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
 msgid "Source Cache"
 msgstr "Кеш джерело:"
@@ -4752,6 +4835,11 @@ msgstr "Скомпільовано успішно"
 #. Programmer's name for it: rsSuccessfullyExecuted
 msgid "Successfully executed"
 msgstr "Виконано успішно"
+
+#. frmMain..actlstMain..actViewSunCalc..Caption
+#, fuzzy
+msgid "Sun Calculator"
+msgstr "Прокласти маршрут"
 
 #. Sunraise time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeMenuItemName
@@ -4937,6 +5025,11 @@ msgstr "Тайл з таким самим розміром вже існує"
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
 msgstr "Тайли"
+
+#. Programmer's name for it: rsTime
+#, fuzzy
+msgid "Time"
+msgstr "Тайлові"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
 msgid "Time Interval"
@@ -5198,6 +5291,7 @@ msgstr "по вертикалі, на"
 #. frmMain..actlstMain..actViewSelectPrevMapVersion..Category
 #. frmMain..actlstMain..actConfigProjectionOfMapUse..Category
 #. frmMain..actlstMain..actViewNotMinimized..Category
+#. frmMain..actlstMain..actViewSunCalc..Category
 #. frmSettings..PageControl1..tsView..Caption
 msgid "View"
 msgstr "Вигляд"

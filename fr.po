@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-10-19 21:16\n"
+"POT-Creation-Date: 2017-11-17 16:10\n"
 "PO-Revision-Date: 2017-08-18 19:55+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -560,6 +560,10 @@ msgstr "Tous les services"
 msgid "All Visible"
 msgstr "Tout visible"
 
+#. Programmer's name for it: rsAlt
+msgid "Alt."
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
 msgid "Altitude"
@@ -657,6 +661,14 @@ msgstr "Surface : %s"
 msgid "Arrow color:"
 msgstr "Couleur de flèche :"
 
+#. Programmer's name for it: rsAstroEnd
+msgid "Astro. twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsAstroStart
+msgid "Astro. twilight start"
+msgstr ""
+
 msgid ""
 "At least one calibration type doesn't support file name with characters not "
 "from current locale!"
@@ -733,6 +745,10 @@ msgstr "Vitesse moyenne"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Vitesse moyenne, km/h :"
+
+#. Programmer's name for it: rsAz
+msgid "Az."
+msgstr ""
 
 #. frmPointProjecting..pnlAzimuth..lblAzimuth..Caption
 #. Programmer's name for it: SAS_STR_Azimuth
@@ -1031,6 +1047,14 @@ msgstr "Recherche des mises à jour"
 msgid "Circle Calculation"
 msgstr "Calcul de distance"
 
+#. Programmer's name for it: rsCivilEnd
+msgid "Civil twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsCivilStart
+msgid "Civil twilight start"
+msgstr ""
+
 msgid "Cleaning up. "
 msgstr "Nettoyer"
 
@@ -1068,6 +1092,10 @@ msgstr "Couleur :"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCMain..chkMNCasColorOnly..Caption
 msgid "Color only"
 msgstr "Couleur seulement"
+
+#. Programmer's name for it: rsDefaultColorSchemaFmt
+msgid "Color schema %d"
+msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
@@ -1497,6 +1525,10 @@ msgstr ""
 msgid "Dest Cache"
 msgstr "Cache de destination :"
 
+#. Programmer's name for it: rsDetailedViewCaption
+msgid "Detailed View"
+msgstr ""
+
 msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
 msgstr "Détaille la route par bicyclette (la plus rapide) avec cloudmade.com"
 
@@ -1869,6 +1901,10 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "Entrer des paramètres"
 
+#. Programmer's name for it: rsEquinox
+msgid "Equinox at"
+msgstr ""
+
 #. Programmer's name for it: rsError
 msgid "Error"
 msgstr "Erreur"
@@ -1912,6 +1948,10 @@ msgstr "Erreur de saisie des coordonnées : Lat=%s Lon=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Erreur pendant la sauvegarde !"
+
+#. Programmer's name for it: rsEvent
+msgid "Event"
+msgstr ""
 
 msgid "Every map part must have height less than %0:d but exist %1:d"
 msgstr ""
@@ -2273,6 +2313,14 @@ msgstr "Aller vers le marqueur surligné"
 msgid "Go to..."
 msgstr "Aller vers..."
 
+#. Programmer's name for it: rsGoldenHrEnd
+msgid "Golden hour end"
+msgstr ""
+
+#. Programmer's name for it: rsGoldenHrStart
+msgid "Golden hour start"
+msgstr ""
+
 msgid "GoogleEarth cache folder:"
 msgstr "GoogleEarth, répertoire du cache :"
 
@@ -2361,6 +2409,11 @@ msgstr "Masquer l'échelle"
 #. Programmer's name for it: rsHideStatusBar
 msgid "Hide Status Bar"
 msgstr "Masquer la barre d'état"
+
+#. Programmer's name for it: rsHideSunCalcCaption
+#, fuzzy
+msgid "Hide Sun Calculator"
+msgstr "Calcul de distance"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -3055,6 +3108,10 @@ msgstr ""
 msgid "Meteor-M1"
 msgstr "Meteor-M1"
 
+#. Programmer's name for it: rsMidnight
+msgid "Midnight"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
 msgstr "Transparence de la mini-carte :"
@@ -3153,6 +3210,14 @@ msgstr "Nom : %s"
 msgid "Native cache folder:"
 msgstr "Répertoire du cache natif :"
 
+#. Programmer's name for it: rsNauticalEnd
+msgid "Nautical twilight end"
+msgstr ""
+
+#. Programmer's name for it: rsNauticalSatrt
+msgid "Nautical twilight start"
+msgstr ""
+
 #. frmMain..MainPopupMenu..NMarkNav..Caption
 msgid "Navigate to Placemark"
 msgstr "Naviguer vers la balise surlignée (GPS)"
@@ -3240,6 +3305,11 @@ msgstr "Pas d'accès écriture dans le stockage des dalles"
 
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 msgid "None"
+msgstr "Aucune"
+
+#. Programmer's name for it: rsNoon
+#, fuzzy
+msgid "Noon"
 msgstr "Aucune"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
@@ -4069,6 +4139,11 @@ msgstr "Reprendre le téléchargement si dalle non trouvée"
 msgid "Ring radius (m)"
 msgstr "Rayon de l'anneau (m) :"
 
+#. Programmer's name for it: rsRise
+#, fuzzy
+msgid "Rise"
+msgstr "Redémarrer"
+
 #. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
 msgid "RMaps (SQLite3)"
 msgstr "RMaps (SQLite3)"
@@ -4349,6 +4424,10 @@ msgstr "Le serveur retourne un type \"%0:s\", ceci n'est pas une image bitmap"
 #. Programmer's name for it: SAS_ERR_BadMIME
 msgid "Server returned unexpected type \"%0:s\""
 msgstr "Le serveur retourne un type inattendu \"%0:s\""
+
+#. Programmer's name for it: rsSet
+msgid "Set"
+msgstr ""
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
@@ -4640,6 +4719,10 @@ msgstr "SML"
 msgid "Snap to Existing Markers"
 msgstr "Aller vers les marqueurs existants"
 
+#. Programmer's name for it: rsSolstice
+msgid "Solstice at"
+msgstr ""
+
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
 msgid "Source Cache"
 msgstr "Cache à convertir :"
@@ -4755,6 +4838,11 @@ msgstr "Compilé avec succès"
 #. Programmer's name for it: rsSuccessfullyExecuted
 msgid "Successfully executed"
 msgstr "Exécuté avec succès"
+
+#. frmMain..actlstMain..actViewSunCalc..Caption
+#, fuzzy
+msgid "Sun Calculator"
+msgstr "Calcul d'itinéraire"
 
 #. Sunraise time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeMenuItemName
@@ -4940,6 +5028,11 @@ msgstr "Une dalle avec la même taille existe déjà"
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
 msgstr "Dalles"
+
+#. Programmer's name for it: rsTime
+#, fuzzy
+msgid "Time"
+msgstr "Par dalle"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
 msgid "Time Interval"
@@ -5206,6 +5299,7 @@ msgstr "Verticalement :"
 #. frmMain..actlstMain..actViewSelectPrevMapVersion..Category
 #. frmMain..actlstMain..actConfigProjectionOfMapUse..Category
 #. frmMain..actlstMain..actViewNotMinimized..Category
+#. frmMain..actlstMain..actViewSunCalc..Category
 #. frmSettings..PageControl1..tsView..Caption
 msgid "View"
 msgstr "Divers"
