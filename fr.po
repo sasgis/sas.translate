@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-11-17 16:10\n"
-"PO-Revision-Date: 2017-08-18 19:55+0200\n"
+"PO-Revision-Date: 2017-11-25 21:21+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.4\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language: fr\n"
 "X-Language: fr_FR\n"
@@ -44,7 +44,7 @@ msgstr "à"
 
 #. frMapsList..MapList......Caption
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #. frExportToIMG..PageControl1..Settings..PnlSettings..edtVolumeSize..Text
 msgid "$79999999"
@@ -562,7 +562,7 @@ msgstr "Tout visible"
 
 #. Programmer's name for it: rsAlt
 msgid "Alt."
-msgstr ""
+msgstr "Alt."
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
@@ -572,7 +572,7 @@ msgstr "Altitude"
 #. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
 #. frmMarkPictureEditor..grpAnchor..Caption
 msgid "Anchor"
-msgstr ""
+msgstr "Position"
 
 #. Programmer's name for it: rsAnyAvailableElevationSource
 msgid "Any Available Source"
@@ -663,11 +663,11 @@ msgstr "Couleur de flèche :"
 
 #. Programmer's name for it: rsAstroEnd
 msgid "Astro. twilight end"
-msgstr ""
+msgstr "Crépuscule astronomique"
 
 #. Programmer's name for it: rsAstroStart
 msgid "Astro. twilight start"
-msgstr ""
+msgstr "Aube astronomique"
 
 msgid ""
 "At least one calibration type doesn't support file name with characters not "
@@ -748,7 +748,7 @@ msgstr "Vitesse moyenne, km/h :"
 
 #. Programmer's name for it: rsAz
 msgid "Az."
-msgstr ""
+msgstr "Az."
 
 #. frmPointProjecting..pnlAzimuth..lblAzimuth..Caption
 #. Programmer's name for it: SAS_STR_Azimuth
@@ -1043,17 +1043,16 @@ msgstr "Recherche des mises à jour"
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
 #. frmMain..actlstMain..actCircleCalculation..Hint
-#, fuzzy
 msgid "Circle Calculation"
-msgstr "Calcul de distance"
+msgstr "Calcul de rayon"
 
 #. Programmer's name for it: rsCivilEnd
 msgid "Civil twilight end"
-msgstr ""
+msgstr "Crépuscule civil"
 
 #. Programmer's name for it: rsCivilStart
 msgid "Civil twilight start"
-msgstr ""
+msgstr "Aube civile"
 
 msgid "Cleaning up. "
 msgstr "Nettoyer"
@@ -1095,7 +1094,7 @@ msgstr "Couleur seulement"
 
 #. Programmer's name for it: rsDefaultColorSchemaFmt
 msgid "Color schema %d"
-msgstr ""
+msgstr "Couleur type %d"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
@@ -1527,7 +1526,7 @@ msgstr "Cache de destination :"
 
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
-msgstr ""
+msgstr "Vue détaillée"
 
 msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
 msgstr "Détaille la route par bicyclette (la plus rapide) avec cloudmade.com"
@@ -1903,7 +1902,7 @@ msgstr "Entrer des paramètres"
 
 #. Programmer's name for it: rsEquinox
 msgid "Equinox at"
-msgstr ""
+msgstr "Equinoxe à"
 
 #. Programmer's name for it: rsError
 msgid "Error"
@@ -1951,7 +1950,7 @@ msgstr "Erreur pendant la sauvegarde !"
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
-msgstr ""
+msgstr "Evénement"
 
 msgid "Every map part must have height less than %0:d but exist %1:d"
 msgstr ""
@@ -2315,11 +2314,11 @@ msgstr "Aller vers..."
 
 #. Programmer's name for it: rsGoldenHrEnd
 msgid "Golden hour end"
-msgstr ""
+msgstr "Fin de l'heure d'or"
 
 #. Programmer's name for it: rsGoldenHrStart
 msgid "Golden hour start"
-msgstr ""
+msgstr "Début de l'heure d'or"
 
 msgid "GoogleEarth cache folder:"
 msgstr "GoogleEarth, répertoire du cache :"
@@ -2411,9 +2410,8 @@ msgid "Hide Status Bar"
 msgstr "Masquer la barre d'état"
 
 #. Programmer's name for it: rsHideSunCalcCaption
-#, fuzzy
 msgid "Hide Sun Calculator"
-msgstr "Calcul de distance"
+msgstr "Masquer le calculateur solaire"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -2475,13 +2473,12 @@ msgid "Icon"
 msgstr "Icone"
 
 #. frmMarkPictureEditor..Caption
-#, fuzzy
 msgid "Icon Editor"
-msgstr "Taille de l'icone :"
+msgstr "Editeur d'icone"
 
 #. frJpegImportOptions..grp1..Caption
 msgid "Icon parameters"
-msgstr "Paramètres des icones"
+msgstr "Paramètres de l'icone"
 
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
@@ -2494,9 +2491,8 @@ msgstr "Taille des icones :"
 
 #. frmMain..actlstMain..actIconsSettings..Caption
 #. frmMarkPictureConfig..Caption
-#, fuzzy
 msgid "Icons Settings"
-msgstr "Paramètres"
+msgstr "Paramètres des icones"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..chkIgnoreTNE..Caption
 msgid "Ignore *.tne"
@@ -3110,7 +3106,7 @@ msgstr "Meteor-M1"
 
 #. Programmer's name for it: rsMidnight
 msgid "Midnight"
-msgstr ""
+msgstr "Minuit"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
@@ -3133,15 +3129,13 @@ msgstr "Mobile Atlas Creator (MOBAC)"
 
 #. for Symbian prior v3.91 and Android prior v1.72
 #. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
-#, fuzzy
 msgid "Mobile Yandex.Maps (cache v3)"
-msgstr "Mobile Yandex.Maps (version 3)"
+msgstr "Mobile Yandex.Maps (cache version 3)"
 
 #. for Symbian v3.91..v3.96 and Android v1.72..v3.99
 #. Programmer's name for it: SAS_STR_ExportYaMobileV4Caption
-#, fuzzy
 msgid "Mobile Yandex.Maps (cache v4)"
-msgstr "Mobile Yandex.Maps (version 3)"
+msgstr "Mobile Yandex.Maps (cache version 4)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..Caption
 msgid "Modify"
@@ -3212,11 +3206,11 @@ msgstr "Répertoire du cache natif :"
 
 #. Programmer's name for it: rsNauticalEnd
 msgid "Nautical twilight end"
-msgstr ""
+msgstr "Crépuscule nautique"
 
 #. Programmer's name for it: rsNauticalSatrt
 msgid "Nautical twilight start"
-msgstr ""
+msgstr "Aube nautique"
 
 #. frmMain..MainPopupMenu..NMarkNav..Caption
 msgid "Navigate to Placemark"
@@ -3308,9 +3302,8 @@ msgid "None"
 msgstr "Aucune"
 
 #. Programmer's name for it: rsNoon
-#, fuzzy
 msgid "Noon"
-msgstr "Aucune"
+msgstr "Midi"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
@@ -4140,9 +4133,8 @@ msgid "Ring radius (m)"
 msgstr "Rayon de l'anneau (m) :"
 
 #. Programmer's name for it: rsRise
-#, fuzzy
 msgid "Rise"
-msgstr "Redémarrer"
+msgstr "Lever"
 
 #. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
 msgid "RMaps (SQLite3)"
@@ -4427,7 +4419,7 @@ msgstr "Le serveur retourne un type inattendu \"%0:s\""
 
 #. Programmer's name for it: rsSet
 msgid "Set"
-msgstr ""
+msgstr "Coucher"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
@@ -4697,7 +4689,7 @@ msgstr "Taille (en pixels) : %0:dx%1:d, divisée entre %2:d fichier(s)"
 
 #. Programmer's name for it: rsPositionInfo
 msgid "Size: %dx%d; Mouse at: %dx%d"
-msgstr ""
+msgstr "Taille : %dx%d; Souris à : %dx%d"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
 msgid "Skip existing result files"
@@ -4721,7 +4713,7 @@ msgstr "Aller vers les marqueurs existants"
 
 #. Programmer's name for it: rsSolstice
 msgid "Solstice at"
-msgstr ""
+msgstr "Solstice à"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
 msgid "Source Cache"
@@ -4840,9 +4832,8 @@ msgid "Successfully executed"
 msgstr "Exécuté avec succès"
 
 #. frmMain..actlstMain..actViewSunCalc..Caption
-#, fuzzy
 msgid "Sun Calculator"
-msgstr "Calcul d'itinéraire"
+msgstr "Calculateur solaire"
 
 #. Sunraise time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeMenuItemName
@@ -5030,9 +5021,8 @@ msgid "Tiles"
 msgstr "Dalles"
 
 #. Programmer's name for it: rsTime
-#, fuzzy
 msgid "Time"
-msgstr "Par dalle"
+msgstr "Heure"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
 msgid "Time Interval"
