@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2017-11-17 16:10\n"
+"POT-Creation-Date: 2017-12-30 23:00\n"
 "PO-Revision-Date: 2017-11-17 16:42+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -814,9 +814,6 @@ msgstr "На велосипеде (по скорости)"
 msgid "By Bicycle (Shortest)"
 msgstr "На велосипеде (по расстоянию)"
 
-msgid "By Car (Fastest with traffic)"
-msgstr "На автомобиле (по скорости с учетом дор. обстановки)"
-
 msgid "By Car (Fastest)"
 msgstr "На автомобиле (по скорости)"
 
@@ -838,12 +835,6 @@ msgstr "По координатам"
 #. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
 msgid "By default"
 msgstr "По умолчанию"
-
-msgid "By Foot (Fastest)"
-msgstr "Пешком (по скорости)"
-
-msgid "By Foot (Shortest)"
-msgstr "Пешком (по расстоянию)"
 
 #. frmMain..actlstMain..actConfigDownloadModeCache..Caption
 #. frmSettings..PageControl1..tsCache..Caption
@@ -1506,44 +1497,17 @@ msgstr "Результирующий кэш"
 msgid "Detailed View"
 msgstr "Подробный вид"
 
-msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
-msgstr "Маршрут для велосипеда (по скорости) cloudmade.com"
-
 msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
 msgstr "Маршрут для велосипеда (по скорости) yournavigation.org"
-
-msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
-msgstr "Маршрут для велосипеда (по расстоянию) cloudmade.com"
 
 msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
 msgstr "Маршрут для велосипеда (по расстоянию) yournavigation.org"
 
-msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
-msgstr "Маршрут для автомобиля (по скорости с учётом пробок) Maps@mail.ru"
-
-msgid "Detalize route by car (Fastest) with cloudmade.com"
-msgstr "Маршрут для автомобиля (по скорости) cloudmade.com"
-
-msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-msgstr "Маршрут для автомобиля (по скорости) Maps@mail.ru"
-
 msgid "Detalize route by car (Fastest) with yournavigation.org"
 msgstr "Маршрут для автомобиля (по скорости) yournavigation.org"
 
-msgid "Detalize route by car (Shortest) with cloudmade.com"
-msgstr "Маршрут для автомобиля (по расстоянию) cloudmade.com"
-
-msgid "Detalize route by car (Shortest) with Maps@mail.ru"
-msgstr "Маршрут для автомобиля (по расстоянию) Maps@mail.ru"
-
 msgid "Detalize route by car (Shortest) with yournavigation.org"
 msgstr "Маршрут для автомобиля (по расстоянию) yournavigation.org"
-
-msgid "Detalize route by foot (Fastest) with cloudmade.com"
-msgstr "Маршрут для пешехода (по скорости) cloudmade.com"
-
-msgid "Detalize route by foot (Shortest) with cloudmade.com"
-msgstr "Маршрут для пешехода (по расстоянию) cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -2951,12 +2915,6 @@ msgstr "Карты"
 
 msgid "Maps (%d)"
 msgstr "Карты (%d)"
-
-msgid "maps.cloudmade.com (OSM)"
-msgstr "средствами maps.cloudmade.com (OSM)"
-
-msgid "Maps@mail.ru"
-msgstr "средствами Карты@mail.ru"
 
 #. frmMain..actlstMain..actViewFillingMapMarkExisting..Caption
 msgid "Mark Existing Tiles"
@@ -4919,6 +4877,10 @@ msgstr ""
 "Эта программа распространяется бесплатно, с исходными кодами под лицензией "
 "GNU GPLv3"
 
+#. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
+msgid "Thread count"
+msgstr "Количество потоков"
+
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 msgid "TIFF"
 msgstr ""
@@ -5222,6 +5184,7 @@ msgstr "Значение"
 msgid "Version"
 msgstr "Версия"
 
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblversion..Caption
 #. frmAbout..lblVersionCatpion..Caption
 msgid "Version:"
 msgstr "Версия:"
@@ -5432,6 +5395,48 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
+
+#~ msgid "By Car (Fastest with traffic)"
+#~ msgstr "На автомобиле (по скорости с учетом дор. обстановки)"
+
+#~ msgid "By Foot (Fastest)"
+#~ msgstr "Пешком (по скорости)"
+
+#~ msgid "By Foot (Shortest)"
+#~ msgstr "Пешком (по расстоянию)"
+
+#~ msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
+#~ msgstr "Маршрут для велосипеда (по скорости) cloudmade.com"
+
+#~ msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
+#~ msgstr "Маршрут для велосипеда (по расстоянию) cloudmade.com"
+
+#~ msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
+#~ msgstr "Маршрут для автомобиля (по скорости с учётом пробок) Maps@mail.ru"
+
+#~ msgid "Detalize route by car (Fastest) with cloudmade.com"
+#~ msgstr "Маршрут для автомобиля (по скорости) cloudmade.com"
+
+#~ msgid "Detalize route by car (Fastest) with Maps@mail.ru"
+#~ msgstr "Маршрут для автомобиля (по скорости) Maps@mail.ru"
+
+#~ msgid "Detalize route by car (Shortest) with cloudmade.com"
+#~ msgstr "Маршрут для автомобиля (по расстоянию) cloudmade.com"
+
+#~ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
+#~ msgstr "Маршрут для автомобиля (по расстоянию) Maps@mail.ru"
+
+#~ msgid "Detalize route by foot (Fastest) with cloudmade.com"
+#~ msgstr "Маршрут для пешехода (по скорости) cloudmade.com"
+
+#~ msgid "Detalize route by foot (Shortest) with cloudmade.com"
+#~ msgstr "Маршрут для пешехода (по расстоянию) cloudmade.com"
+
+#~ msgid "maps.cloudmade.com (OSM)"
+#~ msgstr "средствами maps.cloudmade.com (OSM)"
+
+#~ msgid "Maps@mail.ru"
+#~ msgstr "средствами Карты@mail.ru"
 
 #~ msgid "Coordinate system"
 #~ msgstr "Система координат"

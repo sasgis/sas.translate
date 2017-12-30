@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-11-17 16:10\n"
+"POT-Creation-Date: 2017-12-30 23:00\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -828,9 +828,6 @@ msgstr "En Bicicleta (más rápido)"
 msgid "By Bicycle (Shortest)"
 msgstr "En Bicicleta (más corto)"
 
-msgid "By Car (Fastest with traffic)"
-msgstr "En Automóvil (más rápido con tráfico)"
-
 msgid "By Car (Fastest)"
 msgstr "En Automóvil (más rápido)"
 
@@ -852,12 +849,6 @@ msgstr "Por Coordenadas"
 #. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
 msgid "By default"
 msgstr "Por Defecto"
-
-msgid "By Foot (Fastest)"
-msgstr "A pié (más rápido)"
-
-msgid "By Foot (Shortest)"
-msgstr "A pié (más corto)"
 
 #. frmMain..actlstMain..actConfigDownloadModeCache..Caption
 #. frmSettings..PageControl1..tsCache..Caption
@@ -1528,44 +1519,17 @@ msgstr "Caché destino"
 msgid "Detailed View"
 msgstr ""
 
-msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
-msgstr "Optimizar ruta por bicicleta (más rápida) con cloudmade.com"
-
 msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
 msgstr "Optimizar ruta por bicicleta (más rápida) con yournavigation.org"
-
-msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
-msgstr "Optimizar ruta por bicicleta (más corta) con cloudmade.com"
 
 msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
 msgstr "Optimizar ruta por bicicleta (más corta) con yournavigation.org"
 
-msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
-msgstr "Optimizar ruta por auto (más rápidacon tráfico) con Maps@mail.ru"
-
-msgid "Detalize route by car (Fastest) with cloudmade.com"
-msgstr "Optimizar ruta por Auto (más rápida) con cloudmade.com"
-
-msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-msgstr "Optimizar ruta por auto (más rápida) con Maps@mail.ru"
-
 msgid "Detalize route by car (Fastest) with yournavigation.org"
 msgstr "Optimizar ruta por auto (más rápida) con yournavigation.org"
 
-msgid "Detalize route by car (Shortest) with cloudmade.com"
-msgstr "Optimizar ruta por auto (más corta) con cloudmade.com"
-
-msgid "Detalize route by car (Shortest) with Maps@mail.ru"
-msgstr "Optimizar ruta por auto (más corta) con Maps@mail.ru"
-
 msgid "Detalize route by car (Shortest) with yournavigation.org"
 msgstr "Optimizar ruta por auto (más corta) con yournavigation.org"
-
-msgid "Detalize route by foot (Fastest) with cloudmade.com"
-msgstr "Optimizar ruta a pié Auto (más rápida) con cloudmade.com"
-
-msgid "Detalize route by foot (Shortest) with cloudmade.com"
-msgstr "Optimizar ruta a pié Auto (más corta) con cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -2987,12 +2951,6 @@ msgstr "Mapas"
 
 msgid "Maps (%d)"
 msgstr "Mapas (%d)"
-
-msgid "maps.cloudmade.com (OSM)"
-msgstr "maps.cloudmade.com (OSM)"
-
-msgid "Maps@mail.ru"
-msgstr "Maps@mail.ru"
 
 #. frmMain..actlstMain..actViewFillingMapMarkExisting..Caption
 msgid "Mark Existing Tiles"
@@ -4975,6 +4933,10 @@ msgstr ""
 "Este programa es freeware, opensource y liberado bajo la GNU General Public "
 "License (GPLv3)"
 
+#. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
+msgid "Thread count"
+msgstr ""
+
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 msgid "TIFF"
 msgstr ""
@@ -5280,6 +5242,7 @@ msgstr "Valor"
 msgid "Version"
 msgstr "Versión"
 
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblversion..Caption
 #. frmAbout..lblVersionCatpion..Caption
 msgid "Version:"
 msgstr "Versión:"
@@ -5493,6 +5456,48 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "By Car (Fastest with traffic)"
+#~ msgstr "En Automóvil (más rápido con tráfico)"
+
+#~ msgid "By Foot (Fastest)"
+#~ msgstr "A pié (más rápido)"
+
+#~ msgid "By Foot (Shortest)"
+#~ msgstr "A pié (más corto)"
+
+#~ msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
+#~ msgstr "Optimizar ruta por bicicleta (más rápida) con cloudmade.com"
+
+#~ msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
+#~ msgstr "Optimizar ruta por bicicleta (más corta) con cloudmade.com"
+
+#~ msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
+#~ msgstr "Optimizar ruta por auto (más rápidacon tráfico) con Maps@mail.ru"
+
+#~ msgid "Detalize route by car (Fastest) with cloudmade.com"
+#~ msgstr "Optimizar ruta por Auto (más rápida) con cloudmade.com"
+
+#~ msgid "Detalize route by car (Fastest) with Maps@mail.ru"
+#~ msgstr "Optimizar ruta por auto (más rápida) con Maps@mail.ru"
+
+#~ msgid "Detalize route by car (Shortest) with cloudmade.com"
+#~ msgstr "Optimizar ruta por auto (más corta) con cloudmade.com"
+
+#~ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
+#~ msgstr "Optimizar ruta por auto (más corta) con Maps@mail.ru"
+
+#~ msgid "Detalize route by foot (Fastest) with cloudmade.com"
+#~ msgstr "Optimizar ruta a pié Auto (más rápida) con cloudmade.com"
+
+#~ msgid "Detalize route by foot (Shortest) with cloudmade.com"
+#~ msgstr "Optimizar ruta a pié Auto (más corta) con cloudmade.com"
+
+#~ msgid "maps.cloudmade.com (OSM)"
+#~ msgstr "maps.cloudmade.com (OSM)"
+
+#~ msgid "Maps@mail.ru"
+#~ msgstr "Maps@mail.ru"
 
 #~ msgid "Mobile Yandex.Maps (version 3.91 and above)"
 #~ msgstr "Mobile Yandex.Maps (version 3.91 and above)"
