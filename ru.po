@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2017-12-30 23:00\n"
-"PO-Revision-Date: 2017-11-17 16:42+0300\n"
+"POT-Creation-Date: 2018-06-13 14:11\n"
+"PO-Revision-Date: 2018-06-13 14:27+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -14,6 +14,10 @@ msgstr ""
 #. frExportToIMG..PageControl1..Map..pnlListMaps..pnlButtons..btnRemoveLayer..Caption
 msgid "-"
 msgstr ""
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
+msgid " Coordinates "
+msgstr " Координаты "
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -30,6 +34,10 @@ msgstr "-- г.м.с. (-12°23\"43.35')"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
 msgid " RosCosmos "
 msgstr " Роскосмос "
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting..Caption
+msgid " Sorting "
+msgstr " Сортировка "
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
 msgid " Storage "
@@ -416,7 +424,6 @@ msgid "Add menu separator line after this map"
 msgstr "Добавлять в меню разделитель после названия этой карты"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
-#, fuzzy
 msgid "Add new category"
 msgstr "Добавить новую категорию"
 
@@ -576,6 +583,7 @@ msgstr "Все доступные источники"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -836,6 +844,14 @@ msgstr "По координатам"
 msgid "By default"
 msgstr "По умолчанию"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+msgid "By Name (ascend)"
+msgstr "По имени (прямой порядок)"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+msgid "By Name (descend)"
+msgstr "По имени (обратный порядок)"
+
 #. frmMain..actlstMain..actConfigDownloadModeCache..Caption
 #. frmSettings..PageControl1..tsCache..Caption
 msgid "Cache"
@@ -1032,6 +1048,7 @@ msgid "Cleaning up. "
 msgstr "Очистка. "
 
 #. frmMarkPictureConfig..btnClose..Caption
+#. frmMarksExportConfig..pnlBottom..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -1938,6 +1955,10 @@ msgstr "Экспорт выделенного участка в формат"
 msgid "Export selection to format:"
 msgstr "Экспорт выделенного участка в формат"
 
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
+msgid "Export settings"
+msgstr "Настройки экспорта"
+
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
 msgid "Export visible placemarks"
 msgstr "Экспорт только отображаемых"
@@ -2039,6 +2060,10 @@ msgstr "Уместить на экране"
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr "Уместить на экране"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..GridPanel1..chkFixedCoordPrecision..Caption
+msgid "Fixed Precision"
+msgstr "Фиксированная точность"
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -2939,6 +2964,10 @@ msgstr "Отсутствующие тайлы"
 msgid "Marks"
 msgstr "Мои метки"
 
+#. frmMarksExportConfig..Caption
+msgid "Marks Export Config"
+msgstr "Настройки экспорта меток"
+
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
 msgstr "Параметры меток"
@@ -3218,6 +3247,7 @@ msgstr "Нет доступа на запись в текущую базу ме�
 msgid "No write access to tile storage"
 msgstr "Нет доступа на запись в хранилище тайлов"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 msgid "None"
 msgstr "Нет"
@@ -4345,6 +4375,10 @@ msgstr "Сервис вернул тип \"%0:s\", а не один из ожи�
 msgid "Set"
 msgstr "Закат"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..chkAbsPathToIcon..Caption
+msgid "Set absolute path or url to the Icons"
+msgstr "Задать абсолютный путь или url для иконок"
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
 msgstr "Сделать видимыми все метки во всех категориях"
@@ -4997,6 +5031,11 @@ msgstr "Ширина трека:"
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Пытаться загружать тайлы, для которых есть tne"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..Caption
+#, fuzzy
+msgid "tsExportToKml"
+msgstr "Экспорт"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"

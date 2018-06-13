@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-12-30 23:00\n"
+"POT-Creation-Date: 2018-06-13 14:11\n"
 "PO-Revision-Date: 2017-11-25 21:21+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -18,6 +18,11 @@ msgstr ""
 msgid "-"
 msgstr "-"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
+#, fuzzy
+msgid " Coordinates "
+msgstr "les coordonnées du point"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
 msgstr "-- deg. (-12.1233°)"
@@ -33,6 +38,11 @@ msgstr "-- deg.min.sec. (-12°23\"43.35')"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
 msgid " RosCosmos "
 msgstr "RosCosmos"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting..Caption
+#, fuzzy
+msgid " Sorting "
+msgstr "Stockage"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
 msgid " Storage "
@@ -580,6 +590,7 @@ msgstr "N'importe quelle source disponible"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -850,6 +861,15 @@ msgstr "Sélection par coordonnées"
 msgid "By default"
 msgstr "Par défaut"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+#, fuzzy
+msgid "By Name (ascend)"
+msgstr "En voiture (le plus rapide)"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+msgid "By Name (descend)"
+msgstr ""
+
 #. frmMain..actlstMain..actConfigDownloadModeCache..Caption
 #. frmSettings..PageControl1..tsCache..Caption
 msgid "Cache"
@@ -1049,6 +1069,7 @@ msgid "Cleaning up. "
 msgstr "Nettoyer"
 
 #. frmMarkPictureConfig..btnClose..Caption
+#. frmMarksExportConfig..pnlBottom..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -1975,6 +1996,11 @@ msgstr "Exporter la sélection au format :"
 msgid "Export selection to format:"
 msgstr "Exporter la sélection au format :"
 
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
+#, fuzzy
+msgid "Export settings"
+msgstr "Paramètres de la Carte"
+
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
 msgid "Export visible placemarks"
 msgstr "Exporter les marqueurs visibles"
@@ -2076,6 +2102,10 @@ msgstr "Adapter à l'écran"
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr "Adapter à l'écran"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..GridPanel1..chkFixedCoordPrecision..Caption
+msgid "Fixed Precision"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -2973,6 +3003,10 @@ msgstr "Marquer les dalles inexistantes"
 msgid "Marks"
 msgstr "Mes marqueurs"
 
+#. frmMarksExportConfig..Caption
+msgid "Marks Export Config"
+msgstr ""
+
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
 msgstr "Paramètres des marqueurs"
@@ -3254,6 +3288,7 @@ msgstr "Pas d'accès écriture dans la base de données des marqueurs !"
 msgid "No write access to tile storage"
 msgstr "Pas d'accès écriture dans le stockage des dalles"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 msgid "None"
 msgstr "Aucune"
@@ -4378,6 +4413,10 @@ msgstr "Le serveur retourne un type inattendu \"%0:s\""
 msgid "Set"
 msgstr "Coucher"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..chkAbsPathToIcon..Caption
+msgid "Set absolute path or url to the Icons"
+msgstr ""
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
 msgstr "Sélectionner tous les marqueurs"
@@ -5036,6 +5075,11 @@ msgstr "Largeur de la piste :"
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Essayer de re-télécharger les dalles absentes"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..Caption
+#, fuzzy
+msgid "tsExportToKml"
+msgstr "Exporter"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"

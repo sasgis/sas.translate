@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-12-30 23:00\n"
+"POT-Creation-Date: 2018-06-13 14:11\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -14,6 +14,11 @@ msgstr ""
 #. frExportToIMG..PageControl1..Map..pnlListMaps..pnlButtons..btnRemoveLayer..Caption
 msgid "-"
 msgstr ""
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
+#, fuzzy
+msgid " Coordinates "
+msgstr "Coordenadas"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -30,6 +35,11 @@ msgstr "-- deg.min.sec. (-12°23\"43.35')"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
 msgid " RosCosmos "
 msgstr " RosCosmos "
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting..Caption
+#, fuzzy
+msgid " Sorting "
+msgstr "Almacenamiento"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
 msgid " Storage "
@@ -586,6 +596,7 @@ msgstr "Cualquier Fuente disponible"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -850,6 +861,15 @@ msgstr "Por Coordenadas"
 msgid "By default"
 msgstr "Por Defecto"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+#, fuzzy
+msgid "By Name (ascend)"
+msgstr "En Automóvil (más rápido)"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+msgid "By Name (descend)"
+msgstr ""
+
 #. frmMain..actlstMain..actConfigDownloadModeCache..Caption
 #. frmSettings..PageControl1..tsCache..Caption
 msgid "Cache"
@@ -1048,6 +1068,7 @@ msgid "Cleaning up. "
 msgstr ""
 
 #. frmMarkPictureConfig..btnClose..Caption
+#. frmMarksExportConfig..pnlBottom..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -1963,6 +1984,11 @@ msgstr "Exportar selección a formato:"
 msgid "Export selection to format:"
 msgstr "Exportar selección a formato:"
 
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
+#, fuzzy
+msgid "Export settings"
+msgstr "Opciones de Mapa"
+
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
 msgid "Export visible placemarks"
 msgstr "Exportar marcas visibles"
@@ -2065,6 +2091,10 @@ msgstr "Ajustar a pantalla"
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr "Ajustar a Pantalla"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..GridPanel1..chkFixedCoordPrecision..Caption
+msgid "Fixed Precision"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -2975,6 +3005,10 @@ msgstr "Marcar Mosaicos No Existentes"
 msgid "Marks"
 msgstr "Mis Marcas"
 
+#. frmMarksExportConfig..Caption
+msgid "Marks Export Config"
+msgstr ""
+
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
 msgstr "Parámetros de Marca"
@@ -3259,6 +3293,7 @@ msgstr "Sin acceso de grabación a almacenamiento de mosaicos"
 msgid "No write access to tile storage"
 msgstr "Sin acceso de grabación a almacenamiento de mosaicos"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 #, fuzzy
 msgid "None"
@@ -4391,6 +4426,10 @@ msgstr "Servidor retornó tipo no esperado \"%0:s\""
 msgid "Set"
 msgstr ""
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..chkAbsPathToIcon..Caption
+msgid "Set absolute path or url to the Icons"
+msgstr ""
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
 msgstr "Hacer visibles todas las Posiciones de todas las Categorías"
@@ -5055,6 +5094,11 @@ msgstr "Ancho de Ruta:"
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Intentar descarga si no existe tne"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..Caption
+#, fuzzy
+msgid "tsExportToKml"
+msgstr "Exportar"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
