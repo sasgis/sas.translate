@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2017-12-30 23:00\n"
+"POT-Creation-Date: 2018-06-13 14:31\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -13,6 +13,11 @@ msgstr ""
 #. frExportToIMG..PageControl1..Map..pnlListMaps..pnlButtons..btnRemoveLayer..Caption
 msgid "-"
 msgstr ""
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
+#, fuzzy
+msgid " Coordinates "
+msgstr "Координати"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -29,6 +34,11 @@ msgstr "-- г.хв.с. (-12°23\"43.35')"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
 msgid " RosCosmos "
 msgstr " Роскосмос "
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting..Caption
+#, fuzzy
+msgid " Sorting "
+msgstr " Сховище "
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
 msgid " Storage "
@@ -574,6 +584,7 @@ msgstr "Будь-яке доступне джерело"
 
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -836,6 +847,15 @@ msgstr "За координатами"
 msgid "By default"
 msgstr "Стандартно"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+#, fuzzy
+msgid "By Name (ascend)"
+msgstr "На автомобілі (найшвидший)"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+msgid "By Name (descend)"
+msgstr ""
+
 #. frmMain..actlstMain..actConfigDownloadModeCache..Caption
 #. frmSettings..PageControl1..tsCache..Caption
 msgid "Cache"
@@ -1032,6 +1052,7 @@ msgid "Cleaning up. "
 msgstr "Очистка"
 
 #. frmMarkPictureConfig..btnClose..Caption
+#. frmMarksExportConfig..pnlBottom..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -1207,6 +1228,11 @@ msgstr "Координати: %s"
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Копіювати"
+
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
+#, fuzzy
+msgid "Copy BBOX coordinates"
+msgstr "Копіювати координати"
 
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
@@ -1930,6 +1956,11 @@ msgstr "Експорт виділеної ділянки у формат"
 msgid "Export selection to format:"
 msgstr "Експорт виділеної ділянки у формат:"
 
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
+#, fuzzy
+msgid "Export settings"
+msgstr "Параметри карти"
+
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
 msgid "Export visible placemarks"
 msgstr "Експорт видимих позначок"
@@ -2031,6 +2062,10 @@ msgstr "За розміром екрана"
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr "За розміром екрана"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..GridPanel1..chkFixedCoordPrecision..Caption
+msgid "Fixed Precision"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -2814,7 +2849,8 @@ msgstr "Збій підчас компіляції карти"
 
 msgid ""
 "Map compilation failed. The map compiler reported the following error: %s"
-msgstr "Збій підчас компиляції карти. Компілятор повідомив про таку помилку: %s"
+msgstr ""
+"Збій підчас компиляції карти. Компілятор повідомив про таку помилку: %s"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..CheckEnabled..Caption
 msgid "Map enabled"
@@ -2926,6 +2962,10 @@ msgstr "Відсутні тайли"
 #, fuzzy
 msgid "Marks"
 msgstr "Мої позначки"
+
+#. frmMarksExportConfig..Caption
+msgid "Marks Export Config"
+msgstr ""
 
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
@@ -3207,6 +3247,7 @@ msgstr "Немає доступу на запис до обраної бази �
 msgid "No write access to tile storage"
 msgstr "Немає доступу на запис до тайлосховища"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 msgid "None"
 msgstr "Нема"
@@ -4329,6 +4370,10 @@ msgstr "Сервіс повернув несподіваний тип \"%0:s\""
 msgid "Set"
 msgstr "Захід"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..chkAbsPathToIcon..Caption
+msgid "Set absolute path or url to the Icons"
+msgstr ""
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
 msgstr "Зробити видимими усі позначки в усіх категоріях"
@@ -4987,6 +5032,11 @@ msgstr "Ширина треку:"
 #. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Намагатись завантажувати тайли, для яких є tne"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..Caption
+#, fuzzy
+msgid "tsExportToKml"
+msgstr "Експорт"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
