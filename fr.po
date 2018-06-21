@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-13 14:11\n"
-"PO-Revision-Date: 2017-11-25 21:21+0100\n"
+"PO-Revision-Date: 2018-06-20 22:00+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language: fr\n"
 "X-Language: fr_FR\n"
@@ -19,9 +19,8 @@ msgid "-"
 msgstr "-"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
-#, fuzzy
 msgid " Coordinates "
-msgstr "les coordonnées du point"
+msgstr "Coordonnées"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.1233°)"
@@ -40,9 +39,8 @@ msgid " RosCosmos "
 msgstr "RosCosmos"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting..Caption
-#, fuzzy
 msgid " Sorting "
-msgstr "Stockage"
+msgstr "Tri"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
 msgid " Storage "
@@ -862,13 +860,12 @@ msgid "By default"
 msgstr "Par défaut"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
-#, fuzzy
 msgid "By Name (ascend)"
-msgstr "En voiture (le plus rapide)"
+msgstr "Par nom (ascendant)"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 msgid "By Name (descend)"
-msgstr ""
+msgstr "Par nom (descendant)"
 
 #. frmMain..actlstMain..actConfigDownloadModeCache..Caption
 #. frmSettings..PageControl1..tsCache..Caption
@@ -1997,9 +1994,8 @@ msgid "Export selection to format:"
 msgstr "Exporter la sélection au format :"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
-#, fuzzy
 msgid "Export settings"
-msgstr "Paramètres de la Carte"
+msgstr "Paramètres d'exportation"
 
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
 msgid "Export visible placemarks"
@@ -2105,7 +2101,7 @@ msgstr "Adapter à l'écran"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..GridPanel1..chkFixedCoordPrecision..Caption
 msgid "Fixed Precision"
-msgstr ""
+msgstr "Précision fixée"
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -3005,7 +3001,7 @@ msgstr "Mes marqueurs"
 
 #. frmMarksExportConfig..Caption
 msgid "Marks Export Config"
-msgstr ""
+msgstr "Paramètres d'exportation des marqueurs"
 
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
@@ -4415,7 +4411,7 @@ msgstr "Coucher"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..chkAbsPathToIcon..Caption
 msgid "Set absolute path or url to the Icons"
-msgstr ""
+msgstr "Indiquer le chemin absolu ou l'URL des icones"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
 msgid "Set all marks in all categories visible"
@@ -4957,7 +4953,7 @@ msgstr ""
 
 #. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
 msgid "Thread count"
-msgstr ""
+msgstr "Nombre de tâches"
 
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 msgid "TIFF"
@@ -5077,9 +5073,8 @@ msgid "Try download if tne exists"
 msgstr "Essayer de re-télécharger les dalles absentes"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..Caption
-#, fuzzy
 msgid "tsExportToKml"
-msgstr "Exporter"
+msgstr "tsExportToKml"
 
 #. Programmer's name for it: SAS_ERR_UnablePposition
 msgid "Unable to fix position"
