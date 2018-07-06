@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 14:11\n"
+"POT-Creation-Date: 2018-07-06 16:59\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -31,6 +31,10 @@ msgstr "-- deg.min. (-12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- deg.min.sec. (-12°23\"43.35')"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale..Caption
+msgid " Icon Scale "
+msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
 msgid " RosCosmos "
@@ -395,6 +399,11 @@ msgstr "Cancelar"
 msgid "About"
 msgstr "Acerca de..."
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+#, fuzzy
+msgid "Absolute"
+msgstr "Acerca de..."
+
 #. frMapSelect..FilterPopupMenu..TBX_Active..Caption
 msgid "Active"
 msgstr "Activos"
@@ -736,6 +745,10 @@ msgstr "Autodetectar puerto COM al conectar"
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
 msgid "Autodetect on connect"
 msgstr "Autodetectar al conectar"
+
+#. frTilesDownload..pnlBottom..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
+msgid "Autosave session, min:"
+msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
@@ -1865,10 +1878,6 @@ msgstr "Nombre de archivo ZMP vacío"
 msgid "Enable the following map types:"
 msgstr "Habilitar los siguientes tipos de mapas:"
 
-#. frMapsList..MapList......Caption
-msgid "Enabled"
-msgstr "Habilitar"
-
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2000,6 +2009,11 @@ msgstr "Extensión:"
 #. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
 msgid "External tile storage is readonly"
 msgstr "Almacenamiento externo de mosaicos es de solo lectura"
+
+#. Programmer's name for it: rsFailedSessionSave
+#, fuzzy
+msgid "Failed to save session to file: "
+msgstr "Falla al guardar en almacenamiento externo de mosaicos: error"
 
 #. Programmer's name for it: SAS_ERR_ETS_FailToSaveTile
 msgid "Failed to save to external tile storage: error "
@@ -2685,6 +2699,11 @@ msgstr "KS+Storage"
 msgid "Language"
 msgstr "Idioma (Language)"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+#, fuzzy
+msgid "Large"
+msgstr "Idioma (Language)"
+
 #. frmProgressCacheConverter..lblLastTileName..Caption
 msgid "Last name:"
 msgstr "Último nombre:"
@@ -3058,6 +3077,11 @@ msgstr "MBTiles 1.2 (SQLite3)"
 #. frExportMBTiles..dlgSaveTo..Filter
 msgid "mbtiles|*.mbtiles"
 msgstr "mbtiles|*.mbtiles"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+#, fuzzy
+msgid "Medium"
+msgstr "Menú"
 
 #. frMapsList..MapList......Caption
 msgid "Menu"
@@ -4422,6 +4446,11 @@ msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap"
 msgid "Server returned unexpected type \"%0:s\""
 msgstr "Servidor retornó tipo no esperado \"%0:s\""
 
+#. Programmer's name for it: rsSessionSavedToFile
+#, fuzzy
+msgid "Session saved to file: "
+msgstr "Guardar info de seleccion al archivo"
+
 #. Programmer's name for it: rsSet
 msgid "Set"
 msgstr ""
@@ -4713,6 +4742,10 @@ msgstr "Ignorados:"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnl1..lbl1..Caption
 msgid "Sleep on reset connection, ms"
 msgstr "Espera en restablecer conexión, ms"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+msgid "Small"
+msgstr ""
 
 #. Programmer's name for it: rsSMLMarksDbName
 msgid "SML"
@@ -5500,6 +5533,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Enabled"
+#~ msgstr "Habilitar"
 
 #~ msgid "By Car (Fastest with traffic)"
 #~ msgstr "En Automóvil (más rápido con tráfico)"

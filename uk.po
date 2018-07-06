@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2018-06-13 14:31\n"
+"POT-Creation-Date: 2018-07-06 16:59\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -30,6 +30,10 @@ msgstr "-- г.хв. (-12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min.sec. (-12°23\"43.35')"
 msgstr "-- г.хв.с. (-12°23\"43.35')"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale..Caption
+msgid " Icon Scale "
+msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
 msgid " RosCosmos "
@@ -385,6 +389,11 @@ msgstr "Перервати"
 msgid "About"
 msgstr "Про програму"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+#, fuzzy
+msgid "Absolute"
+msgstr "Про програму"
+
 #. frMapSelect..FilterPopupMenu..TBX_Active..Caption
 msgid "Active"
 msgstr "Активні"
@@ -722,6 +731,10 @@ msgstr "Автопошук підключеного COM-порту"
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
 msgid "Autodetect on connect"
 msgstr "Автовизначення при підключенні"
+
+#. frTilesDownload..pnlBottom..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
+msgid "Autosave session, min:"
+msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
@@ -1838,10 +1851,6 @@ msgstr "Порожня назва файла ZMP"
 msgid "Enable the following map types:"
 msgstr "Включити наступні типи карт:"
 
-#. frMapsList..MapList......Caption
-msgid "Enabled"
-msgstr "Використовується"
-
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -1972,6 +1981,11 @@ msgstr "Розширення:"
 #. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
 msgid "External tile storage is readonly"
 msgstr "Підключення до БД тільки для читання"
+
+#. Programmer's name for it: rsFailedSessionSave
+#, fuzzy
+msgid "Failed to save session to file: "
+msgstr "Помилка запису до БД: код помилки "
 
 #. Programmer's name for it: SAS_ERR_ETS_FailToSaveTile
 msgid "Failed to save to external tile storage: error "
@@ -2646,6 +2660,11 @@ msgstr "КС+Сховище"
 msgid "Language"
 msgstr "Мова (Language)"
 
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+#, fuzzy
+msgid "Large"
+msgstr "Мова (Language)"
+
 #. frmProgressCacheConverter..lblLastTileName..Caption
 msgid "Last name:"
 msgstr "Назва останнього файла:"
@@ -3016,6 +3035,11 @@ msgstr ""
 #. frExportMBTiles..dlgSaveTo..Filter
 msgid "mbtiles|*.mbtiles"
 msgstr ""
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+#, fuzzy
+msgid "Medium"
+msgstr "Шлях у меню"
 
 #. frMapsList..MapList......Caption
 msgid "Menu"
@@ -4366,6 +4390,11 @@ msgstr "Сервіс повернув тип \"%0:s\", це не растров�
 msgid "Server returned unexpected type \"%0:s\""
 msgstr "Сервіс повернув несподіваний тип \"%0:s\""
 
+#. Programmer's name for it: rsSessionSavedToFile
+#, fuzzy
+msgid "Session saved to file: "
+msgstr "Зберегти  виділення у файл"
+
 #. Programmer's name for it: rsSet
 msgid "Set"
 msgstr "Захід"
@@ -4655,6 +4684,10 @@ msgstr "Пропущено:"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnl1..lbl1..Caption
 msgid "Sleep on reset connection, ms"
 msgstr "Пауза, у випадку втрати зв'язку, мс"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+msgid "Small"
+msgstr ""
 
 #. Programmer's name for it: rsSMLMarksDbName
 msgid "SML"
@@ -5435,6 +5468,9 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Enabled"
+#~ msgstr "Використовується"
 
 #~ msgid "By Car (Fastest with traffic)"
 #~ msgstr "На автомобілі (найшвидший з урахуванням дорожньої ситуації)"
