@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2018-07-07 18:03\n"
+"POT-Creation-Date: 2018-07-19 12:06\n"
 "PO-Revision-Date: 2018-07-07 18:04+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -729,7 +729,7 @@ msgstr "Автопоиск подключённого COM-порта"
 msgid "Autodetect on connect"
 msgstr "Автоопределение при подключении"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
 msgid "Autosave session, min:"
 msgstr "Автосохранение сессии, мин:"
 
@@ -1067,7 +1067,7 @@ msgstr "Очистка. "
 msgid "Close"
 msgstr "Закрыть"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkCloseAfterFinish..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkCloseAfterFinish..Caption
 msgid "Close download window once finish"
 msgstr "Закрыть окно загрузки после завершения"
 
@@ -2031,7 +2031,7 @@ msgstr "Файл %0:s не найден"
 msgid "File name"
 msgstr "Путь к файлу"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutoSaveSessionPrefix..lblSessionPrefix..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..lblSessionPrefix..Caption
 msgid "File name prefix:"
 msgstr "Префикс имени файла:"
 
@@ -2606,7 +2606,7 @@ msgstr "iPhone (Ниже v2.2 64х64)"
 msgid "Issue Tracker (http://sasgis.org/mantis)"
 msgstr "Багтрекер (http://sasgis.org/mantis)"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr "Можно использовать \\ в качестве разделителя пути"
 
@@ -2933,7 +2933,7 @@ msgid "Map Version:"
 msgstr "Версия карты:"
 
 #. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frTilesDownload..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
@@ -3395,12 +3395,12 @@ msgstr "Помощь"
 msgid "Online Help (http://sasgis.org/wikisasiya)"
 msgstr "Справка (http://sasgis.org/wikisasiya)"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
-#. frTilesDownload..pnlBottom..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
 msgstr "только созданные до "
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
 msgid "only if different"
 msgstr "только при их различии"
 
@@ -3538,7 +3538,7 @@ msgstr "Изменять существующие файлы"
 msgid "Overwrite if equal"
 msgstr "Заменять при совпадении"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkReplace..Caption
 msgid "Overwrite old tiles"
 msgstr "Заменять старые файлы"
 
@@ -4741,7 +4741,7 @@ msgstr "Разбить изображение"
 msgid "Split Line"
 msgstr "Разрезать путь"
 
-#. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
+#. frTilesDownload..pnlCenter..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
 msgid "Split selection to, parts*:"
 msgstr "Разбить область на, части*:"
 
@@ -4781,7 +4781,7 @@ msgstr "Путь к кэшу SQLite3:"
 msgid "Start"
 msgstr "Начать"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkStartPaused..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkStartPaused..Caption
 msgid "Start paused"
 msgstr "Запускать в паузе"
 
@@ -5067,7 +5067,7 @@ msgstr "Всего сохранить:"
 msgid "Track width:"
 msgstr "Ширина трека:"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Пытаться загружать тайлы, для которых есть tne"
 

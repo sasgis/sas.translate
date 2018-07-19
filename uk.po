@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2018-07-07 18:03\n"
+"POT-Creation-Date: 2018-07-19 12:06\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -732,7 +732,7 @@ msgstr "Автопошук підключеного COM-порту"
 msgid "Autodetect on connect"
 msgstr "Автовизначення при підключенні"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
 msgid "Autosave session, min:"
 msgstr ""
 
@@ -1071,7 +1071,7 @@ msgstr "Очистка"
 msgid "Close"
 msgstr "Закрити"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkCloseAfterFinish..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkCloseAfterFinish..Caption
 msgid "Close download window once finish"
 msgstr "Закрити вікно після закінчення"
 
@@ -2034,7 +2034,7 @@ msgstr "Файл %0:s не знайдено"
 msgid "File name"
 msgstr "Шлях до файла"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutoSaveSessionPrefix..lblSessionPrefix..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..lblSessionPrefix..Caption
 #, fuzzy
 msgid "File name prefix:"
 msgstr "Шлях до файла"
@@ -2608,7 +2608,7 @@ msgstr "iPhone (версії нижче 2.2, 64х64)"
 msgid "Issue Tracker (http://sasgis.org/mantis)"
 msgstr "Багтрекер (http://sasgis.org/mantis)"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr ""
 
@@ -2934,7 +2934,7 @@ msgid "Map Version:"
 msgstr "Версія карти:"
 
 #. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frTilesDownload..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
@@ -3397,12 +3397,12 @@ msgstr "Допомога"
 msgid "Online Help (http://sasgis.org/wikisasiya)"
 msgstr "Довідка (http://sasgis.org/wikisasiya)"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
-#. frTilesDownload..pnlBottom..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
 msgstr "лише створені до "
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
 msgid "only if different"
 msgstr "лише при їх відмінності"
 
@@ -3540,7 +3540,7 @@ msgstr "Замінити існуючі файли"
 msgid "Overwrite if equal"
 msgstr "Замінювати при співпадінні"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkReplace..Caption
 msgid "Overwrite old tiles"
 msgstr "Замінювати старі файли"
 
@@ -4740,7 +4740,7 @@ msgstr "Розбити зображення"
 msgid "Split Line"
 msgstr "Розбити лінію"
 
-#. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
+#. frTilesDownload..pnlCenter..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
 msgid "Split selection to, parts*:"
 msgstr "Розбити ділянку на, частин*:"
 
@@ -4780,7 +4780,7 @@ msgstr "Шлях до кешу SQLite3:"
 msgid "Start"
 msgstr "Почати"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkStartPaused..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkStartPaused..Caption
 msgid "Start paused"
 msgstr "Запускати в паузі"
 
@@ -5071,7 +5071,7 @@ msgstr "Всього зберегти:"
 msgid "Track width:"
 msgstr "Ширина треку:"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Намагатись завантажувати тайли, для яких є tne"
 

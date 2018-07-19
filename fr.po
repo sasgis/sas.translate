@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:03\n"
+"POT-Creation-Date: 2018-07-19 12:06\n"
 "PO-Revision-Date: 2018-07-18 21:16+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -743,7 +743,7 @@ msgstr "Autodétecte le port COM à la connexion"
 msgid "Autodetect on connect"
 msgstr "Autodétecte à la connexion"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
 msgid "Autosave session, min:"
 msgstr "Auto-sauvegarde de la session, min :"
 
@@ -1084,7 +1084,7 @@ msgstr "Nettoyer"
 msgid "Close"
 msgstr "Fermer"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkCloseAfterFinish..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkCloseAfterFinish..Caption
 msgid "Close download window once finish"
 msgstr "Fermer la fenêtre de téléchargement à la fin de l'action"
 
@@ -2068,7 +2068,7 @@ msgstr "Le fichier %0:s n'est pas trouvé"
 msgid "File name"
 msgstr "Nom du fichier"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutoSaveSessionPrefix..lblSessionPrefix..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..lblSessionPrefix..Caption
 msgid "File name prefix:"
 msgstr "Préfixe du nom de fichier :"
 
@@ -2638,7 +2638,7 @@ msgstr "iPhone (version jusqu'à 2.2, 64x64)"
 msgid "Issue Tracker (http://sasgis.org/mantis)"
 msgstr "Problèmes de logiciel (http://sasgis.org/mantis) en russe"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr "L'usage est autorisé\\ comme un délimiteur de chemin"
 
@@ -2967,7 +2967,7 @@ msgid "Map Version:"
 msgstr "Version de la Carte :"
 
 #. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frTilesDownload..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frTilesDownload..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
@@ -3429,12 +3429,12 @@ msgstr "Aide en ligne (en russe)"
 msgid "Online Help (http://sasgis.org/wikisasiya)"
 msgstr "Aide en ligne (http://sasgis.org/wikisasiya) en russe"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
-#. frTilesDownload..pnlBottom..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
 msgstr "Seulement créées avant"
 
-#. frTilesDownload..pnlBottom..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
 msgid "only if different"
 msgstr "Seulement si différentes"
 
@@ -3570,7 +3570,7 @@ msgstr "Ecraser les dalles existantes"
 msgid "Overwrite if equal"
 msgstr "Ecraser si identique"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkReplace..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkReplace..Caption
 msgid "Overwrite old tiles"
 msgstr "Ecraser les vieilles dalles"
 
@@ -4773,7 +4773,7 @@ msgstr "Image divisée"
 msgid "Split Line"
 msgstr "Ligne divisée"
 
-#. frTilesDownload..pnlBottom..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
+#. frTilesDownload..pnlCenter..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
 msgid "Split selection to, parts*:"
 msgstr "Partager la sélection en*  :"
 
@@ -4813,7 +4813,7 @@ msgstr "SQLite3, répertoire du cache :"
 msgid "Start"
 msgstr "Démarrer"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkStartPaused..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkStartPaused..Caption
 msgid "Start paused"
 msgstr "Démarrage avec pause"
 
@@ -5104,7 +5104,7 @@ msgstr "Total à sauvegarder :"
 msgid "Track width:"
 msgstr "Largeur de la piste :"
 
-#. frTilesDownload..pnlBottom..pnlMain..chkTryLoadIfTNE..Caption
+#. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Essayer de re-télécharger les dalles absentes"
 
