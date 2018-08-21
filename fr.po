@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-19 12:06\n"
+"POT-Creation-Date: 2018-08-21 12:12\n"
 "PO-Revision-Date: 2018-07-18 21:16+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1679,7 +1679,7 @@ msgid "Double Free: Object is olready deleted!"
 msgstr "Action inutile : l'objet est déjà supprimé !"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXDown..Hint
-#. frMapsList..pnlMapsRightButtons..Button11..Caption
+#. frMapsList..pnlMapsRightButtons..btnDown..Caption
 msgid "Down"
 msgstr "Vers le bas"
 
@@ -2593,6 +2593,7 @@ msgstr "Outils de l'interface"
 
 #. Programmer's name for it: SInterfaceIsNilError
 #. Programmer's name for it: SInterfaceIsNilError
+#. Programmer's name for it: SInterfaceIsNilError
 msgid "Interface is nil"
 msgstr "L'interface ne répond pas"
 
@@ -2934,12 +2935,19 @@ msgstr "Information de la Carte"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LMapName..Caption
 #. frExportToCE..pnlCenter..pnlMain..CMapName..Caption
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
 #. frMapsList..MapList......Caption
 msgid "Map Name"
 msgstr "Nom de la Carte :"
 
 #. frExportToIMG..PageControl1..Map..pnlMapName..lblMapName..Caption
 msgid "Map Name:"
+msgstr "Nom de la Carte :"
+
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder..Text
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+#, fuzzy
+msgid "Map Number"
 msgstr "Nom de la Carte :"
 
 #. frmMain..actlstMain..actConfigProjectionOfMapUse..Caption
@@ -3518,6 +3526,11 @@ msgstr "Options générales"
 #. Programmer's name for it: rsOptions
 msgid "Options..."
 msgstr "Options de l'affichage de l'interface"
+
+#. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
+#, fuzzy
+msgid "Order by:"
+msgstr "Z-Order :"
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
 msgid "OruxMaps (SQLite3)"
@@ -4476,7 +4489,7 @@ msgstr "Sélectionner la version"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frExportToIMG..PageControl1..Settings..Caption
-#. frMapsList..pnlMapsRightButtons..Button15..Caption
+#. frMapsList..pnlMapsRightButtons..btnSettings..Caption
 #. build menu
 msgid "Settings"
 msgstr "Paramètres"
@@ -5167,7 +5180,7 @@ msgid "Unknown status code %d"
 msgstr "Code erreur inconnu %d"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
-#. frMapsList..pnlMapsRightButtons..Button12..Caption
+#. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr "Vers le haut"
 
@@ -5462,6 +5475,11 @@ msgid ""
 msgstr ""
 "Le ZMP a été modifié, mais pas encore sauvegardé !\n"
 "Fermer sans sauvegarder ?"
+
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+#, fuzzy
+msgid "Zmp Name"
+msgstr "Nom de la Carte :"
 
 #. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
 msgid "ZMP:"

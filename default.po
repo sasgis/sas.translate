@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-07-19 12:06\n"
-"PO-Revision-Date: 2018-07-19 12:06\n"
+"POT-Creation-Date: 2018-08-21 12:12\n"
+"PO-Revision-Date: 2018-08-21 12:12\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1666,7 +1666,7 @@ msgid "Double Free: Object is olready deleted!"
 msgstr ""
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXDown..Hint
-#. frMapsList..pnlMapsRightButtons..Button11..Caption
+#. frMapsList..pnlMapsRightButtons..btnDown..Caption
 msgid "Down"
 msgstr ""
 
@@ -2567,6 +2567,7 @@ msgstr ""
 
 #. Programmer's name for it: SInterfaceIsNilError
 #. Programmer's name for it: SInterfaceIsNilError
+#. Programmer's name for it: SInterfaceIsNilError
 msgid "Interface is nil"
 msgstr ""
 
@@ -2895,12 +2896,18 @@ msgstr ""
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LMapName..Caption
 #. frExportToCE..pnlCenter..pnlMain..CMapName..Caption
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
 #. frMapsList..MapList......Caption
 msgid "Map Name"
 msgstr ""
 
 #. frExportToIMG..PageControl1..Map..pnlMapName..lblMapName..Caption
 msgid "Map Name:"
+msgstr ""
+
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder..Text
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+msgid "Map Number"
 msgstr ""
 
 #. frmMain..actlstMain..actConfigProjectionOfMapUse..Caption
@@ -3483,6 +3490,10 @@ msgstr ""
 
 #. Programmer's name for it: rsOptions
 msgid "Options..."
+msgstr ""
+
+#. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
+msgid "Order by:"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
@@ -4433,7 +4444,7 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frExportToIMG..PageControl1..Settings..Caption
-#. frMapsList..pnlMapsRightButtons..Button15..Caption
+#. frMapsList..pnlMapsRightButtons..btnSettings..Caption
 #. build menu
 msgid "Settings"
 msgstr ""
@@ -5110,7 +5121,7 @@ msgid "Unknown status code %d"
 msgstr ""
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
-#. frMapsList..pnlMapsRightButtons..Button12..Caption
+#. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr ""
 
@@ -5401,6 +5412,10 @@ msgid "ZMP has been modified, but not saved yet!\n"
 "\n"
 "Do you really want to close without "
 "saving?"
+msgstr ""
+
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+msgid "Zmp Name"
 msgstr ""
 
 #. frmMapTypeEdit..pnlBottom..lblZmpName..Caption

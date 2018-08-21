@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2018-07-19 12:06\n"
+"POT-Creation-Date: 2018-08-21 12:12\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -1657,7 +1657,7 @@ msgid "Double Free: Object is olready deleted!"
 msgstr "Спроба повторного видалення об’єкту інтерфейсу"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXDown..Hint
-#. frMapsList..pnlMapsRightButtons..Button11..Caption
+#. frMapsList..pnlMapsRightButtons..btnDown..Caption
 msgid "Down"
 msgstr "Вниз"
 
@@ -2565,6 +2565,7 @@ msgstr "Елементи інтерфейсу"
 
 #. Programmer's name for it: SInterfaceIsNilError
 #. Programmer's name for it: SInterfaceIsNilError
+#. Programmer's name for it: SInterfaceIsNilError
 msgid "Interface is nil"
 msgstr ""
 
@@ -2901,6 +2902,7 @@ msgstr "Інформація про карту"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LMapName..Caption
 #. frExportToCE..pnlCenter..pnlMain..CMapName..Caption
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
 #. frMapsList..MapList......Caption
 msgid "Map Name"
 msgstr "Назва карти"
@@ -2908,6 +2910,12 @@ msgstr "Назва карти"
 #. frExportToIMG..PageControl1..Map..pnlMapName..lblMapName..Caption
 msgid "Map Name:"
 msgstr "Назва карти:"
+
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder..Text
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+#, fuzzy
+msgid "Map Number"
+msgstr "Назва карти"
 
 #. frmMain..actlstMain..actConfigProjectionOfMapUse..Caption
 msgid "Map Original Projection (from zmp)"
@@ -3488,6 +3496,11 @@ msgstr "Налаштування"
 #. Programmer's name for it: rsOptions
 msgid "Options..."
 msgstr "Налаштування..."
+
+#. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
+#, fuzzy
+msgid "Order by:"
+msgstr "Z-Сортування:"
 
 #. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
 msgid "OruxMaps (SQLite3)"
@@ -4443,7 +4456,7 @@ msgstr "Вибрати версію"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frExportToIMG..PageControl1..Settings..Caption
-#. frMapsList..pnlMapsRightButtons..Button15..Caption
+#. frMapsList..pnlMapsRightButtons..btnSettings..Caption
 #. build menu
 msgid "Settings"
 msgstr "Параметри"
@@ -5133,7 +5146,7 @@ msgid "Unknown status code %d"
 msgstr "Помилка завантаження. Невідомий статус коду %d"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
-#. frMapsList..pnlMapsRightButtons..Button12..Caption
+#. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr "Вгору"
 
@@ -5425,6 +5438,11 @@ msgstr ""
 "ZMP було змінено, але не збережено!\n"
 "\n"
 "Ви дійсно хочете закрити вікно без збереження?"
+
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+#, fuzzy
+msgid "Zmp Name"
+msgstr "Назва карти"
 
 #. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
 msgid "ZMP:"
