@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2018-08-21 12:12\n"
+"POT-Creation-Date: 2018-09-13 15:38\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -4479,8 +4479,8 @@ msgstr "Ярлик|*.lnk"
 msgid "Show all placemarks"
 msgstr "Показувати всі позначки"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelShowAzimuth..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelShowAzimuth..Hint
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Hint
 msgid "Show azimuth"
 msgstr "Показувати азимут"
 
@@ -4518,6 +4518,12 @@ msgstr "Показувати GPS трек"
 msgid "Show GPS Track"
 msgstr "Показувати GPS трек"
 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
+#, fuzzy
+msgid "Show intermediate distances"
+msgstr "Показує весь пройдений шлях"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkShowLogo..Caption
 msgid "Show Logo on startup"
 msgstr "Показувати логотип підчас старту програми"
@@ -4543,11 +4549,6 @@ msgstr "Показувати розрізнення"
 msgid "Show on map"
 msgstr "Показувати це місце на карті"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Hint
-msgid "Show only final distance"
-msgstr "Показувати тільки кінцеву відстань"
-
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
 msgid "Show only new"
@@ -4569,6 +4570,12 @@ msgstr "Перегляд тайла основної карти"
 #. Programmer's name for it: rsShowQueueInfo
 msgid "Show Queue Info"
 msgstr "Показувати чергу завантажень"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Hint
+#, fuzzy
+msgid "Show the distance increment"
+msgstr "Показує весь пройдений шлях"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
 #. Programmer's name for it: rsShowTilePathInfo
@@ -5495,6 +5502,9 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Show only final distance"
+#~ msgstr "Показувати тільки кінцеву відстань"
 
 #~ msgid "Enabled"
 #~ msgstr "Використовується"

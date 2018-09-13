@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-21 12:12\n"
+"POT-Creation-Date: 2018-09-13 15:38\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -4535,8 +4535,8 @@ msgstr "Atajo|*.lnk"
 msgid "Show all placemarks"
 msgstr "Mostrar todas las posiciones"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelShowAzimuth..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelShowAzimuth..Hint
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Hint
 msgid "Show azimuth"
 msgstr "Mostrar Azimut"
 
@@ -4575,6 +4575,12 @@ msgstr "Mostrar ruta GPS"
 msgid "Show GPS Track"
 msgstr "Mostrar Ruta GPS"
 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
+#, fuzzy
+msgid "Show intermediate distances"
+msgstr "Muestra la distancia total"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkShowLogo..Caption
 msgid "Show Logo on startup"
 msgstr "Mostrar Logo al iniciar"
@@ -4600,11 +4606,6 @@ msgstr "Mostrar Metros por Pixel"
 msgid "Show on map"
 msgstr "Mostrar en Mapa"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Hint
-msgid "Show only final distance"
-msgstr "Mostrar solo distancia final"
-
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
 msgid "Show only new"
@@ -4627,6 +4628,12 @@ msgstr "Mostrar Mosaico del Mapa"
 #. Programmer's name for it: rsShowQueueInfo
 msgid "Show Queue Info"
 msgstr "Mostrar Info de Cola"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Hint
+#, fuzzy
+msgid "Show the distance increment"
+msgstr "Muestra la distancia total"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
 #. Programmer's name for it: rsShowTilePathInfo
@@ -5560,6 +5567,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Show only final distance"
+#~ msgstr "Mostrar solo distancia final"
 
 #~ msgid "Enabled"
 #~ msgstr "Habilitar"

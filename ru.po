@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2018-08-21 12:12\n"
-"PO-Revision-Date: 2018-08-21 12:14+0300\n"
+"POT-Creation-Date: 2018-09-13 15:38\n"
+"PO-Revision-Date: 2018-09-13 15:40+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -4479,8 +4479,8 @@ msgstr "Ярлык|*.lnk"
 msgid "Show all placemarks"
 msgstr "Показывать все метки"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelShowAzimuth..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelShowAzimuth..Hint
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Hint
 msgid "Show azimuth"
 msgstr "Отображать азимут"
 
@@ -4518,6 +4518,11 @@ msgstr "Рисовать пройденный путь"
 msgid "Show GPS Track"
 msgstr "Отображать трек"
 
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
+msgid "Show intermediate distances"
+msgstr "Отображать промежуточные расстояния"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkShowLogo..Caption
 msgid "Show Logo on startup"
 msgstr "Отображать логотип при запуске"
@@ -4543,11 +4548,6 @@ msgstr "Отображать информацию о разрешении"
 msgid "Show on map"
 msgstr "Отображать это место на карте"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..TBEditPathLabelLastOnly..Hint
-msgid "Show only final distance"
-msgstr "Отображать только конечное растояние"
-
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
 msgid "Show only new"
@@ -4569,6 +4569,11 @@ msgstr "Просмотр тайла основной карты"
 #. Programmer's name for it: rsShowQueueInfo
 msgid "Show Queue Info"
 msgstr "Отображать очередь закачки"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Caption
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Hint
+msgid "Show the distance increment"
+msgstr "Отображать увеличение расстояния"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
 #. Programmer's name for it: rsShowTilePathInfo
