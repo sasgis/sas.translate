@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2018-09-13 15:38\n"
+"POT-Creation-Date: 2018-09-17 18:32\n"
 "PO-Revision-Date: 2016-06-14 16:38+0300\n"
 "Last-Translator: Viktor Demydov <vdemidov@gmail.com>\n"
 "Language-Team: \n"
@@ -1360,8 +1360,14 @@ msgstr "Висота над рівнем моря GTOPO30 (розрізненн�
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "Висота над рівнем моря SRTM3 (розрізнення ~90 м)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NoaaForecastMeteorology1..Caption
-msgid "Current and Forecast Meteorology"
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxWeatherUnderground..Caption
+#, fuzzy
+msgid "Current and Forecast Meteorology (Weather Underground)"
+msgstr "Поточна погода та прогноз"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxYandexWeather..Caption
+#, fuzzy
+msgid "Current and Forecast Meteorology (Yandex Weather)"
 msgstr "Поточна погода та прогноз"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedCaption
