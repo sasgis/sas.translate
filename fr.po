@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-17 18:32\n"
-"PO-Revision-Date: 2018-08-23 09:07+0200\n"
+"PO-Revision-Date: 2018-09-23 15:34+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1375,14 +1375,12 @@ msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "Altitude actuelle par SRTM3 (~90 m de précision)"
 
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxWeatherUnderground..Caption
-#, fuzzy
 msgid "Current and Forecast Meteorology (Weather Underground)"
-msgstr "Météorologie actuelle et prévisionnelle"
+msgstr "Météorologie actuelle et prévisionnelle (Weather Underground)"
 
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxYandexWeather..Caption
-#, fuzzy
 msgid "Current and Forecast Meteorology (Yandex Weather)"
-msgstr "Météorologie actuelle et prévisionnelle"
+msgstr "Météorologie actuelle et prévisionnelle (Yandex Weather)"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedCaption
 msgid "Current speed, km/h:"
@@ -2059,7 +2057,7 @@ msgid ""
 "File %0:s is available on disk.\n"
 "Replace?"
 msgstr ""
-"Le fichier %0:s est déjà présent sur le disque\n"
+"Le fichier %0:s est déjà présent sur le disque.\n"
 "Le remplacer ?"
 
 #. Programmer's name for it: SAS_ERR_FileNotExistFmt
@@ -4557,9 +4555,8 @@ msgstr "Afficher la piste du GPS"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
-#, fuzzy
 msgid "Show intermediate distances"
-msgstr "Afficher la distance totale parcourue"
+msgstr "Afficher les distances intermédiaires"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkShowLogo..Caption
 msgid "Show Logo on startup"
@@ -4611,9 +4608,8 @@ msgstr "Afficher ce qui reste à télécharger"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Caption
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Hint
-#, fuzzy
 msgid "Show the distance increment"
-msgstr "Afficher la distance totale parcourue"
+msgstr "Afficher l'incrément de distance"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
 #. Programmer's name for it: rsShowTilePathInfo
