@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2018-10-21 22:00\n"
-"PO-Revision-Date: 2018-10-21 22:01+0300\n"
+"POT-Creation-Date: 2019-02-05 16:20\n"
+"PO-Revision-Date: 2019-02-05 16:21+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1234,9 +1234,10 @@ msgstr "Тип координат"
 msgid "Coordinates: %s"
 msgstr "Координаты: %s"
 
+#. frmMarksExplorer..tbpmnMarks..tbitmCopy..Caption
 #. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
-msgstr "Скопировать"
+msgstr "Копировать"
 
 #. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
 msgid "Copy BBOX coordinates"
@@ -1378,6 +1379,10 @@ msgstr "Текущий масштаб карты"
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..lblHeader..Caption
 msgid "Custom HTTP Headers:"
 msgstr "Дополнительные HTTP заголовки:"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmCut..Caption
+msgid "Cut"
+msgstr "Вырезать"
 
 #. Programmer's name for it: SAS_ERR_ETS_DataTruncation
 msgid ""
@@ -3594,6 +3599,10 @@ msgstr "Пароль"
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..lblPass..Caption
 msgid "Password:"
 msgstr "Пароль:"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmPaste..Caption
+msgid "Paste"
+msgstr "Вставить"
 
 #. Programmer's name for it: SAS_STR_NewPath
 msgid "Path %0:d"
