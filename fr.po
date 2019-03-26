@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-02-05 16:20\n"
+"POT-Creation-Date: 2019-03-26 15:55\n"
 "PO-Revision-Date: 2018-09-23 15:34+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -129,6 +129,15 @@ msgstr "&Affichage"
 #. Programmer's name for it: SAS_ERR_TimeZoneInfoDisabled
 msgid "(%s not found!)"
 msgstr "(%s pas trouvé !)"
+
+#. frExportToIMG..PageControl1..Settings..pnlLicense..LLicenseFile..Caption
+msgid "(*.mpl)"
+msgstr ""
+
+#. frExportToIMG..PageControl1..Settings..pnlCompiler..LMapCompilerPath..Caption
+#, fuzzy
+msgid "(bld_gmap32.exe)"
+msgstr "bld_gmap32.exe|bld_gmap32.exe"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
@@ -3071,6 +3080,10 @@ msgstr "MarkSystemConfig: l'Item #%d a une erreur de lecture du GUID !"
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
 msgid "Max concurrent http(s)-requests number:"
 msgstr "Nombre maximum de requêtes HTTP concurrentes :"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
+msgid "Max number of simultaneous connections per server"
+msgstr ""
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"

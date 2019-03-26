@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-02-05 16:20\n"
+"POT-Creation-Date: 2019-03-26 15:55\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -127,6 +127,14 @@ msgstr "&Вигляд"
 #. Programmer's name for it: SAS_ERR_TimeZoneInfoDisabled
 msgid "(%s not found!)"
 msgstr "(%s не знайдено!)"
+
+#. frExportToIMG..PageControl1..Settings..pnlLicense..LLicenseFile..Caption
+msgid "(*.mpl)"
+msgstr ""
+
+#. frExportToIMG..PageControl1..Settings..pnlCompiler..LMapCompilerPath..Caption
+msgid "(bld_gmap32.exe)"
+msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
@@ -3040,6 +3048,10 @@ msgstr ""
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
 msgid "Max concurrent http(s)-requests number:"
 msgstr "Макс. кількість параллельних http(s)-запитів:"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
+msgid "Max number of simultaneous connections per server"
+msgstr ""
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
