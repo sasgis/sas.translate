@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-03-26 15:55\n"
-"PO-Revision-Date: 2019-03-26 15:57+0300\n"
+"POT-Creation-Date: 2019-04-08 12:12\n"
+"PO-Revision-Date: 2019-04-08 12:14+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -586,6 +586,7 @@ msgstr "Выс."
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
+#. Programmer's name for it: rsAltitude
 msgid "Altitude"
 msgstr "Высота"
 
@@ -767,6 +768,7 @@ msgstr "Аз."
 
 #. frmPointProjecting..pnlAzimuth..lblAzimuth..Caption
 #. Programmer's name for it: SAS_STR_Azimuth
+#. Programmer's name for it: rsAzimuth
 msgid "Azimuth"
 msgstr "Азимут"
 
@@ -4513,6 +4515,10 @@ msgstr "Показывать все метки"
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Hint
 msgid "Show azimuth"
 msgstr "Отображать азимут"
+
+#. Programmer's name for it: rsShowCaptionNearSunCaption
+msgid "Show Current Altitude and Azimuth"
+msgstr "Показывать текущую Высоту и Азимут"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarDownloadInfo..Caption
 #. Programmer's name for it: rsShowDownloadInfo
