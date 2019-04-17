@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-04-08 12:12\n"
+"POT-Creation-Date: 2019-04-17 23:55\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1189,6 +1189,7 @@ msgstr "Compresión:"
 #. frmMain..actlstMain..actConfigZoomToCursor..Category
 #. frmMain..actlstMain..actConfigUsePrevForMap..Category
 #. frmMain..actlstMain..actConfigUsePrevForLayers..Category
+#. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Category
 #. frmMain..actlstMain..actConfigUseZoomAnimation..Category
 #. frmMain..actlstMain..actConfigUseInertialMovement..Category
 #. frmMain..actlstMain..actConfigAzimuthCircle..Category
@@ -5352,6 +5353,11 @@ msgstr "Usar mosaico de menor zoom si no hay mosaico disponible"
 #. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Usar mosaicos de menor zoom (si no hay mosaico disponible)"
+
+#. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Caption
+#, fuzzy
+msgid "Use Vector Layers from Lower Zooms"
+msgstr "Usar Layers de zoom menores"
 
 #. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
 msgid "Use xyz scheme"

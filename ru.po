@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-04-08 12:12\n"
-"PO-Revision-Date: 2019-04-08 12:14+0300\n"
+"POT-Creation-Date: 2019-04-17 23:55\n"
+"PO-Revision-Date: 2019-04-17 23:59+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1167,6 +1167,7 @@ msgstr "Сжатие:"
 #. frmMain..actlstMain..actConfigZoomToCursor..Category
 #. frmMain..actlstMain..actConfigUsePrevForMap..Category
 #. frmMain..actlstMain..actConfigUsePrevForLayers..Category
+#. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Category
 #. frmMain..actlstMain..actConfigUseZoomAnimation..Category
 #. frmMain..actlstMain..actConfigUseInertialMovement..Category
 #. frmMain..actlstMain..actConfigAzimuthCircle..Category
@@ -1485,9 +1486,8 @@ msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "Удалить тайл основной карты (Del+MLeft)"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
-#, fuzzy
 msgid "Delete selected category"
-msgstr "Удалить выбранную метку"
+msgstr "Удалить выбранную категорию"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnDelMark..Hint
 msgid "Delete selected placemark"
@@ -1822,9 +1822,8 @@ msgid "Edit SAS Zoom"
 msgstr "Изменить масштаб SAS"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
-#, fuzzy
 msgid "Edit selected category"
-msgstr "Редактировать выбранную метку"
+msgstr "Редактировать выбранную категорию"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
 msgid "Edit selected placemark"
@@ -5279,6 +5278,10 @@ msgstr "Использовать вышележащие слои, если от�
 #. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
+
+#. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Caption
+msgid "Use Vector Layers from Lower Zooms"
+msgstr "Брать векторные слои из меньших масштабов"
 
 #. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
 msgid "Use xyz scheme"

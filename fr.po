@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-04-08 12:12\n"
+"POT-Creation-Date: 2019-04-17 23:55\n"
 "PO-Revision-Date: 2019-04-05 13:01+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1184,6 +1184,7 @@ msgstr "Compression :"
 #. frmMain..actlstMain..actConfigZoomToCursor..Category
 #. frmMain..actlstMain..actConfigUsePrevForMap..Category
 #. frmMain..actlstMain..actConfigUsePrevForLayers..Category
+#. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Category
 #. frmMain..actlstMain..actConfigUseZoomAnimation..Category
 #. frmMain..actlstMain..actConfigUseInertialMovement..Category
 #. frmMain..actlstMain..actConfigAzimuthCircle..Category
@@ -5320,6 +5321,11 @@ msgid "Use tiles from lower zooms (on unavalible tile)"
 msgstr ""
 "Prendre les dalles à partir des petits zooms, si dalles utiles non "
 "disponibles"
+
+#. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Caption
+#, fuzzy
+msgid "Use Vector Layers from Lower Zooms"
+msgstr "Création de grands zooms pour les couches"
 
 #. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
 msgid "Use xyz scheme"
