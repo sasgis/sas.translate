@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-04-17 23:55\n"
+"POT-Creation-Date: 2019-05-07 20:31\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1250,7 +1250,6 @@ msgid "Coordinates: %s"
 msgstr "Координати: %s"
 
 #. frmMarksExplorer..tbpmnMarks..tbitmCopy..Caption
-#. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Копіювати"
 
@@ -1449,7 +1448,6 @@ msgstr "Призначити гарячу клавішу"
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
-#. frmRegionProcess..PageControl1..TabSheet4..Caption
 msgid "Delete"
 msgstr "Видалити"
 
@@ -1683,7 +1681,6 @@ msgstr "Спроба повторного видалення об’єкту і�
 msgid "Down"
 msgstr "Вниз"
 
-#. frmRegionProcess..PageControl1..TabSheet1..Caption
 #. frmUpdateChecker..btnDownload..Caption
 msgid "Download"
 msgstr "Завантажити"
@@ -1957,7 +1954,6 @@ msgid "Exclusive or (XOR)"
 msgstr "Виключаюче АБО (XOR)"
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
-#. frmRegionProcess..PageControl1..TabSheet5..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
 msgid "Export"
 msgstr "Експорт"
@@ -1984,7 +1980,6 @@ msgstr "Експортувати позначки з обраної катего
 msgid "Export selected placemark"
 msgstr "Експорт обраної позначки"
 
-#. frExport..pnlTop..Label9..Caption
 msgid "Export selection to format"
 msgstr "Експорт виділеної ділянки у формат"
 
@@ -2198,7 +2193,6 @@ msgstr "Гаусс-Крюгер (6 гр. зони) / СК-42"
 msgid "GB"
 msgstr "ГБ"
 
-#. frmRegionProcess..PageControl1..TabSheet3..Caption
 #. frExportToIMG..PageControl1..Settings..PnlSettings..TBXGenerateId..TBGenerateId..Hint
 msgid "Generate"
 msgstr "Сформувати"
@@ -3026,6 +3020,16 @@ msgstr "Відсутні тайли"
 msgid "Marks"
 msgstr "Мої позначки"
 
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
+#, fuzzy
+msgid "Marks database"
+msgstr "Додавання бази міток"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Caption
+#, fuzzy
+msgid "Marks Database"
+msgstr "Додавання бази міток"
+
 #. frmMarksExportConfig..Caption
 msgid "Marks Export Config"
 msgstr ""
@@ -3557,7 +3561,6 @@ msgstr "Колір обрамлення:"
 msgid "Output format"
 msgstr "Результуючий формат"
 
-#. frCombine..pnlOutputFormat..lblOutputFormat..Caption
 msgid "Output format:"
 msgstr "Результуючий формат:"
 
@@ -3755,7 +3758,6 @@ msgstr "Параметри позначок"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
 #. frmMain..TBDock..TBXMainMenu..NMarks..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
-#. frDelete..PageControl1..tsMarks..Caption
 #. frDeleteMarks..PnlTop..chkPlacemarks..Caption
 msgid "Placemarks"
 msgstr " Позначки "
@@ -4849,11 +4851,9 @@ msgstr "Запускати в паузі"
 msgid "Status Bar"
 msgstr "Рядок статусу"
 
-#. frmRegionProcess..PageControl1..TabSheet2..Caption
 msgid "Stitch"
 msgstr "Склеїти"
 
-#. frCombine..pnlTop..Caption
 msgid "Stitch selection"
 msgstr "Склеїти виділений фрагмент"
 
@@ -5074,7 +5074,6 @@ msgstr "Розмір тайлу"
 msgid "Tile with same size exists"
 msgstr "Тайл з таким самим розміром вже існує"
 
-#. frDelete..PageControl1..tsTiles..Caption
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
 msgstr "Тайли"

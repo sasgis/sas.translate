@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-04-17 23:55\n"
+"POT-Creation-Date: 2019-05-07 20:31\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1272,7 +1272,6 @@ msgid "Coordinates: %s"
 msgstr "Coordenadas: %s"
 
 #. frmMarksExplorer..tbpmnMarks..tbitmCopy..Caption
-#. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Copiar"
 
@@ -1470,7 +1469,6 @@ msgstr "Definir hotkey"
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
-#. frmRegionProcess..PageControl1..TabSheet4..Caption
 msgid "Delete"
 msgstr "Borrar"
 
@@ -1707,7 +1705,6 @@ msgstr "Doble Borre: ¡El objeto ya está borrado!"
 msgid "Down"
 msgstr "Abajo"
 
-#. frmRegionProcess..PageControl1..TabSheet1..Caption
 #. frmUpdateChecker..btnDownload..Caption
 msgid "Download"
 msgstr "Descarga"
@@ -1985,7 +1982,6 @@ msgid "Exclusive or (XOR)"
 msgstr "Exclusive or (XOR)"
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
-#. frmRegionProcess..PageControl1..TabSheet5..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
 msgid "Export"
 msgstr "Exportar"
@@ -2012,7 +2008,6 @@ msgstr "Exportar posiciones de categorías seleccionadas"
 msgid "Export selected placemark"
 msgstr "Exportar Posición seleccionada"
 
-#. frExport..pnlTop..Label9..Caption
 msgid "Export selection to format"
 msgstr "Exportar selección a formato:"
 
@@ -2229,7 +2224,6 @@ msgstr ""
 msgid "GB"
 msgstr "GB"
 
-#. frmRegionProcess..PageControl1..TabSheet3..Caption
 #. frExportToIMG..PageControl1..Settings..PnlSettings..TBXGenerateId..TBGenerateId..Hint
 msgid "Generate"
 msgstr "Generar"
@@ -3068,6 +3062,16 @@ msgstr "Marcar Mosaicos No Existentes"
 msgid "Marks"
 msgstr "Mis Marcas"
 
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
+#, fuzzy
+msgid "Marks database"
+msgstr "Agregar Base de Marcas"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Caption
+#, fuzzy
+msgid "Marks Database"
+msgstr "Agregar Base de Marcas"
+
 #. frmMarksExportConfig..Caption
 msgid "Marks Export Config"
 msgstr ""
@@ -3606,7 +3610,6 @@ msgstr "Color de Borde:"
 msgid "Output format"
 msgstr "Formato de Salida"
 
-#. frCombine..pnlOutputFormat..lblOutputFormat..Caption
 msgid "Output format:"
 msgstr "Formato de Salida:"
 
@@ -3807,7 +3810,6 @@ msgstr "Parámetros de Marcas"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
 #. frmMain..TBDock..TBXMainMenu..NMarks..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
-#. frDelete..PageControl1..tsMarks..Caption
 #. frDeleteMarks..PnlTop..chkPlacemarks..Caption
 msgid "Placemarks"
 msgstr "Posiciones"
@@ -4908,11 +4910,9 @@ msgstr "Iniciar con Pausa"
 msgid "Status Bar"
 msgstr "Barra de Estado"
 
-#. frmRegionProcess..PageControl1..TabSheet2..Caption
 msgid "Stitch"
 msgstr "Unir (Stitch)"
 
-#. frCombine..pnlTop..Caption
 msgid "Stitch selection"
 msgstr "Unir Selección"
 
@@ -5134,7 +5134,6 @@ msgstr "Tamaño Mosaico"
 msgid "Tile with same size exists"
 msgstr "Existe mosaico igual medida"
 
-#. frDelete..PageControl1..tsTiles..Caption
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
 msgstr "Mosaicos"

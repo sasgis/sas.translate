@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-04-17 23:55\n"
+"POT-Creation-Date: 2019-05-07 20:31\n"
 "PO-Revision-Date: 2019-04-22 18:12+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1264,7 +1264,6 @@ msgid "Coordinates: %s"
 msgstr "Coordonnées : %s"
 
 #. frmMarksExplorer..tbpmnMarks..tbitmCopy..Caption
-#. frmRegionProcess..PageControl1..TabSheet6..Caption
 msgid "Copy"
 msgstr "Copier"
 
@@ -1461,7 +1460,6 @@ msgstr "Définir le raccourci clavier"
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
-#. frmRegionProcess..PageControl1..TabSheet4..Caption
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -1703,7 +1701,6 @@ msgstr "Action inutile : l'objet est déjà supprimé !"
 msgid "Down"
 msgstr "Vers le bas"
 
-#. frmRegionProcess..PageControl1..TabSheet1..Caption
 #. frmUpdateChecker..btnDownload..Caption
 msgid "Download"
 msgstr "Télécharger"
@@ -1991,7 +1988,6 @@ msgid "Exclusive or (XOR)"
 msgstr "Exclusif (XOU)"
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
-#. frmRegionProcess..PageControl1..TabSheet5..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
 msgid "Export"
 msgstr "Exporter"
@@ -2018,7 +2014,6 @@ msgstr "Exporter les marqueurs de la catégorie surlignée"
 msgid "Export selected placemark"
 msgstr "Exporter le marqueur surligné"
 
-#. frExport..pnlTop..Label9..Caption
 msgid "Export selection to format"
 msgstr "Exporter la sélection au format :"
 
@@ -2229,7 +2224,6 @@ msgstr "Gauss Krueger (6 zones de degrés) / S-42"
 msgid "GB"
 msgstr "Gb"
 
-#. frmRegionProcess..PageControl1..TabSheet3..Caption
 #. frExportToIMG..PageControl1..Settings..PnlSettings..TBXGenerateId..TBGenerateId..Hint
 msgid "Generate"
 msgstr "Générer"
@@ -3055,6 +3049,16 @@ msgstr "Marquer les dalles inexistantes"
 msgid "Marks"
 msgstr "Mes marqueurs"
 
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
+#, fuzzy
+msgid "Marks database"
+msgstr "Ajouter une base de données de marqueurs"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Caption
+#, fuzzy
+msgid "Marks Database"
+msgstr "Ajouter une base de données de marqueurs"
+
 #. frmMarksExportConfig..Caption
 msgid "Marks Export Config"
 msgstr "Paramètres d'exportation des marqueurs"
@@ -3583,7 +3587,6 @@ msgstr "Couleur de contour :"
 msgid "Output format"
 msgstr "Format de sortie :"
 
-#. frCombine..pnlOutputFormat..lblOutputFormat..Caption
 msgid "Output format:"
 msgstr "Format de sortie :"
 
@@ -3780,7 +3783,6 @@ msgstr "Propriétés de la balise"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
 #. frmMain..TBDock..TBXMainMenu..NMarks..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
-#. frDelete..PageControl1..tsMarks..Caption
 #. frDeleteMarks..PnlTop..chkPlacemarks..Caption
 msgid "Placemarks"
 msgstr "Marqueurs"
@@ -4875,11 +4877,9 @@ msgstr "Démarrage avec pause"
 msgid "Status Bar"
 msgstr "Barre d'état"
 
-#. frmRegionProcess..PageControl1..TabSheet2..Caption
 msgid "Stitch"
 msgstr "Assembler"
 
-#. frCombine..pnlTop..Caption
 msgid "Stitch selection"
 msgstr "Sélection pour l'assemblage"
 
@@ -5100,7 +5100,6 @@ msgstr "Taille de la dalle :"
 msgid "Tile with same size exists"
 msgstr "Une dalle avec la même taille existe déjà"
 
-#. frDelete..PageControl1..tsTiles..Caption
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
 msgstr "Dalles"
