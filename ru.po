@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-05-28 13:24\n"
-"PO-Revision-Date: 2019-05-28 13:42+0300\n"
+"POT-Creation-Date: 2019-05-28 14:40\n"
+"PO-Revision-Date: 2019-05-28 14:49+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -618,6 +618,10 @@ msgstr "Разрешить Замену"
 msgid "Allow Scan"
 msgstr "Разрешить Сканирование"
 
+#. download availability
+msgid "Allowed"
+msgstr "Разрешено"
+
 #, object-pascal-format
 msgid "Allowed: %s"
 msgstr "Разрешено: %s"
@@ -1130,7 +1134,7 @@ msgid "Change source zoom"
 msgstr "Изменить масштаб источника"
 
 msgid "Changes will take effect after restart."
-msgstr ""
+msgstr "Изменения вступят в силу после перезапуска программы."
 
 #. Programmer's name for it: SAS_STR_BattaryStateCharge
 msgid "Charging"
@@ -1688,10 +1692,10 @@ msgid "Disable or enable GPS"
 msgstr "Включить или выключить GPS"
 
 msgid "Disabled by map params"
-msgstr ""
+msgstr "Отключено в параметрах карты"
 
 msgid "Disabled by Zmp"
-msgstr ""
+msgstr "Отключено в zmp"
 
 #. frmMain..actlstMain..actViewFillingMapMainMapUse..Caption
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
@@ -1790,16 +1794,9 @@ msgid ""
 "file: %s"
 msgstr "Загрузка завершена. Вы можете обновить программу вручную: %s"
 
-msgid "Download Disabled"
-msgstr "Скачивание отключено"
-
 #. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
 msgid "Download enabled"
 msgstr "Разрешить скачивание"
-
-#. download availability
-msgid "Download Enabled"
-msgstr "Скачивание разрешено"
 
 #, object-pascal-format
 msgid "Download error. Error code %d"
@@ -3276,11 +3273,6 @@ msgstr "Свернуть"
 msgid "Minimize to tray"
 msgstr "Сворачивать в трей"
 
-#. frmMapTypeEdit..PageControl1..tsOthers..mmoCacheState....Lines.Strings
-#, fuzzy
-msgid "mmoCacheState"
-msgstr "Тип кэша"
-
 msgid "MOBAC cache folder:"
 msgstr "Путь к кэшу MOBAC:"
 
@@ -3471,6 +3463,9 @@ msgstr "Полдень"
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
 msgstr "Север"
+
+msgid "Not allowed:"
+msgstr "Запрещено:"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"

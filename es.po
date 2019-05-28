@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-28 13:24\n"
+"POT-Creation-Date: 2019-05-28 14:40\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -631,6 +631,11 @@ msgstr ""
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkScanAccess..Caption
 msgid "Allow Scan"
 msgstr ""
+
+#. download availability
+#, fuzzy
+msgid "Allowed"
+msgstr "Área: %s"
 
 #, fuzzy, object-pascal-format
 msgid "Allowed: %s"
@@ -1827,16 +1832,8 @@ msgstr ""
 "Descarga completada. Puede actualizar el programa manualmente con el "
 "archivo: %s"
 
-#, fuzzy
-msgid "Download Disabled"
-msgstr "Descarga habilitada"
-
 #. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
 msgid "Download enabled"
-msgstr "Descarga habilitada"
-
-#. download availability
-msgid "Download Enabled"
 msgstr "Descarga habilitada"
 
 #, object-pascal-format
@@ -3333,11 +3330,6 @@ msgstr "Minimizar"
 msgid "Minimize to tray"
 msgstr "Minimizar en Notificaciones Windows"
 
-#. frmMapTypeEdit..PageControl1..tsOthers..mmoCacheState....Lines.Strings
-#, fuzzy
-msgid "mmoCacheState"
-msgstr "Tipo Caché"
-
 msgid "MOBAC cache folder:"
 msgstr "Carpeta del Caché MOBAC"
 
@@ -3535,6 +3527,10 @@ msgstr "Zona:"
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
 msgstr "Norte"
+
+#, fuzzy
+msgid "Not allowed:"
+msgstr "Área: %s"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "\"params.txt\" no encontrado en zmp"
@@ -5788,6 +5784,17 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#, fuzzy
+#~ msgid "Download Disabled"
+#~ msgstr "Descarga habilitada"
+
+#~ msgid "Download Enabled"
+#~ msgstr "Descarga habilitada"
+
+#, fuzzy
+#~ msgid "mmoCacheState"
+#~ msgstr "Tipo Caché"
 
 #~ msgid "Show only final distance"
 #~ msgstr "Mostrar solo distancia final"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-05-28 13:24\n"
+"POT-Creation-Date: 2019-05-28 14:40\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -620,6 +620,11 @@ msgstr ""
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkScanAccess..Caption
 msgid "Allow Scan"
 msgstr ""
+
+#. download availability
+#, fuzzy
+msgid "Allowed"
+msgstr "Площа: %s"
 
 #, fuzzy, object-pascal-format
 msgid "Allowed: %s"
@@ -1803,16 +1808,8 @@ msgid ""
 "file: %s"
 msgstr "Заванатження завершено. Ви можете оновити програму вручну: %s"
 
-#, fuzzy
-msgid "Download Disabled"
-msgstr "Дозволити завантаження"
-
 #. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
 msgid "Download enabled"
-msgstr "Дозволити завантаження"
-
-#. download availability
-msgid "Download Enabled"
 msgstr "Дозволити завантаження"
 
 #, object-pascal-format
@@ -3294,11 +3291,6 @@ msgstr "Згорнути"
 msgid "Minimize to tray"
 msgstr "Згорнути в трей"
 
-#. frmMapTypeEdit..PageControl1..tsOthers..mmoCacheState....Lines.Strings
-#, fuzzy
-msgid "mmoCacheState"
-msgstr "Тип кешу"
-
 msgid "MOBAC cache folder:"
 msgstr "Шлях до кешу MOBAC:"
 
@@ -3489,6 +3481,10 @@ msgstr "Полудень"
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
 msgstr "Північ"
+
+#, fuzzy
+msgid "Not allowed:"
+msgstr "Площа: %s"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не знайдено \"params.txt\" у zmp"
@@ -5726,6 +5722,17 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#, fuzzy
+#~ msgid "Download Disabled"
+#~ msgstr "Дозволити завантаження"
+
+#~ msgid "Download Enabled"
+#~ msgstr "Дозволити завантаження"
+
+#, fuzzy
+#~ msgid "mmoCacheState"
+#~ msgstr "Тип кешу"
 
 #~ msgid "Show only final distance"
 #~ msgstr "Показувати тільки кінцеву відстань"
