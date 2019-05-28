@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-05-10 11:40\n"
+"POT-Creation-Date: 2019-05-28 13:24\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -61,34 +62,42 @@ msgid "$79999999"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPathCaption
+#, object-pascal-format
 msgid "%0:s (MultiPath %d)"
 msgstr "%0:s (МультиШлях %1:d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPointCaption
+#, object-pascal-format
 msgid "%0:s (MultiPlacemark %d)"
 msgstr "%0:s (МультиПозначка %1:d) "
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPolygonCaption
+#, object-pascal-format
 msgid "%0:s (MultiPolygon %d)"
 msgstr "%0:s (МультиПолігон %1:d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPathCaption
+#, no-object-pascal-format
 msgid "%0:s (Path)"
 msgstr "%0:s (Шлях)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPointCaption
+#, no-object-pascal-format
 msgid "%0:s (Placemark)"
 msgstr "%0:s (Позначка) "
 
 #. Programmer's name for it: SAS_STR_ExtendedPolygonCaption
+#, no-object-pascal-format
 msgid "%0:s (Polygon)"
 msgstr "%0:s (Полігон)"
 
 #. Programmer's name for it: SAS_STR_DownloadingCaption
+#, no-object-pascal-format
 msgid "%0:s Downloading"
 msgstr "%0:s Завантаження"
 
 #. Programmer's name for it: rsDownloadProgressInfo
+#, object-pascal-format
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f з %.2f Мб (%.2f%s)"
 
@@ -125,6 +134,7 @@ msgid "&View"
 msgstr "&Вигляд"
 
 #. Programmer's name for it: SAS_ERR_TimeZoneInfoDisabled
+#, object-pascal-format
 msgid "(%s not found!)"
 msgstr "(%s не знайдено!)"
 
@@ -138,10 +148,12 @@ msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
+#, no-object-pascal-format
 msgid "(zoom %)"
 msgstr "(масштаб %)"
 
 #. Programmer's name for it: rsLimitHint
+#, object-pascal-format
 msgid "* - Limited by max concurrent http(s) requests for current map: %d"
 msgstr "* - Обмежено кількістю паралельних http(s) запитів для карты: %d"
 
@@ -402,16 +414,22 @@ msgstr "Про програму"
 msgid "Absolute"
 msgstr "Про програму"
 
+msgid "Access is denied"
+msgstr ""
+
 #. frMapSelect..FilterPopupMenu..TBX_Active..Caption
 msgid "Active"
 msgstr "Активні"
 
+#, object-pascal-format
 msgid "Active Layers (%d)"
 msgstr "Активні шари (%d)"
 
+#, object-pascal-format
 msgid "Active Maps (%d)"
 msgstr "Активні карти (%d)"
 
+#, object-pascal-format
 msgid "Active Maps + Layers (%d)"
 msgstr "Активні карти + шари (%d)"
 
@@ -559,6 +577,7 @@ msgstr "Додаткові операції"
 msgid "All"
 msgstr "Всі"
 
+#, object-pascal-format
 msgid "All (%d)"
 msgstr "Всі (%d)"
 
@@ -580,6 +599,54 @@ msgstr "Всі сервіси"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
 msgstr "Всі видимі"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
+msgid "Allow Add"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkDeleteAccess..Caption
+#, fuzzy
+msgid "Allow Delete"
+msgstr "Видалити"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkReadAccess..Caption
+msgid "Allow Read"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkReplaceAccess..Caption
+msgid "Allow Replace"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkScanAccess..Caption
+msgid "Allow Scan"
+msgstr ""
+
+#, fuzzy, object-pascal-format
+msgid "Allowed: %s"
+msgstr "Площа: %s"
+
+#, fuzzy
+msgctxt "Allowed"
+msgid "Add"
+msgstr "Додати"
+
+#, fuzzy
+msgctxt "Allowed"
+msgid "Delete"
+msgstr "Видалити"
+
+#, fuzzy
+msgctxt "Allowed"
+msgid "Read"
+msgstr "Тільки читання"
+
+msgctxt "Allowed"
+msgid "Replace"
+msgstr ""
+
+msgctxt "Allowed"
+msgid "Scan"
+msgstr ""
 
 #. Programmer's name for it: rsAlt
 msgid "Alt."
@@ -616,10 +683,12 @@ msgid "Approx. to download:"
 msgstr "Приблизно ще завантажити:"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete %0:d placemarks?"
 msgstr "Ви дійсно хочете видалити %0:d позначки?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
 msgstr "Ви дійсно хочете видалити категорію „%0:s“?"
 
@@ -627,6 +696,7 @@ msgstr "Ви дійсно хочете видалити категорію „%0
 msgid "Are you sure you want to delete current GPS track?"
 msgstr "Ви дійсно хочете видалити GPS трек?"
 
+#, object-pascal-format
 msgid "Are you sure you want to delete database \"%s\"?"
 msgstr "Ви дійсно хочете видалити шлях „%0:s“?"
 
@@ -635,22 +705,27 @@ msgid "Are you sure you want to delete Marks in selected region?"
 msgstr "Ви дійсно хочете видалити всі позначки у вибраній області?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete path with name \"%0:s\"?"
 msgstr "Ви дійсно хочете видалити шлях „%0:s“?"
 
+#, no-object-pascal-format
 msgid ""
 "Are you sure you want to delete placemark of unknown type with name \"%0:s\"?"
 msgstr "Ви дійсно хочете видалити позначку невідомого типу \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete point with name \"%0:s\"?"
 msgstr "Ви дійсно хочете видалити точку „%0:s“?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPolyAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
 msgstr "Ви дійсно хочете видалити полігон „%0:s“?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete tile with name \"%0:s\"?"
 msgstr "Ви дійсно хочете видалити тайл „%0:s“?"
 
@@ -670,6 +745,7 @@ msgstr "Площа"
 msgid "Area representation"
 msgstr "Формат відображення площи"
 
+#, object-pascal-format
 msgid "Area: %s"
 msgstr "Площа: %s"
 
@@ -884,6 +960,11 @@ msgstr ""
 msgid "Cache"
 msgstr "Кеш"
 
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..Caption
+#, fuzzy
+msgid "Cache abilities"
+msgstr "Карта заповнення"
+
 #. frmMapTypeEdit..PageControl1..tsOthers..Caption
 msgid "Cache and Other"
 msgstr "Кеш і тп"
@@ -893,6 +974,7 @@ msgid "Cache conversion is finished!"
 msgstr "Конвертацію кешу завершено!"
 
 #. Programmer's name for it: SAS_ERR_ContentTypeMismatch
+#, object-pascal-format
 msgid ""
 "Cache converter aborted with error: Content-Type mismatch!\n"
 "Source: %s\n"
@@ -922,6 +1004,11 @@ msgstr "Керування кешем"
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlCache..lblCacheSize..Caption
 msgid "Cache Size, Mb:"
 msgstr "Розмір кешу, Мб"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..lblCacheState..Caption
+#, fuzzy
+msgid "Cache state:"
+msgstr "Тип кешу"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..lblCacheType..Caption
 msgid "Cache type"
@@ -995,6 +1082,7 @@ msgid "Cannot parse tile to get its version"
 msgstr "Тайл не містить інформації про свою версію"
 
 #. Programmer's name for it: rsCantAcquireDB
+#, object-pascal-format
 msgid "Can't acquire db: %s"
 msgstr "Неможливо отримати БД: %s"
 
@@ -1008,6 +1096,7 @@ msgstr "Неможливо створити сховище в пам’яті. �
 msgid "Can't load bitmap from source type"
 msgstr "Неможливо завантажити зображення з вихідного типу"
 
+#, object-pascal-format
 msgid "Can't open file: %s"
 msgstr "Неможливо відкрити файл: %s"
 
@@ -1036,6 +1125,7 @@ msgstr "Каскад"
 msgid "Category:"
 msgstr "Категорія:"
 
+#, object-pascal-format
 msgid "Category: %s"
 msgstr "Категорія: %s"
 
@@ -1049,6 +1139,9 @@ msgstr "Поточна позиція завжди в центрі"
 
 msgid "Change source zoom"
 msgstr "Змінити вихідний масштаб"
+
+msgid "Changes will take effect after restart."
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_BattaryStateCharge
 msgid "Charging"
@@ -1111,6 +1204,7 @@ msgid "Color only"
 msgstr "Кольорові"
 
 #. Programmer's name for it: rsDefaultColorSchemaFmt
+#, object-pascal-format
 msgid "Color schema %d"
 msgstr "Кольорова схема %d"
 
@@ -1131,6 +1225,7 @@ msgid "Community  (http://www.sasgis.org/forum)"
 msgstr "Обговорення (http://sasgis.org/forum)"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
+#, no-object-pascal-format
 msgid ""
 "Compilation error in script \n"
 "%0:s"
@@ -1203,6 +1298,7 @@ msgstr "Під’єднатись до GPS-приймача"
 msgid "Connect to GPS Receiver"
 msgstr "Під’єднатись до GPS-приймача"
 
+#, object-pascal-format
 msgid "Connect to server error. Error code %d"
 msgstr "Помилка з’єднання сервером. Код помилки: %d "
 
@@ -1246,6 +1342,7 @@ msgstr "Формат подання координат"
 msgid "Coordinates type"
 msgstr "Тип координат"
 
+#, object-pascal-format
 msgid "Coordinates: %s"
 msgstr "Координати: %s"
 
@@ -1286,9 +1383,11 @@ msgstr "Копіювання тайлів"
 msgid "Could not build IMG file."
 msgstr "Не вдалося зібрати файл IMG."
 
+#, object-pascal-format
 msgid "Could not start GMapTool: %s."
 msgstr "Не вдалося запустити GMapTool: %s."
 
+#, object-pascal-format
 msgid "Could not start the map compiler: %s."
 msgstr "Не вдалося запустити компілятор карт: %s."
 
@@ -1468,6 +1567,7 @@ msgstr "Видалити категорію"
 msgid "Delete empty tiles"
 msgstr "Видалити порожні тайли"
 
+#, object-pascal-format
 msgid "Delete from Favorites: '%s'?"
 msgstr "Видалити '%s' з обраного?"
 
@@ -1541,6 +1641,7 @@ msgstr "Видаляє:"
 msgid "Description:"
 msgstr "Опис:"
 
+#, object-pascal-format
 msgid ""
 "Description:<br>\n"
 "%s"
@@ -1587,6 +1688,7 @@ msgid "Direct tiles copy (without any modifications)"
 msgstr "Пряме копіювання тайлів (без будь-яких модифікацій)"
 
 #. Programmer's name for it: SAS_ERR_DirectoryNotExistFmt
+#, no-object-pascal-format
 msgid "Directory %0:s not exist"
 msgstr "Папка %0:s не існує"
 
@@ -1695,10 +1797,15 @@ msgid "Download completed"
 msgstr "Завантаження завершено"
 
 #. Programmer's name for it: rsDownloadFinished
+#, object-pascal-format
 msgid ""
 "Download completed successfully. You can update the program manually from "
 "file: %s"
 msgstr "Заванатження завершено. Ви можете оновити програму вручну: %s"
+
+#, fuzzy
+msgid "Download Disabled"
+msgstr "Дозволити завантаження"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
 msgid "Download enabled"
@@ -1708,12 +1815,15 @@ msgstr "Дозволити завантаження"
 msgid "Download Enabled"
 msgstr "Дозволити завантаження"
 
+#, object-pascal-format
 msgid "Download error. Error code %d"
 msgstr "Помилка завантаження. Код помилки: %d"
 
+#, object-pascal-format
 msgid "Download error. Status code %d"
 msgstr "Помилка завантаження. Код статусу %d"
 
+#, object-pascal-format
 msgid "Download error. Unknown status code %d"
 msgstr "Помилка завантаження. Невідомий код статус %d"
 
@@ -1841,6 +1951,7 @@ msgid "Edit the database"
 msgstr "Редагувати базу"
 
 #. Programmer's name for it: rsElapsedTime
+#, object-pascal-format
 msgid "Elapsed time: %s"
 msgstr "Пройшло часу: %s"
 
@@ -1923,6 +2034,7 @@ msgid "Error in parameters!"
 msgstr "Помилка введення параметрів!"
 
 #. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
+#, no-object-pascal-format
 msgid "Error in projection \"%0:s\" of the map"
 msgstr "Помилковий тип проекції карти \"%0:s\""
 
@@ -1931,6 +2043,7 @@ msgid "Error opening port!"
 msgstr "Помилка відкриття порту!"
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
+#, object-pascal-format
 msgid "Error parsing coordinates: Lat=%s Lon=%s"
 msgstr "Помилка вводу координат: широта=%s довгота=%s"
 
@@ -1942,15 +2055,19 @@ msgstr "Помилка при збереженні!"
 msgid "Event"
 msgstr "Подія"
 
+#, no-object-pascal-format
 msgid "Every map part must have height less than %0:d but exist %1:d"
 msgstr "Кожна частина карты повинна мати высоту мнеше ніж %0:d, а зараз %1:d"
 
+#, no-object-pascal-format
 msgid "Every map part must have height more than %0:d but exist %1:d"
 msgstr "Кожна частина карты повинна мати высоту більше ніж %0:d, а зараз %1:d"
 
+#, no-object-pascal-format
 msgid "Every map part must have width less than %0:d but exist %1:d"
 msgstr "Кожна частина карты повинна мати ширину мнеше ніж %0:d, а зараз %1:d"
 
+#, no-object-pascal-format
 msgid "Every map part must have width more than %0:d but exist %1:d"
 msgstr "Кожна частина карты повинна мати ширину більше ніж %0:d, а зараз %1:d"
 
@@ -2042,6 +2159,7 @@ msgid "File"
 msgstr "Файл"
 
 #. Programmer's name for it: SAS_MSG_FileExists
+#, no-object-pascal-format
 msgid ""
 "File %0:s is available on disk.\n"
 "Replace?"
@@ -2050,10 +2168,12 @@ msgstr ""
 "Замінити?"
 
 #. Programmer's name for it: SAS_ERR_FileNotExistFmt
+#, no-object-pascal-format
 msgid "File %0:s not exist"
 msgstr "Файл %0:s не існує"
 
 #. Programmer's name for it: SAS_ERR_FileNotFoundFmt
+#, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "Файл %0:s не знайдено"
 
@@ -2071,6 +2191,7 @@ msgid "files"
 msgstr "файлів"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDDuplicate
+#, no-object-pascal-format
 msgid "Files %0:s and %1:s have the same GUID"
 msgstr "У файлах %0:s та %1:s однакові GUID"
 
@@ -2091,6 +2212,7 @@ msgstr "Дата створення"
 msgid "Filter"
 msgstr "Фільтр"
 
+#, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
 msgstr "Фільтр: \"%s\" (%d)"
 
@@ -2337,6 +2459,7 @@ msgid "GPS On/Off"
 msgstr "GPS Увімкн/Вимкн"
 
 #. Programmer's name for it: SAS_MSG_UnknownGPSOrigin
+#, object-pascal-format
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "GPS помилкові налаштування: невідомий режим %d"
 
@@ -2431,15 +2554,19 @@ msgstr "Гаряча клавіша вже використовується, б�
 msgid "Hotkeys"
 msgstr "Гарячі клавіші"
 
+#, object-pascal-format
 msgid "HTTP %d Bad Request"
 msgstr "HTTP поганий запит:  %d"
 
+#, object-pascal-format
 msgid "HTTP %d No Content"
 msgstr "HTTP немає вмісту: %d"
 
+#, object-pascal-format
 msgid "HTTP %d Not Found"
 msgstr "HTTP не знайдено: %d"
 
+#, object-pascal-format
 msgid "HTTP %d Unknown Error"
 msgstr "HTTP невідома помилка: %d"
 
@@ -2548,6 +2675,7 @@ msgstr "IMG растрова карта для Garmin"
 msgid "Import"
 msgstr "Імпорт"
 
+#, object-pascal-format
 msgid ""
 "Import finished. Total processed: %d files. Successfull imported: %d files.\n"
 "Fit to screen the last imported item?"
@@ -2566,6 +2694,7 @@ msgid "Include alpha channel"
 msgstr "Зберігати PNG з прозорістю"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDBad
+#, no-object-pascal-format
 msgid "Incorrect GUID: %0:s"
 msgstr "GUID %0:s не відповідає формату"
 
@@ -2619,6 +2748,7 @@ msgid "Intersection (AND)"
 msgstr "Перетин (AND)"
 
 #. Programmer's name for it: rsInvalidDelete
+#, object-pascal-format
 msgid ""
 "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
 msgstr ""
@@ -2749,6 +2879,7 @@ msgstr "Параметри шару"
 msgid "Layers"
 msgstr "Шари"
 
+#, object-pascal-format
 msgid "Layers (%d)"
 msgstr "Шари (%d)"
 
@@ -2760,6 +2891,7 @@ msgstr "Шари:"
 msgid "Length"
 msgstr "Довжина"
 
+#, object-pascal-format
 msgid "Length: %s"
 msgstr "Довжина: %s"
 
@@ -2778,16 +2910,19 @@ msgstr "Лінія:"
 
 #. Programmer's name for it: SListCapacityError
 #. Programmer's name for it: SListCapacityError
+#, object-pascal-format
 msgid "List capacity out of bounds (%d)"
 msgstr ""
 
 #. Programmer's name for it: SListCountError
 #. Programmer's name for it: SListCountError
+#, object-pascal-format
 msgid "List count out of bounds (%d)"
 msgstr ""
 
 #. Programmer's name for it: SListIndexError
 #. Programmer's name for it: SListIndexError
+#, object-pascal-format
 msgid "List index out of bounds (%d)"
 msgstr ""
 
@@ -2902,6 +3037,7 @@ msgstr "Кодова сторінка"
 msgid "Map compilation failed."
 msgstr "Збій підчас компіляції карти"
 
+#, object-pascal-format
 msgid ""
 "Map compilation failed. The map compiler reported the following error: %s"
 msgstr ""
@@ -2911,6 +3047,7 @@ msgstr ""
 msgid "Map enabled"
 msgstr "Використати карту"
 
+#, object-pascal-format
 msgid ""
 "Map has unknown projection (EPSG=%d).\n"
 "Do you want to set the projection manually?"
@@ -2999,6 +3136,7 @@ msgstr "Тип карти:"
 msgid "Maps"
 msgstr "Карти"
 
+#, object-pascal-format
 msgid "Maps (%d)"
 msgstr "Карти  (%d)"
 
@@ -3043,17 +3181,21 @@ msgstr ""
 msgid "Marks Parameters"
 msgstr "Параметри позначок"
 
+#, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Database GUID read error!"
 msgstr ""
 
 #. ORM
+#, object-pascal-format
 msgid "MarkSystemConfig: Item #%d has unknown Impl GUID: %s"
 msgstr ""
 
 #. ORM
+#, object-pascal-format
 msgid "MarkSystemConfig: Item #%d has unknown Impl interface!"
 msgstr ""
 
+#, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr ""
 
@@ -3123,6 +3265,7 @@ msgid "Merge Polygons"
 msgstr "Злиття полігонів"
 
 #. Programmer's name for it: rsMergeFinish
+#, object-pascal-format
 msgid ""
 "Merge process completed successfully!\n"
 "Result contains %d polygon(s) with %d hole(s)"
@@ -3150,6 +3293,11 @@ msgstr "Згорнути"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBMinimizeToTray..Caption
 msgid "Minimize to tray"
 msgstr "Згорнути в трей"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..mmoCacheState....Lines.Strings
+#, fuzzy
+msgid "mmoCacheState"
+msgstr "Тип кешу"
 
 msgid "MOBAC cache folder:"
 msgstr "Шлях до кешу MOBAC:"
@@ -3229,6 +3377,7 @@ msgstr "Ім'я (у списку)"
 msgid "Name:"
 msgstr "Назва:"
 
+#, object-pascal-format
 msgid "Name: %s"
 msgstr "Назва: %s"
 
@@ -3324,7 +3473,7 @@ msgstr "Нічого експортувати!"
 msgid "No write access to current Marks DB!"
 msgstr "Немає доступу на запис до обраної бази міток"
 
-#. check storage write access
+#. Programmer's name for it: rsNoWriteAccess
 msgid "No write access to tile storage"
 msgstr "Немає доступу на запис до тайлосховища"
 
@@ -3372,6 +3521,7 @@ msgstr "Кількість тайлів"
 msgid "Number of tiles to be cached in RAM"
 msgstr "Кількість тайлів, що кешується в оперативну пам’ять"
 
+#, no-object-pascal-format
 msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s"
 msgstr "Кількість тайлів: %0:sx%1:s (%2:s), розмір: %3:sx%4:s"
 
@@ -3472,6 +3622,7 @@ msgstr "Прозорість"
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
+#, no-object-pascal-format
 msgid "Opacity %"
 msgstr "Прозорість %"
 
@@ -3618,6 +3769,7 @@ msgstr ""
 msgid "Parent submenu"
 msgstr "Батьківський пункт меню"
 
+#, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Кількість частин: %d"
 
@@ -3635,6 +3787,7 @@ msgid "Paste"
 msgstr "Пауза"
 
 #. Programmer's name for it: SAS_STR_NewPath
+#, no-object-pascal-format
 msgid "Path %0:d"
 msgstr "Шлях %0:d"
 
@@ -3707,6 +3860,7 @@ msgid "Paused by user..."
 msgstr "Призупинено користувачем..."
 
 #. Programmer's name for it: SAS_STR_Paused
+#, no-object-pascal-format
 msgid "Paused... (%0:s)"
 msgstr "Призупинено... (%0:s)"
 
@@ -3714,6 +3868,7 @@ msgstr "Призупинено... (%0:s)"
 msgid "Perimeter"
 msgstr "Периметр"
 
+#, object-pascal-format
 msgid "Perimeter: %s"
 msgstr "Периметр: %s"
 
@@ -3726,6 +3881,7 @@ msgid "Placemark"
 msgstr " Позначки "
 
 #. Programmer's name for it: SAS_STR_NewMark
+#, no-object-pascal-format
 msgid "Placemark %0:d"
 msgstr "Позначка %0:d"
 
@@ -3856,10 +4012,12 @@ msgstr "PNG (повнокольоровий)"
 msgid "Pointer size:"
 msgstr "Розмір вказівника напрямку:"
 
+#, object-pascal-format
 msgid "Points count: %d"
 msgstr "Кількість точок: %d"
 
 #. Programmer's name for it: SAS_STR_NewPoly
+#, no-object-pascal-format
 msgid "Polygon %0:d"
 msgstr "Полігон %0:d"
 
@@ -3883,6 +4041,7 @@ msgid "Polyline Selection"
 msgstr "Виділення по шляху"
 
 #. Programmer's name for it: rsPoolIsDesabled
+#, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул вимкнено - Неможливо отримати db: %s"
 
@@ -3930,6 +4089,7 @@ msgid "Processed"
 msgstr "Оброблено"
 
 #. Programmer's name for it: rsProcessedAt
+#, no-object-pascal-format
 msgid "Processed at: %.8f sec."
 msgstr "Оброблено за: %.8f сек."
 
@@ -3942,6 +4102,7 @@ msgid "Processed:"
 msgstr "Оброблено:"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
+#, no-object-pascal-format
 msgid "Processing tile: %0:s ..."
 msgstr "Обробка файла: %0:s ..."
 
@@ -4015,6 +4176,7 @@ msgid "Quality (for JPEG):"
 msgstr "Якість (для JPEG):"
 
 #. frMapCombineCustomOptions..flwpnlJpegQuality..lblJpgQulity..Caption
+#, no-object-pascal-format
 msgid "Quality, %"
 msgstr "Якість, %"
 
@@ -4327,6 +4489,7 @@ msgstr "Куди зберігати:"
 msgid "Save zmp"
 msgstr "Зберегти zmp"
 
+#, object-pascal-format
 msgid "Saving tiles. %s %d %s"
 msgstr "Збереження тайлів. %s %d %s"
 
@@ -4395,6 +4558,7 @@ msgid "Selected basemap"
 msgstr "Вибір основної карти"
 
 #. Programmer's name for it: SAS_MSG_DeleteSubCategoryAsk
+#, object-pascal-format
 msgid ""
 "Selected category \"%0:s\" contain %d sub categories. Are you realy want to "
 "delete all of them?"
@@ -4403,6 +4567,7 @@ msgstr ""
 "видалити їх усі?"
 
 #. Programmer's name for it: SAS_ERR_ImageIsTooBig
+#, object-pascal-format
 msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
@@ -4448,10 +4613,12 @@ msgid "Serial port"
 msgstr "COM-порт"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
+#, no-object-pascal-format
 msgid "Server returned type \"%0:s\", this is not bitmap image"
 msgstr "Сервіс повернув тип \"%0:s\", це не растрове зображення"
 
 #. Programmer's name for it: SAS_ERR_BadMIME
+#, no-object-pascal-format
 msgid "Server returned unexpected type \"%0:s\""
 msgstr "Сервіс повернув несподіваний тип \"%0:s\""
 
@@ -4742,10 +4909,12 @@ msgid "Size:"
 msgstr "Розмір:"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressCaption
+#, no-object-pascal-format
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "Розмір: %0:dx%1:d Розбити на %2:d файлів"
 
 #. Programmer's name for it: rsPositionInfo
+#, object-pascal-format
 msgid "Size: %dx%d; Mouse at: %dx%d"
 msgstr "Розмір: %dx%d; Миша: %dx%d"
 
@@ -4863,6 +5032,7 @@ msgid "Stitch selection"
 msgstr "Склеїти виділений фрагмент"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressLine0
+#, no-object-pascal-format
 msgid "Stitch: %0:dx%1:d (%2:d) files"
 msgstr "Склеїти: %0:dx%1:d (%2:d) файлів"
 
@@ -4994,6 +5164,7 @@ msgid "There are no available objects in the pool!"
 msgstr "Немає доступних об'єктів у пулі!"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
+#, no-object-pascal-format
 msgid "There is an error %1:s in map %0:s"
 msgstr "У карті %0:s помилка: %1:s"
 
@@ -5032,6 +5203,7 @@ msgid "Tile"
 msgstr "Тайлові"
 
 #. Programmer's name for it: SAS_MSG_TileExists
+#, no-object-pascal-format
 msgid ""
 "Tile %0:s is available in cache.\n"
 "Replace?"
@@ -5055,6 +5227,7 @@ msgstr "Показувати координати тайла"
 msgid "Tile is not found!"
 msgstr "Такого зображення немає на сервері!"
 
+#, object-pascal-format
 msgid "Tile is not found! Status code %d"
 msgstr "Такого зображення немає на сервері! Код статусу %d"
 
@@ -5152,6 +5325,7 @@ msgstr "Неможливо визначити позицію"
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Неможливо завантажити жодної карти! Преривання..."
 
+#, object-pascal-format
 msgid "Unexpected content type %s"
 msgstr ""
 
@@ -5193,6 +5367,7 @@ msgstr "Невідома помилка в СУБД, див. Налаштува�
 msgid "Unknown error during download"
 msgstr "Невідома помилка при завантаженні"
 
+#, object-pascal-format
 msgid "Unknown status code %d"
 msgstr "Помилка завантаження. Невідомий статус коду %d"
 
@@ -5410,6 +5585,7 @@ msgid "Volume Size"
 msgstr "Розмір тому"
 
 #. Programmer's name for it: SAS_ERR_WaitTime
+#, no-object-pascal-format
 msgid "Wait %0:d seconds..."
 msgstr "Чекаємо %0:d секунд..."
 
@@ -5485,7 +5661,6 @@ msgstr ""
 msgid "ZMP Filename"
 msgstr "Шлях до файла"
 
-#. Programmer's name for it: rsSuccessfullyExecuted
 msgid ""
 "ZMP has been modified, but not saved yet!\n"
 "\n"

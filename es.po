@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-10 11:40\n"
+"POT-Creation-Date: 2019-05-28 13:24\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
-"Language: es\n"
 
 #. frExportToIMG..PageControl1..Map..pnlListMaps..pnlButtons..btnRemoveLayer..Caption
 msgid "-"
@@ -62,34 +62,42 @@ msgid "$79999999"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPathCaption
+#, object-pascal-format
 msgid "%0:s (MultiPath %d)"
 msgstr "%0:s (MultiRuta %d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPointCaption
+#, object-pascal-format
 msgid "%0:s (MultiPlacemark %d)"
 msgstr "%0:s (MultiMarca %d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPolygonCaption
+#, object-pascal-format
 msgid "%0:s (MultiPolygon %d)"
 msgstr "%0:s (MultiPolígono %d)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPathCaption
+#, no-object-pascal-format
 msgid "%0:s (Path)"
 msgstr "%0:s (Ruta)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPointCaption
+#, no-object-pascal-format
 msgid "%0:s (Placemark)"
 msgstr "%0:s (Marca)"
 
 #. Programmer's name for it: SAS_STR_ExtendedPolygonCaption
+#, no-object-pascal-format
 msgid "%0:s (Polygon)"
 msgstr "%0:s (Polígono)"
 
 #. Programmer's name for it: SAS_STR_DownloadingCaption
+#, no-object-pascal-format
 msgid "%0:s Downloading"
 msgstr "%0:s Descargando"
 
 #. Programmer's name for it: rsDownloadProgressInfo
+#, object-pascal-format
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f of %.2f MB (%.2f%s)"
 
@@ -126,6 +134,7 @@ msgid "&View"
 msgstr "&Vista"
 
 #. Programmer's name for it: SAS_ERR_TimeZoneInfoDisabled
+#, object-pascal-format
 msgid "(%s not found!)"
 msgstr "(%s ¡no encontrado!)"
 
@@ -139,10 +148,12 @@ msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
+#, no-object-pascal-format
 msgid "(zoom %)"
 msgstr "(zoom %)"
 
 #. Programmer's name for it: rsLimitHint
+#, object-pascal-format
 msgid "* - Limited by max concurrent http(s) requests for current map: %d"
 msgstr ""
 "* - Limitado por máximo de peticiones http(s) concurrentes para el mapa "
@@ -412,16 +423,22 @@ msgstr "Acerca de..."
 msgid "Absolute"
 msgstr "Acerca de..."
 
+msgid "Access is denied"
+msgstr ""
+
 #. frMapSelect..FilterPopupMenu..TBX_Active..Caption
 msgid "Active"
 msgstr "Activos"
 
+#, object-pascal-format
 msgid "Active Layers (%d)"
 msgstr "Layers Activos (%d)"
 
+#, object-pascal-format
 msgid "Active Maps (%d)"
 msgstr "Mapas Activos (%d)"
 
+#, object-pascal-format
 msgid "Active Maps + Layers (%d)"
 msgstr "Mapas + Layers Activos (%d)"
 
@@ -571,6 +588,7 @@ msgstr "Operaciones Adicionales"
 msgid "All"
 msgstr "Todo"
 
+#, object-pascal-format
 msgid "All (%d)"
 msgstr "Todo (%d)"
 
@@ -592,6 +610,54 @@ msgstr "Todos los Servicios"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
 msgstr "Todos los Visibles"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
+msgid "Allow Add"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkDeleteAccess..Caption
+#, fuzzy
+msgid "Allow Delete"
+msgstr "Borrar"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkReadAccess..Caption
+msgid "Allow Read"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkReplaceAccess..Caption
+msgid "Allow Replace"
+msgstr ""
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkScanAccess..Caption
+msgid "Allow Scan"
+msgstr ""
+
+#, fuzzy, object-pascal-format
+msgid "Allowed: %s"
+msgstr "Área: %s"
+
+#, fuzzy
+msgctxt "Allowed"
+msgid "Add"
+msgstr "Agregar"
+
+#, fuzzy
+msgctxt "Allowed"
+msgid "Delete"
+msgstr "Borrar"
+
+#, fuzzy
+msgctxt "Allowed"
+msgid "Read"
+msgstr "Lectura solamente"
+
+msgctxt "Allowed"
+msgid "Replace"
+msgstr ""
+
+msgctxt "Allowed"
+msgid "Scan"
+msgstr ""
 
 #. Programmer's name for it: rsAlt
 msgid "Alt."
@@ -628,10 +694,12 @@ msgid "Approx. to download:"
 msgstr "Restan descargar (aprox.):"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete %0:d placemarks?"
 msgstr "¿Está seguro de querer borrar %0:d de marcas?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
 msgstr "¿Está seguro de querer borrar las categorías con nombre \"%0:s\"?"
 
@@ -639,6 +707,7 @@ msgstr "¿Está seguro de querer borrar las categorías con nombre \"%0:s\"?"
 msgid "Are you sure you want to delete current GPS track?"
 msgstr "¿Está seguro de querer borrar la actual derrota del GPS?"
 
+#, object-pascal-format
 msgid "Are you sure you want to delete database \"%s\"?"
 msgstr "¿Está seguro de querer borrar la database \"%s\"?"
 
@@ -647,23 +716,28 @@ msgid "Are you sure you want to delete Marks in selected region?"
 msgstr "¿Está seguro de querer borrar las marcas en la región seleccionada?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete path with name \"%0:s\"?"
 msgstr "¿Está seguro de querer borrar ruta con nombre \"%0:s\"?"
 
+#, no-object-pascal-format
 msgid ""
 "Are you sure you want to delete placemark of unknown type with name \"%0:s\"?"
 msgstr ""
 "¿Está seguro de querer borrar marcas de tipo desconocido con nombre \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete point with name \"%0:s\"?"
 msgstr "¿Está seguro de querer borrar el punto de nombre \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPolyAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
 msgstr "¿Está seguro de querer borrar el polígono \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
+#, no-object-pascal-format
 msgid "Are you sure you want to delete tile with name \"%0:s\"?"
 msgstr "¿Está seguro de querer borrar mosaico \"%0:s\"?"
 
@@ -683,6 +757,7 @@ msgstr "Área"
 msgid "Area representation"
 msgstr "Representación de Área"
 
+#, object-pascal-format
 msgid "Area: %s"
 msgstr "Área: %s"
 
@@ -898,6 +973,11 @@ msgstr ""
 msgid "Cache"
 msgstr "Caché"
 
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..Caption
+#, fuzzy
+msgid "Cache abilities"
+msgstr "Mapa mosaicos en caché"
+
 #. frmMapTypeEdit..PageControl1..tsOthers..Caption
 msgid "Cache and Other"
 msgstr "Caché y Otros"
@@ -907,6 +987,7 @@ msgid "Cache conversion is finished!"
 msgstr "¡Conversión de Caché terminada!"
 
 #. Programmer's name for it: SAS_ERR_ContentTypeMismatch
+#, object-pascal-format
 msgid ""
 "Cache converter aborted with error: Content-Type mismatch!\n"
 "Source: %s\n"
@@ -936,6 +1017,11 @@ msgstr "Administrador de Cachés"
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlCache..lblCacheSize..Caption
 msgid "Cache Size, Mb:"
 msgstr "Tamaño Caché, Mb:"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..lblCacheState..Caption
+#, fuzzy
+msgid "Cache state:"
+msgstr "Tipo Caché"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..lblCacheType..Caption
 msgid "Cache type"
@@ -1009,6 +1095,7 @@ msgid "Cannot parse tile to get its version"
 msgstr "No se puede analizar el mosaico para obtener su versión"
 
 #. Programmer's name for it: rsCantAcquireDB
+#, object-pascal-format
 msgid "Can't acquire db: %s"
 msgstr "Imposible conectar db: %s"
 
@@ -1022,6 +1109,7 @@ msgstr "Imposible inicializar mosaicos en memoria. ¡Chequear configuración!"
 msgid "Can't load bitmap from source type"
 msgstr "No se puede cargar bitmap desde tipo de fuente"
 
+#, object-pascal-format
 msgid "Can't open file: %s"
 msgstr "Imposible abrir archivo: %s"
 
@@ -1050,6 +1138,7 @@ msgstr "Cascada"
 msgid "Category:"
 msgstr "Categoría:"
 
+#, object-pascal-format
 msgid "Category: %s"
 msgstr "Categoría: %s"
 
@@ -1064,6 +1153,9 @@ msgstr "Centrar Posición GPS"
 #, fuzzy
 msgid "Change source zoom"
 msgstr "Zoom Actual"
+
+msgid "Changes will take effect after restart."
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_BattaryStateCharge
 msgid "Charging"
@@ -1128,6 +1220,7 @@ msgid "Color only"
 msgstr "Color solo"
 
 #. Programmer's name for it: rsDefaultColorSchemaFmt
+#, object-pascal-format
 msgid "Color schema %d"
 msgstr ""
 
@@ -1148,6 +1241,7 @@ msgid "Community  (http://www.sasgis.org/forum)"
 msgstr "Comunidad (http://www.sasgis.org/forum)"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
+#, no-object-pascal-format
 msgid ""
 "Compilation error in script \n"
 "%0:s"
@@ -1221,6 +1315,7 @@ msgstr "Conectar GPS"
 msgid "Connect to GPS Receiver"
 msgstr "Conectar GPS"
 
+#, object-pascal-format
 msgid "Connect to server error. Error code %d"
 msgstr "Error de conección a servidor. Código de error %d"
 
@@ -1268,6 +1363,7 @@ msgstr "Representación de coordenadas"
 msgid "Coordinates type"
 msgstr "Coordenadas"
 
+#, object-pascal-format
 msgid "Coordinates: %s"
 msgstr "Coordenadas: %s"
 
@@ -1308,10 +1404,11 @@ msgstr "Copiando"
 msgid "Could not build IMG file."
 msgstr ""
 
+#, object-pascal-format
 msgid "Could not start GMapTool: %s."
 msgstr ""
 
-#, fuzzy
+#, fuzzy, object-pascal-format
 msgid "Could not start the map compiler: %s."
 msgstr "Carpeta de Iconos"
 
@@ -1489,6 +1586,7 @@ msgstr "Borrar"
 msgid "Delete empty tiles"
 msgstr "Borrar mosaicos vacíos"
 
+#, object-pascal-format
 msgid "Delete from Favorites: '%s'?"
 msgstr "¿Borrar de Favoritos: '%s'?"
 
@@ -1563,6 +1661,7 @@ msgstr "Borrando:"
 msgid "Description:"
 msgstr "Descripción:"
 
+#, object-pascal-format
 msgid ""
 "Description:<br>\n"
 "%s"
@@ -1611,6 +1710,7 @@ msgid "Direct tiles copy (without any modifications)"
 msgstr "Copia directa de mosaicos (sin ninguna modificación)"
 
 #. Programmer's name for it: SAS_ERR_DirectoryNotExistFmt
+#, no-object-pascal-format
 msgid "Directory %0:s not exist"
 msgstr "Directorio %0:s no existe"
 
@@ -1719,12 +1819,17 @@ msgid "Download completed"
 msgstr "Descarga completa"
 
 #. Programmer's name for it: rsDownloadFinished
+#, object-pascal-format
 msgid ""
 "Download completed successfully. You can update the program manually from "
 "file: %s"
 msgstr ""
 "Descarga completada. Puede actualizar el programa manualmente con el "
 "archivo: %s"
+
+#, fuzzy
+msgid "Download Disabled"
+msgstr "Descarga habilitada"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
 msgid "Download enabled"
@@ -1734,12 +1839,15 @@ msgstr "Descarga habilitada"
 msgid "Download Enabled"
 msgstr "Descarga habilitada"
 
+#, object-pascal-format
 msgid "Download error. Error code %d"
 msgstr "Error Descarga. Código error %d"
 
+#, object-pascal-format
 msgid "Download error. Status code %d"
 msgstr "Error Descarga. Código error %d"
 
+#, object-pascal-format
 msgid "Download error. Unknown status code %d"
 msgstr "Error Descarga. Código error desconocido %d"
 
@@ -1868,6 +1976,7 @@ msgid "Edit the database"
 msgstr "Editar Database"
 
 #. Programmer's name for it: rsElapsedTime
+#, object-pascal-format
 msgid "Elapsed time: %s"
 msgstr "Tiempo transcurrido: %s"
 
@@ -1951,6 +2060,7 @@ msgid "Error in parameters!"
 msgstr "¡Error en parámetros!"
 
 #. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
+#, no-object-pascal-format
 msgid "Error in projection \"%0:s\" of the map"
 msgstr "Error de projección \"%0:s\" del mapa"
 
@@ -1959,6 +2069,7 @@ msgid "Error opening port!"
 msgstr "¡Error abriendo puerto!"
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
+#, object-pascal-format
 msgid "Error parsing coordinates: Lat=%s Lon=%s"
 msgstr "Error analizando coordenadas: Lat=%s Lon=%s"
 
@@ -1970,15 +2081,19 @@ msgstr "¡Error durante guardado!"
 msgid "Event"
 msgstr ""
 
+#, no-object-pascal-format
 msgid "Every map part must have height less than %0:d but exist %1:d"
 msgstr "Toda parte de mapa debe tener menos altura que %0:d pero existe %1:d"
 
+#, no-object-pascal-format
 msgid "Every map part must have height more than %0:d but exist %1:d"
 msgstr "Toda parte de mapa debe tener más altura que %0:d pero existe %1:d"
 
+#, no-object-pascal-format
 msgid "Every map part must have width less than %0:d but exist %1:d"
 msgstr "Toda parte de mapa debe tener menor ancho que %0:d pero existe %1:d"
 
+#, no-object-pascal-format
 msgid "Every map part must have width more than %0:d but exist %1:d"
 msgstr "Toda parte de mapa debe tener más ancho que %0:d pero existe %1:d"
 
@@ -2071,6 +2186,7 @@ msgid "File"
 msgstr "Archivo"
 
 #. Programmer's name for it: SAS_MSG_FileExists
+#, no-object-pascal-format
 msgid ""
 "File %0:s is available on disk.\n"
 "Replace?"
@@ -2079,10 +2195,12 @@ msgstr ""
 "¿Reemplazar?"
 
 #. Programmer's name for it: SAS_ERR_FileNotExistFmt
+#, no-object-pascal-format
 msgid "File %0:s not exist"
 msgstr "Archivo %0:s no existe"
 
 #. Programmer's name for it: SAS_ERR_FileNotFoundFmt
+#, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "Archivo %0:s no encontrado"
 
@@ -2100,6 +2218,7 @@ msgid "files"
 msgstr "Archivos"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDDuplicate
+#, no-object-pascal-format
 msgid "Files %0:s and %1:s have the same GUID"
 msgstr "Archivos %0:s y %1:s tienen el mismo GUID"
 
@@ -2120,6 +2239,7 @@ msgstr "Llenar fechas"
 msgid "Filter"
 msgstr "Filtro"
 
+#, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
 msgstr "Filtrar: \"%s\" (%d)"
 
@@ -2368,6 +2488,7 @@ msgid "GPS On/Off"
 msgstr "GPS On/Off"
 
 #. Programmer's name for it: SAS_MSG_UnknownGPSOrigin
+#, object-pascal-format
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "Origen GPS mal configurado: modo desconocido %d"
 
@@ -2464,15 +2585,19 @@ msgstr "Hotkey en uso. Por favor seleccione otra"
 msgid "Hotkeys"
 msgstr "Hotkeys"
 
+#, object-pascal-format
 msgid "HTTP %d Bad Request"
 msgstr "HTTP %d Requerimiento incorrecto"
 
+#, object-pascal-format
 msgid "HTTP %d No Content"
 msgstr "HTTP %d Sin contenido"
 
+#, object-pascal-format
 msgid "HTTP %d Not Found"
 msgstr "HTTP %d No encontrado"
 
+#, object-pascal-format
 msgid "HTTP %d Unknown Error"
 msgstr "HTTP %d error desconocido"
 
@@ -2585,6 +2710,7 @@ msgstr "Mapa raster JNX para Garmin"
 msgid "Import"
 msgstr "Importar"
 
+#, object-pascal-format
 msgid ""
 "Import finished. Total processed: %d files. Successfull imported: %d files.\n"
 "Fit to screen the last imported item?"
@@ -2602,6 +2728,7 @@ msgid "Include alpha channel"
 msgstr "Incluir canal alpha"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDBad
+#, no-object-pascal-format
 msgid "Incorrect GUID: %0:s"
 msgstr "GUID Incorrect : %0:s"
 
@@ -2655,6 +2782,7 @@ msgid "Intersection (AND)"
 msgstr "Intersection (AND)"
 
 #. Programmer's name for it: rsInvalidDelete
+#, object-pascal-format
 msgid ""
 "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
 msgstr ""
@@ -2789,6 +2917,7 @@ msgstr "Opciones de Layers"
 msgid "Layers"
 msgstr "Layers"
 
+#, object-pascal-format
 msgid "Layers (%d)"
 msgstr "Layers (%d)"
 
@@ -2800,6 +2929,7 @@ msgstr "Layers:"
 msgid "Length"
 msgstr "Longitud"
 
+#, object-pascal-format
 msgid "Length: %s"
 msgstr "Longitud: %s"
 
@@ -2818,16 +2948,19 @@ msgstr "Linea:"
 
 #. Programmer's name for it: SListCapacityError
 #. Programmer's name for it: SListCapacityError
+#, fuzzy, object-pascal-format
 msgid "List capacity out of bounds (%d)"
 msgstr "Capacidad de Lista fuera de límites"
 
 #. Programmer's name for it: SListCountError
 #. Programmer's name for it: SListCountError
+#, fuzzy, object-pascal-format
 msgid "List count out of bounds (%d)"
 msgstr "Cuenta de Lista fuera de límites"
 
 #. Programmer's name for it: SListIndexError
 #. Programmer's name for it: SListIndexError
+#, fuzzy, object-pascal-format
 msgid "List index out of bounds (%d)"
 msgstr "Índice de Lista fuera de límites"
 
@@ -2943,6 +3076,7 @@ msgstr ""
 msgid "Map compilation failed."
 msgstr ""
 
+#, object-pascal-format
 msgid ""
 "Map compilation failed. The map compiler reported the following error: %s"
 msgstr ""
@@ -2951,6 +3085,7 @@ msgstr ""
 msgid "Map enabled"
 msgstr "Mapa habilitado"
 
+#, object-pascal-format
 msgid ""
 "Map has unknown projection (EPSG=%d).\n"
 "Do you want to set the projection manually?"
@@ -3041,6 +3176,7 @@ msgstr "Mapa:"
 msgid "Maps"
 msgstr "Mapas"
 
+#, object-pascal-format
 msgid "Maps (%d)"
 msgstr "Mapas (%d)"
 
@@ -3085,17 +3221,21 @@ msgstr ""
 msgid "Marks Parameters"
 msgstr "Parámetros de Marca"
 
+#, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Database GUID read error!"
 msgstr "¡MarkSystemConfig: Item #%d Database GUID error de lectura!"
 
 #. ORM
+#, object-pascal-format
 msgid "MarkSystemConfig: Item #%d has unknown Impl GUID: %s"
 msgstr "MarkSystemConfig: Item #%d tiene Impl GUID no conocida: %s"
 
 #. ORM
+#, object-pascal-format
 msgid "MarkSystemConfig: Item #%d has unknown Impl interface!"
 msgstr "¡MarkSystemConfig: Item #%d tiene interfase Impl no conocida!"
 
+#, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr "¡MarkSystemConfig: Item #%d Impl GUID error de lectura!"
 
@@ -3165,6 +3305,7 @@ msgid "Merge Polygons"
 msgstr "Combinar Polígonos"
 
 #. Programmer's name for it: rsMergeFinish
+#, object-pascal-format
 msgid ""
 "Merge process completed successfully!\n"
 "Result contains %d polygon(s) with %d hole(s)"
@@ -3191,6 +3332,11 @@ msgstr "Minimizar"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBMinimizeToTray..Caption
 msgid "Minimize to tray"
 msgstr "Minimizar en Notificaciones Windows"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..mmoCacheState....Lines.Strings
+#, fuzzy
+msgid "mmoCacheState"
+msgstr "Tipo Caché"
 
 msgid "MOBAC cache folder:"
 msgstr "Carpeta del Caché MOBAC"
@@ -3272,6 +3418,7 @@ msgstr "Nombre (en la lista)"
 msgid "Name:"
 msgstr "Nombre:"
 
+#, object-pascal-format
 msgid "Name: %s"
 msgstr "Nombre: %s"
 
@@ -3370,7 +3517,7 @@ msgstr "¡Nada para importar!"
 msgid "No write access to current Marks DB!"
 msgstr "Sin acceso de grabación a almacenamiento de mosaicos"
 
-#. check storage write access
+#. Programmer's name for it: rsNoWriteAccess
 msgid "No write access to tile storage"
 msgstr "Sin acceso de grabación a almacenamiento de mosaicos"
 
@@ -3420,6 +3567,7 @@ msgstr "Número de mosaicos"
 msgid "Number of tiles to be cached in RAM"
 msgstr "Número de mosaicos en caché RAM"
 
+#, no-object-pascal-format
 msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s"
 msgstr "Número de mosaicos: %0:sx%1:s (%2:s), tamaño: %3:sx%4:s"
 
@@ -3521,6 +3669,7 @@ msgstr "Opacidad"
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
+#, no-object-pascal-format
 msgid "Opacity %"
 msgstr "Opacidad %"
 
@@ -3667,6 +3816,7 @@ msgstr "Params.txt"
 msgid "Parent submenu"
 msgstr "Submenu padre"
 
+#, fuzzy, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Número de componentes: % d"
 
@@ -3684,6 +3834,7 @@ msgid "Paste"
 msgstr "Pausa"
 
 #. Programmer's name for it: SAS_STR_NewPath
+#, no-object-pascal-format
 msgid "Path %0:d"
 msgstr "Ruta %0:d"
 
@@ -3759,6 +3910,7 @@ msgid "Paused by user..."
 msgstr "En Pausa por el Usuario"
 
 #. Programmer's name for it: SAS_STR_Paused
+#, no-object-pascal-format
 msgid "Paused... (%0:s)"
 msgstr "En Pausa... (%0:s)"
 
@@ -3766,6 +3918,7 @@ msgstr "En Pausa... (%0:s)"
 msgid "Perimeter"
 msgstr "Perímetro"
 
+#, object-pascal-format
 msgid "Perimeter: %s"
 msgstr "Perímetro: %s"
 
@@ -3778,6 +3931,7 @@ msgid "Placemark"
 msgstr "Posición"
 
 #. Programmer's name for it: SAS_STR_NewMark
+#, no-object-pascal-format
 msgid "Placemark %0:d"
 msgstr "Posicione %0:d"
 
@@ -3910,10 +4064,12 @@ msgstr "PNG (Color Verdadero)"
 msgid "Pointer size:"
 msgstr "Tamaño"
 
+#, object-pascal-format
 msgid "Points count: %d"
 msgstr "Cuenta de Puntos: %d"
 
 #. Programmer's name for it: SAS_STR_NewPoly
+#, no-object-pascal-format
 msgid "Polygon %0:d"
 msgstr "Polígono %0:d"
 
@@ -3937,6 +4093,7 @@ msgid "Polyline Selection"
 msgstr "Selección Polilínea"
 
 #. Programmer's name for it: rsPoolIsDesabled
+#, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Pool Inabilitado - Sin adquirir db: %s"
 
@@ -3984,6 +4141,7 @@ msgid "Processed"
 msgstr "Procesados"
 
 #. Programmer's name for it: rsProcessedAt
+#, no-object-pascal-format
 msgid "Processed at: %.8f sec."
 msgstr "Procesados a: %.8f sec."
 
@@ -3996,6 +4154,7 @@ msgid "Processed:"
 msgstr "Procesados:"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
+#, no-object-pascal-format
 msgid "Processing tile: %0:s ..."
 msgstr "Mosaicos procesados: %0:s ..."
 
@@ -4069,6 +4228,7 @@ msgid "Quality (for JPEG):"
 msgstr "Calidad (para JPEG):"
 
 #. frMapCombineCustomOptions..flwpnlJpegQuality..lblJpgQulity..Caption
+#, no-object-pascal-format
 msgid "Quality, %"
 msgstr "Calidad, %"
 
@@ -4383,6 +4543,7 @@ msgstr "Guardar en:"
 msgid "Save zmp"
 msgstr "Guardar zmp"
 
+#, object-pascal-format
 msgid "Saving tiles. %s %d %s"
 msgstr ""
 
@@ -4451,6 +4612,7 @@ msgid "Selected basemap"
 msgstr "Mapa Seleccionado"
 
 #. Programmer's name for it: SAS_MSG_DeleteSubCategoryAsk
+#, object-pascal-format
 msgid ""
 "Selected category \"%0:s\" contain %d sub categories. Are you realy want to "
 "delete all of them?"
@@ -4459,6 +4621,7 @@ msgstr ""
 "querer borrarlas todas?"
 
 #. Programmer's name for it: SAS_ERR_ImageIsTooBig
+#, object-pascal-format
 msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
@@ -4504,10 +4667,12 @@ msgid "Serial port"
 msgstr "Puerto serial"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
+#, no-object-pascal-format
 msgid "Server returned type \"%0:s\", this is not bitmap image"
 msgstr "El servidor retornó tipo \"%0:s\", esto no es una imaqen bitmap"
 
 #. Programmer's name for it: SAS_ERR_BadMIME
+#, no-object-pascal-format
 msgid "Server returned unexpected type \"%0:s\""
 msgstr "Servidor retornó tipo no esperado \"%0:s\""
 
@@ -4799,10 +4964,12 @@ msgid "Size:"
 msgstr "Tamaño:"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressCaption
+#, no-object-pascal-format
 msgid "Size: %0:dx%1:d. Split to %2:d files"
 msgstr "tamaño: %0:dx%1:d. abierto en %2:d archivos"
 
 #. Programmer's name for it: rsPositionInfo
+#, object-pascal-format
 msgid "Size: %dx%d; Mouse at: %dx%d"
 msgstr ""
 
@@ -4922,6 +5089,7 @@ msgid "Stitch selection"
 msgstr "Unir Selección"
 
 #. Programmer's name for it: SAS_STR_MapCombineProgressLine0
+#, no-object-pascal-format
 msgid "Stitch: %0:dx%1:d (%2:d) files"
 msgstr "Unir: %0:dx%1:d (%2:d) archivos"
 
@@ -5051,6 +5219,7 @@ msgid "There are no available objects in the pool!"
 msgstr "No hay objetos disponibles en el pool"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
+#, no-object-pascal-format
 msgid "There is an error %1:s in map %0:s"
 msgstr "Hay un error %1:s en mapa %0:s"
 
@@ -5092,6 +5261,7 @@ msgid "Tile"
 msgstr "Mosaico"
 
 #. Programmer's name for it: SAS_MSG_TileExists
+#, no-object-pascal-format
 msgid ""
 "Tile %0:s is available in cache.\n"
 "Replace?"
@@ -5115,6 +5285,7 @@ msgstr "Coordenadas del mosaico"
 msgid "Tile is not found!"
 msgstr "!Mosaico no encontrado!"
 
+#, object-pascal-format
 msgid "Tile is not found! Status code %d"
 msgstr "!Mosaico no encontrado! Cod. estado %d"
 
@@ -5214,6 +5385,7 @@ msgstr "Imposible fijar Posición"
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Imposible cargar mapas(s)! Cancelando..."
 
+#, object-pascal-format
 msgid "Unexpected content type %s"
 msgstr "Tipo de contenido no esperado %s"
 
@@ -5256,6 +5428,7 @@ msgstr ""
 msgid "Unknown error during download"
 msgstr "Error desconocido durante descarga"
 
+#, object-pascal-format
 msgid "Unknown status code %d"
 msgstr "Código de estado desconocido %d"
 
@@ -5474,7 +5647,7 @@ msgid "Volume Size"
 msgstr "Tamaño Mosaico"
 
 #. Programmer's name for it: SAS_ERR_WaitTime
-#, fuzzy
+#, fuzzy, no-object-pascal-format
 msgid "Wait %0:d seconds..."
 msgstr "Esperar %0:d segundos..."
 
@@ -5550,7 +5723,6 @@ msgstr "ZMP | *.zmp"
 msgid "ZMP Filename"
 msgstr "Nombre archivo ZMP"
 
-#. Programmer's name for it: rsSuccessfullyExecuted
 msgid ""
 "ZMP has been modified, but not saved yet!\n"
 "\n"
