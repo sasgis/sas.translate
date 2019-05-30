@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-30 19:56\n"
+"POT-Creation-Date: 2019-05-30 20:46\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1282,33 +1282,6 @@ msgstr "Compresion (para PNG):"
 msgid "Compression:"
 msgstr "Compresión:"
 
-#. frmMain..actlstMain..actConfigZoomToCursor..Category
-#. frmMain..actlstMain..actConfigUsePrevForMap..Category
-#. frmMain..actlstMain..actConfigUsePrevForLayers..Category
-#. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Category
-#. frmMain..actlstMain..actConfigUseZoomAnimation..Category
-#. frmMain..actlstMain..actConfigUseInertialMovement..Category
-#. frmMain..actlstMain..actConfigAzimuthCircle..Category
-#. frmMain..actlstMain..actConfigColorInversion..Category
-#. frmMain..actlstMain..actConfigPreviousSelectionVisible..Category
-#. frmMain..actlstMain..actConfigStatusBarVisible..Category
-#. frmMain..actlstMain..actConfigMiniMapVisible..Category
-#. frmMain..actlstMain..actConfigScaleLineVisible..Category
-#. frmMain..actlstMain..actConfigScaleLineExtended..Category
-#. frmMain..actlstMain..actConfigScaleLineOptionsShow..Category
-#. frmMain..actlstMain..actConfigMarksNamesVisible..Category
-#. frmMain..actlstMain..actConfigOptionsShow..Category
-#. frmMain..actlstMain..actConfigInterfaceOptionsShow..Category
-#, fuzzy
-msgid "Config"
-msgstr "Copiando"
-
-#. frmMain..actlstMain..actConfigScaleLineNumberFormatNice..Category
-#. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Category
-#. frmMain..actlstMain..actConfigScaleLineNumberFormatScience..Category
-msgid "Config\\ScaleLineNumberFormat"
-msgstr ""
-
 #. frmMain..actlstMain..actGpsConnect..Hint
 msgid "Connect to GPS receiver"
 msgstr "Conectar GPS"
@@ -1845,13 +1818,6 @@ msgstr "Error Descarga. Código error %d"
 msgid "Download error. Unknown status code %d"
 msgstr "Error Descarga. Código error desconocido %d"
 
-#. frmMain..actlstMain..actConfigDownloadModeCache..Category
-#. frmMain..actlstMain..actConfigDownloadModeInternet..Category
-#. frmMain..actlstMain..actConfigDownloadModeCacheInternet..Category
-#, fuzzy
-msgid "Download Mode"
-msgstr "Descargados"
-
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
 msgid "Download next tile if no response"
 msgstr "Descargue próximo mosaico si no hay respuesta"
@@ -2154,12 +2120,6 @@ msgstr "Falla al guardar en almacenamiento externo de mosaicos: error"
 #. Programmer's name for it: SAS_ERR_ETS_FailToSaveTile
 msgid "Failed to save to external tile storage: error "
 msgstr "Falla al guardar en almacenamiento externo de mosaicos: error"
-
-#. frmMain..actlstMain..actFavoriteAdd..Category
-#. frmMain..actlstMain..actFavoriteManage..Category
-#, fuzzy
-msgid "Favorite"
-msgstr "Favoritos"
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
 msgid "Favorite maps/layers"
@@ -2510,17 +2470,6 @@ msgstr "ha"
 msgid "Height:"
 msgstr "Elevación:"
 
-#. frmMain..actlstMain..actHelpOpenOnline..Category
-#. frmMain..actlstMain..actHelpShowAbout..Category
-#. frmMain..actlstMain..actHelpOpenWebSite..Category
-#. frmMain..actlstMain..actHelpOpenIssueTracker..Category
-#. frmMain..actlstMain..actHelpOpenCommunity..Category
-#. frmMain..actlstMain..actShowPascalScriptIde..Category
-#. frmMain..actlstMain..actShowUpddateChecker..Category
-#, fuzzy
-msgid "Help"
-msgstr "Ayuda"
-
 #. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
 msgid "Hide"
 msgstr "Ocultar"
@@ -2594,26 +2543,6 @@ msgstr "HTTP %d No encontrado"
 #, object-pascal-format
 msgid "HTTP %d Unknown Error"
 msgstr "HTTP %d error desconocido"
-
-#. frmMain..actlstMain..actHelpOpenWebSite..URL
-#, fuzzy
-msgid "http://sasgis.org/"
-msgstr "Web Site (http://www.sasgis.org)"
-
-#. frmMain..actlstMain..actHelpOpenCommunity..URL
-#, fuzzy
-msgid "http://sasgis.org/forum/"
-msgstr "Comunidad (http://www.sasgis.org/forum)"
-
-#. frmMain..actlstMain..actHelpOpenIssueTracker..URL
-#, fuzzy
-msgid "http://sasgis.org/mantis/"
-msgstr "Issue Tracker (http://sasgis.org/mantis)"
-
-#. frmMain..actlstMain..actHelpOpenOnline..URL
-#, fuzzy
-msgid "http://sasgis.org/wikisasiya/"
-msgstr "Ayuda Online (http://sasgis.org/wikisasiya)"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
@@ -3158,8 +3087,6 @@ msgid "Map:"
 msgstr "Mapa:"
 
 #. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..Caption
-#. frmMain..actlstMain..actMapsEditMapParams..Category
-#. frmMain..actlstMain..actMapsAllLayersHide..Category
 #. frMapSelect..FilterPopupMenu..TBX_Maps..Caption
 #. frmSettings..PageControl1..tsMaps..Caption
 #. Programmer's name for it: SAS_STR_Maps
@@ -3181,17 +3108,6 @@ msgstr "Información de Marca"
 #. frmMain..actlstMain..actViewFillingMapMarkUnexisting..Caption
 msgid "Mark Nonexistent Tiles"
 msgstr "Marcar Mosaicos No Existentes"
-
-#. frmMain..actlstMain..actShowPointProject..Category
-#. frmMain..actlstMain..actMarksAddPoint..Category
-#. frmMain..actlstMain..actMarksAddLine..Category
-#. frmMain..actlstMain..actMarksAddPolygon..Category
-#. frmMain..actlstMain..actShowPlacemarkManager..Category
-#. frmMain..actlstMain..actConfigMarksHide..Category
-#. frmMain..actlstMain..actIconsSettings..Category
-#, fuzzy
-msgid "Marks"
-msgstr "Mis Marcas"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
 #, fuzzy
@@ -3695,32 +3611,6 @@ msgstr "Abrir zmp"
 #. frmMain..actlstMain..actFileOpen..Caption
 msgid "Open..."
 msgstr "Abrir..."
-
-#. frmMain..actlstMain..actMakeLinkOnDesktop..Category
-#. frmMain..actlstMain..actFileOpen..Category
-#. frmMain..actlstMain..actZoomIn..Category
-#. frmMain..actlstMain..actZoomOut..Category
-#. frmMain..actlstMain..actShowGoTo..Category
-#. frmMain..actlstMain..actMoveMap..Category
-#. frmMain..actlstMain..actDistanceCalculation..Category
-#. frmMain..actlstMain..actCircleCalculation..Category
-#. frmMain..actlstMain..actShowCacheManager..Category
-#. frmMain..actlstMain..actQuit..Category
-#, fuzzy
-msgid "Operations"
-msgstr "&Operaciones"
-
-#. frmMain..actlstMain..actSelectByRect..Category
-#. frmMain..actlstMain..actSelectByPolygon..Category
-#. frmMain..actlstMain..actSelectByLine..Category
-#. frmMain..actlstMain..actSelectByCoordinates..Category
-#. frmMain..actlstMain..actSelectByVisibleArea..Category
-#. frmMain..actlstMain..actSelectByLastSelection..Category
-#. frmMain..actlstMain..actSelectByLastSelectionEdit..Category
-#. frmMain..actlstMain..actSelectBySelectionFromFile..Category
-#, fuzzy
-msgid "Operations\\Selection"
-msgstr "Selección Previa"
 
 #. frmMain..actlstMain..actConfigScaleLineOptionsShow..Caption
 #. frmMain..actlstMain..actConfigOptionsShow..Caption
@@ -5590,55 +5480,9 @@ msgstr "Versiones"
 msgid "vertically:"
 msgstr "verticalmente:"
 
-#. frmMain..actlstMain..actViewFullScreen..Category
-#. frmMain..actlstMain..actViewNavigation..Category
-#. frmMain..actlstMain..actShowDebugInfo..Category
-#. frmMain..actlstMain..actViewToolbarsLock..Category
-#. frmMain..actlstMain..actViewSelectNextMapWithTile..Category
-#. frmMain..actlstMain..actViewSelectPrevMapWithTile..Category
-#. frmMain..actlstMain..actViewSelectNextMapVersion..Category
-#. frmMain..actlstMain..actViewSelectPrevMapVersion..Category
-#. frmMain..actlstMain..actConfigProjectionOfMapUse..Category
-#. frmMain..actlstMain..actViewNotMinimized..Category
-#. frmMain..actlstMain..actViewSunCalc..Category
 #. frmSettings..PageControl1..tsView..Caption
 msgid "View"
 msgstr "Vista"
-
-#. frmMain..actlstMain..actViewFillingMapMarkUnexisting..Category
-#. frmMain..actlstMain..actViewFillingMapMarkExisting..Category
-#. frmMain..actlstMain..actViewFillingMapMarkGradient..Category
-#. frmMain..actlstMain..actViewFillingMapFilterMode..Category
-#. frmMain..actlstMain..actViewFillingMapMainMapUse..Category
-msgid "View\\FillingMap"
-msgstr ""
-
-#. frmMain..actlstMain..actViewGridGenShtabNo..Category
-#. frmMain..actlstMain..actViewGridGenShtab_1_000_000..Category
-#. frmMain..actlstMain..actViewGridGenShtab_500_000..Category
-#. frmMain..actlstMain..actViewGridGenShtab_200_000..Category
-#. frmMain..actlstMain..actViewGridGenShtab_100_000..Category
-#. frmMain..actlstMain..actViewGridGenShtab_50_000..Category
-#. frmMain..actlstMain..actViewGridGenShtab_25_000..Category
-#. frmMain..actlstMain..actViewGridGenShtab_10_000..Category
-#. frmMain..actlstMain..actViewGridGenShtab_5_000..Category
-#. frmMain..actlstMain..actViewGridGenShtab_2_500..Category
-#. frmMain..actlstMain..actViewGridGenShtabAuto..Category
-msgid "View\\GridGenShtab"
-msgstr ""
-
-#. frmMain..actlstMain..actViewGridLonLatNo..Category
-#. frmMain..actlstMain..actViewGridLonLat_10_000..Category
-#. frmMain..actlstMain..actViewGridLonLat_05_000..Category
-#. frmMain..actlstMain..actViewGridLonLat_02_000..Category
-#. frmMain..actlstMain..actViewGridLonLat_01_000..Category
-#. frmMain..actlstMain..actViewGridLonLat_00_500..Category
-#. frmMain..actlstMain..actViewGridLonLat_00_250..Category
-#. frmMain..actlstMain..actViewGridLonLat_00_125..Category
-#. frmMain..actlstMain..actViewGridLonLat_User..Category
-#. frmMain..actlstMain..actViewGridLonLatAuto..Category
-msgid "View\\GridLonLat"
-msgstr ""
 
 #. frmMain..actlstMain..actSelectByVisibleArea..Caption
 msgid "Visible Area"
