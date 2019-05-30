@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-30 21:09\n"
+"POT-Creation-Date: 2019-05-30 22:06\n"
 "PO-Revision-Date: 2019-05-10 19:58+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -13,10 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: fr_FR\n"
 "X-Source-Language: C\n"
-
-#. frExportToIMG..PageControl1..Map..pnlListMaps..pnlButtons..btnRemoveLayer..Caption
-msgid "-"
-msgstr "-"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
 msgid " Coordinates "
@@ -171,10 +167,6 @@ msgstr "[attache]"
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
 msgstr "[sujet]"
-
-#. frExportToIMG..PageControl1..Map..pnlListMaps..pnlButtons..btnAddLayer..Caption
-msgid "+"
-msgstr "+"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
@@ -910,10 +902,6 @@ msgstr "BigTIFF"
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
 msgstr "Bits par seconde :"
-
-#. frExportToIMG..dlgSetMapCompilerPath..Filter
-msgid "bld_gmap32.exe|bld_gmap32.exe"
-msgstr "bld_gmap32.exe|bld_gmap32.exe"
 
 msgid "BMP: Fill line failure!"
 msgstr "BMP : Echec au remplissage de ligne !"
@@ -2362,27 +2350,6 @@ msgstr "Géographique / WGS84"
 msgid "Geographic Coordinates"
 msgstr "Coordonnées géographiques"
 
-#. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Caption
-msgid "GetUrlScript"
-msgstr "GetUrlScript"
-
-#. frmMapTypeEdit..PageControl1..tsGetUrlScript..Caption
-#. frmPascalScriptIDE..tbtlbrMain..tbxtmScript..Hint
-msgid "GetUrlScript.txt"
-msgstr "GetUrlScript.txt"
-
-#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblGetX..Caption
-msgid "GetX:"
-msgstr "GetX :"
-
-#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblGetY..Caption
-msgid "GetY:"
-msgstr "GetY :"
-
-#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblGetZ..Caption
-msgid "GetZ:"
-msgstr "GetZ :"
-
 #. Programmer's name for it: rsGlobalMapperBingCacheName
 msgid "GlobalMapper Bing"
 msgstr "GlobalMapper, Bing"
@@ -2396,10 +2363,6 @@ msgstr "GlobalMapper, répertoire du cache :"
 
 msgid "GMT tool path is not set or incorrect!"
 msgstr "Le chemin de l'outil GMT est non sélectionné ou incorrect !"
-
-#. frExportToIMG..dlgSetGMTPath..Filter
-msgid "GMT.exe|gmt.exe"
-msgstr "GMT.exe|gmt.exe"
 
 #. frmMain..actlstMain..actShowGoTo..Hint
 #. frmGoTo..pnlBottomButtons..btnGoTo..Caption
@@ -2657,10 +2620,6 @@ msgstr "Mouvement inertiel"
 #. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
 msgstr "Information"
-
-#. frmMapTypeEdit..PageControl1..tsInfo..Caption
-msgid "Info.txt"
-msgstr "Info.txt"
 
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
@@ -3169,10 +3128,6 @@ msgstr "Mb"
 #. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
 msgid "MBTiles 1.2 (SQLite3)"
 msgstr "MBTiles 1.2 (SQLite3)"
-
-#. frExportMBTiles..dlgSaveTo..Filter
-msgid "mbtiles|*.mbtiles"
-msgstr "mbtiles|*.mbtiles"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Medium"
@@ -4273,10 +4228,6 @@ msgstr "RMaps (SQLite3)"
 #. Programmer's name for it: SAS_STR_ExportRMPExportCaption
 msgid "RMP raster map for Magellan"
 msgstr "RMP, carte raster pour Magellan"
-
-#. frExportRMP..dlgSaveTo..Filter
-msgid "rmp|*.rmp"
-msgstr "rmp|*.rmp"
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
@@ -5520,11 +5471,6 @@ msgstr "yournavigation.org (OSM)"
 #. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
 msgid "ZIP (Deflate)"
 msgstr "ZIP (Deflate)"
-
-#. frmPascalScriptIDE..dlgOpenZmpFile..Filter
-#. frmPascalScriptIDE..dlgSaveZmpFile..Filter
-msgid "ZMP | *.zmp"
-msgstr "ZMP | *.zmp"
 
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
