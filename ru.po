@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-05-28 14:40\n"
-"PO-Revision-Date: 2019-05-28 14:49+0300\n"
+"POT-Creation-Date: 2019-05-30 19:56\n"
+"PO-Revision-Date: 2019-05-30 20:09+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1141,8 +1141,8 @@ msgid "Charging"
 msgstr "Заряжается"
 
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
-msgid "Check for updates..."
-msgstr "Проверить наличие обновлений..."
+msgid "Check for updates"
+msgstr "Проверить наличие обновлений"
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
 #. frmMain..actlstMain..actCircleCalculation..Hint
@@ -1212,10 +1212,6 @@ msgstr ""
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
 msgstr "Комментарий"
-
-#. frmMain..actlstMain..actHelpOpenCommunity..Caption
-msgid "Community  (http://www.sasgis.org/forum)"
-msgstr "Обсуждение (http://sasgis.org/forum)"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
 #, no-object-pascal-format
@@ -2743,10 +2739,6 @@ msgstr "iPhone (2.2 и выше 128х128)"
 msgid "iPhone (version prior to 2.2, 64x64)"
 msgstr "iPhone (Ниже v2.2 64х64)"
 
-#. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
-msgid "Issue Tracker (http://sasgis.org/mantis)"
-msgstr "Багтрекер (http://sasgis.org/mantis)"
-
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr "Можно использовать \\ в качестве разделителя пути"
@@ -3568,10 +3560,6 @@ msgstr "При смене проекции слоя"
 msgid "On-Line Help"
 msgstr "Помощь"
 
-#. frmMain..actlstMain..actHelpOpenOnline..Caption
-msgid "Online Help (http://sasgis.org/wikisasiya)"
-msgstr "Справка (http://sasgis.org/wikisasiya)"
-
 #. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
 #. frTilesDownload..pnlCenter..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
@@ -3610,6 +3598,14 @@ msgstr "Прозрачность %"
 msgid "Opacity:"
 msgstr "Прозрачность:"
 
+#. frmMain..actlstMain..actHelpOpenCommunity..Caption
+msgid "Open forum page"
+msgstr "Открыть форум"
+
+#. frmMain..actlstMain..actHelpOpenWebSite..Caption
+msgid "Open home page"
+msgstr "Открыть домашнюю страницу"
+
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Открыть папку, содержащую тайл слоя"
@@ -3617,6 +3613,10 @@ msgstr "Открыть папку, содержащую тайл слоя"
 #. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr "Открыть папку, содержащую тайл основной карты"
+
+#. frmMain..actlstMain..actHelpOpenOnline..Caption
+msgid "Open user manual"
+msgstr "Открыть инструкцию"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Hint
@@ -3748,6 +3748,10 @@ msgstr "Родительский пункт меню"
 #, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Количество частей: %d"
+
+#. frmMain..actlstMain..actShowPascalScriptIde..Caption
+msgid "Pascal script IDE"
+msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
@@ -4254,6 +4258,10 @@ msgstr "Перемещать тайлы"
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Заменять существующие тайлы"
+
+#. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
+msgid "Report a bug"
+msgstr "Сообщить о проблеме"
 
 #. Programmer's name for it: SAS_ERR_Nopoints
 msgid "Required pointset is not found!"
@@ -5559,10 +5567,6 @@ msgstr "Размер тома"
 #, no-object-pascal-format
 msgid "Wait %0:d seconds..."
 msgstr "Ждем %0:d секунд..."
-
-#. frmMain..actlstMain..actHelpOpenWebSite..Caption
-msgid "Web Site (http://www.sasgis.org)"
-msgstr "Сайт программы (http://sasgis.org)"
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption

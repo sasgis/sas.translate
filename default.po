@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-05-28 14:40\n"
-"PO-Revision-Date: 2019-05-28 14:40\n"
+"POT-Creation-Date: 2019-05-30 19:56\n"
+"PO-Revision-Date: 2019-05-30 19:56\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1176,7 +1176,7 @@ msgid "Charging"
 msgstr ""
 
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
-msgid "Check for updates..."
+msgid "Check for updates"
 msgstr ""
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
@@ -1246,10 +1246,6 @@ msgstr ""
 
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
-msgstr ""
-
-#. frmMain..actlstMain..actHelpOpenCommunity..Caption
-msgid "Community  (http://www.sasgis.org/forum)"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
@@ -2803,10 +2799,6 @@ msgstr ""
 msgid "iPhone (version prior to 2.2, 64x64)"
 msgstr ""
 
-#. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
-msgid "Issue Tracker (http://sasgis.org/mantis)"
-msgstr ""
-
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr ""
@@ -3639,10 +3631,6 @@ msgstr ""
 msgid "On-Line Help"
 msgstr ""
 
-#. frmMain..actlstMain..actHelpOpenOnline..Caption
-msgid "Online Help (http://sasgis.org/wikisasiya)"
-msgstr ""
-
 #. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
 #. frTilesDownload..pnlCenter..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
@@ -3681,12 +3669,24 @@ msgstr ""
 msgid "Opacity:"
 msgstr ""
 
+#. frmMain..actlstMain..actHelpOpenCommunity..Caption
+msgid "Open forum page"
+msgstr ""
+
+#. frmMain..actlstMain..actHelpOpenWebSite..Caption
+msgid "Open home page"
+msgstr ""
+
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
 msgid "Open Overlay Layer Tile Folder"
 msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
 msgid "Open Primary Map Tile Folder"
+msgstr ""
+
+#. frmMain..actlstMain..actHelpOpenOnline..Caption
+msgid "Open user manual"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
@@ -3816,6 +3816,10 @@ msgstr ""
 
 #, object-pascal-format
 msgid "Parts count: %d"
+msgstr ""
+
+#. frmMain..actlstMain..actShowPascalScriptIde..Caption
+msgid "Pascal script IDE"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
@@ -4326,6 +4330,10 @@ msgstr ""
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
+msgstr ""
+
+#. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
+msgid "Report a bug"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Nopoints
@@ -5638,10 +5646,6 @@ msgstr ""
 #. Programmer's name for it: SAS_ERR_WaitTime
 #, no-object-pascal-format
 msgid "Wait %0:d seconds..."
-msgstr ""
-
-#. frmMain..actlstMain..actHelpOpenWebSite..Caption
-msgid "Web Site (http://www.sasgis.org)"
 msgstr ""
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption

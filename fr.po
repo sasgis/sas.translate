@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-28 14:40\n"
+"POT-Creation-Date: 2019-05-30 19:56\n"
 "PO-Revision-Date: 2019-05-10 19:58+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1165,7 +1165,8 @@ msgid "Charging"
 msgstr "En train de charger"
 
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
-msgid "Check for updates..."
+#, fuzzy
+msgid "Check for updates"
 msgstr "Recherche des mises à jour"
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
@@ -1236,10 +1237,6 @@ msgstr "COM"
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
 msgstr "Commentaire :"
-
-#. frmMain..actlstMain..actHelpOpenCommunity..Caption
-msgid "Community  (http://www.sasgis.org/forum)"
-msgstr "Forum (http://www.sasgis.org/forum) en russe"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
 #, no-object-pascal-format
@@ -2784,10 +2781,6 @@ msgstr "iPhone (version 2.2 et au delà, 128x128)"
 msgid "iPhone (version prior to 2.2, 64x64)"
 msgstr "iPhone (version jusqu'à 2.2, 64x64)"
 
-#. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
-msgid "Issue Tracker (http://sasgis.org/mantis)"
-msgstr "Problèmes de logiciel (http://sasgis.org/mantis) en russe"
-
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr "L'usage est autorisé\\ comme un délimiteur de chemin"
@@ -3612,10 +3605,6 @@ msgstr "Changer de projection :"
 msgid "On-Line Help"
 msgstr "Aide en ligne (en russe)"
 
-#. frmMain..actlstMain..actHelpOpenOnline..Caption
-msgid "Online Help (http://sasgis.org/wikisasiya)"
-msgstr "Aide en ligne (http://sasgis.org/wikisasiya) en russe"
-
 #. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
 #. frTilesDownload..pnlCenter..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
 msgid "only created before"
@@ -3654,6 +3643,16 @@ msgstr "Transparence % :"
 msgid "Opacity:"
 msgstr "Transparence :"
 
+#. frmMain..actlstMain..actHelpOpenCommunity..Caption
+#, fuzzy
+msgid "Open forum page"
+msgstr "Ouvrir le zmp"
+
+#. frmMain..actlstMain..actHelpOpenWebSite..Caption
+#, fuzzy
+msgid "Open home page"
+msgstr "Ouvrir le zmp"
+
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Ouvrir le répertoire de dalles de cette Couche :"
@@ -3661,6 +3660,10 @@ msgstr "Ouvrir le répertoire de dalles de cette Couche :"
 #. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr "Ouvrir le répertoire de dalles de la Carte affichée"
+
+#. frmMain..actlstMain..actHelpOpenOnline..Caption
+msgid "Open user manual"
+msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Hint
@@ -3790,6 +3793,10 @@ msgstr "Parent submenu"
 #, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Nombre de pièces : %d"
+
+#. frmMain..actlstMain..actShowPascalScriptIde..Caption
+msgid "Pascal script IDE"
+msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
@@ -4296,6 +4303,10 @@ msgstr "Supprimer les dalles"
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Remplacer les dalles existantes"
+
+#. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
+msgid "Report a bug"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Nopoints
 msgid "Required pointset is not found!"
@@ -5611,10 +5622,6 @@ msgstr "Taille du volume :"
 msgid "Wait %0:d seconds..."
 msgstr "Attendre %0:d secondes..."
 
-#. frmMain..actlstMain..actHelpOpenWebSite..Caption
-msgid "Web Site (http://www.sasgis.org)"
-msgstr "Site Web (http://www.sasgis.org) en russe"
-
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
@@ -5746,6 +5753,18 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Community  (http://www.sasgis.org/forum)"
+#~ msgstr "Forum (http://www.sasgis.org/forum) en russe"
+
+#~ msgid "Issue Tracker (http://sasgis.org/mantis)"
+#~ msgstr "Problèmes de logiciel (http://sasgis.org/mantis) en russe"
+
+#~ msgid "Online Help (http://sasgis.org/wikisasiya)"
+#~ msgstr "Aide en ligne (http://sasgis.org/wikisasiya) en russe"
+
+#~ msgid "Web Site (http://www.sasgis.org)"
+#~ msgstr "Site Web (http://www.sasgis.org) en russe"
 
 #, fuzzy
 #~ msgid "Download Disabled"
