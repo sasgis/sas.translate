@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-30 22:06\n"
+"POT-Creation-Date: 2019-05-31 19:07\n"
 "PO-Revision-Date: 2019-05-10 19:58+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -895,6 +895,9 @@ msgstr "BerkeleyDB (V), répertoire du cache :"
 msgid "BerkeleyDB cache folder:"
 msgstr "BerkeleyDB, répertoire du cache :"
 
+msgid "Best"
+msgstr ""
+
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 msgid "BigTIFF"
 msgstr "BigTIFF"
@@ -1154,7 +1157,7 @@ msgstr "En train de charger"
 
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
 #, fuzzy
-msgid "Check for updates"
+msgid "Check for Updates"
 msgstr "Recherche des mises à jour"
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
@@ -1256,6 +1259,16 @@ msgstr "Compression en ZIP"
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
 msgstr "Compression (pour PNG) :"
+
+#. frArchiveWriteZipConfig..lblCompressLevel..Caption
+#, fuzzy
+msgid "Compression Level:"
+msgstr "Compression :"
+
+#. frArchiveWriteZipConfig..lblCompressMethod..Caption
+#, fuzzy
+msgid "Compression Method:"
+msgstr "Compression :"
 
 #. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
@@ -2115,6 +2128,9 @@ msgstr "Problème pour sauvegarder la session vers le fichier"
 msgid "Failed to save to external tile storage: error "
 msgstr "Problème pour sauvegarder vers le stockage externe des dalles : erreur"
 
+msgid "Fast"
+msgstr ""
+
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
 msgid "Favorite maps/layers"
 msgstr "Cartes/couches favorites"
@@ -2665,6 +2681,9 @@ msgid ""
 msgstr ""
 "Effacement invalide : l'objet a toujours une référence dans l'interface "
 "active ! (Ref count: %d)"
+
+msgid "Invalid Volume Size value: "
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
 msgid "iPhone (version 2.2 and above, 128x128)"
@@ -3373,6 +3392,10 @@ msgstr "Aucun"
 msgid "Noon"
 msgstr "Midi"
 
+#, fuzzy
+msgid "Normal"
+msgstr "Nouveau format"
+
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
 msgstr "Nord"
@@ -3522,12 +3545,12 @@ msgstr "Transparence :"
 
 #. frmMain..actlstMain..actHelpOpenCommunity..Caption
 #, fuzzy
-msgid "Open forum page"
+msgid "Open Forum Page"
 msgstr "Ouvrir le zmp"
 
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
 #, fuzzy
-msgid "Open home page"
+msgid "Open Home Page"
 msgstr "Ouvrir le zmp"
 
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
@@ -3539,7 +3562,7 @@ msgid "Open Primary Map Tile Folder"
 msgstr "Ouvrir le répertoire de dalles de la Carte affichée"
 
 #. frmMain..actlstMain..actHelpOpenOnline..Caption
-msgid "Open user manual"
+msgid "Open User Manual"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
@@ -3648,7 +3671,7 @@ msgid "Parts count: %d"
 msgstr "Nombre de pièces : %d"
 
 #. frmMain..actlstMain..actShowPascalScriptIde..Caption
-msgid "Pascal script IDE"
+msgid "Pascal Script IDE"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
@@ -3824,6 +3847,10 @@ msgstr "Sélectionner au moins une région."
 
 #. Programmer's name for it: SAS_MSG_NeedZoom
 msgid "Please select at least one zoom"
+msgstr "Sélectionner au moins un zoom."
+
+#, fuzzy
+msgid "Please select at least one zoom!"
 msgstr "Sélectionner au moins un zoom."
 
 msgid "Please select at one placemark type"
@@ -4158,7 +4185,7 @@ msgid "Replace existing tiles"
 msgstr "Remplacer les dalles existantes"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
-msgid "Report a bug"
+msgid "Report a Bug"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Nopoints
@@ -4858,6 +4885,11 @@ msgstr "Ligne divisée"
 msgid "Split selection to, parts*:"
 msgstr "Partager la sélection en*  :"
 
+#. frArchiveWriteZipConfig..lblSplitToVolumes..Caption
+#, fuzzy
+msgid "Split to volumes, Mb:"
+msgstr "Mb maxi du volume"
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"
 msgstr "SPOT 5 - 10 m Couleur"
@@ -4917,6 +4949,10 @@ msgstr "Assembler : %0:dx%1:d (%2:d) fichiers"
 #. Programmer's name for it: SAS_STR_OperationMapCombineCaption
 msgid "Stitching the map"
 msgstr "Assembler la carte"
+
+#, fuzzy
+msgid "Store"
+msgstr "Stockage"
 
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkStoreBlankTiles..Caption
 msgid "Store blank tiles"

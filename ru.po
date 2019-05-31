@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-05-30 22:06\n"
-"PO-Revision-Date: 2019-05-30 21:22+0300\n"
+"POT-Creation-Date: 2019-05-31 19:07\n"
+"PO-Revision-Date: 2019-05-31 19:14+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -876,6 +876,9 @@ msgstr "Путь к кэшу BerkeleyDB (версионный):"
 msgid "BerkeleyDB cache folder:"
 msgstr "Путь к кэшу BerkeleyDB:"
 
+msgid "Best"
+msgstr "Максимальный"
+
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 msgid "BigTIFF"
 msgstr ""
@@ -1129,7 +1132,7 @@ msgid "Charging"
 msgstr "Заряжается"
 
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
-msgid "Check for updates"
+msgid "Check for Updates"
 msgstr "Проверить наличие обновлений"
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
@@ -1231,6 +1234,14 @@ msgstr "Упаковка в ZIP"
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
 msgstr "Сжатие (для PNG):"
+
+#. frArchiveWriteZipConfig..lblCompressLevel..Caption
+msgid "Compression Level:"
+msgstr "Уровень сжатия:"
+
+#. frArchiveWriteZipConfig..lblCompressMethod..Caption
+msgid "Compression Method:"
+msgstr "Метод сжатия:"
 
 #. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
@@ -2066,6 +2077,9 @@ msgstr "Ошибка при сохранении сессии в файл: "
 msgid "Failed to save to external tile storage: error "
 msgstr "Ошибка при записи в БД: код ошибки "
 
+msgid "Fast"
+msgstr "Быстрый"
+
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
 msgid "Favorite maps/layers"
 msgstr "Избранные карты/слои"
@@ -2616,6 +2630,9 @@ msgid ""
 msgstr ""
 "У удаляемого интерфейсного объекта счётчик ссылок больше нуля (%d активных "
 "ссылок)"
+
+msgid "Invalid Volume Size value: "
+msgstr "Неверное значение размера тома:"
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
 msgid "iPhone (version 2.2 and above, 128x128)"
@@ -3321,6 +3338,9 @@ msgstr "Нет"
 msgid "Noon"
 msgstr "Полдень"
 
+msgid "Normal"
+msgstr "Нормальный"
+
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
 msgstr "Север"
@@ -3468,11 +3488,11 @@ msgid "Opacity:"
 msgstr "Прозрачность:"
 
 #. frmMain..actlstMain..actHelpOpenCommunity..Caption
-msgid "Open forum page"
+msgid "Open Forum Page"
 msgstr "Открыть форум"
 
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
-msgid "Open home page"
+msgid "Open Home Page"
 msgstr "Открыть домашнюю страницу"
 
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
@@ -3484,7 +3504,7 @@ msgid "Open Primary Map Tile Folder"
 msgstr "Открыть папку, содержащую тайл основной карты"
 
 #. frmMain..actlstMain..actHelpOpenOnline..Caption
-msgid "Open user manual"
+msgid "Open User Manual"
 msgstr "Открыть инструкцию"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
@@ -3593,7 +3613,7 @@ msgid "Parts count: %d"
 msgstr "Количество частей: %d"
 
 #. frmMain..actlstMain..actShowPascalScriptIde..Caption
-msgid "Pascal script IDE"
+msgid "Pascal Script IDE"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
@@ -3754,7 +3774,6 @@ msgstr "Метки"
 msgid "Play"
 msgstr "Воспроизвести"
 
-#, fuzzy
 msgid "Please select a map"
 msgstr "Сначала необходимо выбрать хотя бы одну карту"
 
@@ -3771,6 +3790,9 @@ msgstr "Сначала необходимо выделить хотя бы од�
 #. Programmer's name for it: SAS_MSG_NeedZoom
 msgid "Please select at least one zoom"
 msgstr "Сначала необходимо выбрать хотя бы один зум"
+
+msgid "Please select at least one zoom!"
+msgstr "Сначала необходимо выбрать хотя бы один зум!"
 
 msgid "Please select at one placemark type"
 msgstr "Сначала необходимо выбрать тип метки"
@@ -4103,7 +4125,7 @@ msgid "Replace existing tiles"
 msgstr "Заменять существующие тайлы"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
-msgid "Report a bug"
+msgid "Report a Bug"
 msgstr "Сообщить о проблеме"
 
 #. Programmer's name for it: SAS_ERR_Nopoints
@@ -4803,6 +4825,10 @@ msgstr "Разрезать путь"
 msgid "Split selection to, parts*:"
 msgstr "Разбить область на, части*:"
 
+#. frArchiveWriteZipConfig..lblSplitToVolumes..Caption
+msgid "Split to volumes, Mb:"
+msgstr "Размер тома, МБ:"
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"
 msgstr "SPOT 5 - 10м Цвет"
@@ -4862,6 +4888,9 @@ msgstr "Склеить: %0:dx%1:d (%2:d) файлов"
 #. Programmer's name for it: SAS_STR_OperationMapCombineCaption
 msgid "Stitching the map"
 msgstr "Склейка карты"
+
+msgid "Store"
+msgstr "Без сжатия"
 
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkStoreBlankTiles..Caption
 msgid "Store blank tiles"

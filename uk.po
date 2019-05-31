@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-05-30 22:06\n"
+"POT-Creation-Date: 2019-05-31 19:07\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -885,6 +885,9 @@ msgstr "Шлях до кешу BerkeleyDB (Версійний):"
 msgid "BerkeleyDB cache folder:"
 msgstr "Шлях до кешу BerkeleyDB:"
 
+msgid "Best"
+msgstr ""
+
 #. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
 msgid "BigTIFF"
 msgstr ""
@@ -1142,7 +1145,7 @@ msgstr "Зарядка"
 
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
 #, fuzzy
-msgid "Check for updates"
+msgid "Check for Updates"
 msgstr "Перевірити наявність оновлень..."
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
@@ -1244,6 +1247,16 @@ msgstr "Запакування в ZIP"
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 msgid "Compression (for PNG):"
 msgstr "Стиснення (для PNG):"
+
+#. frArchiveWriteZipConfig..lblCompressLevel..Caption
+#, fuzzy
+msgid "Compression Level:"
+msgstr "Стиснення:"
+
+#. frArchiveWriteZipConfig..lblCompressMethod..Caption
+#, fuzzy
+msgid "Compression Method:"
+msgstr "Стиснення:"
 
 #. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
@@ -2083,6 +2096,9 @@ msgstr "Помилка запису до БД: код помилки "
 msgid "Failed to save to external tile storage: error "
 msgstr "Помилка запису до БД: код помилки "
 
+msgid "Fast"
+msgstr ""
+
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
 msgid "Favorite maps/layers"
 msgstr "Обрані карти/шари"
@@ -2632,6 +2648,9 @@ msgstr "Перетин (AND)"
 #, object-pascal-format
 msgid ""
 "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
+msgstr ""
+
+msgid "Invalid Volume Size value: "
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
@@ -3341,6 +3360,10 @@ msgstr "Нема"
 msgid "Noon"
 msgstr "Полудень"
 
+#, fuzzy
+msgid "Normal"
+msgstr "Новий формат"
+
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
 msgstr "Північ"
@@ -3490,12 +3513,12 @@ msgstr "Прозорість:"
 
 #. frmMain..actlstMain..actHelpOpenCommunity..Caption
 #, fuzzy
-msgid "Open forum page"
+msgid "Open Forum Page"
 msgstr "Відкрити zmp"
 
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
 #, fuzzy
-msgid "Open home page"
+msgid "Open Home Page"
 msgstr "Відкрити zmp"
 
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
@@ -3507,7 +3530,7 @@ msgid "Open Primary Map Tile Folder"
 msgstr "Відкрити папку, що містить тайл основної карти"
 
 #. frmMain..actlstMain..actHelpOpenOnline..Caption
-msgid "Open user manual"
+msgid "Open User Manual"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
@@ -3617,7 +3640,7 @@ msgid "Parts count: %d"
 msgstr "Кількість частин: %d"
 
 #. frmMain..actlstMain..actShowPascalScriptIde..Caption
-msgid "Pascal script IDE"
+msgid "Pascal Script IDE"
 msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
@@ -3794,6 +3817,10 @@ msgstr "Спочатку треба виділити хочаб одну обл�
 
 #. Programmer's name for it: SAS_MSG_NeedZoom
 msgid "Please select at least one zoom"
+msgstr "Спочатку треба виділити хочаб один зум!"
+
+#, fuzzy
+msgid "Please select at least one zoom!"
 msgstr "Спочатку треба виділити хочаб один зум!"
 
 msgid "Please select at one placemark type"
@@ -4126,7 +4153,7 @@ msgid "Replace existing tiles"
 msgstr "Замінювати існуючі тайли"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
-msgid "Report a bug"
+msgid "Report a Bug"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Nopoints
@@ -4827,6 +4854,11 @@ msgstr "Розбити лінію"
 msgid "Split selection to, parts*:"
 msgstr "Розбити ділянку на, частин*:"
 
+#. frArchiveWriteZipConfig..lblSplitToVolumes..Caption
+#, fuzzy
+msgid "Split to volumes, Mb:"
+msgstr "Розмір тому, Мб"
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"
 msgstr "SPOT 5 - 10м Колір"
@@ -4886,6 +4918,10 @@ msgstr "Склеїти: %0:dx%1:d (%2:d) файлів"
 #. Programmer's name for it: SAS_STR_OperationMapCombineCaption
 msgid "Stitching the map"
 msgstr "Склейка карти"
+
+#, fuzzy
+msgid "Store"
+msgstr " Сховище "
 
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkStoreBlankTiles..Caption
 msgid "Store blank tiles"
