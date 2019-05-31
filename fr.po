@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-31 19:07\n"
+"POT-Creation-Date: 2019-05-31 19:49\n"
 "PO-Revision-Date: 2019-05-10 19:58+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -49,14 +49,6 @@ msgstr "Stockage"
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
 msgstr "à"
-
-#. frMapsList..MapList......Caption
-msgid "#"
-msgstr "#"
-
-#. frExportToIMG..PageControl1..Settings..PnlSettings..edtVolumeSize..Text
-msgid "$79999999"
-msgstr "$79999999"
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPathCaption
 #, object-pascal-format
@@ -135,14 +127,6 @@ msgstr "&Affichage"
 msgid "(%s not found!)"
 msgstr "(%s pas trouvé !)"
 
-#. frExportToIMG..PageControl1..Settings..pnlLicense..LLicenseFile..Caption
-msgid "(*.mpl)"
-msgstr "(*.mpl)"
-
-#. frExportToIMG..PageControl1..Settings..pnlCompiler..LMapCompilerPath..Caption
-msgid "(bld_gmap32.exe)"
-msgstr "(bld_gmap32.exe)"
-
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
 #, no-object-pascal-format
@@ -173,10 +157,6 @@ msgstr "[sujet]"
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
 msgid "0..9 max"
 msgstr "0..9 max"
-
-#. frExportToIMG..PageControl1..Settings..PnlSettings..edtMapSeries..EditMask
-msgid "099;0; "
-msgstr "099;0; "
 
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -898,10 +878,6 @@ msgstr "BerkeleyDB, répertoire du cache :"
 msgid "Best"
 msgstr ""
 
-#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
-msgid "BigTIFF"
-msgstr "BigTIFF"
-
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
 msgstr "Bits par seconde :"
@@ -1220,10 +1196,6 @@ msgstr "Couleur type %d"
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
 msgstr "Couleur :"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType....Items.Strings
-msgid "COM"
-msgstr "COM"
 
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
@@ -2342,10 +2314,6 @@ msgstr "Légende de Genshtab affichée"
 msgid "GenShtab Maps Boundaries"
 msgstr "Limites de Genshtab"
 
-#. Programmer's name for it: rsGeoCacherCacheName
-msgid "GeoCacher"
-msgstr "GeoCacher"
-
 msgid "GeoCacher root folder:"
 msgstr "GeoCacher, répertoire du cache :"
 
@@ -2365,10 +2333,6 @@ msgstr "Géographique / WGS84"
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Geographic Coordinates"
 msgstr "Coordonnées géographiques"
-
-#. Programmer's name for it: rsGlobalMapperBingCacheName
-msgid "GlobalMapper Bing"
-msgstr "GlobalMapper, Bing"
 
 #. Programmer's name for it: rsGlobalMapperCacheName
 msgid "GlobalMapper Tiles"
@@ -2898,11 +2862,6 @@ msgstr "Trop basse résolution"
 msgid "Lower right corner"
 msgstr "Coin inférieur droit"
 
-#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression..Text
-#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
-msgid "LZW"
-msgstr "LZW"
-
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap2..Caption
 #. Programmer's name for it: SAS_UNITS_m
 msgid "m"
@@ -3144,10 +3103,6 @@ msgstr "Vitesse maximum"
 msgid "MB"
 msgstr "Mb"
 
-#. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
-msgid "MBTiles 1.2 (SQLite3)"
-msgstr "MBTiles 1.2 (SQLite3)"
-
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Medium"
 msgstr "Moyenne"
@@ -3208,10 +3163,6 @@ msgstr "Minimiser vers la barre des tâches"
 msgid "MOBAC cache folder:"
 msgstr "MOBAC, répertoire du cache :"
 
-#. Programmer's name for it: rsMobileAtlasCacheName
-msgid "Mobile Atlas Creator (MOBAC)"
-msgstr "Mobile Atlas Creator (MOBAC)"
-
 #. for Symbian prior v3.91 and Android prior v1.72
 #. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
 msgid "Mobile Yandex.Maps (cache v3)"
@@ -3225,10 +3176,6 @@ msgstr "Mobile Yandex.Maps (cache version 4)"
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..Caption
 msgid "Modify"
 msgstr "Copier en modifiant"
-
-#. Programmer's name for it: rsORMMongoDbMarksDbName
-msgid "MongoDB"
-msgstr "MongoDB"
 
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
@@ -3590,14 +3537,6 @@ msgstr "Options de l'affichage de l'interface"
 msgid "Order by:"
 msgstr "Classer par :"
 
-#. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
-msgid "OruxMaps (SQLite3)"
-msgstr "OruxMaps (SQLite3)"
-
-#. Programmer's name for it: rsOsmAndCacheName
-msgid "OsmAnd+ Tiles"
-msgstr "OsmAnd+ Tiles"
-
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
 msgstr "Autre :"
@@ -3657,11 +3596,6 @@ msgstr "Paramètre"
 msgid "Params"
 msgstr "Params"
 
-#. frmMapTypeEdit..PageControl1..tsParams..Caption
-#. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Hint
-msgid "Params.txt"
-msgstr "Params.txt"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
 msgstr "Parent submenu"
@@ -3669,10 +3603,6 @@ msgstr "Parent submenu"
 #, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Nombre de pièces : %d"
-
-#. frmMain..actlstMain..actShowPascalScriptIde..Caption
-msgid "Pascal Script IDE"
-msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
@@ -4248,10 +4178,6 @@ msgstr "Rayon de l'anneau (m) :"
 msgid "Rise"
 msgstr "Lever"
 
-#. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
-msgid "RMaps (SQLite3)"
-msgstr "RMaps (SQLite3)"
-
 #. Programmer's name for it: SAS_STR_ExportRMPExportCaption
 msgid "RMP raster map for Magellan"
 msgstr "RMP, carte raster pour Magellan"
@@ -4277,10 +4203,6 @@ msgstr "Calcul d'itinéraire"
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Hint
 msgid "Run"
 msgstr "Marche"
-
-#. frExportToIMG..PageControl1..Map..pnlSasZoom..lblsas..Caption
-msgid "SAS"
-msgstr "SAS"
 
 #. frmMain..Caption
 #. frmAbout..lblProgramName..Caption
@@ -4839,10 +4761,6 @@ msgstr "Attente lors du redémarrage, ms :"
 msgid "Small"
 msgstr "Petite"
 
-#. Programmer's name for it: rsSMLMarksDbName
-msgid "SML"
-msgstr "SML"
-
 #. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
 msgid "Snap to Existing Markers"
 msgstr "Aller vers les marqueurs existants"
@@ -4909,11 +4827,6 @@ msgstr "SPOT 5 - 5 m NB"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS11..Caption
 msgid "SPOT 5 - 5m Color"
 msgstr "SPOT 5 - 5 m Couleur"
-
-#. Programmer's name for it: rsORMSQLiteMarksDbName
-#. Programmer's name for it: rsSQLiteCacheName
-msgid "SQLite3"
-msgstr "SQLite3"
 
 msgid "SQLite3 cache folder:"
 msgstr "SQLite3, répertoire du cache :"
@@ -5100,10 +5013,6 @@ msgstr ""
 msgid "Thread count"
 msgstr "Nombre de tâches"
 
-#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
-msgid "TIFF"
-msgstr "TIFF"
-
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Par dalle"
@@ -5143,10 +5052,6 @@ msgstr "La dalle n'est pas trouvée ! Taille résultante égale zéro"
 #. crop single tile
 msgid "Tile is recognized as empty"
 msgstr "La dalle est reconnue comme vide"
-
-#. Programmer's name for it: rsTMSCacheName
-msgid "Tile Map Service (TMS)"
-msgstr "TileMapService (TMS)"
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "TileMapService, répertoire du cache :"
@@ -5504,10 +5409,6 @@ msgstr "Votre version :"
 msgid "yournavigation.org (OSM)"
 msgstr "yournavigation.org (OSM)"
 
-#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
-msgid "ZIP (Deflate)"
-msgstr "ZIP (Deflate)"
-
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
 msgstr "Nom du fichier ZMP"
@@ -5523,10 +5424,6 @@ msgstr ""
 #. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
 msgid "Zmp Name"
 msgstr "Nom du ZMP"
-
-#. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
-msgid "ZMP:"
-msgstr "Chemin du ZMP :"
 
 #. frLonLat..pnlProjected..grdpnlZone..lblZone..Caption
 msgid "Zone:"

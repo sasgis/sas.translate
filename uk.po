@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-05-31 19:07\n"
+"POT-Creation-Date: 2019-05-31 19:49\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -48,14 +48,6 @@ msgstr " Сховище "
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
 msgstr " До "
-
-#. frMapsList..MapList......Caption
-msgid "#"
-msgstr ""
-
-#. frExportToIMG..PageControl1..Settings..PnlSettings..edtVolumeSize..Text
-msgid "$79999999"
-msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExtendedMultiPathCaption
 #, object-pascal-format
@@ -134,14 +126,6 @@ msgstr "&Вигляд"
 msgid "(%s not found!)"
 msgstr "(%s не знайдено!)"
 
-#. frExportToIMG..PageControl1..Settings..pnlLicense..LLicenseFile..Caption
-msgid "(*.mpl)"
-msgstr ""
-
-#. frExportToIMG..PageControl1..Settings..pnlCompiler..LMapCompilerPath..Caption
-msgid "(bld_gmap32.exe)"
-msgstr ""
-
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
 #, no-object-pascal-format
@@ -170,10 +154,6 @@ msgstr ""
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
 msgid "0..9 max"
 msgstr "0..9 макс"
-
-#. frExportToIMG..PageControl1..Settings..PnlSettings..edtMapSeries..EditMask
-msgid "099;0; "
-msgstr ""
 
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -888,10 +868,6 @@ msgstr "Шлях до кешу BerkeleyDB:"
 msgid "Best"
 msgstr ""
 
-#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
-msgid "BigTIFF"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
 msgstr "Швидкість, біт/с"
@@ -1208,10 +1184,6 @@ msgstr "Кольорова схема %d"
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
 msgstr "Колір:"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType....Items.Strings
-msgid "COM"
-msgstr ""
 
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
@@ -2311,10 +2283,6 @@ msgstr "Підписи назви листів"
 msgid "GenShtab Maps Boundaries"
 msgstr "Показувати бланковку карт ГШ"
 
-#. Programmer's name for it: rsGeoCacherCacheName
-msgid "GeoCacher"
-msgstr ""
-
 msgid "GeoCacher root folder:"
 msgstr "Шлях до кешу GeoCacher"
 
@@ -2334,10 +2302,6 @@ msgstr "Географічні / WGS84"
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Geographic Coordinates"
 msgstr "Географічні координати"
-
-#. Programmer's name for it: rsGlobalMapperBingCacheName
-msgid "GlobalMapper Bing"
-msgstr ""
 
 #. Programmer's name for it: rsGlobalMapperCacheName
 msgid "GlobalMapper Tiles"
@@ -2865,11 +2829,6 @@ msgstr "та низької якості"
 msgid "Lower right corner"
 msgstr "Правий нижній кут"
 
-#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression..Text
-#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
-msgid "LZW"
-msgstr ""
-
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap2..Caption
 #. Programmer's name for it: SAS_UNITS_m
 msgid "m"
@@ -3110,10 +3069,6 @@ msgstr "Максимальна швидкість"
 msgid "MB"
 msgstr "Мб"
 
-#. Programmer's name for it: SAS_STR_ExportMBTilesExportCaption
-msgid "MBTiles 1.2 (SQLite3)"
-msgstr ""
-
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 #, fuzzy
 msgid "Medium"
@@ -3176,10 +3131,6 @@ msgstr "Згорнути в трей"
 msgid "MOBAC cache folder:"
 msgstr "Шлях до кешу MOBAC:"
 
-#. Programmer's name for it: rsMobileAtlasCacheName
-msgid "Mobile Atlas Creator (MOBAC)"
-msgstr ""
-
 #. for Symbian prior v3.91 and Android prior v1.72
 #. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
 msgid "Mobile Yandex.Maps (cache v3)"
@@ -3193,10 +3144,6 @@ msgstr "Мобільні Яндекс.Карти (кеш v4)"
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..Caption
 msgid "Modify"
 msgstr "Змінити"
-
-#. Programmer's name for it: rsORMMongoDbMarksDbName
-msgid "MongoDB"
-msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
@@ -3559,14 +3506,6 @@ msgstr "Налаштування..."
 msgid "Order by:"
 msgstr "Z-Сортування:"
 
-#. Programmer's name for it: SAS_STR_ExportOruxMapsSQLiteExportCaption
-msgid "OruxMaps (SQLite3)"
-msgstr ""
-
-#. Programmer's name for it: rsOsmAndCacheName
-msgid "OsmAnd+ Tiles"
-msgstr ""
-
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
 msgstr "Інші"
@@ -3626,11 +3565,6 @@ msgstr "Параметр"
 msgid "Params"
 msgstr "Параметр"
 
-#. frmMapTypeEdit..PageControl1..tsParams..Caption
-#. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Hint
-msgid "Params.txt"
-msgstr ""
-
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
 msgstr "Батьківський пункт меню"
@@ -3638,10 +3572,6 @@ msgstr "Батьківський пункт меню"
 #, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Кількість частин: %d"
-
-#. frmMain..actlstMain..actShowPascalScriptIde..Caption
-msgid "Pascal Script IDE"
-msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
 msgid "Password"
@@ -4214,10 +4144,6 @@ msgstr "Радіус кілець (м)"
 msgid "Rise"
 msgstr "Схід"
 
-#. Programmer's name for it: SAS_STR_ExportRMapsSQLiteExportCaption
-msgid "RMaps (SQLite3)"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_ExportRMPExportCaption
 msgid "RMP raster map for Magellan"
 msgstr "RMP растрова карта для Magellan"
@@ -4243,10 +4169,6 @@ msgstr "Прокласти маршрут"
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Hint
 msgid "Run"
 msgstr "Виконати"
-
-#. frExportToIMG..PageControl1..Map..pnlSasZoom..lblsas..Caption
-msgid "SAS"
-msgstr ""
 
 #. frmMain..Caption
 #. frmAbout..lblProgramName..Caption
@@ -4808,10 +4730,6 @@ msgstr "Пауза, у випадку втрати зв'язку, мс"
 msgid "Small"
 msgstr ""
 
-#. Programmer's name for it: rsSMLMarksDbName
-msgid "SML"
-msgstr ""
-
 #. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
 msgid "Snap to Existing Markers"
 msgstr "Магнітні маркери"
@@ -4878,11 +4796,6 @@ msgstr "SPOT 5 - 5м Ч/Б"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS11..Caption
 msgid "SPOT 5 - 5m Color"
 msgstr "SPOT 5 - 5м Колір"
-
-#. Programmer's name for it: rsORMSQLiteMarksDbName
-#. Programmer's name for it: rsSQLiteCacheName
-msgid "SQLite3"
-msgstr ""
 
 msgid "SQLite3 cache folder:"
 msgstr "Шлях до кешу SQLite3:"
@@ -5069,10 +4982,6 @@ msgstr ""
 msgid "Thread count"
 msgstr "Кількість потоків"
 
-#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
-msgid "TIFF"
-msgstr ""
-
 #. frLonLat..pnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Тайлові"
@@ -5112,10 +5021,6 @@ msgstr "Такого зображення немає на сервері! Нул
 #. crop single tile
 msgid "Tile is recognized as empty"
 msgstr "Тайл розпізнано як порожній"
-
-#. Programmer's name for it: rsTMSCacheName
-msgid "Tile Map Service (TMS)"
-msgstr ""
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Шлях до кешу Tile Map Service (TMS):"
@@ -5468,10 +5373,6 @@ msgstr "Ваша версія:"
 msgid "yournavigation.org (OSM)"
 msgstr "Засобами yournavigation.org (OSM)"
 
-#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
-msgid "ZIP (Deflate)"
-msgstr ""
-
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
 msgstr "Шлях до файла"
@@ -5489,10 +5390,6 @@ msgstr ""
 #, fuzzy
 msgid "Zmp Name"
 msgstr "Назва карти"
-
-#. frmMapTypeEdit..pnlBottom..lblZmpName..Caption
-msgid "ZMP:"
-msgstr ""
 
 #. frLonLat..pnlProjected..grdpnlZone..lblZone..Caption
 msgid "Zone:"
