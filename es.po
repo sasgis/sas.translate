@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-05-31 19:49\n"
+"POT-Creation-Date: 2019-06-03 21:50\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -655,6 +655,7 @@ msgstr ""
 msgid "Any Available Source"
 msgstr "Cualquier Fuente disponible"
 
+#. frmArchiverSettings..pnlBottom..btnApply..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
@@ -669,6 +670,26 @@ msgstr "Aplicar"
 #. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
 msgid "Approx. to download:"
 msgstr "Restan descargar (aprox.):"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#, fuzzy
+msgid "Archive"
+msgstr "A Archivo"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+#, fuzzy
+msgid "Archive (tar)"
+msgstr "A Archivo"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+#, fuzzy
+msgid "Archive (zip)"
+msgstr "A Archivo"
+
+#. frmArchiverSettings..Caption
+#, fuzzy
+msgid "Archiver Settings"
+msgstr "Opciones de Layers"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 #, no-object-pascal-format
@@ -1032,6 +1053,7 @@ msgstr "Calibración para programa OziExplorer (*.map)"
 msgid "Calibration for Radio Mobile programm (*.dat)"
 msgstr "Calibración para programa Radio Mobile (*.dat)"
 
+#. frmArchiverSettings..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -1621,6 +1643,16 @@ msgstr ""
 msgid "Dest Cache"
 msgstr "Caché destino"
 
+#. dest
+msgid "Dest cache file is not specified!"
+msgstr ""
+
+msgid "Dest cache path is not specified!"
+msgstr ""
+
+msgid "Dest cache type is not selected!"
+msgstr ""
+
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
 msgstr ""
@@ -2077,13 +2109,18 @@ msgstr "Opciones de Mapa"
 msgid "Export visible placemarks"
 msgstr "Exportar marcas visibles"
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblDefExtention..Caption
-msgid "Extention:"
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblDefExtension..Caption
+#, fuzzy
+msgid "Extension:"
 msgstr "Extensión:"
 
 #. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
 msgid "External tile storage is readonly"
 msgstr "Almacenamiento externo de mosaicos es de solo lectura"
+
+#, object-pascal-format
+msgid "Failed detect archive type from file name: %s"
+msgstr ""
 
 #. Programmer's name for it: rsFailedSessionSave
 #, fuzzy
@@ -2143,6 +2180,10 @@ msgstr "Nombre archivo"
 msgid "File name prefix:"
 msgstr "Nombre archivo"
 
+#, fuzzy
+msgid "File:"
+msgstr "Archivo"
+
 #. Programmer's name for it: SAS_STR_Files
 msgid "files"
 msgstr "Archivos"
@@ -2191,6 +2232,14 @@ msgstr "Ajustar a Pantalla"
 #. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..GridPanel1..chkFixedCoordPrecision..Caption
 msgid "Fixed Precision"
 msgstr ""
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType..Text
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType..Text
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+#, fuzzy
+msgid "Folder"
+msgstr "A Carpeta"
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -2648,7 +2697,8 @@ msgstr ""
 "¡Borrado inválido: El objecto tiene todavía  interfase activa ref's! (Ref "
 "count: %d)"
 
-msgid "Invalid Volume Size value: "
+#, object-pascal-format
+msgid "Invalid Volume Size value: %s"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
@@ -4796,6 +4846,21 @@ msgstr ""
 msgid "Source Cache"
 msgstr "Caché Origen"
 
+#. source
+msgid "Source cache file is not specified!"
+msgstr ""
+
+msgid "Source cache path is not specified!"
+msgstr ""
+
+#, fuzzy
+msgid "Source cache type is not selected!"
+msgstr "Projección no seleccionada"
+
+#, fuzzy, object-pascal-format
+msgid "Source file does not exists: %s"
+msgstr "Archivo %0:s no existe"
+
 #. frmPointProjecting..rgSourcePointType..Caption
 msgid "Source point type"
 msgstr "Tipo de Origen de la Posición"
@@ -5092,6 +5157,10 @@ msgstr "Existe mosaico igual medida"
 msgid "Tiles"
 msgstr "Mosaicos"
 
+#, fuzzy
+msgid "Tiles extension is not selected!"
+msgstr "Projección no seleccionada"
+
 #. Programmer's name for it: rsTime
 #, fuzzy
 msgid "Time"
@@ -5204,6 +5273,10 @@ msgstr "Error desconocido durante descarga"
 #, object-pascal-format
 msgid "Unknown status code %d"
 msgstr "Código de estado desconocido %d"
+
+#, fuzzy, object-pascal-format
+msgid "Unsupported archive type: %s"
+msgstr "Tipo de contenido no esperado %s"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
@@ -5432,6 +5505,10 @@ msgstr "Su Versión:"
 
 msgid "yournavigation.org (OSM)"
 msgstr "yournavigation.org (OSM)"
+
+#, fuzzy
+msgid "zip archiver settings"
+msgstr "Opciones de Layers"
 
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"

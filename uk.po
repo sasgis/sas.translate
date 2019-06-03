@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-05-31 19:49\n"
+"POT-Creation-Date: 2019-06-03 21:50\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -644,6 +644,7 @@ msgstr "Привязка"
 msgid "Any Available Source"
 msgstr "Будь-яке доступне джерело"
 
+#. frmArchiverSettings..pnlBottom..btnApply..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
@@ -658,6 +659,26 @@ msgstr "Застосувати"
 #. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
 msgid "Approx. to download:"
 msgstr "Приблизно ще завантажити:"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#, fuzzy
+msgid "Archive"
+msgstr "До архіву"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+#, fuzzy
+msgid "Archive (tar)"
+msgstr "До архіву"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+#, fuzzy
+msgid "Archive (zip)"
+msgstr "До архіву"
+
+#. frmArchiverSettings..Caption
+#, fuzzy
+msgid "Archiver Settings"
+msgstr "Параметри шару"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 #, no-object-pascal-format
@@ -1019,6 +1040,7 @@ msgstr "Калібрування для програми OziExplorer (*.map)"
 msgid "Calibration for Radio Mobile programm (*.dat)"
 msgstr "Калібрування для програми Radio Mobile (*.dat)"
 
+#. frmArchiverSettings..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -1599,6 +1621,16 @@ msgstr "Опис:<br> %s"
 msgid "Dest Cache"
 msgstr "Результуючий кеш"
 
+#. dest
+msgid "Dest cache file is not specified!"
+msgstr ""
+
+msgid "Dest cache path is not specified!"
+msgstr ""
+
+msgid "Dest cache type is not selected!"
+msgstr ""
+
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
 msgstr "Вид з подробицями"
@@ -2051,13 +2083,18 @@ msgstr "Параметри карти"
 msgid "Export visible placemarks"
 msgstr "Експорт видимих позначок"
 
-#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblDefExtention..Caption
-msgid "Extention:"
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblDefExtension..Caption
+#, fuzzy
+msgid "Extension:"
 msgstr "Розширення:"
 
 #. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
 msgid "External tile storage is readonly"
 msgstr "Підключення до БД тільки для читання"
+
+#, object-pascal-format
+msgid "Failed detect archive type from file name: %s"
+msgstr ""
 
 #. Programmer's name for it: rsFailedSessionSave
 #, fuzzy
@@ -2117,6 +2154,10 @@ msgstr "Шлях до файла"
 msgid "File name prefix:"
 msgstr "Шлях до файла"
 
+#, fuzzy
+msgid "File:"
+msgstr "Файл"
+
 #. Programmer's name for it: SAS_STR_Files
 msgid "files"
 msgstr "файлів"
@@ -2165,6 +2206,14 @@ msgstr "За розміром екрана"
 #. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..GridPanel1..chkFixedCoordPrecision..Caption
 msgid "Fixed Precision"
 msgstr ""
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType..Text
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType..Text
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+#, fuzzy
+msgid "Folder"
+msgstr "В папку"
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -2614,7 +2663,8 @@ msgid ""
 "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
 msgstr ""
 
-msgid "Invalid Volume Size value: "
+#, object-pascal-format
+msgid "Invalid Volume Size value: %s"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
@@ -4742,6 +4792,21 @@ msgstr "Сонцестояння в"
 msgid "Source Cache"
 msgstr "Кеш джерело:"
 
+#. source
+msgid "Source cache file is not specified!"
+msgstr ""
+
+msgid "Source cache path is not specified!"
+msgstr ""
+
+#, fuzzy
+msgid "Source cache type is not selected!"
+msgstr "Проекція не вибрана"
+
+#, fuzzy, object-pascal-format
+msgid "Source file does not exists: %s"
+msgstr "Файл %0:s не існує"
+
 #. frmPointProjecting..rgSourcePointType..Caption
 msgid "Source point type"
 msgstr "Тип вихідної точки"
@@ -5036,6 +5101,10 @@ msgstr "Тайл з таким самим розміром вже існує"
 msgid "Tiles"
 msgstr "Тайли"
 
+#, fuzzy
+msgid "Tiles extension is not selected!"
+msgstr "Проекція не вибрана"
+
 #. Programmer's name for it: rsTime
 msgid "Time"
 msgstr "Час"
@@ -5145,6 +5214,10 @@ msgstr "Невідома помилка при завантаженні"
 #, object-pascal-format
 msgid "Unknown status code %d"
 msgstr "Помилка завантаження. Невідомий статус коду %d"
+
+#, object-pascal-format
+msgid "Unsupported archive type: %s"
+msgstr ""
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
@@ -5372,6 +5445,10 @@ msgstr "Ваша версія:"
 
 msgid "yournavigation.org (OSM)"
 msgstr "Засобами yournavigation.org (OSM)"
+
+#, fuzzy
+msgid "zip archiver settings"
+msgstr "Параметри шару"
 
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
