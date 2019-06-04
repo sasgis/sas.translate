@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-06-03 21:50\n"
+"POT-Creation-Date: 2019-06-04 15:34\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1083,6 +1083,13 @@ msgstr "Неможливо отримати БД: %s"
 msgid "Can't bound the Map - GUID not found!"
 msgstr ""
 
+#. http://www.sasgis.org/mantis/view.php?id=3435
+#, object-pascal-format
+msgid ""
+"Can't delete category: \"%s\".\n"
+"Detected multiply categories with same name."
+msgstr ""
+
 msgid "Can't initialize in-memory tile storage. Check your config!"
 msgstr "Неможливо створити сховище в пам’яті. Перевірте налаштування!"
 
@@ -1113,6 +1120,10 @@ msgstr "Параметри заголовка"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "Каскад"
+
+#, fuzzy, object-pascal-format
+msgid "Category with name: \"%s\" already exists!"
+msgstr "Тайл з таким самим розміром вже існує"
 
 #. frMarkCategorySelectOrAdd..lblCategory..Caption
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
@@ -2015,6 +2026,11 @@ msgstr "Помилка вводу координат: широта=%s довго
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Помилка при збереженні!"
+
+#. Programmer's name for it: SAS_MSG_error
+#, fuzzy
+msgid "Error!"
+msgstr "Помилка"
 
 #. Programmer's name for it: rsEvent
 msgid "Event"

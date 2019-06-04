@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-06-03 21:50\n"
+"POT-Creation-Date: 2019-06-04 15:34\n"
 "PO-Revision-Date: 2019-05-10 19:58+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1093,6 +1093,13 @@ msgstr "Ne peut pas acquérir la base de données : %s"
 msgid "Can't bound the Map - GUID not found!"
 msgstr "Impossible de créer la carte. Le GUID ne peut pas être trouvé !"
 
+#. http://www.sasgis.org/mantis/view.php?id=3435
+#, object-pascal-format
+msgid ""
+"Can't delete category: \"%s\".\n"
+"Detected multiply categories with same name."
+msgstr ""
+
 msgid "Can't initialize in-memory tile storage. Check your config!"
 msgstr ""
 "Ne peut pas initialiser en mémoire le stockage de dalles. Vérifier la "
@@ -1125,6 +1132,10 @@ msgstr "Paramètres de la légende"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "Cascade"
+
+#, fuzzy, object-pascal-format
+msgid "Category with name: \"%s\" already exists!"
+msgstr "Une dalle avec la même taille existe déjà"
 
 #. frMarkCategorySelectOrAdd..lblCategory..Caption
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
@@ -2041,6 +2052,11 @@ msgstr "Erreur de saisie des coordonnées : Lat=%s Lon=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Erreur pendant la sauvegarde !"
+
+#. Programmer's name for it: SAS_MSG_error
+#, fuzzy
+msgid "Error!"
+msgstr "Erreur"
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
