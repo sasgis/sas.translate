@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-06-27 19:14\n"
-"PO-Revision-Date: 2019-05-10 19:58+0200\n"
+"PO-Revision-Date: 2019-06-27 22:20+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -389,7 +389,7 @@ msgid "Absolute"
 msgstr "Absolue"
 
 msgid "Access is denied"
-msgstr ""
+msgstr "L'accès est refusé"
 
 #. frMapSelect..FilterPopupMenu..TBX_Active..Caption
 msgid "Active"
@@ -576,56 +576,51 @@ msgstr "Tout visible"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
-msgstr ""
+msgstr "Autorise l'ajout"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkDeleteAccess..Caption
-#, fuzzy
 msgid "Allow Delete"
-msgstr "Supprimer"
+msgstr "Autorise la suppression"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkReadAccess..Caption
 msgid "Allow Read"
-msgstr ""
+msgstr "Autorise la lecture"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkReplaceAccess..Caption
 msgid "Allow Replace"
-msgstr ""
+msgstr "Autorise le remplacement"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkScanAccess..Caption
 msgid "Allow Scan"
-msgstr ""
+msgstr "Autorise le scan"
 
 #. download availability
-#, fuzzy
 msgid "Allowed"
-msgstr "Surface : %s"
+msgstr "Autorisé"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Allowed: %s"
-msgstr "Surface : %s"
+msgstr "Autorisé : %s"
 
-#, fuzzy
 msgctxt "Allowed"
 msgid "Add"
-msgstr "Ajouter"
+msgstr "Ajout autorisé"
 
-#, fuzzy
 msgctxt "Allowed"
 msgid "Delete"
-msgstr "Supprimer"
+msgstr "Suppression  autorisée"
 
-#, fuzzy
 msgctxt "Allowed"
 msgid "Read"
-msgstr "Lecture seule"
+msgstr "Lecture autorisée"
 
 msgctxt "Allowed"
 msgid "Replace"
-msgstr ""
+msgstr "Remplacement autorisé"
 
 msgctxt "Allowed"
 msgid "Scan"
-msgstr ""
+msgstr "Scan autorisé"
 
 #. Programmer's name for it: rsAlt
 msgid "Alt."
@@ -663,24 +658,20 @@ msgid "Approx. to download:"
 msgstr "Reste à télécharger (estimé) :"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType....Items.Strings
-#, fuzzy
 msgid "Archive"
-msgstr "Vers l'archive"
+msgstr "Archive"
 
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
-#, fuzzy
 msgid "Archive (tar)"
-msgstr "Vers l'archive"
+msgstr "Archive (tar)"
 
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
-#, fuzzy
 msgid "Archive (zip)"
-msgstr "Vers l'archive"
+msgstr "Archive (zip)"
 
 #. frmArchiverSettings..Caption
-#, fuzzy
 msgid "Archiver Settings"
-msgstr "Paramètres de la Couche"
+msgstr "Paramètres d'archivage"
 
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 #, no-object-pascal-format
@@ -897,7 +888,7 @@ msgid "BerkeleyDB cache folder:"
 msgstr "BerkeleyDB, répertoire du cache :"
 
 msgid "Best"
-msgstr ""
+msgstr "Meilleur"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
@@ -963,9 +954,8 @@ msgid "Cache"
 msgstr "Cache"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..Caption
-#, fuzzy
 msgid "Cache abilities"
-msgstr "Afficher les dalles en cache"
+msgstr "Capacités du cache"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..Caption
 msgid "Cache and Other"
@@ -1009,9 +999,8 @@ msgid "Cache Size, Mb:"
 msgstr "Taille du cache, Mb :"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..lblCacheState..Caption
-#, fuzzy
 msgid "Cache state:"
-msgstr "Type de cache"
+msgstr "Etat du cache :"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..lblCacheType..Caption
 msgid "Cache type"
@@ -1099,6 +1088,8 @@ msgid ""
 "Can't delete category: \"%s\".\n"
 "Detected multiply categories with same name."
 msgstr ""
+"Impossible de supprimer la catégorie : \"%s\".\n"
+"Détection de plusieurs catégories avec le même nom."
 
 msgid "Can't initialize in-memory tile storage. Check your config!"
 msgstr ""
@@ -1133,13 +1124,12 @@ msgstr "Paramètres de la légende"
 msgid "Cascade"
 msgstr "Cascade"
 
-#, fuzzy
 msgid "Category name can't be empty!"
-msgstr "Ecrire un nom dans la case !"
+msgstr "Ecrire un nom dans la case catégorie !"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Category with name: \"%s\" already exists!"
-msgstr "Une dalle avec la même taille existe déjà"
+msgstr "Une catégorie avec le nom : \"%s\" existe déjà !"
 
 #. frMarkCategorySelectOrAdd..lblCategory..Caption
 #. frmMarkEditPoly..pnlCategory..lblCategory..Caption
@@ -1162,14 +1152,13 @@ msgid "Change source zoom"
 msgstr "Changer la source du zoom"
 
 msgid "Changes will take effect after restart."
-msgstr ""
+msgstr "Les changements seront effectifs après redémarrage."
 
 #. Programmer's name for it: SAS_STR_BattaryStateCharge
 msgid "Charging"
 msgstr "En train de charger"
 
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
-#, fuzzy
 msgid "Check for Updates"
 msgstr "Recherche des mises à jour"
 
@@ -1270,14 +1259,12 @@ msgid "Compression (for PNG):"
 msgstr "Compression (pour PNG) :"
 
 #. frArchiveWriteZipConfig..lblCompressLevel..Caption
-#, fuzzy
 msgid "Compression Level:"
-msgstr "Compression :"
+msgstr "Niveau de Compression :"
 
 #. frArchiveWriteZipConfig..lblCompressMethod..Caption
-#, fuzzy
 msgid "Compression Method:"
-msgstr "Compression :"
+msgstr "Méthode de Compression :"
 
 #. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
@@ -1655,13 +1642,13 @@ msgstr "Cache de destination :"
 
 #. dest
 msgid "Dest cache file is not specified!"
-msgstr ""
+msgstr "Le fichier cache Dest n'est pas spécifié !"
 
 msgid "Dest cache path is not specified!"
-msgstr ""
+msgstr "Le répertoire du cache Dest n'est pas spécifié !"
 
 msgid "Dest cache type is not selected!"
-msgstr ""
+msgstr "Le type du cache Dest n'est pas spécifié !"
 
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
@@ -2058,9 +2045,8 @@ msgid "Error while saving!"
 msgstr "Erreur pendant la sauvegarde !"
 
 #. Programmer's name for it: SAS_MSG_error
-#, fuzzy
 msgid "Error!"
-msgstr "Erreur"
+msgstr "Erreur !"
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -2137,7 +2123,6 @@ msgid "Export visible placemarks"
 msgstr "Exporter les marqueurs visibles"
 
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblDefExtension..Caption
-#, fuzzy
 msgid "Extension:"
 msgstr "Extension :"
 
@@ -2148,6 +2133,7 @@ msgstr "Le stockage externe des dalles est en lecture seule"
 #, object-pascal-format
 msgid "Failed detect archive type from file name: %s"
 msgstr ""
+"Échec de la détection du type d'archive à partir du nom de fichier : %s"
 
 #. Programmer's name for it: rsFailedSessionSave
 msgid "Failed to save session to file: "
@@ -2158,7 +2144,7 @@ msgid "Failed to save to external tile storage: error "
 msgstr "Problème pour sauvegarder vers le stockage externe des dalles : erreur"
 
 msgid "Fast"
-msgstr ""
+msgstr "Rapide"
 
 #. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
 msgid "Favorite maps/layers"
@@ -2205,9 +2191,8 @@ msgstr "Nom du fichier"
 msgid "File name prefix:"
 msgstr "Préfixe du nom de fichier :"
 
-#, fuzzy
 msgid "File:"
-msgstr "Fichier"
+msgstr "Fichier :"
 
 #. Programmer's name for it: SAS_STR_Files
 msgid "files"
@@ -2262,9 +2247,8 @@ msgstr "Précision fixée"
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType....Items.Strings
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType..Text
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
-#, fuzzy
 msgid "Folder"
-msgstr "Vers le répertoire"
+msgstr "Répertoire"
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -2717,7 +2701,7 @@ msgstr ""
 
 #, object-pascal-format
 msgid "Invalid Volume Size value: %s"
-msgstr ""
+msgstr "Valeur de taille de volume non valide : %s"
 
 #. Programmer's name for it: SAS_STR_ExportIPhone128Caption
 msgid "iPhone (version 2.2 and above, 128x128)"
@@ -3109,9 +3093,8 @@ msgstr "Information sur le marqueur"
 msgid "Mark Nonexistent Tiles"
 msgstr "Marquer les dalles inexistantes"
 
-#, fuzzy
 msgid "Marks"
-msgstr "Mes marqueurs"
+msgstr "Marqueurs"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
 msgid "Marks database"
@@ -3332,7 +3315,7 @@ msgid "Navigation Arrow"
 msgstr "Flèche de navigation"
 
 msgid "Navitel"
-msgstr ""
+msgstr "Navitel"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Network operations timeout, ms"
@@ -3416,17 +3399,15 @@ msgstr "Aucun"
 msgid "Noon"
 msgstr "Midi"
 
-#, fuzzy
 msgid "Normal"
-msgstr "Nouveau format"
+msgstr "Normal"
 
 #. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
 msgid "North"
 msgstr "Nord"
 
-#, fuzzy
 msgid "Not allowed:"
-msgstr "Surface : %s"
+msgstr "Non autorisé :"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "\"params.txt\" non trouvé dans le zmp"
@@ -3482,7 +3463,7 @@ msgstr "Odomètre #2"
 
 #, object-pascal-format
 msgid "Offline search (%s)"
-msgstr ""
+msgstr "Recherche hors ligne (%s)"
 
 #. Programmer's name for it: SAS_STR_ExportOgf2PackCaption
 msgid "Ogf2 map for SmartComGPS 1.5x"
@@ -3572,14 +3553,12 @@ msgid "Opacity:"
 msgstr "Transparence :"
 
 #. frmMain..actlstMain..actHelpOpenCommunity..Caption
-#, fuzzy
 msgid "Open Forum Page"
-msgstr "Ouvrir le zmp"
+msgstr "Forum, en russe"
 
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
-#, fuzzy
 msgid "Open Home Page"
-msgstr "Ouvrir le zmp"
+msgstr "Page d'accueil, en russe"
 
 #. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
 msgid "Open Overlay Layer Tile Folder"
@@ -3591,7 +3570,7 @@ msgstr "Ouvrir le répertoire de dalles de la Carte affichée"
 
 #. frmMain..actlstMain..actHelpOpenOnline..Caption
 msgid "Open User Manual"
-msgstr ""
+msgstr "Aide, en russe"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Hint
@@ -3860,9 +3839,8 @@ msgstr "Sélectionner au moins une région."
 msgid "Please select at least one zoom"
 msgstr "Sélectionner au moins un zoom."
 
-#, fuzzy
 msgid "Please select at least one zoom!"
-msgstr "Sélectionner au moins un zoom."
+msgstr "Sélectionner au moins un zoom !"
 
 msgid "Please select at one placemark type"
 msgstr "Sélectionner au moins un type de marqueur."
@@ -4197,7 +4175,7 @@ msgstr "Remplacer les dalles existantes"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
 msgid "Report a Bug"
-msgstr ""
+msgstr "Reporter un Bug"
 
 #. Programmer's name for it: SAS_ERR_Nopoints
 msgid "Required pointset is not found!"
@@ -4271,9 +4249,8 @@ msgstr "Rouler en arrière pour actionner le zoom vers le haut"
 msgid "Roscosmos (geoportal.ntsomz.ru)"
 msgstr "Roscosmos (geoportal.ntsomz.ru)"
 
-#, fuzzy
 msgid "Rosreestr"
-msgstr "l'URL de Rosreestr"
+msgstr "Rosreestr"
 
 #. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
@@ -4860,18 +4837,17 @@ msgstr "Cache à convertir :"
 
 #. source
 msgid "Source cache file is not specified!"
-msgstr ""
+msgstr "Le fichier de cache source n'est pas spécifié !"
 
 msgid "Source cache path is not specified!"
-msgstr ""
+msgstr "Le répertoire du cache source n'est pas spécifié !"
 
-#, fuzzy
 msgid "Source cache type is not selected!"
-msgstr "Aucune projection sélectionnée !"
+msgstr "Le type de cache source n'est pas sélectionné !"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Source file does not exists: %s"
-msgstr "Le fichier %0:s n'existe pas"
+msgstr "Le fichier source n'existe pas : %s"
 
 #. frmPointProjecting..rgSourcePointType..Caption
 msgid "Source point type"
@@ -4904,9 +4880,8 @@ msgid "Split selection to, parts*:"
 msgstr "Partager la sélection en*  :"
 
 #. frArchiveWriteZipConfig..lblSplitToVolumes..Caption
-#, fuzzy
 msgid "Split to volumes, Mb:"
-msgstr "Mb maxi du volume"
+msgstr "Diviser en volumes, Mb :"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
 msgid "SPOT 5 - 10m Color"
@@ -4963,7 +4938,6 @@ msgstr "Assembler : %0:dx%1:d (%2:d) fichiers"
 msgid "Stitching the map"
 msgstr "Assembler la carte"
 
-#, fuzzy
 msgid "Store"
 msgstr "Stockage"
 
@@ -5167,9 +5141,8 @@ msgstr "Une dalle avec la même taille existe déjà"
 msgid "Tiles"
 msgstr "Dalles"
 
-#, fuzzy
 msgid "Tiles extension is not selected!"
-msgstr "Aucune projection sélectionnée !"
+msgstr "L'extension des tuiles n'est pas sélectionnée !"
 
 #. Programmer's name for it: rsTime
 msgid "Time"
@@ -5283,9 +5256,9 @@ msgstr "Erreur inconnue pendant le téléchargement"
 msgid "Unknown status code %d"
 msgstr "Code erreur inconnu %d"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Unsupported archive type: %s"
-msgstr "Type de contenu inattendu %s"
+msgstr "Type d'archive non supporté : %s"
 
 #. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
@@ -5495,7 +5468,7 @@ msgid "WS deg.min.sec. (W12°23\"43.35')"
 msgstr "WS deg.min.sec. (W12°23\"43.35')"
 
 msgid "Yandex"
-msgstr ""
+msgstr "Yandex"
 
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
@@ -5520,9 +5493,8 @@ msgstr "Votre version :"
 msgid "yournavigation.org (OSM)"
 msgstr "yournavigation.org (OSM)"
 
-#, fuzzy
 msgid "zip archiver settings"
-msgstr "Paramètres de la Couche"
+msgstr "Paramètres d'archivage zip"
 
 #. frMapsList..MapList......Caption
 msgid "ZMP Filename"
