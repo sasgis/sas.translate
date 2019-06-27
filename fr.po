@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-06-11 20:26\n"
+"POT-Creation-Date: 2019-06-27 19:14\n"
 "PO-Revision-Date: 2019-05-10 19:58+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1785,7 +1785,7 @@ msgstr "Ne pas afficher pour tous les cas"
 msgid "Don't show for Geographic / WGS84"
 msgstr "Ne pas afficher pour GEO / WGS84"
 
-#. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
+#. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
 msgstr "Ne pas stocker de références pour des dalles inexistantes"
 
@@ -3067,7 +3067,7 @@ msgstr "Version de la Carte :"
 #. frTilesDownload..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 msgid "Map/Overlay layer:"
@@ -3108,6 +3108,10 @@ msgstr "Information sur le marqueur"
 #. frmMain..actlstMain..actViewFillingMapMarkUnexisting..Caption
 msgid "Mark Nonexistent Tiles"
 msgstr "Marquer les dalles inexistantes"
+
+#, fuzzy
+msgid "Marks"
+msgstr "Mes marqueurs"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
 msgid "Marks database"
@@ -3327,6 +3331,9 @@ msgstr "Naviguer vers la balise surlignée (GPS)"
 msgid "Navigation Arrow"
 msgstr "Flèche de navigation"
 
+msgid "Navitel"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Network operations timeout, ms"
 msgstr "Délai d'attente pour les opérations de réseau, ms :"
@@ -3472,6 +3479,10 @@ msgstr "Odomètre"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2MenuItemName
 msgid "Odometer #2"
 msgstr "Odomètre #2"
+
+#, object-pascal-format
+msgid "Offline search (%s)"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportOgf2PackCaption
 msgid "Ogf2 map for SmartComGPS 1.5x"
@@ -4154,7 +4165,7 @@ msgstr "Rafraîchir"
 msgid "Refresh rate (ms)"
 msgstr "Taux de rafraîchissement (ms) :"
 
-#. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
+#. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Chemin relatif des dalles"
 
@@ -4259,6 +4270,10 @@ msgstr "Rouler en arrière pour actionner le zoom vers le haut"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkRoscosmos..Caption
 msgid "Roscosmos (geoportal.ntsomz.ru)"
 msgstr "Roscosmos (geoportal.ntsomz.ru)"
+
+#, fuzzy
+msgid "Rosreestr"
+msgstr "l'URL de Rosreestr"
 
 #. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
@@ -4372,7 +4387,7 @@ msgstr "Sauvegarder la sélection dans un fichier .hlg"
 #. frExportToIMG..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
-#. frExportGEKml..pnlTop..lblTargetFile..Caption
+#. frExportKml..pnlTop..lblTargetFile..Caption
 #. frExportMBTiles..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
@@ -5478,6 +5493,9 @@ msgstr "WS deg.min. (W12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min.sec. (W12°23\"43.35')"
 msgstr "WS deg.min.sec. (W12°23\"43.35')"
+
+msgid "Yandex"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-06-11 20:26\n"
-"PO-Revision-Date: 2019-06-11 20:27+0300\n"
+"POT-Creation-Date: 2019-06-27 19:14\n"
+"PO-Revision-Date: 2019-06-27 19:15+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1746,7 +1746,7 @@ msgstr "Не отображать"
 msgid "Don't show for Geographic / WGS84"
 msgstr "Не отображать для WGS84"
 
-#. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
+#. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
 msgstr "Не сохранять пути к несуществующим тайлам"
 
@@ -3007,7 +3007,7 @@ msgstr "Версия карты:"
 #. frTilesDownload..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 msgid "Map/Overlay layer:"
@@ -3048,6 +3048,9 @@ msgstr "Информация о метке"
 #. frmMain..actlstMain..actViewFillingMapMarkUnexisting..Caption
 msgid "Mark Nonexistent Tiles"
 msgstr "Отсутствующие тайлы"
+
+msgid "Marks"
+msgstr "Метки"
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
 msgid "Marks database"
@@ -3266,6 +3269,9 @@ msgstr "Навигация на выбранную метку"
 msgid "Navigation Arrow"
 msgstr "Стрелка навигации"
 
+msgid "Navitel"
+msgstr "Навител"
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Network operations timeout, ms"
 msgstr "Таймаут на сетевые операции, мс"
@@ -3409,6 +3415,10 @@ msgstr "Одометр"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2MenuItemName
 msgid "Odometer #2"
 msgstr "Одометр № 2"
+
+#, object-pascal-format
+msgid "Offline search (%s)"
+msgstr "Оффлайн поиск (%s)"
 
 #. Programmer's name for it: SAS_STR_ExportOgf2PackCaption
 msgid "Ogf2 map for SmartComGPS 1.5x"
@@ -4087,7 +4097,7 @@ msgstr "Обновить"
 msgid "Refresh rate (ms)"
 msgstr "Период обновления (мс):"
 
-#. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
+#. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Относительный путь к тайлам"
 
@@ -4191,6 +4201,9 @@ msgstr "Вращение на себя - приближение"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkRoscosmos..Caption
 msgid "Roscosmos (geoportal.ntsomz.ru)"
 msgstr "Роскосмос (geoportal.ntsomz.ru)"
+
+msgid "Rosreestr"
+msgstr "Росреестр"
 
 #. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
@@ -4306,7 +4319,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportToIMG..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
-#. frExportGEKml..pnlTop..lblTargetFile..Caption
+#. frExportKml..pnlTop..lblTargetFile..Caption
 #. frExportMBTiles..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
@@ -5397,6 +5410,9 @@ msgstr "WS г.м. (W12°23.454)"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min.sec. (W12°23\"43.35')"
 msgstr "WS г.м.с. (W12°23\"43.35')"
+
+msgid "Yandex"
+msgstr "Яндекс"
 
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"

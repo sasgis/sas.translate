@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-06-11 20:26\n"
-"PO-Revision-Date: 2019-06-11 20:26\n"
+"POT-Creation-Date: 2019-06-27 19:14\n"
+"PO-Revision-Date: 2019-06-27 19:14\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1791,7 +1791,7 @@ msgstr ""
 msgid "Don't show for Geographic / WGS84"
 msgstr ""
 
-#. frExportGEKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
+#. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid ""
 "Don't store references to non-existent "
 "tiles"
@@ -3069,7 +3069,7 @@ msgstr ""
 #. frTilesDownload..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 #. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
-#. frExportGEKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportKml..pnlCenter..pnlMain..lblMap..Caption
 #. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
 #. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
 msgid "Map/Overlay layer:"
@@ -3109,6 +3109,9 @@ msgstr ""
 
 #. frmMain..actlstMain..actViewFillingMapMarkUnexisting..Caption
 msgid "Mark Nonexistent Tiles"
+msgstr ""
+
+msgid "Marks"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
@@ -3342,6 +3345,9 @@ msgstr ""
 msgid "Navigation Arrow"
 msgstr ""
 
+msgid "Navitel"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Network operations timeout, ms"
 msgstr ""
@@ -3488,6 +3494,10 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2MenuItemName
 msgid "Odometer #2"
+msgstr ""
+
+#, object-pascal-format
+msgid "Offline search (%s)"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportOgf2PackCaption
@@ -4172,7 +4182,7 @@ msgstr ""
 msgid "Refresh rate (ms)"
 msgstr ""
 
-#. frExportGEKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
+#. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr ""
 
@@ -4276,6 +4286,9 @@ msgstr ""
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkRoscosmos..Caption
 msgid "Roscosmos (geoportal.ntsomz.ru)"
+msgstr ""
+
+msgid "Rosreestr"
 msgstr ""
 
 #. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Caption
@@ -4392,7 +4405,7 @@ msgstr ""
 #. frExportToIMG..pnlTop..lblTargetFile..Caption
 #. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
-#. frExportGEKml..pnlTop..lblTargetFile..Caption
+#. frExportKml..pnlTop..lblTargetFile..Caption
 #. frExportMBTiles..pnlTop..lblTargetFile..Caption
 #. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
@@ -5489,6 +5502,9 @@ msgstr ""
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min.sec. (W12°23\"43.35')"
+msgstr ""
+
+msgid "Yandex"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Yes
