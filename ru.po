@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-08-03 12:23\n"
-"PO-Revision-Date: 2019-08-03 12:24+0300\n"
+"POT-Creation-Date: 2019-08-03 21:38\n"
+"PO-Revision-Date: 2019-08-03 21:40+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1171,6 +1171,14 @@ msgstr "Закрыть"
 #. frTilesDownload..pnlCenter..pnlMain..chkCloseAfterFinish..Caption
 msgid "Close download window once finish"
 msgstr "Закрыть окно загрузки после завершения"
+
+#. Programmer's name for it: rsCloseMoonCalcCaption
+msgid "Close Moon Calculator"
+msgstr "Закрыть калькулятор Луны"
+
+#. Programmer's name for it: rsCloseSunCalcCaption
+msgid "Close Sun Calculator"
+msgstr "Закрыть калькулятор Солнца"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
 msgid "Close this window once finished"
@@ -2456,10 +2464,6 @@ msgstr "Скрыть шкалу масштаба"
 #. Programmer's name for it: rsHideStatusBar
 msgid "Hide Status Bar"
 msgstr "Скрыть строку статуса"
-
-#. Programmer's name for it: rsHideSunCalcCaption
-msgid "Hide Sun Calculator"
-msgstr "Закрыть Калькулятор Солнца"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -4546,7 +4550,7 @@ msgstr "Показывать все метки"
 msgid "Show azimuth"
 msgstr "Отображать азимут"
 
-#. Programmer's name for it: rsShowCaptionNearSunCaption
+#. Programmer's name for it: rsShowCurrAzAndAltCaption
 msgid "Show Current Altitude and Azimuth"
 msgstr "Показывать текущую Высоту и Азимут"
 
@@ -4943,6 +4947,14 @@ msgstr "Закат"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Закат:"
+
+#. Programmer's name for it: rsSwitchToMoonCalcCaption
+msgid "Switch to the Moon Calculator"
+msgstr "Переключиться на калькулятор Луны"
+
+#. Programmer's name for it: rsSwitchToSunCalcCaption
+msgid "Switch to the Sun Calculator"
+msgstr "Переключиться на калькулятор Солнца"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"

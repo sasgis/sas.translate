@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-03 12:23\n"
+"POT-Creation-Date: 2019-08-03 21:38\n"
 "PO-Revision-Date: 2019-06-27 22:20+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1188,6 +1188,16 @@ msgstr "Fermer"
 #. frTilesDownload..pnlCenter..pnlMain..chkCloseAfterFinish..Caption
 msgid "Close download window once finish"
 msgstr "Fermer la fenêtre de téléchargement à la fin de l'action"
+
+#. Programmer's name for it: rsCloseMoonCalcCaption
+#, fuzzy
+msgid "Close Moon Calculator"
+msgstr "Calculateur solaire"
+
+#. Programmer's name for it: rsCloseSunCalcCaption
+#, fuzzy
+msgid "Close Sun Calculator"
+msgstr "Calculateur solaire"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
 msgid "Close this window once finished"
@@ -2498,10 +2508,6 @@ msgstr "Masquer l'échelle"
 #. Programmer's name for it: rsHideStatusBar
 msgid "Hide Status Bar"
 msgstr "Masquer la barre d'état"
-
-#. Programmer's name for it: rsHideSunCalcCaption
-msgid "Hide Sun Calculator"
-msgstr "Masquer le calculateur solaire"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -4592,7 +4598,7 @@ msgstr "Afficher tous les marqueurs"
 msgid "Show azimuth"
 msgstr "Afficher l'azimut"
 
-#. Programmer's name for it: rsShowCaptionNearSunCaption
+#. Programmer's name for it: rsShowCurrAzAndAltCaption
 msgid "Show Current Altitude and Azimuth"
 msgstr "Afficher l'altitude courante et l'azimut"
 
@@ -4990,6 +4996,16 @@ msgstr "Heure de coucher du soleil"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Heure de coucher du soleil :"
+
+#. Programmer's name for it: rsSwitchToMoonCalcCaption
+#, fuzzy
+msgid "Switch to the Moon Calculator"
+msgstr "Calculateur solaire"
+
+#. Programmer's name for it: rsSwitchToSunCalcCaption
+#, fuzzy
+msgid "Switch to the Sun Calculator"
+msgstr "Masquer le calculateur solaire"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"

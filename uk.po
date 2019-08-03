@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-08-03 12:23\n"
+"POT-Creation-Date: 2019-08-03 21:38\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1187,6 +1187,16 @@ msgstr "Закрити"
 #. frTilesDownload..pnlCenter..pnlMain..chkCloseAfterFinish..Caption
 msgid "Close download window once finish"
 msgstr "Закрити вікно після закінчення"
+
+#. Programmer's name for it: rsCloseMoonCalcCaption
+#, fuzzy
+msgid "Close Moon Calculator"
+msgstr "Калькулятор Сонця"
+
+#. Programmer's name for it: rsCloseSunCalcCaption
+#, fuzzy
+msgid "Close Sun Calculator"
+msgstr "Калькулятор Сонця"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
 msgid "Close this window once finished"
@@ -2483,10 +2493,6 @@ msgstr "Приховати шкалу масштабу"
 #. Programmer's name for it: rsHideStatusBar
 msgid "Hide Status Bar"
 msgstr "Приховати рядок стану"
-
-#. Programmer's name for it: rsHideSunCalcCaption
-msgid "Hide Sun Calculator"
-msgstr "Закрити Калькулятор Сонця"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -4582,7 +4588,7 @@ msgstr "Показувати всі позначки"
 msgid "Show azimuth"
 msgstr "Показувати азимут"
 
-#. Programmer's name for it: rsShowCaptionNearSunCaption
+#. Programmer's name for it: rsShowCurrAzAndAltCaption
 msgid "Show Current Altitude and Azimuth"
 msgstr ""
 
@@ -4985,6 +4991,16 @@ msgstr "Час заходу сонця"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Час заходу сонця:"
+
+#. Programmer's name for it: rsSwitchToMoonCalcCaption
+#, fuzzy
+msgid "Switch to the Moon Calculator"
+msgstr "Калькулятор Сонця"
+
+#. Programmer's name for it: rsSwitchToSunCalcCaption
+#, fuzzy
+msgid "Switch to the Sun Calculator"
+msgstr "Закрити Калькулятор Сонця"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
