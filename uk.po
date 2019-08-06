@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-08-03 21:38\n"
+"POT-Creation-Date: 2019-08-06 15:05\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1188,14 +1188,9 @@ msgstr "Закрити"
 msgid "Close download window once finish"
 msgstr "Закрити вікно після закінчення"
 
-#. Programmer's name for it: rsCloseMoonCalcCaption
+#. Programmer's name for it: rsCloseCalcCaption
 #, fuzzy
-msgid "Close Moon Calculator"
-msgstr "Калькулятор Сонця"
-
-#. Programmer's name for it: rsCloseSunCalcCaption
-#, fuzzy
-msgid "Close Sun Calculator"
+msgid "Close the Calculator"
 msgstr "Калькулятор Сонця"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
@@ -1510,6 +1505,10 @@ msgstr ""
 #. frmMarkSystemConfigEdit..grpDBType..Caption
 msgid "Database type"
 msgstr "Тип бази"
+
+#, fuzzy
+msgid "Day Length"
+msgstr "Довжина"
 
 #. Programmer's name for it: rsDBMSCacheName
 msgid "DBMS"
@@ -2222,6 +2221,9 @@ msgstr "Фільтр: \"%s\" (%d)"
 msgid "Finished"
 msgstr "Завершено"
 
+msgid "First Quarter"
+msgstr ""
+
 #. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
 msgid "Fit to screen"
 msgstr "За розміром екрана"
@@ -2307,6 +2309,10 @@ msgstr "Із шару масштабу:"
 #. frSearchResultsItem..PanelFullDescShort..LabelFullDescShort..Caption
 msgid "Full Description"
 msgstr "Повний опис"
+
+#, fuzzy
+msgid "Full Moon"
+msgstr "На весь екран"
 
 #. frmMain..actlstMain..actViewFullScreen..Caption
 #. frmMain..actlstMain..actViewFullScreen..Hint
@@ -2579,6 +2585,9 @@ msgstr "Ігнорувати позначки"
 msgid "Ignore polygons"
 msgstr "Ігнорувати полігони"
 
+msgid "Illumination"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
@@ -2769,6 +2778,10 @@ msgstr "Мова (Language)"
 
 #. frmProgressCacheConverter..lblLastTileName..Caption
 msgid "Last name:"
+msgstr "Назва останнього файла:"
+
+#, fuzzy
+msgid "Last Quarter"
 msgstr "Назва останнього файла:"
 
 #. frmMain..actlstMain..actSelectByLastSelection..Caption
@@ -3226,6 +3239,7 @@ msgid "Modify"
 msgstr "Змінити"
 
 #. frmMain..actlstMain..actViewMoonCalc..Caption
+#. Programmer's name for it: rsMoonCalcCaption
 #, fuzzy
 msgid "Moon Calculator"
 msgstr "Калькулятор Сонця"
@@ -3327,6 +3341,10 @@ msgstr "Нова категорія"
 #. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat....Items.Strings
 msgid "New Format"
 msgstr "Новий формат"
+
+#, fuzzy
+msgid "New Moon"
+msgstr "Додати новий полігон"
 
 #. frmMain..actlstMain..actViewSelectNextMapWithTile..Caption
 msgid "Next map with tile"
@@ -4571,6 +4589,10 @@ msgstr "Параметри"
 msgid "Shadow color"
 msgstr "Колір тіні"
 
+#, fuzzy
+msgid "Shadow, meters"
+msgstr "Одометр"
+
 #. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
 msgstr "Shift - притягує до активних сіток (якщо увімкнені)"
@@ -4625,6 +4647,11 @@ msgstr "Показувати GPS трек"
 #. frmMain..actlstMain..actConfigGpsShowTrack..Caption
 msgid "Show GPS Track"
 msgstr "Показувати GPS трек"
+
+#. Programmer's name for it: rsShowDayInfoPanelCaption
+#, fuzzy
+msgid "Show Info Panel"
+msgstr "Показувати завжди"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
@@ -4971,6 +4998,7 @@ msgid "Successfully executed"
 msgstr "Виконано успішно"
 
 #. frmMain..actlstMain..actViewSunCalc..Caption
+#. Programmer's name for it: rsSunCalcCaption
 msgid "Sun Calculator"
 msgstr "Калькулятор Сонця"
 
@@ -4991,16 +5019,6 @@ msgstr "Час заходу сонця"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Час заходу сонця:"
-
-#. Programmer's name for it: rsSwitchToMoonCalcCaption
-#, fuzzy
-msgid "Switch to the Moon Calculator"
-msgstr "Калькулятор Сонця"
-
-#. Programmer's name for it: rsSwitchToSunCalcCaption
-#, fuzzy
-msgid "Switch to the Sun Calculator"
-msgstr "Закрити Калькулятор Сонця"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
@@ -5282,6 +5300,10 @@ msgstr ""
 msgid "Up"
 msgstr "Вгору"
 
+#, fuzzy
+msgid "Up Time"
+msgstr "Час"
+
 #. frmLonLatRectEdit..grdpnlMain..grpTopLeft..Caption
 msgid "Upper left corner"
 msgstr "Лівий верхній кут"
@@ -5449,6 +5471,18 @@ msgstr "Розмір тому"
 msgid "Wait %0:d seconds..."
 msgstr "Чекаємо %0:d секунд..."
 
+msgid "Waning Crescent"
+msgstr ""
+
+msgid "Waning Gibbous"
+msgstr ""
+
+msgid "Waxing Crescent"
+msgstr ""
+
+msgid "Waxing Gibbous"
+msgstr ""
+
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
@@ -5576,6 +5610,18 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#, fuzzy
+#~ msgid "Close Moon Calculator"
+#~ msgstr "Калькулятор Сонця"
+
+#, fuzzy
+#~ msgid "Switch to the Moon Calculator"
+#~ msgstr "Калькулятор Сонця"
+
+#, fuzzy
+#~ msgid "Switch to the Sun Calculator"
+#~ msgstr "Закрити Калькулятор Сонця"
 
 #~ msgid "Community  (http://www.sasgis.org/forum)"
 #~ msgstr "Обговорення (http://sasgis.org/forum)"

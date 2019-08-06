@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-08-03 21:38\n"
-"PO-Revision-Date: 2019-08-03 21:38\n"
+"POT-Creation-Date: 2019-08-06 15:05\n"
+"PO-Revision-Date: 2019-08-06 15:05\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1206,12 +1206,8 @@ msgstr ""
 msgid "Close download window once finish"
 msgstr ""
 
-#. Programmer's name for it: rsCloseMoonCalcCaption
-msgid "Close Moon Calculator"
-msgstr ""
-
-#. Programmer's name for it: rsCloseSunCalcCaption
-msgid "Close Sun Calculator"
+#. Programmer's name for it: rsCloseCalcCaption
+msgid "Close the Calculator"
 msgstr ""
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
@@ -1524,6 +1520,9 @@ msgstr ""
 
 #. frmMarkSystemConfigEdit..grpDBType..Caption
 msgid "Database type"
+msgstr ""
+
+msgid "Day Length"
 msgstr ""
 
 #. Programmer's name for it: rsDBMSCacheName
@@ -2257,6 +2256,9 @@ msgstr ""
 msgid "Finished"
 msgstr ""
 
+msgid "First Quarter"
+msgstr ""
+
 #. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
 msgid "Fit to screen"
 msgstr ""
@@ -2340,6 +2342,9 @@ msgstr ""
 #. frSearchResultsItem..PanelFullDescImg..LabelFullDescImg..Caption
 #. frSearchResultsItem..PanelFullDescShort..LabelFullDescShort..Caption
 msgid "Full Description"
+msgstr ""
+
+msgid "Full Moon"
 msgstr ""
 
 #. frmMain..actlstMain..actViewFullScreen..Caption
@@ -2619,6 +2624,9 @@ msgstr ""
 msgid "Ignore polygons"
 msgstr ""
 
+msgid "Illumination"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
@@ -2808,6 +2816,9 @@ msgstr ""
 
 #. frmProgressCacheConverter..lblLastTileName..Caption
 msgid "Last name:"
+msgstr ""
+
+msgid "Last Quarter"
 msgstr ""
 
 #. frmMain..actlstMain..actSelectByLastSelection..Caption
@@ -3266,6 +3277,7 @@ msgid "Modify"
 msgstr ""
 
 #. frmMain..actlstMain..actViewMoonCalc..Caption
+#. Programmer's name for it: rsMoonCalcCaption
 msgid "Moon Calculator"
 msgstr ""
 
@@ -3369,6 +3381,9 @@ msgstr ""
 #. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat..Text
 #. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat....Items.Strings
 msgid "New Format"
+msgstr ""
+
+msgid "New Moon"
 msgstr ""
 
 #. frmMain..actlstMain..actViewSelectNextMapWithTile..Caption
@@ -4614,6 +4629,9 @@ msgstr ""
 msgid "Shadow color"
 msgstr ""
 
+msgid "Shadow, meters"
+msgstr ""
+
 #. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
 msgstr ""
@@ -4669,6 +4687,10 @@ msgstr ""
 
 #. frmMain..actlstMain..actConfigGpsShowTrack..Caption
 msgid "Show GPS Track"
+msgstr ""
+
+#. Programmer's name for it: rsShowDayInfoPanelCaption
+msgid "Show Info Panel"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
@@ -5010,6 +5032,7 @@ msgid "Successfully executed"
 msgstr ""
 
 #. frmMain..actlstMain..actViewSunCalc..Caption
+#. Programmer's name for it: rsSunCalcCaption
 msgid "Sun Calculator"
 msgstr ""
 
@@ -5029,14 +5052,6 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
-msgstr ""
-
-#. Programmer's name for it: rsSwitchToMoonCalcCaption
-msgid "Switch to the Moon Calculator"
-msgstr ""
-
-#. Programmer's name for it: rsSwitchToSunCalcCaption
-msgid "Switch to the Sun Calculator"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
@@ -5320,6 +5335,9 @@ msgstr ""
 msgid "Up"
 msgstr ""
 
+msgid "Up Time"
+msgstr ""
+
 #. frmLonLatRectEdit..grdpnlMain..grpTopLeft..Caption
 msgid "Upper left corner"
 msgstr ""
@@ -5488,6 +5506,18 @@ msgstr ""
 #. Programmer's name for it: SAS_ERR_WaitTime
 #, no-object-pascal-format
 msgid "Wait %0:d seconds..."
+msgstr ""
+
+msgid "Waning Crescent"
+msgstr ""
+
+msgid "Waning Gibbous"
+msgstr ""
+
+msgid "Waxing Crescent"
+msgstr ""
+
+msgid "Waxing Gibbous"
 msgstr ""
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption

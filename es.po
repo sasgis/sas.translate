@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-03 21:38\n"
+"POT-Creation-Date: 2019-08-06 15:05\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1204,14 +1204,9 @@ msgstr "Cerrar"
 msgid "Close download window once finish"
 msgstr "Cerrar esta ventana al finalizar"
 
-#. Programmer's name for it: rsCloseMoonCalcCaption
+#. Programmer's name for it: rsCloseCalcCaption
 #, fuzzy
-msgid "Close Moon Calculator"
-msgstr "Cálculo de Ruta"
-
-#. Programmer's name for it: rsCloseSunCalcCaption
-#, fuzzy
-msgid "Close Sun Calculator"
+msgid "Close the Calculator"
 msgstr "Cálculo de Ruta"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
@@ -1529,6 +1524,10 @@ msgstr "Truncación de datos debido archivo de mosaicos mal configurado"
 #. frmMarkSystemConfigEdit..grpDBType..Caption
 msgid "Database type"
 msgstr "Tipo de Database"
+
+#, fuzzy
+msgid "Day Length"
+msgstr "Longitud"
 
 #. Programmer's name for it: rsDBMSCacheName
 msgid "DBMS"
@@ -2248,6 +2247,9 @@ msgstr "Filtrar: \"%s\" (%d)"
 msgid "Finished"
 msgstr "Finalizado"
 
+msgid "First Quarter"
+msgstr ""
+
 #. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
 msgid "Fit to screen"
 msgstr "Ajustar a pantalla"
@@ -2333,6 +2335,10 @@ msgstr "Desde Zoom:"
 #. frSearchResultsItem..PanelFullDescShort..LabelFullDescShort..Caption
 msgid "Full Description"
 msgstr "Descripción Total"
+
+#, fuzzy
+msgid "Full Moon"
+msgstr "Pantalla Completa"
 
 #. frmMain..actlstMain..actViewFullScreen..Caption
 #. frmMain..actlstMain..actViewFullScreen..Hint
@@ -2609,6 +2615,9 @@ msgstr "Ignorar Marcas"
 msgid "Ignore polygons"
 msgstr "Ignorar Polígonos"
 
+msgid "Illumination"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
@@ -2803,6 +2812,10 @@ msgstr "Idioma (Language)"
 
 #. frmProgressCacheConverter..lblLastTileName..Caption
 msgid "Last name:"
+msgstr "Último nombre:"
+
+#, fuzzy
+msgid "Last Quarter"
 msgstr "Último nombre:"
 
 #. frmMain..actlstMain..actSelectByLastSelection..Caption
@@ -3264,6 +3277,7 @@ msgid "Modify"
 msgstr "Modificar"
 
 #. frmMain..actlstMain..actViewMoonCalc..Caption
+#. Programmer's name for it: rsMoonCalcCaption
 #, fuzzy
 msgid "Moon Calculator"
 msgstr "Cálculo de Ruta"
@@ -3366,6 +3380,10 @@ msgstr "Nueva Categoría"
 #, fuzzy
 msgid "New Format"
 msgstr "Formato de números"
+
+#, fuzzy
+msgid "New Moon"
+msgstr "Agregar Polígono"
 
 #. frmMain..actlstMain..actViewSelectNextMapWithTile..Caption
 msgid "Next map with tile"
@@ -4622,6 +4640,10 @@ msgstr "Opciones"
 msgid "Shadow color"
 msgstr "Color de sombra"
 
+#, fuzzy
+msgid "Shadow, meters"
+msgstr "Odómetro #1"
+
 #. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
 msgstr "Mayúsculas - ajustar a cuadrículas activas (si está activado)"
@@ -4677,6 +4699,11 @@ msgstr "Mostrar ruta GPS"
 #. frmMain..actlstMain..actConfigGpsShowTrack..Caption
 msgid "Show GPS Track"
 msgstr "Mostrar Ruta GPS"
+
+#. Programmer's name for it: rsShowDayInfoPanelCaption
+#, fuzzy
+msgid "Show Info Panel"
+msgstr "Mostrar para..."
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
@@ -5025,6 +5052,7 @@ msgid "Successfully executed"
 msgstr "Ejecución satisfactoria"
 
 #. frmMain..actlstMain..actViewSunCalc..Caption
+#. Programmer's name for it: rsSunCalcCaption
 #, fuzzy
 msgid "Sun Calculator"
 msgstr "Cálculo de Ruta"
@@ -5046,16 +5074,6 @@ msgstr "Puesta de Sol"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Puesta de Sol:"
-
-#. Programmer's name for it: rsSwitchToMoonCalcCaption
-#, fuzzy
-msgid "Switch to the Moon Calculator"
-msgstr "Cálculo de Ruta"
-
-#. Programmer's name for it: rsSwitchToSunCalcCaption
-#, fuzzy
-msgid "Switch to the Sun Calculator"
-msgstr "Medir Distancia"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
@@ -5340,6 +5358,10 @@ msgstr "Tipo de contenido no esperado %s"
 msgid "Up"
 msgstr "Arriba"
 
+#, fuzzy
+msgid "Up Time"
+msgstr "Mosaico"
+
 #. frmLonLatRectEdit..grdpnlMain..grpTopLeft..Caption
 msgid "Upper left corner"
 msgstr "Esquina superior izquierda"
@@ -5508,6 +5530,18 @@ msgstr "Tamaño Mosaico"
 msgid "Wait %0:d seconds..."
 msgstr "Esperar %0:d segundos..."
 
+msgid "Waning Crescent"
+msgstr ""
+
+msgid "Waning Gibbous"
+msgstr ""
+
+msgid "Waxing Crescent"
+msgstr ""
+
+msgid "Waxing Gibbous"
+msgstr ""
+
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
@@ -5635,6 +5669,18 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#, fuzzy
+#~ msgid "Close Moon Calculator"
+#~ msgstr "Cálculo de Ruta"
+
+#, fuzzy
+#~ msgid "Switch to the Moon Calculator"
+#~ msgstr "Cálculo de Ruta"
+
+#, fuzzy
+#~ msgid "Switch to the Sun Calculator"
+#~ msgstr "Medir Distancia"
 
 #~ msgid "Community  (http://www.sasgis.org/forum)"
 #~ msgstr "Comunidad (http://www.sasgis.org/forum)"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-08-03 21:38\n"
-"PO-Revision-Date: 2019-08-03 21:40+0300\n"
+"POT-Creation-Date: 2019-08-06 15:05\n"
+"PO-Revision-Date: 2019-08-06 15:12+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1172,13 +1172,9 @@ msgstr "Закрыть"
 msgid "Close download window once finish"
 msgstr "Закрыть окно загрузки после завершения"
 
-#. Programmer's name for it: rsCloseMoonCalcCaption
-msgid "Close Moon Calculator"
-msgstr "Закрыть калькулятор Луны"
-
-#. Programmer's name for it: rsCloseSunCalcCaption
-msgid "Close Sun Calculator"
-msgstr "Закрыть калькулятор Солнца"
+#. Programmer's name for it: rsCloseCalcCaption
+msgid "Close the Calculator"
+msgstr "Закрыть калькулятор"
 
 #. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
 msgid "Close this window once finished"
@@ -1486,6 +1482,9 @@ msgstr ""
 #. frmMarkSystemConfigEdit..grpDBType..Caption
 msgid "Database type"
 msgstr "Тип базы"
+
+msgid "Day Length"
+msgstr "Долгота дня"
 
 #. Programmer's name for it: rsDBMSCacheName
 msgid "DBMS"
@@ -2194,6 +2193,9 @@ msgstr "Фильтр: \"%s\" (%d)"
 msgid "Finished"
 msgstr "Завершено"
 
+msgid "First Quarter"
+msgstr "Первая четверть"
+
 #. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
 msgid "Fit to screen"
 msgstr "Уместить на экране"
@@ -2278,6 +2280,9 @@ msgstr "Из слоя масштаба:"
 #. frSearchResultsItem..PanelFullDescShort..LabelFullDescShort..Caption
 msgid "Full Description"
 msgstr "Описание"
+
+msgid "Full Moon"
+msgstr "Полнолуние"
 
 #. frmMain..actlstMain..actViewFullScreen..Caption
 #. frmMain..actlstMain..actViewFullScreen..Hint
@@ -2550,6 +2555,9 @@ msgstr "Игнорировать метки"
 msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
+msgid "Illumination"
+msgstr "Oсвещённость"
+
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
@@ -2742,6 +2750,9 @@ msgstr "Язык (Language)"
 #. frmProgressCacheConverter..lblLastTileName..Caption
 msgid "Last name:"
 msgstr "Имя последнего файла:"
+
+msgid "Last Quarter"
+msgstr "Последняя четверть"
 
 #. frmMain..actlstMain..actSelectByLastSelection..Caption
 msgid "Last Selection"
@@ -3194,6 +3205,7 @@ msgid "Modify"
 msgstr "Изменить"
 
 #. frmMain..actlstMain..actViewMoonCalc..Caption
+#. Programmer's name for it: rsMoonCalcCaption
 msgid "Moon Calculator"
 msgstr "Калькулятор Луны"
 
@@ -3294,6 +3306,9 @@ msgstr "Новая категория"
 #. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat....Items.Strings
 msgid "New Format"
 msgstr "Новый формат"
+
+msgid "New Moon"
+msgstr "Новолуние"
 
 #. frmMain..actlstMain..actViewSelectNextMapWithTile..Caption
 msgid "Next map with tile"
@@ -4533,6 +4548,9 @@ msgstr "Параметры"
 msgid "Shadow color"
 msgstr "Цвет тени"
 
+msgid "Shadow, meters"
+msgstr "Тень, метры"
+
 #. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
 msgstr "Shif - прилипать к активным сеткам (если включено)"
@@ -4587,6 +4605,10 @@ msgstr "Рисовать пройденный путь"
 #. frmMain..actlstMain..actConfigGpsShowTrack..Caption
 msgid "Show GPS Track"
 msgstr "Отображать трек"
+
+#. Programmer's name for it: rsShowDayInfoPanelCaption
+msgid "Show Info Panel"
+msgstr "Отображать инф. панель"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
 #. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
@@ -4927,6 +4949,7 @@ msgid "Successfully executed"
 msgstr "Выполнено успешно"
 
 #. frmMain..actlstMain..actViewSunCalc..Caption
+#. Programmer's name for it: rsSunCalcCaption
 msgid "Sun Calculator"
 msgstr "Калькулятор Солнца"
 
@@ -4947,14 +4970,6 @@ msgstr "Закат"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Закат:"
-
-#. Programmer's name for it: rsSwitchToMoonCalcCaption
-msgid "Switch to the Moon Calculator"
-msgstr "Переключиться на калькулятор Луны"
-
-#. Programmer's name for it: rsSwitchToSunCalcCaption
-msgid "Switch to the Sun Calculator"
-msgstr "Переключиться на калькулятор Солнца"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
@@ -5231,6 +5246,9 @@ msgstr "Неподдерживаемый тип архива: %s"
 msgid "Up"
 msgstr "Вверх"
 
+msgid "Up Time"
+msgstr "Над горизонтом"
+
 #. frmLonLatRectEdit..grdpnlMain..grpTopLeft..Caption
 msgid "Upper left corner"
 msgstr "Левый верхний угол"
@@ -5397,6 +5415,18 @@ msgstr "Размер тома"
 msgid "Wait %0:d seconds..."
 msgstr "Ждем %0:d секунд..."
 
+msgid "Waning Crescent"
+msgstr "Убывающая в посл. четв."
+
+msgid "Waning Gibbous"
+msgstr "Убывающая в третьей четв."
+
+msgid "Waxing Crescent"
+msgstr "Растущая в перв. четв."
+
+msgid "Waxing Gibbous"
+msgstr "Растущая во второй четв."
+
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
@@ -5521,186 +5551,3 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка"
-
-#~ msgid "Enabled"
-#~ msgstr "Используется"
-
-#~ msgid "By Car (Fastest with traffic)"
-#~ msgstr "На автомобиле (по скорости с учетом дор. обстановки)"
-
-#~ msgid "By Foot (Fastest)"
-#~ msgstr "Пешком (по скорости)"
-
-#~ msgid "By Foot (Shortest)"
-#~ msgstr "Пешком (по расстоянию)"
-
-#~ msgid "Detalize route by bicycle (Fastest) with cloudmade.com"
-#~ msgstr "Маршрут для велосипеда (по скорости) cloudmade.com"
-
-#~ msgid "Detalize route by bicycle (Shortest) with cloudmade.com"
-#~ msgstr "Маршрут для велосипеда (по расстоянию) cloudmade.com"
-
-#~ msgid "Detalize route by car (Fastest with traffic) with Maps@mail.ru"
-#~ msgstr "Маршрут для автомобиля (по скорости с учётом пробок) Maps@mail.ru"
-
-#~ msgid "Detalize route by car (Fastest) with cloudmade.com"
-#~ msgstr "Маршрут для автомобиля (по скорости) cloudmade.com"
-
-#~ msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-#~ msgstr "Маршрут для автомобиля (по скорости) Maps@mail.ru"
-
-#~ msgid "Detalize route by car (Shortest) with cloudmade.com"
-#~ msgstr "Маршрут для автомобиля (по расстоянию) cloudmade.com"
-
-#~ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
-#~ msgstr "Маршрут для автомобиля (по расстоянию) Maps@mail.ru"
-
-#~ msgid "Detalize route by foot (Fastest) with cloudmade.com"
-#~ msgstr "Маршрут для пешехода (по скорости) cloudmade.com"
-
-#~ msgid "Detalize route by foot (Shortest) with cloudmade.com"
-#~ msgstr "Маршрут для пешехода (по расстоянию) cloudmade.com"
-
-#~ msgid "maps.cloudmade.com (OSM)"
-#~ msgstr "средствами maps.cloudmade.com (OSM)"
-
-#~ msgid "Maps@mail.ru"
-#~ msgstr "средствами Карты@mail.ru"
-
-#~ msgid "Coordinate system"
-#~ msgstr "Система координат"
-
-#~ msgid "Current Zoom + 1"
-#~ msgstr "Активный масштаб +1"
-
-#~ msgid "Current Zoom + 2"
-#~ msgstr "Активный масштаб +2"
-
-#~ msgid "Current Zoom + 3"
-#~ msgstr "Активный масштаб +3"
-
-#~ msgid "Current Zoom + 4"
-#~ msgstr "Активный масштаб +4"
-
-#~ msgid "Current Zoom + 5"
-#~ msgstr "Активный масштаб +5"
-
-#, fuzzy
-#~ msgid "For z1"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z10"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z11"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z12"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z13"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z14"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z15"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z16"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z17"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z18"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z19"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z2"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z20"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z21"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z22"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z23"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z24"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z3"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z4"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z5"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z6"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z7"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z8"
-#~ msgstr "Для"
-
-#, fuzzy
-#~ msgid "For z9"
-#~ msgstr "Для"
-
-#~ msgid "SK42"
-#~ msgstr "СК-42"
-
-#~ msgid "SK42 (Gauss-Kruger)"
-#~ msgstr "СК-42 (Гаусс-Крюгер)"
-
-#~ msgid "WGS84 (default)"
-#~ msgstr "WGS84 (по умолчанию)"
-
-#~ msgid "Full screen (F11)"
-#~ msgstr "Во весь экран (F11)"
-
-#~ msgid "UnknownError: %s"
-#~ msgstr "Неизвестная ошибка: %s"
-
-#~ msgid "UnknownGUID"
-#~ msgstr "Неизвестный GUID"
-
-#~ msgid "Close this window after start"
-#~ msgstr "Закрыть окно после старта"
-
-#~ msgid "Try to re-download missing tiles"
-#~ msgstr "Пытаться загружать отсутствующие тайлы"
