@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-06 15:05\n"
+"POT-Creation-Date: 2019-10-06 20:02\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1070,6 +1070,7 @@ msgstr "Calibración para programa Radio Mobile (*.dat)"
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
+#. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1174,6 +1175,10 @@ msgstr "Cargando"
 #, fuzzy
 msgid "Check for Updates"
 msgstr "Ver actualizaciones..."
+
+#, fuzzy
+msgid "Circle"
+msgstr "Círculo Azimut"
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
 #. frmMain..actlstMain..actCircleCalculation..Hint
@@ -2380,6 +2385,11 @@ msgstr "Generar menores Zooms para la Selección"
 msgid "Generating upper zooms"
 msgstr "Generando zooms superiores"
 
+#. frmPolygonForOperationConfig..Caption
+#, fuzzy
+msgid "Generator Options"
+msgstr "Opciones de Pantalla"
+
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardGenshtabName..Caption
 msgid "Genshtab boundary name"
 msgstr "Nombre contorno Genshtab"
@@ -3536,6 +3546,10 @@ msgstr "Formato de mosicos OGF2:"
 msgid "OGF2 tiles resolution:"
 msgstr "Resolución de mosaicos OGF2:"
 
+#. frmPolygonForOperationConfig..pnlBottom..btnOk..Caption
+msgid "OK"
+msgstr ""
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
 msgid "Old after days"
@@ -4159,6 +4173,14 @@ msgstr "Salir"
 msgid "Radius"
 msgstr "Radio del anillo"
 
+msgid "Radius must be greater than zero!"
+msgstr ""
+
+#. frmPolygonForOperationConfig..lblRadius..Caption
+#, fuzzy
+msgid "Radius, m"
+msgstr "Radio del anillo"
+
 #. Programmer's name for it: rsRAMCacheName
 msgid "RAM"
 msgstr "RAM"
@@ -4644,6 +4666,10 @@ msgstr "Color de sombra"
 msgid "Shadow, meters"
 msgstr "Odómetro #1"
 
+#. frmPolygonForOperationConfig..lblShape..Caption
+msgid "Shape"
+msgstr ""
+
 #. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
 msgstr "Mayúsculas - ajustar a cuadrículas activas (si está activado)"
@@ -4993,6 +5019,12 @@ msgstr "SPOT 5 - 5m Color"
 #, fuzzy
 msgid "SQLite3 cache folder:"
 msgstr "Carpeta del Caché Nativo:"
+
+msgid "Square"
+msgstr ""
+
+msgid "Square on surface"
+msgstr ""
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption

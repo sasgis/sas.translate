@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-08-06 15:05\n"
+"POT-Creation-Date: 2019-10-06 20:02\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1057,6 +1057,7 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
+#. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1160,6 +1161,10 @@ msgstr "Зарядка"
 #, fuzzy
 msgid "Check for Updates"
 msgstr "Перевірити наявність оновлень..."
+
+#, fuzzy
+msgid "Circle"
+msgstr "Азимутальне кільце "
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
 #. frmMain..actlstMain..actCircleCalculation..Hint
@@ -2352,6 +2357,11 @@ msgstr "Сформувати попередні шари супутниково�
 msgid "Generating upper zooms"
 msgstr "Генерація верхніх рівнів"
 
+#. frmPolygonForOperationConfig..Caption
+#, fuzzy
+msgid "Generator Options"
+msgstr "Налаштування інтерфейсу"
+
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardGenshtabName..Caption
 msgid "Genshtab boundary name"
 msgstr "Підписи Генштабу"
@@ -3493,6 +3503,10 @@ msgstr "Формат тайлів у OGF2:"
 msgid "OGF2 tiles resolution:"
 msgstr "Розрізнення тайлів у OGF2 :"
 
+#. frmPolygonForOperationConfig..pnlBottom..btnOk..Caption
+msgid "OK"
+msgstr ""
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
 msgid "Old after days"
@@ -4110,6 +4124,14 @@ msgstr "Вихід"
 msgid "Radius"
 msgstr "Радіус"
 
+msgid "Radius must be greater than zero!"
+msgstr ""
+
+#. frmPolygonForOperationConfig..lblRadius..Caption
+#, fuzzy
+msgid "Radius, m"
+msgstr "Радіус"
+
 #. Programmer's name for it: rsRAMCacheName
 msgid "RAM"
 msgstr "ОЗП"
@@ -4593,6 +4615,10 @@ msgstr "Колір тіні"
 msgid "Shadow, meters"
 msgstr "Одометр"
 
+#. frmPolygonForOperationConfig..lblShape..Caption
+msgid "Shape"
+msgstr ""
+
 #. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
 msgstr "Shift - притягує до активних сіток (якщо увімкнені)"
@@ -4939,6 +4965,12 @@ msgstr "SPOT 5 - 5м Колір"
 
 msgid "SQLite3 cache folder:"
 msgstr "Шлях до кешу SQLite3:"
+
+msgid "Square"
+msgstr ""
+
+msgid "Square on surface"
+msgstr ""
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption

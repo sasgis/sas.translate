@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-08-06 15:05\n"
-"PO-Revision-Date: 2019-08-09 04:32+0200\n"
-"Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
+"POT-Creation-Date: 2019-10-06 20:02\n"
+"PO-Revision-Date: 2019-08-09 09:45+0300\n"
+"Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 1.5.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: fr_FR\n"
 "X-Source-Language: C\n"
@@ -1056,6 +1056,7 @@ msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
+#. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1161,6 +1162,10 @@ msgstr "En train de charger"
 #. frmMain..actlstMain..actShowUpddateChecker..Caption
 msgid "Check for Updates"
 msgstr "Recherche des mises à jour"
+
+#, fuzzy
+msgid "Circle"
+msgstr "Cercle azimutal"
 
 #. frmMain..actlstMain..actCircleCalculation..Caption
 #. frmMain..actlstMain..actCircleCalculation..Hint
@@ -2364,6 +2369,11 @@ msgstr "Générer des zooms plus petits pour la sélection en cours :"
 msgid "Generating upper zooms"
 msgstr "Générer les plus grands zooms"
 
+#. frmPolygonForOperationConfig..Caption
+#, fuzzy
+msgid "Generator Options"
+msgstr "Options de l'affichage de l'interface"
+
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardGenshtabName..Caption
 msgid "Genshtab boundary name"
 msgstr "Nom de la limite de Genshtab"
@@ -3500,6 +3510,10 @@ msgstr "OGF2, format de dalles :"
 msgid "OGF2 tiles resolution:"
 msgstr "OGF2, résolution de dalles :"
 
+#. frmPolygonForOperationConfig..pnlBottom..btnOk..Caption
+msgid "OK"
+msgstr ""
+
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
 msgid "Old after days"
@@ -4114,6 +4128,14 @@ msgstr "Quitter"
 msgid "Radius"
 msgstr "Rayon"
 
+msgid "Radius must be greater than zero!"
+msgstr ""
+
+#. frmPolygonForOperationConfig..lblRadius..Caption
+#, fuzzy
+msgid "Radius, m"
+msgstr "Rayon"
+
 #. Programmer's name for it: rsRAMCacheName
 msgid "RAM"
 msgstr "RAM"
@@ -4596,6 +4618,10 @@ msgstr "Couleur de l'ombre :"
 msgid "Shadow, meters"
 msgstr "Ombre, mètres"
 
+#. frmPolygonForOperationConfig..lblShape..Caption
+msgid "Shape"
+msgstr ""
+
 #. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
 msgstr "Maj - Aller vers les grilles actives (si elles existent)"
@@ -4937,6 +4963,12 @@ msgstr "SPOT 5 - 5 m Couleur"
 
 msgid "SQLite3 cache folder:"
 msgstr "SQLite3, répertoire du cache :"
+
+msgid "Square"
+msgstr ""
+
+msgid "Square on surface"
+msgstr ""
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
