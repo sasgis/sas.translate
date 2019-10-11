@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-10-10 22:16\n"
-"PO-Revision-Date: 2019-10-10 22:19+0300\n"
+"POT-Creation-Date: 2019-10-11 12:18\n"
+"PO-Revision-Date: 2019-10-11 12:18+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -3424,8 +3424,8 @@ msgid "Number of tiles to be cached in RAM"
 msgstr "Количество тайлов, кэшируемых в оперативную память"
 
 #, no-object-pascal-format
-msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s"
-msgstr "Количество тайлов: %0:sx%1:s (%2:s), размер: %3:sx%4:s"
+msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s pix"
+msgstr "Количество тайлов: %0:sx%1:s (%2:s), размер: %3:sx%4:s пикс."
 
 #. frmMain..tbxpmnScaleLine..tbxsbmScaleLineNumberFormat..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
@@ -4018,13 +4018,15 @@ msgstr "Проекция"
 msgid "Projection isn't selected"
 msgstr "Не выбрана проекция"
 
+#. Programmer's name for it: rsProjectionOfLayer
 msgid "Projection of layer"
 msgstr "Проекция слоя"
 
+#. Programmer's name for it: rsProjectionOfMap
 msgid "Projection of map"
 msgstr "Проекция карты"
 
-#. frMapCombine..pnlMapSelect..pnlMaps..pnlProjection..lblProjection..Caption
+#. frProjectionSelect..lblProjection..Caption
 msgid "Projection:"
 msgstr "Проекция:"
 

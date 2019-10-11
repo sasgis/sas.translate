@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-10-10 22:16\n"
+"POT-Creation-Date: 2019-10-11 12:18\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -3509,8 +3509,8 @@ msgstr "Número de mosaicos"
 msgid "Number of tiles to be cached in RAM"
 msgstr "Número de mosaicos en caché RAM"
 
-#, no-object-pascal-format
-msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s"
+#, fuzzy, no-object-pascal-format
+msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s pix"
 msgstr "Número de mosaicos: %0:sx%1:s (%2:s), tamaño: %3:sx%4:s"
 
 #. frmMain..tbxpmnScaleLine..tbxsbmScaleLineNumberFormat..Caption
@@ -4114,13 +4114,15 @@ msgstr "Projección"
 msgid "Projection isn't selected"
 msgstr "Projección no seleccionada"
 
+#. Programmer's name for it: rsProjectionOfLayer
 msgid "Projection of layer"
 msgstr "Projección del layer"
 
+#. Programmer's name for it: rsProjectionOfMap
 msgid "Projection of map"
 msgstr "Projección del mapa"
 
-#. frMapCombine..pnlMapSelect..pnlMaps..pnlProjection..lblProjection..Caption
+#. frProjectionSelect..lblProjection..Caption
 msgid "Projection:"
 msgstr "Projección:"
 

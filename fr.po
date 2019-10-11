@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-10-10 22:16\n"
+"POT-Creation-Date: 2019-10-11 12:18\n"
 "PO-Revision-Date: 2019-08-09 09:45+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -3473,8 +3473,8 @@ msgstr "Nombre de dalles "
 msgid "Number of tiles to be cached in RAM"
 msgstr "Nombre de dalles placées dans la mémoire cache :"
 
-#, no-object-pascal-format
-msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s"
+#, fuzzy, no-object-pascal-format
+msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s pix"
 msgstr "Nombre de dalles : %0:sx%1:s (%2:s), taille : %3:sx%4:s"
 
 #. frmMain..tbxpmnScaleLine..tbxsbmScaleLineNumberFormat..Caption
@@ -4069,13 +4069,15 @@ msgstr "Projection affichée"
 msgid "Projection isn't selected"
 msgstr "Aucune projection sélectionnée !"
 
+#. Programmer's name for it: rsProjectionOfLayer
 msgid "Projection of layer"
 msgstr "Projection de la couche"
 
+#. Programmer's name for it: rsProjectionOfMap
 msgid "Projection of map"
 msgstr "Projection de la carte"
 
-#. frMapCombine..pnlMapSelect..pnlMaps..pnlProjection..lblProjection..Caption
+#. frProjectionSelect..lblProjection..Caption
 msgid "Projection:"
 msgstr "Projection :"
 
