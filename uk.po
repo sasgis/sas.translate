@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-10-11 12:18\n"
+"POT-Creation-Date: 2019-10-26 19:36\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -17,15 +17,18 @@ msgid " Coordinates "
 msgstr "Координати"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "-- deg. (-12.1233°)"
+#, fuzzy
+msgid "-- deg. (-12.12345678°)"
 msgstr "-- г. (-12.1233°)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "-- deg.min. (-12°23.454)"
+#, fuzzy
+msgid "-- deg.min. (-12°12.1234')"
 msgstr "-- г.хв. (-12°23.454)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "-- deg.min.sec. (-12°23\"43.35')"
+#, fuzzy
+msgid "-- deg.min.sec. (-12°12'12.1234\")"
 msgstr "-- г.хв.с. (-12°23\"43.35')"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale..Caption
@@ -2188,6 +2191,14 @@ msgstr "Шлях до файла"
 msgid "File name prefix:"
 msgstr "Шлях до файла"
 
+#, object-pascal-format
+msgid "File with Geocoder API Key is empty: %s"
+msgstr ""
+
+#, object-pascal-format
+msgid "File with Geocoder API Key is not found: %s"
+msgstr ""
+
 #, fuzzy
 msgid "File:"
 msgstr "Файл"
@@ -3434,6 +3445,10 @@ msgstr "Північ"
 #, fuzzy
 msgid "Not allowed:"
 msgstr "Площа: %s"
+
+#, fuzzy
+msgid "Not Found"
+msgstr "HTTP не знайдено: %d"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не знайдено \"params.txt\" у zmp"
@@ -5312,6 +5327,10 @@ msgstr "Невідомо"
 msgid "Unknown critical error at external tile storage"
 msgstr "Невідома критична помилка в СУБД"
 
+#, fuzzy
+msgid "Unknown error"
+msgstr "Невідома помилка: %s"
+
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
 msgid ""
 "Unknown error at external tile storage, see Storage Options for more "
@@ -5538,16 +5557,19 @@ msgid "Word Wrap"
 msgstr "Перенос рядків"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "WS deg. (W12.1233°)"
+#, fuzzy
+msgid "WS deg. (W12.12345678°)"
 msgstr "WS г. (W12.1233°)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "WS deg.min. (W12°23.454)"
+#, fuzzy
+msgid "WS deg.min. (W12°12.123456')"
 msgstr "WS г.хв. (W12°23.454)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "WS deg.min.sec. (W12°23\"43.35')"
+#, fuzzy
+msgid "WS deg.min.sec. (W12°12'12.1234\")"
 msgstr "WS г.хв.с. (W12°23\"43.35')"
 
 msgid "Yandex"
@@ -5858,9 +5880,6 @@ msgstr "Z-Сортування:"
 
 #~ msgid "Full screen (F11)"
 #~ msgstr "На весь екран (F11)"
-
-#~ msgid "UnknownError: %s"
-#~ msgstr "Невідома помилка: %s"
 
 #~ msgid "UnknownGUID"
 #~ msgstr "Невідомий GUID"

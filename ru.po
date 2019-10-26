@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-10-11 12:18\n"
-"PO-Revision-Date: 2019-10-11 12:18+0300\n"
+"POT-Creation-Date: 2019-10-26 19:36\n"
+"PO-Revision-Date: 2019-10-26 19:41+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -16,16 +16,16 @@ msgid " Coordinates "
 msgstr " Координаты "
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "-- deg. (-12.1233°)"
-msgstr "-- г. (-12.1233°)"
+msgid "-- deg. (-12.12345678°)"
+msgstr "-- град. (-12.12345678°)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "-- deg.min. (-12°23.454)"
-msgstr "-- г.м. (-12°23.454)"
+msgid "-- deg.min. (-12°12.1234')"
+msgstr "-- град.мин. (-12°12.1234')"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "-- deg.min.sec. (-12°23\"43.35')"
-msgstr "-- г.м.с. (-12°23\"43.35')"
+msgid "-- deg.min.sec. (-12°12'12.1234\")"
+msgstr "-- град.мин.сек. (-12°12'12.1234\")"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale..Caption
 msgid " Icon Scale "
@@ -2159,6 +2159,14 @@ msgstr "Путь к файлу"
 msgid "File name prefix:"
 msgstr "Префикс имени файла:"
 
+#, object-pascal-format
+msgid "File with Geocoder API Key is empty: %s"
+msgstr ""
+
+#, object-pascal-format
+msgid "File with Geocoder API Key is not found: %s"
+msgstr ""
+
 msgid "File:"
 msgstr "Файл:"
 
@@ -3391,6 +3399,9 @@ msgstr "Север"
 
 msgid "Not allowed:"
 msgstr "Запрещено:"
+
+msgid "Not Found"
+msgstr ""
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
@@ -5251,6 +5262,9 @@ msgstr "Неизвестно"
 msgid "Unknown critical error at external tile storage"
 msgstr "Общая критическая ошибка в СУБД"
 
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
 msgid ""
 "Unknown error at external tile storage, see Storage Options for more "
@@ -5475,17 +5489,17 @@ msgid "Word Wrap"
 msgstr "Перенос строк"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "WS deg. (W12.1233°)"
-msgstr "WS г. (W12.1233°)"
+msgid "WS deg. (W12.12345678°)"
+msgstr "WS град. (W12.12345678°)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "WS deg.min. (W12°23.454)"
-msgstr "WS г.м. (W12°23.454)"
+msgid "WS deg.min. (W12°12.123456')"
+msgstr "WS град.мин. (W12°12.123456')"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-msgid "WS deg.min.sec. (W12°23\"43.35')"
-msgstr "WS г.м.с. (W12°23\"43.35')"
+msgid "WS deg.min.sec. (W12°12'12.1234\")"
+msgstr "WS град.мин.сек. (W12°12'12.1234\")"
 
 msgid "Yandex"
 msgstr "Яндекс"
