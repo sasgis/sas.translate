@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-10-26 19:36\n"
-"PO-Revision-Date: 2019-10-21 14:28+0200\n"
+"PO-Revision-Date: 2019-10-26 21:31+0200\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -19,19 +19,16 @@ msgid " Coordinates "
 msgstr "Coordonnées"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#, fuzzy
 msgid "-- deg. (-12.12345678°)"
-msgstr "-- deg. (-12.1233°)"
+msgstr "-- deg. (-12.12345678°)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#, fuzzy
 msgid "-- deg.min. (-12°12.1234')"
-msgstr "-- deg.min. (-12°23.454)"
+msgstr "-- deg.min. (-12°12.1234')"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#, fuzzy
 msgid "-- deg.min.sec. (-12°12'12.1234\")"
-msgstr "-- deg.min.sec. (-12°23\"43.35')"
+msgstr "-- deg.min.sec. (-12°12'12.1234\")"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale..Caption
 msgid " Icon Scale "
@@ -2207,11 +2204,11 @@ msgstr "Préfixe du nom de fichier :"
 
 #, object-pascal-format
 msgid "File with Geocoder API Key is empty: %s"
-msgstr ""
+msgstr "Le fichier avec la clé API Geocoder est vide : %s"
 
 #, object-pascal-format
 msgid "File with Geocoder API Key is not found: %s"
-msgstr ""
+msgstr "Le fichier avec la clé API Geocoder n'est pas trouvé : %s"
 
 msgid "File:"
 msgstr "Fichier :"
@@ -3451,9 +3448,8 @@ msgstr "Nord"
 msgid "Not allowed:"
 msgstr "Non autorisé :"
 
-#, fuzzy
 msgid "Not Found"
-msgstr "HTTP %d Pas trouvé"
+msgstr "Pas trouvé"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "\"params.txt\" non trouvé dans le zmp"
@@ -5319,9 +5315,8 @@ msgstr "Inconnu"
 msgid "Unknown critical error at external tile storage"
 msgstr "Erreur critique inconnue dans la base de données des dalles"
 
-#, fuzzy
 msgid "Unknown error"
-msgstr "Erreur inconnue : %s"
+msgstr "Erreur inconnue"
 
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
 msgid ""
@@ -5553,20 +5548,17 @@ msgid "Word Wrap"
 msgstr "Transfert de terme"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#, fuzzy
 msgid "WS deg. (W12.12345678°)"
-msgstr "WS deg. (W12.1233°)"
+msgstr "WS deg. (W12.12345678°)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#, fuzzy
 msgid "WS deg.min. (W12°12.123456')"
-msgstr "WS deg.min. (W12°23.454)"
+msgstr "WS deg.min. (W12°12.123456')"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
-#, fuzzy
 msgid "WS deg.min.sec. (W12°12'12.1234\")"
-msgstr "WS deg.min.sec. (W12°23\"43.35')"
+msgstr "WS deg.min.sec. (W12°12'12.1234\")"
 
 msgid "Yandex"
 msgstr "Yandex"
