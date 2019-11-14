@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-10-26 19:36\n"
-"PO-Revision-Date: 2019-10-26 19:41+0300\n"
+"POT-Creation-Date: 2019-11-14 20:14\n"
+"PO-Revision-Date: 2019-11-14 20:15+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -5054,6 +5054,10 @@ msgstr ""
 "навигатор не отображает карту, разбейте сохраняемое изображение на части в \n"
 "диалоге \"Операции с выделенной областью - Склеить\"\n"
 "и используйте полученные KMZ по отдельности"
+
+#, object-pascal-format
+msgid "The proxy server %s is requesting a username and password."
+msgstr "Прокси сервер %s запрашивает логин и пароль."
 
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
