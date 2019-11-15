@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-11-14 20:14\n"
+"POT-Creation-Date: 2019-11-15 13:26\n"
 "PO-Revision-Date: 2019-10-26 21:31+0200\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1293,10 +1293,6 @@ msgstr "Se connecter au récepteur GPS"
 #, object-pascal-format
 msgid "Connect to server error. Error code %d"
 msgstr "Erreur de connexion au serveur. Code erreur %d"
-
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
-msgid "Connection settings"
-msgstr "Paramètres de connexion :"
 
 msgid "Connection string"
 msgstr "Chaîne de connexion"
@@ -2995,6 +2991,10 @@ msgstr "Gérer"
 msgid "Manage Selection"
 msgstr "Gestion de la sélection"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbManualProxy..Caption
+msgid "Manual proxy configuration"
+msgstr ""
+
 #. frExportToIMG..PageControl1..Map..Caption
 #. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
@@ -3353,6 +3353,10 @@ msgstr "Flèche de navigation"
 msgid "Navitel"
 msgstr "Navitel"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlNetworkEngine..lbl3..Caption
+msgid "Network engine:"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Network operations timeout, ms"
 msgstr "Délai d'attente pour les opérations de réseau, ms :"
@@ -3410,6 +3414,10 @@ msgstr "Pas de récepteur GPS trouvé"
 
 msgid "No one polygon selected!"
 msgstr "Ceci n'est pas un polygone !"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbNoProxy..Caption
+msgid "No proxy"
+msgstr ""
 
 #. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
 msgid "No source for Fly-on-Track mode"
@@ -3715,6 +3723,7 @@ msgid "Password"
 msgstr "Mot de passe"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..lblPass..Caption
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyPass..Caption
 msgid "Password:"
 msgstr "Mot de passe :"
 
@@ -4102,13 +4111,19 @@ msgstr "Source principale :"
 msgid "Proxy authorization error"
 msgstr "Erreur d'autorisation du proxy !"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
-msgid "Proxy login:"
-msgstr "Login du proxy :"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..CBLogin..Caption
+msgid "Proxy server requires authentication"
+msgstr ""
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
-msgid "Proxy password:"
-msgstr "Mot de passe du proxy :"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
+#, fuzzy
+msgid "Proxy settings"
+msgstr "Paramètres d'exportation"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblProxyHostAndPort..Caption
+#, fuzzy
+msgid "Proxy:"
+msgstr "Login du proxy :"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -5416,16 +5431,13 @@ msgstr "Création de grands zooms pour les cartes"
 msgid "Use postprocessing settings"
 msgstr "Utiliser les paramètres de post-traitement"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblUseProxy..Caption
-msgid "Use proxy (IP:port)"
-msgstr "Utiliser le proxy (IP:port)"
-
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
 msgid "Use storage to check new images"
 msgstr "Utiliser le stockage pour les nouvelles images"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
-msgid "Use system proxy settings"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbUseIESettings..Caption
+#, fuzzy
+msgid "Use system (Internet Explorer) proxy settings"
 msgstr "Utiliser les paramètres proxy du système"
 
 #. frJpegImportOptions..grp1..chk1..Caption
@@ -5466,6 +5478,11 @@ msgstr "Nom de l'utilisateur :"
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
 msgid "Username"
+msgstr "Nom de l'utilisateur"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
+#, fuzzy
+msgid "Username:"
 msgstr "Nom de l'utilisateur"
 
 #. UTC time
@@ -5656,6 +5673,15 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Connection settings"
+#~ msgstr "Paramètres de connexion :"
+
+#~ msgid "Proxy password:"
+#~ msgstr "Mot de passe du proxy :"
+
+#~ msgid "Use proxy (IP:port)"
+#~ msgstr "Utiliser le proxy (IP:port)"
 
 #, fuzzy
 #~ msgid "Close Moon Calculator"

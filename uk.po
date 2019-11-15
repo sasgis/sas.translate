@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-11-14 20:14\n"
+"POT-Creation-Date: 2019-11-15 13:26\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1299,10 +1299,6 @@ msgstr "Під’єднатись до GPS-приймача"
 #, object-pascal-format
 msgid "Connect to server error. Error code %d"
 msgstr "Помилка з’єднання сервером. Код помилки: %d "
-
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
-msgid "Connection settings"
-msgstr "Налаштування з’єднання"
 
 msgid "Connection string"
 msgstr "Налаштування з’єднання"
@@ -2986,6 +2982,10 @@ msgstr "Керування"
 msgid "Manage Selection"
 msgstr "Операція з виділеною областю"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbManualProxy..Caption
+msgid "Manual proxy configuration"
+msgstr ""
+
 #. frExportToIMG..PageControl1..Map..Caption
 #. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
@@ -3348,6 +3348,10 @@ msgstr "Стрілка навігації"
 msgid "Navitel"
 msgstr ""
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlNetworkEngine..lbl3..Caption
+msgid "Network engine:"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Network operations timeout, ms"
 msgstr "Таймаут на мережеві операції, мс"
@@ -3406,6 +3410,10 @@ msgstr "Не знайдено GPS-приймач"
 
 msgid "No one polygon selected!"
 msgstr "Не вибрано жодного полігона!"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbNoProxy..Caption
+msgid "No proxy"
+msgstr ""
 
 #. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
 msgid "No source for Fly-on-Track mode"
@@ -3717,6 +3725,7 @@ msgid "Password"
 msgstr "Пароль"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..lblPass..Caption
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyPass..Caption
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -4104,13 +4113,19 @@ msgstr "Джерело:"
 msgid "Proxy authorization error"
 msgstr "Помилка авторизації на проксі!"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
-msgid "Proxy login:"
-msgstr "Логін проксі:"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..CBLogin..Caption
+msgid "Proxy server requires authentication"
+msgstr ""
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
-msgid "Proxy password:"
-msgstr "Пароль проксі:"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
+#, fuzzy
+msgid "Proxy settings"
+msgstr "Параметри карти"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblProxyHostAndPort..Caption
+#, fuzzy
+msgid "Proxy:"
+msgstr "Логін проксі:"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -5428,16 +5443,13 @@ msgstr "Брати карти з менших масштабів"
 msgid "Use postprocessing settings"
 msgstr "Налаштувати корегування зображення"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblUseProxy..Caption
-msgid "Use proxy (IP:port)"
-msgstr "Використовувати проксі (IP:port)"
-
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
 msgid "Use storage to check new images"
 msgstr "Використати для перевірки нових знімків"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
-msgid "Use system proxy settings"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbUseIESettings..Caption
+#, fuzzy
+msgid "Use system (Internet Explorer) proxy settings"
 msgstr "Брати налаштування з’єднання з реєстру"
 
 #. frJpegImportOptions..grp1..chk1..Caption
@@ -5475,6 +5487,11 @@ msgstr "Логін "
 
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
 msgid "Username"
+msgstr "Логін "
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
+#, fuzzy
+msgid "Username:"
 msgstr "Логін "
 
 #. UTC time
@@ -5671,6 +5688,15 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Connection settings"
+#~ msgstr "Налаштування з’єднання"
+
+#~ msgid "Proxy password:"
+#~ msgstr "Пароль проксі:"
+
+#~ msgid "Use proxy (IP:port)"
+#~ msgstr "Використовувати проксі (IP:port)"
 
 #, fuzzy
 #~ msgid "Close Moon Calculator"

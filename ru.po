@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-11-14 20:14\n"
-"PO-Revision-Date: 2019-11-14 20:15+0300\n"
+"POT-Creation-Date: 2019-11-15 13:26\n"
+"PO-Revision-Date: 2019-11-15 13:17+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1275,10 +1275,6 @@ msgstr "Подключить приёмник"
 #, object-pascal-format
 msgid "Connect to server error. Error code %d"
 msgstr "Ошибка соединения с сервером. Код ошибки %d"
-
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
-msgid "Connection settings"
-msgstr "Настройки подключения"
 
 msgid "Connection string"
 msgstr "Строка подключения"
@@ -2951,6 +2947,10 @@ msgstr "Управление"
 msgid "Manage Selection"
 msgstr "Операции с выделенной областью"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbManualProxy..Caption
+msgid "Manual proxy configuration"
+msgstr "Ручная настройка прокси"
+
 #. frExportToIMG..PageControl1..Map..Caption
 #. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
@@ -3305,6 +3305,10 @@ msgstr "Стрелка навигации"
 msgid "Navitel"
 msgstr "Навител"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlNetworkEngine..lbl3..Caption
+msgid "Network engine:"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Network operations timeout, ms"
 msgstr "Таймаут на сетевые операции, мс"
@@ -3362,6 +3366,10 @@ msgstr "Не найден приёмник GPS"
 
 msgid "No one polygon selected!"
 msgstr "Не выбрано ни одного полигона!"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbNoProxy..Caption
+msgid "No proxy"
+msgstr "Без прокси"
 
 #. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
 msgid "No source for Fly-on-Track mode"
@@ -3667,6 +3675,7 @@ msgid "Password"
 msgstr "Пароль"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..lblPass..Caption
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyPass..Caption
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -4053,13 +4062,17 @@ msgstr "Provider:"
 msgid "Proxy authorization error"
 msgstr "Ошибка авторизации на прокси!"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
-msgid "Proxy login:"
-msgstr "Использовать логин:"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..CBLogin..Caption
+msgid "Proxy server requires authentication"
+msgstr "Прокси сервер требует авторизации"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..Label25..Caption
-msgid "Proxy password:"
-msgstr "и пароль:"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
+msgid "Proxy settings"
+msgstr "Настройки прокси сервера"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblProxyHostAndPort..Caption
+msgid "Proxy:"
+msgstr "Прокси:"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -5361,17 +5374,13 @@ msgstr "Брать карты из меньших масштабов"
 msgid "Use postprocessing settings"
 msgstr "Применить коррекцию изображения"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblUseProxy..Caption
-msgid "Use proxy (IP:port)"
-msgstr "Использовать прокси (IP:port)"
-
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
 msgid "Use storage to check new images"
 msgstr "Использовать для проверки новых снимков"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlUseIEProxy..chkUseIEProxy..Caption
-msgid "Use system proxy settings"
-msgstr "Брать настройки подключения из реестра"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbUseIESettings..Caption
+msgid "Use system (Internet Explorer) proxy settings"
+msgstr "Использовать системные настройки (из Internet Explorer-а)"
 
 #. frJpegImportOptions..grp1..chk1..Caption
 msgid "Use thumbnail as Icon"
@@ -5408,6 +5417,10 @@ msgstr "Имя пользователя:"
 #. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
 msgid "Username"
 msgstr "Логин"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
+msgid "Username:"
+msgstr "Логин:"
 
 #. UTC time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
