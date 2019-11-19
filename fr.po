@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-11-15 13:26\n"
-"PO-Revision-Date: 2019-10-26 21:31+0200\n"
-"Last-Translator: zed <starmen@tut.by>\n"
+"PO-Revision-Date: 2019-11-19 05:29+0100\n"
+"Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -2993,7 +2993,7 @@ msgstr "Gestion de la sélection"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbManualProxy..Caption
 msgid "Manual proxy configuration"
-msgstr ""
+msgstr "Configuration manuelle du proxy"
 
 #. frExportToIMG..PageControl1..Map..Caption
 #. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
@@ -3355,7 +3355,7 @@ msgstr "Navitel"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlNetworkEngine..lbl3..Caption
 msgid "Network engine:"
-msgstr ""
+msgstr "Moteur de réseau"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
 msgid "Network operations timeout, ms"
@@ -3417,7 +3417,7 @@ msgstr "Ceci n'est pas un polygone !"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbNoProxy..Caption
 msgid "No proxy"
-msgstr ""
+msgstr "Pas de proxy"
 
 #. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
 msgid "No source for Fly-on-Track mode"
@@ -4113,17 +4113,15 @@ msgstr "Erreur d'autorisation du proxy !"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..CBLogin..Caption
 msgid "Proxy server requires authentication"
-msgstr ""
+msgstr "Le serveur proxy requiert une authentification"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
-#, fuzzy
 msgid "Proxy settings"
-msgstr "Paramètres d'exportation"
+msgstr "Paramètres du proxy"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyUrl..lblProxyHostAndPort..Caption
-#, fuzzy
 msgid "Proxy:"
-msgstr "Login du proxy :"
+msgstr "Proxy :"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -5122,7 +5120,7 @@ msgstr ""
 
 #, object-pascal-format
 msgid "The proxy server %s is requesting a username and password."
-msgstr ""
+msgstr "Le serveur proxy %s demande un nom d'utilisateur et un mot de passe."
 
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
@@ -5436,7 +5434,6 @@ msgid "Use storage to check new images"
 msgstr "Utiliser le stockage pour les nouvelles images"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbUseIESettings..Caption
-#, fuzzy
 msgid "Use system (Internet Explorer) proxy settings"
 msgstr "Utiliser les paramètres proxy du système"
 
@@ -5481,9 +5478,8 @@ msgid "Username"
 msgstr "Nom de l'utilisateur"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
-#, fuzzy
 msgid "Username:"
-msgstr "Nom de l'utilisateur"
+msgstr "Nom de l'utilisateur :"
 
 #. UTC time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
