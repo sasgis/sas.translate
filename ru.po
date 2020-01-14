@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2019-11-22 19:10\n"
-"PO-Revision-Date: 2019-11-22 19:11+0300\n"
+"POT-Creation-Date: 2020-01-14 16:29\n"
+"PO-Revision-Date: 2020-01-14 16:30+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -2255,6 +2255,10 @@ msgstr ""
 msgid "Format:"
 msgstr "Формат:"
 
+#, object-pascal-format
+msgid "Found %d items"
+msgstr "Найдено %d элементов"
+
 #. frmMarkCategoryEdit..flwpnlZooms..Label3..Caption
 msgid "from"
 msgstr "c"
@@ -2879,6 +2883,10 @@ msgstr "Закрепить панели инструментов"
 #. frmMain..actlstMain..actViewToolbarsLock..Caption
 msgid "Lock Toolbars"
 msgstr "Закрепить панели инструментов"
+
+#. Programmer's name for it: SAS_STR_ExportLocusSQLiteExportCaption
+msgid "Locus (SQLite3)"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_LonLat1
 msgid ""
@@ -3606,6 +3614,10 @@ msgstr "Настройки..."
 #. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
 msgid "Order by:"
 msgstr "Упорядочить по:"
+
+#. Programmer's name for it: SAS_STR_ExportOsmAndSQLiteExportCaption
+msgid "OsmAnd (SQLite3)"
+msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
