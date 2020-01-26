@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-01-14 16:29\n"
+"POT-Creation-Date: 2020-01-26 13:56\n"
 "PO-Revision-Date: 2019-11-19 05:29+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -864,10 +864,6 @@ msgstr "Couleur de l'arrière-plan :"
 
 msgid "Base Cache path"
 msgstr "Répertoire de base du cache :"
-
-#. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
-msgid "Base part of request URL:"
-msgstr "Base de l'URL recherchée :"
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
@@ -1964,9 +1960,6 @@ msgstr "GUID vierge"
 
 msgid "Empty map list. Please add the layers to export!"
 msgstr "Liste des cartes vide. SVP, ajouter les couches à exporter !"
-
-msgid "Empty script"
-msgstr "Script vierge"
 
 #. Programmer's name for it: SAS_ERR_EmptyServerResponse
 msgid "Empty server response"
@@ -4486,6 +4479,10 @@ msgstr "Très précises"
 msgid "Screen center"
 msgstr "Centre de l'écran"
 
+#. Programmer's name for it: rsScriptIsEmpty
+msgid "Script is empy"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
 #. frmMain..TBDock..TBXToolBarSearch..Caption
 #. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
@@ -5062,6 +5059,11 @@ msgstr "Compilé avec succès"
 msgid "Successfully executed"
 msgstr "Exécuté avec succès"
 
+#. Programmer's name for it: rsSuccessfullyRendered
+#, fuzzy
+msgid "Successfully rendered"
+msgstr "Exécuté avec succès"
+
 #. frmMain..actlstMain..actViewSunCalc..Caption
 #. Programmer's name for it: rsSunCalcCaption
 msgid "Sun Calculator"
@@ -5100,6 +5102,11 @@ msgstr ""
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr "Double clic sur la fonction pour modifier son raccourci clavier"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
+#, fuzzy
+msgid "Template or Base part of request URL:"
+msgstr "Base de l'URL recherchée :"
 
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
@@ -5682,6 +5689,9 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Empty script"
+#~ msgstr "Script vierge"
 
 #~ msgid "Connection settings"
 #~ msgstr "Paramètres de connexion :"

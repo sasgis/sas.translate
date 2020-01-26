@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-01-14 16:29\n"
+"POT-Creation-Date: 2020-01-26 13:56\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -879,10 +879,6 @@ msgstr "Color de fondo:"
 
 msgid "Base Cache path"
 msgstr "Carpeta del Caché"
-
-#. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
-msgid "Base part of request URL:"
-msgstr "Parte Base de URL requerida:"
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
@@ -1983,9 +1979,6 @@ msgstr "GUID vacío"
 
 msgid "Empty map list. Please add the layers to export!"
 msgstr ""
-
-msgid "Empty script"
-msgstr "Guión vacío"
 
 #. Programmer's name for it: SAS_ERR_EmptyServerResponse
 msgid "Empty server response"
@@ -4539,6 +4532,10 @@ msgstr "Decimal"
 msgid "Screen center"
 msgstr "En Centro de Pantalla"
 
+#. Programmer's name for it: rsScriptIsEmpty
+msgid "Script is empy"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
 #. frmMain..TBDock..TBXToolBarSearch..Caption
 #. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
@@ -5127,6 +5124,11 @@ msgstr "Compilación satisfactoria"
 msgid "Successfully executed"
 msgstr "Ejecución satisfactoria"
 
+#. Programmer's name for it: rsSuccessfullyRendered
+#, fuzzy
+msgid "Successfully rendered"
+msgstr "Ejecución satisfactoria"
+
 #. frmMain..actlstMain..actViewSunCalc..Caption
 #. Programmer's name for it: rsSunCalcCaption
 #, fuzzy
@@ -5166,6 +5168,11 @@ msgstr ""
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr "Tarea"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
+#, fuzzy
+msgid "Template or Base part of request URL:"
+msgstr "Parte Base de URL requerida:"
 
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
@@ -5758,6 +5765,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Empty script"
+#~ msgstr "Guión vacío"
 
 #, fuzzy
 #~ msgid "Proxy:"
