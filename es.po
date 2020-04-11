@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-01-27 21:08\n"
+"POT-Creation-Date: 2020-04-11 10:54\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1846,10 +1846,6 @@ msgstr "Error Descarga. Código error %d"
 #, object-pascal-format
 msgid "Download error. Unknown status code %d"
 msgstr "Error Descarga. Código error desconocido %d"
-
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
-msgid "Download next tile if no response"
-msgstr "Descargue próximo mosaico si no hay respuesta"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -4082,6 +4078,10 @@ msgstr "Mosaico de mapa primario"
 msgid "Primary provider:"
 msgstr "Proveedor primario:"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
+msgid "Process next tile if no response (when downloading the region)"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
 msgstr "Procesar no más de"
@@ -4350,9 +4350,10 @@ msgstr "Reasume"
 msgid "Resurs-DK"
 msgstr "Resurs-DK"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
-msgid "Retry download if tile not found"
-msgstr "Volver a descargar si no encuentra mosaico"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
+#, fuzzy
+msgid "Retry download tile if no response"
+msgstr "Descargue próximo mosaico si no hay respuesta"
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
@@ -5765,6 +5766,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Retry download if tile not found"
+#~ msgstr "Volver a descargar si no encuentra mosaico"
 
 #~ msgid "Empty script"
 #~ msgstr "Guión vacío"

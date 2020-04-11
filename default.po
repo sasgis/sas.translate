@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-01-27 21:08\n"
-"PO-Revision-Date: 2020-01-27 21:08\n"
+"POT-Creation-Date: 2020-04-11 10:54\n"
+"PO-Revision-Date: 2020-04-11 10:54\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1846,10 +1846,6 @@ msgstr ""
 msgid ""
 "Download error. Unknown status code "
 "%d"
-msgstr ""
-
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
-msgid "Download next tile if no response"
 msgstr ""
 
 #. frmMain..MainPopupMenu..ldm..Caption
@@ -4076,6 +4072,12 @@ msgstr ""
 msgid "Primary provider:"
 msgstr ""
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
+msgid ""
+"Process next tile if no response (when downloading the "
+"region)"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
 msgstr ""
@@ -4341,8 +4343,8 @@ msgstr ""
 msgid "Resurs-DK"
 msgstr ""
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
-msgid "Retry download if tile not found"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
+msgid "Retry download tile if no response"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption

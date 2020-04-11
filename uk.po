@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-01-27 21:08\n"
+"POT-Creation-Date: 2020-04-11 10:54\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1822,10 +1822,6 @@ msgstr "Помилка завантаження. Код статусу %d"
 #, object-pascal-format
 msgid "Download error. Unknown status code %d"
 msgstr "Помилка завантаження. Невідомий код статус %d"
-
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
-msgid "Download next tile if no response"
-msgstr "Переходити до наступного тайла, якщо сервер не відповідає"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -4033,6 +4029,10 @@ msgstr "Тайл основної карти"
 msgid "Primary provider:"
 msgstr "Основне джерело:"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
+msgid "Process next tile if no response (when downloading the region)"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
 msgstr "Опрацювати не більше"
@@ -4300,9 +4300,10 @@ msgstr "Продовжити"
 msgid "Resurs-DK"
 msgstr "Ресурс-ДК"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
-msgid "Retry download if tile not found"
-msgstr "Намагатись повторно завантажити тайл за його відсутністю"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
+#, fuzzy
+msgid "Retry download tile if no response"
+msgstr "Переходити до наступного тайла, якщо сервер не відповідає"
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
@@ -5706,6 +5707,9 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Retry download if tile not found"
+#~ msgstr "Намагатись повторно завантажити тайл за його відсутністю"
 
 #~ msgid "Empty script"
 #~ msgstr "Порожній скрпипт"

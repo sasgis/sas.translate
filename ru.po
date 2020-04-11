@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-01-27 21:08\n"
-"PO-Revision-Date: 2020-01-27 21:09+0300\n"
+"POT-Creation-Date: 2020-04-11 10:54\n"
+"PO-Revision-Date: 2020-04-11 10:59+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1795,10 +1795,6 @@ msgstr "Ошибка загрузки. Код ответа %d"
 #, object-pascal-format
 msgid "Download error. Unknown status code %d"
 msgstr "Ошибка загрузки. Неизвестный код ответа %d"
-
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CkBGoNextTile..Caption
-msgid "Download next tile if no response"
-msgstr "Переходить к следующему тайлу, если сервер не отвечает"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -3982,6 +3978,11 @@ msgstr "Тайл основной карты"
 msgid "Primary provider:"
 msgstr "Основной источник:"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
+msgid "Process next tile if no response (when downloading the region)"
+msgstr ""
+"Переходить к следующему тайлу, если сервер не отвечает (при загрузке области)"
+
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
 msgstr "Обработать не более"
@@ -4248,9 +4249,9 @@ msgstr "Продолжить"
 msgid "Resurs-DK"
 msgstr "Ресурс-ДК"
 
-#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBDblDwnl..Caption
-msgid "Retry download if tile not found"
-msgstr "Пытаться повторно загрузить тайл при его отсутствии"
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
+msgid "Retry download tile if no response"
+msgstr "Пытаться повторно загрузить тайл, если сервер не отвечает"
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
