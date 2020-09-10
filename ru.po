@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-04-11 10:54\n"
-"PO-Revision-Date: 2020-04-11 10:59+0300\n"
+"POT-Creation-Date: 2020-09-10 16:30\n"
+"PO-Revision-Date: 2020-09-10 16:32+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.3\n"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
 msgid " Coordinates "
@@ -1945,6 +1945,10 @@ msgstr "ru_RU"
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
 msgid "Enable the following map types:"
 msgstr "Включить следующие типы карт:"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
+msgid "Enable/Disable Automatic Route Calculation (with Ctrl key)"
+msgstr "Вкл/Выкл авт. прокладку маршрута (при нажатом Ctrl)"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
@@ -4438,7 +4442,6 @@ msgstr "Пустой скрипт"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
 #. frmMain..TBDock..TBXToolBarSearch..Caption
 #. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
-#. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 msgid "Search"
 msgstr "Поиск"
@@ -5264,6 +5267,10 @@ msgstr "Невозможно определить позицию"
 msgid "Unable to load map(s)! Aborting..."
 msgstr ""
 "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxUndoRouteCalc..Hint
+msgid "Undo Route Calculation"
+msgstr "Отменить прокладывание маршрута"
 
 #, object-pascal-format
 msgid "Unexpected content type %s"

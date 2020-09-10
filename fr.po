@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-04-11 10:54\n"
+"POT-Creation-Date: 2020-09-10 16:30\n"
 "PO-Revision-Date: 2020-03-04 07:50+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1978,6 +1978,10 @@ msgstr "en_US"
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
 msgid "Enable the following map types:"
 msgstr "Autorise les types de cartes suivantes :"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
+msgid "Enable/Disable Automatic Route Calculation (with Ctrl key)"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
@@ -4486,7 +4490,6 @@ msgstr "Le script est vide"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
 #. frmMain..TBDock..TBXToolBarSearch..Caption
 #. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
-#. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 msgid "Search"
 msgstr "Recherche"
@@ -5317,6 +5320,11 @@ msgstr "Impossible de déterminer la position"
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Incapable de charger la (les) carte(s) ! Abandon..."
+
+#. frmMain..TBDockLeft..TBEditPath..tbxUndoRouteCalc..Hint
+#, fuzzy
+msgid "Undo Route Calculation"
+msgstr "Calcul d'itinéraire"
 
 #, object-pascal-format
 msgid "Unexpected content type %s"

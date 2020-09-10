@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-04-11 10:54\n"
+"POT-Creation-Date: 2020-09-10 16:30\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1972,6 +1972,10 @@ msgstr "uk_UA"
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
 msgid "Enable the following map types:"
 msgstr "Включити наступні типи карт:"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
+msgid "Enable/Disable Automatic Route Calculation (with Ctrl key)"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
@@ -4489,7 +4493,6 @@ msgstr ""
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
 #. frmMain..TBDock..TBXToolBarSearch..Caption
 #. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
-#. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 msgid "Search"
 msgstr "Пошук"
@@ -5332,6 +5335,11 @@ msgstr "Неможливо визначити позицію"
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Неможливо завантажити жодної карти! Преривання..."
+
+#. frmMain..TBDockLeft..TBEditPath..tbxUndoRouteCalc..Hint
+#, fuzzy
+msgid "Undo Route Calculation"
+msgstr "Прокласти маршрут"
 
 #, object-pascal-format
 msgid "Unexpected content type %s"
