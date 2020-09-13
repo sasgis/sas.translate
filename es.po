@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-09-10 16:30\n"
+"POT-Creation-Date: 2020-09-13 11:21\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -929,6 +929,12 @@ msgstr "En Bicicleta (más rápido)"
 msgid "By Bicycle (Shortest)"
 msgstr "En Bicicleta (más corto)"
 
+msgid "By Bike"
+msgstr ""
+
+msgid "By Car"
+msgstr ""
+
 msgid "By Car (Fastest)"
 msgstr "En Automóvil (más rápido)"
 
@@ -950,6 +956,9 @@ msgstr "Por Coordenadas"
 #. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
 msgid "By default"
 msgstr "Por Defecto"
+
+msgid "By Foot"
+msgstr ""
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 #, fuzzy
@@ -1687,11 +1696,23 @@ msgstr "Optimizar ruta por bicicleta (más rápida) con yournavigation.org"
 msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
 msgstr "Optimizar ruta por bicicleta (más corta) con yournavigation.org"
 
+#, fuzzy
+msgid "Detalize route by Bike with project-osrm.org"
+msgstr "Optimizar ruta por auto (más rápida) con yournavigation.org"
+
 msgid "Detalize route by car (Fastest) with yournavigation.org"
 msgstr "Optimizar ruta por auto (más rápida) con yournavigation.org"
 
 msgid "Detalize route by car (Shortest) with yournavigation.org"
 msgstr "Optimizar ruta por auto (más corta) con yournavigation.org"
+
+#, fuzzy
+msgid "Detalize route by Car with project-osrm.org"
+msgstr "Optimizar ruta por auto (más rápida) con Maps@mail.ru"
+
+#, fuzzy
+msgid "Detalize route by Foot with project-osrm.org"
+msgstr "Optimizar ruta a pié Auto (más rápida) con cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -5702,9 +5723,6 @@ msgstr "Necesita al menos un Mapa entre sus archivos ZMP"
 msgid "Your version:"
 msgstr "Su Versión:"
 
-msgid "yournavigation.org (OSM)"
-msgstr "yournavigation.org (OSM)"
-
 #, fuzzy
 msgid "zip archiver settings"
 msgstr "Opciones de Layers"
@@ -5774,6 +5792,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "yournavigation.org (OSM)"
+#~ msgstr "yournavigation.org (OSM)"
 
 #~ msgid "Retry download if tile not found"
 #~ msgstr "Volver a descargar si no encuentra mosaico"
@@ -5856,17 +5877,11 @@ msgstr "Z-Order:"
 #~ msgid "Detalize route by car (Fastest) with cloudmade.com"
 #~ msgstr "Optimizar ruta por Auto (más rápida) con cloudmade.com"
 
-#~ msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-#~ msgstr "Optimizar ruta por auto (más rápida) con Maps@mail.ru"
-
 #~ msgid "Detalize route by car (Shortest) with cloudmade.com"
 #~ msgstr "Optimizar ruta por auto (más corta) con cloudmade.com"
 
 #~ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
 #~ msgstr "Optimizar ruta por auto (más corta) con Maps@mail.ru"
-
-#~ msgid "Detalize route by foot (Fastest) with cloudmade.com"
-#~ msgstr "Optimizar ruta a pié Auto (más rápida) con cloudmade.com"
 
 #~ msgid "Detalize route by foot (Shortest) with cloudmade.com"
 #~ msgstr "Optimizar ruta a pié Auto (más corta) con cloudmade.com"

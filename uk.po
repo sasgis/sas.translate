@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-09-10 16:30\n"
+"POT-Creation-Date: 2020-09-13 11:21\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -916,6 +916,12 @@ msgstr "На велосипеді (найшвидший)"
 msgid "By Bicycle (Shortest)"
 msgstr "На велосипеді (найкоротший)"
 
+msgid "By Bike"
+msgstr ""
+
+msgid "By Car"
+msgstr ""
+
 msgid "By Car (Fastest)"
 msgstr "На автомобілі (найшвидший)"
 
@@ -937,6 +943,9 @@ msgstr "За координатами"
 #. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
 msgid "By default"
 msgstr "Стандартно"
+
+msgid "By Foot"
+msgstr ""
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 #, fuzzy
@@ -1665,11 +1674,23 @@ msgstr "Маршрут для велосипеда (найшвидший) yourna
 msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
 msgstr "Маршрут для велосипеда (найкоротший) yournavigation.org"
 
+#, fuzzy
+msgid "Detalize route by Bike with project-osrm.org"
+msgstr "Маршрут для автомобіля (найшвидший) yournavigation.org"
+
 msgid "Detalize route by car (Fastest) with yournavigation.org"
 msgstr "Маршрут для автомобіля (найшвидший) yournavigation.org"
 
 msgid "Detalize route by car (Shortest) with yournavigation.org"
 msgstr "Маршрут для автомобіля (найкоротший) yournavigation.org"
+
+#, fuzzy
+msgid "Detalize route by Car with project-osrm.org"
+msgstr "Маршрут для автомобіля (найшвидший) Maps@mail.ru"
+
+#, fuzzy
+msgid "Detalize route by Foot with project-osrm.org"
+msgstr "Маршрут для пішохода (найшвидший) cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -5643,9 +5664,6 @@ msgstr "Серед ZMP має бути хочаб одна карта"
 msgid "Your version:"
 msgstr "Ваша версія:"
 
-msgid "yournavigation.org (OSM)"
-msgstr "Засобами yournavigation.org (OSM)"
-
 #, fuzzy
 msgid "zip archiver settings"
 msgstr "Параметри шару"
@@ -5715,6 +5733,9 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "yournavigation.org (OSM)"
+#~ msgstr "Засобами yournavigation.org (OSM)"
 
 #~ msgid "Retry download if tile not found"
 #~ msgstr "Намагатись повторно завантажити тайл за його відсутністю"
@@ -5798,17 +5819,11 @@ msgstr "Z-Сортування:"
 #~ msgid "Detalize route by car (Fastest) with cloudmade.com"
 #~ msgstr "Маршрут для автомобіля (найшвидший) cloudmade.com"
 
-#~ msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-#~ msgstr "Маршрут для автомобіля (найшвидший) Maps@mail.ru"
-
 #~ msgid "Detalize route by car (Shortest) with cloudmade.com"
 #~ msgstr "Маршрут для автомобіля (найкоротший) cloudmade.com"
 
 #~ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
 #~ msgstr "Маршрут для автомобіля (найкоротший) Maps@mail.ru"
-
-#~ msgid "Detalize route by foot (Fastest) with cloudmade.com"
-#~ msgstr "Маршрут для пішохода (найшвидший) cloudmade.com"
 
 #~ msgid "Detalize route by foot (Shortest) with cloudmade.com"
 #~ msgstr "Маршрут для пішохода (найкоротший) cloudmade.com"

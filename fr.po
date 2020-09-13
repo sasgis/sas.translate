@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-09-10 16:30\n"
+"POT-Creation-Date: 2020-09-13 11:21\n"
 "PO-Revision-Date: 2020-03-04 07:50+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -914,6 +914,12 @@ msgstr "A bicyclette (le plus rapide)"
 msgid "By Bicycle (Shortest)"
 msgstr "A bicyclette (le plus court)"
 
+msgid "By Bike"
+msgstr ""
+
+msgid "By Car"
+msgstr ""
+
 msgid "By Car (Fastest)"
 msgstr "En voiture (le plus rapide)"
 
@@ -935,6 +941,9 @@ msgstr "Sélection par coordonnées"
 #. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
 msgid "By default"
 msgstr "Par défaut"
+
+msgid "By Foot"
+msgstr ""
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 msgid "By Name (ascend)"
@@ -1665,11 +1674,23 @@ msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
 msgstr ""
 "Détaille la route par bicyclette (la plus courte) avec yournavigation.org"
 
+#, fuzzy
+msgid "Detalize route by Bike with project-osrm.org"
+msgstr "Détaille la route par voiture (la plus rapide) avec yournavigation.org"
+
 msgid "Detalize route by car (Fastest) with yournavigation.org"
 msgstr "Détaille la route par voiture (la plus rapide) avec yournavigation.org"
 
 msgid "Detalize route by car (Shortest) with yournavigation.org"
 msgstr "Détaille la route par voiture (La plus courte) avec yournavigation.org"
+
+#, fuzzy
+msgid "Detalize route by Car with project-osrm.org"
+msgstr "Détaille la route par voiture (la plus rapide) avec Maps@mail.ru"
+
+#, fuzzy
+msgid "Detalize route by Foot with project-osrm.org"
+msgstr "Détaille la route à pied (la plus rapide) avec cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -5626,9 +5647,6 @@ msgstr "Il faut, au moins, une CARTE dans les fichiers de ZMP"
 msgid "Your version:"
 msgstr "Votre version :"
 
-msgid "yournavigation.org (OSM)"
-msgstr "yournavigation.org (OSM)"
-
 msgid "zip archiver settings"
 msgstr "Paramètres d'archivage zip"
 
@@ -5695,6 +5713,9 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "yournavigation.org (OSM)"
+#~ msgstr "yournavigation.org (OSM)"
 
 #~ msgid "Retry download if tile not found"
 #~ msgstr "Reprendre le téléchargement si dalle non trouvée"
@@ -5777,17 +5798,11 @@ msgstr "Z-Order :"
 #~ msgid "Detalize route by car (Fastest) with cloudmade.com"
 #~ msgstr "Détaille la route par voiture (la plus rapide) avec cloudmade.com"
 
-#~ msgid "Detalize route by car (Fastest) with Maps@mail.ru"
-#~ msgstr "Détaille la route par voiture (la plus rapide) avec Maps@mail.ru"
-
 #~ msgid "Detalize route by car (Shortest) with cloudmade.com"
 #~ msgstr "Détaille la route par voiture (la plus courte) avec cloudmade.com"
 
 #~ msgid "Detalize route by car (Shortest) with Maps@mail.ru"
 #~ msgstr "Détaille la route par voiture (la plus courte) avec Maps@mail.ru"
-
-#~ msgid "Detalize route by foot (Fastest) with cloudmade.com"
-#~ msgstr "Détaille la route à pied (la plus rapide) avec cloudmade.com"
 
 #~ msgid "Detalize route by foot (Shortest) with cloudmade.com"
 #~ msgstr "Détaille la route à pied (la plus courte) avec cloudmade.com"

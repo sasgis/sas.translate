@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-09-10 16:30\n"
-"PO-Revision-Date: 2020-09-10 16:32+0300\n"
+"POT-Creation-Date: 2020-09-13 11:21\n"
+"PO-Revision-Date: 2020-09-13 11:24+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -899,6 +899,12 @@ msgstr "На велосипеде (по скорости)"
 msgid "By Bicycle (Shortest)"
 msgstr "На велосипеде (по расстоянию)"
 
+msgid "By Bike"
+msgstr "На велосипеде"
+
+msgid "By Car"
+msgstr "На автомобиле"
+
 msgid "By Car (Fastest)"
 msgstr "На автомобиле (по скорости)"
 
@@ -920,6 +926,9 @@ msgstr "По координатам"
 #. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
 msgid "By default"
 msgstr "По умолчанию"
+
+msgid "By Foot"
+msgstr "Пешком"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 msgid "By Name (ascend)"
@@ -1638,11 +1647,20 @@ msgstr "Маршрут для велосипеда (по скорости) yourn
 msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
 msgstr "Маршрут для велосипеда (по расстоянию) yournavigation.org"
 
+msgid "Detalize route by Bike with project-osrm.org"
+msgstr "Маршрут для велосипеда средствами project-osrm.org"
+
 msgid "Detalize route by car (Fastest) with yournavigation.org"
 msgstr "Маршрут для автомобиля (по скорости) yournavigation.org"
 
 msgid "Detalize route by car (Shortest) with yournavigation.org"
 msgstr "Маршрут для автомобиля (по расстоянию) yournavigation.org"
+
+msgid "Detalize route by Car with project-osrm.org"
+msgstr "Маршрут для автомобиля средствами project-osrm.org"
+
+msgid "Detalize route by Foot with project-osrm.org"
+msgstr "Маршрут для пешехода средствами project-osrm.org"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -5565,9 +5583,6 @@ msgstr "Среди ZMP должна быть хотя бы одна карта"
 #. frmUpdateChecker..lblCurVer..Caption
 msgid "Your version:"
 msgstr "Ваша версия:"
-
-msgid "yournavigation.org (OSM)"
-msgstr "средствами yournavigation.org (OSM)"
 
 msgid "zip archiver settings"
 msgstr "Настройки zip архиватора"
