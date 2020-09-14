@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-09-13 11:21\n"
-"PO-Revision-Date: 2020-03-04 07:50+0100\n"
+"PO-Revision-Date: 2020-09-14 04:29+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -915,10 +915,10 @@ msgid "By Bicycle (Shortest)"
 msgstr "A bicyclette (le plus court)"
 
 msgid "By Bike"
-msgstr ""
+msgstr "A bicyclette"
 
 msgid "By Car"
-msgstr ""
+msgstr "En voiture"
 
 msgid "By Car (Fastest)"
 msgstr "En voiture (le plus rapide)"
@@ -943,7 +943,7 @@ msgid "By default"
 msgstr "Par défaut"
 
 msgid "By Foot"
-msgstr ""
+msgstr "A pied"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
 msgid "By Name (ascend)"
@@ -1674,9 +1674,8 @@ msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
 msgstr ""
 "Détaille la route par bicyclette (la plus courte) avec yournavigation.org"
 
-#, fuzzy
 msgid "Detalize route by Bike with project-osrm.org"
-msgstr "Détaille la route par voiture (la plus rapide) avec yournavigation.org"
+msgstr "Détaille la route par bicyclette avec project-osrm.org"
 
 msgid "Detalize route by car (Fastest) with yournavigation.org"
 msgstr "Détaille la route par voiture (la plus rapide) avec yournavigation.org"
@@ -1684,13 +1683,11 @@ msgstr "Détaille la route par voiture (la plus rapide) avec yournavigation.org"
 msgid "Detalize route by car (Shortest) with yournavigation.org"
 msgstr "Détaille la route par voiture (La plus courte) avec yournavigation.org"
 
-#, fuzzy
 msgid "Detalize route by Car with project-osrm.org"
-msgstr "Détaille la route par voiture (la plus rapide) avec Maps@mail.ru"
+msgstr "Détaille la route par voiture avec project-osrm.org"
 
-#, fuzzy
 msgid "Detalize route by Foot with project-osrm.org"
-msgstr "Détaille la route à pied (la plus rapide) avec cloudmade.com"
+msgstr "Détaille la route à pied avec project-osrm.org"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -2002,7 +1999,7 @@ msgstr "Autorise les types de cartes suivantes :"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
 msgid "Enable/Disable Automatic Route Calculation (with Ctrl key)"
-msgstr ""
+msgstr "Activer/Désactiver le calcul d'itinéraire automatique (avec Ctrl)"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
@@ -4055,6 +4052,8 @@ msgstr "Source principale :"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
 msgid "Process next tile if no response (when downloading the region)"
 msgstr ""
+"Traiter la dalle suivante si aucune réponse (lors du téléchargement de la "
+"région)"
 
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
@@ -4324,9 +4323,8 @@ msgid "Resurs-DK"
 msgstr "Ressources-DK"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
-#, fuzzy
 msgid "Retry download tile if no response"
-msgstr "Sans réponse, télécharger la prochaine dalle"
+msgstr "Réessayer de télécharger la dalle si aucune réponse"
 
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
@@ -5343,9 +5341,8 @@ msgid "Unable to load map(s)! Aborting..."
 msgstr "Incapable de charger la (les) carte(s) ! Abandon..."
 
 #. frmMain..TBDockLeft..TBEditPath..tbxUndoRouteCalc..Hint
-#, fuzzy
 msgid "Undo Route Calculation"
-msgstr "Calcul d'itinéraire"
+msgstr "Annuler le calcul d'itinéraire"
 
 #, object-pascal-format
 msgid "Unexpected content type %s"
