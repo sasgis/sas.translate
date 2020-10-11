@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-09-13 11:21\n"
+"POT-Creation-Date: 2020-10-11 18:04\n"
 "PO-Revision-Date: 2020-09-14 04:29+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -18,15 +18,12 @@ msgstr ""
 msgid " Coordinates "
 msgstr "Coordonnées"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.12345678°)"
 msgstr "-- deg. (-12.12345678°)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min. (-12°12.1234')"
 msgstr "-- deg.min. (-12°12.1234')"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min.sec. (-12°12'12.1234\")"
 msgstr "-- deg.min.sec. (-12°12'12.1234\")"
 
@@ -1110,6 +1107,10 @@ msgstr "Ne peut pas charger le bitmap à partir du type de source"
 msgid "Can't open file: %s"
 msgstr "Ne peut pas ouvrir le fichier : %s"
 
+#, object-pascal-format
+msgid "Can't parse coordinates from clipboard: %s"
+msgstr ""
+
 #. Programmer's name for it: rsObjectNotInPool
 msgid "Can't release an object that is not in the pool!"
 msgstr "Ne peut pas libérer un objet qui n'est pas dans le lot !"
@@ -1154,6 +1155,11 @@ msgstr "Centrer le point (sélectionné par clic droit) avec le zoom suivant :"
 msgid "Centered GPS Position"
 msgstr "Position du GPS centrée"
 
+#. frLonLat..grdpnlTop..pnlButtons..btnCoordFormat..Hint
+#, fuzzy
+msgid "Change coordinates representation"
+msgstr "Représentation des coordonnées :"
+
 msgid "Change source zoom"
 msgstr "Changer la source du zoom"
 
@@ -1186,6 +1192,10 @@ msgstr "Aube civile"
 
 msgid "Cleaning up. "
 msgstr "Nettoyer"
+
+#, fuzzy
+msgid "Clipboard is empty!"
+msgstr "Le script est vide"
 
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmMarksExportConfig..pnlBottom..btnClose..Caption
@@ -1352,6 +1362,11 @@ msgstr "Copier les coordonnées BBOX"
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
 msgstr "Copier les coordonnées"
+
+#. frLonLat..grdpnlTop..pnlButtons..btnCopy..Hint
+#, fuzzy
+msgid "Copy coordinates to clipboard"
+msgstr "Copier TID's vers la mémoire"
 
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
 msgid "Copy description"
@@ -1997,10 +2012,6 @@ msgstr "en_US"
 msgid "Enable the following map types:"
 msgstr "Autorise les types de cartes suivantes :"
 
-#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
-msgid "Enable/Disable Automatic Route Calculation (with Ctrl key)"
-msgstr "Activer/Désactiver le calcul d'itinéraire automatique (avec Ctrl)"
-
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2422,8 +2433,8 @@ msgstr "Géographique / S-42 (Pulkovo 1942)"
 msgid "Geographic / WGS84"
 msgstr "Géographique / WGS84"
 
-#. frLonLat..pnlTop..cbbCoordType..Text
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType..Text
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Geographic Coordinates"
 msgstr "Coordonnées géographiques"
 
@@ -3758,6 +3769,10 @@ msgstr "Mot de passe :"
 msgid "Paste"
 msgstr "Coller"
 
+#. frLonLat..grdpnlTop..pnlButtons..btnPaste..Hint
+msgid "Paste coordinates from clipboard"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_NewPath
 #, no-object-pascal-format
 msgid "Path %0:d"
@@ -3844,7 +3859,7 @@ msgstr "Périmètre"
 msgid "Perimeter: %s"
 msgstr "Périmètre : %s"
 
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Pixel"
 msgstr "Par pixels"
 
@@ -4135,6 +4150,11 @@ msgstr "Projection :"
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
 msgstr "Propriétés"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
+#, fuzzy
+msgid "Provider for Automatic Route Calculation (with Ctrl key)"
+msgstr "Activer/Désactiver le calcul d'itinéraire automatique (avec Ctrl)"
 
 #. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
 msgid "Provider:"
@@ -5219,7 +5239,7 @@ msgstr ""
 msgid "Thread count"
 msgstr "Nombre de tâches"
 
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Par dalle"
 
@@ -5608,16 +5628,12 @@ msgstr "Dans l'intervalle de temps"
 msgid "Word Wrap"
 msgstr "Transfert de terme"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg. (W12.12345678°)"
 msgstr "WS deg. (W12.12345678°)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min. (W12°12.123456')"
 msgstr "WS deg.min. (W12°12.123456')"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min.sec. (W12°12'12.1234\")"
 msgstr "WS deg.min.sec. (W12°12'12.1234\")"
 

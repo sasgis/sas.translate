@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-09-13 11:21\n"
-"PO-Revision-Date: 2020-09-13 11:24+0300\n"
+"POT-Creation-Date: 2020-10-11 18:04\n"
+"PO-Revision-Date: 2020-10-11 18:08+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -15,15 +15,12 @@ msgstr ""
 msgid " Coordinates "
 msgstr " Координаты "
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg. (-12.12345678°)"
 msgstr "-- град. (-12.12345678°)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min. (-12°12.1234')"
 msgstr "-- град.мин. (-12°12.1234')"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "-- deg.min.sec. (-12°12'12.1234\")"
 msgstr "-- град.мин.сек. (-12°12'12.1234\")"
 
@@ -1092,6 +1089,10 @@ msgstr "Ошибка загрузки изображения исходного 
 msgid "Can't open file: %s"
 msgstr "Невозможно открыть файл: %s"
 
+#, object-pascal-format
+msgid "Can't parse coordinates from clipboard: %s"
+msgstr "Невозможно распасить координаты из буфера обмена: %s"
+
 #. Programmer's name for it: rsObjectNotInPool
 msgid "Can't release an object that is not in the pool!"
 msgstr "Невозможно создать объект, не входящий в пул!"
@@ -1136,6 +1137,10 @@ msgstr "Центрировать с масштабом"
 msgid "Centered GPS Position"
 msgstr "Текущая позиция всегда в центре"
 
+#. frLonLat..grdpnlTop..pnlButtons..btnCoordFormat..Hint
+msgid "Change coordinates representation"
+msgstr "Сменить формат представления координат"
+
 msgid "Change source zoom"
 msgstr "Изменить масштаб источника"
 
@@ -1168,6 +1173,9 @@ msgstr "Нач. Гражд. сумерек"
 
 msgid "Cleaning up. "
 msgstr "Очистка. "
+
+msgid "Clipboard is empty!"
+msgstr "Буфер обмена пуст!"
 
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmMarksExportConfig..pnlBottom..btnClose..Caption
@@ -1332,6 +1340,10 @@ msgstr "Копировать BBOX координаты"
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
 msgstr "Копировать координаты"
+
+#. frLonLat..grdpnlTop..pnlButtons..btnCopy..Hint
+msgid "Copy coordinates to clipboard"
+msgstr "Скопировать координаты в буфер обмена"
 
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
 msgid "Copy description"
@@ -1964,10 +1976,6 @@ msgstr "ru_RU"
 msgid "Enable the following map types:"
 msgstr "Включить следующие типы карт:"
 
-#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
-msgid "Enable/Disable Automatic Route Calculation (with Ctrl key)"
-msgstr "Вкл/Выкл авт. прокладку маршрута (при нажатом Ctrl)"
-
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2379,8 +2387,8 @@ msgstr "Геогр. / СК-42 (Пулково 1942)"
 msgid "Geographic / WGS84"
 msgstr "Географические / WGS84"
 
-#. frLonLat..pnlTop..cbbCoordType..Text
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType..Text
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Geographic Coordinates"
 msgstr "Географические координаты"
 
@@ -3710,6 +3718,10 @@ msgstr "Пароль:"
 msgid "Paste"
 msgstr "Вставить"
 
+#. frLonLat..grdpnlTop..pnlButtons..btnPaste..Hint
+msgid "Paste coordinates from clipboard"
+msgstr "Вставить координаты из буфера обмена"
+
 #. Programmer's name for it: SAS_STR_NewPath
 #, no-object-pascal-format
 msgid "Path %0:d"
@@ -3796,7 +3808,7 @@ msgstr "Периметр"
 msgid "Perimeter: %s"
 msgstr "Периметр: %s"
 
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Pixel"
 msgstr "Пиксельные"
 
@@ -4085,6 +4097,10 @@ msgstr "Проекция:"
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
 msgstr "Свойства"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
+msgid "Provider for Automatic Route Calculation (with Ctrl key)"
+msgstr "Провайдер для авт. прокладки маршрута (при нажатом Ctrl)"
 
 #. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
 msgid "Provider:"
@@ -5164,7 +5180,7 @@ msgstr ""
 msgid "Thread count"
 msgstr "Количество потоков"
 
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Тайловые"
 
@@ -5548,16 +5564,12 @@ msgstr "Тайлы только в диапазоне дат"
 msgid "Word Wrap"
 msgstr "Перенос строк"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg. (W12.12345678°)"
 msgstr "WS град. (W12.12345678°)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min. (W12°12.123456')"
 msgstr "WS град.мин. (W12°12.123456')"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 msgid "WS deg.min.sec. (W12°12'12.1234\")"
 msgstr "WS град.мин.сек. (W12°12'12.1234\")"
 

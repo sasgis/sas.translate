@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-09-13 11:21\n"
+"POT-Creation-Date: 2020-10-11 18:04\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -16,17 +16,14 @@ msgstr ""
 msgid " Coordinates "
 msgstr "Coordenadas"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 #, fuzzy
 msgid "-- deg. (-12.12345678°)"
 msgstr "-- deg. (-12.1233°)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 #, fuzzy
 msgid "-- deg.min. (-12°12.1234')"
 msgstr "-- deg.min. (-12°23.454)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 #, fuzzy
 msgid "-- deg.min.sec. (-12°12'12.1234\")"
 msgstr "-- deg.min.sec. (-12°23\"43.35')"
@@ -1123,6 +1120,10 @@ msgstr "No se puede cargar bitmap desde tipo de fuente"
 msgid "Can't open file: %s"
 msgstr "Imposible abrir archivo: %s"
 
+#, object-pascal-format
+msgid "Can't parse coordinates from clipboard: %s"
+msgstr ""
+
 #. Programmer's name for it: rsObjectNotInPool
 msgid "Can't release an object that is not in the pool!"
 msgstr "¡No se puede liberar un objeto que no está en el pool!"
@@ -1168,6 +1169,11 @@ msgstr "Centrar con Zoom"
 msgid "Centered GPS Position"
 msgstr "Centrar Posición GPS"
 
+#. frLonLat..grdpnlTop..pnlButtons..btnCoordFormat..Hint
+#, fuzzy
+msgid "Change coordinates representation"
+msgstr "Representación de coordenadas"
+
 #, fuzzy
 msgid "Change source zoom"
 msgstr "Zoom Actual"
@@ -1204,6 +1210,10 @@ msgstr ""
 
 msgid "Cleaning up. "
 msgstr ""
+
+#, fuzzy
+msgid "Clipboard is empty!"
+msgstr "&Copiar al Portapapeles"
 
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmMarksExportConfig..pnlBottom..btnClose..Caption
@@ -1378,6 +1388,11 @@ msgstr "Copiar Coordenadas"
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
 msgstr "Copiar Coordenadas"
+
+#. frLonLat..grdpnlTop..pnlButtons..btnCopy..Hint
+#, fuzzy
+msgid "Copy coordinates to clipboard"
+msgstr "Copiar TID's al portapapeles"
 
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
 msgid "Copy description"
@@ -2019,10 +2034,6 @@ msgstr ""
 msgid "Enable the following map types:"
 msgstr "Habilitar los siguientes tipos de mapas:"
 
-#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
-msgid "Enable/Disable Automatic Route Calculation (with Ctrl key)"
-msgstr ""
-
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2446,8 +2457,8 @@ msgstr ""
 msgid "Geographic / WGS84"
 msgstr ""
 
-#. frLonLat..pnlTop..cbbCoordType..Text
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType..Text
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Geographic Coordinates"
 msgstr "Coordenadas Geográficas"
 
@@ -3808,6 +3819,10 @@ msgstr "Password:"
 msgid "Paste"
 msgstr "Pausa"
 
+#. frLonLat..grdpnlTop..pnlButtons..btnPaste..Hint
+msgid "Paste coordinates from clipboard"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_NewPath
 #, no-object-pascal-format
 msgid "Path %0:d"
@@ -3897,7 +3912,7 @@ msgstr "Perímetro"
 msgid "Perimeter: %s"
 msgstr "Perímetro: %s"
 
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Pixel"
 msgstr "Pixel"
 
@@ -4187,6 +4202,10 @@ msgstr "Projección:"
 #. frmMain..MainPopupMenu..tbitmProperties..Caption
 msgid "Properties"
 msgstr "Propiedades"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
+msgid "Provider for Automatic Route Calculation (with Ctrl key)"
+msgstr ""
 
 #. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
 msgid "Provider:"
@@ -5290,7 +5309,7 @@ msgstr ""
 msgid "Thread count"
 msgstr ""
 
-#. frLonLat..pnlTop..cbbCoordType....Items.Strings
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Tile"
 msgstr "Mosaico"
 
@@ -5684,18 +5703,14 @@ msgstr "Dentro del intervalo de fechas"
 msgid "Word Wrap"
 msgstr "Envolver de palabra"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 #, fuzzy
 msgid "WS deg. (W12.12345678°)"
 msgstr "WS deg. (W12.1233°)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 #, fuzzy
 msgid "WS deg.min. (W12°12.123456')"
 msgstr "WS deg.min. (W12°23.454)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..CB_llstrType....Items.Strings
 #, fuzzy
 msgid "WS deg.min.sec. (W12°12'12.1234\")"
 msgstr "WS deg.min.sec. (W12°23\"43.35')"
