@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-10-11 18:04\n"
-"PO-Revision-Date: 2020-09-14 04:29+0200\n"
+"PO-Revision-Date: 2020-10-14 06:48+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -1109,7 +1109,7 @@ msgstr "Ne peut pas ouvrir le fichier : %s"
 
 #, object-pascal-format
 msgid "Can't parse coordinates from clipboard: %s"
-msgstr ""
+msgstr "Impossible d'analyser les coordonnées depuis le presse-papiers : %s"
 
 #. Programmer's name for it: rsObjectNotInPool
 msgid "Can't release an object that is not in the pool!"
@@ -1156,9 +1156,8 @@ msgid "Centered GPS Position"
 msgstr "Position du GPS centrée"
 
 #. frLonLat..grdpnlTop..pnlButtons..btnCoordFormat..Hint
-#, fuzzy
 msgid "Change coordinates representation"
-msgstr "Représentation des coordonnées :"
+msgstr "Modifier la représentation des coordonnées"
 
 msgid "Change source zoom"
 msgstr "Changer la source du zoom"
@@ -1193,9 +1192,8 @@ msgstr "Aube civile"
 msgid "Cleaning up. "
 msgstr "Nettoyer"
 
-#, fuzzy
 msgid "Clipboard is empty!"
-msgstr "Le script est vide"
+msgstr "Le presse-papiers est vide !"
 
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmMarksExportConfig..pnlBottom..btnClose..Caption
@@ -1364,9 +1362,8 @@ msgid "Copy coordinates"
 msgstr "Copier les coordonnées"
 
 #. frLonLat..grdpnlTop..pnlButtons..btnCopy..Hint
-#, fuzzy
 msgid "Copy coordinates to clipboard"
-msgstr "Copier TID's vers la mémoire"
+msgstr "Copier les coordonnées dans le presse-papiers"
 
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
 msgid "Copy description"
@@ -3771,7 +3768,7 @@ msgstr "Coller"
 
 #. frLonLat..grdpnlTop..pnlButtons..btnPaste..Hint
 msgid "Paste coordinates from clipboard"
-msgstr ""
+msgstr "Coller les coordonnées depuis le presse-papiers"
 
 #. Programmer's name for it: SAS_STR_NewPath
 #, no-object-pascal-format
@@ -4152,9 +4149,8 @@ msgid "Properties"
 msgstr "Propriétés"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
-#, fuzzy
 msgid "Provider for Automatic Route Calculation (with Ctrl key)"
-msgstr "Activer/Désactiver le calcul d'itinéraire automatique (avec Ctrl)"
+msgstr "Fournisseur pour le calcul automatique de l'itinéraire (avec Ctrl)"
 
 #. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
 msgid "Provider:"
