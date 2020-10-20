@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-10-11 18:04\n"
+"POT-Creation-Date: 2020-10-20 18:23\n"
 "PO-Revision-Date: 2020-10-14 06:48+0200\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1677,29 +1677,6 @@ msgstr "Le type du cache Dest n'est pas spécifié !"
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
 msgstr "Vue détaillée"
-
-msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
-msgstr ""
-"Détaille la route par bicyclette (la plus rapide) avec yournavigation.org"
-
-msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
-msgstr ""
-"Détaille la route par bicyclette (la plus courte) avec yournavigation.org"
-
-msgid "Detalize route by Bike with project-osrm.org"
-msgstr "Détaille la route par bicyclette avec project-osrm.org"
-
-msgid "Detalize route by car (Fastest) with yournavigation.org"
-msgstr "Détaille la route par voiture (la plus rapide) avec yournavigation.org"
-
-msgid "Detalize route by car (Shortest) with yournavigation.org"
-msgstr "Détaille la route par voiture (La plus courte) avec yournavigation.org"
-
-msgid "Detalize route by Car with project-osrm.org"
-msgstr "Détaille la route par voiture avec project-osrm.org"
-
-msgid "Detalize route by Foot with project-osrm.org"
-msgstr "Détaille la route à pied avec project-osrm.org"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -3698,6 +3675,10 @@ msgstr "Autres"
 msgid "Outline color:"
 msgstr "Couleur de contour :"
 
+#, fuzzy
+msgid "Output file name is not set or incorrect!"
+msgstr "Le chemin du compileur MPC est non sélectionné ou incorrect !"
+
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
 msgstr "Format de sortie :"
@@ -3942,14 +3923,12 @@ msgstr "Sélectionner au moins un type de marqueur."
 msgid "Please select map or layer"
 msgstr "Sélectionner une carte ou une couche."
 
-msgid "Please select output file"
-msgstr "Sélectionner le fichier de sortie d'abord !"
-
-msgid "Please select output file first!"
-msgstr "Sélectionner le fichier de sortie d'abord !"
-
 msgid "Please select output folder"
 msgstr "Sélectionner le répertoire de sortie d'abord !"
+
+#, fuzzy
+msgid "Please select the map first!"
+msgstr "Sélectionner le fichier de sortie d'abord !"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
@@ -4484,7 +4463,7 @@ msgstr "Sauvegarder la sélection dans un fichier .hlg"
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportRMP..pnlTop..lblTargetFile..Caption
-#. frExportToCE..pnlTop..lblTargetFile..Caption
+#. frExportToCE..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
@@ -5207,6 +5186,10 @@ msgstr "Il n'y a pas d'objets disponibles dans le lot !"
 msgid "There is an error %1:s in map %0:s"
 msgstr "Il y a une erreur %1:s dans la carte %0:s"
 
+#, fuzzy
+msgid "There is no supported maps"
+msgstr "Il y a une erreur %1:s dans la carte %0:s"
+
 msgid ""
 "This format doesn't support file name with characters not from current "
 "locale!"
@@ -5722,6 +5705,34 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
+#~ msgstr ""
+#~ "Détaille la route par bicyclette (la plus rapide) avec yournavigation.org"
+
+#~ msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
+#~ msgstr ""
+#~ "Détaille la route par bicyclette (la plus courte) avec yournavigation.org"
+
+#~ msgid "Detalize route by Bike with project-osrm.org"
+#~ msgstr "Détaille la route par bicyclette avec project-osrm.org"
+
+#~ msgid "Detalize route by car (Fastest) with yournavigation.org"
+#~ msgstr ""
+#~ "Détaille la route par voiture (la plus rapide) avec yournavigation.org"
+
+#~ msgid "Detalize route by car (Shortest) with yournavigation.org"
+#~ msgstr ""
+#~ "Détaille la route par voiture (La plus courte) avec yournavigation.org"
+
+#~ msgid "Detalize route by Car with project-osrm.org"
+#~ msgstr "Détaille la route par voiture avec project-osrm.org"
+
+#~ msgid "Detalize route by Foot with project-osrm.org"
+#~ msgstr "Détaille la route à pied avec project-osrm.org"
+
+#~ msgid "Please select output file"
+#~ msgstr "Sélectionner le fichier de sortie d'abord !"
 
 #~ msgid "yournavigation.org (OSM)"
 #~ msgstr "yournavigation.org (OSM)"

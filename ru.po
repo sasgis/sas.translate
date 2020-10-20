@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-10-11 18:04\n"
-"PO-Revision-Date: 2020-10-11 18:08+0300\n"
+"POT-Creation-Date: 2020-10-20 18:23\n"
+"PO-Revision-Date: 2020-10-20 18:26+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1652,27 +1652,6 @@ msgstr "Не выбран тип результирующего кэша!"
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
 msgstr "Подробный вид"
-
-msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
-msgstr "Маршрут для велосипеда (по скорости) yournavigation.org"
-
-msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
-msgstr "Маршрут для велосипеда (по расстоянию) yournavigation.org"
-
-msgid "Detalize route by Bike with project-osrm.org"
-msgstr "Маршрут для велосипеда средствами project-osrm.org"
-
-msgid "Detalize route by car (Fastest) with yournavigation.org"
-msgstr "Маршрут для автомобиля (по скорости) yournavigation.org"
-
-msgid "Detalize route by car (Shortest) with yournavigation.org"
-msgstr "Маршрут для автомобиля (по расстоянию) yournavigation.org"
-
-msgid "Detalize route by Car with project-osrm.org"
-msgstr "Маршрут для автомобиля средствами project-osrm.org"
-
-msgid "Detalize route by Foot with project-osrm.org"
-msgstr "Маршрут для пешехода средствами project-osrm.org"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -3650,6 +3629,9 @@ msgstr "Другие"
 msgid "Outline color:"
 msgstr "Цвет контура:"
 
+msgid "Output file name is not set or incorrect!"
+msgstr "Имя файла не задано или некорректно!"
+
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
 msgstr "Конвертировать в формат"
@@ -3894,14 +3876,11 @@ msgstr "Сначала необходимо выбрать тип метки"
 msgid "Please select map or layer"
 msgstr "Сначала необходимо выбрать карту или слой"
 
-msgid "Please select output file"
-msgstr "Пожалуйста выберите целевой файл"
-
-msgid "Please select output file first!"
-msgstr "Сначала необходимо выбрать целевой файл!"
-
 msgid "Please select output folder"
 msgstr "Пожалуйста, укажите целевую папку"
+
+msgid "Please select the map first!"
+msgstr "Сначала необходимо выбрать карту!"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
@@ -4435,7 +4414,7 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportRMP..pnlTop..lblTargetFile..Caption
-#. frExportToCE..pnlTop..lblTargetFile..Caption
+#. frExportToCE..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
@@ -5155,6 +5134,9 @@ msgstr "Нет доступных объектов в пуле!"
 #, no-object-pascal-format
 msgid "There is an error %1:s in map %0:s"
 msgstr "В карте %0:s ошибка: %1:s"
+
+msgid "There is no supported maps"
+msgstr "Нет поддерживаемых карт"
 
 msgid ""
 "This format doesn't support file name with characters not from current "

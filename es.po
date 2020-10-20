@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-10-11 18:04\n"
+"POT-Creation-Date: 2020-10-20 18:23\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1704,30 +1704,6 @@ msgstr ""
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
 msgstr ""
-
-msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
-msgstr "Optimizar ruta por bicicleta (más rápida) con yournavigation.org"
-
-msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
-msgstr "Optimizar ruta por bicicleta (más corta) con yournavigation.org"
-
-#, fuzzy
-msgid "Detalize route by Bike with project-osrm.org"
-msgstr "Optimizar ruta por auto (más rápida) con yournavigation.org"
-
-msgid "Detalize route by car (Fastest) with yournavigation.org"
-msgstr "Optimizar ruta por auto (más rápida) con yournavigation.org"
-
-msgid "Detalize route by car (Shortest) with yournavigation.org"
-msgstr "Optimizar ruta por auto (más corta) con yournavigation.org"
-
-#, fuzzy
-msgid "Detalize route by Car with project-osrm.org"
-msgstr "Optimizar ruta por auto (más rápida) con Maps@mail.ru"
-
-#, fuzzy
-msgid "Detalize route by Foot with project-osrm.org"
-msgstr "Optimizar ruta a pié Auto (más rápida) con cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -3750,6 +3726,9 @@ msgstr "Otros"
 msgid "Outline color:"
 msgstr "Color de Borde:"
 
+msgid "Output file name is not set or incorrect!"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
 msgstr "Formato de Salida"
@@ -4000,15 +3979,12 @@ msgstr "Por favor, seleccione un tipo de marca"
 msgid "Please select map or layer"
 msgstr "Por favor, seleccione un mapa o layer"
 
-msgid "Please select output file"
-msgstr "Por favor, seleccione un archivo de salida"
-
-#, fuzzy
-msgid "Please select output file first!"
-msgstr "¡Por favor, seleccione un archivo de salida primero!"
-
 msgid "Please select output folder"
 msgstr "Por favor, seleccione una carpeta de salida"
+
+#, fuzzy
+msgid "Please select the map first!"
+msgstr "¡Por favor, seleccione un archivo de salida primero!"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
@@ -4543,7 +4519,7 @@ msgstr "Guardar info de seleccion al archivo"
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportRMP..pnlTop..lblTargetFile..Caption
-#. frExportToCE..pnlTop..lblTargetFile..Caption
+#. frExportToCE..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
@@ -5280,6 +5256,10 @@ msgstr "No hay objetos disponibles en el pool"
 msgid "There is an error %1:s in map %0:s"
 msgstr "Hay un error %1:s en mapa %0:s"
 
+#, fuzzy
+msgid "There is no supported maps"
+msgstr "Hay un error %1:s en mapa %0:s"
+
 msgid ""
 "This format doesn't support file name with characters not from current "
 "locale!"
@@ -5807,6 +5787,33 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
+#~ msgstr "Optimizar ruta por bicicleta (más rápida) con yournavigation.org"
+
+#~ msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
+#~ msgstr "Optimizar ruta por bicicleta (más corta) con yournavigation.org"
+
+#, fuzzy
+#~ msgid "Detalize route by Bike with project-osrm.org"
+#~ msgstr "Optimizar ruta por auto (más rápida) con yournavigation.org"
+
+#~ msgid "Detalize route by car (Fastest) with yournavigation.org"
+#~ msgstr "Optimizar ruta por auto (más rápida) con yournavigation.org"
+
+#~ msgid "Detalize route by car (Shortest) with yournavigation.org"
+#~ msgstr "Optimizar ruta por auto (más corta) con yournavigation.org"
+
+#, fuzzy
+#~ msgid "Detalize route by Car with project-osrm.org"
+#~ msgstr "Optimizar ruta por auto (más rápida) con Maps@mail.ru"
+
+#, fuzzy
+#~ msgid "Detalize route by Foot with project-osrm.org"
+#~ msgstr "Optimizar ruta a pié Auto (más rápida) con cloudmade.com"
+
+#~ msgid "Please select output file"
+#~ msgstr "Por favor, seleccione un archivo de salida"
 
 #~ msgid "yournavigation.org (OSM)"
 #~ msgstr "yournavigation.org (OSM)"

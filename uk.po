@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-10-11 18:04\n"
+"POT-Creation-Date: 2020-10-20 18:23\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1682,30 +1682,6 @@ msgstr ""
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
 msgstr "Вид з подробицями"
-
-msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
-msgstr "Маршрут для велосипеда (найшвидший) yournavigation.org"
-
-msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
-msgstr "Маршрут для велосипеда (найкоротший) yournavigation.org"
-
-#, fuzzy
-msgid "Detalize route by Bike with project-osrm.org"
-msgstr "Маршрут для автомобіля (найшвидший) yournavigation.org"
-
-msgid "Detalize route by car (Fastest) with yournavigation.org"
-msgstr "Маршрут для автомобіля (найшвидший) yournavigation.org"
-
-msgid "Detalize route by car (Shortest) with yournavigation.org"
-msgstr "Маршрут для автомобіля (найкоротший) yournavigation.org"
-
-#, fuzzy
-msgid "Detalize route by Car with project-osrm.org"
-msgstr "Маршрут для автомобіля (найшвидший) Maps@mail.ru"
-
-#, fuzzy
-msgid "Detalize route by Foot with project-osrm.org"
-msgstr "Маршрут для пішохода (найшвидший) cloudmade.com"
 
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
 msgid "Device timeout (sec)"
@@ -3706,6 +3682,10 @@ msgstr "Інші"
 msgid "Outline color:"
 msgstr "Колір обрамлення:"
 
+#, fuzzy
+msgid "Output file name is not set or incorrect!"
+msgstr "Шлях до компілятора MPC не вказано або вказано некоректно!"
+
 #. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Output format"
 msgstr "Результуючий формат"
@@ -3952,14 +3932,12 @@ msgstr "Спочатку треба обрати тип позначки"
 msgid "Please select map or layer"
 msgstr "Спочатку треба вибрати карту або шар"
 
-msgid "Please select output file"
-msgstr "Будьласка, оберіть спочатку вихідну папку!"
-
-msgid "Please select output file first!"
-msgstr "Будьласка, оберіть спочатку вихідний файл!"
-
 msgid "Please select output folder"
 msgstr "Будьласка, оберіть спочатку вихідну папку!"
+
+#, fuzzy
+msgid "Please select the map first!"
+msgstr "Будьласка, оберіть спочатку вихідний файл!"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
@@ -4492,7 +4470,7 @@ msgstr "Зберегти  виділення у файл"
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportRMP..pnlTop..lblTargetFile..Caption
-#. frExportToCE..pnlTop..lblTargetFile..Caption
+#. frExportToCE..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
 #. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
@@ -5228,6 +5206,10 @@ msgstr "Немає доступних об'єктів у пулі!"
 msgid "There is an error %1:s in map %0:s"
 msgstr "У карті %0:s помилка: %1:s"
 
+#, fuzzy
+msgid "There is no supported maps"
+msgstr "У карті %0:s помилка: %1:s"
+
 msgid ""
 "This format doesn't support file name with characters not from current "
 "locale!"
@@ -5748,6 +5730,33 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
+#~ msgstr "Маршрут для велосипеда (найшвидший) yournavigation.org"
+
+#~ msgid "Detalize route by bicycle (Shortest) with yournavigation.org"
+#~ msgstr "Маршрут для велосипеда (найкоротший) yournavigation.org"
+
+#, fuzzy
+#~ msgid "Detalize route by Bike with project-osrm.org"
+#~ msgstr "Маршрут для автомобіля (найшвидший) yournavigation.org"
+
+#~ msgid "Detalize route by car (Fastest) with yournavigation.org"
+#~ msgstr "Маршрут для автомобіля (найшвидший) yournavigation.org"
+
+#~ msgid "Detalize route by car (Shortest) with yournavigation.org"
+#~ msgstr "Маршрут для автомобіля (найкоротший) yournavigation.org"
+
+#, fuzzy
+#~ msgid "Detalize route by Car with project-osrm.org"
+#~ msgstr "Маршрут для автомобіля (найшвидший) Maps@mail.ru"
+
+#, fuzzy
+#~ msgid "Detalize route by Foot with project-osrm.org"
+#~ msgstr "Маршрут для пішохода (найшвидший) cloudmade.com"
+
+#~ msgid "Please select output file"
+#~ msgstr "Будьласка, оберіть спочатку вихідну папку!"
 
 #~ msgid "yournavigation.org (OSM)"
 #~ msgstr "Засобами yournavigation.org (OSM)"
