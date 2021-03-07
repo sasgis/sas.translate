@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-10-20 18:23\n"
-"PO-Revision-Date: 2020-10-20 18:26+0300\n"
+"POT-Creation-Date: 2021-03-07 13:22\n"
+"PO-Revision-Date: 2021-03-07 13:25+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -139,6 +139,20 @@ msgstr "/пикс."
 #. Programmer's name for it: rsClip
 msgid "[clip]"
 msgstr ""
+
+#, object-pascal-format
+msgid ""
+"[JNX] Tile processing error!\n"
+"Tile: X = %d, Y = %d, Z = %d\n"
+"Error: \"%s: %s\"\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"[JNX] Ошибка обработки тайла!\n"
+"Тайл: X = %d, Y = %d, Z = %d\n"
+"Ошибка: \"%s: %s\"\n"
+"\n"
+"Вы хотите продолжить?"
 
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
@@ -2697,6 +2711,10 @@ msgstr "iPhone (Ниже v2.2 64х64)"
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr "Можно использовать \\ в качестве разделителя пути"
+
+#. frExportToJNX..dlgSaveTargetFile..Filter
+msgid "JNX |*.jnx"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_ExportJNXPackCaption
 msgid "JNX raster map for Garmin"
