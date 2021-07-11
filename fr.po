@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-03-07 13:22\n"
+"POT-Creation-Date: 2021-07-11 14:19\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -86,6 +86,11 @@ msgstr "%0:s Téléchargement"
 #, object-pascal-format
 msgid "%s %.2f of %.2f MB (%.2f%s)"
 msgstr "%s %.2f de %.2f Mb (%.2f%s)"
+
+#. Programmer's name for it: rsGeoCoderApiKeyCaptionFmt
+#, object-pascal-format
+msgid "%s API Key:"
+msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 msgid "&Coordinates"
@@ -914,23 +919,11 @@ msgstr "Date de construction :"
 msgid "Build info:"
 msgstr "Info de construction :"
 
-msgid "By Bicycle (Fastest)"
-msgstr "A bicyclette (le plus rapide)"
-
-msgid "By Bicycle (Shortest)"
-msgstr "A bicyclette (le plus court)"
-
 msgid "By Bike"
 msgstr "A bicyclette"
 
 msgid "By Car"
 msgstr "En voiture"
-
-msgid "By Car (Fastest)"
-msgstr "En voiture (le plus rapide)"
-
-msgid "By Car (Shortest)"
-msgstr "En voiture (le plus court)"
 
 #. frmMain..actlstMain..actSelectByCoordinates..Caption
 msgid "By Coordinates"
@@ -2203,14 +2196,6 @@ msgstr "Nom du fichier"
 msgid "File name prefix:"
 msgstr "Préfixe du nom de fichier :"
 
-#, object-pascal-format
-msgid "File with Geocoder API Key is empty: %s"
-msgstr "Le fichier avec la clé API Geocoder est vide : %s"
-
-#, object-pascal-format
-msgid "File with Geocoder API Key is not found: %s"
-msgstr "Le fichier avec la clé API Geocoder n'est pas trouvé : %s"
-
 msgid "File:"
 msgstr "Fichier :"
 
@@ -3344,6 +3329,7 @@ msgstr "Nom :"
 msgid "Name: %s"
 msgstr "Nom : %s"
 
+#. Cache tab
 msgid "Native cache folder:"
 msgstr "Répertoire du cache natif :"
 
@@ -3366,9 +3352,6 @@ msgstr "Naviguer vers la balise surlignée (GPS)"
 #. frmMain..actlstMain..actViewNavigation..Caption
 msgid "Navigation Arrow"
 msgstr "Flèche de navigation"
-
-msgid "Navitel"
-msgstr "Navitel"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlNetworkEngine..lbl3..Caption
 msgid "Network engine:"
@@ -3413,7 +3396,6 @@ msgstr "Mode nuit (couleurs inversées)"
 msgid "Night Mode (Color Inversion)"
 msgstr "Mode nuit (couleurs inversées)"
 
-#. frmUpdateChecker..cbbChannel..Text
 #. frmUpdateChecker..cbbChannel....Items.Strings
 msgid "Nightly (testing)"
 msgstr "Nightly (bêta)"
@@ -3790,6 +3772,7 @@ msgstr "Répertoire du compileur de cartes :"
 msgid "Path to map scan DB"
 msgstr "Répertoire des fichiers d'images :"
 
+#. Path tab
 msgid "Path to Maps"
 msgstr "Répertoire des fichiers de cartes :"
 
@@ -4195,6 +4178,7 @@ msgid "Radius, m"
 msgstr "Rayon, m"
 
 #. Programmer's name for it: rsRAMCacheName
+#. Programmer's name for it: rsRAM
 msgid "RAM"
 msgstr "RAM"
 
@@ -4516,6 +4500,7 @@ msgstr "Le script est vide"
 #. frmMain..TBDock..TBXToolBarSearch..Caption
 #. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
 #. frmGoTo..pgcSearchType..tsSearch..Caption
+#. frmSettings..PageControl1..tsSearch..Caption
 msgid "Search"
 msgstr "Recherche"
 
@@ -4690,6 +4675,11 @@ msgstr "Maj - Aller vers les grilles actives (si elles existent)"
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
 msgstr "Raccourci|*.lnk"
+
+#. frGeoCoderApiKey..pnlKey..chkShowKey..Hint
+#, fuzzy
+msgid "Show / Hide"
+msgstr "Afficher l'heure UTC (temps universel coordonné)"
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show all placemarks"
@@ -5626,6 +5616,7 @@ msgstr "WS deg.min. (W12°12.123456')"
 msgid "WS deg.min.sec. (W12°12'12.1234\")"
 msgstr "WS deg.min.sec. (W12°12'12.1234\")"
 
+#. Search tab
 msgid "Yandex"
 msgstr "Yandex"
 
