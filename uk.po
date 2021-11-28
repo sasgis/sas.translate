@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2021-07-11 14:19\n"
+"POT-Creation-Date: 2021-11-28 10:49\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -4016,6 +4016,14 @@ msgstr "Виділення по шляху"
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул вимкнено - Неможливо отримати db: %s"
 
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
+msgid "Precise cropping by the polygon"
+msgstr ""
+
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Hint
+msgid "Precise cropping of the image along the boundaries of the polygon"
+msgstr ""
+
 msgid "Press Ctrl and click on polygon to add one..."
 msgstr "Для додавання полігону натисніть Ctrl і клікніть по ньому"
 
@@ -5209,6 +5217,10 @@ msgstr "Немає доступних об'єктів у пулі!"
 msgid "There is an error %1:s in map %0:s"
 msgstr "У карті %0:s помилка: %1:s"
 
+#. Programmer's name for it: rsNoDataInDatabase
+msgid "There is no data in database for this location!"
+msgstr ""
+
 #, fuzzy
 msgid "There is no supported maps"
 msgstr "У карті %0:s помилка: %1:s"
@@ -5236,7 +5248,8 @@ msgstr ""
 "GNU GPLv3"
 
 #. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
-msgid "Thread count"
+#, fuzzy
+msgid "Thread count:"
 msgstr "Кількість потоків"
 
 #. frLonLat..grdpnlTop..cbbCoordType....Items.Strings

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2021-07-11 14:19\n"
-"PO-Revision-Date: 2021-07-11 14:21+0300\n"
+"POT-Creation-Date: 2021-11-28 10:49\n"
+"PO-Revision-Date: 2021-11-28 11:14+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -3965,6 +3965,14 @@ msgstr "Выделение по пути"
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул выключен - Невозможно получить db: %s"
 
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
+msgid "Precise cropping by the polygon"
+msgstr "Обрезать точно по полигону"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Hint
+msgid "Precise cropping of the image along the boundaries of the polygon"
+msgstr "Обрезать изображение точно по границам полигона"
+
 msgid "Press Ctrl and click on polygon to add one..."
 msgstr "Для добавления полигона нажмите Ctrl и кликните по нему..."
 
@@ -5142,16 +5150,20 @@ msgstr "Нет доступных объектов в пуле!"
 msgid "There is an error %1:s in map %0:s"
 msgstr "В карте %0:s ошибка: %1:s"
 
+#. Programmer's name for it: rsNoDataInDatabase
+msgid "There is no data in database for this location!"
+msgstr "В БД нет данных для этого местоположения!"
+
 msgid "There is no supported maps"
 msgstr "Нет поддерживаемых карт"
 
 msgid ""
 "This format doesn't support file name with characters not from current "
 "locale!"
-msgstr ""
+msgstr "Этот формат не поддерживает имена файлов с юникодными символами!"
 
 msgid "This format supports file name with ASCII characters only!"
-msgstr ""
+msgstr "Этот формат поддерживает только имена файлов на латинице!"
 
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
 msgid "This is not simple file storage. Tile's file name does not exist."
@@ -5166,8 +5178,8 @@ msgstr ""
 "GNU GPLv3"
 
 #. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
-msgid "Thread count"
-msgstr "Количество потоков"
+msgid "Thread count:"
+msgstr "Количество потоков:"
 
 #. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
 msgid "Tile"

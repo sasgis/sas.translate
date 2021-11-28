@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-11 14:19\n"
-"PO-Revision-Date: 2021-07-11 14:19\n"
+"POT-Creation-Date: 2021-11-28 10:49\n"
+"PO-Revision-Date: 2021-11-28 10:49\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4042,6 +4042,16 @@ msgstr ""
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr ""
 
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
+msgid "Precise cropping by the polygon"
+msgstr ""
+
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Hint
+msgid ""
+"Precise cropping of the image along the boundaries of the "
+"polygon"
+msgstr ""
+
 msgid ""
 "Press Ctrl and click on polygon to add "
 "one..."
@@ -5227,6 +5237,12 @@ msgstr ""
 msgid "There is an error %1:s in map %0:s"
 msgstr ""
 
+#. Programmer's name for it: rsNoDataInDatabase
+msgid ""
+"There is no data in database for this "
+"location!"
+msgstr ""
+
 msgid "There is no supported maps"
 msgstr ""
 
@@ -5253,7 +5269,7 @@ msgid ""
 msgstr ""
 
 #. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
-msgid "Thread count"
+msgid "Thread count:"
 msgstr ""
 
 #. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
