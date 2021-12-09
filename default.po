@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-28 10:49\n"
-"PO-Revision-Date: 2021-11-28 10:49\n"
+"POT-Creation-Date: 2021-12-09 20:24\n"
+"PO-Revision-Date: 2021-12-09 20:24\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1617,7 +1617,8 @@ msgstr ""
 msgid "Delete Placemark"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
 msgid "Delete Point"
 msgstr ""
 
@@ -1908,7 +1909,6 @@ msgstr ""
 msgid "EarthSlicer cache folder:"
 msgstr ""
 
-#. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnEdit..Caption
 #. frmMarkPictureConfig..btnEdit..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
@@ -1947,6 +1947,14 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_EditPoly
 msgid "Edit Polygon"
+msgstr ""
+
+#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+msgid "Edit Position"
+msgstr ""
+
+#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+msgid "Edit Properties"
 msgstr ""
 
 #. frExportToIMG..PageControl1..Map..pnlSasZoom..TBXEdit..TBEdit..Hint
@@ -4046,7 +4054,7 @@ msgstr ""
 msgid "Precise cropping by the polygon"
 msgstr ""
 
-#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Hint
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
 msgid ""
 "Precise cropping of the image along the boundaries of the "
 "polygon"
@@ -4162,10 +4170,6 @@ msgstr ""
 
 #. frProjectionSelect..lblProjection..Caption
 msgid "Projection:"
-msgstr ""
-
-#. frmMain..MainPopupMenu..tbitmProperties..Caption
-msgid "Properties"
 msgstr ""
 
 #. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
@@ -4976,8 +4980,12 @@ msgstr ""
 msgid "Small"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Hint
 msgid "Snap to Existing Markers"
+msgstr ""
+
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Caption
+msgid "Snap to Markers"
 msgstr ""
 
 #. Programmer's name for it: rsSolstice

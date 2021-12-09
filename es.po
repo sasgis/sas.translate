@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-28 10:49\n"
+"POT-Creation-Date: 2021-12-09 20:24\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1626,7 +1626,8 @@ msgstr "Borrar Mosaico del Layer del Caché"
 msgid "Delete Placemark"
 msgstr "Borrar Posición"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
 msgid "Delete Point"
 msgstr "Borrar Punto"
 
@@ -1916,7 +1917,6 @@ msgstr ""
 msgid "EarthSlicer cache folder:"
 msgstr "Carpeta caché de EarthSlicer:"
 
-#. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnEdit..Caption
 #. frmMarkPictureConfig..btnEdit..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
@@ -1956,6 +1956,16 @@ msgstr "Editar Marca"
 #. Programmer's name for it: SAS_STR_EditPoly
 msgid "Edit Polygon"
 msgstr "Editar Polígono"
+
+#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#, fuzzy
+msgid "Edit Position"
+msgstr "Editar Polígono"
+
+#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#, fuzzy
+msgid "Edit Properties"
+msgstr "Propiedades"
 
 #. frExportToIMG..PageControl1..Map..pnlSasZoom..TBXEdit..TBEdit..Hint
 msgid "Edit SAS Zoom"
@@ -4067,7 +4077,7 @@ msgstr "Pool Inabilitado - Sin adquirir db: %s"
 msgid "Precise cropping by the polygon"
 msgstr ""
 
-#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Hint
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
 msgstr ""
 
@@ -4178,10 +4188,6 @@ msgstr "Projección del mapa"
 #. frProjectionSelect..lblProjection..Caption
 msgid "Projection:"
 msgstr "Projección:"
-
-#. frmMain..MainPopupMenu..tbitmProperties..Caption
-msgid "Properties"
-msgstr "Propiedades"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
 msgid "Provider for Automatic Route Calculation (with Ctrl key)"
@@ -5005,8 +5011,13 @@ msgstr "Espera en restablecer conexión, ms"
 msgid "Small"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Hint
 msgid "Snap to Existing Markers"
+msgstr "Ajustar a marcadores existentes"
+
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Caption
+#, fuzzy
+msgid "Snap to Markers"
 msgstr "Ajustar a marcadores existentes"
 
 #. Programmer's name for it: rsSolstice

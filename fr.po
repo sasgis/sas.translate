@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-28 10:49\n"
+"POT-Creation-Date: 2021-12-09 20:24\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1598,7 +1598,8 @@ msgstr ""
 msgid "Delete Placemark"
 msgstr "Supprimer le marqueur"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
 msgid "Delete Point"
 msgstr "Supprimer le point"
 
@@ -1893,7 +1894,6 @@ msgstr "Ordre de dessin"
 msgid "EarthSlicer cache folder:"
 msgstr "EarthSlicer, répertoire du cache :"
 
-#. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnEdit..Caption
 #. frmMarkPictureConfig..btnEdit..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
@@ -1933,6 +1933,16 @@ msgstr "Propriétés du marqueur"
 #. Programmer's name for it: SAS_STR_EditPoly
 msgid "Edit Polygon"
 msgstr "Propriétés du polygone"
+
+#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#, fuzzy
+msgid "Edit Position"
+msgstr "Propriétés du polygone"
+
+#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#, fuzzy
+msgid "Edit Properties"
+msgstr "Propriétés"
 
 #. frExportToIMG..PageControl1..Map..pnlSasZoom..TBXEdit..TBEdit..Hint
 msgid "Edit SAS Zoom"
@@ -4011,7 +4021,7 @@ msgstr "Ne peut pas accéder à la base de données : %s"
 msgid "Precise cropping by the polygon"
 msgstr ""
 
-#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Hint
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
 msgstr ""
 
@@ -4124,10 +4134,6 @@ msgstr "Projection de la carte"
 #. frProjectionSelect..lblProjection..Caption
 msgid "Projection:"
 msgstr "Projection :"
-
-#. frmMain..MainPopupMenu..tbitmProperties..Caption
-msgid "Properties"
-msgstr "Propriétés"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
 msgid "Provider for Automatic Route Calculation (with Ctrl key)"
@@ -4940,8 +4946,13 @@ msgstr "Attente lors du redémarrage, ms :"
 msgid "Small"
 msgstr "Petite"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Hint
 msgid "Snap to Existing Markers"
+msgstr "Aller vers les marqueurs existants"
+
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Caption
+#, fuzzy
+msgid "Snap to Markers"
 msgstr "Aller vers les marqueurs existants"
 
 #. Programmer's name for it: rsSolstice

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2021-11-28 10:49\n"
-"PO-Revision-Date: 2021-11-28 11:14+0300\n"
+"POT-Creation-Date: 2021-12-09 20:24\n"
+"PO-Revision-Date: 2021-12-09 20:28+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1580,7 +1580,8 @@ msgstr "Удалить тайл слоя"
 msgid "Delete Placemark"
 msgstr "Удалить метку"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathDel..Hint
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
 msgid "Delete Point"
 msgstr "Удалить точку"
 
@@ -1867,7 +1868,6 @@ msgstr "Порядок отрисовки"
 msgid "EarthSlicer cache folder:"
 msgstr "Путь к кэшу EarthSlicer:"
 
-#. frmMain..MainPopupMenu..NMarkEdit..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnEdit..Caption
 #. frmMarkPictureConfig..btnEdit..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
@@ -1907,6 +1907,14 @@ msgstr "Изменить метку"
 #. Programmer's name for it: SAS_STR_EditPoly
 msgid "Edit Polygon"
 msgstr "Изменить полигон"
+
+#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+msgid "Edit Position"
+msgstr "Изменить положение"
+
+#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+msgid "Edit Properties"
+msgstr "Изменить свойства"
 
 #. frExportToIMG..PageControl1..Map..pnlSasZoom..TBXEdit..TBEdit..Hint
 msgid "Edit SAS Zoom"
@@ -3969,7 +3977,7 @@ msgstr "Пул выключен - Невозможно получить db: %s"
 msgid "Precise cropping by the polygon"
 msgstr "Обрезать точно по полигону"
 
-#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Hint
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
 msgstr "Обрезать изображение точно по границам полигона"
 
@@ -4081,10 +4089,6 @@ msgstr "Проекция карты"
 #. frProjectionSelect..lblProjection..Caption
 msgid "Projection:"
 msgstr "Проекция:"
-
-#. frmMain..MainPopupMenu..tbitmProperties..Caption
-msgid "Properties"
-msgstr "Свойства"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
 msgid "Provider for Automatic Route Calculation (with Ctrl key)"
@@ -4896,8 +4900,13 @@ msgstr "Пауза, при обрыве связи, мс"
 msgid "Small"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditMagnetDraw..Hint
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Hint
 msgid "Snap to Existing Markers"
+msgstr "Притягивать точки к существующим маркерам"
+
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Caption
+#, fuzzy
+msgid "Snap to Markers"
 msgstr "Притягивать точки к существующим маркерам"
 
 #. Programmer's name for it: rsSolstice
@@ -5663,7 +5672,7 @@ msgstr "Масштабы:"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
-msgstr "Z-Сортировка"
+msgstr "Z-Сортировка:"
 
 #~ msgid "Navitel"
 #~ msgstr "Навител"
