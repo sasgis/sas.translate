@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2021-12-09 20:24\n"
+"POT-Creation-Date: 2021-12-13 19:00\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -2234,6 +2234,12 @@ msgstr "Фільтр"
 msgid "Filter: \"%s\" (%d)"
 msgstr "Фільтр: \"%s\" (%d)"
 
+#. frmMain..actlstMain..actSelectByGeometryFinish..Caption
+#. frmMain..actlstMain..actSelectByGeometryFinish..Hint
+#, fuzzy
+msgid "Finish selection"
+msgstr "Склеїти виділений фрагмент"
+
 #. Programmer's name for it: SAS_STR_Finished
 msgid "Finished"
 msgstr "Завершено"
@@ -2241,7 +2247,8 @@ msgstr "Завершено"
 msgid "First Quarter"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
+#. frmMain..actlstMain..actLineEditFitToScreen..Caption
+#. frmMain..actlstMain..actLineEditFitToScreen..Hint
 msgid "Fit to screen"
 msgstr "За розміром екрана"
 
@@ -2271,6 +2278,7 @@ msgstr "Автоматично переміщувати карту"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..pnlMarkCaptionFont..lblMarksCaptionFontName..Caption
 msgid "Font"
 msgstr "Шрифт"
 
@@ -2994,10 +3002,6 @@ msgstr "Створити сумісну з TileMill структуру"
 #. frmMain..actlstMain..actFavoriteManage..Caption
 msgid "Manage"
 msgstr "Керування"
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
-msgid "Manage Selection"
-msgstr "Операція з виділеною областю"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbManualProxy..Caption
 msgid "Manual proxy configuration"
@@ -3886,8 +3890,9 @@ msgstr "Управління позначками"
 msgid "Placemark Manager"
 msgstr "Управління позначками"
 
-#. frmMain..actlstMain..actConfigMarksNamesVisible..Caption
-msgid "Placemark Names"
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..Caption
+#, fuzzy
+msgid "Placemark names"
 msgstr "Показувати назви позначок"
 
 #. frMarksGeneralOptions..grpPoint..Caption
@@ -4301,13 +4306,14 @@ msgstr "Залежності:"
 msgid "Reset"
 msgstr "Скинути"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
+#, fuzzy
+msgid "Reset postprocessing settings to defaults"
+msgstr "Налаштувати корегування зображення"
+
 #. frExportToIMG..PageControl1..Map..pnlSasZoom..TBXEdit..TBReset..Hint
 msgid "Reset SAS Zooms"
 msgstr "Скинути масштаби САС"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
-msgid "Reset to default"
-msgstr "Стандартні налаштування"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
@@ -4424,20 +4430,21 @@ msgstr "Активні супутники"
 msgid "Satellites not in range"
 msgstr "Видимі з нульовим сигналом"
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..Hint
+#. frmMain..actlstMain..actMarkSave..Caption
+#. frmMain..actlstMain..actMarkSave..Hint
 msgid "Save"
 msgstr "Зберегти"
 
 msgid "Save (Enter)"
 msgstr "Зберегти (Enter)"
 
-#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
-#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
+#. frmMain..actlstMain..actMarkSaveAsSeparateSegments..Caption
+#. frmMain..actlstMain..actMarkSaveAsSeparateSegments..Hint
 msgid "Save as separate placemarks..."
 msgstr "Зберегти як окремі позначки..."
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
+#. frmMain..actlstMain..actMarkSaveAsNew..Caption
+#. frmMain..actlstMain..actMarkSaveAsNew..Hint
 msgid "Save as..."
 msgstr "Зберегти як..."
 
@@ -4710,9 +4717,16 @@ msgstr "Показує час UTC"
 msgid "Show all placemarks"
 msgstr "Показувати всі позначки"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Hint
-msgid "Show azimuth"
+#. frmMain..actlstMain..actCalcLineShowAzimuth..Caption
+#. frmMain..actlstMain..actCalcLineShowAzimuth..Hint
+#, fuzzy
+msgid "Show azimuth for Distance Calculation"
+msgstr "Виміряти відстань"
+
+#. frmMain..actlstMain..actEditPathShowAzimuth..Caption
+#. frmMain..actlstMain..actEditPathShowAzimuth..Hint
+#, fuzzy
+msgid "Show azimuth for Path Edit"
 msgstr "Показувати азимут"
 
 #. Programmer's name for it: rsShowCurrAzAndAltCaption
@@ -4753,18 +4767,29 @@ msgstr "Показувати GPS трек"
 msgid "Show GPS Track"
 msgstr "Показувати GPS трек"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..CBShowHintOnMarks..Caption
+#, fuzzy
+msgid "Show hints when hovering over placemarks"
+msgstr "Показувати лише зазначені позначки"
+
 #. Programmer's name for it: rsShowDayInfoPanelCaption
 #, fuzzy
 msgid "Show Info Panel"
 msgstr "Показувати завжди"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
+#. frmMain..actlstMain..actCalcLineShowIntermediateDist..Caption
+#. frmMain..actlstMain..actCalcLineShowIntermediateDist..Hint
 #, fuzzy
-msgid "Show intermediate distances"
+msgid "Show intermediate distances for Distance Calculation"
 msgstr "Показує весь пройдений шлях"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkShowLogo..Caption
+#. frmMain..actlstMain..actEditPathShowIntermediateDist..Caption
+#. frmMain..actlstMain..actEditPathShowIntermediateDist..Hint
+#, fuzzy
+msgid "Show intermediate distances for Edit Path"
+msgstr "Показує весь пройдений шлях"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..chkShowLogo..Caption
 msgid "Show Logo on startup"
 msgstr "Показувати логотип підчас старту програми"
 
@@ -4802,6 +4827,16 @@ msgstr "Показувати лише зазначені позначки"
 msgid "Show other Versions"
 msgstr "Показувти інші версії"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarksCaptionVisible..Caption
+#, fuzzy
+msgid "Show placemark names"
+msgstr "Показувати всі позначки"
+
+#. frmMain..actlstMain..actConfigMarksNamesVisible..Caption
+#, fuzzy
+msgid "Show Placemark Names"
+msgstr "Показувати назви позначок"
+
 #. frmMain..MainPopupMenu..Nopendir..Caption
 msgid "Show Primary Map Tile"
 msgstr "Перегляд тайла основної карти"
@@ -4811,10 +4846,16 @@ msgstr "Перегляд тайла основної карти"
 msgid "Show Queue Info"
 msgstr "Показувати чергу завантажень"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Hint
+#. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
+#. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
 #, fuzzy
-msgid "Show the distance increment"
+msgid "Show the distance increment for Distance Calculation"
+msgstr "Показує весь пройдений шлях"
+
+#. frmMain..actlstMain..actEditPathShowDistIncrement..Caption
+#. frmMain..actlstMain..actEditPathShowDistIncrement..Hint
+#, fuzzy
+msgid "Show the distance increment for Path Edit"
 msgstr "Показує весь пройдений шлях"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
@@ -4827,10 +4868,6 @@ msgstr "Показувати шлях до тайлу"
 msgid "Show Time Zone Info"
 msgstr "Показувати часовий пояс"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
-msgid "Show tooltips"
-msgstr "Показувати опис позначки при наведенні курсору"
-
 #. frmMain..actlstMain..actConfigScaleLineExtended..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..chkShowVertScaleLine..Caption
 msgid "Show Vertical Scale Legend"
@@ -4841,8 +4878,16 @@ msgstr "Показувати вертикальну шкалу масштабу"
 msgid "Show Zoom Info"
 msgstr "Показувати зум"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..Hint
-msgid "Show/Hide Captions"
+#. frmMain..actlstMain..actCalcLineLabelVisible..Caption
+#. frmMain..actlstMain..actCalcLineLabelVisible..Hint
+#, fuzzy
+msgid "Show/Hide Captions for Distance Calculation"
+msgstr "Виміряти відстань"
+
+#. frmMain..actlstMain..actEditPathLabelVisible..Caption
+#. frmMain..actlstMain..actEditPathLabelVisible..Hint
+#, fuzzy
+msgid "Show/Hide Captions for Path Edit"
 msgstr "Приховати/Показати підписи"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..chkShowPass..Hint
@@ -4969,6 +5014,11 @@ msgstr "Магнітні маркери"
 msgid "Snap to Markers"
 msgstr "Магнітні маркери"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarkCaptionSolidBg..Caption
+#, fuzzy
+msgid "Solid background color"
+msgstr "Колір тла"
+
 #. Programmer's name for it: rsSolstice
 msgid "Solstice at"
 msgstr "Сонцестояння в"
@@ -5014,7 +5064,8 @@ msgstr "Швидкість"
 msgid "Split image"
 msgstr "Розбити зображення"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathSplit..Hint
+#. frmMain..actlstMain..actLineEditSplitTogle..Caption
+#. frmMain..actlstMain..actLineEditSplitTogle..Hint
 msgid "Split Line"
 msgstr "Розбити лінію"
 
@@ -5385,7 +5436,8 @@ msgstr "Неможливо визначити позицію"
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Неможливо завантажити жодної карти! Преривання..."
 
-#. frmMain..TBDockLeft..TBEditPath..tbxUndoRouteCalc..Hint
+#. frmMain..actlstMain..actEditPathRouteCalcUndo..Caption
+#. frmMain..actlstMain..actEditPathRouteCalcUndo..Hint
 #, fuzzy
 msgid "Undo Route Calculation"
 msgstr "Прокласти маршрут"
@@ -5673,6 +5725,11 @@ msgstr ""
 msgid "Yes"
 msgstr "Так"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
+msgid "You can reset value by right mouse click"
+msgstr ""
+
 #. Programmer's name for it: rsErrorTwoPolygons
 msgid "You must add at least TWO polygons!"
 msgstr "Необхідно додати як мінімум ДВА полігона!"
@@ -5758,6 +5815,15 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Manage Selection"
+#~ msgstr "Операція з виділеною областю"
+
+#~ msgid "Reset to default"
+#~ msgstr "Стандартні налаштування"
+
+#~ msgid "Show tooltips"
+#~ msgstr "Показувати опис позначки при наведенні курсору"
 
 #~ msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
 #~ msgstr "Маршрут для велосипеда (найшвидший) yournavigation.org"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-09 20:24\n"
+"POT-Creation-Date: 2021-12-13 19:00\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -2260,6 +2260,12 @@ msgstr "Filtro"
 msgid "Filter: \"%s\" (%d)"
 msgstr "Filtrar: \"%s\" (%d)"
 
+#. frmMain..actlstMain..actSelectByGeometryFinish..Caption
+#. frmMain..actlstMain..actSelectByGeometryFinish..Hint
+#, fuzzy
+msgid "Finish selection"
+msgstr "Unir Selección"
+
 #. Programmer's name for it: SAS_STR_Finished
 msgid "Finished"
 msgstr "Finalizado"
@@ -2267,7 +2273,8 @@ msgstr "Finalizado"
 msgid "First Quarter"
 msgstr ""
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmFitEditToScreen..Hint
+#. frmMain..actlstMain..actLineEditFitToScreen..Caption
+#. frmMain..actlstMain..actLineEditFitToScreen..Hint
 msgid "Fit to screen"
 msgstr "Ajustar a pantalla"
 
@@ -2297,6 +2304,7 @@ msgstr "Seguir Posición GPS"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..pnlMarkCaptionFont..lblMarksCaptionFontName..Caption
 msgid "Font"
 msgstr "Fuente"
 
@@ -3030,10 +3038,6 @@ msgstr "Hacer estructura compatible TileMill"
 #. frmMain..actlstMain..actFavoriteManage..Caption
 msgid "Manage"
 msgstr "Organizar"
-
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathOk..Hint
-msgid "Manage Selection"
-msgstr "Organizar Selección"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbManualProxy..Caption
 msgid "Manual proxy configuration"
@@ -3932,8 +3936,9 @@ msgstr "Administrador de Posiciones"
 msgid "Placemark Manager"
 msgstr "Administrador de Posiciones"
 
-#. frmMain..actlstMain..actConfigMarksNamesVisible..Caption
-msgid "Placemark Names"
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..Caption
+#, fuzzy
+msgid "Placemark names"
 msgstr "Mostrar nombres en Pantalla"
 
 #. frMarksGeneralOptions..grpPoint..Caption
@@ -4349,13 +4354,14 @@ msgstr "Se requiere:"
 msgid "Reset"
 msgstr "Reiniciar"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
+#, fuzzy
+msgid "Reset postprocessing settings to defaults"
+msgstr "Usar opciones de postprocesamiento"
+
 #. frExportToIMG..PageControl1..Map..pnlSasZoom..TBXEdit..TBReset..Hint
 msgid "Reset SAS Zooms"
 msgstr ""
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
-msgid "Reset to default"
-msgstr "Restablecer a predeterminado"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
@@ -4473,20 +4479,21 @@ msgstr "Satélites en uso"
 msgid "Satellites not in range"
 msgstr "Satélites fuera de rango"
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..Hint
+#. frmMain..actlstMain..actMarkSave..Caption
+#. frmMain..actlstMain..actMarkSave..Hint
 msgid "Save"
 msgstr "Guardar"
 
 msgid "Save (Enter)"
 msgstr "Guardar (Enter)"
 
-#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Caption
-#. frmMain..TBDockLeft..TBEditPath..tbxtmSaveMarkAsSeparateSegment..Hint
+#. frmMain..actlstMain..actMarkSaveAsSeparateSegments..Caption
+#. frmMain..actlstMain..actMarkSaveAsSeparateSegments..Hint
 msgid "Save as separate placemarks..."
 msgstr "Guardar como marcas de posición por separado..."
 
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Caption
-#. frmMain..TBDockLeft..TBEditPath..tbitmSaveMark..tbitmSaveMarkAsNew..Hint
+#. frmMain..actlstMain..actMarkSaveAsNew..Caption
+#. frmMain..actlstMain..actMarkSaveAsNew..Hint
 msgid "Save as..."
 msgstr "Guardar como..."
 
@@ -4759,9 +4766,16 @@ msgstr "Muestra hora UTC"
 msgid "Show all placemarks"
 msgstr "Mostrar todas las posiciones"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowAzimuth..Hint
-msgid "Show azimuth"
+#. frmMain..actlstMain..actCalcLineShowAzimuth..Caption
+#. frmMain..actlstMain..actCalcLineShowAzimuth..Hint
+#, fuzzy
+msgid "Show azimuth for Distance Calculation"
+msgstr "Medir Distancia"
+
+#. frmMain..actlstMain..actEditPathShowAzimuth..Caption
+#. frmMain..actlstMain..actEditPathShowAzimuth..Hint
+#, fuzzy
+msgid "Show azimuth for Path Edit"
 msgstr "Mostrar Azimut"
 
 #. Programmer's name for it: rsShowCurrAzAndAltCaption
@@ -4803,18 +4817,29 @@ msgstr "Mostrar ruta GPS"
 msgid "Show GPS Track"
 msgstr "Mostrar Ruta GPS"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..CBShowHintOnMarks..Caption
+#, fuzzy
+msgid "Show hints when hovering over placemarks"
+msgstr "Mostrar solo posiciones seleccionadas"
+
 #. Programmer's name for it: rsShowDayInfoPanelCaption
 #, fuzzy
 msgid "Show Info Panel"
 msgstr "Mostrar para..."
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowIntermediateDist..Hint
+#. frmMain..actlstMain..actCalcLineShowIntermediateDist..Caption
+#. frmMain..actlstMain..actCalcLineShowIntermediateDist..Hint
 #, fuzzy
-msgid "Show intermediate distances"
+msgid "Show intermediate distances for Distance Calculation"
 msgstr "Muestra la distancia total"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkShowLogo..Caption
+#. frmMain..actlstMain..actEditPathShowIntermediateDist..Caption
+#. frmMain..actlstMain..actEditPathShowIntermediateDist..Hint
+#, fuzzy
+msgid "Show intermediate distances for Edit Path"
+msgstr "Muestra la distancia total"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..chkShowLogo..Caption
 msgid "Show Logo on startup"
 msgstr "Mostrar Logo al iniciar"
 
@@ -4853,6 +4878,16 @@ msgstr "Mostrar solo posiciones seleccionadas"
 msgid "Show other Versions"
 msgstr "Mostrar versión previa"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarksCaptionVisible..Caption
+#, fuzzy
+msgid "Show placemark names"
+msgstr "Mostrar todas las posiciones"
+
+#. frmMain..actlstMain..actConfigMarksNamesVisible..Caption
+#, fuzzy
+msgid "Show Placemark Names"
+msgstr "Mostrar nombres en Pantalla"
+
 #. frmMain..MainPopupMenu..Nopendir..Caption
 msgid "Show Primary Map Tile"
 msgstr "Mostrar Mosaico del Mapa"
@@ -4862,10 +4897,16 @@ msgstr "Mostrar Mosaico del Mapa"
 msgid "Show Queue Info"
 msgstr "Mostrar Info de Cola"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Caption
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..tbxShowDistIncrement..Hint
+#. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
+#. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
 #, fuzzy
-msgid "Show the distance increment"
+msgid "Show the distance increment for Distance Calculation"
+msgstr "Muestra la distancia total"
+
+#. frmMain..actlstMain..actEditPathShowDistIncrement..Caption
+#. frmMain..actlstMain..actEditPathShowDistIncrement..Hint
+#, fuzzy
+msgid "Show the distance increment for Path Edit"
 msgstr "Muestra la distancia total"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
@@ -4878,10 +4919,6 @@ msgstr "Mostrar dirección del Mosaico"
 msgid "Show Time Zone Info"
 msgstr "Mostrar Zona horaria"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowHintOnMarks..Caption
-msgid "Show tooltips"
-msgstr "Mostrar Tips de herramientas"
-
 #. frmMain..actlstMain..actConfigScaleLineExtended..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..chkShowVertScaleLine..Caption
 msgid "Show Vertical Scale Legend"
@@ -4892,8 +4929,16 @@ msgstr "Mostrar Escala Vertical"
 msgid "Show Zoom Info"
 msgstr "Mostrar Nivel de Zoom"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathLabelVisible..Hint
-msgid "Show/Hide Captions"
+#. frmMain..actlstMain..actCalcLineLabelVisible..Caption
+#. frmMain..actlstMain..actCalcLineLabelVisible..Hint
+#, fuzzy
+msgid "Show/Hide Captions for Distance Calculation"
+msgstr "Medir Distancia"
+
+#. frmMain..actlstMain..actEditPathLabelVisible..Caption
+#. frmMain..actlstMain..actEditPathLabelVisible..Hint
+#, fuzzy
+msgid "Show/Hide Captions for Path Edit"
 msgstr "Mostrar/Ocultar Mayúsculas"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..chkShowPass..Hint
@@ -5020,6 +5065,11 @@ msgstr "Ajustar a marcadores existentes"
 msgid "Snap to Markers"
 msgstr "Ajustar a marcadores existentes"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarkCaptionSolidBg..Caption
+#, fuzzy
+msgid "Solid background color"
+msgstr "Color de fondo"
+
 #. Programmer's name for it: rsSolstice
 msgid "Solstice at"
 msgstr ""
@@ -5065,7 +5115,8 @@ msgstr "Velocidad"
 msgid "Split image"
 msgstr "Separar imagen"
 
-#. frmMain..TBDockLeft..TBEditPath..TBEditPathSplit..Hint
+#. frmMain..actlstMain..actLineEditSplitTogle..Caption
+#. frmMain..actlstMain..actLineEditSplitTogle..Hint
 msgid "Split Line"
 msgstr "Linea divisoria"
 
@@ -5439,7 +5490,8 @@ msgstr "Imposible fijar Posición"
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Imposible cargar mapas(s)! Cancelando..."
 
-#. frmMain..TBDockLeft..TBEditPath..tbxUndoRouteCalc..Hint
+#. frmMain..actlstMain..actEditPathRouteCalcUndo..Caption
+#. frmMain..actlstMain..actEditPathRouteCalcUndo..Hint
 #, fuzzy
 msgid "Undo Route Calculation"
 msgstr "Cálculo de Ruta"
@@ -5729,6 +5781,11 @@ msgstr ""
 msgid "Yes"
 msgstr "Si"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
+msgid "You can reset value by right mouse click"
+msgstr ""
+
 #. Programmer's name for it: rsErrorTwoPolygons
 msgid "You must add at least TWO polygons!"
 msgstr "¡Debe agregar al menos dos polígonos!"
@@ -5814,6 +5871,15 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Manage Selection"
+#~ msgstr "Organizar Selección"
+
+#~ msgid "Reset to default"
+#~ msgstr "Restablecer a predeterminado"
+
+#~ msgid "Show tooltips"
+#~ msgstr "Mostrar Tips de herramientas"
 
 #~ msgid "Detalize route by bicycle (Fastest) with yournavigation.org"
 #~ msgstr "Optimizar ruta por bicicleta (más rápida) con yournavigation.org"
