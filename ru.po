@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2021-12-13 19:00\n"
-"PO-Revision-Date: 2021-12-13 19:19+0300\n"
+"POT-Creation-Date: 2021-12-18 15:17\n"
+"PO-Revision-Date: 2021-12-18 15:17+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -653,6 +653,8 @@ msgid "Any Available Source"
 msgstr "Все доступные источники"
 
 #. frmArchiverSettings..pnlBottom..btnApply..Caption
+#. frmMain..actlstMain..actSelectByGeometryFinish..Caption
+#. frmMain..actlstMain..actSelectByGeometryFinish..Hint
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
@@ -2200,12 +2202,6 @@ msgstr "Фильтр"
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
 msgstr "Фильтр: \"%s\" (%d)"
-
-#. frmMain..actlstMain..actSelectByGeometryFinish..Caption
-#. frmMain..actlstMain..actSelectByGeometryFinish..Hint
-#, fuzzy
-msgid "Finish selection"
-msgstr "Склеить выделенный фрагмент"
 
 #. Programmer's name for it: SAS_STR_Finished
 msgid "Finished"
@@ -4661,14 +4657,9 @@ msgstr "Показывать все метки"
 
 #. frmMain..actlstMain..actCalcLineShowAzimuth..Caption
 #. frmMain..actlstMain..actCalcLineShowAzimuth..Hint
-#, fuzzy
-msgid "Show azimuth for Distance Calculation"
-msgstr "Измерить расстояние"
-
 #. frmMain..actlstMain..actEditPathShowAzimuth..Caption
 #. frmMain..actlstMain..actEditPathShowAzimuth..Hint
-#, fuzzy
-msgid "Show azimuth for Path Edit"
+msgid "Show azimuth"
 msgstr "Отображать азимут"
 
 #. Programmer's name for it: rsShowCurrAzAndAltCaption
@@ -4719,14 +4710,9 @@ msgstr "Отображать инф. панель"
 
 #. frmMain..actlstMain..actCalcLineShowIntermediateDist..Caption
 #. frmMain..actlstMain..actCalcLineShowIntermediateDist..Hint
-#, fuzzy
-msgid "Show intermediate distances for Distance Calculation"
-msgstr "Отображать промежуточные расстояния"
-
 #. frmMain..actlstMain..actEditPathShowIntermediateDist..Caption
 #. frmMain..actlstMain..actEditPathShowIntermediateDist..Hint
-#, fuzzy
-msgid "Show intermediate distances for Edit Path"
+msgid "Show intermediate distances"
 msgstr "Отображать промежуточные расстояния"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..chkShowLogo..Caption
@@ -4786,14 +4772,9 @@ msgstr "Отображать очередь закачки"
 
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
-#, fuzzy
-msgid "Show the distance increment for Distance Calculation"
-msgstr "Отображать увеличение расстояния"
-
 #. frmMain..actlstMain..actEditPathShowDistIncrement..Caption
 #. frmMain..actlstMain..actEditPathShowDistIncrement..Hint
-#, fuzzy
-msgid "Show the distance increment for Path Edit"
+msgid "Show the distance increment"
 msgstr "Отображать увеличение расстояния"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
@@ -4818,14 +4799,9 @@ msgstr "Отображать зум"
 
 #. frmMain..actlstMain..actCalcLineLabelVisible..Caption
 #. frmMain..actlstMain..actCalcLineLabelVisible..Hint
-#, fuzzy
-msgid "Show/Hide Captions for Distance Calculation"
-msgstr "Измерить расстояние"
-
 #. frmMain..actlstMain..actEditPathLabelVisible..Caption
 #. frmMain..actlstMain..actEditPathLabelVisible..Hint
-#, fuzzy
-msgid "Show/Hide Captions for Path Edit"
+msgid "Show/Hide Captions"
 msgstr "Показать/Скрыть подписи"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..chkShowPass..Hint

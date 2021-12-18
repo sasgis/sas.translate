@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-13 19:00\n"
-"PO-Revision-Date: 2021-12-13 19:00\n"
+"POT-Creation-Date: 2021-12-18 15:17\n"
+"PO-Revision-Date: 2021-12-18 15:17\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -654,6 +654,8 @@ msgid "Any Available Source"
 msgstr ""
 
 #. frmArchiverSettings..pnlBottom..btnApply..Caption
+#. frmMain..actlstMain..actSelectByGeometryFinish..Caption
+#. frmMain..actlstMain..actSelectByGeometryFinish..Hint
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
@@ -2252,11 +2254,6 @@ msgstr ""
 
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
-msgstr ""
-
-#. frmMain..actlstMain..actSelectByGeometryFinish..Caption
-#. frmMain..actlstMain..actSelectByGeometryFinish..Hint
-msgid "Finish selection"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_Finished
@@ -4738,12 +4735,9 @@ msgstr ""
 
 #. frmMain..actlstMain..actCalcLineShowAzimuth..Caption
 #. frmMain..actlstMain..actCalcLineShowAzimuth..Hint
-msgid "Show azimuth for Distance Calculation"
-msgstr ""
-
 #. frmMain..actlstMain..actEditPathShowAzimuth..Caption
 #. frmMain..actlstMain..actEditPathShowAzimuth..Hint
-msgid "Show azimuth for Path Edit"
+msgid "Show azimuth"
 msgstr ""
 
 #. Programmer's name for it: rsShowCurrAzAndAltCaption
@@ -4796,16 +4790,9 @@ msgstr ""
 
 #. frmMain..actlstMain..actCalcLineShowIntermediateDist..Caption
 #. frmMain..actlstMain..actCalcLineShowIntermediateDist..Hint
-msgid ""
-"Show intermediate distances for Distance "
-"Calculation"
-msgstr ""
-
 #. frmMain..actlstMain..actEditPathShowIntermediateDist..Caption
 #. frmMain..actlstMain..actEditPathShowIntermediateDist..Hint
-msgid ""
-"Show intermediate distances for Edit "
-"Path"
+msgid "Show intermediate distances"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..chkShowLogo..Caption
@@ -4865,16 +4852,9 @@ msgstr ""
 
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
-msgid ""
-"Show the distance increment for Distance "
-"Calculation"
-msgstr ""
-
 #. frmMain..actlstMain..actEditPathShowDistIncrement..Caption
 #. frmMain..actlstMain..actEditPathShowDistIncrement..Hint
-msgid ""
-"Show the distance increment for Path "
-"Edit"
+msgid "Show the distance increment"
 msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
@@ -4899,12 +4879,9 @@ msgstr ""
 
 #. frmMain..actlstMain..actCalcLineLabelVisible..Caption
 #. frmMain..actlstMain..actCalcLineLabelVisible..Hint
-msgid "Show/Hide Captions for Distance Calculation"
-msgstr ""
-
 #. frmMain..actlstMain..actEditPathLabelVisible..Caption
 #. frmMain..actlstMain..actEditPathLabelVisible..Hint
-msgid "Show/Hide Captions for Path Edit"
+msgid "Show/Hide Captions"
 msgstr ""
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..chkShowPass..Hint
