@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-18 15:17\n"
-"PO-Revision-Date: 2021-12-18 15:17\n"
+"POT-Creation-Date: 2022-01-07 17:09\n"
+"PO-Revision-Date: 2022-01-07 17:09\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3002,10 +3002,6 @@ msgstr ""
 msgid "Make Polygon"
 msgstr ""
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..TBXMakeRosreestrPolygon..Caption
-msgid "Make Polygon by RosReestr (F8+MLeft)"
-msgstr ""
-
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr ""
@@ -3806,9 +3802,6 @@ msgstr ""
 
 #. frExportToIMG..PageControl1..Settings..pnlCompiler..lblMapCompilerPath..Caption
 msgid "Path to map compiler:"
-msgstr ""
-
-msgid "Path to map scan DB"
 msgstr ""
 
 #. Path tab
@@ -5231,6 +5224,12 @@ msgid ""
 "password."
 msgstr ""
 
+#. Programmer's name for it: rsNoDataRoute
+msgid ""
+"The route cannot be built for the given profile.\n"
+"Not enough data in the database!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr ""
@@ -5268,9 +5267,15 @@ msgstr ""
 msgid "There is an error %1:s in map %0:s"
 msgstr ""
 
-#. Programmer's name for it: rsNoDataInDatabase
+#. Programmer's name for it: rsNoDataStart
 msgid ""
-"There is no data in database for this "
+"There is no data in database for start "
+"location!"
+msgstr ""
+
+#. Programmer's name for it: rsNoDataTarget
+msgid ""
+"There is no data in database for target "
 "location!"
 msgstr ""
 

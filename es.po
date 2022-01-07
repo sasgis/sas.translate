@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-18 15:17\n"
+"POT-Creation-Date: 2022-01-07 17:09\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -3019,10 +3019,6 @@ msgstr "Hacer por marca de posición"
 msgid "Make Polygon"
 msgstr "Crear Polígono"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..TBXMakeRosreestrPolygon..Caption
-msgid "Make Polygon by RosReestr (F8+MLeft)"
-msgstr "Crear Polígono por RosReestr (F8+MLeft)"
-
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr "Crear sub carpeta con nombre igual a ruta del mapa"
@@ -3833,9 +3829,6 @@ msgstr "Carpeta de Iconos"
 #, fuzzy
 msgid "Path to map compiler:"
 msgstr "Carpeta de Iconos"
-
-msgid "Path to map scan DB"
-msgstr "Carpeta Map Scan DB"
 
 #. Path tab
 msgid "Path to Maps"
@@ -5280,6 +5273,12 @@ msgstr ""
 msgid "The proxy server %s is requesting a username and password."
 msgstr ""
 
+#. Programmer's name for it: rsNoDataRoute
+msgid ""
+"The route cannot be built for the given profile.\n"
+"Not enough data in the database!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "¡La tarea está completada!"
@@ -5309,8 +5308,12 @@ msgstr "No hay objetos disponibles en el pool"
 msgid "There is an error %1:s in map %0:s"
 msgstr "Hay un error %1:s en mapa %0:s"
 
-#. Programmer's name for it: rsNoDataInDatabase
-msgid "There is no data in database for this location!"
+#. Programmer's name for it: rsNoDataStart
+msgid "There is no data in database for start location!"
+msgstr ""
+
+#. Programmer's name for it: rsNoDataTarget
+msgid "There is no data in database for target location!"
 msgstr ""
 
 #, fuzzy
@@ -5851,6 +5854,12 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Make Polygon by RosReestr (F8+MLeft)"
+#~ msgstr "Crear Polígono por RosReestr (F8+MLeft)"
+
+#~ msgid "Path to map scan DB"
+#~ msgstr "Carpeta Map Scan DB"
 
 #~ msgid "Manage Selection"
 #~ msgstr "Organizar Selección"

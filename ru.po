@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2021-12-18 15:17\n"
-"PO-Revision-Date: 2021-12-18 15:17+0300\n"
+"POT-Creation-Date: 2022-01-07 17:09\n"
+"PO-Revision-Date: 2022-01-07 17:11+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -2948,10 +2948,6 @@ msgstr "Создать из метки"
 msgid "Make Polygon"
 msgstr "Создать полигон"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..TBXMakeRosreestrPolygon..Caption
-msgid "Make Polygon by RosReestr (F8+MLeft)"
-msgstr "Создать полигон согласно РосРеестру (F8+MLeft)"
-
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr "Раскладывать по подпапкам, соответствующим именам карты"
@@ -3735,9 +3731,6 @@ msgstr "Путь до лицензии компилятора карт:"
 #. frExportToIMG..PageControl1..Settings..pnlCompiler..lblMapCompilerPath..Caption
 msgid "Path to map compiler:"
 msgstr "Путь до компилятора карт:"
-
-msgid "Path to map scan DB"
-msgstr "Путь к базе доступных снимков"
 
 #. Path tab
 msgid "Path to Maps"
@@ -5152,6 +5145,14 @@ msgstr ""
 msgid "The proxy server %s is requesting a username and password."
 msgstr "Прокси сервер %s запрашивает логин и пароль."
 
+#. Programmer's name for it: rsNoDataRoute
+msgid ""
+"The route cannot be built for the given profile.\n"
+"Not enough data in the database!"
+msgstr ""
+"Маршрут не может быть построен для данного профиля.\n"
+"Недостаточно данных в БД!"
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "Обработка файлов завершена!"
@@ -5181,9 +5182,13 @@ msgstr "Нет доступных объектов в пуле!"
 msgid "There is an error %1:s in map %0:s"
 msgstr "В карте %0:s ошибка: %1:s"
 
-#. Programmer's name for it: rsNoDataInDatabase
-msgid "There is no data in database for this location!"
-msgstr "В БД нет данных для этого местоположения!"
+#. Programmer's name for it: rsNoDataStart
+msgid "There is no data in database for start location!"
+msgstr "В БД нет данных для начального местоположения!"
+
+#. Programmer's name for it: rsNoDataTarget
+msgid "There is no data in database for target location!"
+msgstr "В БД нет данных для конечного местоположения!"
 
 msgid "There is no supported maps"
 msgstr "Нет поддерживаемых карт"
@@ -5701,6 +5706,12 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
+
+#~ msgid "Make Polygon by RosReestr (F8+MLeft)"
+#~ msgstr "Создать полигон согласно РосРеестру (F8+MLeft)"
+
+#~ msgid "Path to map scan DB"
+#~ msgstr "Путь к базе доступных снимков"
 
 #~ msgid "Navitel"
 #~ msgstr "Навител"

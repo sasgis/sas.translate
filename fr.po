@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-12-18 15:17\n"
+"POT-Creation-Date: 2022-01-07 17:09\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -2986,10 +2986,6 @@ msgstr "Créer un marqueur"
 msgid "Make Polygon"
 msgstr "Ajouter un polygone"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..TBXMakeRosreestrPolygon..Caption
-msgid "Make Polygon by RosReestr (F8+MLeft)"
-msgstr "Ajouter un polygone suivant RosReestr (F8+Clic)"
-
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr ""
@@ -3778,9 +3774,6 @@ msgstr "Répertoire de la licence du compileur de cartes :"
 #. frExportToIMG..PageControl1..Settings..pnlCompiler..lblMapCompilerPath..Caption
 msgid "Path to map compiler:"
 msgstr "Répertoire du compileur de cartes :"
-
-msgid "Path to map scan DB"
-msgstr "Répertoire des fichiers d'images :"
 
 #. Path tab
 msgid "Path to Maps"
@@ -5210,6 +5203,12 @@ msgstr ""
 msgid "The proxy server %s is requesting a username and password."
 msgstr "Le serveur proxy %s demande un nom d'utilisateur et un mot de passe."
 
+#. Programmer's name for it: rsNoDataRoute
+msgid ""
+"The route cannot be built for the given profile.\n"
+"Not enough data in the database!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "La tâche est terminée !"
@@ -5239,8 +5238,12 @@ msgstr "Il n'y a pas d'objets disponibles dans le lot !"
 msgid "There is an error %1:s in map %0:s"
 msgstr "Il y a une erreur %1:s dans la carte %0:s"
 
-#. Programmer's name for it: rsNoDataInDatabase
-msgid "There is no data in database for this location!"
+#. Programmer's name for it: rsNoDataStart
+msgid "There is no data in database for start location!"
+msgstr ""
+
+#. Programmer's name for it: rsNoDataTarget
+msgid "There is no data in database for target location!"
 msgstr ""
 
 msgid "There is no supported maps"
@@ -5769,6 +5772,12 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Make Polygon by RosReestr (F8+MLeft)"
+#~ msgstr "Ajouter un polygone suivant RosReestr (F8+Clic)"
+
+#~ msgid "Path to map scan DB"
+#~ msgstr "Répertoire des fichiers d'images :"
 
 #~ msgid "Manage Selection"
 #~ msgstr "Gestion de la sélection"
