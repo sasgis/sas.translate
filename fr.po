@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-01-11 14:49\n"
+"POT-Creation-Date: 2022-03-01 15:13\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -768,6 +768,11 @@ msgstr "Surface : %s"
 msgid "Arrow color:"
 msgstr "Couleur de flèche :"
 
+#. Programmer's name for it: rsElevationProfileElevAscentFmt
+#, object-pascal-format
+msgid "Ascent: %d m"
+msgstr ""
+
 #. Programmer's name for it: rsAstroEnd
 msgid "Astro. twilight end"
 msgstr "Crépuscule astronomique"
@@ -1154,6 +1159,10 @@ msgstr "Catégorie :"
 #, object-pascal-format
 msgid "Category: %s"
 msgstr "Catégorie : %s"
+
+#. frElevationProfile..pmMain..mniCenterMap..Caption
+msgid "Center Map"
+msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With &Zoom"
@@ -1655,6 +1664,11 @@ msgstr "En train de supprimer"
 msgid "Deleting:"
 msgstr "En train de supprimer :"
 
+#. Programmer's name for it: rsElevationProfileElevDescentFmt
+#, object-pascal-format
+msgid "Descent: %d m"
+msgstr ""
+
 #. frmDGAvailablePic..gbImageParams..Caption
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
@@ -1771,6 +1785,19 @@ msgstr "Distance, m"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistCaption
 msgid "Distance:"
 msgstr "Distance :"
+
+#. Programmer's name for it: rsElevationProfileDistFmt
+#, fuzzy, object-pascal-format
+msgid "Distance: %.2f %s"
+msgstr "Distance :"
+
+#, fuzzy, no-object-pascal-format
+msgid "Distance: %.2f km"
+msgstr "Distance #2, km :"
+
+#, fuzzy, no-object-pascal-format
+msgid "Distance: %.2f m"
+msgstr "Distance #2, km :"
 
 #. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
@@ -1974,6 +2001,20 @@ msgstr "Temps passé : %s"
 #. frmMapLayersOptions..pgcOptions..tsElevation..Caption
 msgid "Elevation Info"
 msgstr "Altitude"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
+#, fuzzy
+msgid "Elevation Profile"
+msgstr "Altitude"
+
+#, fuzzy, no-object-pascal-format
+msgid "Elevation: %.2f m"
+msgstr "Altitude"
+
+#. Programmer's name for it: rsElevationProfileElevFmt
+#, object-pascal-format
+msgid "Elevation: %d, %d, %d m"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -2239,6 +2280,11 @@ msgstr "Remplir les dates"
 
 #. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
 msgid "Filter"
+msgstr "Filtrer"
+
+#. frElevationProfile..pmMain..mniFilterData..Caption
+#, fuzzy
+msgid "Filter Data"
 msgstr "Filtrer"
 
 #, object-pascal-format
@@ -4299,6 +4345,11 @@ msgstr "Utiliser les paramètres de post-traitement"
 msgid "Reset SAS Zooms"
 msgstr "Redémarrer les zooms de SAS"
 
+#. frElevationProfile..pmMain..mniResetZoom..Caption
+#, fuzzy
+msgid "Reset Zoom"
+msgstr "Redémarrer les zooms de SAS"
+
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
 msgstr "Redimensionner l'algorithme :"
@@ -4716,6 +4767,11 @@ msgstr "Afficher l'altitude courante et l'azimut"
 msgid "Show Download Info"
 msgstr "Afficher ce qui a été téléchargé"
 
+#. frElevationProfile..pmMain..mniShowElevation..Caption
+#, fuzzy
+msgid "Show Elevation"
+msgstr "Afficher l'altitude"
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarElevation..Caption
 #. Programmer's name for it: rsShowElevationInfo
 msgid "Show Elevation Info"
@@ -4728,6 +4784,11 @@ msgstr "Afficher l'altitude depuis n'importe quelle source disponible"
 #. frmMapLayersOptions..pgcOptions..tsElevation..chkElevShowInStatusBar..Caption
 msgid "Show Elevation Info In Status Bar"
 msgstr "Afficher l'altitude dans la barre d'état"
+
+#. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#, fuzzy
+msgid "Show Elevation Profile"
+msgstr "Afficher l'altitude"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Show for All"
@@ -4819,6 +4880,11 @@ msgstr ""
 #. Programmer's name for it: rsShowQueueInfo
 msgid "Show Queue Info"
 msgstr "Afficher ce qui reste à télécharger"
+
+#. frElevationProfile..pmMain..mniShowSpeed..Caption
+#, fuzzy
+msgid "Show Speed"
+msgstr "Vitesse"
 
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
@@ -5023,6 +5089,15 @@ msgstr "Sources :"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedMenuItemName
 msgid "Speed"
 msgstr "Vitesse"
+
+#, no-object-pascal-format
+msgid "Speed: %.2f km/h"
+msgstr ""
+
+#. Programmer's name for it: rsElevationProfileSpeedFmt
+#, no-object-pascal-format
+msgid "Speed: %.2f, %.2f, %.2f km/h"
+msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
@@ -5354,6 +5429,11 @@ msgstr "Temps restant (estimé) :"
 #. Programmer's name for it: SAS_STR_Marshtime
 msgid "Time to reach:"
 msgstr "Temps de trajet :"
+
+#. Programmer's name for it: rsElevationProfileTimeFmt
+#, fuzzy, object-pascal-format
+msgid "Time: %s"
+msgstr "Nom : %s"
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
 msgid "to"
