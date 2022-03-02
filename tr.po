@@ -1,0 +1,5821 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-03-01 15:28\n"
+"PO-Revision-Date: 2022-03-02 23:10+0300\n"
+"Last-Translator: Bekir UÇARCI <bekirucarci@gmail.com>\n"
+"Language-Team: bekirucarci@gmail.com\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
+msgid " Coordinates "
+msgstr " Koordinatlar "
+
+msgid "-- deg. (-12.12345678)"
+msgstr "-- der. (-12.12345678)"
+
+msgid "-- deg. (-12.12345678°)"
+msgstr "-- der. (-12.12345678°)"
+
+msgid "-- deg.min. (-12°12.1234')"
+msgstr "-- der.dak. (-12°12.1234')"
+
+msgid "-- deg.min.sec. (-12°12'12.1234\")"
+msgstr "-- der.dak.san. (-12°12'12.1234\")"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale..Caption
+msgid " Icon Scale "
+msgstr " Simge Ölçeği "
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
+msgid " RosCosmos "
+msgstr " RosCosmos "
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting..Caption
+msgid " Sorting "
+msgstr " Sıralama "
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
+msgid " Storage "
+msgstr " Depolama "
+
+#. frmMain..TBDock..FillDates..Label2..Caption
+msgid " To "
+msgstr " buraya "
+
+#. Programmer's name for it: SAS_STR_ExtendedMultiPathCaption
+#, object-pascal-format
+msgid "%0:s (MultiPath %d)"
+msgstr "%0:s (Çoklu-Güzergah %d)"
+
+#. Programmer's name for it: SAS_STR_ExtendedMultiPointCaption
+#, object-pascal-format
+msgid "%0:s (MultiPlacemark %d)"
+msgstr "%0:s (Çoklu-Yer-işareti %d)"
+
+#. Programmer's name for it: SAS_STR_ExtendedMultiPolygonCaption
+#, object-pascal-format
+msgid "%0:s (MultiPolygon %d)"
+msgstr "%0:s (Çoklu-Çokgen %d)"
+
+#. Programmer's name for it: SAS_STR_ExtendedPathCaption
+#, no-object-pascal-format
+msgid "%0:s (Path)"
+msgstr "%0:s (Dosya yolu)"
+
+#. Programmer's name for it: SAS_STR_ExtendedPointCaption
+#, no-object-pascal-format
+msgid "%0:s (Placemark)"
+msgstr "%0:s (Yer işareti)"
+
+#. Programmer's name for it: SAS_STR_ExtendedPolygonCaption
+#, no-object-pascal-format
+msgid "%0:s (Polygon)"
+msgstr "%0:s (Çokgen)"
+
+#. Programmer's name for it: SAS_STR_DownloadingCaption
+#, no-object-pascal-format
+msgid "%0:s Downloading"
+msgstr "%0:s İndiriliyor"
+
+#. Programmer's name for it: rsDownloadProgressInfo
+#, object-pascal-format
+msgid "%s %.2f of %.2f MB (%.2f%s)"
+msgstr "%s %.2f of %.2f MB (%.2f%s)"
+
+#. Programmer's name for it: rsGeoCoderApiKeyCaptionFmt
+#, object-pascal-format
+msgid "%s API Key:"
+msgstr "%s API Anahtarı:"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+msgid "&Coordinates"
+msgstr "&Koordinatlar"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Caption
+msgid "&Copy to Clipboard"
+msgstr "&Panoya Kopyala"
+
+#. frmMain..TBDock..TBXMainMenu..tbsbmHelp..Caption
+msgid "&Help"
+msgstr "&Yardım"
+
+#. Programmer's name for it: SAS_STR_GoogleSearchLanguage
+msgid "&hl=en"
+msgstr "&hl=tr"
+
+#. frmMain..TBDock..TBXMainMenu..NSMB..Caption
+msgid "&Maps"
+msgstr "&Haritalar"
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..Caption
+msgid "&Operations"
+msgstr "&İşlemler"
+
+#. frmMain..TBDock..TBXMainMenu..NSources..Caption
+msgid "&Source"
+msgstr "&Kaynak"
+
+#. frmMain..TBDock..TBXMainMenu..NView..Caption
+msgid "&View"
+msgstr "&Göster"
+
+#. Programmer's name for it: SAS_ERR_TimeZoneInfoDisabled
+#, object-pascal-format
+msgid "(%s not found!)"
+msgstr "(%s bulunamadı!)"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
+#, no-object-pascal-format
+msgid "(zoom %)"
+msgstr "(yakınlaştırma %)"
+
+#. Programmer's name for it: rsLimitHint
+#, object-pascal-format
+msgid ""
+"* - Limited by max concurrent http(s) requests for current map: %d"
+msgstr ""
+"* - Mevcut harita için maksimum http isteği bu sayı ile sınırlıdır: "
+"%d"
+
+#. Programmer's name for it: SAS_UNITS_mperp
+msgid "/pixel"
+msgstr "/piksel"
+
+#. Programmer's name for it: rsClip
+msgid "[clip]"
+msgstr "[kırp]"
+
+#, object-pascal-format
+msgid ""
+"[JNX] Tile processing error!\n"
+"Tile: X = %d, Y = %d, Z = %d\n"
+"Error: \"%s: %s\"\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"[JNX] Kare işleme hatası!\n"
+"Kare: X = %d, Y = %d, Z = %d\n"
+"Hata: \"%s: %s\"\n"
+"\n"
+"Devam etmek istiyor musunuz?"
+
+#. Programmer's name for it: rsSubject
+msgid "[subject]"
+msgstr "[konu]"
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
+msgid "0..9 max"
+msgstr "0..9 maks"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "1.2km"
+msgstr "1.2km"
+
+#. frmMain..actlstMain..actViewGridGenShtab_1_000_000..Caption
+msgid "1:1 000 000 (10 km)"
+msgstr "1:1 000 000 (10 km)"
+
+#. frmMain..actlstMain..actViewGridGenShtab_10_000..Caption
+msgid "1:10 000 (100 m)"
+msgstr "1:10 000 (100 m)"
+
+#. frmMain..actlstMain..actViewGridGenShtab_100_000..Caption
+msgid "1:100 000 (1 km)"
+msgstr "1:100 000 (1 km)"
+
+#. frmMain..actlstMain..actViewGridGenShtab_2_500..Caption
+msgid "1:2 500 (25 m)"
+msgstr "1:2 500 (25 m)"
+
+#. frmMain..actlstMain..actViewGridGenShtab_200_000..Caption
+msgid "1:200 000 (2 km)"
+msgstr "1:200 000 (2 km)"
+
+#. frmMain..actlstMain..actViewGridGenShtab_25_000..Caption
+msgid "1:25 000 (250 m)"
+msgstr "1:25 000 (250 m)"
+
+#. frmMain..actlstMain..actViewGridGenShtab_5_000..Caption
+msgid "1:5 000 (50 m)"
+msgstr "1:5 000 (50 m)"
+
+#. frmMain..actlstMain..actViewGridGenShtab_50_000..Caption
+msgid "1:50 000 (500 m)"
+msgstr "1:50 000 (500 m)"
+
+#. frmMain..actlstMain..actViewGridGenShtab_500_000..Caption
+msgid "1:500 000 (5 km)"
+msgstr "1:500 000 (5 km)"
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybrCompress..Caption
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSatCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
+msgid "100..1 max"
+msgstr "100..1 maks"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+msgid "12 km 423 m"
+msgstr "12 km 423 m"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+msgid "120..200km"
+msgstr "120..200km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "120km"
+msgstr "120km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "120m"
+msgstr "120m"
+
+#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes..Text
+#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize....Items.Strings
+msgid "128x128 pix"
+msgstr "128x128 px"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "12km"
+msgstr "12km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "12m"
+msgstr "12m"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "2,07 km2"
+msgstr "2,07 km2"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+msgid "2..3km"
+msgstr "2..3km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "200km"
+msgstr "200km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "200m"
+msgstr "200m"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "206,63 ha"
+msgstr "206,63 ha"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "2066339 m2"
+msgstr "2066339 m2"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "20km"
+msgstr "20km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "20m"
+msgstr "20m"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+msgid "23.4 km"
+msgstr "23.4 km"
+
+#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize....Items.Strings
+msgid "256x256 pix"
+msgstr "256x256 px"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "2km"
+msgstr "2km"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+msgid "30..50km"
+msgstr "30..50km"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "300km"
+msgstr "300km"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "300m"
+msgstr "300m"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "30km"
+msgstr "30km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "30m"
+msgstr "30m"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "3km"
+msgstr "3km"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+msgid "5..200m"
+msgstr "5..200m"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+msgid "500..800km"
+msgstr "500..800km"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+msgid "500..800m"
+msgstr "500..800m"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "500km"
+msgstr "500km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "500m"
+msgstr "500m"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "50km"
+msgstr "50km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "50m"
+msgstr "50m"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "5km"
+msgstr "5km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "5m"
+msgstr "5m"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+msgid "8..12km"
+msgstr "8..12km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "800km"
+msgstr "800km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "800m"
+msgstr "800m"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "80km"
+msgstr "80km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "80m"
+msgstr "80m"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "8km"
+msgstr "8km"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
+msgid "8m"
+msgstr "8m"
+
+#. frmMergePolygonsProgress..btnAbort..Caption
+msgid "Abort"
+msgstr "İptal et"
+
+#. frmMain..actlstMain..actHelpShowAbout..Caption
+#. frmAbout..Caption
+msgid "About"
+msgstr "Hakkında"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+msgid "Absolute"
+msgstr "Mutlak"
+
+msgid "Access is denied"
+msgstr "Erişim reddedildi"
+
+#. frMapSelect..FilterPopupMenu..TBX_Active..Caption
+msgid "Active"
+msgstr "Aktif"
+
+#, object-pascal-format
+msgid "Active Layers (%d)"
+msgstr "Aktif Katmanlar (%d)"
+
+#, object-pascal-format
+msgid "Active Maps (%d)"
+msgstr "Aktif Haritalar (%d)"
+
+#, object-pascal-format
+msgid "Active Maps + Layers (%d)"
+msgstr "Aktif Haritalar + Katmanlar (%d)"
+
+#. frmMain..actlstMain..actFavoriteAdd..Caption
+#. frFavoriteMapSetManager..pnlRightButtons..btnAdd..Caption
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Hint
+msgid "Add"
+msgstr "Ekle"
+
+#. frmMarksExplorer..TBXToolbar3..tbxAdd..Caption
+msgid "Add a database"
+msgstr "Veritabanı ekle"
+
+msgid "Add Category"
+msgstr "Kategori Ekle"
+
+#. frExportToIMG..PageControl1..Map..pnlListMaps..pnlButtons..btnAddLayer..Hint
+msgid "Add map layer"
+msgstr "Harita katmanı ekle"
+
+#. frmMarkSystemConfigEdit..Caption
+msgid "Add Marks Database"
+msgstr "İşaretler Veritabanına Ekle"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..chkBoxSeparator..Caption
+msgid "Add menu separator line after this map"
+msgstr "Bu haritadan sonra menü ayırıcı satırı ekle"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
+msgid "Add new category"
+msgstr "Yeni kategori ekle"
+
+#. frmMarkCategoryEdit..Caption
+#. Programmer's name for it: SAS_STR_AddNewCategory
+msgid "Add New Category"
+msgstr "Yeni Kategori Ekle"
+
+#. frmMain..actlstMain..actMarksAddLine..Hint
+msgid "Add new path"
+msgstr "Yeni güzergah ekle"
+
+#. frmMarkEditPath..Caption
+#. Programmer's name for it: SAS_STR_AddNewPath
+msgid "Add New Path"
+msgstr "Yeni Güzergah Ekle"
+
+#. frmMain..actlstMain..actMarksAddPoint..Hint
+msgid "Add new placemark"
+msgstr "Yeni yer işareti ekle"
+
+#. frmMarkEditPoint..Caption
+#. Programmer's name for it: SAS_STR_AddNewMark
+msgid "Add New Placemark"
+msgstr "Yeni Yer İşareti Ekle"
+
+#. frmMarkEditPoly..Caption
+#. Programmer's name for it: SAS_STR_AddNewPoly
+msgid "Add New Polygon"
+msgstr "Yeni Çokgen Ekle"
+
+#. frmMain..actlstMain..actMarksAddLine..Caption
+msgid "Add Path"
+msgstr "Güzergah ekle"
+
+#. frmMain..MainPopupMenu..NaddPoint..Caption
+#. frmMain..actlstMain..actMarksAddPoint..Caption
+#. frmMain..actlstMain..actGpsMarkPointAdd..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
+msgid "Add Placemark"
+msgstr "Yer İşareti Ekle"
+
+#. frmMain..actlstMain..actMarksAddPolygon..Hint
+msgid "Add polygon"
+msgstr "Çokgen ekle"
+
+#. frmMain..actlstMain..actMarksAddPolygon..Caption
+msgid "Add Polygon"
+msgstr "Çokgen Ekle"
+
+#. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
+msgid "Add SubCategory"
+msgstr "Alt-Kategori Ekle"
+
+#. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
+msgid "Add tiles to database"
+msgstr "Kareleri veritabanına ekle"
+
+msgid "Add to Favorites"
+msgstr "Favorilere Ekle"
+
+#. frmMarksExplorer..tbpmnCategories..tbxtmCatAddToMergePolygons..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxtmAddToMergePolygons..Caption
+msgid "Add to Merge Polygons"
+msgstr "Çokgenleri Birlşetir'e Ekle"
+
+#. frmMain..MainPopupMenu..tbxtmAddToMergePolygons..Caption
+msgid "Add to Merge Polygons (Ctrl+MLeft)"
+msgstr "Çokgenleri Birlşetir'e Ekle (Ctrl+MLeft)"
+
+#. frmMain..actlstMain..actGpsTrackSaveToDb..Caption
+msgid "Add Track to Database"
+msgstr "GPS İzlerini Veritabanına Ekle"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkUseFillingMap..Caption
+msgid "Add visible Cached Tiles Map"
+msgstr "Görülebilir Önbelleğe Alınmış Kare Haritası Ekle"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkUseMapGrids..Caption
+msgid "Add visible Grids"
+msgstr "Görülebilir grid ekle"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+msgid "Add visible Layers"
+msgstr "Görülebilir katmanlar ekle"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
+msgid "Add visible placemarks"
+msgstr "Görülebilir yer işareti ekle"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
+msgid "Add visible Placemarks"
+msgstr "Görülebilir yer işareti ekle"
+
+#. frExportToJNX..PageControl1..Info..Caption
+msgid "Additional"
+msgstr "Ek"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..Caption
+msgid "Additional Operations"
+msgstr "Ek İşlemler"
+
+#. frmFavoriteMapSetEditor..pnlMain..pnlLayers..chkAll..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
+#. frMapSelect..FilterPopupMenu..TBX_All..Caption
+#. frZoomsSelect..chkAllZooms..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkAllMaps..Caption
+#. frTilesGenPrev..pnlBottom..pnlRight..chkAllZooms..Caption
+msgid "All"
+msgstr "Tümü"
+
+#, object-pascal-format
+msgid "All (%d)"
+msgstr "Tümü (%d)"
+
+#. frmMapTypeEdit..pnlBottomButtons..btnByDefault..Caption
+msgid "All by default"
+msgstr "Tümü varsayılan"
+
+msgid "All compatible formats"
+msgstr "Tüm uyumlu formatlar"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
+msgid "All Images"
+msgstr "Tüm Görseller"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkALLServices..Caption
+msgid "All Services"
+msgstr "Tüm Servisler"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
+msgid "All Visible"
+msgstr "Tümünü Göster"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
+msgid "Allow Add"
+msgstr "Eklemeye izin ver"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkDeleteAccess..Caption
+msgid "Allow Delete"
+msgstr "Silmeye izin ver"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkReadAccess..Caption
+msgid "Allow Read"
+msgstr "Okumaya izin ver"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkReplaceAccess..Caption
+msgid "Allow Replace"
+msgstr "Değiştirmeye izin ver"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkScanAccess..Caption
+msgid "Allow Scan"
+msgstr "Taramaya izin ver"
+
+#. download availability
+msgid "Allowed"
+msgstr "İzin verildi"
+
+#, object-pascal-format
+msgid "Allowed: %s"
+msgstr "İzin verildi: %s"
+
+msgctxt "Allowed"
+msgid "Add"
+msgstr "Ekle"
+
+msgctxt "Allowed"
+msgid "Delete"
+msgstr "Sil"
+
+msgctxt "Allowed"
+msgid "Read"
+msgstr "Oku"
+
+msgctxt "Allowed"
+msgid "Replace"
+msgstr "Değiştir"
+
+msgctxt "Allowed"
+msgid "Scan"
+msgstr "Tara"
+
+#. Programmer's name for it: rsAlt
+msgid "Alt."
+msgstr "Yük."
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeCaption
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeMenuItemName
+#. Programmer's name for it: rsAltitude
+msgid "Altitude"
+msgstr "Yükseklik"
+
+#. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
+#. frmMarkPictureEditor..grpAnchor..Caption
+msgid "Anchor"
+msgstr "Sabitleme Konumu"
+
+#. Programmer's name for it: rsAnyAvailableElevationSource
+msgid "Any Available Source"
+msgstr "Kullanılabilir Kaynak"
+
+#. frmArchiverSettings..pnlBottom..btnApply..Caption
+#. frmMain..actlstMain..actSelectByGeometryFinish..Caption
+#. frmMain..actlstMain..actSelectByGeometryFinish..Hint
+#. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
+#. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExportConfig..pnlBottom..btnApply..Caption
+#. frmMarkSystemConfigEdit..btnOk..Caption
+#. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
+#. frmMapLayersOptions..btnApply..Caption
+#. frmSettings..pnlBottomButtons..btnApply..Caption
+#. frmShortCutEdit..pnlBottom..btnOk..Caption
+msgid "Apply"
+msgstr "Uygula"
+
+#. frmProgressDownload..Panel1..pnlSizeToFinish..lblSizeToFinish..Caption
+msgid "Approx. to download:"
+msgstr "İndirilecek (yaklaşık):"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType....Items.Strings
+msgid "Archive"
+msgstr "Arşiv"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+msgid "Archive (tar)"
+msgstr "Arşiv (tar)"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+msgid "Archive (zip)"
+msgstr "Arşiv (zip)"
+
+#. frmArchiverSettings..Caption
+msgid "Archiver Settings"
+msgstr "Arşivleyici Ayarları"
+
+#. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
+#, no-object-pascal-format
+msgid "Are you sure you want to delete %0:d placemarks?"
+msgstr "%0:d yer işaretini silmek istediğinize emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
+#, no-object-pascal-format
+msgid "Are you sure you want to delete category with name \"%0:s\"?"
+msgstr "\"%0:s\" adlı kategoriyi silmek istediğinizden emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_DeleteGPSTrackAsk
+msgid "Are you sure you want to delete current GPS track?"
+msgstr "Mevcut GPS izini silmek istediğinizden emin misiniz?"
+
+#, object-pascal-format
+msgid "Are you sure you want to delete database \"%s\"?"
+msgstr "\"%s\" veritabanını silmek istediğinizden emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
+msgid "Are you sure you want to delete Marks in selected region?"
+msgstr ""
+"Seçilen bölgedeki İşaretleri silmek istediğinizden emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
+#, no-object-pascal-format
+msgid "Are you sure you want to delete path with name \"%0:s\"?"
+msgstr "\"%0:s\" adlı yolu silmek istediğinizden emin misiniz?"
+
+#, no-object-pascal-format
+msgid ""
+"Are you sure you want to delete placemark of unknown type with name "
+"\"%0:s\"?"
+msgstr ""
+"\"%0:s\" adlı bilinmeyen türdeki yer işaretini silmek istediğinizden "
+"emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
+#, no-object-pascal-format
+msgid "Are you sure you want to delete point with name \"%0:s\"?"
+msgstr "\"%0:s\" adlı noktayı silmek istediğinizden emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarkPolyAsk
+#, no-object-pascal-format
+msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
+msgstr "\"%0:s\" adlı çokgeni silmek istediğinizden emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
+#, no-object-pascal-format
+msgid "Are you sure you want to delete tile with name \"%0:s\"?"
+msgstr "\"%0:s\" adlı döşemeyi silmek istediğinizden emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
+msgid "Are you sure you want to delete tiles in selected region?"
+msgstr ""
+"Seçili bölgedeki döşemeleri silmek istediğinizden emin misiniz?"
+
+#. Programmer's name for it: SAS_MSG_ResetSensorAsk
+msgid "Are you sure you want to reset sensor?"
+msgstr "Sensörü sıfırlamak istediğinizden emin misiniz?"
+
+#. Programmer's name for it: SAS_STR_S
+msgid "Area"
+msgstr "Alan"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..lblAreaFormat..Caption
+msgid "Area representation"
+msgstr "Alan gösterimi"
+
+#, object-pascal-format
+msgid "Area: %s"
+msgstr "Alan: %s"
+
+#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerColor..Caption
+msgid "Arrow color:"
+msgstr "Ok rengi:"
+
+#. Programmer's name for it: rsElevationProfileElevAscentFmt
+#, object-pascal-format
+msgid "Ascent: %d m"
+msgstr "Artış: %d m"
+
+#. Programmer's name for it: rsAstroEnd
+msgid "Astro. twilight end"
+msgstr "Astro. Alacakaranlık sonu"
+
+#. Programmer's name for it: rsAstroStart
+msgid "Astro. twilight start"
+msgstr "Astro. Alacakaranlık başlangıcı"
+
+msgid ""
+"At least one calibration type doesn't support file name with "
+"characters not from current locale!"
+msgstr ""
+"En az bir kalibrasyon türü, geçerli yerel ayardan olmayan "
+"karakterlerle dosya adını desteklemiyor!"
+
+msgid ""
+"At least one calibration type supports file name with ASCII "
+"characters only!"
+msgstr ""
+"En az bir kalibrasyon türü, yalnızca ASCII karakterli dosya adını "
+"destekler!"
+
+#. Programmer's name for it: SAS_MSG_coution
+msgid "Attention!"
+msgstr "Dikkat!"
+
+#. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
+msgid "Attribution:"
+msgstr "Nitelik:"
+
+#. frmMain..actlstMain..actViewGridGenShtabAuto..Caption
+#. frmMain..actlstMain..actViewGridLonLatAuto..Caption
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat..Text
+#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Auto"
+msgstr "Otomatik"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
+msgid "Auto show/hide sensors toolbar"
+msgstr "Sensör araç çubuğunu otomatik göster/gizle"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..Caption
+msgid "Autodetect"
+msgstr "Otomatik-algıla"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+msgid "Autodetect COM port"
+msgstr "COM bağlantı noktasını otomatik algıla"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Hint
+msgid "Autodetect COM port on connect"
+msgstr "Bağlantıdaki COM bağlantı noktasını otomatik algıla"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
+msgid "Autodetect on connect"
+msgstr "Bağlanıldığında otomatik algıla"
+
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
+msgid "Autosave session, min:"
+msgstr "Oturumu otomatik kaydet, dak:"
+
+#. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
+msgid "Autosave track to:"
+msgstr "GPS izini buraya oto-kaydet:"
+
+#. Programmer's name for it: SAS_STR_ExportAUXGeoServerCaption
+msgid "AUX for LizardTech GeoExpress Server"
+msgstr "LizardTech GeoExpress Sunucusu için AUX"
+
+#. frmUpdateChecker..lblNewVer..Caption
+msgid "Available version:"
+msgstr "Güncel sürüm:"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedMenuItemName
+msgid "Average speed"
+msgstr "Ortalama hız"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
+msgid "Average speed, km/h:"
+msgstr "Ortalama hız, km/s:"
+
+#. Programmer's name for it: rsAz
+msgid "Az."
+msgstr "Az."
+
+#. frmPointProjecting..pnlAzimuth..lblAzimuth..Caption
+#. Programmer's name for it: SAS_STR_Azimuth
+#. Programmer's name for it: rsAzimuth
+msgid "Azimuth"
+msgstr "Azimut"
+
+#. frmMain..actlstMain..actConfigAzimuthCircle..Caption
+msgid "Azimuth Circle"
+msgstr "Azimut Dairesi"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..lblBGColor..Caption
+msgid "Background color"
+msgstr "Arkaplan rengi"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundColor..Caption
+msgid "Background color:"
+msgstr "Arkaplan rengi:"
+
+msgid "Base Cache path"
+msgstr "Temel Önbellek yolu"
+
+#. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
+msgid "Battery"
+msgstr "Batarya"
+
+#. Programmer's name for it: SAS_STR_SensorBatteryStatusCaption
+msgid "Battery:"
+msgstr "Batarya:"
+
+#. Programmer's name for it: rsBerkeleyDBVersionedCacheName
+msgid "BerkeleyDB (Versioned)"
+msgstr "BerkeleyDB (Sürüm)"
+
+msgid "BerkeleyDB (Versioned) cache folder:"
+msgstr "BerkeleyDB (Sürüm) önbellek klasörü:"
+
+msgid "BerkeleyDB cache folder:"
+msgstr "BerkeleyDB önbellek klasörü:"
+
+msgid "Best"
+msgstr "En iyi"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+msgid "Bits per second"
+msgstr "Saniye başına bit"
+
+msgid "BMP: Fill line failure!"
+msgstr "BMP: Satır doldurma hatası!"
+
+msgid "BMP: Line write failure!"
+msgstr "BMP: Satır yazma hatası!"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
+msgid "Border color"
+msgstr "Sınır rengi"
+
+#. frmAbout..lblTimeStamp..Caption
+msgid "Build date:"
+msgstr "Oluşturulma zamanı:"
+
+#. frmAbout..lblBuildInfo..Caption
+msgid "Build info:"
+msgstr "Oluşturma bilgisi:"
+
+msgid "By Bike"
+msgstr "Bisiklet ile"
+
+msgid "By Car"
+msgstr "Araba ile"
+
+#. frmMain..actlstMain..actSelectByCoordinates..Caption
+msgid "By Coordinates"
+msgstr "Koordinatlar ile"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..pnlHeaderReset..btnResetHeader..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..pnlUrlRight..btnResetUrl..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..btnResetVersion..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..btnResetPause..Hint
+#. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..btnResetMaxConnect..Hint
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..btnResetFolder..Hint
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..btnResetCacheType..Hint
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..btnResetSubMenu..Hint
+#. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..btnResetHotKey..Hint
+msgid "By default"
+msgstr "Varsayılan"
+
+msgid "By Foot"
+msgstr "Yürüyerek"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+msgid "By Name (ascend)"
+msgstr "Ada göre (artan)"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+msgid "By Name (descend)"
+msgstr "Ada göre (azalan)"
+
+#. frmMain..actlstMain..actConfigDownloadModeCache..Caption
+#. frmSettings..PageControl1..tsCache..Caption
+msgid "Cache"
+msgstr "Önbellek"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..Caption
+msgid "Cache abilities"
+msgstr "Önbellek yetenekleri"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..Caption
+msgid "Cache and Other"
+msgstr "Önbellek ve Diğer"
+
+#. Programmer's name for it: SAS_STR_CacheConvertionIsFinished
+msgid "Cache conversion is finished!"
+msgstr "Önbellek dönüştürme işlemi tamamlandı!"
+
+#. Programmer's name for it: SAS_ERR_ContentTypeMismatch
+#, object-pascal-format
+msgid ""
+"Cache converter aborted with error: Content-Type mismatch!\n"
+"Source: %s\n"
+"Destination: %s"
+msgstr ""
+"Önbellek dönüştürücü şu hatayla durdu: İçerik tür uyuşmazlığı!\n"
+"Kaynak: %s\n"
+"Hedef: %s"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheName..lblFolder..Caption
+msgid "Cache folder"
+msgstr "Önbellek klasörü"
+
+#. frMapsList..MapList......Caption
+msgid "Cache Folder"
+msgstr "Önbellek Klasörü"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..chkCacheReadOnly..Caption
+msgid "Cache is Read-Only"
+msgstr "Önbellek Salt Okunur"
+
+#. frmCacheManager..Caption
+#. frmMain..actlstMain..actShowCacheManager..Caption
+msgid "Cache Manager"
+msgstr "Önbellek Yöneticisi"
+
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlCache..lblCacheSize..Caption
+msgid "Cache Size, Mb:"
+msgstr "Önbellek Boyutu, MB:"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..lblCacheState..Caption
+msgid "Cache state:"
+msgstr "Önbellek durumu:"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlCacheType..lblCacheType..Caption
+msgid "Cache type"
+msgstr "Önbellek türü"
+
+#. frmMain..TBDock..TBMainToolBar..TBMapZap..Hint
+msgid "Cached tiles map"
+msgstr "Önbelleğe alınmış döşeme haritası"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..Caption
+#. frmMain..MainPopupMenu..tbxFillingMap..Caption
+msgid "Cached Tiles Map"
+msgstr "Önbelleğe Alınmış Döşeme Haritası"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..Label24..Caption
+msgid "Cached tiles map:"
+msgstr "Önbelleğe alınmış döşeme haritası:"
+
+msgid "calc..."
+msgstr "calc..."
+
+msgid "Calibration by World file and files with projection description"
+msgstr ""
+"Dünya dosyasına ve projeksiyon açıklamasına sahip dosyalara göre "
+"kalibrasyon"
+
+msgid "Calibration for Google Earth programm (*.kml)"
+msgstr "Google Earth programı için kalibrasyon (*.kml)"
+
+#. Programmer's name for it: rsTabMapCalibrationDescription
+msgid "Calibration for MapInfo programm (*.tab)"
+msgstr "MapInfo programı için kalibrasyon (*.tab)"
+
+#. Programmer's name for it: rsOziMapCalibrationDescription
+msgid "Calibration for OziExplorer programm (*.map)"
+msgstr "OziExplorer programı (*.map) için kalibrasyon"
+
+msgid "Calibration for Radio Mobile programm (*.dat)"
+msgstr "Radio Mobile programı için kalibrasyon (*.dat)"
+
+#. frmArchiverSettings..pnlBottom..btnCancel..Caption
+#. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
+#. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
+#. frmMarkPictureEditor..btnCancel..Caption
+#. frmImportConfigEdit..pnlBottom..btnCancel..Caption
+#. frmJpegImportConfigEdit..pnlBottom..btnCancel..Caption
+#. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Hint
+#. frmMarkCategoryEdit..pnlBottomButtons..btnCancel..Caption
+#. frmMarkEditPath..pnlBottomButtons..btnCancel..Hint
+#. frmMarkEditPath..pnlBottomButtons..btnCancel..Caption
+#. frmMarkEditPoint..pnlBottomButtons..btnCancel..Hint
+#. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
+#. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
+#. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
+#. frmMarkSystemConfigEdit..btnCancel..Caption
+#. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
+#. frmRegionProcess..pnlBottomButtons..Button3..Caption
+#. frmGoTo..pnlBottomButtons..btnCancel..Caption
+#. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
+#. frmMapLayersOptions..btnCancel..Hint
+#. frmMapLayersOptions..btnCancel..Caption
+#. frmSettings..pnlBottomButtons..btnCancel..Caption
+#. frmShortCutEdit..pnlBottom..btnCancel..Caption
+msgid "Cancel"
+msgstr "İptal"
+
+#. Programmer's name for it: SAS_ERR_ETS_CannotConnect
+msgid "Cannot connect to external tile storage"
+msgstr "Harici döşeme deposuna bağlanılamıyor"
+
+#. Programmer's name for it: SAS_ERR_ETS_CannotParseTile
+msgid "Cannot parse tile to get its version"
+msgstr "Döşeme sürümünü almak için döşemeler ayrıştırılamıyor"
+
+#. Programmer's name for it: rsCantAcquireDB
+#, object-pascal-format
+msgid "Can't acquire db: %s"
+msgstr "DB alınamıyor: %s"
+
+msgid "Can't bound the Map - GUID not found!"
+msgstr "Haritaya bağlanamıyor - GUID bulunamadı!"
+
+#. http://www.sasgis.org/mantis/view.php?id=3435
+#, object-pascal-format
+msgid ""
+"Can't delete category: \"%s\".\n"
+"Detected multiply categories with same name."
+msgstr ""
+"Kategori silinemiyor: \"%s\".\n"
+"Aynı ada sahip birden çok kategori tespit edildi."
+
+msgid "Can't initialize in-memory tile storage. Check your config!"
+msgstr ""
+"Bellek içi döşeme depolaması başlatılamıyor. Yapılandırmanızı "
+"kontrol edin!"
+
+#. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
+msgid "Can't load bitmap from source type"
+msgstr "Kaynak türünden bitmap yüklenemiyor"
+
+#, object-pascal-format
+msgid "Can't open file: %s"
+msgstr "Dosya açılamıyor: %s"
+
+#, object-pascal-format
+msgid "Can't parse coordinates from clipboard: %s"
+msgstr "Panodan koordinatlar ayrıştırılamıyor: %s"
+
+#. Programmer's name for it: rsObjectNotInPool
+msgid "Can't release an object that is not in the pool!"
+msgstr "Havuzda olmayan bir nesne bırakılamaz!"
+
+#. Programmer's name for it: SAS_ERR_CantSaveBitmapToTargetType
+msgid "Can't save bitmap to target type"
+msgstr "Bitmap'i hedef türüne kaydedemiyorum"
+
+#. Programmer's name for it: rsCantUseOldPoolRecord
+msgid "Can't use old pool record!"
+msgstr "Eski havuz kaydını kullanamazsınız!"
+
+#. frJpegImportOptions..grpPoint..Caption
+msgid "Caption parameters"
+msgstr "Başlık parametreleri"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
+msgid "Cascade"
+msgstr "Kademeli"
+
+msgid "Category name can't be empty!"
+msgstr "Kategori adı boş bırakılamaz!"
+
+#, object-pascal-format
+msgid "Category with name: \"%s\" already exists!"
+msgstr "\"%s\" adlı kategori zaten var!"
+
+#. frMarkCategorySelectOrAdd..lblCategory..Caption
+#. frmMarkEditPoly..pnlCategory..lblCategory..Caption
+msgid "Category:"
+msgstr "Kategori:"
+
+#, object-pascal-format
+msgid "Category: %s"
+msgstr "Kategori: %s"
+
+#. frElevationProfile..pmMain..mniCenterMap..Caption
+msgid "Center Map"
+msgstr "Merkez Haritası"
+
+#. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
+msgid "Center With &Zoom"
+msgstr "&Zoom ile Ortala"
+
+#. frmMain..actlstMain..actConfigGpsFollowPositionAtCenter..Caption
+msgid "Centered GPS Position"
+msgstr "Merkezlenmiş GPS Konumu"
+
+#. frLonLat..grdpnlTop..pnlButtons..btnCoordFormat..Hint
+msgid "Change coordinates representation"
+msgstr "Koordinat gösterimini değiştir"
+
+msgid "Change source zoom"
+msgstr "Kaynak yakınlaştırmasını değiştir"
+
+msgid "Changes will take effect after restart."
+msgstr "Değişiklikler yeniden başlattıktan sonra geçerli olacak."
+
+#. Programmer's name for it: SAS_STR_BattaryStateCharge
+msgid "Charging"
+msgstr "Şarj oluyor"
+
+#. frmMain..actlstMain..actShowUpddateChecker..Caption
+msgid "Check for Updates"
+msgstr "Güncellemeleri denetle"
+
+msgid "Circle"
+msgstr "Daire"
+
+#. frmMain..actlstMain..actCircleCalculation..Caption
+#. frmMain..actlstMain..actCircleCalculation..Hint
+msgid "Circle Calculation"
+msgstr "Daire Hesaplama"
+
+#. Programmer's name for it: rsCivilEnd
+msgid "Civil twilight end"
+msgstr "Alacakaranlık sonu"
+
+#. Programmer's name for it: rsCivilStart
+msgid "Civil twilight start"
+msgstr "Alacakaranlık başlangıcı"
+
+msgid "Cleaning up. "
+msgstr "Temizleniyor. "
+
+msgid "Clipboard is empty!"
+msgstr "Pano boş!"
+
+#. frmMarkPictureConfig..btnClose..Caption
+#. frmMarksExportConfig..pnlBottom..btnClose..Caption
+#. frmAbout..pnlBottom..btnClose..Caption
+#. frmUpdateChecker..btnClose..Caption
+msgid "Close"
+msgstr "Kapat"
+
+#. frTilesDownload..pnlCenter..pnlMain..chkCloseAfterFinish..Caption
+msgid "Close download window once finish"
+msgstr "İndirme bittikten sonra pencereyi kapat"
+
+#. Programmer's name for it: rsCloseCalcCaption
+msgid "Close the Calculator"
+msgstr "Hesap Makinesini Kapat"
+
+#. frmProgressDownload..Panel1..chkAutoCloseWhenFinish..Caption
+msgid "Close this window once finished"
+msgstr "Bittikten sonra bu pencereyi kapat"
+
+#. Programmer's name for it: SAS_UNITS_sm
+msgid "cm"
+msgstr "cm"
+
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineColor..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineColor..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFillColor..Caption
+#. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
+#. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
+#. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..flwpnlTileBorders..Label27..Caption
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg2..Caption
+msgid "Color"
+msgstr "Renk"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCMain..chkMNCasColorOnly..Caption
+msgid "Color only"
+msgstr "Yalnızca renk"
+
+#. Programmer's name for it: rsDefaultColorSchemaFmt
+#, object-pascal-format
+msgid "Color schema %d"
+msgstr "Renk şeması %d"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
+msgid "Color:"
+msgstr "Renk:"
+
+#. frExportToCE..pnlCenter..pnlMain..CComment..Caption
+msgid "Comment"
+msgstr "Yorum"
+
+#. Programmer's name for it: SAS_ERR_PascalScriptCompileError
+#, no-object-pascal-format
+msgid ""
+"Compilation error in script \n"
+"%0:s"
+msgstr ""
+"Komut dosyasındaki derleme hatası\n"
+"%0:s"
+
+#. frmAbout..lblCompiler..Caption
+msgid "Compiler:"
+msgstr "Derleyici:"
+
+msgid "Compiling the map(s). "
+msgstr "Harita(lar) derleniyor. "
+
+#. Programmer's name for it: SAS_STR_ExportTarPackCaption
+msgid "Compressing to TAR"
+msgstr "TAR'a sıkıştırılıyor"
+
+#. Programmer's name for it: SAS_STR_ExportZipPackCaption
+msgid "Compressing to ZIP"
+msgstr "ZIP'e sıkıştırılıyor"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
+msgid "Compression (for PNG):"
+msgstr "Sıkıştırma (PNG için):"
+
+#. frArchiveWriteZipConfig..lblCompressLevel..Caption
+msgid "Compression Level:"
+msgstr "Sıkıştırma Seviyesi:"
+
+#. frArchiveWriteZipConfig..lblCompressMethod..Caption
+msgid "Compression Method:"
+msgstr "Sıkıştırma Yöntemi:"
+
+#. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
+msgid "Compression:"
+msgstr "Sıkıştırma:"
+
+#. frmMain..actlstMain..actGpsConnect..Hint
+msgid "Connect to GPS receiver"
+msgstr "GPS alıcısına bağlan"
+
+#. frmMain..actlstMain..actGpsConnect..Caption
+msgid "Connect to GPS Receiver"
+msgstr "GPS alıcısına bağlan"
+
+#, object-pascal-format
+msgid "Connect to server error. Error code %d"
+msgstr "Sunucuya bağlanma hatası. Hata kodu %d"
+
+msgid "Connection string"
+msgstr "Bağlantı dizisi"
+
+#. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
+msgid ""
+"Connection to external tile storage is dead and cannot be "
+"reestablished"
+msgstr "Harici döşeme deposuna bağlantı kesildi ve yeniden kurulamaz"
+
+#. Programmer's name for it: SAS_STR_Contrast
+msgid "Contrast"
+msgstr "Kontrast"
+
+#. frmSettings..PageControl1..tsControl..Caption
+msgid "Control"
+msgstr "Kontrol"
+
+#. frmCacheManager..PageControl1..tsConverter..Caption
+msgid "Convert Cache Format"
+msgstr "Convert Cache Format"
+
+#. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
+#. frmGoTo..pgcSearchType..tsCoordinates..Caption
+msgid "Coordinates"
+msgstr "Koordinatlar"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..lblCoordSysInfoType..Caption
+msgid "Coordinates info"
+msgstr "Koordinat bilgisi"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLonLatFormat..Label84..Caption
+msgid "Coordinates representation"
+msgstr "Koordinat gösterimi"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..lblCoordSysType..Caption
+msgid "Coordinates type"
+msgstr "Koordinat türü"
+
+#, object-pascal-format
+msgid "Coordinates: %s"
+msgstr "Koordinatlar: %s"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmCopy..Caption
+msgid "Copy"
+msgstr "Kopyala"
+
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
+msgid "Copy BBOX coordinates"
+msgstr "BBOX koordinatlarını kopyala"
+
+#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
+msgid "Copy coordinates"
+msgstr "Koordinatları kopyala"
+
+#. frLonLat..grdpnlTop..pnlButtons..btnCopy..Hint
+msgid "Copy coordinates to clipboard"
+msgstr "Koordinatları panoya kopyala"
+
+#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
+msgid "Copy description"
+msgstr "Açıklamayı kopyala"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXCopyTIDs..Hint
+msgid "Copy TID's to clipboard"
+msgstr "TID'leri panoya kopyala"
+
+#. frTilesCopy..Panel1..Caption
+msgid "Copy tiles from selection to folder"
+msgstr "Döşemeleri seçimden klasöre kopyala"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmCopyAsText..Caption
+msgid "Copy to Clipboard as Text"
+msgstr "Panoya Metin Olarak Kopyala"
+
+#. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
+msgid "Copying"
+msgstr "Kopyalanıyor"
+
+msgid "Could not build IMG file."
+msgstr "IMG dosyası oluşturulamadı."
+
+#, object-pascal-format
+msgid "Could not start GMapTool: %s."
+msgstr "GMapTool başlatılamadı: %s."
+
+#, object-pascal-format
+msgid "Could not start the map compiler: %s."
+msgstr "Harita derleyicisi başlatılamadı: %s."
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingMenuItemName
+msgid "Course"
+msgstr "Rota"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingCaption
+msgid "Course:"
+msgstr "Rota:"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP1250 (Central European Sort)"
+msgstr "CP1250 (Central European Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP1251 (Cyrillic Sort)"
+msgstr "CP1251 (Cyrillic Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP1252 (Western European Sort)"
+msgstr "CP1252 (Western European Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP1253 (Greek Sort)"
+msgstr "CP1253 (Greek Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP1254 (Turkish Sort)"
+msgstr "CP1254 (Turkish Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP1255 (Hebrew Sort)"
+msgstr "CP1255 (Hebrew Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP1256 (Arabic Sort)"
+msgstr "CP1256 (Arabic Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP1257 (Baltic Sort)"
+msgstr "CP1257 (Baltic Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP874 (Thai Sort)"
+msgstr "CP874 (Thai Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP932 (Japanese Sort)"
+msgstr "CP932 (Japanese Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP936 (Simplified Chinese Sort)"
+msgstr "CP936 (Simplified Chinese Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP949 (Korean Sort)"
+msgstr "CP949 (Korean Sort)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbCodePage....Items.Strings
+msgid "CP950 (Traditional Chinese Sort)"
+msgstr "CP950 (Traditional Chinese Sort)"
+
+#. frMapCombine..pnlBottom..pnlPrTypes..lblPrTypes..Caption
+msgid "Create georeferencing file:"
+msgstr "Coğrafi referans dosyası oluşturun:"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnAddMark..Hint
+msgid "Create new placemark"
+msgstr "Yeni yer işareti oluştur"
+
+#. frmMain..tbxpmnSearchResult..tbitmCreatePlaceMarkBySearchResult..Caption
+msgid "Create placemark"
+msgstr "Yer işareti oluştur"
+
+#. frmMain..actlstMain..actMakeLinkOnDesktop..Caption
+msgid "Create Shortcut"
+msgstr "Kısayol oluştur"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
+msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
+msgstr "GTOPO30 ile Mevcut Yükseklik (Hassasiyet: ~1km)"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NSRTM3..Caption
+msgid "Current Altitude by SRTM3 (~90 m accuracy)"
+msgstr "SRTM3 ile Mevcut Yükseklik (Hassasiyet: ~90m)"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxWeatherUnderground..Caption
+msgid "Current and Forecast Meteorology (Weather Underground)"
+msgstr "Anlık ve Tahmini Meteorolojisi (Weather Underground)"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxYandexWeather..Caption
+msgid "Current and Forecast Meteorology (Yandex Weather)"
+msgstr "Anlık ve Tahmini Meteorolojisi (Yandex Hava Durumu)"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedCaption
+msgid "Current speed, km/h:"
+msgstr "Mevcut hız, km/s:"
+
+#. Programmer's name for it: SAS_STR_activescale
+msgid "Current zoom"
+msgstr "Geçerli yakınlaştırma"
+
+#. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
+msgid "Current Zoom"
+msgstr "Geçerli Yakınlaştırma"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..lblHeader..Caption
+msgid "Custom HTTP Headers:"
+msgstr "Özel HTTP Başlıkları:"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmCut..Caption
+msgid "Cut"
+msgstr "Kes"
+
+#. Programmer's name for it: SAS_ERR_ETS_DataTruncation
+msgid ""
+"Data truncation occured because of external tile storage "
+"misconfiguration"
+msgstr ""
+"Harici döşeme depolama yanlış yapılandırılması nedeniyle veri "
+"kesintisi oluştu"
+
+#. frmMarkSystemConfigEdit..grpDBType..Caption
+msgid "Database type"
+msgstr "Veritabanı türü"
+
+msgid "Day Length"
+msgstr "Gün Uzunluğu"
+
+#. Programmer's name for it: rsDBMSCacheName
+msgid "DBMS"
+msgstr "DBMS"
+
+#. Programmer's name for it: rsORMZDBCMarksDbName
+msgid "DBMS (Native driver)"
+msgstr "DBMS (Yerel sürücü)"
+
+#. Programmer's name for it: rsORMODBCMarksDbName
+msgid "DBMS (ODBC driver)"
+msgstr "DBMS (ODBC sürücüsü)"
+
+#. frmSettings..PageControl1..tsCache..pnlDBMSPath..lbDBMSCachePath..Caption
+msgid "DBMS root:"
+msgstr "DBMS kökü:"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..Caption
+msgid "DD+RC"
+msgstr "DD+RC"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmDecompile..Hint
+msgid "Decompile"
+msgstr "Kaynak koda dönüştür"
+
+#. frmSettings..PageControl1..tsCache..pnlDefCache..lbl..Caption
+msgid "Default cache type"
+msgstr "Varsayılan önbellek türü"
+
+#. frmShortCutEdit..GroupBox1..Caption
+msgid "Define hotkey"
+msgstr "Kısayol tuşu tanımla"
+
+#. frmMain..MainPopupMenu..NMarkDel..Caption
+#. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
+#. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
+msgid "Delete"
+msgstr "Sil"
+
+#. frDeleteTiles..rgTarget....Items.Strings
+msgid "Delete both"
+msgstr "İkisini Sil"
+
+#. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Caption
+msgid "Delete Category"
+msgstr "Kategoriyi Sil"
+
+#. frDeleteTiles..rgTarget....Items.Strings
+msgid "Delete empty tiles"
+msgstr "Boş döşemeleri sil"
+
+#, object-pascal-format
+msgid "Delete from Favorites: '%s'?"
+msgstr "Favorilerden silinsin: '%s'?"
+
+#. frDeleteMarks..chkDelHidden..Caption
+msgid "Delete hidden placemarks"
+msgstr "Gizli yer işaretlerini sil"
+
+#. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
+msgid "Delete only tiles of size, bytes:"
+msgstr "Yalnızca bu boyuttaki döşemeleri sil:"
+
+#. frmMain..MainPopupMenu..dlm..Caption
+msgid "Delete Overlay Layer Tile from Cache"
+msgstr "Kaplama Katmanı Döşemesini Önbellekten Sil"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
+msgid "Delete Placemark"
+msgstr "Yer İşaretini Sil"
+
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
+#. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
+msgid "Delete Point"
+msgstr "Noktayı Sil"
+
+#. frmMain..MainPopupMenu..NDel..Caption
+msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
+msgstr "Önbellekteki Birincil Harita Döşemesini Sil (Del+MLeft)"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
+msgid "Delete selected category"
+msgstr "Seçili kategoriyi sil"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnDelMark..Hint
+msgid "Delete selected placemark"
+msgstr "Seçili yer işaretlerini sil"
+
+#. frDeleteTiles..rgTarget..Caption
+msgid "Delete target"
+msgstr "Hedefi sil"
+
+#. frmMarksExplorer..TBXToolbar3..tbxDelete..Caption
+msgid "Delete the database"
+msgstr "Veritabanını sil"
+
+#. frDeleteTiles..rgTarget....Items.Strings
+msgid "Delete tiles"
+msgstr "Döşemeleri sil"
+
+#. frDeleteTiles..rgTarget....Items.Strings
+msgid "Delete tne"
+msgstr "TNE Sil"
+
+#. frmMain..actlstMain..actGpsTrackClear..Caption
+msgid "Delete Track"
+msgstr "GPS İzini Sil"
+
+#. Programmer's name for it: SAS_STR_AllDelete
+msgid "Deleted total:"
+msgstr "Toplam silinen:"
+
+#. Programmer's name for it: SAS_STR_OperationDeleteCaption
+msgid "Deleting"
+msgstr "Siliniyor"
+
+#. Programmer's name for it: SAS_STR_Deleted
+msgid "Deleting:"
+msgstr "Siliniyor:"
+
+#. Programmer's name for it: rsElevationProfileElevDescentFmt
+#, object-pascal-format
+msgid "Descent: %d m"
+msgstr "İniş: %d m"
+
+#. frmDGAvailablePic..gbImageParams..Caption
+#. frMarkDescription..pnlDescriptionTop..Label2..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
+msgid "Description:"
+msgstr "Açıklama:"
+
+#, object-pascal-format
+msgid ""
+"Description:<br>\n"
+"%s"
+msgstr ""
+"Açıklama:<br>\n"
+"%s"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..Caption
+msgid "Dest Cache"
+msgstr "Hedef Önbellek"
+
+#. dest
+msgid "Dest cache file is not specified!"
+msgstr "Hedef önbellek dosyası belirtilmedi!"
+
+msgid "Dest cache path is not specified!"
+msgstr "Hedef önbellek yolu belirtilmedi!"
+
+msgid "Dest cache type is not selected!"
+msgstr "Hedef önbellek türü seçilmedi!"
+
+#. Programmer's name for it: rsDetailedViewCaption
+msgid "Detailed View"
+msgstr "Detaylı Görünüm"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
+msgid "Device timeout (sec)"
+msgstr "Cihaz zaman aşımı (sn)"
+
+#. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
+msgid "Difference (NOT)"
+msgstr "Fark (NOT)"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkDG2..Caption
+msgid "DigitalGlobe (Catalogservice)"
+msgstr "DigitalGlobe (Katalog servisi)"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..Caption
+msgid "Direct Copy"
+msgstr "Doğrudan Kopyala"
+
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkDirectTilesCopy..Caption
+msgid "Direct tiles copy (without any modifications)"
+msgstr "Doğrudan döşeme kopyala (herhangi bir değişiklik yapmadan)"
+
+#. Programmer's name for it: SAS_ERR_DirectoryNotExistFmt
+#, no-object-pascal-format
+msgid "Directory %0:s not exist"
+msgstr "%0:s dizini mevcut değil"
+
+#. Programmer's name for it: rsDisableElevationInfo
+msgid "Disable"
+msgstr "Devredışı bırak"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
+msgid "Disable or enable GPS"
+msgstr "GPS'i Aç veya Kapat"
+
+msgid "Disabled by map params"
+msgstr "Harita parametreleri tarafından devre dışı bırakıldı"
+
+msgid "Disabled by Zmp"
+msgstr "Zmp tarafından devredışı bıakıldı"
+
+#. frmMain..actlstMain..actViewFillingMapMainMapUse..Caption
+#. Programmer's name for it: SAS_STR_MiniMapAsMainMap
+msgid "Displayed Main Map"
+msgstr "Görüntülenen Ana Harita"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderDistMenuItemName
+msgid "Distance"
+msgstr "Mesafe"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2Caption
+msgid "Distance #2, km:"
+msgstr "Mesafe #2, km:"
+
+#. frmMain..actlstMain..actDistanceCalculation..Hint
+msgid "Distance calculation"
+msgstr "Mesafe hesaplama"
+
+#. frmMain..actlstMain..actDistanceCalculation..Caption
+msgid "Distance Calculation"
+msgstr "Mesafe Hesaplama"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..Label3..Caption
+msgid "Distance representation"
+msgstr "Mesafe temsili"
+
+#. Programmer's name for it: SAS_STR_SensorNavToPointMenuItemName
+msgid "Distance to placemark"
+msgstr "Yer işaretine mesafe"
+
+#. Programmer's name for it: SAS_STR_SensorNavToPointCaption
+msgid "Distance to placemark:"
+msgstr "Yer işaretine mesafe:"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1Caption
+msgid "Distance, km:"
+msgstr "Mesafe, km:"
+
+#. frmPointProjecting..pnlDist..lblDist..Caption
+msgid "Distance, m"
+msgstr "Mesafe, m"
+
+#. Programmer's name for it: SAS_STR_MarshLen
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderDistCaption
+msgid "Distance:"
+msgstr "Mesafe:"
+
+#. Programmer's name for it: rsElevationProfileDistFmt
+#, object-pascal-format
+msgid "Distance: %.2f %s"
+msgstr "Mesafe: %.2f %s"
+
+#, no-object-pascal-format
+msgid "Distance: %.2f km"
+msgstr "Mesafe: %.2f km"
+
+#, no-object-pascal-format
+msgid "Distance: %.2f m"
+msgstr "Mesafe: %.2f m"
+
+#. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+#. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+#. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+msgid "Do not close this window after start"
+msgstr "Başladıktan sonra bu pencereyi kapatma"
+
+#. frmProgressSimple..TBXOperationsToolbar..tbtmDontClose..Hint
+msgid "Do not close this window when finish"
+msgstr "Bittiğinde bu pencereyi kapatmayın"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
+msgid "Don't show for All"
+msgstr "Tümü için gösterme"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
+msgid "Don't show for Geographic / WGS84"
+msgstr "Coğrafi/WGS84 için gösterme"
+
+#. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
+msgid "Don't store references to non-existent tiles"
+msgstr "Var olmayan döşemelere yapılan referansları saklama"
+
+#. frExportRMP..pnlCenter..pnlMain..chkDontProjectToLatLon..Caption
+msgid "Don't transform tiles to Geographic projection"
+msgstr "Döşemeleri Coğrafi projeksiyona dönüştürme"
+
+#. Programmer's name for it: rsDoubleFree
+msgid "Double Free: Object is olready deleted!"
+msgstr "Double Free: Nesne zaten silindi!"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXDown..Hint
+#. frMapsList..pnlMapsRightButtons..btnDown..Caption
+msgid "Down"
+msgstr "İndir"
+
+#. frmUpdateChecker..btnDownload..Caption
+msgid "Download"
+msgstr "İndir"
+
+#. Programmer's name for it: SAS_MSG_LoadComplete
+msgid "Download completed"
+msgstr "İndirme tamamlandı"
+
+#. Programmer's name for it: rsDownloadFinished
+#, object-pascal-format
+msgid ""
+"Download completed successfully. You can update the program manually "
+"from file: %s"
+msgstr ""
+"İndirme başarıyla tamamlandı. Programı şu dosyadan alıp elle "
+"güncelleyebilirsiniz: %s"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
+msgid "Download enabled"
+msgstr "İndirme etkinleştirildi"
+
+#, object-pascal-format
+msgid "Download error. Error code %d"
+msgstr "İndirme hatası. Hata kodu %d"
+
+#, object-pascal-format
+msgid "Download error. Status code %d"
+msgstr "İndirme hatası. Durum kodu %d"
+
+#, object-pascal-format
+msgid "Download error. Unknown status code %d"
+msgstr "İndirme hatası. Bilinmeyen durum kodu %d"
+
+#. frmMain..MainPopupMenu..ldm..Caption
+msgid "Download Overlay Layer Tile to Cache"
+msgstr "Önbelleğe Bindirme Katmanı Döşemesini İndir"
+
+#. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
+msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
+msgstr "Birincil Harita Döşemesini Önbelleğe İndir (Ins+MLeft)"
+
+#. frmUpdateChecker..lblProgressInfo..Caption
+msgid "Download progress:"
+msgstr "İndirme ilerlemesi:"
+
+#. frmProgressDownload..SaveSessionDialog..Filter
+msgid "Download session (*.sls)|*.sls"
+msgstr "Oturum indir (*.sls)|*.sls"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlDownloaderState..lblDownloaderState..Caption
+msgid "Download state:"
+msgstr "İndirme durumu:"
+
+#. frTilesDownload..pnlTop..Caption
+msgid "Download Tiles"
+msgstr "Döşemeleri İndir"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..flwpnlTileBorder..Label69..Caption
+msgid "Download tiles off-screen"
+msgstr "Fayansları ekrandan indir"
+
+#. Programmer's name for it: SAS_STR_load
+msgid "Downloaded"
+msgstr "İndirildi"
+
+#. frmProgressDownload..Panel1..pnlDownloaded..lblDownloaded..Caption
+msgid "Downloaded total:"
+msgstr "Toplam indirilen:"
+
+#. Programmer's name for it: SAS_STR_OperationDownloadCaption
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+#. Programmer's name for it: SAS_STR_LoadProcessRepl
+msgid "Downloading with overwrite..."
+msgstr "Üzerine yazma ile indiriliyor..."
+
+#. Programmer's name for it: SAS_STR_LoadProcess
+msgid "Downloading..."
+msgstr "İndiriliyor..."
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..lblDrawOrder..Caption
+msgid "Draw Order"
+msgstr "Çizim Sırası"
+
+msgid "EarthSlicer cache folder:"
+msgstr "EarthSlicer önbellek klasörü:"
+
+#. frFavoriteMapSetManager..pnlRightButtons..btnEdit..Caption
+#. frmMarkPictureConfig..btnEdit..Caption
+#. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Hint
+msgid "Edit"
+msgstr "Düzenle"
+
+#. frFavoriteMapSetManager..chkEditByDblClick..Caption
+msgid "Edit / Apply on double click"
+msgstr "Çift tıklamada Düzenle / Uygula"
+
+#. frmMarksExplorer..tbpmnCategories..tbitmEditCategory..Caption
+#. Programmer's name for it: SAS_STR_EditCategory
+msgid "Edit Category"
+msgstr "Kategoriyi Düzenle"
+
+#. frmShortCutEdit..Caption
+msgid "Edit Hotkey"
+msgstr "Kısayol Tuşu Düzenle"
+
+#. frmMain..actlstMain..actSelectByLastSelectionEdit..Caption
+msgid "Edit Last Selection"
+msgstr "Son Seçimi Düzenle"
+
+msgid "Edit Marks Database"
+msgstr "İşaret Veritabanını Düzenle"
+
+#. Programmer's name for it: SAS_STR_EditPath
+msgid "Edit Path"
+msgstr "Yolu Düzenle"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
+#. Programmer's name for it: SAS_STR_EditMark
+msgid "Edit Placemark"
+msgstr "Yer İşaretini Düzenle"
+
+#. Programmer's name for it: SAS_STR_EditPoly
+msgid "Edit Polygon"
+msgstr "Çokgeni Düzenle"
+
+#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+msgid "Edit Position"
+msgstr "Pozisyonu Düzenle"
+
+#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+msgid "Edit Properties"
+msgstr "Özellikleri Düzenle"
+
+#. frExportToIMG..PageControl1..Map..pnlSasZoom..TBXEdit..TBEdit..Hint
+msgid "Edit SAS Zoom"
+msgstr "SAS Yakınlaştırmayı Düzenle"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
+msgid "Edit selected category"
+msgstr "Seçili kategoriyi düzenle"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
+msgid "Edit selected placemark"
+msgstr "Seçili yer işaretini düzenle"
+
+#. frmMarksExplorer..TBXToolbar3..tbxEdit..Caption
+msgid "Edit the database"
+msgstr "Veritabanını düzenle"
+
+#. Programmer's name for it: rsElapsedTime
+#, object-pascal-format
+msgid "Elapsed time: %s"
+msgstr "Geçen süre: %s"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..Caption
+msgid "Elevation Info"
+msgstr "Yükseklik Bilgisi"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
+msgid "Elevation Profile"
+msgstr "Yükseklik Profili"
+
+#, no-object-pascal-format
+msgid "Elevation: %.2f m"
+msgstr "Yükseklik: %.2f m"
+
+#. Programmer's name for it: rsElevationProfileElevFmt
+#, object-pascal-format
+msgid "Elevation: %d, %d, %d m"
+msgstr "Yükseklik: %d, %d, %d m"
+
+#. Programmer's name for it: SAS_ERR_MapGUIDEmpty
+msgid "Empty GUID"
+msgstr "Boş GUID"
+
+msgid "Empty map list. Please add the layers to export!"
+msgstr ""
+"Boş harita listesi. Lütfen dışa aktarılacak katmanları ekleyin!"
+
+#. Programmer's name for it: SAS_ERR_EmptyServerResponse
+msgid "Empty server response"
+msgstr "Boş sunucu yanıtı"
+
+msgid "Empty tile samples do not exist for this map"
+msgstr "Bu harita için boş döşeme örnekleri mevcut değil"
+
+#. Programmer's name for it: SAS_ERR_EmptyZMPFileName
+msgid "Empty ZMP file name"
+msgstr "Boş ZMP dosya adı"
+
+#. ru_RU, uk_UA, be_BY, en_RU, en_US, tr_TR
+#. Programmer's name for it: rsYandexSearchLanguage
+msgid "en_US"
+msgstr "tr_TR"
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
+msgid "Enable the following map types:"
+msgstr "Aşağıdaki harita türlerini etkinleştir:"
+
+#. Programmer's name for it: SAS_STR_InputLacitp
+msgid ""
+"Enter comma-separated MNC, MCC, LAC, CellID (example: "
+"02,250,7718,11942)"
+msgstr ""
+"Virgülle ayrılmış MNC, MCC, LAC, CellID girin (örnek: "
+"02,250,7718,11942)"
+
+#. Programmer's name for it: SAS_STR_InputLacitpCaption
+msgid "Enter parameters"
+msgstr "Parametreleri gir"
+
+#. Programmer's name for it: rsEquinox
+msgid "Equinox at"
+msgstr "Ekinoks"
+
+#. Programmer's name for it: rsError
+msgid "Error"
+msgstr "Hata"
+
+#. Programmer's name for it: SAS_ERR_PascalScriptByteCodeLoad
+msgid "Error at script bytecode loading"
+msgstr "Komut dosyası bayt kodu yükleme hatası"
+
+#. Programmer's name for it: SAS_ERR_Code
+msgid "Error code:"
+msgstr "Hata kodu:"
+
+#. Programmer's name for it: SAS_ERR_Communication
+msgid "Error communicating with device"
+msgstr "Cihazla iletişim hatası"
+
+#. Programmer's name for it: SAS_ERR_Noconnectionstointernet
+msgid "Error connecting to server"
+msgstr "Sunucuya bağlanırken hata oluştu"
+
+#. Programmer's name for it: SAS_ERR_CoordinatesInput
+msgid "Error in geographic coordinates"
+msgstr "Coğrafi koordinatlarda hata"
+
+#. Programmer's name for it: SAS_ERR_ParamsInput
+msgid "Error in parameters!"
+msgstr "Parametrelerde hata!"
+
+#. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
+#, no-object-pascal-format
+msgid "Error in projection \"%0:s\" of the map"
+msgstr "Haritanın \"%0:s\" projeksiyonunda hata"
+
+#. Programmer's name for it: SAS_ERR_PortOpen
+msgid "Error opening port!"
+msgstr "Bağlantı noktası açılırken hata oluştu!"
+
+#. Programmer's name for it: SAS_ERR_CoordParseError
+#, object-pascal-format
+msgid "Error parsing coordinates: Lat=%s Lon=%s"
+msgstr "Koordinatlar ayrıştırılırken hata oluştu: Enlem=%s Boylam=%s"
+
+#. Programmer's name for it: SAS_ERR_Save
+msgid "Error while saving!"
+msgstr "Kaydederken hata oluştu!"
+
+#. Programmer's name for it: SAS_MSG_error
+msgid "Error!"
+msgstr "Hata!"
+
+#. Programmer's name for it: rsEvent
+msgid "Event"
+msgstr "Etkinlik"
+
+#, no-object-pascal-format
+msgid "Every map part must have height less than %0:d but exist %1:d"
+msgstr ""
+"Her harita parçasının yüksekliği %0:d 'den az olmalı, ancak %1:d "
+"mevcut olmalıdır"
+
+#, no-object-pascal-format
+msgid "Every map part must have height more than %0:d but exist %1:d"
+msgstr ""
+"Her harita parçasının yüksekliği %0:d 'den fazla olmalı, ancak %1:d "
+"olmalıdır"
+
+#, no-object-pascal-format
+msgid "Every map part must have width less than %0:d but exist %1:d"
+msgstr ""
+"Her harita parçasının genişliği %0:d 'den az olmalı, ancak %1:d "
+"mevcut olmalıdır"
+
+#, no-object-pascal-format
+msgid "Every map part must have width more than %0:d but exist %1:d"
+msgstr ""
+"Her harita parçasının genişliği %0:d 'den fazla olmalı, ancak %1:d "
+"mevcut olmalıdır"
+
+#. frMergePolygons..tbTop..tbOperationType..tbtmXOR..Caption
+msgid "Exclusive or (XOR)"
+msgstr "Özel veya (XOR)"
+
+#. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
+#. Programmer's name for it: SAS_STR_ExportTiles
+msgid "Export"
+msgstr "Dışa Aktar"
+
+#. frmMarksExplorer..PopupExport..NExportAll..Caption
+msgid "Export all placemarks and all categories"
+msgstr "Tüm yer işaretlerini ve tüm kategorileri dışa aktar"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
+msgid "Export Placemark"
+msgstr "Yer İşaretini Dışa Aktar"
+
+#. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
+msgid "Export Placemarks"
+msgstr "Yer İşaretlerini Dışa Aktar"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
+#. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Hint
+msgid "Export placemarks from selected category"
+msgstr "Seçilen kategorideki yer işaretlerini dışa aktar"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
+msgid "Export selected placemark"
+msgstr "Seçili yer işaretini dışa aktar"
+
+msgid "Export selection to format"
+msgstr "Seçimi formata aktar"
+
+#. frExportToFileCont..pnlCenter..pnlMain..lblNamesType..Caption
+msgid "Export selection to format:"
+msgstr "Seçimi formata aktar:"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
+msgid "Export settings"
+msgstr "Dışa aktarma ayarları"
+
+#. frmMarksExplorer..PopupExport..NExportVisible..Caption
+msgid "Export visible placemarks"
+msgstr "Görünür yer işaretlerini dışa aktar"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblDefExtension..Caption
+msgid "Extension:"
+msgstr "Uzantı:"
+
+#. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
+msgid "External tile storage is readonly"
+msgstr "Harici döşeme deposu salt okunur"
+
+#, object-pascal-format
+msgid "Failed detect archive type from file name: %s"
+msgstr "Dosya adından arşiv türü algılanamadı: %s"
+
+#. Programmer's name for it: rsFailedSessionSave
+msgid "Failed to save session to file: "
+msgstr "Oturum dosyaya kaydedilemedi: "
+
+#. Programmer's name for it: SAS_ERR_ETS_FailToSaveTile
+msgid "Failed to save to external tile storage: error "
+msgstr "Harici döşeme deposuna kaydedilemedi: hata "
+
+msgid "Fast"
+msgstr "Hızlı"
+
+#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Hint
+msgid "Favorite maps/layers"
+msgstr "Favori haritalar/katmanlar"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
+#. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
+#. frmSettings..PageControl1..tsFavorite..Caption
+msgid "Favorites"
+msgstr "Favoriler"
+
+#. frmFavoriteMapSetManager..Caption
+msgid "Favorites Manager"
+msgstr "Favoriler Yöneticisi"
+
+#. Programmer's name for it: SAS_STR_File
+msgid "File"
+msgstr "Dosya"
+
+#. Programmer's name for it: SAS_MSG_FileExists
+#, no-object-pascal-format
+msgid ""
+"File %0:s is available on disk.\n"
+"Replace?"
+msgstr ""
+"%0:s dosyası diskte mevcut.\n"
+"Değiştirilsin mi?"
+
+#. Programmer's name for it: SAS_ERR_FileNotExistFmt
+#, no-object-pascal-format
+msgid "File %0:s not exist"
+msgstr "%0:s dosyası mevcut değil"
+
+#. Programmer's name for it: SAS_ERR_FileNotFoundFmt
+#, no-object-pascal-format
+msgid "File %0:s not found"
+msgstr "%0:s dosyası bulunamadı"
+
+#. frmMarkSystemConfigEdit..grpFile..Caption
+msgid "File name"
+msgstr "Dosya adı"
+
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..lblSessionPrefix..Caption
+msgid "File name prefix:"
+msgstr "Dosya adı öneki:"
+
+msgid "File:"
+msgstr "Dosya:"
+
+#. Programmer's name for it: SAS_STR_Files
+msgid "files"
+msgstr "dosya"
+
+#. Programmer's name for it: SAS_ERR_MapGUIDDuplicate
+#, no-object-pascal-format
+msgid "Files %0:s and %1:s have the same GUID"
+msgstr "%0:s ve %1:s dosyaları aynı GUID'e sahip"
+
+#. frmMain..TBDock..FillDates..Label1..Caption
+msgid "Fill From "
+msgstr "Doldur "
+
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFill..Caption
+#. frmMarkEditPoly..pnlFill..lblFill..Caption
+msgid "Fill:"
+msgstr "Doldur:"
+
+#. frmMain..TBDock..FillDates..Caption
+msgid "FillDates"
+msgstr "Doldurma Tarihleri"
+
+#. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
+msgid "Filter"
+msgstr "Filtre"
+
+#. frElevationProfile..pmMain..mniFilterData..Caption
+msgid "Filter Data"
+msgstr "Verileri Filtrele"
+
+#, object-pascal-format
+msgid "Filter: \"%s\" (%d)"
+msgstr "Filtre: \"%s\" (%d)"
+
+#. Programmer's name for it: SAS_STR_Finished
+msgid "Finished"
+msgstr "Bitti"
+
+msgid "First Quarter"
+msgstr "İlk Çeyrek"
+
+#. frmMain..actlstMain..actLineEditFitToScreen..Caption
+#. frmMain..actlstMain..actLineEditFitToScreen..Hint
+msgid "Fit to screen"
+msgstr "Ekrana sığdır"
+
+#. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmZoom..Hint
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
+msgid "Fit to Screen"
+msgstr "Ekrana Sığdır"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..GridPanel1..chkFixedCoordPrecision..Caption
+msgid "Fixed Precision"
+msgstr "Sabit Hassasiyet"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType..Text
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType..Text
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..cbbDestType....Items.Strings
+msgid "Folder"
+msgstr "Klasör"
+
+#. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
+#. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
+msgid "Follow GPS Position"
+msgstr "GPS Konumunu Takip Et"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..grpStatBarFont..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..grpScaleLineFont..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..pnlMarkCaptionFont..lblMarksCaptionFontName..Caption
+msgid "Font"
+msgstr "Yazı tipi"
+
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
+#. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
+msgid "Font size"
+msgstr "Yazı Boyutu"
+
+#. Programmer's name for it: SAS_STR_for
+msgid "For"
+msgstr "İçin"
+
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlForcedSchemaName..lblForcedSchemaName..Caption
+msgid "Forced Schema Name:"
+msgstr "Zorunlu Şema Adı:"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
+#. frMapCombineCustomOptions..flwpnlFormat..lblFormat..Caption
+msgid "Format:"
+msgstr "Biçim:"
+
+#, object-pascal-format
+msgid "Found %d items"
+msgstr "%d öğe bulundu"
+
+#. frmMarkCategoryEdit..flwpnlZooms..Label3..Caption
+msgid "from"
+msgstr "buradan"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..tbxtmFromZip..Caption
+msgid "From Archive"
+msgstr "Arşivden"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..tbxtmFromFolder..Caption
+msgid "From Folder"
+msgstr "Klasörden"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..tbxsbmntmLayer..Caption
+msgid "From Layer"
+msgstr "Katmandan"
+
+#. Programmer's name for it: SAS_STR_BattaryStateOnLine
+msgid "From mains"
+msgstr "Şebekeden"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..tbxsbmntmMap..Caption
+msgid "From Map"
+msgstr "Haritadan"
+
+#. frTilesGenPrev..pnlMapSelect..pnlZoom..lblFromZoom..Caption
+msgid "From zoom:"
+msgstr "Yakınlaştırmadan:"
+
+#. frSearchResultsItem..PanelFullDescImg..LabelFullDescImg..Caption
+#. frSearchResultsItem..PanelFullDescShort..LabelFullDescShort..Caption
+msgid "Full Description"
+msgstr "Tam Açıklama"
+
+msgid "Full Moon"
+msgstr "Dolunay"
+
+#. frmMain..actlstMain..actViewFullScreen..Caption
+#. frmMain..actlstMain..actViewFullScreen..Hint
+msgid "Full screen"
+msgstr "Tam ekran"
+
+#. Programmer's name for it: SAS_STR_Gamma
+msgid "Gamma"
+msgstr "Gama"
+
+#. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
+#. frExportToIMG..PageControl1..Map..pnlZooms..lblGarmin..Caption
+msgid "Garmin zoom"
+msgstr "Garmin yakınlaştırma"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Gauss Krueger (6 degree zones) / S-42 "
+msgstr "Gauss Krueger (6 derecelik bölge) / S-42 "
+
+#. Programmer's name for it: SAS_UNITS_gb
+msgid "GB"
+msgstr "GB"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..TBXGenerateId..TBGenerateId..Hint
+msgid "Generate"
+msgstr "Oluştur"
+
+#. frTilesGenPrev..pnlBottom..pnlCenter..chkFromPrevZoom..Caption
+msgid "Generate each zoom from previous one"
+msgstr "Her yakınlaştırmayı bir öncekinden oluştur"
+
+#. frTilesGenPrev..pnlTop..Caption
+msgid "Generate Lower Zooms for Selection"
+msgstr "Seçim için Daha Düşük Yakınlaştırmalar Oluşturun"
+
+#. Programmer's name for it: SAS_STR_OperationGenPrevCaption
+msgid "Generating upper zooms"
+msgstr "Üst yakınlaştırmayı oluşturma"
+
+#. frmPolygonForOperationConfig..Caption
+msgid "Generator Options"
+msgstr "Oluşturucu Seçenekleri"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardGenshtabName..Caption
+msgid "Genshtab boundary name"
+msgstr "Genshtab sınır adı"
+
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..LabelGsh1..Caption
+msgid "Genshtab Map boundaries:"
+msgstr "Genshtab Harita sınırları:"
+
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..CBGenshtabBorderText..Caption
+msgid "Genshtab Map names"
+msgstr "Genshtab Harita adları"
+
+#. frmMain..TBDock..TBXMainMenu..NView..tbsbmGenShtabScale..Caption
+msgid "GenShtab Maps Boundaries"
+msgstr "GenShtab Harita Sınırları"
+
+msgid "GeoCacher root folder:"
+msgstr "GeoCacher kök klasörü:"
+
+msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
+msgstr "Coğrafi (Enlem/Boylam) / WGS84 / EPSG:4326"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Geographic / S-42 (Pulkovo 1942)"
+msgstr "Coğrafi / S-42 (Pulkovo 1942)"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Geographic / WGS84"
+msgstr "Coğrafi / WGS84"
+
+#. frLonLat..grdpnlTop..cbbCoordType..Text
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
+msgid "Geographic Coordinates"
+msgstr "Coğrafi Koordinatlar"
+
+#. Programmer's name for it: rsGlobalMapperCacheName
+msgid "GlobalMapper Tiles"
+msgstr "GlobalMapper Döşemeleri"
+
+msgid "GlobalMapper Tiles (GMT) cache folder:"
+msgstr "GlobalMapperTiles (GMT) önbellek klasörü:"
+
+msgid "GMT tool path is not set or incorrect!"
+msgstr "GMT araçları yolu ayarlanmamış veya yanlış!"
+
+#. frmMain..actlstMain..actShowGoTo..Hint
+#. frmGoTo..pnlBottomButtons..btnGoTo..Caption
+msgid "Go to"
+msgstr "Git"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnGoToMark..Hint
+msgid "Go to selected object"
+msgstr "Seçili nesneye git"
+
+#. frmMain..actlstMain..actShowGoTo..Caption
+#. frmGoTo..Caption
+msgid "Go to..."
+msgstr "Git..."
+
+#. Programmer's name for it: rsGoldenHrEnd
+msgid "Golden hour end"
+msgstr "Mesai bitişi"
+
+#. Programmer's name for it: rsGoldenHrStart
+msgid "Golden hour start"
+msgstr "Mesai başlangıcı"
+
+msgid "GoogleEarth cache folder:"
+msgstr "Google Earth önbellek klasörü:"
+
+#. Programmer's name for it: rsGoogleEarthTerrainCacheName
+msgid "GoogleEarth Terrain"
+msgstr "Google Earth Arazisi"
+
+msgid "GoogleMV cache folder:"
+msgstr "GoogleMV önbellek klasörü:"
+
+#. frmSettings..PageControl1..tsGPSMarker..Caption
+msgid "GPS Marker"
+msgstr "GPS İşaretleyici"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
+msgid "GPS On/Off"
+msgstr "GPS Aç/Kapat"
+
+#. Programmer's name for it: SAS_MSG_UnknownGPSOrigin
+#, object-pascal-format
+msgid "GPS origin misconfiguration: unknown mode %d"
+msgstr "GPS kaynağı yanlış yapılandırması: bilinmeyen mod %d"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType..Caption
+msgid "GPS type"
+msgstr "GPS tipi"
+
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
+msgid "Grid line labels"
+msgstr "Kılavuz çizgi etiketleri"
+
+#. frmSettings..PageControl1..tsGrids..Caption
+msgid "Grids"
+msgstr "Izgaralar"
+
+#. frMergePolygons..tbTop..tbOperationType..tbtmGroup..Caption
+msgid "Group"
+msgstr "Grup"
+
+#. Programmer's name for it: SAS_UNITS_Ha
+msgid "ha"
+msgstr "ha"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarHeight..Caption
+msgid "Height:"
+msgstr "Yükseklik:"
+
+#. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
+msgid "Hide"
+msgstr "Gizle"
+
+#. frmMain..actlstMain..actMapsAllLayersHide..Caption
+msgid "Hide All"
+msgstr "Tümünü Gizle"
+
+#. frmMain..actlstMain..actConfigMarksHide..Hint
+msgid "Hide all placemarks"
+msgstr "Tüm yer işaretlerini gizle"
+
+#. frmMain..actlstMain..actConfigMarksHide..Caption
+msgid "Hide All Placemarks"
+msgstr "Tüm Yer İşaretlerini Gizle"
+
+#. frmFavoriteMapSetEditor..pnlMain..chkMergeLayers..Caption
+msgid "Hide non-selected layers"
+msgstr "Seçilmemiş katmanları gizle"
+
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
+msgid "Hide placemarks"
+msgstr "Yer işaretlerini gizle"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..chkScaleLineHide..Caption
+msgid "Hide Scale Legend"
+msgstr "Ölçek Lejantını Gizle"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarHide..Caption
+#. Programmer's name for it: rsHideStatusBar
+msgid "Hide Status Bar"
+msgstr "Durum çubuğunu gizle"
+
+#. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
+msgid "horizontally:"
+msgstr "yatay:"
+
+#. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
+#. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..lblHotKey..Caption
+#. frmMapTypeEdit..PageControl1..tsOthers..grdpnlHotKey..lblHotKey..Caption
+#. frMapsList..MapList......Caption
+#. frShortCutList..pnlHotKeysHeader..lblHotKey..Caption
+msgid "Hotkey"
+msgstr "Kısayol tuşu"
+
+#. Programmer's name for it: SAS_MSG_HotKeyExists
+msgid "Hotkey in use. Please select another one"
+msgstr "Bu kısayol tuşu kullanımda. Lütfen başka bir tane seçin"
+
+#. frmSettings..PageControl1..tsControl..GroupBox5..Caption
+msgid "Hotkeys"
+msgstr "Kısayol Tuşları"
+
+#, object-pascal-format
+msgid "HTTP %d Bad Request"
+msgstr "HTTP %d Hatalı İstek"
+
+#, object-pascal-format
+msgid "HTTP %d No Content"
+msgstr "HTTP %d İçerik Yok"
+
+#, object-pascal-format
+msgid "HTTP %d Not Found"
+msgstr "HTTP %d Bulunamadı"
+
+#, object-pascal-format
+msgid "HTTP %d Unknown Error"
+msgstr "HTTP %d Bilinmeyen Hata"
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
+msgid "Hybrid"
+msgstr "Hibrit"
+
+#. frmMarkPictureConfig..pnlCaptions..lblIcon..Caption
+#. frMarksGeneralOptions..grpPoint..lblPointIcon..Caption
+msgid "Icon"
+msgstr "Simge"
+
+#. frmMarkPictureEditor..Caption
+msgid "Icon Editor"
+msgstr "Simge Düzenleyici"
+
+#. frJpegImportOptions..grp1..Caption
+msgid "Icon parameters"
+msgstr "Simge parametreleri"
+
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
+#. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
+msgid "Icon size"
+msgstr "Simge boyutu"
+
+#. frJpegImportOptions..grp1..lblPointIconSize..Caption
+msgid "Icon size:"
+msgstr "Simge boyutu:"
+
+#. frmMain..actlstMain..actIconsSettings..Caption
+#. frmMarkPictureConfig..Caption
+msgid "Icons Settings"
+msgstr "Simge Ayarları"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..chkIgnoreTNE..Caption
+msgid "Ignore *.tne"
+msgstr "*.tne'yi yoksay"
+
+#. frMarksGeneralOptions..chkLineIgnore..Caption
+msgid "Ignore paths"
+msgstr "Yolları yoksay"
+
+#. frMarksGeneralOptions..chkPointIgnore..Caption
+msgid "Ignore placemarks"
+msgstr "Yer işaretlerini yoksay"
+
+#. frMarksGeneralOptions..chkPolyIgnore..Caption
+msgid "Ignore polygons"
+msgstr "Çokgenleri yoksay"
+
+msgid "Illumination"
+msgstr "Aydınlık"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
+msgid "Image format:"
+msgstr "Görüntü formatı:"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
+msgid "Image postprocessing"
+msgstr "Görüntü son işleme"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..Caption
+msgid "Image services"
+msgstr "Görüntü hizmetleri"
+
+#. frmDGAvailablePic..Caption
+#. frmDGAvailablePic..Up..gbAvailImages..Caption
+msgid "Images available"
+msgstr "Görüntüler mevcut"
+
+#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
+msgid "Images available (F6+MLeft)"
+msgstr "Mevcut resimler (F6+MLeft)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..lblMapFormat..Caption
+msgid "IMG Format"
+msgstr "IMG Formatı"
+
+#. Programmer's name for it: SAS_STR_ExportIMGPackCaption
+msgid "IMG raster map for Garmin"
+msgstr "Garmin için IMG raster haritası"
+
+#. frmMarksExplorer..pnlBottom..pnlButtons..btnImport..Caption
+msgid "Import"
+msgstr "İçe Aktar"
+
+#, object-pascal-format
+msgid ""
+"Import finished. Total processed: %d files. Successfull imported: %d "
+"files.\n"
+"Fit to screen the last imported item?"
+msgstr ""
+"İçe aktarma tamamlandı. Toplam işlenen: %d dosya. Başarıyla içe "
+"aktarılan: %d dosya.\n"
+"Son içe aktarılan öğeyi ekrana sığdırmak ister misiniz?"
+
+#. frmImportConfigEdit..Caption
+msgid "Import Parameters"
+msgstr "Parametreleri İçe Aktar"
+
+#. frMapCombineCustomOptions..chkPngWithAlpha..Caption
+msgid "Include alpha channel"
+msgstr "Alfa kanalını dahil et"
+
+#. Programmer's name for it: SAS_ERR_MapGUIDBad
+#, no-object-pascal-format
+msgid "Incorrect GUID: %0:s"
+msgstr "Yanlış GUID: %0:s"
+
+#. frmMain..actlstMain..actConfigUseInertialMovement..Caption
+msgid "Inertial Movement"
+msgstr "Atalet Hareketi"
+
+#. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
+msgid "Info"
+msgstr "Bilgi"
+
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
+msgid "Input Vars"
+msgstr "Değişkenleri Gir"
+
+#. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
+msgid "Interface"
+msgstr "Arayüz"
+
+#. Programmer's name for it: SInterfaceIsNilError
+#. Programmer's name for it: SInterfaceIsNilError
+#. Programmer's name for it: SInterfaceIsNilError
+msgid "Interface is nil"
+msgstr "Arayüz sıfır"
+
+#. frmMain..actlstMain..actConfigInterfaceOptionsShow..Caption
+#. frmMapLayersOptions..Caption
+msgid "Interface Options"
+msgstr "Arayüz Seçenekleri"
+
+#. Programmer's name for it: SAS_ERR_ETS_NotImplemented
+msgid "Interface to external tile storage not implemented"
+msgstr "Harici döşeme depolama arabirimi uygulanmadı"
+
+#. frmMain..actlstMain..actConfigDownloadModeInternet..Caption
+#. frmMapTypeEdit..PageControl1..tsInternet..Caption
+#. frmSettings..PageControl1..tsInternet..Caption
+msgid "Internet"
+msgstr "İnternet"
+
+#. frmMain..actlstMain..actConfigDownloadModeCacheInternet..Caption
+msgid "Internet && Cache"
+msgstr "İnternet && Önbellek"
+
+#. frMergePolygons..tbTop..tbOperationType..tbtmAND..Caption
+msgid "Intersection (AND)"
+msgstr "Kesişim (AND)"
+
+#. Programmer's name for it: rsInvalidDelete
+#, object-pascal-format
+msgid ""
+"Invalid Delete: Object is still have active interface ref's! (Ref "
+"count: %d)"
+msgstr ""
+"Geçersiz Silme: Nesnenin hala aktif arayüz referansları var! (Ref "
+"sayısı: %d)"
+
+#, object-pascal-format
+msgid "Invalid Volume Size value: %s"
+msgstr "Geçersiz Birim Boyutu değeri: %s"
+
+#. Programmer's name for it: SAS_STR_ExportIPhone128Caption
+msgid "iPhone (version 2.2 and above, 128x128)"
+msgstr "iPhone (sürüm 2.2 ve üzeri, 128x128)"
+
+#. Programmer's name for it: SAS_STR_ExportIPhone64Caption
+msgid "iPhone (version prior to 2.2, 64x64)"
+msgstr "iPhone (2.2, 64x64'ten önceki sürüm)"
+
+#. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
+msgid "It's allowed to use \\ as a path delimiter"
+msgstr "Yol sınırlayıcı olarak kullanılmasına izin verilir"
+
+#. Programmer's name for it: SAS_STR_ExportJNXPackCaption
+msgid "JNX raster map for Garmin"
+msgstr "Garmin için JNX raster haritası"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..LVersion..Caption
+msgid "JNX version:"
+msgstr "JNX sürümü:"
+
+#. frmJpegImportConfigEdit..Caption
+msgid "Jpeg Import Parameters"
+msgstr "Jpeg İçe Aktarma Parametreleri"
+
+#. frExportRMP..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
+msgid "JPEG quality:"
+msgstr "JPEG kalitesi:"
+
+#. Programmer's name for it: SAS_UNITS_kb
+msgid "KB"
+msgstr "KB"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..chkKeepTempFiles..Caption
+msgid "Keep temporarily files"
+msgstr "Geçici dosyaları tut"
+
+#. Programmer's name for it: SAS_UNITS_km
+msgid "km"
+msgstr "km"
+
+#. Programmer's name for it: SAS_UNITS_kmperh
+msgid "km/h"
+msgstr "km/s"
+
+#. Programmer's name for it: SAS_UNITS_km2
+msgid "km2"
+msgstr "km2"
+
+#. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
+msgid "KML (for Google Earth)"
+msgstr "KML (Google Earth için)"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..Caption
+msgid "Kosmosnimki"
+msgstr "Kosmosnimki"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkSearchKosmosnimki..Caption
+msgid "Kosmosnimki (search.kosmosnimki.ru)"
+msgstr "Kosmosnimki (search.kosmosnimki.ru)"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..Caption
+msgid "KS+Storage"
+msgstr "KS+Depolama"
+
+#. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
+msgid "Language"
+msgstr "Dil"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+msgid "Large"
+msgstr "Büyük"
+
+#. frmProgressCacheConverter..lblLastTileName..Caption
+msgid "Last name:"
+msgstr "Soyadı:"
+
+msgid "Last Quarter"
+msgstr "Son Çeyrek"
+
+#. frmMain..actlstMain..actSelectByLastSelection..Caption
+msgid "Last Selection"
+msgstr "Son Seçim"
+
+#. frmMain..TBDock..TBXMainMenu..NView..DegreedLinesSubMenu..Caption
+msgid "Lat/Lon Grid"
+msgstr "Enlem/Boylam Izgarası"
+
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..LabelDeg1..Caption
+msgid "Lat/Lon grid:"
+msgstr "Enlem/Boylam Izgarası:"
+
+#. Programmer's name for it: SAS_ERR_LonLat2
+msgid ""
+"Latitude of upper left corner must be less than \n"
+"latitude of lower right corner"
+msgstr ""
+"Sol üst köşenin enlemi şundan küçük olmalıdır:\n"
+"sağ alt köşenin enlemi"
+
+#. frLonLat..grdpnlLonLat..lblLat..Caption
+msgid "Latitude:"
+msgstr "Enlem:"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..ChBoxFirstLat..Caption
+msgid "Latitude-Longitude order"
+msgstr "Enlem-Boylam sırası"
+
+msgid "Layer"
+msgstr "Katman"
+
+#. frmMain..MainPopupMenu..TBLayerInfo..Caption
+msgid "Layer Info"
+msgstr "Katman Bilgisi"
+
+#. frmMain..TBDock..TBXMainMenu..NParams..NLayerParams..Caption
+msgid "Layer Settings"
+msgstr "Katman Ayarları"
+
+#. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
+#. frMapSelect..FilterPopupMenu..TBX_Layers..Caption
+#. Programmer's name for it: SAS_STR_Layers
+msgid "Layers"
+msgstr "Katmanlar"
+
+#, object-pascal-format
+msgid "Layers (%d)"
+msgstr "Katmanlar (%d)"
+
+#. frmFavoriteMapSetEditor..pnlMain..chkLayers..Caption
+msgid "Layers:"
+msgstr "Katmanlar:"
+
+#. Programmer's name for it: SAS_STR_L
+msgid "Length"
+msgstr "Uzunluk"
+
+#, object-pascal-format
+msgid "Length: %s"
+msgstr "Uzunluk: %s"
+
+#. frmAbout..pnlBottom..btnLicense..Caption
+msgid "License"
+msgstr "Lisans"
+
+#. frExportToIMG..dlgSetMapCompilerLicensePath..Filter
+msgid "License Files (*.mpl)|*.mpl"
+msgstr "Lisans Dosyaları (*.mpl)|*.mpl"
+
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLine..Caption
+#. frmMarkEditPoly..pnlLine..lblLine..Caption
+msgid "Line:"
+msgstr "Hat:"
+
+#. Programmer's name for it: SListCapacityError
+#. Programmer's name for it: SListCapacityError
+#, object-pascal-format
+msgid "List capacity out of bounds (%d)"
+msgstr "Liste kapasitesi sınır dışı (%d)"
+
+#. Programmer's name for it: SListCountError
+#. Programmer's name for it: SListCountError
+#, object-pascal-format
+msgid "List count out of bounds (%d)"
+msgstr "Sınır dışı liste sayısı (%d)"
+
+#. Programmer's name for it: SListIndexError
+#. Programmer's name for it: SListIndexError
+#, object-pascal-format
+msgid "List index out of bounds (%d)"
+msgstr "Liste dizini sınır dışı (%d)"
+
+msgid "Listings"
+msgstr "Listeler"
+
+#. frmMain..actlstMain..actSelectBySelectionFromFile..Caption
+msgid "Load from File"
+msgstr "Dosyadan yükle"
+
+#. Local time
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeMenuItemName
+msgid "Local time"
+msgstr "Yerel zaman"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeCaption
+msgid "Local time:"
+msgstr "Yerel zaman:"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBlock_toolbars..Caption
+msgid "Lock toolbars"
+msgstr "Araç çubuklarını kilitle"
+
+#. frmMain..actlstMain..actViewToolbarsLock..Caption
+msgid "Lock Toolbars"
+msgstr "Araç Çubuklarını Kilitle"
+
+#. Programmer's name for it: SAS_ERR_LonLat1
+msgid ""
+"Longitude of upper left corner must be less than \n"
+"longitude of lower right corner"
+msgstr ""
+"Sol üst köşenin boylamı şundan küçük olmalıdır:\n"
+"sağ alt köşenin boylamı"
+
+#. frLonLat..grdpnlLonLat..lblLon..Caption
+msgid "Longitude:"
+msgstr "Boylam:"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkLowResolutionToo..Caption
+msgid "Low Resolution too"
+msgstr "Düşük Çözünürlük dahil"
+
+#. frmLonLatRectEdit..grdpnlMain..grpBottomRight..Caption
+msgid "Lower right corner"
+msgstr "Sag alt köşe"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap2..Caption
+#. Programmer's name for it: SAS_UNITS_m
+msgid "m"
+msgstr "m"
+
+#. Programmer's name for it: SAS_UNITS_m2
+msgid "m2"
+msgstr "m2"
+
+#. frmMain..TBDock..TBMainToolBar..Caption
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NMainToolBarShow..Caption
+msgid "Main"
+msgstr "Ana"
+
+#. frmMain..TBDock..TBXMainMenu..Caption
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
+msgid "Make by Placemark"
+msgstr "Yer İşaretine Göre Yap"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
+msgid "Make Polygon"
+msgstr "Çokgen Yap"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
+msgid "Make subfolder with map path name"
+msgstr "Harita yolu adıyla alt klasör oluştur"
+
+#. frExportMBTiles..pnlCenter..pnlMain..chkMakeTileMillStruct..Caption
+msgid "Make TileMill compatible structure"
+msgstr "TileMill uyumlu yapı oluştur"
+
+#. frmMain..actlstMain..actFavoriteManage..Caption
+msgid "Manage"
+msgstr "Yönet"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbManualProxy..Caption
+msgid "Manual proxy configuration"
+msgstr "El ile proxy yapılandırması"
+
+#. frExportToIMG..PageControl1..Map..Caption
+#. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
+#. frExportToJNX..PageControl1..Map..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
+msgid "Map"
+msgstr "Harita"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..lblCodePage..Caption
+msgid "Map Code Page"
+msgstr "Harita Kodu Sayfası"
+
+msgid "Map compilation failed."
+msgstr "Harita derlemesi başarısız."
+
+#, object-pascal-format
+msgid ""
+"Map compilation failed. The map compiler reported the following "
+"error: %s"
+msgstr ""
+"Harita derlemesi başarısız oldu. Harita derleyicisi şu hatayı aldı: "
+"%s"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..CheckEnabled..Caption
+msgid "Map enabled"
+msgstr "Harita etkin"
+
+#, object-pascal-format
+msgid ""
+"Map has unknown projection (EPSG=%d).\n"
+"Do you want to set the projection manually?"
+msgstr ""
+"Harita bilinmeyen bir projeksiyona sahip (EPSG=%d).\n"
+"Projeksiyonu elle ayarlamak ister misiniz?"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..lblMapID..Caption
+msgid "Map ID"
+msgstr "Harita ID (Kimliği)"
+
+#. frmMain..MainPopupMenu..NMapInfo..Caption
+msgid "Map Info"
+msgstr "Harita Bilgisi"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..LMapName..Caption
+#. frExportToCE..pnlCenter..pnlMain..CMapName..Caption
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+#. frMapsList..MapList......Caption
+msgid "Map Name"
+msgstr "Harita Adı"
+
+#. frExportToIMG..PageControl1..Map..pnlMapName..lblMapName..Caption
+msgid "Map Name:"
+msgstr "Harita Adı:"
+
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder..Text
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+msgid "Map Number"
+msgstr "Harita Numarası"
+
+#. frmMain..actlstMain..actConfigProjectionOfMapUse..Caption
+msgid "Map Original Projection (from zmp)"
+msgstr "Harita Orijinal Projeksiyonu (zmp'den)"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..lblMapSeries..Caption
+msgid "Map Series"
+msgstr "Harita Serisi"
+
+#. frmMain..actlstMain..actMapsEditMapParams..Caption
+msgid "Map Settings"
+msgstr "Harita Ayarları"
+
+#. Programmer's name for it: SAS_STR_EditMap
+msgid "Map Settings:"
+msgstr "Harita Ayarları:"
+
+#. frmMain..MainPopupMenu..NMapStorageInfo..Caption
+msgid "Map Storage Info"
+msgstr "Harita Depolama Bilgileri"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlVersion..lblVersion..Caption
+msgid "Map Version:"
+msgstr "Harita Sürümü:"
+
+#. frDeleteTiles..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frTilesDownload..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportToFileCont..pnlCenter..pnlMain..pnlFrame..lblMap..Caption
+#. frExportAUX..pnlCenter..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+#. frExportKml..pnlCenter..pnlMain..lblMap..Caption
+#. frExportToCE..pnlCenter..pnlMain..lblMap..Caption
+#. frTilesGenPrev..pnlMapSelect..pnlFrame..lblMapCaption..Caption
+msgid "Map/Overlay layer:"
+msgstr "Harita/Kaplama katmanı:"
+
+#. frmFavoriteMapSetEditor..pnlMain..chkMap..Caption
+#. frMapCombine..pnlMapSelect..pnlMaps..pnlMapFrame..lblMapCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblMap..Caption
+#. frExportToIMG..PageControl1..Map..pnlListMaps..pnlMaps..lblMap..Caption
+#. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblMap..Caption
+#. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblMap..Caption
+msgid "Map:"
+msgstr "Harita:"
+
+#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmenuMap..Caption
+#. frMapSelect..FilterPopupMenu..TBX_Maps..Caption
+#. frmSettings..PageControl1..tsMaps..Caption
+#. Programmer's name for it: SAS_STR_Maps
+msgid "Maps"
+msgstr "Haritalar"
+
+#, object-pascal-format
+msgid "Maps (%d)"
+msgstr "Haritalar (%d)"
+
+#. frmMain..actlstMain..actViewFillingMapMarkExisting..Caption
+msgid "Mark Existing Tiles"
+msgstr "Mevcut Döşemeleri İşaretle"
+
+#. frmMarkInfo..Caption
+msgid "Mark Info"
+msgstr "İşaret Bilgileri"
+
+#. frmMain..actlstMain..actViewFillingMapMarkUnexisting..Caption
+msgid "Mark Nonexistent Tiles"
+msgstr "Varolmayan Döşemeleri İşaretle"
+
+msgid "Marks"
+msgstr "İşaretler"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Hint
+msgid "Marks database"
+msgstr "İşaretler Veritabanı"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Caption
+msgid "Marks Database"
+msgstr "İşaretler Veritabanı"
+
+#. frmMarksExportConfig..Caption
+msgid "Marks Export Config"
+msgstr "İşaretleri Dışa Aktarma Yapılandırması"
+
+#. frmMarksMultiEdit..Caption
+msgid "Marks Parameters"
+msgstr "İşaret Parametreleri"
+
+#, object-pascal-format
+msgid "MarkSystemConfig: Item #%d Database GUID read error!"
+msgstr "MarkSystemConfig: #%d Öğesi Veritabanı GUID okuma hatası!"
+
+#. ORM
+#, object-pascal-format
+msgid "MarkSystemConfig: Item #%d has unknown Impl GUID: %s"
+msgstr "MarkSystemConfig: Öğe #%d, bilinmeyen Impl GUID'sine sahip: %s"
+
+#. ORM
+#, object-pascal-format
+msgid "MarkSystemConfig: Item #%d has unknown Impl interface!"
+msgstr "MarkSystemConfig: Öğe #%d, bilinmeyen Impl arabirimine sahip!"
+
+#, object-pascal-format
+msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
+msgstr "MarkSystemConfig: Öğe #%d Impl GUID okuma hatası!"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
+msgid "Max concurrent http(s)-requests number:"
+msgstr "Maksimum eşzamanlı http-istek sayısı:"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
+msgid "Max number of simultaneous connections per server"
+msgstr "Sunucu başına maksimum eşzamanlı bağlantı sayısı"
+
+#. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
+msgid "Max volume size, Mb"
+msgstr "Maks. birim boyutu, MB"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedCaption
+msgid "Max.speed, km/h:"
+msgstr "Maks. hız, km/s:"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
+msgid "Maximum number of track points:"
+msgstr "Maksimum iz noktası sayısı:"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedMenuItemName
+msgid "Maximum speed"
+msgstr "Azami hız"
+
+#. Programmer's name for it: SAS_UNITS_mb
+msgid "MB"
+msgstr "MB"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+msgid "Medium"
+msgstr "Orta"
+
+#. frMapsList..MapList......Caption
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
+msgstr ""
+"Merkatör / Google Haritalar (Çember Yarıçapı 6378137) / EPSG:3785"
+
+msgid "Mercator / WGS84 / EPSG:3395"
+msgstr "Merkatör / WGS84 / EPSG:3395"
+
+#. Programmer's name for it: rsMergeFail
+msgid "Merge failed!"
+msgstr "Birleştirme başarısız!"
+
+#. frMergePolygons..tbTop..tbMerge..Caption
+msgid "Merge polygons"
+msgstr "Çokgenleri birleştir"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxMergePolygonsShow..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..tbxMergePolygonsShow1..Caption
+#. frmMain..TBDockLeft..tbMergePolygons..Caption
+msgid "Merge Polygons"
+msgstr "Çokgenleri Birleştir"
+
+#. Programmer's name for it: rsMergeFinish
+#, object-pascal-format
+msgid ""
+"Merge process completed successfully!\n"
+"Result contains %d polygon(s) with %d hole(s)"
+msgstr ""
+"Birleştirme işlemi başarıyla tamamlandı!\n"
+"Sonuç %d çokgen ile %d boşluk içeriyor"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC3..Caption
+msgid "Meteor-M1"
+msgstr "Meteor-M1"
+
+#. Programmer's name for it: rsMidnight
+msgid "Midnight"
+msgstr "Gece yarısı"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
+msgid "Minimap opacity"
+msgstr "Mini-harita opaklığı"
+
+#. frmProgressCacheConverter..pnlBottom..btnMinimize..Caption
+msgid "Minimize"
+msgstr "Küçült"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBMinimizeToTray..Caption
+msgid "Minimize to tray"
+msgstr "Tepsiye küçült"
+
+msgid "MOBAC cache folder:"
+msgstr "MOBAC önbellek klasörü:"
+
+#. for Symbian prior v3.91 and Android prior v1.72
+#. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
+msgid "Mobile Yandex.Maps (cache v3)"
+msgstr "Mobil Yandex.Haritalar (önbellek v3)"
+
+#. for Symbian v3.91..v3.96 and Android v1.72..v3.99
+#. Programmer's name for it: SAS_STR_ExportYaMobileV4Caption
+msgid "Mobile Yandex.Maps (cache v4)"
+msgstr "Mobil Yandex.Haritalar (önbellek v4)"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..Caption
+msgid "Modify"
+msgstr "Değiştir"
+
+#. frmMain..actlstMain..actViewMoonCalc..Caption
+#. Programmer's name for it: rsMoonCalcCaption
+msgid "Moon Calculator"
+msgstr "Ay Hesaplayıcı"
+
+#. Programmer's name for it: SAS_ERR_Ban
+msgid "Most likely you've been banned by the server!"
+msgstr "Büyük olasılıkla sunucu tarafından yasaklandınız!"
+
+#. frmSettings..PageControl1..tsControl..GroupBox1..Caption
+msgid "Mouse wheel"
+msgstr "Fare tekerleği"
+
+#. frmMain..actlstMain..actMoveMap..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkDeleteSource..Caption
+msgid "Move"
+msgstr "Hareket ettir"
+
+#. frFavoriteMapSetManager..pnlRightButtons..btnDown..Caption
+msgid "Move Down"
+msgstr "Aşağı Taşı"
+
+#. frMergePolygons..tbTop..tbDown..Hint
+msgid "Move selected item Down (Shift + Down Arrow)"
+msgstr "Seçili öğeyi aşağı taşı (Shift + Aşağı Ok)"
+
+#. frMergePolygons..tbTop..tbUp..Hint
+msgid "Move selected item Up (Shift + Up Arrow)"
+msgstr "Seçili öğeyi yukarı taşı (Shift + Yukarı Ok)"
+
+#. frFavoriteMapSetManager..pnlRightButtons..btnUp..Caption
+msgid "Move Up"
+msgstr "Yukarı Taşı"
+
+msgid "MPC compiler path is not set or incorrect!"
+msgstr "MPC derleyici yolu ayarlanmamış veya yanlış!"
+
+msgid "My Marks"
+msgstr "Yer İşaretlerim"
+
+#. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
+#. frmMarkPictureConfig..pnlCaptions..lblName..Caption
+#. frmMarkCategoryEdit..pnlName..Label1..Caption
+msgid "Name"
+msgstr "Ad"
+
+#. frmMarkSystemConfigEdit..grpDisplayName..Caption
+msgid "Name (on the list)"
+msgstr "Ad (listede)"
+
+#. frmFavoriteMapSetEditor..pnlMain..lblName..Caption
+#. frmMarkEditPath..pnlName..lblName..Caption
+#. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
+#. frmMarkEditPoly..pnlName..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
+msgid "Name:"
+msgstr "Ad:"
+
+#, object-pascal-format
+msgid "Name: %s"
+msgstr "Ad: %s"
+
+#. Cache tab
+msgid "Native cache folder:"
+msgstr "Yerel önbellek klasörü:"
+
+#. Programmer's name for it: rsNauticalEnd
+msgid "Nautical twilight end"
+msgstr "Deniz alacakaranlık sonu"
+
+#. Programmer's name for it: rsNauticalStart
+msgid "Nautical twilight start"
+msgstr "Deniz alacakaranlık başlangıcı"
+
+#. frmMain..MainPopupMenu..NMarkNav..Caption
+msgid "Navigate to Placemark"
+msgstr "Yer İşaretine Git"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnNavOnMark..Hint
+msgid "Navigate to selected placemark"
+msgstr "Seçili yer işaretine git"
+
+#. frmMain..actlstMain..actViewNavigation..Caption
+msgid "Navigation Arrow"
+msgstr "Navigasyon Oku"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlNetworkEngine..lbl3..Caption
+msgid "Network engine:"
+msgstr "Ağ motoru:"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlDownloadTimeOut..Label32..Caption
+msgid "Network operations timeout, ms"
+msgstr "Ağ işlemleri zaman aşımı, ms"
+
+#. frMarkCategorySelectOrAdd..CBKateg..Text
+#. frmMarkEditPoly..pnlCategory..CBKateg..Text
+#. Programmer's name for it: SAS_STR_NewCategory
+msgid "New Category"
+msgstr "Yeni Kategori"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat..Text
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat....Items.Strings
+msgid "New Format"
+msgstr "Yeni Biçim"
+
+msgid "New Moon"
+msgstr "Yeni Ay"
+
+#. frmMain..actlstMain..actViewSelectNextMapWithTile..Caption
+msgid "Next map with tile"
+msgstr "Döşemeli sonraki harita"
+
+#. frmMain..actlstMain..actViewSelectNextMapVersion..Caption
+msgid "Next version"
+msgstr "Sonraki sürüm"
+
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatNice..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+msgid "Nice"
+msgstr "Nice"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..CBinvertcolor..Caption
+msgid "Night mode (color inversion)"
+msgstr "Gece Modu (renk dönüşümü)"
+
+#. frmMain..actlstMain..actConfigColorInversion..Caption
+msgid "Night Mode (Color Inversion)"
+msgstr "Gece Modu (Renk Dönüşümü)"
+
+#. frmUpdateChecker..cbbChannel....Items.Strings
+msgid "Nightly (testing)"
+msgstr "Nightly (test sürümü)"
+
+#. frmMain..actlstMain..actViewGridGenShtabNo..Caption
+#. frmMain..actlstMain..actViewGridLonLatNo..Caption
+#. frmShortCutEdit..pnlBottom..btnClear..Caption
+#. Programmer's name for it: SAS_STR_No
+msgid "No"
+msgstr "Hayır"
+
+#. Programmer's name for it: SAS_MSG_NoGPSdetected
+msgid "No GPS receiver found"
+msgstr "GPS alıcısı bulunamadı"
+
+msgid "No one polygon selected!"
+msgstr "Çokgen seçilmedi!"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbNoProxy..Caption
+msgid "No proxy"
+msgstr "Proxy yok"
+
+#. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
+msgid "No source for Fly-on-Track mode"
+msgstr "Fly-on-Track modu için kaynak yok"
+
+#. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
+msgid "No space available at external tile storage"
+msgstr "Harici döşeme deposunda yer yok"
+
+msgid "No tiles to export!"
+msgstr "Dışa aktarılacak döşeme yok!"
+
+msgid "No write access to current Marks DB!"
+msgstr "Mevcut Marks DB'ye yazma erişimi yok!"
+
+#. Programmer's name for it: rsNoWriteAccess
+msgid "No write access to tile storage"
+msgstr "Döşeme deposuna yazma erişimi yok"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
+#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+msgid "None"
+msgstr "Hiçbiri"
+
+#. Programmer's name for it: rsNoon
+msgid "Noon"
+msgstr "Öğle"
+
+msgid "Normal"
+msgstr "Normal"
+
+#. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
+msgid "North"
+msgstr "Kuzey"
+
+msgid "Not allowed:"
+msgstr "İzin verilmedi:"
+
+msgid "Not Found"
+msgstr "Bulunamadı"
+
+msgid "Not found \"params.txt\" in zmp"
+msgstr "ZMP'de \"params.txt\" bulunamadı"
+
+msgid "Not found PARAMS section in zmp"
+msgstr "ZMP'de PARAMS bölümü bulunamadı"
+
+#. Programmer's name for it: SAS_STR_notfound
+msgid "Nothing found on current map."
+msgstr "Mevcut haritada hiçbir şey bulunamadı."
+
+msgid "Nothing to copy: URL is empty!"
+msgstr "Kopyalanacak bir şey yok: URL boş!"
+
+msgid "Nothing to delete - GPS track is empty."
+msgstr "Silinecek bir şey yok - GPS izi boş."
+
+msgid "Nothing to import!"
+msgstr "İçe aktarılacak bir şey yok!"
+
+#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingsCount..Caption
+msgid "Number of rings"
+msgstr "Halka sayısı"
+
+#. Programmer's name for it: SAS_STR_filesnum
+msgid "Number of tiles"
+msgstr "Döşeme sayısı"
+
+#. frmSettings..PageControl1..tsCache..flwpnlMemCache..Label30..Caption
+msgid "Number of tiles to be cached in RAM"
+msgstr "RAM'de önbelleğe alınacak döşeme sayısı"
+
+#, no-object-pascal-format
+msgid "Number of tiles: %0:sx%1:s (%2:s), size: %3:sx%4:s pix"
+msgstr "Döşeme sayısı: %0:sx%1:s (%2:s), Boyut: %3:sx%4:s pix"
+
+#. frmMain..tbxpmnScaleLine..tbxsbmScaleLineNumberFormat..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat..Caption
+msgid "Numbers Format"
+msgstr "Sayı Biçimi"
+
+#. Programmer's name for it: SObjectIsNilError
+msgid "Object is nil"
+msgstr "Nesne sıfır"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1MenuItemName
+msgid "Odometer"
+msgstr "Kilometre sayacı"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2MenuItemName
+msgid "Odometer #2"
+msgstr "Kilometre sayacı #2"
+
+#, object-pascal-format
+msgid "Offline search (%s)"
+msgstr "Çevrimdışı arama (%s)"
+
+#. Programmer's name for it: SAS_STR_ExportOgf2PackCaption
+msgid "Ogf2 map for SmartComGPS 1.5x"
+msgstr "SmartComGPS 1.5x için Ogf2 haritası"
+
+#. frExportToOgf2..pnlCenter..pnlMain..lblImageFormat..Caption
+msgid "OGF2 tiles format:"
+msgstr "OGF2 döşeme formatı:"
+
+#. frExportToOgf2..pnlCenter..pnlMain..lblTileRes..Caption
+msgid "OGF2 tiles resolution:"
+msgstr "OGF2 döşeme çözünürlüğü:"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
+msgid "Old after days"
+msgstr "Bu günden eski"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat....Items.Strings
+msgid "Old Format"
+msgstr "Eski Biçim"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat....Items.Strings
+msgid "Old Format in GMP"
+msgstr "GMP'de Eski Biçim"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeTileMatrixDraft..lblResizeTileMatrixDraft..Caption
+msgid "On change zoom draft"
+msgstr "Yakınlaştırma taslağını değiştirdiğinde"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlDownloadResize..lblDownloadResize..Caption
+msgid "On download"
+msgstr "İndirilirken"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeGetPre..lblResizeGetPre..Caption
+msgid "On get from lower zoom"
+msgstr "Daha düşük yakınlaştırmadan alırken"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResizeOnload..lblResizeOnLoad..Caption
+msgid "On load from cache"
+msgstr "Önbellekten yüklenirken"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlProjectionChange..lblProjectionChange..Caption
+msgid "On projection change"
+msgstr "Projeksiyon değişikliğinde"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmHelp..Hint
+msgid "On-Line Help"
+msgstr "Çevrimiçi Yardım"
+
+#. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..pnlReplaceOlder..lblReplaceOlder..Caption
+#. frTilesDownload..pnlCenter..pnlMain..pnlLoadIfTneParams..pnlLoadIfTneOld..lblLoadIfTneOld..Caption
+msgid "only created before"
+msgstr "sadece daha önce oluşturulanlar"
+
+#. frTilesDownload..pnlCenter..pnlMain..pnlTileReplaceCondition..chkReplaceIfDifSize..Caption
+msgid "only if different"
+msgstr "sadece farklıysa"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label29..Caption
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..flwpnlTileBorders..Label28..Caption
+#. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh3..Caption
+#. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..flwpnlDegreeBorders..LabelDeg3..Caption
+msgid "Opacity"
+msgstr "Opaklık"
+
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextTransp..Caption
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowAlfa..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextTransp..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowAlfa..Caption
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineTransp..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineTransp..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFillTransp..Caption
+#. frmMarkEditPath..flwpnlStyle..lblTransp..Caption
+#. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
+#. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
+#. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
+#, no-object-pascal-format
+msgid "Opacity %"
+msgstr "Opaklık %"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarBackgroundOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineColorOpacity..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineOutlineOpacity..Caption
+msgid "Opacity:"
+msgstr "Opaklık:"
+
+#. frmMain..actlstMain..actHelpOpenCommunity..Caption
+msgid "Open Forum Page"
+msgstr "Forum Sayfasını Aç"
+
+#. frmMain..actlstMain..actHelpOpenWebSite..Caption
+msgid "Open Home Page"
+msgstr "Anasayfayı Aç"
+
+#. frmMain..MainPopupMenu..TBOpenDirLayer..Caption
+msgid "Open Overlay Layer Tile Folder"
+msgstr "Kaplama Katmanı Döşeme Klasörünü Aç"
+
+#. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
+msgid "Open Primary Map Tile Folder"
+msgstr "Birincil Harita Döşeme Klasörünü Aç"
+
+#. Programmer's name for it: rsOpenManual
+msgid "Open the Manual (online)"
+msgstr "Kılavuzu Aç (çevrimiçi)"
+
+#. frmMain..actlstMain..actHelpOpenOnline..Caption
+msgid "Open User Manual"
+msgstr "Kullanım Kılavuzunu Aç"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxsbmntmOpen..Hint
+msgid "Open zmp"
+msgstr "ZMP'yi aç"
+
+#. frmMain..actlstMain..actFileOpen..Caption
+msgid "Open..."
+msgstr "Aç..."
+
+#. frmMain..actlstMain..actConfigScaleLineOptionsShow..Caption
+#. frmMain..actlstMain..actConfigOptionsShow..Caption
+#. frmMain..actlstMain..actConfigGpsOptionsShow..Caption
+#. frmMarkSystemConfigEdit..grpOptions..Caption
+#. frmSettings..Caption
+msgid "Options"
+msgstr "Seçenekler"
+
+#. Programmer's name for it: rsOptions
+msgid "Options..."
+msgstr "Seçenekler..."
+
+#. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
+msgid "Order by:"
+msgstr "Şuna göre sırala:"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
+msgid "Other"
+msgstr "Diğer"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..CB_GPSAutodetectCOMOthers..Caption
+msgid "Others"
+msgstr "Diğerleri"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineOutlineColor..Caption
+msgid "Outline color:"
+msgstr "Dış çizgi rengi:"
+
+msgid "Output file name is not set or incorrect!"
+msgstr "Çıktı dosya adı ayarlanmamış veya yanlış!"
+
+#. frTilesCopy..pnlCenter..pnlMain..lblNamesType..Caption
+msgid "Output format"
+msgstr "Çıktı formatı"
+
+msgid "Output format:"
+msgstr "Çıktı formatı:"
+
+#. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
+#. frExportRMP..pnlCenter..pnlMain..lblOverlay..Caption
+msgid "Overlay layer:"
+msgstr "Kaplama katmanı:"
+
+#. frmMain..actlstMain..actConfigMiniMapVisible..Caption
+msgid "Overview Map"
+msgstr "Genel Bakış Haritası"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkOverwrite..Caption
+#. frTilesGenPrev..pnlBottom..pnlCenter..chkReplace..Caption
+msgid "Overwrite existing tiles"
+msgstr "Mevcut döşemelerin üzerine yaz"
+
+#. frTilesCopy..pnlCenter..pnlMain..chkReplaseTarget..Caption
+msgid "Overwrite if equal"
+msgstr "Eşitse üzerine yaz"
+
+#. frTilesDownload..pnlCenter..pnlMain..chkReplace..Caption
+msgid "Overwrite old tiles"
+msgstr "Eski döşemelerin üzerine yaz"
+
+#. Programmer's name for it: SAS_STR_ExportCEPackCaption
+msgid "Packed cache for SAS4WinCE/SAS4Android"
+msgstr "SAS4WinCE/SAS4Android için paketlenmiş önbellek"
+
+#. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
+#. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
+msgid "Parameter"
+msgstr "Parametre"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
+msgid "Params"
+msgstr "Parametreler"
+
+#. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
+msgid "Parent submenu"
+msgstr "Üst alt menü"
+
+#, object-pascal-format
+msgid "Parts count: %d"
+msgstr "Parça sayısı: %d"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
+msgid "Password"
+msgstr "Parola"
+
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..lblPass..Caption
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyPass..Caption
+msgid "Password:"
+msgstr "Parola:"
+
+#. frmMarksExplorer..tbpmnMarks..tbitmPaste..Caption
+msgid "Paste"
+msgstr "Yapıştır"
+
+#. frLonLat..grdpnlTop..pnlButtons..btnPaste..Hint
+msgid "Paste coordinates from clipboard"
+msgstr "Koordinatları panodan yapıştır"
+
+#. Programmer's name for it: SAS_STR_NewPath
+#, no-object-pascal-format
+msgid "Path %0:d"
+msgstr "Yol %0:d"
+
+#. frMarksGeneralOptions..grpLine..Caption
+msgid "Path parameters"
+msgstr "Yol parametreleri"
+
+#. frExportToIMG..PageControl1..Settings..pnlGMT..pnlGMTTop..lblGMTPath..Caption
+msgid "Path to GMT.exe:"
+msgstr "GMT.exe'nin dosya yolu:"
+
+msgid "Path to gps tracks"
+msgstr "GPS İzleri dosya yolu"
+
+#. frExportToIMG..PageControl1..Settings..pnlLicense..lblMapCompilerLicensePath..Caption
+msgid "Path to map compiler license:"
+msgstr "Derleyici lisans eşleme yolu:"
+
+#. frExportToIMG..PageControl1..Settings..pnlCompiler..lblMapCompilerPath..Caption
+msgid "Path to map compiler:"
+msgstr "Harita derleyicisinin yolu:"
+
+#. Path tab
+msgid "Path to Maps"
+msgstr "Haritalar dosya yolu"
+
+msgid "Path to Marks database"
+msgstr "İşaretler veritabanı dosya yolu"
+
+msgid "Path to marks icon"
+msgstr "İşaretler simgeleri dosya yolu"
+
+msgid "Path to MediaData"
+msgstr "MediaData yolu"
+
+msgid "Path to Terrain data"
+msgstr "Arazi Verileri yolu"
+
+msgid "Path to user data"
+msgstr "Kullanıcı Verileri dosya yolu"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..lblPath..Caption
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestPath..Caption
+msgid "Path:"
+msgstr "Yol:"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
+msgid "Pathname to Tile in Cache"
+msgstr "Önbellekte döşeme için yol adı"
+
+#. frDeleteMarks..PnlTop..chkPaths..Caption
+#. frmSettings..PageControl1..tsPaths..Caption
+msgid "Paths"
+msgstr "Yollar"
+
+#. frmProgressCacheConverter..pnlBottom..btnPause..Caption
+#. frmProgressDownload..Panel1..pnlBottom..btnPause..Caption
+#. Programmer's name for it: SAS_STR_Pause
+msgid "Pause"
+msgstr "Duraklat"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlSleep..lblPause..Caption
+msgid "Pause, ms:"
+msgstr "Duraklat, ms:"
+
+#. Programmer's name for it: SAS_STR_UserStop
+msgid "Paused by user..."
+msgstr "Kullanıcı tarafından duraklatıldı..."
+
+#. Programmer's name for it: SAS_STR_Paused
+#, no-object-pascal-format
+msgid "Paused... (%0:s)"
+msgstr "Duraklatıldı... (%0:s)"
+
+#. Programmer's name for it: SAS_STR_P
+msgid "Perimeter"
+msgstr "Çevre Uzunluğu"
+
+#, object-pascal-format
+msgid "Perimeter: %s"
+msgstr "Çevre Uzunluğu: %s"
+
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
+msgid "Pixel"
+msgstr "Piksel"
+
+#. frmPointProjecting..rgSourcePointType....Items.Strings
+msgid "Placemark"
+msgstr "Yer İşareti"
+
+#. Programmer's name for it: SAS_STR_NewMark
+#, no-object-pascal-format
+msgid "Placemark %0:d"
+msgstr "Yer İşareti %0:d"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Caption
+msgid "Placemark Categories"
+msgstr "Yer İşareti Kategorileri"
+
+#. frmMain..MainPopupMenu..NMarkExport..Caption
+msgid "Placemark Export"
+msgstr "Yer İşareti Dışa Aktar"
+
+#. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmMarkInfo..Caption
+msgid "Placemark Info"
+msgstr "Yer İşareti Bilgisi"
+
+#. frmMain..actlstMain..actShowPlacemarkManager..Hint
+msgid "Placemark manager"
+msgstr "Yer İşareti yöneticisi"
+
+#. frmMain..actlstMain..actShowPlacemarkManager..Caption
+#. frmMarksExplorer..Caption
+msgid "Placemark Manager"
+msgstr "Yer İşareti Yöneticisi"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..Caption
+msgid "Placemark names"
+msgstr "Yer İşareti adları"
+
+#. frMarksGeneralOptions..grpPoint..Caption
+msgid "Placemark parameters"
+msgstr "Yer İşareti parametleri"
+
+#. frmMain..TBDock..TBMarksToolbar..Caption
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
+#. frmMain..TBDock..TBXMainMenu..NMarks..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
+#. frDeleteMarks..PnlTop..chkPlacemarks..Caption
+msgid "Placemarks"
+msgstr "Yer İşaretleri"
+
+#. frmGoTo..pgcSearchType..tsPlaceMarks..Caption
+#. Programmer's name for it: SAS_STR_PlaceMarks
+msgid "PlaceMarks"
+msgstr "Yerİşaretleri"
+
+#. frmMain..MainPopupMenu..NMarkPlay..Caption
+msgid "Play"
+msgstr "Oynat"
+
+msgid "Please select a map"
+msgstr "Lütfen bir harita seçin"
+
+msgid "Please select at least one map"
+msgstr "Lütfen en az bir harita seçin"
+
+msgid "Please select at least one map or overlay layer"
+msgstr "Lütfen en az bir harita veya yer paylaşım katmanı seçiniz"
+
+#. Programmer's name for it: SAS_MSG_NeedHL
+msgid "Please select at least one region"
+msgstr "Lütfen en az bir bölge seçin"
+
+#. Programmer's name for it: SAS_MSG_NeedZoom
+msgid "Please select at least one zoom"
+msgstr "Lütfen en az bir yakınlaştırma seçeneği seçin"
+
+msgid "Please select at least one zoom!"
+msgstr "Lütfen en az bir yakınlaştırma seçeneği seçin!"
+
+msgid "Please select at one placemark type"
+msgstr "Lütfen bir yer işareti türü seçin"
+
+msgid "Please select map or layer"
+msgstr "Lütfen harita veya katman seçin"
+
+msgid "Please select output folder"
+msgstr "Lütfen çıktı klasörünü seçiniz"
+
+msgid "Please select the map first!"
+msgstr "Lütfen önce haritayı seçin!"
+
+#. Programmer's name for it: SAS_STR_WiteLoad
+msgid "Please wait, download in progress..."
+msgstr "Lütfen bekleyin, indirme işlemi devam ediyor..."
+
+#. frmProgressCacheConverter..Caption
+#. frmMergePolygonsProgress..Caption
+#. frmProgressSimple..Caption
+#. frmProgressDownload..Caption
+msgid "Please wait..."
+msgstr "Lütfen bekleyin..."
+
+msgid "Please, select at least one polygon!"
+msgstr "Lütfen, en az bir çokgen seçin!"
+
+msgid "Please, select category with at least one polygon!"
+msgstr "Lütfen, en az bir poligon ile kategori seçin!"
+
+msgid "Please, select output file first!"
+msgstr "Lütfen önce çıktı dosyasını seçin!"
+
+msgid ""
+"Please, select zoom/coordinates or at least one Layer or Map first!"
+msgstr ""
+"Lütfen yakınlaştırma / koordinatları veya önce en az bir katman veya "
+"harita seçiniz!"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+msgid "PNG (Indexed Colors)"
+msgstr "PNG (Sıralı Renkler)"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+msgid "PNG (TrueColor + Alpha)"
+msgstr "PNG (TrueColor + Alpha)"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
+msgid "PNG (TrueColor)"
+msgstr "PNG (TrueColor)"
+
+#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
+msgid "Pointer size:"
+msgstr "Nokta boyutu:"
+
+#, object-pascal-format
+msgid "Points count: %d"
+msgstr "Nokta sayısı: %d"
+
+#. Programmer's name for it: SAS_STR_NewPoly
+#, no-object-pascal-format
+msgid "Polygon %0:d"
+msgstr "Çokgen %0:d"
+
+msgid "Polygon isn't selected"
+msgstr "Çokgen seçilmedi"
+
+#. frMarksGeneralOptions..grpPoly..Caption
+msgid "Polygon parameters"
+msgstr "Çokgen parametreleri"
+
+#. frmMain..actlstMain..actSelectByPolygon..Caption
+msgid "Polygonal Selection"
+msgstr "Çokgensel Seçim"
+
+#. frDeleteMarks..PnlTop..chkPolygons..Caption
+msgid "Polygons"
+msgstr "Çokgenler"
+
+#. frmMain..actlstMain..actSelectByLine..Caption
+msgid "Polyline Selection"
+msgstr "Polyline Seçimi"
+
+#. Programmer's name for it: rsPoolIsDesabled
+#, object-pascal-format
+msgid "Pool Disabled - Can't acquire db: %s"
+msgstr "Havuz Devre Dışı - Veritabanı elde edemiyorum: %s"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
+msgid "Precise cropping by the polygon"
+msgstr "Çokgenle hassas kırpma"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
+msgid ""
+"Precise cropping of the image along the boundaries of the polygon"
+msgstr "Çokgenin sınırları boyunca görüntünün kesin kırpılması"
+
+msgid "Press Ctrl and click on polygon to add one..."
+msgstr ""
+"CTRL tuşuna basın ve bir tane eklemek için çokgen üzerine tıklayın..."
+
+#. frmMain..actlstMain..actViewSelectPrevMapWithTile..Caption
+msgid "Previous map with tile"
+msgstr "Döşemeli önceki harita"
+
+#. frmMain..actlstMain..actConfigPreviousSelectionVisible..Caption
+msgid "Previous Selection"
+msgstr "Önceki Seçim"
+
+#. frmMain..actlstMain..actViewSelectPrevMapVersion..Caption
+msgid "Previous version"
+msgstr "Önceki sürüm"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMainColor..Caption
+msgid "Primary color"
+msgstr "Ana renk"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTile..Caption
+msgid "Primary Map Tile"
+msgstr "Birincil Harita Döşemesi"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..lblElevPrimaryProvider..Caption
+msgid "Primary provider:"
+msgstr "Birincil sağlayıcı:"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
+msgid "Process next tile if no response (when downloading the region)"
+msgstr ""
+"Cevap alınamıyorsa (bölgeyi indirirken) bir sonraki döşemeye geç"
+
+#. Programmer's name for it: SAS_STR_ProcessedNoMore
+msgid "Process not more than"
+msgstr "Bundan fazla işlem yapma"
+
+#. frmProgressDownload..Panel1..pnlToProcess..lblToProcess..Caption
+msgid "Process not more than:"
+msgstr "Bundan fazla işlem yapma:"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..chkCheckSourceVersion..Caption
+msgid "Process only tiles  with version:"
+msgstr "Yalnızca bu sürümde döşemeleri işle:"
+
+#. Programmer's name for it: SAS_STR_Processed
+msgid "Processed"
+msgstr "İşlendi"
+
+#. Programmer's name for it: rsProcessedAt
+#, no-object-pascal-format
+msgid "Processed at: %.8f sec."
+msgstr "İşlendi: %.8f sn."
+
+#. frmProgressDownload..Panel1..pnlProcessed..lblProcessed..Caption
+msgid "Processed total:"
+msgstr "Toplam İşlenen:"
+
+#. frmProgressCacheConverter..lblProcessedName..Caption
+msgid "Processed:"
+msgstr "İşlendi:"
+
+#. Programmer's name for it: SAS_STR_ProcessedFile
+#, no-object-pascal-format
+msgid "Processing tile: %0:s ..."
+msgstr "Döşeme işleniyor: %0:s ..."
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..LProductID..Caption
+msgid "Product ID"
+msgstr "Ürün Kimliği (ID)"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..LProductName..Caption
+msgid "Product Name"
+msgstr "Ürün Adı"
+
+#. frExportRMP..pnlCenter..pnlMain..lblDesc..Caption
+msgid "Product:"
+msgstr "Ürün:"
+
+#. frmPointProjecting..pnlBottom..btnCreatePoint..Caption
+msgid "Project"
+msgstr "Proje"
+
+#. frmMain..actlstMain..actShowPointProject..Caption
+#. frmPointProjecting..Caption
+msgid "Project New Placemark"
+msgstr "Yeni Yer İşareti Projesi"
+
+msgid "Projected Coordinates"
+msgstr "Öngörülen Koordinatlar"
+
+#. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
+msgid "Projection"
+msgstr "Projeksiyon"
+
+msgid "Projection isn't selected"
+msgstr "Projeksiyon seçilmedi"
+
+#. Programmer's name for it: rsProjectionOfLayer
+msgid "Projection of layer"
+msgstr "Katmanın projeksiyonu"
+
+#. Programmer's name for it: rsProjectionOfMap
+msgid "Projection of map"
+msgstr "Harita projeksiyonu"
+
+#. frProjectionSelect..lblProjection..Caption
+msgid "Projection:"
+msgstr "Projeksiyon:"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxExtendRoute..Hint
+msgid "Provider for Automatic Route Calculation (with Ctrl key)"
+msgstr "Otomatik Rota Hesaplama Sağlayıcısı (Ctrl tuşu ile)"
+
+#. frExportRMP..pnlCenter..pnlMain..lblAttr..Caption
+msgid "Provider:"
+msgstr "Sağlayıcı:"
+
+#. Programmer's name for it: SAS_ERR_Authorization
+msgid "Proxy authorization error"
+msgstr "Proxy yetkilendirme hatası"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..CBLogin..Caption
+msgid "Proxy server requires authentication"
+msgstr "Proxy sunucusu kimlik doğrulaması gerektiriyor"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
+msgid "Proxy settings"
+msgstr "Proxy Ayarları"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
+#. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
+msgid "Quality (for JPEG):"
+msgstr "Kalite (JPEG için):"
+
+#. frMapCombineCustomOptions..flwpnlJpegQuality..lblJpgQulity..Caption
+#, no-object-pascal-format
+msgid "Quality, %"
+msgstr "Kalite, %"
+
+#. Programmer's name for it: SAS_STR_queue
+msgid "Queue"
+msgstr "Sıra"
+
+#. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
+#. frmMain..actlstMain..actQuit..Caption
+#. frmMain..actlstMain..actQuit..Hint
+#. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
+msgid "Quit"
+msgstr "Çıkış"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap1..Caption
+#. Programmer's name for it: SAS_STR_Radius
+msgid "Radius"
+msgstr "Yarıçap"
+
+msgid "Radius must be greater than zero!"
+msgstr "Yarıçap sıfırdan büyük olmalıdır!"
+
+#. frmPolygonForOperationConfig..lblRadius..Caption
+msgid "Radius, m"
+msgstr "Yarıçap, m"
+
+#. Programmer's name for it: rsRAMCacheName
+#. Programmer's name for it: rsRAM
+msgid "RAM"
+msgstr "RAM"
+
+msgid "RAW: Fill line failure!"
+msgstr "RAW: Satır doldurma hatası!"
+
+#. frmMarkCategoryEdit..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPath..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPoint..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditPoly..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
+msgid "Read only mode"
+msgstr "Salt okunur mod"
+
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions2..pnlReadOnly..chkReadOnly..Caption
+msgid "Read-Only"
+msgstr "Salt Okunur"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress1....Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress2....Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress3....Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress4....Hint
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..ChRecompress5....Hint
+msgid ""
+"Re-compress JPEG tiles\n"
+"Note: Non-JPEG tiles are always recompressed"
+msgstr ""
+"JPEG döşemelerini yeniden sıkıştır\n"
+"Not: JPEG olmayan döşemeler her zaman yeniden sıkıştırılır"
+
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
+msgid "Recreate target database if exists"
+msgstr "Varsa hedef veritabanını yeniden oluştur"
+
+#. frmMain..actlstMain..actSelectByRect..Caption
+msgid "Rectangular Selection"
+msgstr "Dikdörtgen Seçim"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarRedrawTime..Caption
+msgid "Redraw interval (ms):"
+msgstr "Yeniden çizim aralığı (ms):"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Caption
+msgid "Refresh"
+msgstr "Yenile"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
+msgid "Refresh rate (ms)"
+msgstr "Yenileme hızı (ms)"
+
+#. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
+msgid "Relative path to tiles"
+msgstr "Döşemelere göreli yol"
+
+#. frmUpdateChecker..cbbChannel....Items.Strings
+msgid "Release (stable)"
+msgstr "Sürüm (kararlı)"
+
+#. frMergePolygons..tbTop..tbtmClear..Hint
+msgid "Remove All"
+msgstr "Tümünü Kaldır"
+
+#. frExportToIMG..PageControl1..Map..pnlListMaps..pnlButtons..btnRemoveLayer..Hint
+msgid "Remove map layer"
+msgstr "Harita katmanını kaldır"
+
+#. frMergePolygons..tbTop..tbDel..Hint
+msgid "Remove selected (Delete)"
+msgstr "Seçileni kaldır (Sil)"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..chkRemove..Caption
+msgid "Remove tiles"
+msgstr "Döşemeleri kaldır"
+
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
+msgid "Replace existing tiles"
+msgstr "Mevcut döşemeleri değiştir"
+
+#. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
+msgid "Report a Bug"
+msgstr "Hata Bildirin"
+
+#. Programmer's name for it: SAS_ERR_Nopoints
+msgid "Required pointset is not found!"
+msgstr "Gerekli nokta seti bulunamadı!"
+
+#. frmAbout..lblRequires..Caption
+msgid "Requires:"
+msgstr "Gereklilikler:"
+
+#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
+#. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
+#. Programmer's name for it: SAS_STR_SensorReset
+msgid "Reset"
+msgstr "Sıfırla"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
+msgid "Reset postprocessing settings to defaults"
+msgstr "Postprocessing ayarlarını varsayılanlara sıfırla"
+
+#. frExportToIMG..PageControl1..Map..pnlSasZoom..TBXEdit..TBReset..Hint
+msgid "Reset SAS Zooms"
+msgstr "SAS Yakınlaştırmalarını Sıfırla"
+
+#. frElevationProfile..pmMain..mniResetZoom..Caption
+msgid "Reset Zoom"
+msgstr "Yakınlaştırmayı Sıfırla"
+
+#. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
+msgid "Resize algorithm:"
+msgstr "Yeniden boyutlandırma algoritması:"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..lblResize..Caption
+msgid "Resize Algorithm:"
+msgstr "Yeniden Boyutlandırma Algoritması:"
+
+#. frmMain..actlstMain..actViewNotMinimized..Caption
+msgid "Restore"
+msgstr "Geri Yükle"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
+msgid "Restore download from last successful tile"
+msgstr "İndirmeyi son başarılı döşemeden geri yükle"
+
+#. Programmer's name for it: SAS_STR_Continue
+msgid "Resume"
+msgstr "Devam et"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC1..Caption
+msgid "Resurs-DK"
+msgstr "Resurs-DK"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
+msgid "Retry download tile if no response"
+msgstr "Yanıt yoksa döşemeyi indirmeyi yeniden dene"
+
+#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
+msgid "Ring radius (m)"
+msgstr "Halka yarıçapı (m)"
+
+#. Programmer's name for it: rsRise
+#. Programmer's name for it: rsRise
+msgid "Rise"
+msgstr "Doğuş"
+
+#. Programmer's name for it: SAS_STR_ExportRMPExportCaption
+msgid "RMP raster map for Magellan"
+msgstr "Macellan için RMP raster haritası"
+
+#. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
+msgid "Roll backward to zoom in"
+msgstr "Yakınlaştırmak için geriye doğru kaydır"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkRoscosmos..Caption
+msgid "Roscosmos (geoportal.ntsomz.ru)"
+msgstr "Roscosmos (geoportal.ntsomz.ru)"
+
+msgid "Rosreestr"
+msgstr "Rosreestr"
+
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatRound..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+msgid "Round"
+msgstr "Yuvarlak"
+
+#. frmMain..TBDockLeft..TBEditPath..TBEditPathMarsh..Hint
+msgid "Route Calculation"
+msgstr "Rota Hesaplama"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Hint
+msgid "Run"
+msgstr "Çalıştır"
+
+#. frmMain..Caption
+#. frmAbout..lblProgramName..Caption
+#. frmUpdateChecker..Caption
+#. Programmer's name for it: SAS_STR_ApplicationTitle
+#. Programmer's name for it: rsSASPlanetCacheName
+msgid "SAS.Planet"
+msgstr "SAS.Planet"
+
+#. Programmer's name for it: rsDevelopmentTeam
+msgid "SAS.Planet Development Team"
+msgstr "SAS.Planet Geliştirme Ekibi"
+
+#. Programmer's name for it: SAS_MSG_need_reload_application_curln
+msgid "SAS.Planet must be restarted for the changes to take effect"
+msgstr ""
+"Değişikliklerin geçerli olması için SAS.Planet yeniden "
+"başlatılmalıdır"
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
+#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
+msgid "Satellite"
+msgstr "Uydu"
+
+#. DGPS
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesMenuItemName
+msgid "Satellite Signal Strength"
+msgstr "Uydu Sinyal Gücü"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesCaption
+msgid "Satellite Signal Strength:"
+msgstr "Uydu Sinyal Gücü:"
+
+#. frGPSConfig..pnlGpsRight..GroupBox3..Caption
+msgid "Satellites"
+msgstr "Uydular"
+
+#. frGpsSatellites..pnlSatInfoLegend..pnlSatInfoVisible..lblSatInfoVisible..Caption
+msgid "Satellites in range"
+msgstr "Menzildeki uydular"
+
+#. frGpsSatellites..pnlSatInfoLegend..pnlSatInfoActive..lblSatInfoActive..Caption
+msgid "Satellites in use"
+msgstr "Kullanılan uydular"
+
+#. frGpsSatellites..pnlSatInfoLegend..pnlSatInfoZeroSignal..lblSatInfoZeroSignal..Caption
+msgid "Satellites not in range"
+msgstr "Menzil dışında uydular"
+
+#. frmMain..actlstMain..actMarkSave..Caption
+#. frmMain..actlstMain..actMarkSave..Hint
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Save (Enter)"
+msgstr "Kaydet (Enter)"
+
+#. frmMain..actlstMain..actMarkSaveAsSeparateSegments..Caption
+#. frmMain..actlstMain..actMarkSaveAsSeparateSegments..Hint
+msgid "Save as separate placemarks..."
+msgstr "Ayrı bir yer işareti olarak kaydet..."
+
+#. frmMain..actlstMain..actMarkSaveAsNew..Caption
+#. frmMain..actlstMain..actMarkSaveAsNew..Hint
+msgid "Save as..."
+msgstr "Farklı kaydet..."
+
+msgid "Save as... (Enter)"
+msgstr "Farklı kaydet... (Enter)"
+
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..Hint
+msgid "Save current session"
+msgstr "Geçerli oturumu kaydet"
+
+#. frMapCombineCustomOptions..chkSaveGeoRefInfoToJpegExif..Caption
+msgid "Save GeoRef info to Exif"
+msgstr "GeoRef bilgilerini Exif'e kaydet"
+
+#. frMergePolygons..tbTop..tbtmSave..Hint
+msgid "Save merged polygon as..."
+msgstr "Birleştirilmiş çokgeni farklı kaydet..."
+
+#. frTilesGenPrev..pnlBottom..pnlCenter..chkSaveFullOnly..Caption
+msgid "Save only complete tiles"
+msgstr "Yalnızca eksiksiz döşemeleri kaydet"
+
+#. frExportToCE..pnlCenter..pnlMain..SaveRecoverInfo..Caption
+msgid "Save recovery information"
+msgstr "Kurtarma bilgilerini kaydet"
+
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmMark..Hint
+msgid "Save selection info to file"
+msgstr "Seçim bilgilerini dosyaya kaydet"
+
+#. frMapCombine..pnlTargetFile..lblTargetFile..Caption
+#. frTilesCopy..pnlTop..lblTargetPath..Caption
+#. frExportToFileCont..pnlTop..lblTargetFile..Caption
+#. frExportAUX..pnlTop..lblTargetFile..Caption
+#. frExportToIMG..pnlTop..lblTargetFile..Caption
+#. frExportIPhone..pnlTop..lblTargetPath..Caption
+#. frExportToJNX..pnlTop..lblTargetFile..Caption
+#. frExportKml..pnlTop..lblTargetFile..Caption
+#. frExportMBTiles..pnlTop..lblTargetFile..Caption
+#. frExportToOgf2..pnlTop..lblTargetFile..Caption
+#. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
+#. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
+#. frExportRMP..pnlTop..lblTargetFile..Caption
+#. frExportToCE..pnlTop..lblTargetPath..Caption
+#. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
+#. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
+msgid "Save to:"
+msgstr "Şuraya kaydet:"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxSave..Caption
+#. frmPascalScriptIDE..tbtlbrMain..tbxSave..Hint
+msgid "Save zmp"
+msgstr "ZMP kaydet"
+
+#, object-pascal-format
+msgid "Saving tiles. %s %d %s"
+msgstr "Döşemeler kaydediliyor. %s %d %s"
+
+#. frmMain..actlstMain..actConfigScaleLineVisible..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
+msgid "Scale Legend"
+msgstr "Ölçek Göstergesi"
+
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label2..Caption
+msgid "Scale:"
+msgstr "Ölçek:"
+
+#. frmMain..actlstMain..actConfigScaleLineNumberFormatScience..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..rgScaleLineNumbFormat....Items.Strings
+msgid "Science"
+msgstr "Bilim"
+
+#. frmPointProjecting..rgSourcePointType....Items.Strings
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..btnSetXYZ..Caption
+msgid "Screen center"
+msgstr "Ekran merkezi"
+
+#. Programmer's name for it: rsScriptIsEmpty
+msgid "Script is empty"
+msgstr "Komut dosyası boş"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem2..Caption
+#. frmMain..TBDock..TBXToolBarSearch..Caption
+#. frmMain..TBDock..TBXToolBarSearch..tbiSearch..EditCaption
+#. frmGoTo..pgcSearchType..tsSearch..Caption
+#. frmSettings..PageControl1..tsSearch..Caption
+msgid "Search"
+msgstr "Ara"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSearchResults..Caption
+#. frmMain..TBDockLeft..TBSearchWindow..Caption
+msgid "Search Results"
+msgstr "Sonuçları Ara"
+
+#. Programmer's name for it: rsSearchAvailableVersionInfo
+msgid "searching"
+msgstr "aranıyor"
+
+#. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
+msgid "Select by Placemark"
+msgstr "Yer İşaretine Göre Seç"
+
+#. frmMain..TBDock..SrcToolbar..TBSrc..Hint
+msgid "Select data source"
+msgstr "Veri kaynağı seçin"
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbHybr..Hint
+msgid "Select Hybrid as main layer"
+msgstr "Ana katman olarak Hibrit'i seç"
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbMap..Hint
+msgid "Select Map as main layer"
+msgstr "Ana katman olarak Harita'yı seç"
+
+#. frmMain..TBDock..SrcToolbar..TBLayerSel..Hint
+msgid "Select overlay layers"
+msgstr "Bindirme katmanlarını seçin"
+
+#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbSat..Hint
+msgid "Select Satellite as main layer"
+msgstr "Ana katman olarak Uydu'yu seç"
+
+#. frmMain..TBDock..SrcToolbar..TBSMB..Hint
+msgid "Selected basemap"
+msgstr "Seçilen temel harita"
+
+#. Programmer's name for it: SAS_MSG_DeleteSubCategoryAsk
+#, object-pascal-format
+msgid ""
+"Selected category \"%0:s\" contain %d sub categories. Are you realy "
+"want to delete all of them?"
+msgstr ""
+"Seçilen kategori \"%0:s\" , %d alt kategori içeriyor. Gerçekten "
+"hepsini silmek istiyor musunuz?"
+
+#. Programmer's name for it: SAS_ERR_ImageIsTooBig
+#, object-pascal-format
+msgid ""
+"Selected resolution is too big for %s format!\n"
+"Widht = %d (max = %d)\n"
+"Height = %d (max = %d)\n"
+"Try select smaller region to stitch in %s or select other output "
+"format (ECW is the best)."
+msgstr ""
+"Seçilen çözünürlük %s biçimi için çok büyük!\n"
+"Genişlik = %d (maks = %d)\n"
+"Yükseklik = %d (maks = %d)\n"
+"%s olarak devam etmek için daha küçük bir bölge seçmeyi deneyin veya "
+"başka bir çıktı formatı seçin (ECW en iyisidir)."
+
+#. frmLonLatRectEdit..Caption
+msgid "Selection by Coordinates"
+msgstr "Koordinatlara Göre Seçim"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnOpSelectMark..Hint
+msgid "Selection manager"
+msgstr "Seçim yöneticisi"
+
+#. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
+#. frmMain..MainPopupMenu..NMarkOper..Caption
+#. frMergePolygons..tbTop..tbtmSelect..Hint
+#. frmProgressSimple..TBXOperationsToolbar..tbtmSelect..Hint
+#. frmRegionProcess..Caption
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSelect..Hint
+msgid "Selection Manager"
+msgstr "Seçim Yöneticisi"
+
+#. frmMain..dlgOpenHlgLoad..Filter
+#. frmRegionProcess..SaveSelDialog..Filter
+msgid "Selections|*.hlg"
+msgstr "Seçimler|*.hlg"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
+#. frmMain..TBDockRight..TBXSensorsBar..Caption
+msgid "Sensors"
+msgstr "Sensörler"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
+msgid "Serial port"
+msgstr "Seri port"
+
+#. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
+#, no-object-pascal-format
+msgid "Server returned type \"%0:s\", this is not bitmap image"
+msgstr "Sunucu \"%0:s\" türünü iade etti, bu bitmap görüntüsü değil"
+
+#. Programmer's name for it: SAS_ERR_BadMIME
+#, no-object-pascal-format
+msgid "Server returned unexpected type \"%0:s\""
+msgstr "Sunucu beklenmeyen tür \"%0:s\" iade etti"
+
+#. Programmer's name for it: rsSessionSavedToFile
+msgid "Session saved to file: "
+msgstr "Dosyaya kaydedilen oturum: "
+
+#. Programmer's name for it: rsSet
+#. Programmer's name for it: rsSet
+msgid "Set"
+msgstr "Batış"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..chkAbsPathToIcon..Caption
+msgid "Set absolute path or url to the Icons"
+msgstr "Simgeler için mutlak yol veya URL ayarla"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Hint
+msgid "Set all marks in all categories visible"
+msgstr "Tüm kategorilerdeki tüm işaretleri görünür olarak ayarla"
+
+#. frmMarkCategoryEdit..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPath..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPoint..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
+msgid "Set as default"
+msgstr "Varsayılan olarak ayarla"
+
+#. Programmer's name for it: SAS_MSG_SetAsDefaultForNewMarks
+msgid "Set as default for new marks?"
+msgstr "Yeni işaretler için varsayılan olarak ayarlansın mı?"
+
+msgid "Set Connection string first!"
+msgstr "Önce Bağlantı dizesini ayarlayın!"
+
+msgid "Set File name first!"
+msgstr "Önce Dosya adını belirleyin!"
+
+#. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkReplaceDestVersion..Caption
+msgid "Set same version for all processed tiles:"
+msgstr "İşlenen tüm döşemeler için aynı sürümü ayarlayın:"
+
+#. frTilesCopy..pnlCenter..pnlMain..pnSetTargetVersionOptions..chkSetTargetVersionTo..Caption
+msgid "Set Version to"
+msgstr "Sürümü şuna ayarla"
+
+#. frmMain..TBDock..TBXMainMenu..NParams..Caption
+#. frExportToIMG..PageControl1..Settings..Caption
+#. frMapsList..pnlMapsRightButtons..btnSettings..Caption
+#. build menu
+msgid "Settings"
+msgstr "Ayarlar"
+
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
+#. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+msgid "Shadow color"
+msgstr "Gölge rengi"
+
+msgid "Shadow, meters"
+msgstr "Gölge, metre"
+
+#. frmPolygonForOperationConfig..lblShape..Caption
+msgid "Shape"
+msgstr "Şekil"
+
+#. frmMain..actlstMain..actSelectByRect..Hint
+msgid "Shift - snap to active grids (if enabled)"
+msgstr "Shift - aktif ızgaralara yasla (etkinleştirilmişse)"
+
+#. frmMain..SaveLink..Filter
+msgid "Shortcut|*.lnk"
+msgstr "Kısayol|*.lnk"
+
+#. frGeoCoderApiKey..pnlKey..chkShowKey..Hint
+msgid "Show / Hide"
+msgstr "Göster / Gizle"
+
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
+msgid "Show all placemarks"
+msgstr "Tüm yer işaretlerini göster"
+
+#. frmMain..actlstMain..actCalcLineShowAzimuth..Caption
+#. frmMain..actlstMain..actCalcLineShowAzimuth..Hint
+#. frmMain..actlstMain..actEditPathShowAzimuth..Caption
+#. frmMain..actlstMain..actEditPathShowAzimuth..Hint
+msgid "Show azimuth"
+msgstr "Azimut Göster"
+
+#. Programmer's name for it: rsShowCurrAzAndAltCaption
+msgid "Show Current Altitude and Azimuth"
+msgstr "Mevcut Yükseklik ve Azimutu Göster"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarDownloadInfo..Caption
+#. Programmer's name for it: rsShowDownloadInfo
+msgid "Show Download Info"
+msgstr "İndirme Bilgilerini Göster"
+
+#. frElevationProfile..pmMain..mniShowElevation..Caption
+msgid "Show Elevation"
+msgstr "Yüksekliği Göster"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarElevation..Caption
+#. Programmer's name for it: rsShowElevationInfo
+msgid "Show Elevation Info"
+msgstr "Yükseklik Bilgisini Göster"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..chkElevTrySecondaryProviders..Caption
+msgid "Show Elevation Info From Any Available Source"
+msgstr "Mevcut Herhangi Bir Kaynaktan Yükseklik Bilgisini Göster"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..chkElevShowInStatusBar..Caption
+msgid "Show Elevation Info In Status Bar"
+msgstr "Durum Çubuğunda Yükseklik Bilgisini Göster"
+
+#. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+msgid "Show Elevation Profile"
+msgstr "Yükseklik Profilini Göster"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
+msgid "Show for All"
+msgstr "Hepsi İçin Göster"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NFillMap..TBFillingTypeMap..Caption
+msgid "Show for..."
+msgstr "Şunun için göster..."
+
+#. frmMain..actlstMain..actConfigGpsShowTrack..Hint
+msgid "Show GPS track"
+msgstr "GPS izini göster"
+
+#. frmMain..actlstMain..actConfigGpsShowTrack..Caption
+msgid "Show GPS Track"
+msgstr "GPS İzini Göster"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..CBShowHintOnMarks..Caption
+msgid "Show hints when hovering over placemarks"
+msgstr "Yer işaretlerinin üzerine gelindiğinde ipuçlarını göster"
+
+#. Programmer's name for it: rsShowDayInfoPanelCaption
+msgid "Show Info Panel"
+msgstr "Bilgi Panelini Göster"
+
+#. frmMain..actlstMain..actCalcLineShowIntermediateDist..Caption
+#. frmMain..actlstMain..actCalcLineShowIntermediateDist..Hint
+#. frmMain..actlstMain..actEditPathShowIntermediateDist..Caption
+#. frmMain..actlstMain..actEditPathShowIntermediateDist..Hint
+msgid "Show intermediate distances"
+msgstr "Ara mesafeleri göster"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..chkShowLogo..Caption
+msgid "Show Logo on startup"
+msgstr "Başlangıçta Logoyu Göster"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarLonLatInfo..Caption
+#. Programmer's name for it: rsShowLonLatInfo
+msgid "Show LonLat Info"
+msgstr "LonLat Bilgilerini Göster"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBShowmapname..Caption
+msgid "Show map name on toolbar"
+msgstr "Araç çubuğunda harita adını göster"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarMetrPerPixInfo..Caption
+#. Programmer's name for it: rsShowMeterPerPixelInfo
+msgid "Show Meter Per Pixel Info"
+msgstr "Metre Başına Piksel Bilgisini Göster"
+
+#. frmMarkCategoryEdit..CBShow..Caption
+#. frmMarkEditPath..chkVisible..Caption
+#. frmMarkEditPoint..chkVisible..Caption
+#. frmMarkEditPoly..chkVisible..Caption
+msgid "Show on map"
+msgstr "Haritada göster"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
+msgid "Show only new"
+msgstr "Yalnızca yenileri göster"
+
+#. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
+msgid "Show only selected placemarks"
+msgstr "Yalnızca seçili yer işaretlerini göster"
+
+#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowOtherVersions..Caption
+msgid "Show other Versions"
+msgstr "Diğer Sürümleri Göster"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarksCaptionVisible..Caption
+msgid "Show placemark names"
+msgstr "Yer işareti adlarını göster"
+
+#. frmMain..actlstMain..actConfigMarksNamesVisible..Caption
+msgid "Show Placemark Names"
+msgstr "Yer İşareti Adlarını Göster"
+
+#. frmMain..MainPopupMenu..Nopendir..Caption
+msgid "Show Primary Map Tile"
+msgstr "Birincil Harita Döşemesini Göster"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarQueueInfo..Caption
+#. Programmer's name for it: rsShowQueueInfo
+msgid "Show Queue Info"
+msgstr "Sıra Bilgisini Göster"
+
+#. frElevationProfile..pmMain..mniShowSpeed..Caption
+msgid "Show Speed"
+msgstr "Hızı Göster"
+
+#. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
+#. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
+#. frmMain..actlstMain..actEditPathShowDistIncrement..Caption
+#. frmMain..actlstMain..actEditPathShowDistIncrement..Hint
+msgid "Show the distance increment"
+msgstr "Mesafe artışını göster"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTilePathInfo..Caption
+#. Programmer's name for it: rsShowTilePathInfo
+msgid "Show Tile Path Info"
+msgstr "Döşeme Yolu Bilgisini Göster"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarTimeZoneInfo..Caption
+#. Programmer's name for it: rsShowTimeZoneInfo
+msgid "Show Time Zone Info"
+msgstr "Saat Dilimi Bilgisini Göster"
+
+#. frmMain..actlstMain..actConfigScaleLineExtended..Caption
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..chkShowVertScaleLine..Caption
+msgid "Show Vertical Scale Legend"
+msgstr "Dikey Ölçek Göstergesini Göster"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..chkStatBarZoomInfo..Caption
+#. Programmer's name for it: rsShowZoomInfo
+msgid "Show Zoom Info"
+msgstr "Yakınlaştırma Bilgisini göster"
+
+#. frmMain..actlstMain..actCalcLineLabelVisible..Caption
+#. frmMain..actlstMain..actCalcLineLabelVisible..Hint
+#. frmMain..actlstMain..actEditPathLabelVisible..Caption
+#. frmMain..actlstMain..actEditPathLabelVisible..Hint
+msgid "Show/Hide Captions"
+msgstr "Altyazıları Göster/Gizle"
+
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..chkShowPass..Hint
+msgid "Show/Hide Password"
+msgstr "Parolayı Göster/Gizle"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedDescription
+msgid "Shows average speed"
+msgstr "Ortalama hızı gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorBatteryStatusDescription
+msgid "Shows battery status"
+msgstr "Pil durumunu gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedDescription
+msgid "Shows current speed"
+msgstr "Mevcut hızı gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
+msgid "Shows differential GPS"
+msgstr "Diferansiyel GPS'i gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
+msgid "Shows distance since last GPS connection"
+msgstr "Son GPS bağlantısından bu yana mesafeyi gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorNavToPointDescription
+msgid "Shows distance to selected placemark"
+msgstr "Seçilen yer işaretine olan mesafeyi gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderAltitudeDescription
+msgid "Shows GPS altitude"
+msgstr "GPS yüksekliğini gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoDescription
+msgid "Shows GPS Unit info"
+msgstr "GPS Birim bilgilerini gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
+msgid "Shows horizontal dilution of precision"
+msgstr "Hassasiyetin yatay seyreltmesini gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
+msgid "Shows local time"
+msgstr "Yerel saati gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedDescription
+msgid "Shows maximum speed"
+msgstr "Maksimum hızı gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesDescription
+msgid "Shows Satellite Signal Strength bars"
+msgstr "Uydu Sinyal Gücü çubuklarını gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeDescription
+msgid "Shows Sunraise time for current position"
+msgstr "Geçerli konum için Gün Doğum süresini gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeDescription
+msgid "Shows Sunset time for current position"
+msgstr "Geçerli konum için Günbatımı zamanını gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderHeadingDescription
+msgid "Shows the course"
+msgstr "Rotayı gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer1Description
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2Description
+msgid "Shows total distance"
+msgstr "Toplam mesafeyi gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeDescription
+msgid "Shows UTC time"
+msgstr "UTC saatini gösterir"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
+msgid "Shows vertical dilution of precision"
+msgstr "Dikey hassasiyet seyreltmesini gösterir"
+
+msgid "Size of answer is zero"
+msgstr "Cevabın boyutu sıfır"
+
+#. Programmer's name for it: SAS_STR_Resolution
+msgid "size:"
+msgstr "boyut:"
+
+#. frmProgressCacheConverter..lblSizeName..Caption
+msgid "Size:"
+msgstr "Boyut:"
+
+#. Programmer's name for it: SAS_STR_MapCombineProgressCaption
+#, no-object-pascal-format
+msgid "Size: %0:dx%1:d. Split to %2:d files"
+msgstr "Boyut: %0:dx%1:d. %2:d dosyaya böl"
+
+#. Programmer's name for it: rsPositionInfo
+#, object-pascal-format
+msgid "Size: %dx%d; Mouse at: %dx%d"
+msgstr "Boyut: %dx%d; Fare: %dx%d"
+
+#. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
+msgid "Skip existing result files"
+msgstr "Mevcut sonuç dosyalarını atla"
+
+#. frmProgressCacheConverter..lblSkippedName..Caption
+msgid "Skipped:"
+msgstr "Atlandı:"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnl1..lbl1..Caption
+msgid "Sleep on reset connection, ms"
+msgstr "Sıfırlama bağlantısında uyut, ms"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
+msgid "Small"
+msgstr "Küçük"
+
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Hint
+msgid "Snap to Existing Markers"
+msgstr "Mevcut İşaretçilere Yapış"
+
+#. frmMain..actlstMain..actMarksEditSnapToMarkers..Caption
+msgid "Snap to Markers"
+msgstr "İşaretçilere Yapış"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarkCaptionSolidBg..Caption
+msgid "Solid background color"
+msgstr "Düz arka plan rengi"
+
+#. Programmer's name for it: rsSolstice
+msgid "Solstice at"
+msgstr "Gündönümü"
+
+#. frmCacheManager..PageControl1..tsConverter..grpSrc..Caption
+msgid "Source Cache"
+msgstr "Kaynak Önbelleği"
+
+#. source
+msgid "Source cache file is not specified!"
+msgstr "Kaynak önbellek dosyası belirtilmedi!"
+
+msgid "Source cache path is not specified!"
+msgstr "Kaynak önbellek yolu belirtilmedi!"
+
+msgid "Source cache type is not selected!"
+msgstr "Kaynak önbellek türü seçilmedi!"
+
+#, object-pascal-format
+msgid "Source file does not exists: %s"
+msgstr "Kaynak dosya mevcut değil: %s"
+
+#. frmPointProjecting..rgSourcePointType..Caption
+msgid "Source point type"
+msgstr "Kaynak noktası türü"
+
+#. frmMain..TBDock..SrcToolbar..Caption
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NsrcToolBarShow..Caption
+#. frmMain..TBDock..TBXFavoriteToolbar..Caption
+msgid "Sources"
+msgstr "Kaynaklar"
+
+#. frmAbout..lblSources..Caption
+msgid "Sources:"
+msgstr "Kaynaklar:"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderLastSpeedMenuItemName
+msgid "Speed"
+msgstr "Hız"
+
+#, no-object-pascal-format
+msgid "Speed: %.2f km/h"
+msgstr "Hız: %.2f km/s"
+
+#. Programmer's name for it: rsElevationProfileSpeedFmt
+#, no-object-pascal-format
+msgid "Speed: %.2f, %.2f, %.2f km/h"
+msgstr "Hız: %.2f, %.2f, %.2f km/s"
+
+#. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
+msgid "Split image"
+msgstr "Görüntüyü Böl"
+
+#. frmMain..actlstMain..actLineEditSplitTogle..Caption
+#. frmMain..actlstMain..actLineEditSplitTogle..Hint
+msgid "Split Line"
+msgstr "Hattı Böl"
+
+#. frTilesDownload..pnlCenter..pnlMain..flwpnlSplitRegionParams..lblSplitRegion..Caption
+msgid "Split selection to, parts*:"
+msgstr "Seçimi şunlara böl, bölümler*:"
+
+#. frArchiveWriteZipConfig..lblSplitToVolumes..Caption
+msgid "Split to volumes, Mb:"
+msgstr "Boyutlara böl, MB:"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
+msgid "SPOT 5 - 10m Color"
+msgstr "SPOT 5 - 10m Renkli"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS12..Caption
+msgid "SPOT 5 - 2.5m BW"
+msgstr "SPOT 5 - 2.5m SB"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS13..Caption
+msgid "SPOT 5 - 2.5m Color"
+msgstr "SPOT 5 - 2.5m Renkli"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS10..Caption
+msgid "SPOT 5 - 5m BW"
+msgstr "SPOT 5 - 5m SB"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS11..Caption
+msgid "SPOT 5 - 5m Color"
+msgstr "SPOT 5 - 5m Renkli"
+
+msgid "SQLite3 cache folder:"
+msgstr "SQLite3 önbellek klasörü:"
+
+msgid "Square"
+msgstr "Kare"
+
+msgid "Square (on the surface)"
+msgstr "Kare (yüzeyde)"
+
+#. frmCacheManager..pnlBottomButtons..btnStart..Caption
+#. frmImportConfigEdit..pnlBottom..btnOk..Caption
+#. frmJpegImportConfigEdit..pnlBottom..btnOk..Caption
+#. frmMarksMultiEdit..pnlBottom..btnOk..Caption
+#. frmRegionProcess..pnlBottomButtons..Button1..Caption
+msgid "Start"
+msgstr "Başla"
+
+#. frTilesDownload..pnlCenter..pnlMain..chkStartPaused..Caption
+msgid "Start paused"
+msgstr "Duraklatılmışı başlat"
+
+#. frmMain..actlstMain..actConfigStatusBarVisible..Caption
+#. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
+msgid "Status Bar"
+msgstr "Durum Çubuğu"
+
+msgid "Stitch"
+msgstr "Birleştirme"
+
+msgid "Stitch selection"
+msgstr "Birleştirme Seçimi"
+
+#. Programmer's name for it: SAS_STR_MapCombineProgressLine0
+#, no-object-pascal-format
+msgid "Stitch: %0:dx%1:d (%2:d) files"
+msgstr "Birleştirme: %0:dx%1:d (%2:d) dosyaları"
+
+#. Programmer's name for it: SAS_STR_OperationMapCombineCaption
+msgid "Stitching the map"
+msgstr "Haritayı birleştir"
+
+msgid "Store"
+msgstr "Sakla"
+
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkStoreBlankTiles..Caption
+msgid "Store blank tiles"
+msgstr "Boş döşemeleri sakla"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBSaveTileNotExists..Caption
+msgid "Store info about not found tiles"
+msgstr "Bulunamayan döşemeler hakkında bilgi sakla"
+
+#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmSave..Hint
+#. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..tbtmMark..Caption
+msgid "Store selection as Poligon"
+msgstr "Seçimi Çokgen olarak sakla"
+
+#. Programmer's name for it: rsSuccessfullyCompiled
+msgid "Successfully compiled"
+msgstr "Başarıyla derlendi"
+
+#. Programmer's name for it: rsSuccessfullyExecuted
+msgid "Successfully executed"
+msgstr "Başarıyla çalıştırıldı"
+
+#. Programmer's name for it: rsSuccessfullyRendered
+msgid "Successfully rendered"
+msgstr "Başarıyla oluşturuldu"
+
+#. frmMain..actlstMain..actViewSunCalc..Caption
+#. Programmer's name for it: rsSunCalcCaption
+msgid "Sun Calculator"
+msgstr "Güneş Hesaplayıcı"
+
+#. Sunraise time
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeMenuItemName
+msgid "Sunraise time"
+msgstr "Gündoğumu zamanı"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeCaption
+msgid "Sunraise time:"
+msgstr "Gündoğumu zamanı:"
+
+#. Sunset time
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeMenuItemName
+msgid "Sunset time"
+msgstr "Gün batımı zamanı"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
+msgid "Sunset time:"
+msgstr "Gün batımı zamanı:"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
+msgid "Syntax Check"
+msgstr "Syntax Kontrolü"
+
+#. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
+msgid ""
+"Table not found and cannot be created (possibly due to insufficient "
+"privileges or readonly external tile storage)"
+msgstr ""
+"Tablo bulunamadı ve oluşturulamıyor (muhtemelen yetersiz "
+"ayrıcalıklar veya salt okunur harici döşeme depolaması nedeniyle)"
+
+#. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
+msgid "Task"
+msgstr "Görev"
+
+#. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
+msgid "Template or Base part of request URL:"
+msgstr "İstek URL'sinin şablon veya temel kısmı:"
+
+#. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
+#. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
+#. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
+msgid "Text color"
+msgstr "Metin rengi"
+
+#. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarTextColor..Caption
+msgid "Text color:"
+msgstr "Metin rengi:"
+
+#. Programmer's name for it: SAS_MSG_FunExForPoly
+msgid "The feature can be used on polygons and polylines"
+msgstr "Bu özellik çokgenler ve çoklu çizgiler üzerinde kullanılabilir"
+
+msgid "The Name can't be empty!"
+msgstr "Ad boş olamaz!"
+
+#. Programmer's name for it: SAS_MSG_GarminMax1Mp
+msgid ""
+"The number of JPEG files will exceed 100. If your\n"
+"navigation device split the image using\n"
+"\"Manage Selection - Stitch\" window\n"
+"and use resulting KMZ files separately"
+msgstr ""
+"JPEG dosyalarının sayısı 100'ü aşacaktır.\n"
+"Navigasyon cihazı \"Seçimi Yönet - Birleştir\"\n"
+"penceresini kullanarak görüntüyü böler\n"
+"ve ortaya çıkan KMZ dosyalarını ayrı ayrı kullanır"
+
+#, object-pascal-format
+msgid "The proxy server %s is requesting a username and password."
+msgstr "%s proxy sunucusu bir kullanıcı adı ve parola istiyor."
+
+#. Programmer's name for it: rsNoDataRoute
+msgid ""
+"The route cannot be built for the given profile.\n"
+"Not enough data in the database!"
+msgstr ""
+"Rota, verilen profil için oluşturulamaz.\n"
+"Veritabanında yeterli veri yok!"
+
+#. Programmer's name for it: SAS_MSG_ProcessFilesComplete
+msgid "The task is completed!"
+msgstr "Görev tamamlandı!"
+
+#. Programmer's name for it: SAS_ERR_FileExistsShort
+msgid "The tile already exists"
+msgstr "Döşeme zaten var"
+
+#. Programmer's name for it: SAS_MSG_FileBeCreateTime
+msgid "The tile is newer than the entered age, skipping."
+msgstr "Döşeme, girilen süreden daha yeni, atlandı."
+
+#. Programmer's name for it: SAS_MSG_FileBeCreateLen
+msgid "The tile size is equal to the existing one, skipping."
+msgstr "Döşeme boyutu, mevcut olana eşittir, atlandı."
+
+#. Programmer's name for it: SAS_MSG_TneBeCreateTime
+msgid "The tne is newer than the entered age, skipping."
+msgstr "Tne, girilen yaştan daha yeni, atlandı."
+
+#. Programmer's name for it: rsNoAvailableObjects
+msgid "There are no available objects in the pool!"
+msgstr "Havuzda uygun nesne yok!"
+
+#. Programmer's name for it: SAS_ERR_MapGUIDError
+#, no-object-pascal-format
+msgid "There is an error %1:s in map %0:s"
+msgstr "%0:s haritasında %1:s hatası var"
+
+#. Programmer's name for it: rsNoDataStart
+msgid "There is no data in database for start location!"
+msgstr "Veritabanında başlangıç konumu için veri yok!"
+
+#. Programmer's name for it: rsNoDataTarget
+msgid "There is no data in database for target location!"
+msgstr "Veritabanında hedef konum için veri yok!"
+
+msgid "There is no supported maps"
+msgstr "Desteklenen harita yok"
+
+msgid ""
+"This format doesn't support file name with characters not from "
+"current locale!"
+msgstr ""
+"Bu biçim, geçerli yerel ayardan olmayan karakterlerle dosya adını "
+"desteklemez!"
+
+msgid "This format supports file name with ASCII characters only!"
+msgstr ""
+"Bu biçim, yalnızca ASCII karakterleriyle dosya adını destekler!"
+
+#. Programmer's name for it: SAS_MSG_CantGetTileFileName
+msgid ""
+"This is not simple file storage. Tile's file name does not exist."
+msgstr ""
+"Bu basit dosya depolama değildir. Döşemenin dosya adı mevcut değil."
+
+#. frmAbout..lblLicense....Caption
+msgid ""
+"This program is freeware, opensource and released under the GNU "
+"General Public License (GPLv3)"
+msgstr ""
+"Bu program ücretsiz, açık kaynak kodlu ve GNU Genel Kamu Lisansı "
+"(GPLv3) kapsamında yayınlanmıştır."
+
+#. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
+msgid "Thread count:"
+msgstr "Konu sayısı:"
+
+#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
+msgid "Tile"
+msgstr "Döşeme"
+
+#. Programmer's name for it: SAS_MSG_TileExists
+#, no-object-pascal-format
+msgid ""
+"Tile %0:s is available in cache.\n"
+"Replace?"
+msgstr ""
+"%0:s döşemesi önbellekte mevcut.\n"
+"Değiştirilsin mi?"
+
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..Label23..Caption
+msgid "Tile borders:"
+msgstr "Döşeme sınırları:"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NShowGran..Caption
+msgid "Tile Boundaries"
+msgstr "Döşeme sınırları"
+
+#. frmSettings..PageControl1..tsGrids..pnlTileBorders..CBBorderText..Caption
+msgid "Tile coordinates"
+msgstr "Döşeme koordinatları"
+
+#. Programmer's name for it: SAS_ERR_TileNotExists
+msgid "Tile is not found!"
+msgstr "Döşeme bulunamadı!"
+
+#, object-pascal-format
+msgid "Tile is not found! Status code %d"
+msgstr "Döşeme bulunamadı! Durum kodu %d"
+
+msgid "Tile is not found! Zero result size"
+msgstr "Döşeme bulunamadı! Sıfır sonuç boyutu"
+
+#. crop single tile
+msgid "Tile is recognized as empty"
+msgstr "Döşeme boş olarak tanındı"
+
+msgid "Tile Map Service (TMS) cache folder:"
+msgstr "Döşeme Haritası Hizmeti (TMS) önbellek klasörü:"
+
+#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
+msgid "Tile Size"
+msgstr "Döşeme Boyutu"
+
+msgid "Tile with same size exists"
+msgstr "Aynı boyutta döşeme var"
+
+#. Programmer's name for it: SAS_STR_Tiles
+msgid "Tiles"
+msgstr "Döşemeler"
+
+msgid "Tiles extension is not selected!"
+msgstr "Döşeme uzantısı seçilmedi!"
+
+#. Programmer's name for it: rsTime
+msgid "Time"
+msgstr "Zaman"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
+msgid "Time Interval"
+msgstr "Zaman Aralığı"
+
+#. frmProgressDownload..Panel1..pnlTimeToFinish..lblTimeToFinish..Caption
+msgid "Time remaining:"
+msgstr "Kalan süre:"
+
+#. Programmer's name for it: SAS_STR_Marshtime
+msgid "Time to reach:"
+msgstr "Varış zamanı:"
+
+#. Programmer's name for it: rsElevationProfileTimeFmt
+#, object-pascal-format
+msgid "Time: %s"
+msgstr "Zaman: %s"
+
+#. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
+msgid "to"
+msgstr "buraya"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxSave..tbxtmToArchive..Caption
+msgid "To Archive"
+msgstr "Arşive"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxSave..tbxtmToFolder..Caption
+msgid "To Folder"
+msgstr "Klasöre"
+
+#. frTilesGenPrev..pnlBottom..pnlRight..lblZooms..Caption
+msgid "To zooms:"
+msgstr "Yakınlaştırmaya:"
+
+#. frExportToIMG..PageControl1..Map..pnlZooms..TBXSettings..tbSettings..Hint
+msgid "Toggle Options"
+msgstr "Seçenekleri Değiştir"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..Caption
+msgid "Toolbars"
+msgstr "Araç Çubukları"
+
+#. Programmer's name for it: SAS_STR_Whole
+msgid "Total"
+msgstr "Toplam"
+
+#. Programmer's name for it: SAS_STR_AllSaves
+msgid "Total to save:"
+msgstr "Kaydedilecek toplam:"
+
+#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
+msgid "Track width:"
+msgstr "İz genişliği:"
+
+#. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
+msgid "Try download if tne exists"
+msgstr "TNE varsa indirmeyi dene"
+
+#. Programmer's name for it: SAS_ERR_UnablePposition
+msgid "Unable to fix position"
+msgstr "Konum düzeltilemiyor"
+
+#. Programmer's name for it: SAS_ERR_NoMaps
+msgid "Unable to load map(s)! Aborting..."
+msgstr "Harita(lar) yüklenemiyor! İptal ediliyor..."
+
+#. frmMain..actlstMain..actEditPathRouteCalcUndo..Caption
+#. frmMain..actlstMain..actEditPathRouteCalcUndo..Hint
+msgid "Undo Route Calculation"
+msgstr "Rota Hesaplamasını Geri Al"
+
+#, object-pascal-format
+msgid "Unexpected content type %s"
+msgstr "Beklenmeyen içerik türü %s"
+
+msgid "Unexpected proxy authorization"
+msgstr "Beklenmeyen proxy yetkilendirmesi"
+
+#. frmMarksExplorer..tbpmnMarks..tbxtmUngroup..Caption
+msgid "Ungroup"
+msgstr "Grubu Çöz"
+
+#. frMergePolygons..tbTop..tbOperationType..tbtmOR..Caption
+msgid "Union (OR)"
+msgstr "Birlik (OR)"
+
+#. DGPS
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoMenuItemName
+msgid "Unit info"
+msgstr "Birim bilgisi"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoCaption
+msgid "Unit info:"
+msgstr "Birim bilgisi:"
+
+#. Programmer's name for it: SAS_STR_BattaryStateUnknown
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#. Programmer's name for it: SAS_ERR_ETS_CriticalError
+msgid "Unknown critical error at external tile storage"
+msgstr "Harici döşeme deposunda bilinmeyen kritik hata"
+
+msgid "Unknown error"
+msgstr "Bilinmeyen hata"
+
+#. Programmer's name for it: SAS_ERR_ETS_UnknownError
+msgid ""
+"Unknown error at external tile storage, see Storage Options for more "
+"information"
+msgstr ""
+"Harici döşeme deposunda bilinmeyen hata, daha fazla bilgi için "
+"Depolama Seçeneklerine bakın"
+
+#. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
+msgid "Unknown error during download"
+msgstr "İndirme sırasında bilinmeyen hata"
+
+#, object-pascal-format
+msgid "Unknown status code %d"
+msgstr "Bilinmeyen durum kodu %d"
+
+#, object-pascal-format
+msgid "Unsupported archive type: %s"
+msgstr "Desteklenmeyen arşiv türü: %s"
+
+#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
+#. frMapsList..pnlMapsRightButtons..btnUp..Caption
+msgid "Up"
+msgstr "Yukarı"
+
+msgid "Up Time"
+msgstr "Çalışma Süresi"
+
+#. frmLonLatRectEdit..grdpnlMain..grpTopLeft..Caption
+msgid "Upper left corner"
+msgstr "Üst sol köşe"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
+msgid "URL to Bing Maps"
+msgstr "Bing Haritalar URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
+msgid "URL to Google Maps"
+msgstr "Google Haritalar'ın URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
+msgid "URL to kosmosnimki.ru"
+msgstr "Kosmosnimki.ru URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..TBCopyLinkLayer..Caption
+msgid "URL to Layer Tile"
+msgstr "Katman Döşeme URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
+msgid "URL to Nokia Map Creator"
+msgstr "Nokia Map Creator URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
+msgid "URL to osm.org"
+msgstr "Osm.org'un URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
+msgid "URL to Primary Map Tile"
+msgstr "Birincil Harita Döşemesinin URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
+msgid "URL to Rosreestr"
+msgstr "Rosreestr'in URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
+msgid "URL to Terraserver"
+msgstr "Terraserver'ın URL'si"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
+msgid "URL to Yandex.Maps"
+msgstr "Yandex.Haritalar'ın URL'si"
+
+#. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
+msgid "Use Age Gradient"
+msgstr "Yaş Gradyanını Kullan"
+
+#. Programmer's name for it: rsUseDeleted
+msgid "Use Deleted: Object is not exists!"
+msgstr "Silinmişi Kullan: Nesne mevcut değil!"
+
+#. frmMain..actlstMain..actConfigUsePrevForLayers..Caption
+msgid "Use Layers from Lower Zooms"
+msgstr "Alt Yakınlaştırmalardan Katmanları Kullan"
+
+#. frmMain..actlstMain..actConfigUsePrevForMap..Caption
+msgid "Use Maps from Lower Zooms"
+msgstr "Haritaları Düşük Yakınlaştırmalardan Kullan"
+
+#. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
+#. frExportToIMG..PageControl1..Settings..PnlSettings..chkUseRecolor..Caption
+#. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
+msgid "Use postprocessing settings"
+msgstr "Postprocessing ayarlarını kullan"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
+msgid "Use storage to check new images"
+msgstr "Yeni görüntüleri kontrol etmek için depolamayı kullan"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbUseIESettings..Caption
+msgid "Use system (Internet Explorer) proxy settings"
+msgstr "Sistem (Internet Explorer) proxy ayarlarını kullan"
+
+#. frJpegImportOptions..grp1..chk1..Caption
+msgid "Use thumbnail as Icon"
+msgstr "Küçük resmi Simge olarak kullan"
+
+#. frTilesGenPrev..pnlBottom..pnlCenter..pnlUsePrevTiles..chkUsePrevTiles..Caption
+msgid "Use tile from lower zoom if tile not available"
+msgstr "Döşeme mevcut değilse, alt yakınlaştırmalardan döşemeyi kullan"
+
+#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+msgid "Use tiles from lower zooms (on unavalible tile)"
+msgstr ""
+"Alt yakınlaştırmalardaki döşemeleri kullan (kullanılamayan döşemede)"
+
+#. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Caption
+msgid "Use Vector Layers from Lower Zooms"
+msgstr "Alt Yakınlaştırmalardan Vektör Katmanlarını Kullan"
+
+#. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
+msgid "Use xyz scheme"
+msgstr "XYZ şemasını kullan"
+
+#. frmMain..actlstMain..actViewGridLonLat_User..Caption
+msgid "User defined"
+msgstr "Kullanıcı tanımlı"
+
+#. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlUser..lblUserName..Caption
+msgid "User Name:"
+msgstr "Kullanıcı adı:"
+
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
+msgid "Username:"
+msgstr "Kullanıcı adı:"
+
+#. UTC time
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
+msgid "UTC time"
+msgstr "UTC zamanı"
+
+#. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeCaption
+msgid "UTC time:"
+msgstr "UTC zamanı:"
+
+#. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
+#. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
+msgid "Value"
+msgstr "Değer"
+
+#. frmMain..MainPopupMenu..tbpmiVersions..Caption
+msgid "Version"
+msgstr "Sürüm"
+
+#. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..lblversion..Caption
+#. frmAbout..lblVersionCatpion..Caption
+msgid "Version:"
+msgstr "Sürüm:"
+
+#. frmMain..TBDock..TBXMainMenu..NView..TBXSubmnMapVer..Caption
+msgid "Versions"
+msgstr "Sürümler"
+
+#. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitVert..Caption
+msgid "vertically:"
+msgstr "dikey:"
+
+#. frmSettings..PageControl1..tsView..Caption
+msgid "View"
+msgstr "Göster"
+
+#. frmMain..actlstMain..actSelectByVisibleArea..Caption
+msgid "Visible Area"
+msgstr "Görünür Alan"
+
+#. frmMarkCategoryEdit..Label2..Caption
+msgid "Visible on zooms:"
+msgstr "Yakınlaştırmalarda görünür:"
+
+#. frExportToIMG..PageControl1..Settings..PnlSettings..lblVolumeSize..Caption
+msgid "Volume Size"
+msgstr "Hacim Boyutu"
+
+#. Programmer's name for it: SAS_ERR_WaitTime
+#, no-object-pascal-format
+msgid "Wait %0:d seconds..."
+msgstr "%0:d saniye bekleyin..."
+
+msgid "Waning Crescent"
+msgstr "Küçülen Hilal"
+
+msgid "Waning Gibbous"
+msgstr "Küçülen Şişkin Ay"
+
+msgid "Waxing Crescent"
+msgstr "Büyüyen Hilal"
+
+msgid "Waxing Gibbous"
+msgstr "Büyüyen Şişkin Ay"
+
+#. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
+#. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
+#. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
+#. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
+msgid "Width"
+msgstr "Genişlik"
+
+#. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
+msgid "Width:"
+msgstr "Genişlik:"
+
+#. frmMain..actlstMain..actViewFillingMapFilterMode..Caption
+msgid "Within Time Interval"
+msgstr "Zaman Aralığı İçinde"
+
+#. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Hint
+msgid "Word Wrap"
+msgstr "Kelime Sarma"
+
+msgid "WS deg. (W12.12345678)"
+msgstr "WS der. (W12.12345678)"
+
+msgid "WS deg. (W12.12345678°)"
+msgstr "WS der. (W12.12345678°)"
+
+msgid "WS deg.min. (W12°12.123456')"
+msgstr "WS der.dak. (W12°12.123456')"
+
+msgid "WS deg.min.sec. (W12°12'12.1234\")"
+msgstr "WS der.dak.san. (W12°12'12.1234\")"
+
+#. Search tab
+msgid "Yandex"
+msgstr "Yandex"
+
+#. Programmer's name for it: SAS_STR_Yes
+msgid "Yes"
+msgstr "Evet"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
+msgid "You can reset value by right mouse click"
+msgstr "Sağ fare tıklamasıyla değeri sıfırlayabilirsiniz"
+
+#. Programmer's name for it: rsErrorTwoPolygons
+msgid "You must add at least TWO polygons!"
+msgstr "En az İKİ çokgen eklemelisiniz!"
+
+#. Programmer's name for it: rsErrorNeedMerge
+msgid "You must MERGE polygons first!"
+msgstr "Önce çokgenleri BİRLEŞTİRMELİSİNİZ!"
+
+#. Programmer's name for it: SAS_ERR_MainMapNotExists
+msgid "You need at least one MAP among your ZMP files"
+msgstr "ZMP dosyalarınız arasında en az bir HARİTA'ya ihtiyacınız var"
+
+#. frmUpdateChecker..lblCurVer..Caption
+msgid "Your version:"
+msgstr "Kurulu Sürüm:"
+
+msgid "zip archiver settings"
+msgstr "zip arşivleyici ayarları"
+
+#. frMapsList..MapList......Caption
+msgid "ZMP Filename"
+msgstr "ZMP Dosya Adı"
+
+msgid ""
+"ZMP has been modified, but not saved yet!\n"
+"\n"
+"Do you really want to close without saving?"
+msgstr ""
+"ZMP değiştirildi, ancak henüz kaydedilmedi!\n"
+"\n"
+"Gerçekten kaydetmeden kapatmak istiyor musunuz?"
+
+#. frMapsList..pnlMapsRightButtons..cbbSortingOrder....Items.Strings
+msgid "Zmp Name"
+msgstr "Zmp Adı"
+
+#. frLonLat..pnlProjected..grdpnlZone..lblZone..Caption
+msgid "Zone:"
+msgstr "Bölge:"
+
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
+#. frmMain..TBDockLeft..ZoomToolBar..Caption
+#. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..chkZoom..Caption
+#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCZoom..lbNMCZoom..Caption
+#. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
+#. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
+#. Programmer's name for it: SAS_STR_Zoom
+msgid "Zoom"
+msgstr "Yakınlaştır"
+
+#. frmMain..actlstMain..actConfigUseZoomAnimation..Caption
+msgid "Zoom Animation"
+msgstr "Yakınlaştırma Animasyonu"
+
+#. frmMain..actlstMain..actZoomIn..Caption
+#. frmMain..actlstMain..actZoomIn..Hint
+msgid "Zoom In"
+msgstr "YakınlaştırYakınlaştır"
+
+#. frmMain..actlstMain..actZoomOut..Caption
+#. frmMain..actlstMain..actZoomOut..Hint
+msgid "Zoom Out"
+msgstr "Uzaklaştır"
+
+#. frmMain..actlstMain..actConfigZoomToCursor..Caption
+msgid "Zoom to Cursor"
+msgstr "İmlece Yaklaştır"
+
+#. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
+#. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption
+#. frExportAUX..pnlCenter..pnlMapSelect..pnlZoom..lblZoom..Caption
+#. frExportToOgf2..pnlZoom..lblZoom..Caption
+msgid "Zoom:"
+msgstr "Yakınlaştır:"
+
+#. frZoomsSelect..lblZooms..Caption
+#. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..Label1..Caption
+msgid "Zooms:"
+msgstr "Yakınlaştırma:"
+
+#. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
+msgid "Z-Order:"
+msgstr "Sırası:"
