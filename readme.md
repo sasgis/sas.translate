@@ -6,6 +6,7 @@ The names of the localization files correspond to the two-letter codes [ISO 639-
 - `fr.po` - French
 - `ru.po` - Russian
 - `uk.po` - Ukrainian
+- `tr.po` - Turkish
 
 The `default.po` file contains all strings in English language that are used in the program. This file is generated automatically by script.
 
