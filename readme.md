@@ -12,4 +12,4 @@ The `default.po` file contains all strings in English language that are used in 
 
 The `ignore.po` file contains strings that appear in the program but are not to be translated (this file is used by scripts). You can add strings to this file as needed. 
 
-Scripts to generete the `default.po` and update the `xx.po` files can be found here: https://github.com/sasgis/sas.translate.dev
+Scripts to generate the `default.po` and update the `xx.po` files can be found here: https://github.com/sasgis/sas.translate.dev
