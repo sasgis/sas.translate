@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-01 15:28\n"
+"POT-Creation-Date: 2022-03-31 15:15\n"
 "PO-Revision-Date: 2022-03-02 23:10+0300\n"
 "Last-Translator: Bekir UÇARCI <bekirucarci@gmail.com>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -137,11 +137,8 @@ msgstr "(yakınlaştırma %)"
 
 #. Programmer's name for it: rsLimitHint
 #, object-pascal-format
-msgid ""
-"* - Limited by max concurrent http(s) requests for current map: %d"
-msgstr ""
-"* - Mevcut harita için maksimum http isteği bu sayı ile sınırlıdır: "
-"%d"
+msgid "* - Limited by max concurrent http(s) requests for current map: %d"
+msgstr "* - Mevcut harita için maksimum http isteği bu sayı ile sınırlıdır: %d"
 
 #. Programmer's name for it: SAS_UNITS_mperp
 msgid "/pixel"
@@ -712,8 +709,7 @@ msgstr "\"%s\" veritabanını silmek istediğinizden emin misiniz?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
 msgid "Are you sure you want to delete Marks in selected region?"
-msgstr ""
-"Seçilen bölgedeki İşaretleri silmek istediğinizden emin misiniz?"
+msgstr "Seçilen bölgedeki İşaretleri silmek istediğinizden emin misiniz?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
 #, no-object-pascal-format
@@ -722,11 +718,10 @@ msgstr "\"%0:s\" adlı yolu silmek istediğinizden emin misiniz?"
 
 #, no-object-pascal-format
 msgid ""
-"Are you sure you want to delete placemark of unknown type with name "
-"\"%0:s\"?"
+"Are you sure you want to delete placemark of unknown type with name \"%0:s\"?"
 msgstr ""
-"\"%0:s\" adlı bilinmeyen türdeki yer işaretini silmek istediğinizden "
-"emin misiniz?"
+"\"%0:s\" adlı bilinmeyen türdeki yer işaretini silmek istediğinizden emin "
+"misiniz?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
 #, no-object-pascal-format
@@ -745,8 +740,7 @@ msgstr "\"%0:s\" adlı döşemeyi silmek istediğinizden emin misiniz?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
 msgid "Are you sure you want to delete tiles in selected region?"
-msgstr ""
-"Seçili bölgedeki döşemeleri silmek istediğinizden emin misiniz?"
+msgstr "Seçili bölgedeki döşemeleri silmek istediğinizden emin misiniz?"
 
 #. Programmer's name for it: SAS_MSG_ResetSensorAsk
 msgid "Are you sure you want to reset sensor?"
@@ -782,18 +776,16 @@ msgid "Astro. twilight start"
 msgstr "Astro. Alacakaranlık başlangıcı"
 
 msgid ""
-"At least one calibration type doesn't support file name with "
-"characters not from current locale!"
+"At least one calibration type doesn't support file name with characters not "
+"from current locale!"
 msgstr ""
-"En az bir kalibrasyon türü, geçerli yerel ayardan olmayan "
-"karakterlerle dosya adını desteklemiyor!"
+"En az bir kalibrasyon türü, geçerli yerel ayardan olmayan karakterlerle "
+"dosya adını desteklemiyor!"
 
 msgid ""
-"At least one calibration type supports file name with ASCII "
-"characters only!"
+"At least one calibration type supports file name with ASCII characters only!"
 msgstr ""
-"En az bir kalibrasyon türü, yalnızca ASCII karakterli dosya adını "
-"destekler!"
+"En az bir kalibrasyon türü, yalnızca ASCII karakterli dosya adını destekler!"
 
 #. Programmer's name for it: SAS_MSG_coution
 msgid "Attention!"
@@ -862,6 +854,11 @@ msgstr "Ortalama hız"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Ortalama hız, km/s:"
+
+#. Programmer's name for it: rsElevationProfileElevAvgSlopeFmt
+#, object-pascal-format
+msgid "Avg Slope: %.1f%%, %.1f%%"
+msgstr ""
 
 #. Programmer's name for it: rsAz
 msgid "Az."
@@ -1039,8 +1036,7 @@ msgstr "calc..."
 
 msgid "Calibration by World file and files with projection description"
 msgstr ""
-"Dünya dosyasına ve projeksiyon açıklamasına sahip dosyalara göre "
-"kalibrasyon"
+"Dünya dosyasına ve projeksiyon açıklamasına sahip dosyalara göre kalibrasyon"
 
 msgid "Calibration for Google Earth programm (*.kml)"
 msgstr "Google Earth programı için kalibrasyon (*.kml)"
@@ -1111,8 +1107,7 @@ msgstr ""
 
 msgid "Can't initialize in-memory tile storage. Check your config!"
 msgstr ""
-"Bellek içi döşeme depolaması başlatılamıyor. Yapılandırmanızı "
-"kontrol edin!"
+"Bellek içi döşeme depolaması başlatılamıyor. Yapılandırmanızı kontrol edin!"
 
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
@@ -1330,9 +1325,7 @@ msgid "Connection string"
 msgstr "Bağlantı dizisi"
 
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
-msgid ""
-"Connection to external tile storage is dead and cannot be "
-"reestablished"
+msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr "Harici döşeme deposuna bağlantı kesildi ve yeniden kurulamaz"
 
 #. Programmer's name for it: SAS_STR_Contrast
@@ -1529,11 +1522,10 @@ msgstr "Kes"
 
 #. Programmer's name for it: SAS_ERR_ETS_DataTruncation
 msgid ""
-"Data truncation occured because of external tile storage "
-"misconfiguration"
+"Data truncation occured because of external tile storage misconfiguration"
 msgstr ""
-"Harici döşeme depolama yanlış yapılandırılması nedeniyle veri "
-"kesintisi oluştu"
+"Harici döşeme depolama yanlış yapılandırılması nedeniyle veri kesintisi "
+"oluştu"
 
 #. frmMarkSystemConfigEdit..grpDBType..Caption
 msgid "Database type"
@@ -1844,8 +1836,8 @@ msgstr "İndirme tamamlandı"
 #. Programmer's name for it: rsDownloadFinished
 #, object-pascal-format
 msgid ""
-"Download completed successfully. You can update the program manually "
-"from file: %s"
+"Download completed successfully. You can update the program manually from "
+"file: %s"
 msgstr ""
 "İndirme başarıyla tamamlandı. Programı şu dosyadan alıp elle "
 "güncelleyebilirsiniz: %s"
@@ -2012,8 +2004,7 @@ msgid "Empty GUID"
 msgstr "Boş GUID"
 
 msgid "Empty map list. Please add the layers to export!"
-msgstr ""
-"Boş harita listesi. Lütfen dışa aktarılacak katmanları ekleyin!"
+msgstr "Boş harita listesi. Lütfen dışa aktarılacak katmanları ekleyin!"
 
 #. Programmer's name for it: SAS_ERR_EmptyServerResponse
 msgid "Empty server response"
@@ -2039,11 +2030,9 @@ msgstr "Aşağıdaki harita türlerini etkinleştir:"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
-"Enter comma-separated MNC, MCC, LAC, CellID (example: "
-"02,250,7718,11942)"
+"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
 msgstr ""
-"Virgülle ayrılmış MNC, MCC, LAC, CellID girin (örnek: "
-"02,250,7718,11942)"
+"Virgülle ayrılmış MNC, MCC, LAC, CellID girin (örnek: 02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
@@ -2110,26 +2099,25 @@ msgstr "Etkinlik"
 #, no-object-pascal-format
 msgid "Every map part must have height less than %0:d but exist %1:d"
 msgstr ""
-"Her harita parçasının yüksekliği %0:d 'den az olmalı, ancak %1:d "
-"mevcut olmalıdır"
+"Her harita parçasının yüksekliği %0:d 'den az olmalı, ancak %1:d mevcut "
+"olmalıdır"
 
 #, no-object-pascal-format
 msgid "Every map part must have height more than %0:d but exist %1:d"
 msgstr ""
-"Her harita parçasının yüksekliği %0:d 'den fazla olmalı, ancak %1:d "
-"olmalıdır"
+"Her harita parçasının yüksekliği %0:d 'den fazla olmalı, ancak %1:d olmalıdır"
 
 #, no-object-pascal-format
 msgid "Every map part must have width less than %0:d but exist %1:d"
 msgstr ""
-"Her harita parçasının genişliği %0:d 'den az olmalı, ancak %1:d "
-"mevcut olmalıdır"
+"Her harita parçasının genişliği %0:d 'den az olmalı, ancak %1:d mevcut "
+"olmalıdır"
 
 #, no-object-pascal-format
 msgid "Every map part must have width more than %0:d but exist %1:d"
 msgstr ""
-"Her harita parçasının genişliği %0:d 'den fazla olmalı, ancak %1:d "
-"mevcut olmalıdır"
+"Her harita parçasının genişliği %0:d 'den fazla olmalı, ancak %1:d mevcut "
+"olmalıdır"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmXOR..Caption
 msgid "Exclusive or (XOR)"
@@ -2699,12 +2687,11 @@ msgstr "İçe Aktar"
 
 #, object-pascal-format
 msgid ""
-"Import finished. Total processed: %d files. Successfull imported: %d "
-"files.\n"
+"Import finished. Total processed: %d files. Successfull imported: %d files.\n"
 "Fit to screen the last imported item?"
 msgstr ""
-"İçe aktarma tamamlandı. Toplam işlenen: %d dosya. Başarıyla içe "
-"aktarılan: %d dosya.\n"
+"İçe aktarma tamamlandı. Toplam işlenen: %d dosya. Başarıyla içe aktarılan: "
+"%d dosya.\n"
 "Son içe aktarılan öğeyi ekrana sığdırmak ister misiniz?"
 
 #. frmImportConfigEdit..Caption
@@ -2768,11 +2755,9 @@ msgstr "Kesişim (AND)"
 #. Programmer's name for it: rsInvalidDelete
 #, object-pascal-format
 msgid ""
-"Invalid Delete: Object is still have active interface ref's! (Ref "
-"count: %d)"
+"Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
 msgstr ""
-"Geçersiz Silme: Nesnenin hala aktif arayüz referansları var! (Ref "
-"sayısı: %d)"
+"Geçersiz Silme: Nesnenin hala aktif arayüz referansları var! (Ref sayısı: %d)"
 
 #, object-pascal-format
 msgid "Invalid Volume Size value: %s"
@@ -2809,6 +2794,10 @@ msgstr "JPEG kalitesi:"
 #. Programmer's name for it: SAS_UNITS_kb
 msgid "KB"
 msgstr "KB"
+
+#. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
+msgid "Keep Aspect Ratio"
+msgstr ""
 
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkKeepTempFiles..Caption
 msgid "Keep temporarily files"
@@ -3055,11 +3044,8 @@ msgstr "Harita derlemesi başarısız."
 
 #, object-pascal-format
 msgid ""
-"Map compilation failed. The map compiler reported the following "
-"error: %s"
-msgstr ""
-"Harita derlemesi başarısız oldu. Harita derleyicisi şu hatayı aldı: "
-"%s"
+"Map compilation failed. The map compiler reported the following error: %s"
+msgstr "Harita derlemesi başarısız oldu. Harita derleyicisi şu hatayı aldı: %s"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..CheckEnabled..Caption
 msgid "Map enabled"
@@ -3212,6 +3198,11 @@ msgstr "Maksimum eşzamanlı http-istek sayısı:"
 msgid "Max number of simultaneous connections per server"
 msgstr "Sunucu başına maksimum eşzamanlı bağlantı sayısı"
 
+#. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
+#, object-pascal-format
+msgid "Max Slope: %.1f%%, %.1f%%"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
 msgstr "Maks. birim boyutu, MB"
@@ -3241,8 +3232,7 @@ msgid "Menu"
 msgstr "Menü"
 
 msgid "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
-msgstr ""
-"Merkatör / Google Haritalar (Çember Yarıçapı 6378137) / EPSG:3785"
+msgstr "Merkatör / Google Haritalar (Çember Yarıçapı 6378137) / EPSG:3785"
 
 msgid "Mercator / WGS84 / EPSG:3395"
 msgstr "Merkatör / WGS84 / EPSG:3395"
@@ -3973,11 +3963,10 @@ msgstr "Lütfen, en az bir poligon ile kategori seçin!"
 msgid "Please, select output file first!"
 msgstr "Lütfen önce çıktı dosyasını seçin!"
 
-msgid ""
-"Please, select zoom/coordinates or at least one Layer or Map first!"
+msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
 msgstr ""
-"Lütfen yakınlaştırma / koordinatları veya önce en az bir katman veya "
-"harita seçiniz!"
+"Lütfen yakınlaştırma / koordinatları veya önce en az bir katman veya harita "
+"seçiniz!"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -4042,13 +4031,11 @@ msgid "Precise cropping by the polygon"
 msgstr "Çokgenle hassas kırpma"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
-msgid ""
-"Precise cropping of the image along the boundaries of the polygon"
+msgid "Precise cropping of the image along the boundaries of the polygon"
 msgstr "Çokgenin sınırları boyunca görüntünün kesin kırpılması"
 
 msgid "Press Ctrl and click on polygon to add one..."
-msgstr ""
-"CTRL tuşuna basın ve bir tane eklemek için çokgen üzerine tıklayın..."
+msgstr "CTRL tuşuna basın ve bir tane eklemek için çokgen üzerine tıklayın..."
 
 #. frmMain..actlstMain..actViewSelectPrevMapWithTile..Caption
 msgid "Previous map with tile"
@@ -4076,8 +4063,7 @@ msgstr "Birincil sağlayıcı:"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
 msgid "Process next tile if no response (when downloading the region)"
-msgstr ""
-"Cevap alınamıyorsa (bölgeyi indirirken) bir sonraki döşemeye geç"
+msgstr "Cevap alınamıyorsa (bölgeyi indirirken) bir sonraki döşemeye geç"
 
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
@@ -4405,9 +4391,7 @@ msgstr "SAS.Planet Geliştirme Ekibi"
 
 #. Programmer's name for it: SAS_MSG_need_reload_application_curln
 msgid "SAS.Planet must be restarted for the changes to take effect"
-msgstr ""
-"Değişikliklerin geçerli olması için SAS.Planet yeniden "
-"başlatılmalıdır"
+msgstr "Değişikliklerin geçerli olması için SAS.Planet yeniden başlatılmalıdır"
 
 #. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
 #. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
@@ -4584,11 +4568,11 @@ msgstr "Seçilen temel harita"
 #. Programmer's name for it: SAS_MSG_DeleteSubCategoryAsk
 #, object-pascal-format
 msgid ""
-"Selected category \"%0:s\" contain %d sub categories. Are you realy "
-"want to delete all of them?"
+"Selected category \"%0:s\" contain %d sub categories. Are you realy want to "
+"delete all of them?"
 msgstr ""
-"Seçilen kategori \"%0:s\" , %d alt kategori içeriyor. Gerçekten "
-"hepsini silmek istiyor musunuz?"
+"Seçilen kategori \"%0:s\" , %d alt kategori içeriyor. Gerçekten hepsini "
+"silmek istiyor musunuz?"
 
 #. Programmer's name for it: SAS_ERR_ImageIsTooBig
 #, object-pascal-format
@@ -4596,14 +4580,14 @@ msgid ""
 "Selected resolution is too big for %s format!\n"
 "Widht = %d (max = %d)\n"
 "Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output "
-"format (ECW is the best)."
+"Try select smaller region to stitch in %s or select other output format (ECW "
+"is the best)."
 msgstr ""
 "Seçilen çözünürlük %s biçimi için çok büyük!\n"
 "Genişlik = %d (maks = %d)\n"
 "Yükseklik = %d (maks = %d)\n"
-"%s olarak devam etmek için daha küçük bir bölge seçmeyi deneyin veya "
-"başka bir çıktı formatı seçin (ECW en iyisidir)."
+"%s olarak devam etmek için daha küçük bir bölge seçmeyi deneyin veya başka "
+"bir çıktı formatı seçin (ECW en iyisidir)."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -4995,6 +4979,10 @@ msgstr "Atlandı:"
 msgid "Sleep on reset connection, ms"
 msgstr "Sıfırlama bağlantısında uyut, ms"
 
+#, object-pascal-format
+msgid "Slope: %.1f%%"
+msgstr ""
+
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Small"
 msgstr "Küçük"
@@ -5198,8 +5186,8 @@ msgid ""
 "Table not found and cannot be created (possibly due to insufficient "
 "privileges or readonly external tile storage)"
 msgstr ""
-"Tablo bulunamadı ve oluşturulamıyor (muhtemelen yetersiz "
-"ayrıcalıklar veya salt okunur harici döşeme depolaması nedeniyle)"
+"Tablo bulunamadı ve oluşturulamıyor (muhtemelen yetersiz ayrıcalıklar veya "
+"salt okunur harici döşeme depolaması nedeniyle)"
 
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
@@ -5291,29 +5279,26 @@ msgid "There is no supported maps"
 msgstr "Desteklenen harita yok"
 
 msgid ""
-"This format doesn't support file name with characters not from "
-"current locale!"
+"This format doesn't support file name with characters not from current "
+"locale!"
 msgstr ""
 "Bu biçim, geçerli yerel ayardan olmayan karakterlerle dosya adını "
 "desteklemez!"
 
 msgid "This format supports file name with ASCII characters only!"
-msgstr ""
-"Bu biçim, yalnızca ASCII karakterleriyle dosya adını destekler!"
+msgstr "Bu biçim, yalnızca ASCII karakterleriyle dosya adını destekler!"
 
 #. Programmer's name for it: SAS_MSG_CantGetTileFileName
-msgid ""
-"This is not simple file storage. Tile's file name does not exist."
-msgstr ""
-"Bu basit dosya depolama değildir. Döşemenin dosya adı mevcut değil."
+msgid "This is not simple file storage. Tile's file name does not exist."
+msgstr "Bu basit dosya depolama değildir. Döşemenin dosya adı mevcut değil."
 
 #. frmAbout..lblLicense....Caption
 msgid ""
-"This program is freeware, opensource and released under the GNU "
-"General Public License (GPLv3)"
+"This program is freeware, opensource and released under the GNU General "
+"Public License (GPLv3)"
 msgstr ""
-"Bu program ücretsiz, açık kaynak kodlu ve GNU Genel Kamu Lisansı "
-"(GPLv3) kapsamında yayınlanmıştır."
+"Bu program ücretsiz, açık kaynak kodlu ve GNU Genel Kamu Lisansı (GPLv3) "
+"kapsamında yayınlanmıştır."
 
 #. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
 msgid "Thread count:"
@@ -5490,8 +5475,8 @@ msgid ""
 "Unknown error at external tile storage, see Storage Options for more "
 "information"
 msgstr ""
-"Harici döşeme deposunda bilinmeyen hata, daha fazla bilgi için "
-"Depolama Seçeneklerine bakın"
+"Harici döşeme deposunda bilinmeyen hata, daha fazla bilgi için Depolama "
+"Seçeneklerine bakın"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
@@ -5601,8 +5586,7 @@ msgstr "Döşeme mevcut değilse, alt yakınlaştırmalardan döşemeyi kullan"
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 msgid "Use tiles from lower zooms (on unavalible tile)"
-msgstr ""
-"Alt yakınlaştırmalardaki döşemeleri kullan (kullanılamayan döşemede)"
+msgstr "Alt yakınlaştırmalardaki döşemeleri kullan (kullanılamayan döşemede)"
 
 #. frmMain..actlstMain..actConfigUsePrevForVectorLayers..Caption
 msgid "Use Vector Layers from Lower Zooms"
@@ -5803,6 +5787,11 @@ msgstr "Uzaklaştır"
 #. frmMain..actlstMain..actConfigZoomToCursor..Caption
 msgid "Zoom to Cursor"
 msgstr "İmlece Yaklaştır"
+
+#. frElevationProfile..pmMain..mniZoomWithMouseWheel..Caption
+#, fuzzy
+msgid "Zoom with Mouse Wheel"
+msgstr "Fare tekerleği"
 
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption

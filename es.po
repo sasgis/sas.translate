@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-01 15:28\n"
+"POT-Creation-Date: 2022-03-31 15:07\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -876,6 +876,11 @@ msgstr "Velocidad promedio"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Velocidad promedio, km/h:"
+
+#. Programmer's name for it: rsElevationProfileElevAvgSlopeFmt
+#, object-pascal-format
+msgid "Avg Slope: %.1f%%, %.1f%%"
+msgstr ""
 
 #. Programmer's name for it: rsAz
 msgid "Az."
@@ -2847,6 +2852,10 @@ msgstr "Calidad JPEG"
 msgid "KB"
 msgstr "KB"
 
+#. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
+msgid "Keep Aspect Ratio"
+msgstr ""
+
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkKeepTempFiles..Caption
 #, fuzzy
 msgid "Keep temporarily files"
@@ -3253,6 +3262,11 @@ msgstr "Número máximo de requerimientos http (s):"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
+msgstr ""
+
+#. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
+#, object-pascal-format
+msgid "Max Slope: %.1f%%, %.1f%%"
 msgstr ""
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
@@ -5079,6 +5093,10 @@ msgstr "Ignorados:"
 msgid "Sleep on reset connection, ms"
 msgstr "Espera en restablecer conexión, ms"
 
+#, object-pascal-format
+msgid "Slope: %.1f%%"
+msgstr ""
+
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Small"
 msgstr ""
@@ -5910,6 +5928,11 @@ msgstr "Zoom Out"
 #. frmMain..actlstMain..actConfigZoomToCursor..Caption
 msgid "Zoom to Cursor"
 msgstr "Zoom en el Cursor"
+
+#. frElevationProfile..pmMain..mniZoomWithMouseWheel..Caption
+#, fuzzy
+msgid "Zoom with Mouse Wheel"
+msgstr "Rueda del Mouse"
 
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption

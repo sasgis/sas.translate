@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-01 15:28\n"
+"POT-Creation-Date: 2022-03-31 15:07\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -861,6 +861,11 @@ msgstr "Vitesse moyenne"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Vitesse moyenne, km/h :"
+
+#. Programmer's name for it: rsElevationProfileElevAvgSlopeFmt
+#, object-pascal-format
+msgid "Avg Slope: %.1f%%, %.1f%%"
+msgstr ""
 
 #. Programmer's name for it: rsAz
 msgid "Az."
@@ -2817,6 +2822,10 @@ msgstr "Qualité JPEG :"
 msgid "KB"
 msgstr "Kb"
 
+#. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
+msgid "Keep Aspect Ratio"
+msgstr ""
+
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkKeepTempFiles..Caption
 msgid "Keep temporarily files"
 msgstr "Garder les fichiers temporaires"
@@ -3220,6 +3229,11 @@ msgstr "Nombre maximum de requêtes HTTP concurrentes :"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
 msgstr "Nombre maximum de connexions simultanées par serveur"
+
+#. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
+#, object-pascal-format
+msgid "Max Slope: %.1f%%, %.1f%%"
+msgstr ""
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
@@ -5016,6 +5030,10 @@ msgstr "Ignoré :"
 msgid "Sleep on reset connection, ms"
 msgstr "Attente lors du redémarrage, ms :"
 
+#, object-pascal-format
+msgid "Slope: %.1f%%"
+msgstr ""
+
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Small"
 msgstr "Petite"
@@ -5828,6 +5846,11 @@ msgstr "Zoom plus petit"
 #. frmMain..actlstMain..actConfigZoomToCursor..Caption
 msgid "Zoom to Cursor"
 msgstr "Centrage vers le pointeur (double clic)"
+
+#. frElevationProfile..pmMain..mniZoomWithMouseWheel..Caption
+#, fuzzy
+msgid "Zoom with Mouse Wheel"
+msgstr "Contrôle de la roue de la souris :"
 
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption

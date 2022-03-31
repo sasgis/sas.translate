@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2022-03-01 15:28\n"
-"PO-Revision-Date: 2022-03-01 15:25+0300\n"
+"POT-Creation-Date: 2022-03-31 15:07\n"
+"PO-Revision-Date: 2022-03-31 15:10+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -850,6 +850,11 @@ msgstr "Скорость средняя"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedCaption
 msgid "Average speed, km/h:"
 msgstr "Скорость сред., км/ч:"
+
+#. Programmer's name for it: rsElevationProfileElevAvgSlopeFmt
+#, object-pascal-format
+msgid "Avg Slope: %.1f%%, %.1f%%"
+msgstr "Средн. Уклон: %.1f%%, %.1f%%"
 
 #. Programmer's name for it: rsAz
 msgid "Az."
@@ -2776,6 +2781,10 @@ msgstr "Качество JPEG:"
 msgid "KB"
 msgstr "кБ"
 
+#. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
+msgid "Keep Aspect Ratio"
+msgstr "Сохранять соотношение сторон"
+
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkKeepTempFiles..Caption
 msgid "Keep temporarily files"
 msgstr "Сохранять временные файлы"
@@ -3174,6 +3183,11 @@ msgstr "Макс. число параллельных http(s)-запросов:"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
 msgstr "Макс. число одновременных соединений на сервер"
+
+#. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
+#, object-pascal-format
+msgid "Max Slope: %.1f%%, %.1f%%"
+msgstr "Макс. Уклон: %.1f%%, %.1f%%"
 
 #. frExportToCE..pnlCenter..pnlMain..lVolSize..Caption
 msgid "Max volume size, Mb"
@@ -4954,6 +4968,10 @@ msgstr "Пропущено:"
 msgid "Sleep on reset connection, ms"
 msgstr "Пауза, при обрыве связи, мс"
 
+#, object-pascal-format
+msgid "Slope: %.1f%%"
+msgstr "Уклон: %.1f%%"
+
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Small"
 msgstr ""
@@ -5754,6 +5772,10 @@ msgstr "Уменьшить"
 #. frmMain..actlstMain..actConfigZoomToCursor..Caption
 msgid "Zoom to Cursor"
 msgstr "Масштабировать от курсора"
+
+#. frElevationProfile..pmMain..mniZoomWithMouseWheel..Caption
+msgid "Zoom with Mouse Wheel"
+msgstr "Увеличивать колёсиком мыши"
 
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption
