@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-04-01 12:29\n"
-"PO-Revision-Date: 2022-04-01 12:29\n"
+"POT-Creation-Date: 2022-04-29 17:57\n"
+"PO-Revision-Date: 2022-04-29 17:57\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1076,6 +1076,7 @@ msgstr ""
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkPictureEditor..btnCancel..Caption
@@ -2757,6 +2758,10 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
+#. Programmer's name for it: rsInitializing
+msgid "Initializing..."
+msgstr ""
+
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr ""
@@ -4003,11 +4008,18 @@ msgstr ""
 msgid "Please select the map first!"
 msgstr ""
 
+#. Programmer's name for it: rsWaitUntilTheFinishOperation
+msgid ""
+"Please wait until the finish of the previous "
+"operation!"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr ""
 
 #. frmProgressCacheConverter..Caption
+#. frmElevationMetaWriterProgress..Caption
 #. frmMergePolygonsProgress..Caption
 #. frmProgressSimple..Caption
 #. frmProgressDownload..Caption
@@ -4160,6 +4172,11 @@ msgstr ""
 
 #. frmProgressCacheConverter..lblProcessedName..Caption
 msgid "Processed:"
+msgstr ""
+
+#. Programmer's name for it: rsProcessedFmt
+#, object-pascal-format
+msgid "Processed: %.2f%%"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
@@ -4815,6 +4832,7 @@ msgid "Show Elevation Info In Status Bar"
 msgstr ""
 
 #. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
 msgstr ""
 

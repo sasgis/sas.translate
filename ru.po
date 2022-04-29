@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2022-04-01 12:29\n"
-"PO-Revision-Date: 2022-04-01 12:32+0300\n"
+"POT-Creation-Date: 2022-04-29 17:57\n"
+"PO-Revision-Date: 2022-04-29 17:59+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1049,6 +1049,7 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkPictureEditor..btnCancel..Caption
@@ -2700,6 +2701,10 @@ msgstr "Движение по инерции"
 msgid "Info"
 msgstr "Информация"
 
+#. Programmer's name for it: rsInitializing
+msgid "Initializing..."
+msgstr "Инициализация..."
+
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Входные переменные"
@@ -3929,11 +3934,16 @@ msgstr "Пожалуйста, укажите целевую папку"
 msgid "Please select the map first!"
 msgstr "Сначала необходимо выбрать карту!"
 
+#. Programmer's name for it: rsWaitUntilTheFinishOperation
+msgid "Please wait until the finish of the previous operation!"
+msgstr "Пожалуйста, дождитесь окончания предыдущей операции!"
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr "Подождите, идет загрузка..."
 
 #. frmProgressCacheConverter..Caption
+#. frmElevationMetaWriterProgress..Caption
 #. frmMergePolygonsProgress..Caption
 #. frmProgressSimple..Caption
 #. frmProgressDownload..Caption
@@ -4079,6 +4089,11 @@ msgstr "Всего обработано:"
 #. frmProgressCacheConverter..lblProcessedName..Caption
 msgid "Processed:"
 msgstr "Обработано:"
+
+#. Programmer's name for it: rsProcessedFmt
+#, object-pascal-format
+msgid "Processed: %.2f%%"
+msgstr "Обработано: %.2f%%"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
 #, no-object-pascal-format
@@ -4735,6 +4750,7 @@ msgid "Show Elevation Info In Status Bar"
 msgstr "Отображать информацию о высоте в строке статуса"
 
 #. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
 msgstr "Показать профиль рельефа"
 

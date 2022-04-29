@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2022-04-01 12:29\n"
+"POT-Creation-Date: 2022-04-29 17:57\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1065,6 +1065,7 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkPictureEditor..btnCancel..Caption
@@ -2740,6 +2741,10 @@ msgstr "Рух за інерцією"
 msgid "Info"
 msgstr "Інформація"
 
+#. Programmer's name for it: rsInitializing
+msgid "Initializing..."
+msgstr ""
+
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Вхідні змінні"
@@ -3987,11 +3992,16 @@ msgstr "Будьласка, оберіть спочатку вихідну па�
 msgid "Please select the map first!"
 msgstr "Будьласка, оберіть спочатку вихідний файл!"
 
+#. Programmer's name for it: rsWaitUntilTheFinishOperation
+msgid "Please wait until the finish of the previous operation!"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr "Зачекайте, йде завантаження..."
 
 #. frmProgressCacheConverter..Caption
+#. frmElevationMetaWriterProgress..Caption
 #. frmMergePolygonsProgress..Caption
 #. frmProgressSimple..Caption
 #. frmProgressDownload..Caption
@@ -4134,6 +4144,11 @@ msgstr "Всього оброблено:"
 
 #. frmProgressCacheConverter..lblProcessedName..Caption
 msgid "Processed:"
+msgstr "Оброблено:"
+
+#. Programmer's name for it: rsProcessedFmt
+#, fuzzy, object-pascal-format
+msgid "Processed: %.2f%%"
 msgstr "Оброблено:"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
@@ -4799,6 +4814,7 @@ msgid "Show Elevation Info In Status Bar"
 msgstr "Показувати інф. про висоту в рядку стану"
 
 #. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 #, fuzzy
 msgid "Show Elevation Profile"
 msgstr "Показувати інформацію про висоту"

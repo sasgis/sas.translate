@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-01 12:29\n"
+"POT-Creation-Date: 2022-04-29 17:57\n"
 "PO-Revision-Date: 2022-03-02 23:10+0300\n"
 "Last-Translator: Bekir UÇARCI <bekirucarci@gmail.com>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -1054,6 +1054,7 @@ msgstr "Radio Mobile programı için kalibrasyon (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
 #. frmCacheManager..pnlBottomButtons..btnCansel..Caption
+#. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMarkPictureEditor..btnCancel..Caption
@@ -2715,6 +2716,10 @@ msgstr "Atalet Hareketi"
 msgid "Info"
 msgstr "Bilgi"
 
+#. Programmer's name for it: rsInitializing
+msgid "Initializing..."
+msgstr ""
+
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Değişkenleri Gir"
@@ -3943,11 +3948,16 @@ msgstr "Lütfen çıktı klasörünü seçiniz"
 msgid "Please select the map first!"
 msgstr "Lütfen önce haritayı seçin!"
 
+#. Programmer's name for it: rsWaitUntilTheFinishOperation
+msgid "Please wait until the finish of the previous operation!"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
 msgstr "Lütfen bekleyin, indirme işlemi devam ediyor..."
 
 #. frmProgressCacheConverter..Caption
+#. frmElevationMetaWriterProgress..Caption
 #. frmMergePolygonsProgress..Caption
 #. frmProgressSimple..Caption
 #. frmProgressDownload..Caption
@@ -4092,6 +4102,11 @@ msgstr "Toplam İşlenen:"
 
 #. frmProgressCacheConverter..lblProcessedName..Caption
 msgid "Processed:"
+msgstr "İşlendi:"
+
+#. Programmer's name for it: rsProcessedFmt
+#, fuzzy, object-pascal-format
+msgid "Processed: %.2f%%"
 msgstr "İşlendi:"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
@@ -4746,6 +4761,7 @@ msgid "Show Elevation Info In Status Bar"
 msgstr "Durum Çubuğunda Yükseklik Bilgisini Göster"
 
 #. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
 msgstr "Yükseklik Profilini Göster"
 
