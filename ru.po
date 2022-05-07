@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2022-04-29 17:57\n"
-"PO-Revision-Date: 2022-04-29 17:59+0300\n"
+"POT-Creation-Date: 2022-05-07 10:35\n"
+"PO-Revision-Date: 2022-05-07 10:36+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -147,20 +147,6 @@ msgstr "/пикс."
 #. Programmer's name for it: rsClip
 msgid "[clip]"
 msgstr ""
-
-#, object-pascal-format
-msgid ""
-"[JNX] Tile processing error!\n"
-"Tile: X = %d, Y = %d, Z = %d\n"
-"Error: \"%s: %s\"\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"[JNX] Ошибка обработки тайла!\n"
-"Тайл: X = %d, Y = %d, Z = %d\n"
-"Ошибка: \"%s: %s\"\n"
-"\n"
-"Вы хотите продолжить?"
 
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
@@ -5353,6 +5339,20 @@ msgstr ""
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Путь к кэшу Tile Map Service (TMS):"
+
+#, object-pascal-format
+msgid ""
+"Tile processing error!\n"
+"Tile: X = %d, Y = %d, Z = %d\n"
+"Error: \"%s: %s\"\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Ошибка обработки тайла!\n"
+"Тайл: X = %d, Y = %d, Z = %d\n"
+"Ошибка: \"%s: %s\"\n"
+"\n"
+"Вы хотите продолжить?"
 
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
 msgid "Tile Size"

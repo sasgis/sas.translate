@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2022-04-29 17:57\n"
+"POT-Creation-Date: 2022-05-07 10:35\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -152,15 +152,6 @@ msgstr "/пікс."
 
 #. Programmer's name for it: rsClip
 msgid "[clip]"
-msgstr ""
-
-#, object-pascal-format
-msgid ""
-"[JNX] Tile processing error!\n"
-"Tile: X = %d, Y = %d, Z = %d\n"
-"Error: \"%s: %s\"\n"
-"\n"
-"Do you want to continue?"
 msgstr ""
 
 #. Programmer's name for it: rsSubject
@@ -5440,6 +5431,15 @@ msgstr "Тайл розпізнано як порожній"
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Шлях до кешу Tile Map Service (TMS):"
+
+#, object-pascal-format
+msgid ""
+"Tile processing error!\n"
+"Tile: X = %d, Y = %d, Z = %d\n"
+"Error: \"%s: %s\"\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
 
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
 msgid "Tile Size"

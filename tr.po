@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-29 17:57\n"
-"PO-Revision-Date: 2022-03-02 23:10+0300\n"
-"Last-Translator: Bekir UÇARCI <bekirucarci@gmail.com>\n"
+"POT-Creation-Date: 2022-05-07 10:35\n"
+"PO-Revision-Date: 2022-05-07 10:38+0300\n"
+"Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -147,20 +147,6 @@ msgstr "/piksel"
 #. Programmer's name for it: rsClip
 msgid "[clip]"
 msgstr "[kırp]"
-
-#, object-pascal-format
-msgid ""
-"[JNX] Tile processing error!\n"
-"Tile: X = %d, Y = %d, Z = %d\n"
-"Error: \"%s: %s\"\n"
-"\n"
-"Do you want to continue?"
-msgstr ""
-"[JNX] Kare işleme hatası!\n"
-"Kare: X = %d, Y = %d, Z = %d\n"
-"Hata: \"%s: %s\"\n"
-"\n"
-"Devam etmek istiyor musunuz?"
 
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
@@ -5366,6 +5352,20 @@ msgstr "Döşeme boş olarak tanındı"
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Döşeme Haritası Hizmeti (TMS) önbellek klasörü:"
+
+#, object-pascal-format
+msgid ""
+"Tile processing error!\n"
+"Tile: X = %d, Y = %d, Z = %d\n"
+"Error: \"%s: %s\"\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Kare işleme hatası!\n"
+"Kare: X = %d, Y = %d, Z = %d\n"
+"Hata: \"%s: %s\"\n"
+"\n"
+"Devam etmek istiyor musunuz?"
 
 #. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
 msgid "Tile Size"
