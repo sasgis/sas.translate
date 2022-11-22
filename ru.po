@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2022-05-07 10:35\n"
-"PO-Revision-Date: 2022-05-07 10:36+0300\n"
+"POT-Creation-Date: 2022-11-22 19:52\n"
+"PO-Revision-Date: 2022-11-22 19:53+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -31,17 +31,9 @@ msgstr "-- град.мин.сек. (-12°12'12.1234\")"
 msgid " Icon Scale "
 msgstr ""
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..Caption
-msgid " RosCosmos "
-msgstr " Роскосмос "
-
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting..Caption
 msgid " Sorting "
 msgstr " Сортировка "
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..Caption
-msgid " Storage "
-msgstr " Хранилище "
 
 #. frmMain..TBDock..FillDates..Label2..Caption
 msgid " To "
@@ -129,12 +121,6 @@ msgstr "&Вид"
 msgid "(%s not found!)"
 msgstr "(%s отсутствует!)"
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Hint
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnImgSvcTop..lbZoom..Caption
-#, no-object-pascal-format
-msgid "(zoom %)"
-msgstr "(масштаб %)"
-
 #. Programmer's name for it: rsLimitHint
 #, object-pascal-format
 msgid "* - Limited by max concurrent http(s) requests for current map: %d"
@@ -151,12 +137,6 @@ msgstr ""
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
 msgstr ""
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMapCompress..Caption
-#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMapCompress..Caption
-msgid "0..9 max"
-msgstr "0..9 макс"
 
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -199,13 +179,6 @@ msgstr "1:50 000 (500 м)"
 msgid "1:500 000 (5 km)"
 msgstr "1:500 000 (5 км)"
 
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybrCompress..Caption
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSatCompress..Caption
-#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSatCompress..Caption
-msgid "100..1 max"
-msgstr "100..1 макс"
-
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "12 km 423 m"
@@ -222,12 +195,6 @@ msgstr "120км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "120m"
 msgstr "120м"
-
-#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes..Text
-#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize....Items.Strings
-msgid "128x128 pix"
-msgstr "128x128 пикс"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "12km"
@@ -273,11 +240,6 @@ msgstr "20м"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "23.4 km"
 msgstr "23,4 км"
-
-#. frExportToOgf2..pnlCenter..pnlMain..cbbTileRes....Items.Strings
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize....Items.Strings
-msgid "256x256 pix"
-msgstr "256x256 пикс"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "2km"
@@ -488,10 +450,6 @@ msgstr "Добавить полигон"
 msgid "Add SubCategory"
 msgstr "Создать вложенную категорию"
 
-#. frExportIPhone..pnlBottom..pnlMaps..chkAppendTilse..Caption
-msgid "Add tiles to database"
-msgstr "Добавлять тайлы в существующую базу"
-
 msgid "Add to Favorites"
 msgstr "Добавить в избранное"
 
@@ -561,14 +519,6 @@ msgstr "Все по умолчанию"
 
 msgid "All compatible formats"
 msgstr "Все поддерживаемые форматы"
-
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkALLImages..Caption
-msgid "All Images"
-msgstr "Все снимки"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkALLServices..Caption
-msgid "All Services"
-msgstr "Все сервисы"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
@@ -1226,10 +1176,6 @@ msgstr "см"
 msgid "Color"
 msgstr "Цвет"
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCMain..chkMNCasColorOnly..Caption
-msgid "Color only"
-msgstr "Цветные"
-
 #. Programmer's name for it: rsDefaultColorSchemaFmt
 #, object-pascal-format
 msgid "Color schema %d"
@@ -1283,10 +1229,7 @@ msgid "Compression Method:"
 msgstr "Метод сжатия:"
 
 #. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblCompress..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
-#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblCompress..Caption
 msgid "Compression:"
 msgstr "Сжатие:"
 
@@ -1361,10 +1304,6 @@ msgstr "Скопировать координаты в буфер обмена"
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
 msgid "Copy description"
 msgstr "Копировать описание"
-
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXCopyTIDs..Hint
-msgid "Copy TID's to clipboard"
-msgstr "Копировать выбранные TID для вставки в URL"
 
 #. frTilesCopy..Panel1..Caption
 msgid "Copy tiles from selection to folder"
@@ -1531,10 +1470,6 @@ msgstr "СУБД (ODBC драйвер)"
 msgid "DBMS root:"
 msgstr "Путь к кэшу СУБД:"
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..Caption
-msgid "DD+RC"
-msgstr "DD+РК"
-
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmDecompile..Hint
 msgid "Decompile"
 msgstr "Декомпилировать"
@@ -1640,7 +1575,6 @@ msgstr "Удаляет:"
 msgid "Descent: %d m"
 msgstr "Спуск: %d м"
 
-#. frmDGAvailablePic..gbImageParams..Caption
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
 msgid "Description:"
@@ -1679,10 +1613,6 @@ msgstr "Время ожидания ответа от приёмника (сек
 #. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
 msgid "Difference (NOT)"
 msgstr "Разница (НЕ)"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkDG2..Caption
-msgid "DigitalGlobe (Catalogservice)"
-msgstr "DigitalGlobe (Каталог сервиса)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..Caption
 msgid "Direct Copy"
@@ -1801,7 +1731,6 @@ msgstr "Не трансформировать тайлы в Географиче
 msgid "Double Free: Object is olready deleted!"
 msgstr "Попытка повторного удаления интерфейсного объекта"
 
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXDown..Hint
 #. frMapsList..pnlMapsRightButtons..btnDown..Caption
 msgid "Down"
 msgstr "Вниз"
@@ -2000,12 +1929,6 @@ msgstr "Пустое имя файла ZMP"
 #. Programmer's name for it: rsYandexSearchLanguage
 msgid "en_US"
 msgstr "ru_RU"
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMaps..Caption
-#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMaps..Caption
-msgid "Enable the following map types:"
-msgstr "Включить следующие типы карт:"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
@@ -2533,6 +2456,10 @@ msgstr "Скрыть шкалу масштаба"
 msgid "Hide Status Bar"
 msgstr "Скрыть строку статуса"
 
+#. frmMain..actlstMain..actViewBordersVisible..Caption
+msgid "Hide Window Borders"
+msgstr "Скрыть границы окна"
+
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
 msgstr "по горизонтали, на"
@@ -2568,12 +2495,6 @@ msgstr ""
 #, object-pascal-format
 msgid "HTTP %d Unknown Error"
 msgstr "HTTP %d Неизвестная ошибка"
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblHybr..Caption
-#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblHybr..Caption
-msgid "Hybrid"
-msgstr "Гибрид"
 
 #. frmMarkPictureConfig..pnlCaptions..lblIcon..Caption
 #. frMarksGeneralOptions..grpPoint..lblPointIcon..Caption
@@ -2631,19 +2552,6 @@ msgstr "Формат:"
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..lblImageProcessCaption..Caption
 msgid "Image postprocessing"
 msgstr "Коррекция изображения"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..Caption
-msgid "Image services"
-msgstr "Картографический сервис"
-
-#. frmDGAvailablePic..Caption
-#. frmDGAvailablePic..Up..gbAvailImages..Caption
-msgid "Images available"
-msgstr "Доступные снимки"
-
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..DigitalGlobe1..Caption
-msgid "Images available (F6+MLeft)"
-msgstr "Доступные снимки (F6+MLeft)"
 
 #. frExportToIMG..PageControl1..Settings..PnlSettings..lblMapFormat..Caption
 msgid "IMG Format"
@@ -2740,14 +2648,6 @@ msgstr ""
 msgid "Invalid Volume Size value: %s"
 msgstr "Неверное значение размера тома: %s"
 
-#. Programmer's name for it: SAS_STR_ExportIPhone128Caption
-msgid "iPhone (version 2.2 and above, 128x128)"
-msgstr "iPhone (2.2 и выше 128х128)"
-
-#. Programmer's name for it: SAS_STR_ExportIPhone64Caption
-msgid "iPhone (version prior to 2.2, 64x64)"
-msgstr "iPhone (Ниже v2.2 64х64)"
-
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutoSaveSessionPrefix..edtSessionPrefix..Hint
 msgid "It's allowed to use \\ as a path delimiter"
 msgstr "Можно использовать \\ в качестве разделителя пути"
@@ -2795,18 +2695,6 @@ msgstr "км2"
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
 msgid "KML (for Google Earth)"
 msgstr "KML (Для просмотра в GE)"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..Caption
-msgid "Kosmosnimki"
-msgstr "Космоснимки"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkSearchKosmosnimki..Caption
-msgid "Kosmosnimki (search.kosmosnimki.ru)"
-msgstr "Космоснимки (search.kosmosnimki.ru)"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..Caption
-msgid "KS+Storage"
-msgstr "КС+Хранилище"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
@@ -2952,10 +2840,6 @@ msgstr ""
 msgid "Longitude:"
 msgstr "Долгота:"
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcFooter..chkLowResolutionToo..Caption
-msgid "Low Resolution too"
-msgstr "и низкого качества"
-
 #. frmLonLatRectEdit..grdpnlMain..grpBottomRight..Caption
 msgid "Lower right corner"
 msgstr "Правый нижний угол"
@@ -2982,11 +2866,6 @@ msgstr "Главное меню"
 msgid "Make by Placemark"
 msgstr "Создать из метки"
 
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Hint
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnMakePoly..Caption
-msgid "Make Polygon"
-msgstr "Создать полигон"
-
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkPlaceInNameSubFolder..Caption
 msgid "Make subfolder with map path name"
 msgstr "Раскладывать по подпапкам, соответствующим именам карты"
@@ -3005,10 +2884,7 @@ msgstr "Ручная настройка прокси"
 
 #. frExportToIMG..PageControl1..Map..Caption
 #. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..Caption
-#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblMap..Caption
 msgid "Map"
 msgstr "Карта"
 
@@ -3100,7 +2976,6 @@ msgstr "Карта/Слой:"
 #. frExportToIMG..PageControl1..Map..pnlListMaps..pnlMaps..lblMap..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..lblMap..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblMap..Caption
-#. frExportToOgf2..pnlCenter..pnlMain..lblMap..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblMap..Caption
 #. frExportRMP..pnlCenter..pnlMain..lblMap..Caption
@@ -3237,10 +3112,6 @@ msgstr ""
 "Процесс слияния завершён успешно!\n"
 "Результат содержит %d полигон(ов) с %d дырками"
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC3..Caption
-msgid "Meteor-M1"
-msgstr "Метеор-М1"
-
 #. Programmer's name for it: rsMidnight
 msgid "Midnight"
 msgstr "Полночь"
@@ -3259,16 +3130,6 @@ msgstr "Сворачивать в трей"
 
 msgid "MOBAC cache folder:"
 msgstr "Путь к кэшу MOBAC:"
-
-#. for Symbian prior v3.91 and Android prior v1.72
-#. Programmer's name for it: SAS_STR_ExportYaMobileV3Caption
-msgid "Mobile Yandex.Maps (cache v3)"
-msgstr "Мобильные Яндекс.Карты (кэш v3)"
-
-#. for Symbian v3.91..v3.96 and Android v1.72..v3.99
-#. Programmer's name for it: SAS_STR_ExportYaMobileV4Caption
-msgid "Mobile Yandex.Maps (cache v4)"
-msgstr "Мобильные Яндекс.Карты (кэш v4)"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..Caption
 msgid "Modify"
@@ -3521,23 +3382,6 @@ msgstr "Одометр № 2"
 msgid "Offline search (%s)"
 msgstr "Оффлайн поиск (%s)"
 
-#. Programmer's name for it: SAS_STR_ExportOgf2PackCaption
-msgid "Ogf2 map for SmartComGPS 1.5x"
-msgstr "Ogf2 карта для SmartComGPS 1.5x"
-
-#. frExportToOgf2..pnlCenter..pnlMain..lblImageFormat..Caption
-msgid "OGF2 tiles format:"
-msgstr "Фомат тайлов в OGF2:"
-
-#. frExportToOgf2..pnlCenter..pnlMain..lblTileRes..Caption
-msgid "OGF2 tiles resolution:"
-msgstr "Разрешение тайлов в OGF2:"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..LblOldAfterDays..Caption
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..spnOldAfterDays..Hint
-msgid "Old after days"
-msgstr "Старые после дней"
-
 #. frExportToIMG..PageControl1..Settings..PnlSettings..cbbMapFormat....Items.Strings
 msgid "Old Format"
 msgstr "Старый формат"
@@ -3682,7 +3526,6 @@ msgstr "Результирующий формат:"
 #. frMapCombine..pnlMapSelect..pnlMaps..pnlLayerFrame..lblLayerCaption..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..lblOverlay..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblOverlay..Caption
-#. frExportToOgf2..pnlCenter..pnlMain..lblHyb..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..lblOverlay..Caption
 #. frExportRMP..pnlCenter..pnlMain..lblOverlay..Caption
@@ -3711,7 +3554,6 @@ msgid "Packed cache for SAS4WinCE/SAS4Android"
 msgstr "Упакованный кэш для SAS4WinCE/SAS4Android"
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
-#. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
 msgid "Parameter"
 msgstr "Параметр"
 
@@ -3726,10 +3568,6 @@ msgstr "Родительский пункт меню"
 #, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Количество частей: %d"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lblRoscosmosPassword..Caption
-msgid "Password"
-msgstr "Пароль"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..lblPass..Caption
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyPass..Caption
@@ -4151,7 +3989,6 @@ msgstr "Настройки прокси сервера"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
-#. frExportToOgf2..pnlCenter..pnlMain..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 msgid "Quality (for JPEG):"
@@ -4229,11 +4066,6 @@ msgstr "Прямоугольная область"
 msgid "Redraw interval (ms):"
 msgstr "Перерисовывать не чаще (мс):"
 
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Hint
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..btnRefresh..Caption
-msgid "Refresh"
-msgstr "Обновить"
-
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
 msgid "Refresh rate (ms)"
 msgstr "Период обновления (мс):"
@@ -4263,8 +4095,6 @@ msgid "Remove tiles"
 msgstr "Перемещать тайлы"
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
-#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..chkReplaseTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Заменять существующие тайлы"
 
@@ -4319,10 +4149,6 @@ msgstr ""
 msgid "Resume"
 msgstr "Продолжить"
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRosCosmosFlags..ChkRC1..Caption
-msgid "Resurs-DK"
-msgstr "Ресурс-ДК"
-
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
 msgid "Retry download tile if no response"
 msgstr "Пытаться повторно загрузить тайл, если сервер не отвечает"
@@ -4343,10 +4169,6 @@ msgstr "RMP растровая карта для Magellan"
 #. frmSettings..PageControl1..tsControl..GroupBox1..ScrolInvert..Caption
 msgid "Roll backward to zoom in"
 msgstr "Вращение на себя - приближение"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlImgSvcOthers..chkRoscosmos..Caption
-msgid "Roscosmos (geoportal.ntsomz.ru)"
-msgstr "Роскосмос (geoportal.ntsomz.ru)"
 
 msgid "Rosreestr"
 msgstr "Росреестр"
@@ -4382,12 +4204,6 @@ msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr ""
 "Для того чтобы изменения вступили в силу,\n"
 "необходимо перезапустить программу."
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..lblSat..Caption
-#. frExportYaMobileV3..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..grdpnlMaps..lblSat..Caption
-msgid "Satellite"
-msgstr "Спутник"
 
 #. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesMenuItemName
@@ -4464,17 +4280,13 @@ msgstr "Сохранить информацию о выделенной обла
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
 #. frExportAUX..pnlTop..lblTargetFile..Caption
 #. frExportToIMG..pnlTop..lblTargetFile..Caption
-#. frExportIPhone..pnlTop..lblTargetPath..Caption
 #. frExportToJNX..pnlTop..lblTargetFile..Caption
 #. frExportKml..pnlTop..lblTargetFile..Caption
 #. frExportMBTiles..pnlTop..lblTargetFile..Caption
-#. frExportToOgf2..pnlTop..lblTargetFile..Caption
 #. frExportOruxMapsSQLite..pnlTop..lblTargetPath..Caption
 #. frExportRMapsSQLite..pnlTop..lblTargetFile..Caption
 #. frExportRMP..pnlTop..lblTargetFile..Caption
 #. frExportToCE..pnlTop..lblTargetPath..Caption
-#. frExportYaMobileV3..pnlTop..lblTargetPath..Caption
-#. frExportYaMobileV4..pnlTop..lblTargetPath..Caption
 msgid "Save to:"
 msgstr "Куда сохранять:"
 
@@ -4539,21 +4351,9 @@ msgstr "Выбрать по метке"
 msgid "Select data source"
 msgstr "Выберите источник, из которого программа будет брать карты"
 
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbHybr..Hint
-msgid "Select Hybrid as main layer"
-msgstr "Выбрать гибрид в качестве основного слоя"
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbMap..Hint
-msgid "Select Map as main layer"
-msgstr "Выбрать карту в качестве основного слоя"
-
 #. frmMain..TBDock..SrcToolbar..TBLayerSel..Hint
 msgid "Select overlay layers"
 msgstr "Выбор слоёв, отображаемых поверх основной карты"
-
-#. frExportIPhone..pnlBottom..pnlMaps..grdpnlMaps..rbSat..Hint
-msgid "Select Satellite as main layer"
-msgstr "Выбрать спутник в качестве основного слоя"
 
 #. frmMain..TBDock..SrcToolbar..TBSMB..Hint
 msgid "Selected basemap"
@@ -4795,11 +4595,6 @@ msgstr "Отображать информацию о разрешении"
 #. frmMarkEditPoly..chkVisible..Caption
 msgid "Show on map"
 msgstr "Отображать это место на карте"
-
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Hint
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..chkShowOnlyNew..Caption
-msgid "Show only new"
-msgstr "Показать новые"
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show only selected placemarks"
@@ -5059,26 +4854,6 @@ msgstr "Разбить область на, части*:"
 #. frArchiveWriteZipConfig..lblSplitToVolumes..Caption
 msgid "Split to volumes, Mb:"
 msgstr "Размер тома, МБ:"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS9..Caption
-msgid "SPOT 5 - 10m Color"
-msgstr "SPOT 5 - 10м Цвет"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS12..Caption
-msgid "SPOT 5 - 2.5m BW"
-msgstr "SPOT 5 - 2.5м Ч/Б"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS13..Caption
-msgid "SPOT 5 - 2.5m Color"
-msgstr "SPOT 5 - 2.5м Цвет"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS10..Caption
-msgid "SPOT 5 - 5m BW"
-msgstr "SPOT 5 - 5м Ч/Б"
-
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxKosmosnimki..pnlKosmosnimkiSpot..chkKS11..Caption
-msgid "SPOT 5 - 5m Color"
-msgstr "SPOT 5 - 5м Цвет"
 
 msgid "SQLite3 cache folder:"
 msgstr "Путь к кэшу SQLite3:"
@@ -5354,10 +5129,6 @@ msgstr ""
 "\n"
 "Вы хотите продолжить?"
 
-#. frExportYaMobileV4..pnlCenter..pnlMapsSelect..rgTileSize..Caption
-msgid "Tile Size"
-msgstr "Размер тайла"
-
 msgid "Tile with same size exists"
 msgstr ""
 
@@ -5444,6 +5215,10 @@ msgid "Undo Route Calculation"
 msgstr "Отменить прокладывание маршрута"
 
 #, object-pascal-format
+msgid "Unexpected content length: %d bytes (expecting: %d bytes)"
+msgstr ""
+
+#, object-pascal-format
 msgid "Unexpected content type %s"
 msgstr ""
 
@@ -5496,7 +5271,6 @@ msgstr "Неизвестный код ответа %d"
 msgid "Unsupported archive type: %s"
 msgstr "Неподдерживаемый тип архива: %s"
 
-#. frmDGAvailablePic..Up..gbAvailImages..pnlRight..TBXOperationsToolbar..TBXUp..Hint
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr "Вверх"
@@ -5570,10 +5344,6 @@ msgstr "Брать карты из меньших масштабов"
 msgid "Use postprocessing settings"
 msgstr "Применить коррекцию изображения"
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsStorage..grpbxStorage..chkUseStorage..Caption
-msgid "Use storage to check new images"
-msgstr "Использовать для проверки новых снимков"
-
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..pnlProxyRadioButtons..rbUseIESettings..Caption
 msgid "Use system (Internet Explorer) proxy settings"
 msgstr "Использовать системные настройки (из Internet Explorer-а)"
@@ -5587,7 +5357,6 @@ msgid "Use tile from lower zoom if tile not available"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 
 #. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
-#. frExportToOgf2..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
@@ -5610,10 +5379,6 @@ msgstr "Задано пользователем"
 msgid "User Name:"
 msgstr "Имя пользователя:"
 
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsDDandRC..grpbxRosCosmos..pnlRoscosmosPassword..lbllRosCosmosUsername..Caption
-msgid "Username"
-msgstr "Логин"
-
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..flwpnlProxyAuth..lblProxyLogin..Caption
 msgid "Username:"
 msgstr "Логин:"
@@ -5628,7 +5393,6 @@ msgid "UTC time:"
 msgstr "Время UTC:"
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
-#. frmDGAvailablePic..gbImageParams..veImageParams....TitleCaptions.Strings
 msgid "Value"
 msgstr "Значение"
 
@@ -5768,7 +5532,6 @@ msgstr "Зона:"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NZoomToolBarShow..Caption
 #. frmMain..TBDockLeft..ZoomToolBar..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..chkZoom..Caption
-#. frmDGAvailablePic..Up..pcAvailPicsSearch..tsImageServices..pnlNMCZoom..lbNMCZoom..Caption
 #. frExportToIMG..PageControl1..Map..pnlListMaps..MapList......Caption
 #. frLonLat..pnlXY..grdpnlZoom..cbbZoom..Hint
 #. Programmer's name for it: SAS_STR_Zoom
@@ -5800,7 +5563,6 @@ msgstr "Увеличивать колёсиком мыши"
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frExportAUX..pnlCenter..pnlMapSelect..pnlZoom..lblZoom..Caption
-#. frExportToOgf2..pnlZoom..lblZoom..Caption
 msgid "Zoom:"
 msgstr "Масштаб:"
 
