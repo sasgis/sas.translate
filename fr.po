@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-11-22 19:52\n"
+"POT-Creation-Date: 2023-03-29 15:03\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1596,6 +1596,10 @@ msgstr "En train de supprimer"
 msgid "Deleting:"
 msgstr "En train de supprimer :"
 
+#. frElevationProfile..pmMain..mniElevationSource..mniDEMData..Caption
+msgid "DEM Data"
+msgstr ""
+
 #. Programmer's name for it: rsElevationProfileElevDescentFmt
 #, object-pascal-format
 msgid "Descent: %d m"
@@ -1931,6 +1935,11 @@ msgstr "Altitude"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
 #, fuzzy
 msgid "Elevation Profile"
+msgstr "Altitude"
+
+#. frElevationProfile..pmMain..mniElevationSource..Caption
+#, fuzzy
+msgid "Elevation Source"
 msgstr "Altitude"
 
 #, fuzzy, no-object-pascal-format
@@ -2431,6 +2440,11 @@ msgstr "GoogleEarth Terrain"
 
 msgid "GoogleMV cache folder:"
 msgstr "GoogleMV, répertoire du cache :"
+
+#. frElevationProfile..pmMain..mniElevationSource..mniTrackData..Caption
+#, fuzzy
+msgid "GPS Data"
+msgstr "Type de GPS :"
 
 #. frmSettings..PageControl1..tsGPSMarker..Caption
 msgid "GPS Marker"

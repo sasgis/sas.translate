@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-11-22 19:52\n"
+"POT-Creation-Date: 2023-03-29 15:03\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -1576,6 +1576,10 @@ msgstr "Siliniyor"
 msgid "Deleting:"
 msgstr "Siliniyor:"
 
+#. frElevationProfile..pmMain..mniElevationSource..mniDEMData..Caption
+msgid "DEM Data"
+msgstr ""
+
 #. Programmer's name for it: rsElevationProfileElevDescentFmt
 #, object-pascal-format
 msgid "Descent: %d m"
@@ -1905,6 +1909,11 @@ msgstr "Yükseklik Bilgisi"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
 msgid "Elevation Profile"
 msgstr "Yükseklik Profili"
+
+#. frElevationProfile..pmMain..mniElevationSource..Caption
+#, fuzzy
+msgid "Elevation Source"
+msgstr "Yükseklik Bilgisi"
 
 #, no-object-pascal-format
 msgid "Elevation: %.2f m"
@@ -2400,6 +2409,11 @@ msgstr "Google Earth Arazisi"
 
 msgid "GoogleMV cache folder:"
 msgstr "GoogleMV önbellek klasörü:"
+
+#. frElevationProfile..pmMain..mniElevationSource..mniTrackData..Caption
+#, fuzzy
+msgid "GPS Data"
+msgstr "GPS tipi"
 
 #. frmSettings..PageControl1..tsGPSMarker..Caption
 msgid "GPS Marker"

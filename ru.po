@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2022-11-22 19:52\n"
-"PO-Revision-Date: 2022-11-22 19:53+0300\n"
+"POT-Creation-Date: 2023-03-29 15:03\n"
+"PO-Revision-Date: 2023-03-29 15:05+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1570,6 +1570,10 @@ msgstr "Удаление"
 msgid "Deleting:"
 msgstr "Удаляет:"
 
+#. frElevationProfile..pmMain..mniElevationSource..mniDEMData..Caption
+msgid "DEM Data"
+msgstr "DEM данные"
+
 #. Programmer's name for it: rsElevationProfileElevDescentFmt
 #, object-pascal-format
 msgid "Descent: %d m"
@@ -1897,6 +1901,10 @@ msgstr "Информация о высоте"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
 msgid "Elevation Profile"
 msgstr "Профиль рельефа"
+
+#. frElevationProfile..pmMain..mniElevationSource..Caption
+msgid "Elevation Source"
+msgstr "Источник высоты"
 
 #, no-object-pascal-format
 msgid "Elevation: %.2f m"
@@ -2385,6 +2393,10 @@ msgstr ""
 
 msgid "GoogleMV cache folder:"
 msgstr "Путь к кэшу GoogleMV:"
+
+#. frElevationProfile..pmMain..mniElevationSource..mniTrackData..Caption
+msgid "GPS Data"
+msgstr "GPS данные"
 
 #. frmSettings..PageControl1..tsGPSMarker..Caption
 msgid "GPS Marker"
