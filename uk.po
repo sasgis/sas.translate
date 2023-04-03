@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-03-31 11:19\n"
+"POT-Creation-Date: 2023-04-03 12:40\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -201,6 +201,25 @@ msgstr "120 км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "120m"
 msgstr "120 м"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat..Text
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
+#, fuzzy
+msgid "123 m"
+msgstr "12 км 423 м"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
+msgid "123.1 m"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
+msgid "123.12 m"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
+#, fuzzy
+msgid "123.123 m"
+msgstr "12 км 423 м"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "12km"
@@ -1675,6 +1694,11 @@ msgstr "Вимкнено в параметрах карти"
 
 msgid "Disabled by Zmp"
 msgstr "Вимкнено в Zmp"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..lblElevDisplayFormat..Caption
+#, fuzzy
+msgid "Display format:"
+msgstr "Формат:"
 
 #. frmMain..actlstMain..actViewFillingMapMainMapUse..Caption
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
@@ -5434,6 +5458,7 @@ msgstr "Використовувати градієнт за часом"
 msgid "Use Deleted: Object is not exists!"
 msgstr "Спроба використати віддалений інтерфейсний об'єкт"
 
+#. frmMapLayersOptions..pgcOptions..tsElevation..chkElevUseInterpolation..Caption
 #. Programmer's name for it: rsUseElevationInterpolation
 msgid "Use Interpolation"
 msgstr ""

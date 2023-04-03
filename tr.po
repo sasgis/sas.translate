@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-03-31 11:19\n"
+"POT-Creation-Date: 2023-04-03 12:40\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -195,6 +195,25 @@ msgstr "120km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "120m"
 msgstr "120m"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat..Text
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
+#, fuzzy
+msgid "123 m"
+msgstr "12 km 423 m"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
+msgid "123.1 m"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
+msgid "123.12 m"
+msgstr ""
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
+#, fuzzy
+msgid "123.123 m"
+msgstr "12 km 423 m"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "12km"
@@ -1650,6 +1669,11 @@ msgstr "Harita parametreleri tarafından devre dışı bırakıldı"
 
 msgid "Disabled by Zmp"
 msgstr "Zmp tarafından devredışı bıakıldı"
+
+#. frmMapLayersOptions..pgcOptions..tsElevation..lblElevDisplayFormat..Caption
+#, fuzzy
+msgid "Display format:"
+msgstr "Görüntü formatı:"
 
 #. frmMain..actlstMain..actViewFillingMapMainMapUse..Caption
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
@@ -5358,6 +5382,7 @@ msgstr "Yaş Gradyanını Kullan"
 msgid "Use Deleted: Object is not exists!"
 msgstr "Silinmişi Kullan: Nesne mevcut değil!"
 
+#. frmMapLayersOptions..pgcOptions..tsElevation..chkElevUseInterpolation..Caption
 #. Programmer's name for it: rsUseElevationInterpolation
 msgid "Use Interpolation"
 msgstr ""
