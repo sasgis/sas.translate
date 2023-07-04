@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-04-22 18:47\n"
+"POT-Creation-Date: 2023-07-04 13:27\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -398,6 +398,7 @@ msgstr "Активні карти + шари (%d)"
 #. frmMain..actlstMain..actFavoriteAdd..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnAdd..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Hint
 msgid "Add"
 msgstr "Додати"
@@ -460,7 +461,6 @@ msgstr "Додати шлях"
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
-#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 msgid "Add Placemark"
 msgstr "Додати позначку"
 
@@ -1537,6 +1537,7 @@ msgstr "Призначити гарячу клавішу"
 #. frmMain..MainPopupMenu..NMarkDel..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
 msgid "Delete"
 msgstr "Видалити"
@@ -1568,10 +1569,6 @@ msgstr "Видаляти лише тайли, розмір яких, байт:"
 #. frmMain..MainPopupMenu..dlm..Caption
 msgid "Delete Overlay Layer Tile from Cache"
 msgstr "Видалити тайл шару"
-
-#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
-msgid "Delete Placemark"
-msgstr "Видалити позначку"
 
 #. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
 #. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
@@ -1775,8 +1772,9 @@ msgstr "Не показувати"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
-msgid "Don't show for Geographic / WGS84"
-msgstr "Не показувати для WGS84"
+#, fuzzy
+msgid "Don't show for WGS 84"
+msgstr "Не показувати"
 
 #. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
@@ -1911,7 +1909,6 @@ msgstr "Редагування бази позначок"
 msgid "Edit Path"
 msgstr "Редагувати шлях"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #. Programmer's name for it: SAS_STR_EditMark
 msgid "Edit Placemark"
 msgstr "Редагувати позначку"
@@ -1921,11 +1918,13 @@ msgid "Edit Polygon"
 msgstr "Редагувати полігон"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
 #, fuzzy
 msgid "Edit Position"
 msgstr "Редагувати полігон"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #, fuzzy
 msgid "Edit Properties"
 msgstr "Властивості"
@@ -2356,10 +2355,6 @@ msgstr "Гамма-корекція"
 msgid "Garmin zoom"
 msgstr "Масштаб Garmin"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Gauss Krueger (6 degree zones) / S-42 "
-msgstr "Гаусс-Крюгер (6 гр. зони) / СК-42"
-
 #. Programmer's name for it: SAS_UNITS_gb
 msgid "GB"
 msgstr "ГБ"
@@ -2406,15 +2401,6 @@ msgstr "Шлях до кешу GeoCacher"
 
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr ""
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Geographic / S-42 (Pulkovo 1942)"
-msgstr "Геогр. / СК-42 (Пулково 1942)"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Geographic / WGS84"
-msgstr "Географічні / WGS84"
 
 #. frLonLat..grdpnlTop..cbbCoordType..Text
 #. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
@@ -4087,6 +4073,10 @@ msgstr ""
 msgid "Proxy settings"
 msgstr "Параметри карти"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Pulkovo-1942 (SK-42) / Geographic"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4884,6 +4874,18 @@ msgstr "Розмір: %0:dx%1:d Розбити на %2:d файлів"
 msgid "Size: %dx%d; Mouse at: %dx%d"
 msgstr "Розмір: %dx%d; Миша: %dx%d"
 
+msgid "SK-42"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+#, fuzzy
+msgid "SK-42 / Gauss-Kruger (6 degree zones)"
+msgstr "Гаусс-Крюгер (6 гр. зони) / СК-42"
+
+#, object-pascal-format
+msgid "SK-42 / GK %d%s"
+msgstr ""
+
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
 msgid "Skip existing result files"
 msgstr "Пропуськати існуючі файли"
@@ -5592,6 +5594,15 @@ msgstr ""
 msgid "Waxing Gibbous"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS 84 / Geographic"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS 84 / UTM (6 degree zones)"
+msgstr ""
+
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
@@ -5728,6 +5739,18 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Delete Placemark"
+#~ msgstr "Видалити позначку"
+
+#~ msgid "Don't show for Geographic / WGS84"
+#~ msgstr "Не показувати для WGS84"
+
+#~ msgid "Geographic / S-42 (Pulkovo 1942)"
+#~ msgstr "Геогр. / СК-42 (Пулково 1942)"
+
+#~ msgid "Geographic / WGS84"
+#~ msgstr "Географічні / WGS84"
 
 #~ msgid " RosCosmos "
 #~ msgstr " Роскосмос "

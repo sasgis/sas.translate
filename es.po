@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-04-22 18:47\n"
+"POT-Creation-Date: 2023-07-04 13:27\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -407,6 +407,7 @@ msgstr "Mapas + Layers Activos (%d)"
 #. frmMain..actlstMain..actFavoriteAdd..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnAdd..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Hint
 msgid "Add"
 msgstr "Agregar"
@@ -471,7 +472,6 @@ msgstr "Agrega Ruta"
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
-#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 msgid "Add Placemark"
 msgstr "Agregar Marca"
 
@@ -1556,6 +1556,7 @@ msgstr "Definir hotkey"
 #. frmMain..MainPopupMenu..NMarkDel..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
 msgid "Delete"
 msgstr "Borrar"
@@ -1587,10 +1588,6 @@ msgstr "Borrar solo mosaicos de tamaño, bytes:"
 #. frmMain..MainPopupMenu..dlm..Caption
 msgid "Delete Overlay Layer Tile from Cache"
 msgstr "Borrar Mosaico del Layer del Caché"
-
-#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
-msgid "Delete Placemark"
-msgstr "Borrar Posición"
 
 #. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
 #. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
@@ -1797,7 +1794,7 @@ msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
-msgid "Don't show for Geographic / WGS84"
+msgid "Don't show for WGS 84"
 msgstr ""
 
 #. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
@@ -1935,7 +1932,6 @@ msgstr "Editar Base de Marcas"
 msgid "Edit Path"
 msgstr "Editar Ruta"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #. Programmer's name for it: SAS_STR_EditMark
 msgid "Edit Placemark"
 msgstr "Editar Marca"
@@ -1945,11 +1941,13 @@ msgid "Edit Polygon"
 msgstr "Editar Polígono"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
 #, fuzzy
 msgid "Edit Position"
 msgstr "Editar Polígono"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #, fuzzy
 msgid "Edit Properties"
 msgstr "Propiedades"
@@ -2384,10 +2382,6 @@ msgstr "Gamma"
 msgid "Garmin zoom"
 msgstr "Desde Zoom:"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Gauss Krueger (6 degree zones) / S-42 "
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_gb
 msgid "GB"
 msgstr "GB"
@@ -2434,15 +2428,6 @@ msgstr "Carpeta raiz GeoCacher:"
 
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr "Geograficas (Latitud/Longitud) / WGS84 / EPSG:4326"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Geographic / S-42 (Pulkovo 1942)"
-msgstr ""
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Geographic / WGS84"
-msgstr ""
 
 #. frLonLat..grdpnlTop..cbbCoordType..Text
 #. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
@@ -4132,6 +4117,10 @@ msgstr ""
 msgid "Proxy settings"
 msgstr "Opciones de Mapa"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Pulkovo-1942 (SK-42) / Geographic"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4932,6 +4921,18 @@ msgstr "tamaño: %0:dx%1:d. abierto en %2:d archivos"
 msgid "Size: %dx%d; Mouse at: %dx%d"
 msgstr ""
 
+msgid "SK-42"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+#, fuzzy
+msgid "SK-42 / Gauss-Kruger (6 degree zones)"
+msgstr "SK42 (Gauss-Kruger)"
+
+#, object-pascal-format
+msgid "SK-42 / GK %d%s"
+msgstr ""
+
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
 #, fuzzy
 msgid "Skip existing result files"
@@ -5646,6 +5647,15 @@ msgstr ""
 msgid "Waxing Gibbous"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS 84 / Geographic"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS 84 / UTM (6 degree zones)"
+msgstr ""
+
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
@@ -5782,6 +5792,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Delete Placemark"
+#~ msgstr "Borrar Posición"
 
 #~ msgid " RosCosmos "
 #~ msgstr " RosCosmos "
@@ -6196,9 +6209,6 @@ msgstr "Z-Order:"
 
 #~ msgid "SK42"
 #~ msgstr "SK42"
-
-#~ msgid "SK42 (Gauss-Kruger)"
-#~ msgstr "SK42 (Gauss-Kruger)"
 
 #~ msgid "WGS84 (default)"
 #~ msgstr "WGS84 (defecto)"

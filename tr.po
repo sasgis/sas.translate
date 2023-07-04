@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-04-22 18:47\n"
+"POT-Creation-Date: 2023-07-04 13:27\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -391,6 +391,7 @@ msgstr "Aktif Haritalar + Katmanlar (%d)"
 #. frmMain..actlstMain..actFavoriteAdd..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnAdd..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Hint
 msgid "Add"
 msgstr "Ekle"
@@ -453,7 +454,6 @@ msgstr "Güzergah ekle"
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
-#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 msgid "Add Placemark"
 msgstr "Yer İşareti Ekle"
 
@@ -1510,6 +1510,7 @@ msgstr "Kısayol tuşu tanımla"
 #. frmMain..MainPopupMenu..NMarkDel..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
 msgid "Delete"
 msgstr "Sil"
@@ -1541,10 +1542,6 @@ msgstr "Yalnızca bu boyuttaki döşemeleri sil:"
 #. frmMain..MainPopupMenu..dlm..Caption
 msgid "Delete Overlay Layer Tile from Cache"
 msgstr "Kaplama Katmanı Döşemesini Önbellekten Sil"
-
-#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
-msgid "Delete Placemark"
-msgstr "Yer İşaretini Sil"
 
 #. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
 #. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
@@ -1750,8 +1747,9 @@ msgstr "Tümü için gösterme"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
-msgid "Don't show for Geographic / WGS84"
-msgstr "Coğrafi/WGS84 için gösterme"
+#, fuzzy
+msgid "Don't show for WGS 84"
+msgstr "Tümü için gösterme"
 
 #. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
@@ -1888,7 +1886,6 @@ msgstr "İşaret Veritabanını Düzenle"
 msgid "Edit Path"
 msgstr "Yolu Düzenle"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #. Programmer's name for it: SAS_STR_EditMark
 msgid "Edit Placemark"
 msgstr "Yer İşaretini Düzenle"
@@ -1898,10 +1895,12 @@ msgid "Edit Polygon"
 msgstr "Çokgeni Düzenle"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
 msgid "Edit Position"
 msgstr "Pozisyonu Düzenle"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 msgid "Edit Properties"
 msgstr "Özellikleri Düzenle"
 
@@ -2328,10 +2327,6 @@ msgstr "Gama"
 msgid "Garmin zoom"
 msgstr "Garmin yakınlaştırma"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Gauss Krueger (6 degree zones) / S-42 "
-msgstr "Gauss Krueger (6 derecelik bölge) / S-42 "
-
 #. Programmer's name for it: SAS_UNITS_gb
 msgid "GB"
 msgstr "GB"
@@ -2377,15 +2372,6 @@ msgstr "GeoCacher kök klasörü:"
 
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr "Coğrafi (Enlem/Boylam) / WGS84 / EPSG:4326"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Geographic / S-42 (Pulkovo 1942)"
-msgstr "Coğrafi / S-42 (Pulkovo 1942)"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Geographic / WGS84"
-msgstr "Coğrafi / WGS84"
 
 #. frLonLat..grdpnlTop..cbbCoordType..Text
 #. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
@@ -4039,6 +4025,10 @@ msgstr "Proxy sunucusu kimlik doğrulaması gerektiriyor"
 msgid "Proxy settings"
 msgstr "Proxy Ayarları"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Pulkovo-1942 (SK-42) / Geographic"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4816,6 +4806,18 @@ msgstr "Boyut: %0:dx%1:d. %2:d dosyaya böl"
 msgid "Size: %dx%d; Mouse at: %dx%d"
 msgstr "Boyut: %dx%d; Fare: %dx%d"
 
+msgid "SK-42"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+#, fuzzy
+msgid "SK-42 / Gauss-Kruger (6 degree zones)"
+msgstr "Gauss Krueger (6 derecelik bölge) / S-42 "
+
+#, object-pascal-format
+msgid "SK-42 / GK %d%s"
+msgstr ""
+
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
 msgid "Skip existing result files"
 msgstr "Mevcut sonuç dosyalarını atla"
@@ -5513,6 +5515,15 @@ msgstr "Büyüyen Hilal"
 msgid "Waxing Gibbous"
 msgstr "Büyüyen Şişkin Ay"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS 84 / Geographic"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS 84 / UTM (6 degree zones)"
+msgstr ""
+
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
@@ -5643,6 +5654,18 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "Delete Placemark"
+#~ msgstr "Yer İşaretini Sil"
+
+#~ msgid "Don't show for Geographic / WGS84"
+#~ msgstr "Coğrafi/WGS84 için gösterme"
+
+#~ msgid "Geographic / S-42 (Pulkovo 1942)"
+#~ msgstr "Coğrafi / S-42 (Pulkovo 1942)"
+
+#~ msgid "Geographic / WGS84"
+#~ msgstr "Coğrafi / WGS84"
 
 #~ msgid " RosCosmos "
 #~ msgstr " RosCosmos "

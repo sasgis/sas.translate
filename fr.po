@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-04-22 18:47\n"
+"POT-Creation-Date: 2023-07-04 13:27\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -397,6 +397,7 @@ msgstr "Cartes et couches sélectionnées (%d)"
 #. frmMain..actlstMain..actFavoriteAdd..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnAdd..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Hint
 msgid "Add"
 msgstr "Ajouter"
@@ -459,7 +460,6 @@ msgstr "Ajouter une piste"
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
-#. frmMarksExplorer..tbpmnMarks..tbitmAddMark..Caption
 msgid "Add Placemark"
 msgstr "Ajouter une balise"
 
@@ -1526,6 +1526,7 @@ msgstr "Définir le raccourci clavier"
 #. frmMain..MainPopupMenu..NMarkDel..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
+#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
 msgid "Delete"
 msgstr "Supprimer"
@@ -1559,10 +1560,6 @@ msgid "Delete Overlay Layer Tile from Cache"
 msgstr ""
 "Supprimer la dalle (sélectionnée par clic droit) de cette Couche, à partir "
 "du cache :"
-
-#. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
-msgid "Delete Placemark"
-msgstr "Supprimer le marqueur"
 
 #. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Caption
 #. frmMain..actlstMain..actMarksEditDeleteGeometryPoint..Hint
@@ -1770,8 +1767,9 @@ msgstr "Ne pas afficher pour tous les cas"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
-msgid "Don't show for Geographic / WGS84"
-msgstr "Ne pas afficher pour GEO / WGS84"
+#, fuzzy
+msgid "Don't show for WGS 84"
+msgstr "Ne pas afficher pour tous les cas"
 
 #. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
@@ -1912,7 +1910,6 @@ msgstr "Editer la base de données des marqueurs"
 msgid "Edit Path"
 msgstr "Propriétés de la piste"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #. Programmer's name for it: SAS_STR_EditMark
 msgid "Edit Placemark"
 msgstr "Propriétés du marqueur"
@@ -1922,11 +1919,13 @@ msgid "Edit Polygon"
 msgstr "Propriétés du polygone"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
 #, fuzzy
 msgid "Edit Position"
 msgstr "Propriétés du polygone"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #, fuzzy
 msgid "Edit Properties"
 msgstr "Propriétés"
@@ -2359,10 +2358,6 @@ msgstr "Gamma"
 msgid "Garmin zoom"
 msgstr "Zoom Garmin"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Gauss Krueger (6 degree zones) / S-42 "
-msgstr "Gauss Krueger (6 zones de degrés) / S-42"
-
 #. Programmer's name for it: SAS_UNITS_gb
 msgid "GB"
 msgstr "Gb"
@@ -2408,15 +2403,6 @@ msgstr "GeoCacher, répertoire du cache :"
 
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr "Géographique (Latitude/Longitude) / WGS84 / EPSG:4326"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Geographic / S-42 (Pulkovo 1942)"
-msgstr "Géographique / S-42 (Pulkovo 1942)"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Geographic / WGS84"
-msgstr "Géographique / WGS84"
 
 #. frLonLat..grdpnlTop..cbbCoordType..Text
 #. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
@@ -4079,6 +4065,10 @@ msgstr "Le serveur proxy requiert une authentification"
 msgid "Proxy settings"
 msgstr "Paramètres du proxy"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "Pulkovo-1942 (SK-42) / Geographic"
+msgstr ""
+
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4872,6 +4862,18 @@ msgstr "Taille (en pixels) : %0:dx%1:d, divisée entre %2:d fichier(s)"
 msgid "Size: %dx%d; Mouse at: %dx%d"
 msgstr "Taille : %dx%d; Souris à : %dx%d"
 
+msgid "SK-42"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+#, fuzzy
+msgid "SK-42 / Gauss-Kruger (6 degree zones)"
+msgstr "Gauss Krueger (6 zones de degrés) / S-42"
+
+#, object-pascal-format
+msgid "SK-42 / GK %d%s"
+msgstr ""
+
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
 msgid "Skip existing result files"
 msgstr "Ignorer le résultat des fichiers existants"
@@ -5572,6 +5574,15 @@ msgstr "Premier croissant"
 msgid "Waxing Gibbous"
 msgstr "Lune gibbeuse croissante"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS 84 / Geographic"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "WGS 84 / UTM (6 degree zones)"
+msgstr ""
+
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
@@ -5702,6 +5713,18 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Delete Placemark"
+#~ msgstr "Supprimer le marqueur"
+
+#~ msgid "Don't show for Geographic / WGS84"
+#~ msgstr "Ne pas afficher pour GEO / WGS84"
+
+#~ msgid "Geographic / S-42 (Pulkovo 1942)"
+#~ msgstr "Géographique / S-42 (Pulkovo 1942)"
+
+#~ msgid "Geographic / WGS84"
+#~ msgstr "Géographique / WGS84"
 
 #~ msgid " RosCosmos "
 #~ msgstr "RosCosmos"
