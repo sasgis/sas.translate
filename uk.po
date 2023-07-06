@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-07-04 13:27\n"
+"POT-Creation-Date: 2023-07-06 10:11\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -142,6 +142,9 @@ msgstr ""
 
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
+msgstr ""
+
+msgid "0 - for UPS"
 msgstr ""
 
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
@@ -3754,6 +3757,10 @@ msgstr "Периметр: %s"
 msgid "Pixel"
 msgstr "Піксельні"
 
+#, fuzzy
+msgid "Pixel Coordinates"
+msgstr "Координати"
+
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 msgid "Placemark"
 msgstr " Позначки "
@@ -4030,9 +4037,6 @@ msgstr "Спроектувати"
 msgid "Project New Placemark"
 msgstr "Спроектувати нову позначку"
 
-msgid "Projected Coordinates"
-msgstr "Спроектовані координати"
-
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
 msgstr "Проекція"
@@ -4072,10 +4076,6 @@ msgstr ""
 #, fuzzy
 msgid "Proxy settings"
 msgstr "Параметри карти"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Pulkovo-1942 (SK-42) / Geographic"
-msgstr ""
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4877,13 +4877,14 @@ msgstr "Розмір: %dx%d; Миша: %dx%d"
 msgid "SK-42"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK-42 (Pulkovo-1942) / Geographic"
+msgstr ""
+
 #, fuzzy
 msgid "SK-42 / Gauss-Kruger (6 degree zones)"
 msgstr "Гаусс-Крюгер (6 гр. зони) / СК-42"
 
-#, object-pascal-format
-msgid "SK-42 / GK %d%s"
+msgid "SK-42 / GK"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
@@ -5237,6 +5238,10 @@ msgstr "Показувати межі зображень"
 
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..CBBorderText..Caption
 msgid "Tile coordinates"
+msgstr "Показувати координати тайла"
+
+#, fuzzy
+msgid "Tile Coordinates"
 msgstr "Показувати координати тайла"
 
 #. Programmer's name for it: SAS_ERR_TileNotExists
@@ -5594,12 +5599,9 @@ msgstr ""
 msgid "Waxing Gibbous"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "WGS 84 / Geographic"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "WGS 84 / UTM (6 degree zones)"
 msgstr ""
 
@@ -5739,6 +5741,9 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Projected Coordinates"
+#~ msgstr "Спроектовані координати"
 
 #~ msgid "Delete Placemark"
 #~ msgstr "Видалити позначку"

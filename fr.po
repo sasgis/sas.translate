@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-07-04 13:27\n"
+"POT-Creation-Date: 2023-07-06 10:11\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -143,6 +143,9 @@ msgstr "[attache]"
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
 msgstr "[sujet]"
+
+msgid "0 - for UPS"
+msgstr ""
 
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -3745,6 +3748,10 @@ msgstr "Périmètre : %s"
 msgid "Pixel"
 msgstr "Par pixels"
 
+#, fuzzy
+msgid "Pixel Coordinates"
+msgstr "Coordonnées"
+
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 msgid "Placemark"
 msgstr "Marqueur"
@@ -4023,9 +4030,6 @@ msgstr "Ajout de cette balise"
 msgid "Project New Placemark"
 msgstr "Positionnement d'une nouvelle balise"
 
-msgid "Projected Coordinates"
-msgstr "Coordonnées projetées"
-
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
 msgstr "Projection affichée"
@@ -4064,10 +4068,6 @@ msgstr "Le serveur proxy requiert une authentification"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
 msgid "Proxy settings"
 msgstr "Paramètres du proxy"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Pulkovo-1942 (SK-42) / Geographic"
-msgstr ""
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4865,13 +4865,14 @@ msgstr "Taille : %dx%d; Souris à : %dx%d"
 msgid "SK-42"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK-42 (Pulkovo-1942) / Geographic"
+msgstr ""
+
 #, fuzzy
 msgid "SK-42 / Gauss-Kruger (6 degree zones)"
 msgstr "Gauss Krueger (6 zones de degrés) / S-42"
 
-#, object-pascal-format
-msgid "SK-42 / GK %d%s"
+msgid "SK-42 / GK"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
@@ -5218,6 +5219,10 @@ msgstr "Limites des dalles"
 
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..CBBorderText..Caption
 msgid "Tile coordinates"
+msgstr "Coordonnées des dalles affichées"
+
+#, fuzzy
+msgid "Tile Coordinates"
 msgstr "Coordonnées des dalles affichées"
 
 #. Programmer's name for it: SAS_ERR_TileNotExists
@@ -5574,12 +5579,9 @@ msgstr "Premier croissant"
 msgid "Waxing Gibbous"
 msgstr "Lune gibbeuse croissante"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "WGS 84 / Geographic"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "WGS 84 / UTM (6 degree zones)"
 msgstr ""
 
@@ -5713,6 +5715,9 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Projected Coordinates"
+#~ msgstr "Coordonnées projetées"
 
 #~ msgid "Delete Placemark"
 #~ msgstr "Supprimer le marqueur"

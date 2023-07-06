@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-07-04 13:27\n"
+"POT-Creation-Date: 2023-07-06 10:11\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -145,6 +145,9 @@ msgstr "[clip]"
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
 msgstr "[subject]"
+
+msgid "0 - for UPS"
+msgstr ""
 
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -3797,6 +3800,10 @@ msgstr "Perímetro: %s"
 msgid "Pixel"
 msgstr "Pixel"
 
+#, fuzzy
+msgid "Pixel Coordinates"
+msgstr "Coordenadas"
+
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 msgid "Placemark"
 msgstr "Posición"
@@ -4074,9 +4081,6 @@ msgstr "Crear"
 msgid "Project New Placemark"
 msgstr "Crear nueva Posición"
 
-msgid "Projected Coordinates"
-msgstr "Coordenadas proyectadas"
-
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
 msgstr "Projección"
@@ -4116,10 +4120,6 @@ msgstr ""
 #, fuzzy
 msgid "Proxy settings"
 msgstr "Opciones de Mapa"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Pulkovo-1942 (SK-42) / Geographic"
-msgstr ""
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4924,13 +4924,14 @@ msgstr ""
 msgid "SK-42"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK-42 (Pulkovo-1942) / Geographic"
+msgstr ""
+
 #, fuzzy
 msgid "SK-42 / Gauss-Kruger (6 degree zones)"
 msgstr "SK42 (Gauss-Kruger)"
 
-#, object-pascal-format
-msgid "SK-42 / GK %d%s"
+msgid "SK-42 / GK"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
@@ -5286,6 +5287,10 @@ msgstr "Grilla Zoom"
 
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..CBBorderText..Caption
 msgid "Tile coordinates"
+msgstr "Coordenadas del mosaico"
+
+#, fuzzy
+msgid "Tile Coordinates"
 msgstr "Coordenadas del mosaico"
 
 #. Programmer's name for it: SAS_ERR_TileNotExists
@@ -5647,12 +5652,9 @@ msgstr ""
 msgid "Waxing Gibbous"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "WGS 84 / Geographic"
 msgstr ""
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "WGS 84 / UTM (6 degree zones)"
 msgstr ""
 
@@ -5792,6 +5794,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Projected Coordinates"
+#~ msgstr "Coordenadas proyectadas"
 
 #~ msgid "Delete Placemark"
 #~ msgstr "Borrar Posición"

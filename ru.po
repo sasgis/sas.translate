@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-07-04 13:27\n"
-"PO-Revision-Date: 2023-07-04 13:31+0300\n"
+"POT-Creation-Date: 2023-07-06 10:11\n"
+"PO-Revision-Date: 2023-07-06 10:13+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -137,6 +137,9 @@ msgstr ""
 #. Programmer's name for it: rsSubject
 msgid "[subject]"
 msgstr ""
+
+msgid "0 - for UPS"
+msgstr "0 - для UPS"
 
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -3688,6 +3691,9 @@ msgstr "Периметр: %s"
 msgid "Pixel"
 msgstr "Пиксельные"
 
+msgid "Pixel Coordinates"
+msgstr "Пиксельные координаты"
+
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 msgid "Placemark"
 msgstr "Метка"
@@ -3963,9 +3969,6 @@ msgstr "Спроецировать"
 msgid "Project New Placemark"
 msgstr "Спроецировать новую метку"
 
-msgid "Projected Coordinates"
-msgstr "Спроецированные координаты"
-
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
 msgstr "Проекция"
@@ -4004,10 +4007,6 @@ msgstr "Прокси сервер требует авторизации"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..GroupBox4..Caption
 msgid "Proxy settings"
 msgstr "Настройки прокси сервера"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
-msgid "Pulkovo-1942 (SK-42) / Geographic"
-msgstr "Пулково-1942 (СК-42) / Геогр."
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4790,13 +4789,14 @@ msgstr "Размер: %dx%d; Мышь: %dx%d"
 msgid "SK-42"
 msgstr "СК-42"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
+msgid "SK-42 (Pulkovo-1942) / Geographic"
+msgstr "СК-42 (Пулково-1942) / Геогр."
+
 msgid "SK-42 / Gauss-Kruger (6 degree zones)"
 msgstr "СК-42 / Гаусс-Крюгер (6 гр. зоны)"
 
-#, object-pascal-format
-msgid "SK-42 / GK %d%s"
-msgstr "СК-42 / ГК %d%s"
+msgid "SK-42 / GK"
+msgstr "СК-42 / ГК"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
 msgid "Skip existing result files"
@@ -5137,6 +5137,9 @@ msgstr "Отображать границы изображений"
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..CBBorderText..Caption
 msgid "Tile coordinates"
 msgstr "Отображать координаты тайла (X,Y)"
+
+msgid "Tile Coordinates"
+msgstr "Тайловые координаты"
 
 #. Programmer's name for it: SAS_ERR_TileNotExists
 msgid "Tile is not found!"
@@ -5492,12 +5495,9 @@ msgstr "Растущая в перв. четв."
 msgid "Waxing Gibbous"
 msgstr "Растущая во второй четв."
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "WGS 84 / Geographic"
 msgstr "WGS 84 / Географические"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSys..cbbCoordSysType....Items.Strings
 msgid "WGS 84 / UTM (6 degree zones)"
 msgstr "WGS 84 / UTM (6 гр. зоны)"
 
@@ -5629,6 +5629,9 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
+
+#~ msgid "Projected Coordinates"
+#~ msgstr "Спроецированные координаты"
 
 #~ msgid "Make Polygon by RosReestr (F8+MLeft)"
 #~ msgstr "Создать полигон согласно РосРеестру (F8+MLeft)"
