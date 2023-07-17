@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-07-06 10:11\n"
+"POT-Creation-Date: 2023-07-17 14:19\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -146,9 +146,6 @@ msgstr "[clip]"
 msgid "[subject]"
 msgstr "[subject]"
 
-msgid "0 - for UPS"
-msgstr ""
-
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "1.2km"
@@ -190,11 +187,6 @@ msgstr "1:50 000 (500 m)"
 msgid "1:500 000 (5 km)"
 msgstr "1:500 000 (5 km)"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-msgid "12 km 423 m"
-msgstr "12 km 423 m"
-
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #, fuzzy
 msgid "120..200km"
@@ -208,6 +200,11 @@ msgstr "120km"
 msgid "120m"
 msgstr "120m"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+#, fuzzy
+msgid "123 km 123 m"
+msgstr "12 km 423 m"
+
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat..Text
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
 #, fuzzy
@@ -217,6 +214,11 @@ msgstr "12 km 423 m"
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
 msgid "123.1 m"
 msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+#, fuzzy
+msgid "123.12 km"
+msgstr "12 km 423 m"
 
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
 msgid "123.12 m"
@@ -235,10 +237,6 @@ msgstr "12km"
 msgid "12m"
 msgstr "12m"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
-msgid "2,07 km2"
-msgstr "2,07 km2"
-
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #, fuzzy
 msgid "2..3km"
@@ -252,14 +250,6 @@ msgstr "200km"
 msgid "200m"
 msgstr "200m"
 
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
-msgid "206,63 ha"
-msgstr "206,63 ha"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
-msgid "2066339 m2"
-msgstr "2066339 m2"
-
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20km"
@@ -268,10 +258,6 @@ msgstr "20km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20m"
 msgstr "20m"
-
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-msgid "23.4 km"
-msgstr "23.4 km"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "2km"
@@ -389,6 +375,14 @@ msgid "Absolute"
 msgstr "Acerca de..."
 
 msgid "Access is denied"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_acr
+msgid "acr"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Acres"
 msgstr ""
 
 #. frMapSelect..FilterPopupMenu..TBX_Active..Caption
@@ -791,7 +785,6 @@ msgstr "Atribución:"
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
-#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 msgid "Auto"
 msgstr "Auto"
@@ -1154,6 +1147,11 @@ msgstr "Centrar con Zoom"
 #. frmMain..actlstMain..actConfigGpsFollowPositionAtCenter..Caption
 msgid "Centered GPS Position"
 msgstr "Centrar Posición GPS"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+#, fuzzy
+msgid "Centimeters"
+msgstr "Perímetro"
 
 #. frLonLat..grdpnlTop..pnlButtons..btnCoordFormat..Hint
 #, fuzzy
@@ -2195,6 +2193,10 @@ msgstr "Favoritos"
 msgid "Favorites Manager"
 msgstr "Administrador de Favoritos"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+msgid "Feet"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
 msgstr "Archivo"
@@ -2360,6 +2362,14 @@ msgstr "Desde Mapa"
 msgid "From zoom:"
 msgstr "Desde Zoom:"
 
+#. Programmer's name for it: SAS_UNITS_foot
+msgid "ft"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_ft2
+msgid "ft2"
+msgstr ""
+
 #. frSearchResultsItem..PanelFullDescImg..LabelFullDescImg..Caption
 #. frSearchResultsItem..PanelFullDescShort..LabelFullDescShort..Caption
 msgid "Full Description"
@@ -2431,11 +2441,6 @@ msgstr "Carpeta raiz GeoCacher:"
 
 msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
 msgstr "Geograficas (Latitud/Longitud) / WGS84 / EPSG:4326"
-
-#. frLonLat..grdpnlTop..cbbCoordType..Text
-#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
-msgid "Geographic Coordinates"
-msgstr "Coordenadas Geográficas"
 
 #. Programmer's name for it: rsGlobalMapperCacheName
 msgid "GlobalMapper Tiles"
@@ -2516,6 +2521,10 @@ msgstr "Grupo"
 #. Programmer's name for it: SAS_UNITS_Ha
 msgid "ha"
 msgstr "ha"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Hectares"
+msgstr ""
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarHeight..Caption
 msgid "Height:"
@@ -2680,6 +2689,15 @@ msgstr ""
 msgid "Import Parameters"
 msgstr "Importar Posiciones"
 
+#. Programmer's name for it: SAS_UNITS_inch
+#, fuzzy
+msgid "in"
+msgstr "Principal"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+msgid "Inches"
+msgstr ""
+
 #. frMapCombineCustomOptions..chkPngWithAlpha..Caption
 msgid "Include alpha channel"
 msgstr "Incluir canal alpha"
@@ -2783,6 +2801,11 @@ msgstr ""
 msgid "Keep temporarily files"
 msgstr "Borrar mosaicos vacíos"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+#, fuzzy
+msgid "Kilometers"
+msgstr "Odómetro #1"
+
 #. Programmer's name for it: SAS_UNITS_km
 msgid "km"
 msgstr "km"
@@ -2798,6 +2821,11 @@ msgstr "km2"
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
 msgid "KML (for Google Earth)"
 msgstr "KML (para Google Earth)"
+
+#. nautical mile / hour
+#. Programmer's name for it: SAS_UNITS_knot
+msgid "knot"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
@@ -3224,9 +3252,33 @@ msgstr ""
 "¡Conbinación completeda satisfactoriamente!\n"
 "Resultado contiene %d polígonos(s) con %d sub polígonos(s)"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+#, fuzzy
+msgid "Meters"
+msgstr "Meteor-M1"
+
+#. Programmer's name for it: SAS_UNITS_mile
+#, fuzzy
+msgid "mi"
+msgstr "m"
+
+#. Programmer's name for it: SAS_UNITS_mileperh
+msgid "mi/h"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_mi2
+#, fuzzy
+msgid "mi2"
+msgstr "m2"
+
 #. Programmer's name for it: rsMidnight
 msgid "Midnight"
 msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+#, fuzzy
+msgid "Miles"
+msgstr "Archivos"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
@@ -3314,6 +3366,10 @@ msgstr "Nombre: %s"
 msgid "Native cache folder:"
 msgstr "Carpeta del Caché Nativo:"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+msgid "Nautical Miles"
+msgstr ""
+
 #. Programmer's name for it: rsNauticalEnd
 msgid "Nautical twilight end"
 msgstr ""
@@ -3383,6 +3439,14 @@ msgstr "Modo Noche (inversión de color)"
 msgid "Nightly (testing)"
 msgstr "\"Nightly\" (test)"
 
+#. Programmer's name for it: SAS_UNITS_nauticalmile
+msgid "nmi"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_nmi2
+msgid "nmi2"
+msgstr ""
+
 #. frmMain..actlstMain..actViewGridGenShtabNo..Caption
 #. frmMain..actlstMain..actViewGridLonLatNo..Caption
 #. frmShortCutEdit..pnlBottom..btnClear..Caption
@@ -3435,10 +3499,6 @@ msgstr "Zona:"
 #, fuzzy
 msgid "Normal"
 msgstr "Formato de números"
-
-#. frLonLat..pnlProjected..grdpnlZone..chkNorth..Caption
-msgid "North"
-msgstr "Norte"
 
 #, fuzzy
 msgid "Not allowed:"
@@ -3795,10 +3855,6 @@ msgstr "Perímetro"
 #, object-pascal-format
 msgid "Perimeter: %s"
 msgstr "Perímetro: %s"
-
-#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
-msgid "Pixel"
-msgstr "Pixel"
 
 #, fuzzy
 msgid "Pixel Coordinates"
@@ -5048,6 +5104,30 @@ msgstr ""
 msgid "Square (on the surface)"
 msgstr "Nombre (en la lista)"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Square Feet"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Square Kilometers"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Square Meters"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Square Miles"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Square Nautical Miles"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+msgid "Square Yards"
+msgstr ""
+
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmJpegImportConfigEdit..pnlBottom..btnOk..Caption
@@ -5263,10 +5343,6 @@ msgstr ""
 #. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
 msgid "Thread count:"
 msgstr ""
-
-#. frLonLat..grdpnlTop..cbbCoordType....Items.Strings
-msgid "Tile"
-msgstr "Mosaico"
 
 #. Programmer's name for it: SAS_MSG_TileExists
 #, no-object-pascal-format
@@ -5697,6 +5773,18 @@ msgstr "WS deg.min.sec. (W12°23\"43.35')"
 msgid "Yandex"
 msgstr ""
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
+msgid "Yards"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_yard
+msgid "yd"
+msgstr ""
+
+#. Programmer's name for it: SAS_UNITS_yd2
+msgid "yd2"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
 msgstr "Si"
@@ -5795,6 +5883,30 @@ msgstr "Zooms:"
 msgid "Z-Order:"
 msgstr "Z-Order:"
 
+#~ msgid "2,07 km2"
+#~ msgstr "2,07 km2"
+
+#~ msgid "206,63 ha"
+#~ msgstr "206,63 ha"
+
+#~ msgid "2066339 m2"
+#~ msgstr "2066339 m2"
+
+#~ msgid "23.4 km"
+#~ msgstr "23.4 km"
+
+#~ msgid "Geographic Coordinates"
+#~ msgstr "Coordenadas Geográficas"
+
+#~ msgid "North"
+#~ msgstr "Norte"
+
+#~ msgid "Pixel"
+#~ msgstr "Pixel"
+
+#~ msgid "Tile"
+#~ msgstr "Mosaico"
+
 #~ msgid "Projected Coordinates"
 #~ msgstr "Coordenadas proyectadas"
 
@@ -5879,9 +5991,6 @@ msgstr "Z-Order:"
 
 #~ msgid "Make Polygon"
 #~ msgstr "Crear Polígono"
-
-#~ msgid "Meteor-M1"
-#~ msgstr "Meteor-M1"
 
 #, fuzzy
 #~ msgid "Mobile Yandex.Maps (cache v3)"
