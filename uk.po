@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-07-17 14:19\n"
+"POT-Creation-Date: 2023-07-23 15:08\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -880,10 +880,6 @@ msgstr "BMP: Помилка заповнення!"
 
 msgid "BMP: Line write failure!"
 msgstr "BMP: Помилка відмальовки лінії!"
-
-#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
-msgid "Border color"
-msgstr "Колір облямівки"
 
 #. frmAbout..lblTimeStamp..Caption
 msgid "Build date:"
@@ -2412,7 +2408,7 @@ msgstr "Показувати бланковку карт ГШ"
 msgid "GeoCacher root folder:"
 msgstr "Шлях до кешу GeoCacher"
 
-msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
+msgid "Geographic (GoogleEarth) / EPSG:4326"
 msgstr ""
 
 #. Programmer's name for it: rsGlobalMapperCacheName
@@ -2692,6 +2688,10 @@ msgstr ""
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Вхідні змінні"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkAddTimeToMarkDescription..Caption
+msgid "Insert timestamp into placemark description"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
 msgid "Interface"
@@ -3105,6 +3105,21 @@ msgstr "Інформація про позначку"
 msgid "Mark Nonexistent Tiles"
 msgstr "Відсутні тайли"
 
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
+#, fuzzy
+msgid "Marker border color"
+msgstr "Колір облямівки"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiFillColor..Caption
+#, fuzzy
+msgid "Marker fill color"
+msgstr "Колір облямівки"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMarkerSize..Caption
+#, fuzzy
+msgid "Marker size"
+msgstr "Мої позначки"
+
 #, fuzzy
 msgid "Marks"
 msgstr "Мої позначки"
@@ -3186,12 +3201,6 @@ msgstr "Шлях у меню"
 #. frMapsList..MapList......Caption
 msgid "Menu"
 msgstr "Шлях у меню"
-
-msgid "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
-msgstr ""
-
-msgid "Mercator / WGS84 / EPSG:3395"
-msgstr ""
 
 #. Programmer's name for it: rsMergeFail
 msgid "Merge failed!"
@@ -4636,6 +4645,7 @@ msgstr "Параметри"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiShadowColor..Caption
 msgid "Shadow color"
 msgstr "Колір тіні"
 
@@ -5026,6 +5036,9 @@ msgstr ""
 #. Programmer's name for it: rsElevationProfileSpeedFmt
 #, no-object-pascal-format
 msgid "Speed: %.2f, %.2f, %.2f km/h"
+msgstr ""
+
+msgid "Spherical Mercator (GoogleMaps, OSM, Bing) / EPSG:3857"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
@@ -5626,6 +5639,11 @@ msgstr "Час UTC"
 msgid "Value"
 msgstr "Значення"
 
+#. frmSettings..PageControl1..tsWiki..Caption
+#, fuzzy
+msgid "Vector Layer"
+msgstr "З шару"
+
 #. frmMain..MainPopupMenu..tbpmiVersions..Caption
 msgid "Version"
 msgstr "Версія"
@@ -5700,6 +5718,9 @@ msgstr "В межах часового інтервалу"
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Hint
 msgid "Word Wrap"
 msgstr "Перенос рядків"
+
+msgid "World Mercator (Yandex) / EPSG:3395"
+msgstr ""
 
 #, fuzzy
 msgid "WS deg. (W12.12345678)"

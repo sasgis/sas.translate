@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-07-17 14:19\n"
+"POT-Creation-Date: 2023-07-23 15:08\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -866,10 +866,6 @@ msgstr "BMP: Satır doldurma hatası!"
 
 msgid "BMP: Line write failure!"
 msgstr "BMP: Satır yazma hatası!"
-
-#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
-msgid "Border color"
-msgstr "Sınır rengi"
 
 #. frmAbout..lblTimeStamp..Caption
 msgid "Build date:"
@@ -2383,7 +2379,8 @@ msgstr "GenShtab Harita Sınırları"
 msgid "GeoCacher root folder:"
 msgstr "GeoCacher kök klasörü:"
 
-msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
+#, fuzzy
+msgid "Geographic (GoogleEarth) / EPSG:4326"
 msgstr "Coğrafi (Enlem/Boylam) / WGS84 / EPSG:4326"
 
 #. Programmer's name for it: rsGlobalMapperCacheName
@@ -2662,6 +2659,10 @@ msgstr ""
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Değişkenleri Gir"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkAddTimeToMarkDescription..Caption
+msgid "Insert timestamp into placemark description"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
 msgid "Interface"
@@ -3074,6 +3075,21 @@ msgstr "İşaret Bilgileri"
 msgid "Mark Nonexistent Tiles"
 msgstr "Varolmayan Döşemeleri İşaretle"
 
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
+#, fuzzy
+msgid "Marker border color"
+msgstr "Sınır rengi"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiFillColor..Caption
+#, fuzzy
+msgid "Marker fill color"
+msgstr "Sınır rengi"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMarkerSize..Caption
+#, fuzzy
+msgid "Marker size"
+msgstr "İşaretler"
+
 msgid "Marks"
 msgstr "İşaretler"
 
@@ -3151,12 +3167,6 @@ msgstr "Orta"
 #. frMapsList..MapList......Caption
 msgid "Menu"
 msgstr "Menü"
-
-msgid "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
-msgstr "Merkatör / Google Haritalar (Çember Yarıçapı 6378137) / EPSG:3785"
-
-msgid "Mercator / WGS84 / EPSG:3395"
-msgstr "Merkatör / WGS84 / EPSG:3395"
 
 #. Programmer's name for it: rsMergeFail
 msgid "Merge failed!"
@@ -4582,6 +4592,7 @@ msgstr "Ayarlar"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiShadowColor..Caption
 msgid "Shadow color"
 msgstr "Gölge rengi"
 
@@ -4956,6 +4967,10 @@ msgstr "Hız: %.2f km/s"
 #, no-object-pascal-format
 msgid "Speed: %.2f, %.2f, %.2f km/h"
 msgstr "Hız: %.2f, %.2f, %.2f km/s"
+
+#, fuzzy
+msgid "Spherical Mercator (GoogleMaps, OSM, Bing) / EPSG:3857"
+msgstr "Merkatör / Google Haritalar (Çember Yarıçapı 6378137) / EPSG:3785"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
@@ -5551,6 +5566,11 @@ msgstr "UTC zamanı:"
 msgid "Value"
 msgstr "Değer"
 
+#. frmSettings..PageControl1..tsWiki..Caption
+#, fuzzy
+msgid "Vector Layer"
+msgstr "Katmandan"
+
 #. frmMain..MainPopupMenu..tbpmiVersions..Caption
 msgid "Version"
 msgstr "Sürüm"
@@ -5625,6 +5645,10 @@ msgstr "Zaman Aralığı İçinde"
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Hint
 msgid "Word Wrap"
 msgstr "Kelime Sarma"
+
+#, fuzzy
+msgid "World Mercator (Yandex) / EPSG:3395"
+msgstr "Merkatör / WGS84 / EPSG:3395"
 
 msgid "WS deg. (W12.12345678)"
 msgstr "WS der. (W12.12345678)"

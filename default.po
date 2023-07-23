@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-17 14:19\n"
-"PO-Revision-Date: 2023-07-17 14:19\n"
+"POT-Creation-Date: 2023-07-23 15:08\n"
+"PO-Revision-Date: 2023-07-23 15:08\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -884,10 +884,6 @@ msgid "BMP: Fill line failure!"
 msgstr ""
 
 msgid "BMP: Line write failure!"
-msgstr ""
-
-#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
-msgid "Border color"
 msgstr ""
 
 #. frmAbout..lblTimeStamp..Caption
@@ -2418,9 +2414,7 @@ msgstr ""
 msgid "GeoCacher root folder:"
 msgstr ""
 
-msgid ""
-"Geographic (Latitude/Longitude) / WGS84 / "
-"EPSG:4326"
+msgid "Geographic (GoogleEarth) / EPSG:4326"
 msgstr ""
 
 #. Programmer's name for it: rsGlobalMapperCacheName
@@ -2698,6 +2692,10 @@ msgstr ""
 
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
+msgstr ""
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkAddTimeToMarkDescription..Caption
+msgid "Insert timestamp into placemark description"
 msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
@@ -3107,6 +3105,18 @@ msgstr ""
 msgid "Mark Nonexistent Tiles"
 msgstr ""
 
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
+msgid "Marker border color"
+msgstr ""
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiFillColor..Caption
+msgid "Marker fill color"
+msgstr ""
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMarkerSize..Caption
+msgid "Marker size"
+msgstr ""
+
 msgid "Marks"
 msgstr ""
 
@@ -3193,14 +3203,6 @@ msgstr ""
 
 #. frMapsList..MapList......Caption
 msgid "Menu"
-msgstr ""
-
-msgid ""
-"Mercator / Google Maps (Sphere Radius 6378137) / "
-"EPSG:3785"
-msgstr ""
-
-msgid "Mercator / WGS84 / EPSG:3395"
 msgstr ""
 
 #. Programmer's name for it: rsMergeFail
@@ -4637,6 +4639,7 @@ msgstr ""
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiShadowColor..Caption
 msgid "Shadow color"
 msgstr ""
 
@@ -5011,6 +5014,11 @@ msgstr ""
 #. Programmer's name for it: rsElevationProfileSpeedFmt
 #, no-object-pascal-format
 msgid "Speed: %.2f, %.2f, %.2f km/h"
+msgstr ""
+
+msgid ""
+"Spherical Mercator (GoogleMaps, OSM, Bing) / "
+"EPSG:3857"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
@@ -5612,6 +5620,10 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
+#. frmSettings..PageControl1..tsWiki..Caption
+msgid "Vector Layer"
+msgstr ""
+
 #. frmMain..MainPopupMenu..tbpmiVersions..Caption
 msgid "Version"
 msgstr ""
@@ -5685,6 +5697,9 @@ msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Hint
 msgid "Word Wrap"
+msgstr ""
+
+msgid "World Mercator (Yandex) / EPSG:3395"
 msgstr ""
 
 msgid "WS deg. (W12.12345678)"

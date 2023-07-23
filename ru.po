@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-07-17 14:19\n"
-"PO-Revision-Date: 2023-07-17 14:34+0300\n"
+"POT-Creation-Date: 2023-07-23 15:08\n"
+"PO-Revision-Date: 2023-07-23 15:12+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -858,10 +858,6 @@ msgstr "BMP: Сбой заполнения!"
 
 msgid "BMP: Line write failure!"
 msgstr "BMP: Сбой прорисовки линии!"
-
-#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
-msgid "Border color"
-msgstr "Цвет окаймления"
 
 #. frmAbout..lblTimeStamp..Caption
 msgid "Build date:"
@@ -2360,7 +2356,7 @@ msgstr "Отображать бланковку карт ГШ"
 msgid "GeoCacher root folder:"
 msgstr "Путь к кэшу GeoCacher:"
 
-msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
+msgid "Geographic (GoogleEarth) / EPSG:4326"
 msgstr ""
 
 #. Programmer's name for it: rsGlobalMapperCacheName
@@ -2637,6 +2633,10 @@ msgstr "Инициализация..."
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Входные переменные"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkAddTimeToMarkDescription..Caption
+msgid "Insert timestamp into placemark description"
+msgstr "Добавлять дату/время в описание метки"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
 msgid "Interface"
@@ -3049,6 +3049,18 @@ msgstr "Информация о метке"
 msgid "Mark Nonexistent Tiles"
 msgstr "Отсутствующие тайлы"
 
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
+msgid "Marker border color"
+msgstr "Цвет окаймления маркера"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiFillColor..Caption
+msgid "Marker fill color"
+msgstr "Цвет маркера"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMarkerSize..Caption
+msgid "Marker size"
+msgstr "Размер маркера"
+
 msgid "Marks"
 msgstr "Метки"
 
@@ -3126,12 +3138,6 @@ msgstr ""
 #. frMapsList..MapList......Caption
 msgid "Menu"
 msgstr "Путь в меню"
-
-msgid "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
-msgstr ""
-
-msgid "Mercator / WGS84 / EPSG:3395"
-msgstr ""
 
 #. Programmer's name for it: rsMergeFail
 msgid "Merge failed!"
@@ -4552,6 +4558,7 @@ msgstr "Параметры"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiShadowColor..Caption
 msgid "Shadow color"
 msgstr "Цвет тени"
 
@@ -4925,6 +4932,9 @@ msgstr "Скорость: %.2f км/ч"
 #, no-object-pascal-format
 msgid "Speed: %.2f, %.2f, %.2f km/h"
 msgstr "Скорость: %.2f, %.2f, %.2f км/ч"
+
+msgid "Spherical Mercator (GoogleMaps, OSM, Bing) / EPSG:3857"
+msgstr ""
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
@@ -5512,6 +5522,10 @@ msgstr "Время UTC:"
 msgid "Value"
 msgstr "Значение"
 
+#. frmSettings..PageControl1..tsWiki..Caption
+msgid "Vector Layer"
+msgstr "Векторн. слои"
+
 #. frmMain..MainPopupMenu..tbpmiVersions..Caption
 msgid "Version"
 msgstr "Версия"
@@ -5586,6 +5600,9 @@ msgstr "Тайлы только в диапазоне дат"
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Hint
 msgid "Word Wrap"
 msgstr "Перенос строк"
+
+msgid "World Mercator (Yandex) / EPSG:3395"
+msgstr ""
 
 msgid "WS deg. (W12.12345678)"
 msgstr "WS град. (W12.12345678)"

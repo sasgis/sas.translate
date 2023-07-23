@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-07-17 14:19\n"
+"POT-Creation-Date: 2023-07-23 15:08\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -878,10 +878,6 @@ msgstr "BMP : Echec au remplissage de ligne !"
 
 msgid "BMP: Line write failure!"
 msgstr "BMP : Echec à l'écriture de ligne !"
-
-#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBgColor..Caption
-msgid "Border color"
-msgstr "Couleur de la bordure :"
 
 #. frmAbout..lblTimeStamp..Caption
 msgid "Build date:"
@@ -2414,7 +2410,8 @@ msgstr "Limites de Genshtab"
 msgid "GeoCacher root folder:"
 msgstr "GeoCacher, répertoire du cache :"
 
-msgid "Geographic (Latitude/Longitude) / WGS84 / EPSG:4326"
+#, fuzzy
+msgid "Geographic (GoogleEarth) / EPSG:4326"
 msgstr "Géographique (Latitude/Longitude) / WGS84 / EPSG:4326"
 
 #. Programmer's name for it: rsGlobalMapperCacheName
@@ -2693,6 +2690,10 @@ msgstr ""
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
 msgstr "Variables d'entrée"
+
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkAddTimeToMarkDescription..Caption
+msgid "Insert timestamp into placemark description"
+msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
 msgid "Interface"
@@ -3109,6 +3110,21 @@ msgstr "Information sur le marqueur"
 msgid "Mark Nonexistent Tiles"
 msgstr "Marquer les dalles inexistantes"
 
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
+#, fuzzy
+msgid "Marker border color"
+msgstr "Couleur de la bordure :"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiFillColor..Caption
+#, fuzzy
+msgid "Marker fill color"
+msgstr "Couleur de la bordure :"
+
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMarkerSize..Caption
+#, fuzzy
+msgid "Marker size"
+msgstr "Marqueurs"
+
 msgid "Marks"
 msgstr "Marqueurs"
 
@@ -3188,12 +3204,6 @@ msgstr "Moyenne"
 #. frMapsList..MapList......Caption
 msgid "Menu"
 msgstr "Menu"
-
-msgid "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
-msgstr "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
-
-msgid "Mercator / WGS84 / EPSG:3395"
-msgstr "Mercator / WGS84 / EPSG:3395"
 
 #. Programmer's name for it: rsMergeFail
 msgid "Merge failed!"
@@ -4626,6 +4636,7 @@ msgstr "Paramètres"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiShadowColor..Caption
 msgid "Shadow color"
 msgstr "Couleur de l'ombre :"
 
@@ -5014,6 +5025,10 @@ msgstr ""
 #, no-object-pascal-format
 msgid "Speed: %.2f, %.2f, %.2f km/h"
 msgstr ""
+
+#, fuzzy
+msgid "Spherical Mercator (GoogleMaps, OSM, Bing) / EPSG:3857"
+msgstr "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
@@ -5610,6 +5625,11 @@ msgstr "Temps universel coordonné UTC :"
 msgid "Value"
 msgstr "Valeur"
 
+#. frmSettings..PageControl1..tsWiki..Caption
+#, fuzzy
+msgid "Vector Layer"
+msgstr "A partir de la couche"
+
 #. frmMain..MainPopupMenu..tbpmiVersions..Caption
 msgid "Version"
 msgstr "Version"
@@ -5684,6 +5704,10 @@ msgstr "Dans l'intervalle de temps"
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmWordWrap..Hint
 msgid "Word Wrap"
 msgstr "Transfert de terme"
+
+#, fuzzy
+msgid "World Mercator (Yandex) / EPSG:3395"
+msgstr "Mercator / WGS84 / EPSG:3395"
 
 #, fuzzy
 msgid "WS deg. (W12.12345678)"
