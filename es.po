@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-08 16:32\n"
+"POT-Creation-Date: 2023-12-08 16:59\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -885,10 +885,6 @@ msgstr "Carpeta del Caché BerkeleyDB:"
 msgid "Best"
 msgstr ""
 
-#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-msgid "Big TIFF"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
 msgstr "Bits por segundo"
@@ -1191,10 +1187,6 @@ msgstr ""
 
 #. Programmer's name for it: rsCivilStart
 msgid "Civil twilight start"
-msgstr ""
-
-#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-msgid "Classic TIFF"
 msgstr ""
 
 msgid "Cleaning up. "
@@ -4413,12 +4405,6 @@ msgstr "Descargue próximo mosaico si no hay respuesta"
 msgid "Revert Selection"
 msgstr "Última Selección"
 
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace..Text
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
-#, fuzzy
-msgid "RGB"
-msgstr "GB"
-
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
 msgstr "Radio (m)"
@@ -4607,10 +4593,6 @@ msgstr "Resultados de Búsqueda"
 #. Programmer's name for it: rsSearchAvailableVersionInfo
 msgid "searching"
 msgstr "buscando"
-
-#. frmGeoTiffOptions..Font.Name
-msgid "Segoe UI"
-msgstr ""
 
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 #, fuzzy
@@ -5892,10 +5874,6 @@ msgstr ""
 msgid "Yards"
 msgstr ""
 
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
-msgid "YCbCr"
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_yard
 msgid "yd"
 msgstr ""
@@ -6001,6 +5979,10 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#, fuzzy
+#~ msgid "RGB"
+#~ msgstr "GB"
 
 #, no-object-pascal-format
 #~ msgid "Every map part must have height less than %0:d but exist %1:d"

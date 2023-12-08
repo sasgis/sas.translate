@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-08 16:32\n"
+"POT-Creation-Date: 2023-12-08 16:59\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -858,10 +858,6 @@ msgstr "BerkeleyDB önbellek klasörü:"
 msgid "Best"
 msgstr "En iyi"
 
-#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-msgid "Big TIFF"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
 msgstr "Saniye başına bit"
@@ -1160,10 +1156,6 @@ msgstr "Alacakaranlık sonu"
 #. Programmer's name for it: rsCivilStart
 msgid "Civil twilight start"
 msgstr "Alacakaranlık başlangıcı"
-
-#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-msgid "Classic TIFF"
-msgstr ""
 
 msgid "Cleaning up. "
 msgstr "Temizleniyor. "
@@ -4310,12 +4302,6 @@ msgstr "Yanıt yoksa döşemeyi indirmeyi yeniden dene"
 msgid "Revert Selection"
 msgstr "Son Seçim"
 
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace..Text
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
-#, fuzzy
-msgid "RGB"
-msgstr "GB"
-
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
 msgstr "Halka yarıçapı (m)"
@@ -4502,10 +4488,6 @@ msgstr "Sonuçları Ara"
 #. Programmer's name for it: rsSearchAvailableVersionInfo
 msgid "searching"
 msgstr "aranıyor"
-
-#. frmGeoTiffOptions..Font.Name
-msgid "Segoe UI"
-msgstr ""
 
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 #, fuzzy
@@ -5754,10 +5736,6 @@ msgstr "Yandex"
 msgid "Yards"
 msgstr ""
 
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
-msgid "YCbCr"
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_yard
 msgid "yd"
 msgstr ""
@@ -5861,6 +5839,10 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#, fuzzy
+#~ msgid "RGB"
+#~ msgstr "GB"
 
 #, no-object-pascal-format
 #~ msgid "Every map part must have height less than %0:d but exist %1:d"

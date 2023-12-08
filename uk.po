@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-12-08 16:32\n"
+"POT-Creation-Date: 2023-12-08 16:59\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -872,10 +872,6 @@ msgstr "Шлях до кешу BerkeleyDB:"
 msgid "Best"
 msgstr ""
 
-#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-msgid "Big TIFF"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
 msgstr "Швидкість, біт/с"
@@ -1177,10 +1173,6 @@ msgstr "Кінець громад. сутінок"
 #. Programmer's name for it: rsCivilStart
 msgid "Civil twilight start"
 msgstr "Початок громад. сутінок"
-
-#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-msgid "Classic TIFF"
-msgstr ""
 
 msgid "Cleaning up. "
 msgstr "Очистка"
@@ -4368,12 +4360,6 @@ msgstr "Переходити до наступного тайла, якщо се
 msgid "Revert Selection"
 msgstr "Попереднє виділення"
 
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace..Text
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
-#, fuzzy
-msgid "RGB"
-msgstr "ГБ"
-
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
 msgstr "Радіус кілець (м)"
@@ -4561,10 +4547,6 @@ msgstr "Результати пошуку"
 #. Programmer's name for it: rsSearchAvailableVersionInfo
 msgid "searching"
 msgstr "Пошук"
-
-#. frmGeoTiffOptions..Font.Name
-msgid "Segoe UI"
-msgstr ""
 
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 #, fuzzy
@@ -5837,10 +5819,6 @@ msgstr ""
 msgid "Yards"
 msgstr ""
 
-#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
-msgid "YCbCr"
-msgstr ""
-
 #. Programmer's name for it: SAS_UNITS_yard
 msgid "yd"
 msgstr ""
@@ -5946,6 +5924,10 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#, fuzzy
+#~ msgid "RGB"
+#~ msgstr "ГБ"
 
 #, no-object-pascal-format
 #~ msgid "Every map part must have height less than %0:d but exist %1:d"
