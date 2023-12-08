@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-09-07 15:36\n"
+"POT-Creation-Date: 2023-12-08 16:32\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -626,6 +626,7 @@ msgstr "Будь-яке доступне джерело"
 #. frmMarkPictureEditor..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
+#. frmGeoTiffOptions..btnApply..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
@@ -763,8 +764,8 @@ msgstr "Атрибуція:"
 
 #. frmMain..actlstMain..actViewGridGenShtabAuto..Caption
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
-#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat..Text
-#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+#. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
+#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
@@ -871,6 +872,10 @@ msgstr "Шлях до кешу BerkeleyDB:"
 msgid "Best"
 msgstr ""
 
+#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+msgid "Big TIFF"
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
 msgstr "Швидкість, біт/с"
@@ -941,7 +946,6 @@ msgstr "Кеш і тп"
 msgid "Cache conversion is finished!"
 msgstr "Конвертацію кешу завершено!"
 
-#. Programmer's name for it: SAS_ERR_ContentTypeMismatch
 #, object-pascal-format
 msgid ""
 "Cache converter aborted with error: Content-Type mismatch!\n"
@@ -1035,6 +1039,7 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
+#. frmGeoTiffOptions..btnCancel..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMapLayersOptions..btnCancel..Hint
@@ -1173,6 +1178,10 @@ msgstr "Кінець громад. сутінок"
 msgid "Civil twilight start"
 msgstr "Початок громад. сутінок"
 
+#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+msgid "Classic TIFF"
+msgstr ""
+
 msgid "Cleaning up. "
 msgstr "Очистка"
 
@@ -1220,6 +1229,11 @@ msgstr "Колір"
 #. Programmer's name for it: rsDefaultColorSchemaFmt
 #, object-pascal-format
 msgid "Color schema %d"
+msgstr "Кольорова схема %d"
+
+#. frmGeoTiffOptions..pnlColorspace..lblColorspace..Caption
+#, fuzzy
+msgid "Color space:"
 msgstr "Кольорова схема %d"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
@@ -1271,7 +1285,7 @@ msgstr "Стиснення:"
 msgid "Compression Method:"
 msgstr "Стиснення:"
 
-#. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
+#. frmGeoTiffOptions..pnlCompression..lblCompression..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 msgid "Compression:"
 msgstr "Стиснення:"
@@ -1349,6 +1363,10 @@ msgstr "Копіювати вибрані tid для вставки у URL"
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
 msgid "Copy description"
 msgstr "Копіювати опис"
+
+#. frmGeoTiffOptions..chkCopyRawJpeg..Caption
+msgid "Copy JPEG tiles directly if possible"
+msgstr ""
 
 #. frTilesCopy..Panel1..Caption
 msgid "Copy tiles from selection to folder"
@@ -1479,6 +1497,10 @@ msgstr "Активний масштаб"
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
 msgid "Current Zoom"
 msgstr "Активний масштаб"
+
+#. frmGeoTiffOptions..pnlOverview..grpOverview..lblCustomOverview..Caption
+msgid "Custom (separated by space):"
+msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..lblHeader..Caption
 msgid "Custom HTTP Headers:"
@@ -2062,22 +2084,6 @@ msgstr "Помилка"
 msgid "Event"
 msgstr "Подія"
 
-#, no-object-pascal-format
-msgid "Every map part must have height less than %0:d but exist %1:d"
-msgstr "Кожна частина карты повинна мати высоту мнеше ніж %0:d, а зараз %1:d"
-
-#, no-object-pascal-format
-msgid "Every map part must have height more than %0:d but exist %1:d"
-msgstr "Кожна частина карты повинна мати высоту більше ніж %0:d, а зараз %1:d"
-
-#, no-object-pascal-format
-msgid "Every map part must have width less than %0:d but exist %1:d"
-msgstr "Кожна частина карты повинна мати ширину мнеше ніж %0:d, а зараз %1:d"
-
-#, no-object-pascal-format
-msgid "Every map part must have width more than %0:d but exist %1:d"
-msgstr "Кожна частина карты повинна мати ширину більше ніж %0:d, а зараз %1:d"
-
 #. frMergePolygons..tbTop..tbOperationType..tbtmXOR..Caption
 msgid "Exclusive or (XOR)"
 msgstr "Виключаюче АБО (XOR)"
@@ -2172,7 +2178,6 @@ msgstr ""
 msgid "File"
 msgstr "Файл"
 
-#. Programmer's name for it: SAS_MSG_FileExists
 #, no-object-pascal-format
 msgid ""
 "File %0:s is available on disk.\n"
@@ -2190,6 +2195,11 @@ msgstr "Файл %0:s не існує"
 #, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "Файл %0:s не знайдено"
+
+#. frmGeoTiffOptions..pnlFormat..lblFormat..Caption
+#, fuzzy
+msgid "File format:"
+msgstr "Формат тайлів у OGF2:"
 
 #. frmMarkSystemConfigEdit..grpFile..Caption
 msgid "File name"
@@ -2295,9 +2305,13 @@ msgstr "Для"
 msgid "Forced Schema Name:"
 msgstr ""
 
+#. frMapCombineCustomOptions..flwpnlFormatOptions..btnFormatOptions..Caption
+#, fuzzy
+msgid "Format Options"
+msgstr "Налаштування інтерфейсу"
+
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
-#. frMapCombineCustomOptions..flwpnlFormat..lblFormat..Caption
 msgid "Format:"
 msgstr "Формат:"
 
@@ -2409,6 +2423,15 @@ msgid "GeoCacher root folder:"
 msgstr "Шлях до кешу GeoCacher"
 
 msgid "Geographic (GoogleEarth) / EPSG:4326"
+msgstr ""
+
+#. frmGeoTiffOptions..Caption
+#, fuzzy
+msgid "GeoTiff Settings"
+msgstr "Параметри іконок"
+
+#, object-pascal-format
+msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr ""
 
 #. Programmer's name for it: rsGlobalMapperCacheName
@@ -2746,6 +2769,10 @@ msgid ""
 msgstr ""
 
 #, object-pascal-format
+msgid "Invalid Overview level value: \"%s\""
+msgstr ""
+
+#, object-pascal-format
 msgid "Invalid Volume Size value: %s"
 msgstr ""
 
@@ -2837,7 +2864,6 @@ msgstr "Градусна сітка"
 msgid "Lat/Lon grid:"
 msgstr "Градусна сітка:"
 
-#. Programmer's name for it: SAS_ERR_LonLat2
 msgid ""
 "Latitude of upper left corner must be less than \n"
 "latitude of lower right corner"
@@ -2885,6 +2911,10 @@ msgstr "Довжина"
 msgid "Length: %s"
 msgstr "Довжина: %s"
 
+#. frmGeoTiffOptions..pnlCompressionLevel..lblCompressionLevel..Caption
+msgid "Level:"
+msgstr ""
+
 #. frmAbout..pnlBottom..btnLicense..Caption
 msgid "License"
 msgstr "Ліцензія"
@@ -2923,7 +2953,6 @@ msgstr "Лістинги"
 msgid "Load from File"
 msgstr "Завантажити з файла"
 
-#. Local time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeMenuItemName
 msgid "Local time"
 msgstr "Місцевий час"
@@ -2940,7 +2969,6 @@ msgstr "Прикріпити панелі інструментів"
 msgid "Lock Toolbars"
 msgstr "Прикріпити панелі інструментів"
 
-#. Programmer's name for it: SAS_ERR_LonLat1
 msgid ""
 "Longitude of upper left corner must be less than \n"
 "longitude of lower right corner"
@@ -3471,7 +3499,7 @@ msgid "No write access to tile storage"
 msgstr "Немає доступу на запис до тайлосховища"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
-#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+#. frmGeoTiffOptions..pnlCompression..cbbCompression....Items.Strings
 msgid "None"
 msgstr "Нема"
 
@@ -3701,6 +3729,11 @@ msgstr "Результуючий формат:"
 msgid "Overlay layer:"
 msgstr "Накласти шар:"
 
+#. frmGeoTiffOptions..pnlOverview..grpOverview..Caption
+#, fuzzy
+msgid "Overview levels"
+msgstr "Карта огляду"
+
 #. frmMain..actlstMain..actConfigMiniMapVisible..Caption
 msgid "Overview Map"
 msgstr "Карта огляду"
@@ -3900,6 +3933,10 @@ msgstr "Програти"
 msgid "Please select a map"
 msgstr "Оберіть карту, будьласка!"
 
+#, fuzzy
+msgid "Please select a map or layer first!"
+msgstr "Спочатку треба вибрати карту або шар"
+
 msgid "Please select at least one map"
 msgstr "Спочатку треба виділити хочаб одну карту!"
 
@@ -3921,14 +3958,15 @@ msgstr "Спочатку треба виділити хочаб один зум!
 msgid "Please select at one placemark type"
 msgstr "Спочатку треба обрати тип позначки"
 
-msgid "Please select map or layer"
-msgstr "Спочатку треба вибрати карту або шар"
-
 msgid "Please select output folder"
 msgstr "Будьласка, оберіть спочатку вихідну папку!"
 
 #, fuzzy
 msgid "Please select the map first!"
+msgstr "Будьласка, оберіть спочатку вихідний файл!"
+
+#, fuzzy
+msgid "Please select the output file first!"
 msgstr "Будьласка, оберіть спочатку вихідний файл!"
 
 #. Programmer's name for it: rsWaitUntilTheFinishOperation
@@ -4330,6 +4368,12 @@ msgstr "Переходити до наступного тайла, якщо се
 msgid "Revert Selection"
 msgstr "Попереднє виділення"
 
+#. frmGeoTiffOptions..pnlColorspace..cbbColorspace..Text
+#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
+#, fuzzy
+msgid "RGB"
+msgstr "ГБ"
+
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
 msgstr "Радіус кілець (м)"
@@ -4381,7 +4425,6 @@ msgstr "Команда розробників SAS.Планета"
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr "Для того щоб зміни набрали чинності, слід перезавантажити програму"
 
-#. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesMenuItemName
 msgid "Satellite Signal Strength"
 msgstr "Рівні сигналу супутника"
@@ -4519,6 +4562,10 @@ msgstr "Результати пошуку"
 msgid "searching"
 msgstr "Пошук"
 
+#. frmGeoTiffOptions..Font.Name
+msgid "Segoe UI"
+msgstr ""
+
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 #, fuzzy
 msgid "Select All Visible Placemarks"
@@ -4548,21 +4595,6 @@ msgid ""
 msgstr ""
 "Обрана категорія \"%0:s\" містить %d підкатегорій. Ви дійсно бажаєте "
 "видалити їх усі?"
-
-#. Programmer's name for it: SAS_ERR_ImageIsTooBig
-#, object-pascal-format
-msgid ""
-"Selected resolution is too big for %s format!\n"
-"Widht = %d (max = %d)\n"
-"Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output format (ECW "
-"is the best)."
-msgstr ""
-"Виділена область занадто велика для формату %s!\n"
-" Ширина = %d  (max = %d)\n"
-" Висота = %d   (max = %d)\n"
-" Зменшіть виділену область склейки в %s або виберіть інший формат (ECW - "
-"найкращий)."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -5173,7 +5205,6 @@ msgstr "Виконано успішно"
 msgid "Sun Calculator"
 msgstr "Калькулятор Сонця"
 
-#. Sunraise time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeMenuItemName
 msgid "Sunraise time"
 msgstr "Час сходу сонця"
@@ -5182,7 +5213,6 @@ msgstr "Час сходу сонця"
 msgid "Sunraise time:"
 msgstr "Час сходу сонця:"
 
-#. Sunset time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeMenuItemName
 msgid "Sunset time"
 msgstr "Час заходу сонця"
@@ -5226,10 +5256,21 @@ msgstr "Колір тексту:"
 msgid "The feature can be used on polygons and polylines"
 msgstr "Опція доступна лише для полігонів та шляхів"
 
+#, no-object-pascal-format
+msgid ""
+"The height of each part of the map must be greater than %0:d pix (currently "
+"%1:d pix)."
+msgstr ""
+
+#, no-object-pascal-format
+msgid ""
+"The height of each part of the map must not exceed %0:d pix (currently %1:d "
+"pix)."
+msgstr ""
+
 msgid "The Name can't be empty!"
 msgstr "Ім'я не може бути порожнім!"
 
-#. Programmer's name for it: SAS_MSG_GarminMax1Mp
 msgid ""
 "The number of JPEG files will exceed 100. If your\n"
 "navigation device split the image using\n"
@@ -5252,6 +5293,34 @@ msgid ""
 "Not enough data in the database!"
 msgstr ""
 
+#, fuzzy, object-pascal-format
+msgid ""
+"The selected resolution is too high for the %s format!\n"
+"Widht = %d pix (max = %d pix)\n"
+"Height = %d pix (max = %d pix)\n"
+"Try to select a smaller region or choose a different output format."
+msgstr ""
+"Виділена область занадто велика для формату %s!\n"
+" Ширина = %d  (max = %d)\n"
+" Висота = %d   (max = %d)\n"
+" Зменшіть виділену область склейки в %s або виберіть інший формат (ECW - "
+"найкращий)."
+
+#, fuzzy, object-pascal-format
+msgid ""
+"The selected resolution is too high for the GeoTIFF format with JPEG "
+"compression!\n"
+"Widht = %d pix (max = %d pix)\n"
+"Height = %d pix (max = %d pix)\n"
+"Try to select a smaller region or choose a different compression algorithm / "
+"output format."
+msgstr ""
+"Виділена область занадто велика для формату %s!\n"
+" Ширина = %d  (max = %d)\n"
+" Висота = %d   (max = %d)\n"
+" Зменшіть виділену область склейки в %s або виберіть інший формат (ECW - "
+"найкращий)."
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "Обробку файлів завершено!"
@@ -5273,6 +5342,18 @@ msgstr "Розмір цього тайлу дорівнює існуючому, 
 msgid "The tne is newer than the entered age, skipping."
 msgstr ""
 "Цей tne створено пізніше зазначеного терміну, пропускаємо завантаження."
+
+#, no-object-pascal-format
+msgid ""
+"The width of each part of the map must be greater than %0:d pix (currently "
+"%1:d pix)."
+msgstr ""
+
+#, no-object-pascal-format
+msgid ""
+"The width of each part of the map must not exceed %0:d pix (currently %1:d "
+"pix)."
+msgstr ""
 
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
@@ -5322,7 +5403,6 @@ msgstr ""
 msgid "Thread count:"
 msgstr "Кількість потоків"
 
-#. Programmer's name for it: SAS_MSG_TileExists
 #, no-object-pascal-format
 msgid ""
 "Tile %0:s is available in cache.\n"
@@ -5479,7 +5559,6 @@ msgstr "Розгруппувати"
 msgid "Union (OR)"
 msgstr "Об'єднання (OR)"
 
-#. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoMenuItemName
 msgid "Unit info"
 msgstr "Інформація"
@@ -5639,7 +5718,6 @@ msgstr "Логін "
 msgid "Username:"
 msgstr "Логін "
 
-#. UTC time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
 msgid "UTC time"
 msgstr "Час UTC"
@@ -5759,6 +5837,10 @@ msgstr ""
 msgid "Yards"
 msgstr ""
 
+#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
+msgid "YCbCr"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_yard
 msgid "yd"
 msgstr ""
@@ -5864,6 +5946,26 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#, no-object-pascal-format
+#~ msgid "Every map part must have height less than %0:d but exist %1:d"
+#~ msgstr ""
+#~ "Кожна частина карты повинна мати высоту мнеше ніж %0:d, а зараз %1:d"
+
+#, no-object-pascal-format
+#~ msgid "Every map part must have height more than %0:d but exist %1:d"
+#~ msgstr ""
+#~ "Кожна частина карты повинна мати высоту більше ніж %0:d, а зараз %1:d"
+
+#, no-object-pascal-format
+#~ msgid "Every map part must have width less than %0:d but exist %1:d"
+#~ msgstr ""
+#~ "Кожна частина карты повинна мати ширину мнеше ніж %0:d, а зараз %1:d"
+
+#, no-object-pascal-format
+#~ msgid "Every map part must have width more than %0:d but exist %1:d"
+#~ msgstr ""
+#~ "Кожна частина карты повинна мати ширину більше ніж %0:d, а зараз %1:d"
 
 #~ msgid "2,07 km2"
 #~ msgstr "2,07 км²"
@@ -5991,9 +6093,6 @@ msgstr "Z-Сортування:"
 
 #~ msgid "Ogf2 map for SmartComGPS 1.5x"
 #~ msgstr "Карта Ogf2 для SmartComGPS 1.5x"
-
-#~ msgid "OGF2 tiles format:"
-#~ msgstr "Формат тайлів у OGF2:"
 
 #~ msgid "OGF2 tiles resolution:"
 #~ msgstr "Розрізнення тайлів у OGF2 :"

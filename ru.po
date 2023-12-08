@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-09-07 15:36\n"
-"PO-Revision-Date: 2023-09-07 15:39+0300\n"
+"POT-Creation-Date: 2023-12-08 16:32\n"
+"PO-Revision-Date: 2023-12-08 16:56+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -610,6 +610,7 @@ msgstr "Все доступные источники"
 #. frmMarkPictureEditor..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
+#. frmGeoTiffOptions..btnApply..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
 #. frmSettings..pnlBottomButtons..btnApply..Caption
@@ -741,8 +742,8 @@ msgstr "Атрибуция:"
 
 #. frmMain..actlstMain..actViewGridGenShtabAuto..Caption
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
-#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat..Text
-#. frMapCombineCustomOptions..flwpnlFormat..cbbFormat....Items.Strings
+#. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
+#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
@@ -849,6 +850,10 @@ msgstr "Путь к кэшу BerkeleyDB:"
 msgid "Best"
 msgstr "Максимальный"
 
+#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+msgid "Big TIFF"
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Bits per second"
 msgstr "Скорость"
@@ -917,7 +922,6 @@ msgstr "Кэш и прочее"
 msgid "Cache conversion is finished!"
 msgstr "Конвертация кэша завершена!"
 
-#. Programmer's name for it: SAS_ERR_ContentTypeMismatch
 #, object-pascal-format
 msgid ""
 "Cache converter aborted with error: Content-Type mismatch!\n"
@@ -1010,6 +1014,7 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
+#. frmGeoTiffOptions..btnCancel..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
 #. frmMapLayersOptions..btnCancel..Hint
@@ -1145,6 +1150,10 @@ msgstr "Конец Гражд. сумерек"
 msgid "Civil twilight start"
 msgstr "Нач. Гражд. сумерек"
 
+#. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+msgid "Classic TIFF"
+msgstr ""
+
 msgid "Cleaning up. "
 msgstr "Очистка. "
 
@@ -1191,6 +1200,10 @@ msgstr "Цвет"
 #, object-pascal-format
 msgid "Color schema %d"
 msgstr "Цветовая схема %d"
+
+#. frmGeoTiffOptions..pnlColorspace..lblColorspace..Caption
+msgid "Color space:"
+msgstr "Цветовое пространство:"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
@@ -1239,7 +1252,7 @@ msgstr "Уровень сжатия:"
 msgid "Compression Method:"
 msgstr "Метод сжатия:"
 
-#. frMapCombineCustomOptions..flwpnlCompression..lblCompression..Caption
+#. frmGeoTiffOptions..pnlCompression..lblCompression..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 msgid "Compression:"
 msgstr "Сжатие:"
@@ -1315,6 +1328,10 @@ msgstr "Скопировать координаты в буфер обмена"
 #. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
 msgid "Copy description"
 msgstr "Копировать описание"
+
+#. frmGeoTiffOptions..chkCopyRawJpeg..Caption
+msgid "Copy JPEG tiles directly if possible"
+msgstr "Если возможно, копировать JPEG тайлы напрямую"
 
 #. frTilesCopy..Panel1..Caption
 msgid "Copy tiles from selection to folder"
@@ -1442,6 +1459,10 @@ msgstr "Активный масштаб"
 #. frmMain..TBDockLeft..ZoomToolBar..labZoom..Hint
 msgid "Current Zoom"
 msgstr "Текущий масштаб карты"
+
+#. frmGeoTiffOptions..pnlOverview..grpOverview..lblCustomOverview..Caption
+msgid "Custom (separated by space):"
+msgstr "Пользовательские (через пробел):"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..lblHeader..Caption
 msgid "Custom HTTP Headers:"
@@ -2019,22 +2040,6 @@ msgstr "Ошибка!"
 msgid "Event"
 msgstr "Событие"
 
-#, no-object-pascal-format
-msgid "Every map part must have height less than %0:d but exist %1:d"
-msgstr "Каждая часть карты должна иметь высоту менее %0:d сейчас %1:d"
-
-#, no-object-pascal-format
-msgid "Every map part must have height more than %0:d but exist %1:d"
-msgstr "Каждая часть карты должна иметь высоту более %0:d сейчас %1:d"
-
-#, no-object-pascal-format
-msgid "Every map part must have width less than %0:d but exist %1:d"
-msgstr "Каждая часть карты должна иметь ширину менее %0:d сейчас %1:d"
-
-#, no-object-pascal-format
-msgid "Every map part must have width more than %0:d but exist %1:d"
-msgstr "Каждая часть карты должна иметь ширину более %0:d сейчас %1:d"
-
 #. frMergePolygons..tbTop..tbOperationType..tbtmXOR..Caption
 msgid "Exclusive or (XOR)"
 msgstr "Исключающее ИЛИ (XOR)"
@@ -2126,7 +2131,6 @@ msgstr "Футы"
 msgid "File"
 msgstr "Файл"
 
-#. Programmer's name for it: SAS_MSG_FileExists
 #, no-object-pascal-format
 msgid ""
 "File %0:s is available on disk.\n"
@@ -2144,6 +2148,10 @@ msgstr "Файл %0:s не существует"
 #, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "Файл %0:s не найден"
+
+#. frmGeoTiffOptions..pnlFormat..lblFormat..Caption
+msgid "File format:"
+msgstr "Формат файла:"
 
 #. frmMarkSystemConfigEdit..grpFile..Caption
 msgid "File name"
@@ -2245,9 +2253,12 @@ msgstr "Для"
 msgid "Forced Schema Name:"
 msgstr ""
 
+#. frMapCombineCustomOptions..flwpnlFormatOptions..btnFormatOptions..Caption
+msgid "Format Options"
+msgstr "Настройки формата"
+
 #. frmCacheManager..PageControl1..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..lblDestFormat..Caption
-#. frMapCombineCustomOptions..flwpnlFormat..lblFormat..Caption
 msgid "Format:"
 msgstr "Формат:"
 
@@ -2358,6 +2369,14 @@ msgstr "Путь к кэшу GeoCacher:"
 
 msgid "Geographic (GoogleEarth) / EPSG:4326"
 msgstr ""
+
+#. frmGeoTiffOptions..Caption
+msgid "GeoTiff Settings"
+msgstr "Настройки GeoTiff"
+
+#, object-pascal-format
+msgid "Given Overview level \"%s\" is not a power of 2!"
+msgstr "Обзорный уровень \"%s\" не является степенью двойки!"
 
 #. Programmer's name for it: rsGlobalMapperCacheName
 msgid "GlobalMapper Tiles"
@@ -2692,6 +2711,10 @@ msgstr ""
 "ссылок)"
 
 #, object-pascal-format
+msgid "Invalid Overview level value: \"%s\""
+msgstr "Неверное значение обзорного уровня: \"%s\""
+
+#, object-pascal-format
 msgid "Invalid Volume Size value: %s"
 msgstr "Неверное значение размера тома: %s"
 
@@ -2780,7 +2803,6 @@ msgstr "Градусная сетка"
 msgid "Lat/Lon grid:"
 msgstr "Градусная сетка"
 
-#. Programmer's name for it: SAS_ERR_LonLat2
 msgid ""
 "Latitude of upper left corner must be less than \n"
 "latitude of lower right corner"
@@ -2829,6 +2851,10 @@ msgstr "Длина"
 msgid "Length: %s"
 msgstr "Длина: %s"
 
+#. frmGeoTiffOptions..pnlCompressionLevel..lblCompressionLevel..Caption
+msgid "Level:"
+msgstr "Уровень:"
+
 #. frmAbout..pnlBottom..btnLicense..Caption
 msgid "License"
 msgstr "Лицензия"
@@ -2867,7 +2893,6 @@ msgstr "Листинги"
 msgid "Load from File"
 msgstr "Загрузить из файла"
 
-#. Local time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeMenuItemName
 msgid "Local time"
 msgstr "Местное время"
@@ -2884,7 +2909,6 @@ msgstr "Закрепить панели инструментов"
 msgid "Lock Toolbars"
 msgstr "Закрепить панели инструментов"
 
-#. Programmer's name for it: SAS_ERR_LonLat1
 msgid ""
 "Longitude of upper left corner must be less than \n"
 "longitude of lower right corner"
@@ -3399,7 +3423,7 @@ msgid "No write access to tile storage"
 msgstr "Нет доступа на запись в хранилище тайлов"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgSorting....Items.Strings
-#. frMapCombineCustomOptions..flwpnlCompression..cbbCompression....Items.Strings
+#. frmGeoTiffOptions..pnlCompression..cbbCompression....Items.Strings
 msgid "None"
 msgstr "Нет"
 
@@ -3622,6 +3646,10 @@ msgstr "Результирующий формат:"
 msgid "Overlay layer:"
 msgstr "Наложить:"
 
+#. frmGeoTiffOptions..pnlOverview..grpOverview..Caption
+msgid "Overview levels"
+msgstr "Обзорные уровни"
+
 #. frmMain..actlstMain..actConfigMiniMapVisible..Caption
 msgid "Overview Map"
 msgstr "Обзорная карта"
@@ -3818,6 +3846,9 @@ msgstr "Воспроизвести"
 msgid "Please select a map"
 msgstr "Сначала необходимо выбрать хотя бы одну карту"
 
+msgid "Please select a map or layer first!"
+msgstr "Сначала необходимо выбрать карту или слой!"
+
 msgid "Please select at least one map"
 msgstr "Сначала необходимо выбрать хотя бы одну карту"
 
@@ -3838,14 +3869,14 @@ msgstr "Сначала необходимо выбрать хотя бы оди�
 msgid "Please select at one placemark type"
 msgstr "Сначала необходимо выбрать тип метки"
 
-msgid "Please select map or layer"
-msgstr "Сначала необходимо выбрать карту или слой"
-
 msgid "Please select output folder"
 msgstr "Пожалуйста, укажите целевую папку"
 
 msgid "Please select the map first!"
 msgstr "Сначала необходимо выбрать карту!"
+
+msgid "Please select the output file first!"
+msgstr "Необходимо выбрать имя результирующего файла!"
 
 #. Programmer's name for it: rsWaitUntilTheFinishOperation
 msgid "Please wait until the finish of the previous operation!"
@@ -4243,6 +4274,11 @@ msgstr "Пытаться повторно загрузить тайл, если 
 msgid "Revert Selection"
 msgstr "Инвертировать выбор"
 
+#. frmGeoTiffOptions..pnlColorspace..cbbColorspace..Text
+#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
+msgid "RGB"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
 msgid "Ring radius (m)"
 msgstr "Радиус окружности (м)"
@@ -4295,7 +4331,6 @@ msgstr ""
 "Для того чтобы изменения вступили в силу,\n"
 "необходимо перезапустить программу."
 
-#. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesMenuItemName
 msgid "Satellite Signal Strength"
 msgstr "Уровни сигнала"
@@ -4433,6 +4468,10 @@ msgstr "Результаты поиска"
 msgid "searching"
 msgstr "поиск"
 
+#. frmGeoTiffOptions..Font.Name
+msgid "Segoe UI"
+msgstr ""
+
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 msgid "Select All Visible Placemarks"
 msgstr "Выбрать все видимые метки"
@@ -4461,21 +4500,6 @@ msgid ""
 msgstr ""
 "Выбранная категория \"%0:s\" содержит %d вложенных категорий. Вы "
 "действительно хотите удалить их все?"
-
-#. Programmer's name for it: SAS_ERR_ImageIsTooBig
-#, object-pascal-format
-msgid ""
-"Selected resolution is too big for %s format!\n"
-"Widht = %d (max = %d)\n"
-"Height = %d (max = %d)\n"
-"Try select smaller region to stitch in %s or select other output format (ECW "
-"is the best)."
-msgstr ""
-"Выделенная область слишком велика для %s формата!\n"
-"Ширина = %d (max = %d)\n"
-"Высота = %d (max = %d)\n"
-"Уменьшите выделенную область склейки в %s или выберите другой формат (ECW - "
-"лучший)."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -5063,7 +5087,6 @@ msgstr "Успешно сгенерировано"
 msgid "Sun Calculator"
 msgstr "Калькулятор Солнца"
 
-#. Sunraise time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunRiseTimeMenuItemName
 msgid "Sunraise time"
 msgstr "Восход"
@@ -5072,7 +5095,6 @@ msgstr "Восход"
 msgid "Sunraise time:"
 msgstr "Восход:"
 
-#. Sunset time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeMenuItemName
 msgid "Sunset time"
 msgstr "Закат"
@@ -5115,10 +5137,21 @@ msgstr "Цвет текста:"
 msgid "The feature can be used on polygons and polylines"
 msgstr "В данной версии функция доступна только для полигонов и путей"
 
+#, no-object-pascal-format
+msgid ""
+"The height of each part of the map must be greater than %0:d pix (currently "
+"%1:d pix)."
+msgstr ""
+
+#, no-object-pascal-format
+msgid ""
+"The height of each part of the map must not exceed %0:d pix (currently %1:d "
+"pix)."
+msgstr ""
+
 msgid "The Name can't be empty!"
 msgstr "Имя не может быть пустым!"
 
-#. Programmer's name for it: SAS_MSG_GarminMax1Mp
 msgid ""
 "The number of JPEG files will exceed 100. If your\n"
 "navigation device split the image using\n"
@@ -5142,6 +5175,32 @@ msgstr ""
 "Маршрут не может быть построен для данного профиля.\n"
 "Недостаточно данных в БД!"
 
+#, object-pascal-format
+msgid ""
+"The selected resolution is too high for the %s format!\n"
+"Widht = %d pix (max = %d pix)\n"
+"Height = %d pix (max = %d pix)\n"
+"Try to select a smaller region or choose a different output format."
+msgstr ""
+"Разрешение слишком велико для %s формата!\n"
+"Ширина = %d пикс. (max = %d пикс.)\n"
+"Высота = %d пикс. (max = %d пикс.)\n"
+"Уменьшите выделенную область или выберите другой формат."
+
+#, object-pascal-format
+msgid ""
+"The selected resolution is too high for the GeoTIFF format with JPEG "
+"compression!\n"
+"Widht = %d pix (max = %d pix)\n"
+"Height = %d pix (max = %d pix)\n"
+"Try to select a smaller region or choose a different compression algorithm / "
+"output format."
+msgstr ""
+"Разрешение слишком велико для GeoTIFF формата с JPEG сжатием!\n"
+"Ширина = %d пикс. (max = %d пикс.)\n"
+"Высота = %d пикс. (max = %d пикс.)\n"
+"Уменьшите выделенную область или выберите другой формат / алгоритм сжатия."
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "Обработка файлов завершена!"
@@ -5161,6 +5220,18 @@ msgstr "Данный файл равен по размеру существую�
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr "Существующий tne создан позже указанной даты, пропускаем загрузку."
+
+#, no-object-pascal-format
+msgid ""
+"The width of each part of the map must be greater than %0:d pix (currently "
+"%1:d pix)."
+msgstr ""
+
+#, no-object-pascal-format
+msgid ""
+"The width of each part of the map must not exceed %0:d pix (currently %1:d "
+"pix)."
+msgstr ""
 
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
@@ -5206,7 +5277,6 @@ msgstr ""
 msgid "Thread count:"
 msgstr "Количество потоков:"
 
-#. Programmer's name for it: SAS_MSG_TileExists
 #, no-object-pascal-format
 msgid ""
 "Tile %0:s is available in cache.\n"
@@ -5366,7 +5436,6 @@ msgstr "Разгруппировать"
 msgid "Union (OR)"
 msgstr "Объединение (ИЛИ)"
 
-#. DGPS
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSUnitInfoMenuItemName
 msgid "Unit info"
 msgstr "Информация"
@@ -5521,7 +5590,6 @@ msgstr "Имя пользователя:"
 msgid "Username:"
 msgstr "Логин:"
 
-#. UTC time
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderUTCTimeMenuItemName
 msgid "UTC time"
 msgstr "Всемирное Координированное Время (UTC)"
@@ -5636,6 +5704,10 @@ msgstr "Яндекс"
 msgid "Yards"
 msgstr "Ярды"
 
+#. frmGeoTiffOptions..pnlColorspace..cbbColorspace....Items.Strings
+msgid "YCbCr"
+msgstr ""
+
 #. Programmer's name for it: SAS_UNITS_yard
 msgid "yd"
 msgstr "ярд"
@@ -5737,6 +5809,22 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
+
+#, no-object-pascal-format
+#~ msgid "Every map part must have height less than %0:d but exist %1:d"
+#~ msgstr "Каждая часть карты должна иметь высоту менее %0:d сейчас %1:d"
+
+#, no-object-pascal-format
+#~ msgid "Every map part must have height more than %0:d but exist %1:d"
+#~ msgstr "Каждая часть карты должна иметь высоту более %0:d сейчас %1:d"
+
+#, no-object-pascal-format
+#~ msgid "Every map part must have width less than %0:d but exist %1:d"
+#~ msgstr "Каждая часть карты должна иметь ширину менее %0:d сейчас %1:d"
+
+#, no-object-pascal-format
+#~ msgid "Every map part must have width more than %0:d but exist %1:d"
+#~ msgstr "Каждая часть карты должна иметь ширину более %0:d сейчас %1:d"
 
 #~ msgid "Projected Coordinates"
 #~ msgstr "Спроецированные координаты"
