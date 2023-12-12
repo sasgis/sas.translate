@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-12-08 16:59\n"
+"POT-Creation-Date: 2023-12-12 16:34\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -2131,6 +2131,11 @@ msgstr "Розширення:"
 #. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
 msgid "External tile storage is readonly"
 msgstr "Підключення до БД тільки для читання"
+
+#. frExportKml..pnlCenter..pnlMain..chkExtractTiles..Caption
+#, fuzzy
+msgid "Extract tiles from cache"
+msgstr "При завантаженні з кешу"
 
 #, object-pascal-format
 msgid "Failed detect archive type from file name: %s"
@@ -5426,6 +5431,11 @@ msgstr "Тайл розпізнано як порожній"
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Шлях до кешу Tile Map Service (TMS):"
+
+#. frExportKml..pnlCenter..pnlMain..pnlFileNameGenerator..lblFileNameGenerator..Caption
+#, fuzzy
+msgid "Tile name format:"
+msgstr "Формат тайлів у OGF2:"
 
 #, object-pascal-format
 msgid ""

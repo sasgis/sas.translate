@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-08 16:59\n"
+"POT-Creation-Date: 2023-12-12 16:34\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -2102,6 +2102,11 @@ msgstr "Uzantı:"
 #. Programmer's name for it: SAS_ERR_ETS_ReadOnlyConnect
 msgid "External tile storage is readonly"
 msgstr "Harici döşeme deposu salt okunur"
+
+#. frExportKml..pnlCenter..pnlMain..chkExtractTiles..Caption
+#, fuzzy
+msgid "Extract tiles from cache"
+msgstr "Önbellekten yüklenirken"
 
 #, object-pascal-format
 msgid "Failed detect archive type from file name: %s"
@@ -5346,6 +5351,11 @@ msgstr "Döşeme boş olarak tanındı"
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Döşeme Haritası Hizmeti (TMS) önbellek klasörü:"
+
+#. frExportKml..pnlCenter..pnlMain..pnlFileNameGenerator..lblFileNameGenerator..Caption
+#, fuzzy
+msgid "Tile name format:"
+msgstr "OGF2 döşeme formatı:"
 
 #, object-pascal-format
 msgid ""
