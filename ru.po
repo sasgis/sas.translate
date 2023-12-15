@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-12-12 16:48\n"
-"PO-Revision-Date: 2023-12-12 16:48+0300\n"
+"POT-Creation-Date: 2023-12-15 16:43\n"
+"PO-Revision-Date: 2023-12-15 16:47+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -494,6 +494,10 @@ msgstr "Накладывать отображаемые сетки"
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Накладывать отображаемые слои"
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+msgid "Add visible Layers/Placemarks/Grids etc."
+msgstr "Накладывать отображаемые слои/метки/сетки и т.д."
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
@@ -5332,6 +5336,18 @@ msgstr "Тайлы"
 
 msgid "Tiles extension is not selected!"
 msgstr "Не выбрано расширение тайлов!"
+
+#, object-pascal-format
+msgid "Tiles target format: %s"
+msgstr "Целевой формат тайлов: %s"
+
+#, no-object-pascal-format
+msgid "Tiles to extract (no more then): %.0n"
+msgstr "Извлечь (не более, чем): %.0n тайлов"
+
+#, no-object-pascal-format
+msgid "Tiles to extract: %.0n"
+msgstr "Извлечь: %.0n тайлов"
 
 #. Programmer's name for it: rsTime
 msgid "Time"

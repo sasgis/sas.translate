@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-12 16:48\n"
+"POT-Creation-Date: 2023-12-15 16:43\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -516,6 +516,11 @@ msgstr "Agregar Grillas visibles"
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Agregar Layers visibles"
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#, fuzzy
+msgid "Add visible Layers/Placemarks/Grids etc."
+msgstr "Agregar Marcas visibles"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
@@ -5507,6 +5512,18 @@ msgstr "Mosaicos"
 #, fuzzy
 msgid "Tiles extension is not selected!"
 msgstr "Projección no seleccionada"
+
+#, fuzzy, object-pascal-format
+msgid "Tiles target format: %s"
+msgstr "Formato de mosicos OGF2:"
+
+#, no-object-pascal-format
+msgid "Tiles to extract (no more then): %.0n"
+msgstr ""
+
+#, fuzzy, no-object-pascal-format
+msgid "Tiles to extract: %.0n"
+msgstr "Tiempo al objetivo"
 
 #. Programmer's name for it: rsTime
 #, fuzzy

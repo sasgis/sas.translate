@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-12 16:48\n"
-"PO-Revision-Date: 2023-12-12 16:48\n"
+"POT-Creation-Date: 2023-12-15 16:43\n"
+"PO-Revision-Date: 2023-12-15 16:43\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -499,6 +499,12 @@ msgstr ""
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
+msgstr ""
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+msgid ""
+"Add visible Layers/Placemarks/Grids "
+"etc."
 msgstr ""
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
@@ -5412,6 +5418,18 @@ msgid "Tiles"
 msgstr ""
 
 msgid "Tiles extension is not selected!"
+msgstr ""
+
+#, object-pascal-format
+msgid "Tiles target format: %s"
+msgstr ""
+
+#, no-object-pascal-format
+msgid "Tiles to extract (no more then): %.0n"
+msgstr ""
+
+#, no-object-pascal-format
+msgid "Tiles to extract: %.0n"
 msgstr ""
 
 #. Programmer's name for it: rsTime

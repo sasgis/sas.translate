@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-12-12 16:48\n"
+"POT-Creation-Date: 2023-12-15 16:43\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -505,6 +505,11 @@ msgstr "Накладати сітки, що показуються"
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Накладати шари, що показуються"
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#, fuzzy
+msgid "Add visible Layers/Placemarks/Grids etc."
+msgstr "Накладати позначки, що показуються"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
@@ -5457,6 +5462,18 @@ msgstr "Тайли"
 #, fuzzy
 msgid "Tiles extension is not selected!"
 msgstr "Проекція не вибрана"
+
+#, fuzzy, object-pascal-format
+msgid "Tiles target format: %s"
+msgstr "Формат тайлів у OGF2:"
+
+#, no-object-pascal-format
+msgid "Tiles to extract (no more then): %.0n"
+msgstr ""
+
+#, fuzzy, no-object-pascal-format
+msgid "Tiles to extract: %.0n"
+msgstr "Час шляху: "
 
 #. Programmer's name for it: rsTime
 msgid "Time"

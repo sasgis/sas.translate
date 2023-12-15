@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-12 16:48\n"
+"POT-Creation-Date: 2023-12-15 16:43\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -498,6 +498,11 @@ msgstr "Görülebilir grid ekle"
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Görülebilir katmanlar ekle"
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#, fuzzy
+msgid "Add visible Layers/Placemarks/Grids etc."
+msgstr "Görülebilir yer işareti ekle"
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
@@ -5381,6 +5386,18 @@ msgstr "Döşemeler"
 
 msgid "Tiles extension is not selected!"
 msgstr "Döşeme uzantısı seçilmedi!"
+
+#, fuzzy, object-pascal-format
+msgid "Tiles target format: %s"
+msgstr "OGF2 döşeme formatı:"
+
+#, no-object-pascal-format
+msgid "Tiles to extract (no more then): %.0n"
+msgstr ""
+
+#, fuzzy, no-object-pascal-format
+msgid "Tiles to extract: %.0n"
+msgstr "Varış zamanı:"
 
 #. Programmer's name for it: rsTime
 msgid "Time"
