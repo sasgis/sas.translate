@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-15 16:43\n"
+"POT-Creation-Date: 2023-12-18 16:31\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -510,6 +510,7 @@ msgstr "Agregar Grillas visibles"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
@@ -517,17 +518,18 @@ msgstr "Agregar Grillas visibles"
 msgid "Add visible Layers"
 msgstr "Agregar Layers visibles"
 
-#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
-#, fuzzy
-msgid "Add visible Layers/Placemarks/Grids etc."
-msgstr "Agregar Marcas visibles"
-
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
 msgstr "Agregar marcas visibles"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
 msgid "Add visible Placemarks"
+msgstr "Agregar Marcas visibles"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleOverlays..Caption
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#, fuzzy
+msgid "Add visible Placemarks, Grids etc."
 msgstr "Agregar Marcas visibles"
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -784,14 +786,13 @@ msgstr "Atribución:"
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
 #. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+#. Programmer's name for it: rsImageFormatTypeAuto
 msgid "Auto"
 msgstr "Auto"
 
@@ -1282,7 +1283,6 @@ msgstr "Comprimiendo a TAR"
 msgid "Compressing to ZIP"
 msgstr "Comprimiendo a ZIP"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
@@ -1299,6 +1299,7 @@ msgstr "Compresión:"
 msgid "Compression Method:"
 msgstr "Compresión:"
 
+#. frImageFormatSelect..pnlImageFormat..lblCompression..Caption
 #. frmGeoTiffOptions..pnlCompression..lblCompression..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 msgid "Compression:"
@@ -2686,7 +2687,7 @@ msgstr "Ignorar Polígonos"
 msgid "Illumination"
 msgstr ""
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
+#. frImageFormatSelect..pnlImageFormat..lblImageFormat..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
@@ -4044,21 +4045,18 @@ msgstr "¡Por favor, seleccione un archivo de salida primero!"
 msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
 msgstr "¡Por favor, seleccione Zoom/coordenadas o un mapa o un layer primero!"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr "PNG (Colores Indexados )"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr "PNG (Color Verdadero+ Alpha)"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -4103,10 +4101,12 @@ msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Pool Inabilitado - Sin adquirir db: %s"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
+#. frExportKml..pnlCenter..pnlMain..chkPreciseCropping..Caption
 msgid "Precise cropping by the polygon"
 msgstr ""
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
+#. frExportKml..pnlCenter..pnlMain..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
 msgstr ""
 
@@ -4241,7 +4241,6 @@ msgstr ""
 msgid "Proxy settings"
 msgstr "Opciones de Mapa"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4251,6 +4250,10 @@ msgstr "Calidad (para JPEG):"
 #. frMapCombineCustomOptions..flwpnlJpegQuality..lblJpgQulity..Caption
 #, no-object-pascal-format
 msgid "Quality, %"
+msgstr "Calidad, %"
+
+#, fuzzy
+msgid "Quality:"
 msgstr "Calidad, %"
 
 #. Programmer's name for it: SAS_STR_queue
@@ -5734,8 +5737,10 @@ msgid "Use Maps from Lower Zooms"
 msgstr "Usar Mapas de zoom menores"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkUseRecolor..Caption
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkUseRecolor..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
+#. frExportKml..pnlCenter..pnlMain..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
 msgstr "Usar opciones de postprocesamiento"
 
@@ -5752,6 +5757,7 @@ msgstr "Usar thumbnail como Icon"
 msgid "Use tile from lower zoom if tile not available"
 msgstr "Usar mosaico de menor zoom si no hay mosaico disponible"
 
+#. frExportKml..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption

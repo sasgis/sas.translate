@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-12-15 16:43\n"
-"PO-Revision-Date: 2023-12-15 16:47+0300\n"
+"POT-Creation-Date: 2023-12-18 16:31\n"
+"PO-Revision-Date: 2023-12-18 16:36+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -488,16 +488,13 @@ msgstr "Накладывать отображаемые сетки"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 msgid "Add visible Layers"
 msgstr "Накладывать отображаемые слои"
-
-#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
-msgid "Add visible Layers/Placemarks/Grids etc."
-msgstr "Накладывать отображаемые слои/метки/сетки и т.д."
 
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
@@ -506,6 +503,11 @@ msgstr "Накладывать отображаемые метки"
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
 msgid "Add visible Placemarks"
 msgstr "Накладывать отображаемые метки"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleOverlays..Caption
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+msgid "Add visible Placemarks, Grids etc."
+msgstr "Накладывать отображаемые метки, сетки и т.д."
 
 #. frExportToJNX..PageControl1..Info..Caption
 msgid "Additional"
@@ -748,14 +750,13 @@ msgstr "Атрибуция:"
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
 #. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+#. Programmer's name for it: rsImageFormatTypeAuto
 msgid "Auto"
 msgstr "Автоматически"
 
@@ -951,7 +952,7 @@ msgstr "Управление кэшем"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlCache..lblCacheSize..Caption
 msgid "Cache Size, Mb:"
-msgstr "Размер кэша, МБ"
+msgstr "Размер кэша, МБ:"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..lblCacheState..Caption
 msgid "Cache state:"
@@ -1233,7 +1234,6 @@ msgstr "Упаковка в TAR"
 msgid "Compressing to ZIP"
 msgstr "Упаковка в ZIP"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
@@ -1248,6 +1248,7 @@ msgstr "Уровень сжатия:"
 msgid "Compression Method:"
 msgstr "Метод сжатия:"
 
+#. frImageFormatSelect..pnlImageFormat..lblCompression..Caption
 #. frmGeoTiffOptions..pnlCompression..lblCompression..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 msgid "Compression:"
@@ -1540,7 +1541,7 @@ msgstr "Удалять не отображаемые метки"
 
 #. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
 msgid "Delete only tiles of size, bytes:"
-msgstr "Удалять только тайлы, размер которых, байт"
+msgstr "Удалять только тайлы, размер которых, байт:"
 
 #. frmMain..MainPopupMenu..dlm..Caption
 msgid "Delete Overlay Layer Tile from Cache"
@@ -2072,7 +2073,7 @@ msgstr "Экспорт выделенного участка в формат"
 
 #. frExportToFileCont..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Export selection to format:"
-msgstr "Экспорт выделенного участка в формат"
+msgstr "Экспорт выделенного участка в формат:"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
 msgid "Export settings"
@@ -2596,7 +2597,7 @@ msgstr "Игнорировать полигоны"
 msgid "Illumination"
 msgstr "Oсвещённость"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
+#. frImageFormatSelect..pnlImageFormat..lblImageFormat..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
@@ -2899,7 +2900,7 @@ msgstr "Местное время"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeCaption
 msgid "Local time:"
-msgstr "Местное время"
+msgstr "Местное время:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlOptions..CBlock_toolbars..Caption
 msgid "Lock toolbars"
@@ -3832,7 +3833,7 @@ msgstr "Параметры меток"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
 #. frDeleteMarks..PnlTop..chkPlacemarks..Caption
 msgid "Placemarks"
-msgstr "Метки "
+msgstr "Метки"
 
 #. frmGoTo..pgcSearchType..tsPlaceMarks..Caption
 #. Programmer's name for it: SAS_STR_PlaceMarks
@@ -3907,21 +3908,18 @@ msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
 msgstr ""
 "Необходимо указать зум/координаты или выбрать хотя бы один слой или карту!"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr "PNG (индексированные цвета)"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr "PNG (полноцветный с прозрачностью)"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -3966,10 +3964,12 @@ msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул выключен - Невозможно получить db: %s"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
+#. frExportKml..pnlCenter..pnlMain..chkPreciseCropping..Caption
 msgid "Precise cropping by the polygon"
 msgstr "Обрезать точно по полигону"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
+#. frExportKml..pnlCenter..pnlMain..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
 msgstr "Обрезать изображение точно по границам полигона"
 
@@ -4104,7 +4104,6 @@ msgstr "Прокси сервер требует авторизации"
 msgid "Proxy settings"
 msgstr "Настройки прокси сервера"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4115,6 +4114,9 @@ msgstr "Качество (для JPEG):"
 #, no-object-pascal-format
 msgid "Quality, %"
 msgstr "Качество, %"
+
+msgid "Quality:"
+msgstr "Качество:"
 
 #. Programmer's name for it: SAS_STR_queue
 msgid "Queue"
@@ -4569,7 +4571,7 @@ msgstr "Введите имя файла!"
 
 #. frmCacheManager..PageControl1..tsConverter..grpDestCache..chkReplaceDestVersion..Caption
 msgid "Set same version for all processed tiles:"
-msgstr "Установить следующую версию для всех обрабатываемых тайлов"
+msgstr "Установить следующую версию для всех обрабатываемых тайлов:"
 
 #. frTilesCopy..pnlCenter..pnlMain..pnSetTargetVersionOptions..chkSetTargetVersionTo..Caption
 msgid "Set Version to"
@@ -5363,7 +5365,7 @@ msgstr "Осталось времени:"
 
 #. Programmer's name for it: SAS_STR_Marshtime
 msgid "Time to reach:"
-msgstr "Время в пути: "
+msgstr "Время в пути:"
 
 #. Programmer's name for it: rsElevationProfileTimeFmt
 #, object-pascal-format
@@ -5553,8 +5555,10 @@ msgid "Use Maps from Lower Zooms"
 msgstr "Брать карты из меньших масштабов"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkUseRecolor..Caption
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkUseRecolor..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
+#. frExportKml..pnlCenter..pnlMain..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
 msgstr "Применить коррекцию изображения"
 
@@ -5570,6 +5574,7 @@ msgstr "Использовать Thumbnail в качестве иконки"
 msgid "Use tile from lower zoom if tile not available"
 msgstr "Использовать вышележащие слои, если отсутствует текущий"
 
+#. frExportKml..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption

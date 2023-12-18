@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-15 16:43\n"
+"POT-Creation-Date: 2023-12-18 16:31\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -492,6 +492,7 @@ msgstr "Görülebilir grid ekle"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
@@ -499,17 +500,18 @@ msgstr "Görülebilir grid ekle"
 msgid "Add visible Layers"
 msgstr "Görülebilir katmanlar ekle"
 
-#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
-#, fuzzy
-msgid "Add visible Layers/Placemarks/Grids etc."
-msgstr "Görülebilir yer işareti ekle"
-
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseMapMarks..Caption
 msgid "Add visible placemarks"
 msgstr "Görülebilir yer işareti ekle"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseMapMarks..Caption
 msgid "Add visible Placemarks"
+msgstr "Görülebilir yer işareti ekle"
+
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleOverlays..Caption
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#, fuzzy
+msgid "Add visible Placemarks, Grids etc."
 msgstr "Görülebilir yer işareti ekle"
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -757,14 +759,13 @@ msgstr "Nitelik:"
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
 #. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat..Text
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat..Text
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
+#. Programmer's name for it: rsImageFormatTypeAuto
 msgid "Auto"
 msgstr "Otomatik"
 
@@ -1246,7 +1247,6 @@ msgstr "TAR'a sıkıştırılıyor"
 msgid "Compressing to ZIP"
 msgstr "ZIP'e sıkıştırılıyor"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblCompression..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblCompression..Caption
@@ -1261,6 +1261,7 @@ msgstr "Sıkıştırma Seviyesi:"
 msgid "Compression Method:"
 msgstr "Sıkıştırma Yöntemi:"
 
+#. frImageFormatSelect..pnlImageFormat..lblCompression..Caption
 #. frmGeoTiffOptions..pnlCompression..lblCompression..Caption
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..lblCompress..Caption
 msgid "Compression:"
@@ -2621,7 +2622,7 @@ msgstr "Çokgenleri yoksay"
 msgid "Illumination"
 msgstr "Aydınlık"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblImageFormat..Caption
+#. frImageFormatSelect..pnlImageFormat..lblImageFormat..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblImageFormat..Caption
@@ -3947,21 +3948,18 @@ msgstr ""
 "Lütfen yakınlaştırma / koordinatları veya önce en az bir katman veya harita "
 "seçiniz!"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (Indexed Colors)"
 msgstr "PNG (Sıralı Renkler)"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 msgid "PNG (TrueColor + Alpha)"
 msgstr "PNG (TrueColor + Alpha)"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..cbbImageFormat....Items.Strings
@@ -4006,10 +4004,12 @@ msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Havuz Devre Dışı - Veritabanı elde edemiyorum: %s"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
+#. frExportKml..pnlCenter..pnlMain..chkPreciseCropping..Caption
 msgid "Precise cropping by the polygon"
 msgstr "Çokgenle hassas kırpma"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
+#. frExportKml..pnlCenter..pnlMain..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
 msgstr "Çokgenin sınırları boyunca görüntünün kesin kırpılması"
 
@@ -4143,7 +4143,6 @@ msgstr "Proxy sunucusu kimlik doğrulaması gerektiriyor"
 msgid "Proxy settings"
 msgstr "Proxy Ayarları"
 
-#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..pnlImageFormat..lblJpgQulity..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..pnlImageFormat..lblJpgQulity..Caption
@@ -4153,6 +4152,10 @@ msgstr "Kalite (JPEG için):"
 #. frMapCombineCustomOptions..flwpnlJpegQuality..lblJpgQulity..Caption
 #, no-object-pascal-format
 msgid "Quality, %"
+msgstr "Kalite, %"
+
+#, fuzzy
+msgid "Quality:"
 msgstr "Kalite, %"
 
 #. Programmer's name for it: SAS_STR_queue
@@ -5604,8 +5607,10 @@ msgid "Use Maps from Lower Zooms"
 msgstr "Haritaları Düşük Yakınlaştırmalardan Kullan"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkUseRecolor..Caption
+#. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkUseRecolor..Caption
 #. frExportToIMG..PageControl1..Settings..PnlSettings..chkUseRecolor..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
+#. frExportKml..pnlCenter..pnlMain..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
 msgstr "Postprocessing ayarlarını kullan"
 
@@ -5621,6 +5626,7 @@ msgstr "Küçük resmi Simge olarak kullan"
 msgid "Use tile from lower zoom if tile not available"
 msgstr "Döşeme mevcut değilse, alt yakınlaştırmalardan döşemeyi kullan"
 
+#. frExportKml..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
