@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-12-18 16:31\n"
+"POT-Creation-Date: 2023-12-31 14:42\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -550,6 +550,11 @@ msgstr "Все за стандартними налаштуваннями"
 msgid "All compatible formats"
 msgstr "Всі підтримувані формати"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
+#, fuzzy
+msgid "All sources"
+msgstr "Всі сервіси"
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
 msgstr "Всі видимі"
@@ -732,7 +737,7 @@ msgstr "Формат відображення площи"
 msgid "Area: %s"
 msgstr "Площа: %s"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerColor..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerColor..lblGPSMarkerColor..Caption
 msgid "Arrow color:"
 msgstr "Колір стрілки:"
 
@@ -783,31 +788,24 @@ msgstr "Атрибуція:"
 msgid "Auto"
 msgstr "Автоматично"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматично показувати/приховувати панель датчиків"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..Caption
-msgid "Autodetect"
-msgstr "Автовизначення"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
 msgid "Autodetect COM port"
 msgstr "Автовизначення COM-порту"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Hint
-msgid "Autodetect COM port on connect"
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
+#, fuzzy
+msgid "Autodetect port on connect"
 msgstr "Автопошук підключеного COM-порту"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
-msgid "Autodetect on connect"
-msgstr "Автовизначення при підключенні"
 
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
 msgid "Autosave session, min:"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr "Автоматично зберігати маршрут:"
 
@@ -877,10 +875,6 @@ msgstr "Шлях до кешу BerkeleyDB:"
 
 msgid "Best"
 msgstr ""
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-msgid "Bits per second"
-msgstr "Швидкість, біт/с"
 
 msgid "BMP: Fill line failure!"
 msgstr "BMP: Помилка заповнення!"
@@ -1238,8 +1232,21 @@ msgstr "Кольорова схема %d"
 msgid "Color:"
 msgstr "Колір:"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+msgid "COM NMEA"
+msgstr ""
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
+msgid "COM Virtual"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
+msgstr "Коментар"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..Caption
+#, fuzzy
+msgid "Common"
 msgstr "Коментар"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
@@ -1674,8 +1681,9 @@ msgstr ""
 msgid "Detailed View"
 msgstr "Вид з подробицями"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
-msgid "Device timeout (sec)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
+#, fuzzy
+msgid "Device timeout, sec:"
 msgstr "Час очікування відповіді від приймача (с)"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
@@ -1699,7 +1707,7 @@ msgstr "Папка %0:s не існує"
 msgid "Disable"
 msgstr "Вимкнути"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
 msgstr "Вимкнути або ввімкнути GPS"
 
@@ -2433,6 +2441,10 @@ msgstr ""
 msgid "GeoTiff Settings"
 msgstr "Параметри іконок"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
+msgid "Get list of tracks to replay from ReplayTrack.txt"
+msgstr ""
+
 #, object-pascal-format
 msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr ""
@@ -2484,11 +2496,8 @@ msgstr "Шлях до кешу GoogleMV:"
 msgid "GPS Data"
 msgstr "Тип GPS"
 
-#. frmSettings..PageControl1..tsGPSMarker..Caption
-msgid "GPS Marker"
-msgstr "Позначка GPS "
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
+#. chkUseReplayTrackFile.Enabled := rgConnectionType.ItemIndex = 3; // todo
 msgid "GPS On/Off"
 msgstr "GPS Увімкн/Вимкн"
 
@@ -2497,7 +2506,7 @@ msgstr "GPS Увімкн/Вимкн"
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "GPS помилкові налаштування: невідомий режим %d"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
 msgstr "Тип GPS"
 
@@ -3150,6 +3159,15 @@ msgstr "Інформація про позначку"
 msgid "Mark Nonexistent Tiles"
 msgstr "Відсутні тайли"
 
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..Caption
+#, fuzzy
+msgid "Marker"
+msgstr "Позначка GPS "
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..Caption
+msgid "Marker and Track"
+msgstr ""
+
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
 #, fuzzy
 msgid "Marker border color"
@@ -3226,8 +3244,9 @@ msgstr "Розмір тому, Мб"
 msgid "Max.speed, km/h:"
 msgstr "Макс. швидкість, км/год:"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
-msgid "Maximum number of track points:"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackPoints..Label5..Caption
+#, fuzzy
+msgid "Maximum number of points to show:"
 msgstr "Максимальна кількість показуваних точок маршруту:"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedMenuItemName
@@ -3484,10 +3503,6 @@ msgstr "Не вибрано жодного полігона!"
 msgid "No proxy"
 msgstr ""
 
-#. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
-msgid "No source for Fly-on-Track mode"
-msgstr "Нема даних для режиму  Fly-on-Track"
-
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile storage"
 msgstr "Недостатньо місця в БД для здійснення операцій"
@@ -3542,8 +3557,9 @@ msgstr "Нема чого видаляти - GPS трек порожній"
 msgid "Nothing to import!"
 msgstr "Нічого імпортувати!"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingsCount..Caption
-msgid "Number of rings"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker2..lblGPSMarkerRingsCount..Caption
+#, fuzzy
+msgid "Number of rings:"
 msgstr "Кількість кілець"
 
 #. Programmer's name for it: SAS_STR_filesnum
@@ -3705,7 +3721,7 @@ msgstr "Z-Сортування:"
 msgid "Other"
 msgstr "Інші"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..CB_GPSAutodetectCOMOthers..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectOthers..Caption
 msgid "Others"
 msgstr "Інші"
 
@@ -4019,7 +4035,7 @@ msgstr "PNG (повнокольоровий з прозорістю)"
 msgid "PNG (TrueColor)"
 msgstr "PNG (повнокольоровий)"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Розмір вказівника напрямку:"
 
@@ -4055,6 +4071,10 @@ msgstr "Виділення по шляху"
 #, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул вимкнено - Неможливо отримати db: %s"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
+msgid "Port:"
+msgstr ""
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
 #. frExportKml..pnlCenter..pnlMain..chkPreciseCropping..Caption
@@ -4280,8 +4300,9 @@ msgstr "Прямокутна область"
 msgid "Redraw interval (ms):"
 msgstr "Інтервал оновлення зображення (мс):"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
-msgid "Refresh rate (ms)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlRefreshRate..Label11..Caption
+#, fuzzy
+msgid "Refresh rate, ms:"
 msgstr "Період оновлення (мс)"
 
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
@@ -4311,6 +4332,11 @@ msgstr "Видалити тайли"
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Замінювати існуючі тайли"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#, fuzzy
+msgid "Replay Track"
+msgstr "Видалити трек"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
 msgid "Report a Bug"
@@ -4374,8 +4400,9 @@ msgstr "Переходити до наступного тайла, якщо се
 msgid "Revert Selection"
 msgstr "Попереднє виділення"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
-msgid "Ring radius (m)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker3..lblGPSMarkerRingRadius..Caption
+#, fuzzy
+msgid "Ring radius, m:"
 msgstr "Радіус кілець (м)"
 
 #. Programmer's name for it: rsRise
@@ -4618,10 +4645,6 @@ msgstr "Файл виділення|*.hlg"
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
 msgid "Sensors"
 msgstr "Датчики"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
-msgid "Serial port"
-msgstr "COM-порт"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -5070,6 +5093,11 @@ msgstr "Джерела:"
 msgid "Speed"
 msgstr "Швидкість"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+#, fuzzy
+msgid "Speed:"
+msgstr "Швидкість"
+
 #, no-object-pascal-format
 msgid "Speed: %.2f km/h"
 msgstr ""
@@ -5368,6 +5396,15 @@ msgstr ""
 msgid "There is no data in database for target location!"
 msgstr ""
 
+#, object-pascal-format
+msgid ""
+"There is no source for the Replay Track!\n"
+"Add list of track files/paths to the %s and try again.\n"
+"\n"
+"Yes - to create and edit %s\n"
+"Close - to close this message"
+msgstr ""
+
 #, fuzzy
 msgid "There is no supported maps"
 msgstr "У карті %0:s помилка: %1:s"
@@ -5531,9 +5568,12 @@ msgstr "Всього"
 msgid "Total to save:"
 msgstr "Всього зберегти:"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
-msgid "Track width:"
-msgstr "Ширина треку:"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
+msgid "Track"
+msgstr ""
+
+msgid "Track Play/Stop"
+msgstr ""
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
@@ -5661,6 +5701,10 @@ msgstr "Посилання на Terraserver"
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
 msgid "URL to Yandex.Maps"
 msgstr "Посилання на Яндекс.Карти"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectUsb..Caption
+msgid "USB"
+msgstr ""
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
 msgid "Use Age Gradient"
@@ -5814,6 +5858,7 @@ msgstr ""
 msgid "Width"
 msgstr "Ширина"
 
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackWidth..Label20..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
 msgid "Width:"
 msgstr "Ширина:"
@@ -5959,6 +6004,24 @@ msgstr "Масштаби:"
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
 
+#~ msgid "Autodetect"
+#~ msgstr "Автовизначення"
+
+#~ msgid "Autodetect on connect"
+#~ msgstr "Автовизначення при підключенні"
+
+#~ msgid "Bits per second"
+#~ msgstr "Швидкість, біт/с"
+
+#~ msgid "No source for Fly-on-Track mode"
+#~ msgstr "Нема даних для режиму  Fly-on-Track"
+
+#~ msgid "Serial port"
+#~ msgstr "COM-порт"
+
+#~ msgid "Track width:"
+#~ msgstr "Ширина треку:"
+
 #, fuzzy
 #~ msgid "RGB"
 #~ msgstr "ГБ"
@@ -6049,9 +6112,6 @@ msgstr "Z-Сортування:"
 
 #~ msgid "All Images"
 #~ msgstr "Всі знімки"
-
-#~ msgid "All Services"
-#~ msgstr "Всі сервіси"
 
 #~ msgid "Color only"
 #~ msgstr "Кольорові"

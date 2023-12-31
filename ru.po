@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2023-12-18 16:31\n"
-"PO-Revision-Date: 2023-12-18 16:36+0300\n"
+"POT-Creation-Date: 2023-12-31 14:42\n"
+"PO-Revision-Date: 2023-12-31 14:53+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -538,6 +538,10 @@ msgstr "Все по умолчанию"
 msgid "All compatible formats"
 msgstr "Все поддерживаемые форматы"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
+msgid "All sources"
+msgstr "Все источники"
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
 msgstr "Все видимы"
@@ -712,7 +716,7 @@ msgstr "Формат отображения площади"
 msgid "Area: %s"
 msgstr "Площадь: %s"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerColor..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerColor..lblGPSMarkerColor..Caption
 msgid "Arrow color:"
 msgstr "Цвет стрелки:"
 
@@ -760,31 +764,23 @@ msgstr "Атрибуция:"
 msgid "Auto"
 msgstr "Автоматически"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматически показывать/скрывать панель датчиков"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..Caption
-msgid "Autodetect"
-msgstr "Автоопределение"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
 msgid "Autodetect COM port"
 msgstr "Автопоиск COM-порта"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Hint
-msgid "Autodetect COM port on connect"
-msgstr "Автопоиск подключённого COM-порта"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
-msgid "Autodetect on connect"
-msgstr "Автоопределение при подключении"
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
+msgid "Autodetect port on connect"
+msgstr "Автопоиск порта при подключении"
 
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
 msgid "Autosave session, min:"
 msgstr "Автосохранение сессии, мин:"
 
-#. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr "Автоматически сохранять трек:"
 
@@ -854,10 +850,6 @@ msgstr "Путь к кэшу BerkeleyDB:"
 
 msgid "Best"
 msgstr "Максимальный"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-msgid "Bits per second"
-msgstr "Скорость"
 
 msgid "BMP: Fill line failure!"
 msgstr "BMP: Сбой заполнения!"
@@ -1206,9 +1198,21 @@ msgstr "Цветовое пространство:"
 msgid "Color:"
 msgstr "Цвет:"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+msgid "COM NMEA"
+msgstr ""
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
+msgid "COM Virtual"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
 msgstr "Комментарий"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..Caption
+msgid "Common"
+msgstr "Общие"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
 #, no-object-pascal-format
@@ -1636,9 +1640,9 @@ msgstr "Не выбран тип результирующего кэша!"
 msgid "Detailed View"
 msgstr "Подробный вид"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
-msgid "Device timeout (sec)"
-msgstr "Время ожидания ответа от приёмника (сек.)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
+msgid "Device timeout, sec:"
+msgstr "Время ожидания ответа от приёмника, сек:"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
 msgid "Difference (NOT)"
@@ -1661,7 +1665,7 @@ msgstr "Папка %0:s не существует"
 msgid "Disable"
 msgstr "Отключить"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
 msgstr "Включить или выключить GPS"
 
@@ -2375,6 +2379,10 @@ msgstr ""
 msgid "GeoTiff Settings"
 msgstr "Настройки GeoTiff"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
+msgid "Get list of tracks to replay from ReplayTrack.txt"
+msgstr "Брать список треков для повтора из ReplayTrack.txt"
+
 #, object-pascal-format
 msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr "Обзорный уровень \"%s\" не является степенью двойки!"
@@ -2425,11 +2433,8 @@ msgstr "Путь к кэшу GoogleMV:"
 msgid "GPS Data"
 msgstr "GPS данные"
 
-#. frmSettings..PageControl1..tsGPSMarker..Caption
-msgid "GPS Marker"
-msgstr "Метка GPS"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
+#. chkUseReplayTrackFile.Enabled := rgConnectionType.ItemIndex = 3; // todo
 msgid "GPS On/Off"
 msgstr "GPS Вкл/Выкл"
 
@@ -2438,9 +2443,9 @@ msgstr "GPS Вкл/Выкл"
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "GPS неверные настройки: неизвестный режим %d"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
-msgstr ""
+msgstr "Тип GPS"
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
@@ -2802,7 +2807,7 @@ msgstr "Градусная сетка"
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..LabelDeg1..Caption
 msgid "Lat/Lon grid:"
-msgstr "Градусная сетка"
+msgstr "Градусная сетка:"
 
 msgid ""
 "Latitude of upper left corner must be less than \n"
@@ -3086,6 +3091,14 @@ msgstr "Информация о метке"
 msgid "Mark Nonexistent Tiles"
 msgstr "Отсутствующие тайлы"
 
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..Caption
+msgid "Marker"
+msgstr "Маркер"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..Caption
+msgid "Marker and Track"
+msgstr "Маркер и трек"
+
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
 msgid "Marker border color"
 msgstr "Цвет окаймления маркера"
@@ -3156,8 +3169,8 @@ msgstr "Размер тома, мб"
 msgid "Max.speed, km/h:"
 msgstr "Скорость макс., км/ч:"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
-msgid "Maximum number of track points:"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackPoints..Label5..Caption
+msgid "Maximum number of points to show:"
 msgstr "Максимальное количество отображаемых точек трека:"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedMenuItemName
@@ -3405,10 +3418,6 @@ msgstr "Не выбрано ни одного полигона!"
 msgid "No proxy"
 msgstr "Без прокси"
 
-#. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
-msgid "No source for Fly-on-Track mode"
-msgstr "Нет источника для метода Fly-on-Track"
-
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile storage"
 msgstr "Недостаточно места в БД для выполнения операции"
@@ -3460,9 +3469,9 @@ msgstr "Нечего удалять - GPS трек пуст"
 msgid "Nothing to import!"
 msgstr "Нечего импортировать!"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingsCount..Caption
-msgid "Number of rings"
-msgstr "Количество окружностей"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker2..lblGPSMarkerRingsCount..Caption
+msgid "Number of rings:"
+msgstr "Количество окружностей:"
 
 #. Programmer's name for it: SAS_STR_filesnum
 msgid "Number of tiles"
@@ -3620,7 +3629,7 @@ msgstr "Упорядочить по:"
 msgid "Other"
 msgstr "Другие"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..CB_GPSAutodetectCOMOthers..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectOthers..Caption
 msgid "Others"
 msgstr "Другие"
 
@@ -3926,7 +3935,7 @@ msgstr "PNG (полноцветный с прозрачностью)"
 msgid "PNG (TrueColor)"
 msgstr "PNG (полноцветный)"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Размер указателя направления:"
 
@@ -3962,6 +3971,10 @@ msgstr "Выделение по пути"
 #, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул выключен - Невозможно получить db: %s"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
+msgid "Port:"
+msgstr "Порт:"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
 #. frExportKml..pnlCenter..pnlMain..chkPreciseCropping..Caption
@@ -4185,9 +4198,9 @@ msgstr "Прямоугольная область"
 msgid "Redraw interval (ms):"
 msgstr "Перерисовывать не чаще (мс):"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
-msgid "Refresh rate (ms)"
-msgstr "Период обновления (мс):"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlRefreshRate..Label11..Caption
+msgid "Refresh rate, ms:"
+msgstr "Период обновления, мс:"
 
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
@@ -4216,6 +4229,10 @@ msgstr "Перемещать тайлы"
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Заменять существующие тайлы"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+msgid "Replay Track"
+msgstr "Повторить трек"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
 msgid "Report a Bug"
@@ -4276,9 +4293,9 @@ msgstr "Пытаться повторно загрузить тайл, если 
 msgid "Revert Selection"
 msgstr "Инвертировать выбор"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
-msgid "Ring radius (m)"
-msgstr "Радиус окружности (м)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker3..lblGPSMarkerRingRadius..Caption
+msgid "Ring radius, m:"
+msgstr "Радиус окружности, м:"
 
 #. Programmer's name for it: rsRise
 #. Programmer's name for it: rsRise
@@ -4326,7 +4343,7 @@ msgstr "команда разработчиков SAS.Планета"
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr ""
 "Для того чтобы изменения вступили в силу,\n"
-"необходимо перезапустить программу."
+"необходимо перезапустить программу"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderGPSSatellitesMenuItemName
 msgid "Satellite Signal Strength"
@@ -4520,10 +4537,6 @@ msgstr "Файл выделения|*.hlg"
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
 msgid "Sensors"
 msgstr "Датчики"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
-msgid "Serial port"
-msgstr "Порт"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -4953,6 +4966,10 @@ msgstr "Исходники:"
 msgid "Speed"
 msgstr "Скорость"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+msgid "Speed:"
+msgstr "Скорость:"
+
 #, no-object-pascal-format
 msgid "Speed: %.2f km/h"
 msgstr "Скорость: %.2f км/ч"
@@ -5243,6 +5260,15 @@ msgstr "В БД нет данных для начального местопол
 msgid "There is no data in database for target location!"
 msgstr "В БД нет данных для конечного местоположения!"
 
+#, object-pascal-format
+msgid ""
+"There is no source for the Replay Track!\n"
+"Add list of track files/paths to the %s and try again.\n"
+"\n"
+"Yes - to create and edit %s\n"
+"Close - to close this message"
+msgstr ""
+
 msgid "There is no supported maps"
 msgstr "Нет поддерживаемых карт"
 
@@ -5404,9 +5430,12 @@ msgstr "Всего"
 msgid "Total to save:"
 msgstr "Всего сохранить:"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
-msgid "Track width:"
-msgstr "Ширина трека:"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
+msgid "Track"
+msgstr "Трек"
+
+msgid "Track Play/Stop"
+msgstr "Начать/Остановить"
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
@@ -5532,6 +5561,10 @@ msgstr "Ссылку для просмотра в Terraserver"
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
 msgid "URL to Yandex.Maps"
 msgstr "Ссылку для просмотра на Яндекс.Картах"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectUsb..Caption
+msgid "USB"
+msgstr ""
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
 msgid "Use Age Gradient"
@@ -5681,6 +5714,7 @@ msgstr "WGS 84 / UTM (6 гр. зоны)"
 msgid "Width"
 msgstr "Ширина"
 
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackWidth..Label20..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
 msgid "Width:"
 msgstr "Ширина:"
@@ -5817,6 +5851,24 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
+
+#~ msgid "Autodetect"
+#~ msgstr "Автоопределение"
+
+#~ msgid "Autodetect on connect"
+#~ msgstr "Автоопределение при подключении"
+
+#~ msgid "Bits per second"
+#~ msgstr "Скорость"
+
+#~ msgid "No source for Fly-on-Track mode"
+#~ msgstr "Нет источника для метода Fly-on-Track"
+
+#~ msgid "Serial port"
+#~ msgstr "Порт"
+
+#~ msgid "Track width:"
+#~ msgstr "Ширина трека:"
 
 #, no-object-pascal-format
 #~ msgid "Every map part must have height less than %0:d but exist %1:d"

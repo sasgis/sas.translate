@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-18 16:31\n"
+"POT-Creation-Date: 2023-12-31 14:42\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -543,6 +543,11 @@ msgstr "Tümü varsayılan"
 msgid "All compatible formats"
 msgstr "Tüm uyumlu formatlar"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
+#, fuzzy
+msgid "All sources"
+msgstr "Tüm Servisler"
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
 msgstr "Tümünü Göster"
@@ -718,7 +723,7 @@ msgstr "Alan gösterimi"
 msgid "Area: %s"
 msgstr "Alan: %s"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerColor..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerColor..lblGPSMarkerColor..Caption
 msgid "Arrow color:"
 msgstr "Ok rengi:"
 
@@ -769,31 +774,24 @@ msgstr "Nitelik:"
 msgid "Auto"
 msgstr "Otomatik"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Sensör araç çubuğunu otomatik göster/gizle"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..Caption
-msgid "Autodetect"
-msgstr "Otomatik-algıla"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
 msgid "Autodetect COM port"
 msgstr "COM bağlantı noktasını otomatik algıla"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Hint
-msgid "Autodetect COM port on connect"
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
+#, fuzzy
+msgid "Autodetect port on connect"
 msgstr "Bağlantıdaki COM bağlantı noktasını otomatik algıla"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
-msgid "Autodetect on connect"
-msgstr "Bağlanıldığında otomatik algıla"
 
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
 msgid "Autosave session, min:"
 msgstr "Oturumu otomatik kaydet, dak:"
 
-#. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr "GPS izini buraya oto-kaydet:"
 
@@ -863,10 +861,6 @@ msgstr "BerkeleyDB önbellek klasörü:"
 
 msgid "Best"
 msgstr "En iyi"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-msgid "Bits per second"
-msgstr "Saniye başına bit"
 
 msgid "BMP: Fill line failure!"
 msgstr "BMP: Satır doldurma hatası!"
@@ -1219,8 +1213,21 @@ msgstr "Renk şeması %d"
 msgid "Color:"
 msgstr "Renk:"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+msgid "COM NMEA"
+msgstr ""
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
+msgid "COM Virtual"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
+msgstr "Yorum"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..Caption
+#, fuzzy
+msgid "Common"
 msgstr "Yorum"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
@@ -1649,8 +1656,9 @@ msgstr "Hedef önbellek türü seçilmedi!"
 msgid "Detailed View"
 msgstr "Detaylı Görünüm"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
-msgid "Device timeout (sec)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
+#, fuzzy
+msgid "Device timeout, sec:"
 msgstr "Cihaz zaman aşımı (sn)"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
@@ -1674,7 +1682,7 @@ msgstr "%0:s dizini mevcut değil"
 msgid "Disable"
 msgstr "Devredışı bırak"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
 msgstr "GPS'i Aç veya Kapat"
 
@@ -2398,6 +2406,10 @@ msgstr "Coğrafi (Enlem/Boylam) / WGS84 / EPSG:4326"
 msgid "GeoTiff Settings"
 msgstr "Simge Ayarları"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
+msgid "Get list of tracks to replay from ReplayTrack.txt"
+msgstr ""
+
 #, object-pascal-format
 msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr ""
@@ -2449,11 +2461,8 @@ msgstr "GoogleMV önbellek klasörü:"
 msgid "GPS Data"
 msgstr "GPS tipi"
 
-#. frmSettings..PageControl1..tsGPSMarker..Caption
-msgid "GPS Marker"
-msgstr "GPS İşaretleyici"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
+#. chkUseReplayTrackFile.Enabled := rgConnectionType.ItemIndex = 3; // todo
 msgid "GPS On/Off"
 msgstr "GPS Aç/Kapat"
 
@@ -2462,7 +2471,7 @@ msgstr "GPS Aç/Kapat"
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "GPS kaynağı yanlış yapılandırması: bilinmeyen mod %d"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
 msgstr "GPS tipi"
 
@@ -3113,6 +3122,15 @@ msgstr "İşaret Bilgileri"
 msgid "Mark Nonexistent Tiles"
 msgstr "Varolmayan Döşemeleri İşaretle"
 
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..Caption
+#, fuzzy
+msgid "Marker"
+msgstr "GPS İşaretleyici"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..Caption
+msgid "Marker and Track"
+msgstr ""
+
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
 #, fuzzy
 msgid "Marker border color"
@@ -3186,8 +3204,9 @@ msgstr "Maks. birim boyutu, MB"
 msgid "Max.speed, km/h:"
 msgstr "Maks. hız, km/s:"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
-msgid "Maximum number of track points:"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackPoints..Label5..Caption
+#, fuzzy
+msgid "Maximum number of points to show:"
 msgstr "Maksimum iz noktası sayısı:"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedMenuItemName
@@ -3440,10 +3459,6 @@ msgstr "Çokgen seçilmedi!"
 msgid "No proxy"
 msgstr "Proxy yok"
 
-#. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
-msgid "No source for Fly-on-Track mode"
-msgstr "Fly-on-Track modu için kaynak yok"
-
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile storage"
 msgstr "Harici döşeme deposunda yer yok"
@@ -3495,8 +3510,9 @@ msgstr "Silinecek bir şey yok - GPS izi boş."
 msgid "Nothing to import!"
 msgstr "İçe aktarılacak bir şey yok!"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingsCount..Caption
-msgid "Number of rings"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker2..lblGPSMarkerRingsCount..Caption
+#, fuzzy
+msgid "Number of rings:"
 msgstr "Halka sayısı"
 
 #. Programmer's name for it: SAS_STR_filesnum
@@ -3655,7 +3671,7 @@ msgstr "Şuna göre sırala:"
 msgid "Other"
 msgstr "Diğer"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..CB_GPSAutodetectCOMOthers..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectOthers..Caption
 msgid "Others"
 msgstr "Diğerleri"
 
@@ -3966,7 +3982,7 @@ msgstr "PNG (TrueColor + Alpha)"
 msgid "PNG (TrueColor)"
 msgstr "PNG (TrueColor)"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Nokta boyutu:"
 
@@ -4002,6 +4018,10 @@ msgstr "Polyline Seçimi"
 #, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Havuz Devre Dışı - Veritabanı elde edemiyorum: %s"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
+msgid "Port:"
+msgstr ""
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
 #. frExportKml..pnlCenter..pnlMain..chkPreciseCropping..Caption
@@ -4225,8 +4245,9 @@ msgstr "Dikdörtgen Seçim"
 msgid "Redraw interval (ms):"
 msgstr "Yeniden çizim aralığı (ms):"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
-msgid "Refresh rate (ms)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlRefreshRate..Label11..Caption
+#, fuzzy
+msgid "Refresh rate, ms:"
 msgstr "Yenileme hızı (ms)"
 
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
@@ -4256,6 +4277,11 @@ msgstr "Döşemeleri kaldır"
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Mevcut döşemeleri değiştir"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#, fuzzy
+msgid "Replay Track"
+msgstr "GPS İzini Sil"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
 msgid "Report a Bug"
@@ -4316,8 +4342,9 @@ msgstr "Yanıt yoksa döşemeyi indirmeyi yeniden dene"
 msgid "Revert Selection"
 msgstr "Son Seçim"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
-msgid "Ring radius (m)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker3..lblGPSMarkerRingRadius..Caption
+#, fuzzy
+msgid "Ring radius, m:"
 msgstr "Halka yarıçapı (m)"
 
 #. Programmer's name for it: rsRise
@@ -4559,10 +4586,6 @@ msgstr "Seçimler|*.hlg"
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
 msgid "Sensors"
 msgstr "Sensörler"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
-msgid "Serial port"
-msgstr "Seri port"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -4993,6 +5016,11 @@ msgstr "Kaynaklar:"
 msgid "Speed"
 msgstr "Hız"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+#, fuzzy
+msgid "Speed:"
+msgstr "Hız"
+
 #, no-object-pascal-format
 msgid "Speed: %.2f km/h"
 msgstr "Hız: %.2f km/s"
@@ -5290,6 +5318,15 @@ msgstr "Veritabanında başlangıç konumu için veri yok!"
 msgid "There is no data in database for target location!"
 msgstr "Veritabanında hedef konum için veri yok!"
 
+#, object-pascal-format
+msgid ""
+"There is no source for the Replay Track!\n"
+"Add list of track files/paths to the %s and try again.\n"
+"\n"
+"Yes - to create and edit %s\n"
+"Close - to close this message"
+msgstr ""
+
 msgid "There is no supported maps"
 msgstr "Desteklenen harita yok"
 
@@ -5455,9 +5492,12 @@ msgstr "Toplam"
 msgid "Total to save:"
 msgstr "Kaydedilecek toplam:"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
-msgid "Track width:"
-msgstr "İz genişliği:"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
+msgid "Track"
+msgstr ""
+
+msgid "Track Play/Stop"
+msgstr ""
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
@@ -5584,6 +5624,10 @@ msgstr "Terraserver'ın URL'si"
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
 msgid "URL to Yandex.Maps"
 msgstr "Yandex.Haritalar'ın URL'si"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectUsb..Caption
+msgid "USB"
+msgstr ""
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
 msgid "Use Age Gradient"
@@ -5734,6 +5778,7 @@ msgstr ""
 msgid "Width"
 msgstr "Genişlik"
 
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackWidth..Label20..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
 msgid "Width:"
 msgstr "Genişlik:"
@@ -5874,6 +5919,24 @@ msgstr "Yakınlaştırma:"
 msgid "Z-Order:"
 msgstr "Sırası:"
 
+#~ msgid "Autodetect"
+#~ msgstr "Otomatik-algıla"
+
+#~ msgid "Autodetect on connect"
+#~ msgstr "Bağlanıldığında otomatik algıla"
+
+#~ msgid "Bits per second"
+#~ msgstr "Saniye başına bit"
+
+#~ msgid "No source for Fly-on-Track mode"
+#~ msgstr "Fly-on-Track modu için kaynak yok"
+
+#~ msgid "Serial port"
+#~ msgstr "Seri port"
+
+#~ msgid "Track width:"
+#~ msgstr "İz genişliği:"
+
 #, fuzzy
 #~ msgid "RGB"
 #~ msgstr "GB"
@@ -5968,9 +6031,6 @@ msgstr "Sırası:"
 
 #~ msgid "All Images"
 #~ msgstr "Tüm Görseller"
-
-#~ msgid "All Services"
-#~ msgstr "Tüm Servisler"
 
 #~ msgid "Color only"
 #~ msgstr "Yalnızca renk"

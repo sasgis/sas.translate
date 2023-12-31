@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-18 16:31\n"
+"POT-Creation-Date: 2023-12-31 14:42\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -561,6 +561,11 @@ msgstr "Todo por defecto"
 msgid "All compatible formats"
 msgstr "Todos los formatos compatibles"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
+#, fuzzy
+msgid "All sources"
+msgstr "Todos los Servicios"
+
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
 msgstr "Todos los Visibles"
@@ -744,7 +749,7 @@ msgstr "Representación de Área"
 msgid "Area: %s"
 msgstr "Área: %s"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerColor..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerColor..lblGPSMarkerColor..Caption
 msgid "Arrow color:"
 msgstr "Color"
 
@@ -796,31 +801,24 @@ msgstr "Atribución:"
 msgid "Auto"
 msgstr "Auto"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsSensors..CBSensorsBarAutoShow..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Mostrar/Ocultar Barra de Sensores automáticamente"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..Caption
-msgid "Autodetect"
-msgstr "Autodetectar"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
 msgid "Autodetect COM port"
 msgstr "Autodetectar puerto COM"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Hint
-msgid "Autodetect COM port on connect"
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
+#, fuzzy
+msgid "Autodetect port on connect"
 msgstr "Autodetectar puerto COM al conectar"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..CB_GPSAutodetectCOMOnConnect..Caption
-msgid "Autodetect on connect"
-msgstr "Autodetectar al conectar"
 
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
 msgid "Autosave session, min:"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..GB_GpsTrackSave..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..GB_GpsTrackSave..Caption
 msgid "Autosave track to:"
 msgstr "Auto guardar Ruta para:"
 
@@ -890,10 +888,6 @@ msgstr "Carpeta del Caché BerkeleyDB:"
 
 msgid "Best"
 msgstr ""
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-msgid "Bits per second"
-msgstr "Bits por segundo"
 
 msgid "BMP: Fill line failure!"
 msgstr "¡BMP: Error llenado de línea!"
@@ -1254,8 +1248,21 @@ msgstr "Color:"
 msgid "Color:"
 msgstr "Color:"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+msgid "COM NMEA"
+msgstr ""
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
+msgid "COM Virtual"
+msgstr ""
+
 #. frExportToCE..pnlCenter..pnlMain..CComment..Caption
 msgid "Comment"
+msgstr "Comentario"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..Caption
+#, fuzzy
+msgid "Common"
 msgstr "Comentario"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
@@ -1696,8 +1703,9 @@ msgstr ""
 msgid "Detailed View"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label6..Caption
-msgid "Device timeout (sec)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
+#, fuzzy
+msgid "Device timeout, sec:"
 msgstr "Tiempo de espera de dispositivo (sec)"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
@@ -1721,7 +1729,7 @@ msgstr "Directorio %0:s no existe"
 msgid "Disable"
 msgstr "Inactivo"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Hint
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Hint
 msgid "Disable or enable GPS"
 msgstr "Desactivar o activar GPS"
 
@@ -2461,6 +2469,10 @@ msgstr "Geograficas (Latitud/Longitud) / WGS84 / EPSG:4326"
 msgid "GeoTiff Settings"
 msgstr "Opciones"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
+msgid "Get list of tracks to replay from ReplayTrack.txt"
+msgstr ""
+
 #, object-pascal-format
 msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr ""
@@ -2512,11 +2524,8 @@ msgstr "Carpeta del CachéGoogleMV:"
 msgid "GPS Data"
 msgstr "GPS Tipo"
 
-#. frmSettings..PageControl1..tsGPSMarker..Caption
-msgid "GPS Marker"
-msgstr "GPS Icono"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..btnGPSSwitch..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
+#. chkUseReplayTrackFile.Enabled := rgConnectionType.ItemIndex = 3; // todo
 msgid "GPS On/Off"
 msgstr "GPS On/Off"
 
@@ -2525,7 +2534,7 @@ msgstr "GPS On/Off"
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "Origen GPS mal configurado: modo desconocido %d"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..rgConnectionType..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
 msgstr "GPS Tipo"
 
@@ -3187,6 +3196,15 @@ msgstr "Información de Marca"
 msgid "Mark Nonexistent Tiles"
 msgstr "Marcar Mosaicos No Existentes"
 
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..Caption
+#, fuzzy
+msgid "Marker"
+msgstr "GPS Icono"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..Caption
+msgid "Marker and Track"
+msgstr ""
+
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
 #, fuzzy
 msgid "Marker border color"
@@ -3263,8 +3281,9 @@ msgstr "Máximo tamaño del volumen, Mb"
 msgid "Max.speed, km/h:"
 msgstr "Velocidad máxima, km/h:"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label5..Caption
-msgid "Maximum number of track points:"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackPoints..Label5..Caption
+#, fuzzy
+msgid "Maximum number of points to show:"
 msgstr "Máximo de puntos en Ruta:"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedMenuItemName
@@ -3520,10 +3539,6 @@ msgstr "¡Ningún polígono seleccionado!"
 msgid "No proxy"
 msgstr ""
 
-#. Programmer's name for it: SAS_MSG_NoFlyOnTrackSource
-msgid "No source for Fly-on-Track mode"
-msgstr "Ninguna fuente para Fly-on-Track Modo"
-
 #. Programmer's name for it: SAS_ERR_ETS_NoSpaceAvailable
 msgid "No space available at external tile storage"
 msgstr "Sin espacio disponible para almacenamiento de mosaicos"
@@ -3582,8 +3597,9 @@ msgstr "Nada para borrar - derrota GPS está vacía."
 msgid "Nothing to import!"
 msgstr "¡Nada para importar!"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingsCount..Caption
-msgid "Number of rings"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker2..lblGPSMarkerRingsCount..Caption
+#, fuzzy
+msgid "Number of rings:"
 msgstr "Número de anillos"
 
 #. Programmer's name for it: SAS_STR_filesnum
@@ -3746,7 +3762,7 @@ msgstr "Z-Order:"
 msgid "Other"
 msgstr "Otro"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..grpAutoDetect..CB_GPSAutodetectCOMOthers..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectOthers..Caption
 msgid "Others"
 msgstr "Otros"
 
@@ -4063,7 +4079,7 @@ msgstr "PNG (Color Verdadero+ Alpha)"
 msgid "PNG (TrueColor)"
 msgstr "PNG (Color Verdadero)"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Tamaño"
 
@@ -4099,6 +4115,10 @@ msgstr "Selección Polilínea"
 #, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Pool Inabilitado - Sin adquirir db: %s"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
+msgid "Port:"
+msgstr ""
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
 #. frExportKml..pnlCenter..pnlMain..chkPreciseCropping..Caption
@@ -4324,8 +4344,9 @@ msgstr "Selección Rectangular"
 msgid "Redraw interval (ms):"
 msgstr "Intervalo actualización (ms):"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label11..Caption
-msgid "Refresh rate (ms)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlRefreshRate..Label11..Caption
+#, fuzzy
+msgid "Refresh rate, ms:"
 msgstr "Actualización (ms)"
 
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
@@ -4356,6 +4377,11 @@ msgstr "Remover mosaicos"
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Remover mosaicos existentes"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#, fuzzy
+msgid "Replay Track"
+msgstr "Borrar Ruta GPS"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
 msgid "Report a Bug"
@@ -4419,8 +4445,9 @@ msgstr "Descargue próximo mosaico si no hay respuesta"
 msgid "Revert Selection"
 msgstr "Última Selección"
 
-#. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerRingRadius..Caption
-msgid "Ring radius (m)"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker3..lblGPSMarkerRingRadius..Caption
+#, fuzzy
+msgid "Ring radius, m:"
 msgstr "Radio (m)"
 
 #. Programmer's name for it: rsRise
@@ -4664,10 +4691,6 @@ msgstr "Selecciones|*.hlg"
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
 msgid "Sensors"
 msgstr "Sensores"
-
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsPort..pnlComParams..flwpnlComPort..Label4..Caption
-msgid "Serial port"
-msgstr "Puerto serial"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -5118,6 +5141,11 @@ msgstr "Fuentes:"
 msgid "Speed"
 msgstr "Velocidad"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+#, fuzzy
+msgid "Speed:"
+msgstr "Velocidad"
+
 #, no-object-pascal-format
 msgid "Speed: %.2f km/h"
 msgstr ""
@@ -5416,6 +5444,15 @@ msgstr ""
 msgid "There is no data in database for target location!"
 msgstr ""
 
+#, object-pascal-format
+msgid ""
+"There is no source for the Replay Track!\n"
+"Add list of track files/paths to the %s and try again.\n"
+"\n"
+"Yes - to create and edit %s\n"
+"Close - to close this message"
+msgstr ""
+
 #, fuzzy
 msgid "There is no supported maps"
 msgstr "Hay un error %1:s en mapa %0:s"
@@ -5583,9 +5620,12 @@ msgstr "Total"
 msgid "Total to save:"
 msgstr "Total a guardar:"
 
-#. frGPSConfig..pnlGPSLeft..flwpnlGpsParams..Label20..Caption
-msgid "Track width:"
-msgstr "Ancho de Ruta:"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
+msgid "Track"
+msgstr ""
+
+msgid "Track Play/Stop"
+msgstr ""
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
@@ -5714,6 +5754,10 @@ msgstr "URL a Terraserver"
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
 msgid "URL to Yandex.Maps"
 msgstr "URL a Yandex.Maps"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectUsb..Caption
+msgid "USB"
+msgstr ""
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
 msgid "Use Age Gradient"
@@ -5868,6 +5912,7 @@ msgstr ""
 msgid "Width"
 msgstr "Ancho"
 
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackWidth..Label20..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScaleLineWidth..Caption
 msgid "Width:"
 msgstr "Ancho:"
@@ -6014,6 +6059,24 @@ msgstr "Zooms:"
 msgid "Z-Order:"
 msgstr "Z-Order:"
 
+#~ msgid "Autodetect"
+#~ msgstr "Autodetectar"
+
+#~ msgid "Autodetect on connect"
+#~ msgstr "Autodetectar al conectar"
+
+#~ msgid "Bits per second"
+#~ msgstr "Bits por segundo"
+
+#~ msgid "No source for Fly-on-Track mode"
+#~ msgstr "Ninguna fuente para Fly-on-Track Modo"
+
+#~ msgid "Serial port"
+#~ msgstr "Puerto serial"
+
+#~ msgid "Track width:"
+#~ msgstr "Ancho de Ruta:"
+
 #, fuzzy
 #~ msgid "RGB"
 #~ msgstr "GB"
@@ -6092,9 +6155,6 @@ msgstr "Z-Order:"
 
 #~ msgid "All Images"
 #~ msgstr "Todas las Imágenes"
-
-#~ msgid "All Services"
-#~ msgstr "Todos los Servicios"
 
 #~ msgid "Color only"
 #~ msgstr "Color solo"
