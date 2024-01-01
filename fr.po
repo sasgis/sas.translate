@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-31 14:42\n"
+"POT-Creation-Date: 2024-01-01 15:16\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -185,6 +185,11 @@ msgstr "1:50 000 (500 m)"
 msgid "1:500 000 (5 km)"
 msgstr "1:500 000 (5 km)"
 
+#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize..Text
+#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
+msgid "1024x1024"
+msgstr ""
+
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 msgid "120..200km"
 msgstr "120..200 km"
@@ -246,6 +251,10 @@ msgstr "200 km"
 msgid "200m"
 msgstr "200 m"
 
+#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
+msgid "2048x2048"
+msgstr ""
+
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20km"
@@ -254,6 +263,11 @@ msgstr "20 km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20m"
 msgstr "20 m"
+
+#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
+#, fuzzy
+msgid "256x256"
+msgstr "256x256 px"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "2km"
@@ -285,6 +299,10 @@ msgstr "30 m"
 msgid "3km"
 msgstr "3 km"
 
+#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
+msgid "4096x4096"
+msgstr ""
+
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 msgid "5..200m"
 msgstr "5..200 m"
@@ -312,6 +330,10 @@ msgstr "50 km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "50m"
 msgstr "50 m"
+
+#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
+msgid "512x512"
+msgstr ""
 
 #. frExportToIMG..PageControl1..Map..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -342,6 +364,10 @@ msgstr "80 km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "80m"
 msgstr "80 m"
+
+#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
+msgid "8192x8192"
+msgstr ""
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "8km"
@@ -4032,9 +4058,6 @@ msgstr "Nombre de points : %d"
 msgid "Polygon %0:d"
 msgstr "Polygone %0:d"
 
-msgid "Polygon isn't selected"
-msgstr "Aucun polygone sélectionné !"
-
 #. frMarksGeneralOptions..grpPoly..Caption
 msgid "Polygon parameters"
 msgstr "Propriétés du polygone"
@@ -4166,9 +4189,6 @@ msgstr "Positionnement d'une nouvelle balise"
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmProjection..Caption
 msgid "Projection"
 msgstr "Projection affichée"
-
-msgid "Projection isn't selected"
-msgstr "Aucune projection sélectionnée !"
 
 #. Programmer's name for it: rsProjectionOfLayer
 msgid "Projection of layer"
@@ -5276,16 +5296,24 @@ msgstr ""
 msgid "The Name can't be empty!"
 msgstr "Ecrire un nom dans la case !"
 
+#, fuzzy
 msgid ""
-"The number of JPEG files will exceed 100. If your\n"
-"navigation device split the image using\n"
-"\"Manage Selection - Stitch\" window\n"
-"and use resulting KMZ files separately"
+"The number of JPEG tiles in KMZ file will exceed 100!\n"
+"If your navigation device won't display the map,go back and split the image "
+"into parts (and use the resulting KMZ files separately)."
 msgstr ""
 "Le nombre de fichiers JPEG va dépasser 100.\n"
 "Diviser l'image en utilisant\n"
 "la fenêtre \"Gestionnaire de sélection - Assembler\"\n"
 "et utiliser les fichiers KMZ séparément."
+
+#, fuzzy
+msgid "The Polygon is not selected!"
+msgstr "Aucun polygone sélectionné !"
+
+#, fuzzy
+msgid "The Projection is not selected!"
+msgstr "Aucune projection sélectionnée !"
 
 #, object-pascal-format
 msgid "The proxy server %s is requesting a username and password."
@@ -5470,6 +5498,11 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+
+#. frMapCombineCustomOptions..flwpnlKmzTileSize..lblKmzTileSize..Caption
+#, fuzzy
+msgid "Tile size, pix:"
+msgstr "Taille de la dalle :"
 
 msgid "Tile with same size exists"
 msgstr "Une dalle avec la même taille existe déjà"
@@ -6081,9 +6114,6 @@ msgstr "Z-Order :"
 #~ msgid "128x128 pix"
 #~ msgstr "128x128 px"
 
-#~ msgid "256x256 pix"
-#~ msgstr "256x256 px"
-
 #~ msgid "Add tiles to database"
 #~ msgstr "Ajouter les dalles à la base de données"
 
@@ -6194,9 +6224,6 @@ msgstr "Z-Order :"
 
 #~ msgid "SPOT 5 - 5m Color"
 #~ msgstr "SPOT 5 - 5 m Couleur"
-
-#~ msgid "Tile Size"
-#~ msgstr "Taille de la dalle :"
 
 #~ msgid "Use storage to check new images"
 #~ msgstr "Utiliser le stockage pour les nouvelles images"
