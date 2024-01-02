@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-01-01 15:16\n"
+"POT-Creation-Date: 2024-01-02 14:51\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -648,6 +648,15 @@ msgstr "Вис."
 msgid "Altitude"
 msgstr "Висота"
 
+#. Programmer's name for it: SAS_ERR_GpsCommunication
+#, fuzzy
+msgid "An error occured when communicating with the GPS device!"
+msgstr "Помилка комунікації з пристроєм"
+
+#. Programmer's name for it: SAS_ERR_GpsConnecting
+msgid "An error occured when connecting to the GPS device!"
+msgstr ""
+
 #. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
 #. frmMarkPictureEditor..grpAnchor..Caption
 msgid "Anchor"
@@ -819,7 +828,8 @@ msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматично показувати/приховувати панель датчиків"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
-msgid "Autodetect COM port"
+#, fuzzy
+msgid "Autodetect device COM port"
 msgstr "Автовизначення COM-порту"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
@@ -1070,6 +1080,9 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
 msgid "Cancel"
 msgstr "Скасувати"
+
+msgid "Cancel device port autodetection"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
@@ -1707,6 +1720,11 @@ msgstr ""
 msgid "Detailed View"
 msgstr "Вид з подробицями"
 
+#. select new item
+#, object-pascal-format
+msgid "Device found on the %s port."
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
 #, fuzzy
 msgid "Device timeout, sec:"
@@ -2073,10 +2091,6 @@ msgstr "Помилка при завантаженні байткоду"
 msgid "Error code:"
 msgstr "Код помилки:"
 
-#. Programmer's name for it: SAS_ERR_Communication
-msgid "Error communicating with device"
-msgstr "Помилка комунікації з пристроєм"
-
 #. Programmer's name for it: SAS_ERR_Noconnectionstointernet
 msgid "Error connecting to server"
 msgstr "Помилка підключення до сервера"
@@ -2093,10 +2107,6 @@ msgstr "Помилка введення параметрів!"
 #, no-object-pascal-format
 msgid "Error in projection \"%0:s\" of the map"
 msgstr "Помилковий тип проекції карти \"%0:s\""
-
-#. Programmer's name for it: SAS_ERR_PortOpen
-msgid "Error opening port!"
-msgstr "Помилка відкриття порту!"
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
 #, object-pascal-format
@@ -2531,6 +2541,11 @@ msgstr "GPS Увімкн/Вимкн"
 #, object-pascal-format
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "GPS помилкові налаштування: невідомий режим %d"
+
+#. Programmer's name for it: SAS_MSG_NoGPSdetected
+#, fuzzy
+msgid "GPS receiver has not been found!"
+msgstr "Не знайдено GPS-приймач"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
@@ -3518,8 +3533,8 @@ msgstr ""
 msgid "No"
 msgstr "Ні"
 
-#. Programmer's name for it: SAS_MSG_NoGPSdetected
-msgid "No GPS receiver found"
+#, fuzzy
+msgid "No devices found!"
 msgstr "Не знайдено GPS-приймач"
 
 msgid "No one polygon selected!"
@@ -5612,10 +5627,6 @@ msgstr ""
 msgid "Try download if tne exists"
 msgstr "Намагатись завантажувати тайли, для яких є tne"
 
-#. Programmer's name for it: SAS_ERR_UnablePposition
-msgid "Unable to fix position"
-msgstr "Неможливо визначити позицію"
-
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Неможливо завантажити жодної карти! Преривання..."
@@ -6036,6 +6047,12 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Error opening port!"
+#~ msgstr "Помилка відкриття порту!"
+
+#~ msgid "Unable to fix position"
+#~ msgstr "Неможливо визначити позицію"
 
 #~ msgid "Autodetect"
 #~ msgstr "Автовизначення"

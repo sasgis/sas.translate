@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-01-01 15:16\n"
-"PO-Revision-Date: 2024-01-01 15:16\n"
+"POT-Creation-Date: 2024-01-02 14:51\n"
+"PO-Revision-Date: 2024-01-02 14:51\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -635,6 +635,18 @@ msgstr ""
 msgid "Altitude"
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_GpsCommunication
+msgid ""
+"An error occured when communicating with the GPS "
+"device!"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_GpsConnecting
+msgid ""
+"An error occured when connecting to the GPS "
+"device!"
+msgstr ""
+
 #. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
 #. frmMarkPictureEditor..grpAnchor..Caption
 msgid "Anchor"
@@ -821,7 +833,7 @@ msgid "Auto show/hide sensors toolbar"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
-msgid "Autodetect COM port"
+msgid "Autodetect device COM port"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
@@ -1072,6 +1084,9 @@ msgstr ""
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
 msgid "Cancel"
+msgstr ""
+
+msgid "Cancel device port autodetection"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
@@ -1705,6 +1720,11 @@ msgstr ""
 msgid "Detailed View"
 msgstr ""
 
+#. select new item
+#, object-pascal-format
+msgid "Device found on the %s port."
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
 msgid "Device timeout, sec:"
 msgstr ""
@@ -2074,10 +2094,6 @@ msgstr ""
 msgid "Error code:"
 msgstr ""
 
-#. Programmer's name for it: SAS_ERR_Communication
-msgid "Error communicating with device"
-msgstr ""
-
 #. Programmer's name for it: SAS_ERR_Noconnectionstointernet
 msgid "Error connecting to server"
 msgstr ""
@@ -2093,10 +2109,6 @@ msgstr ""
 #. Programmer's name for it: SAS_ERR_MapProjectionUnexpectedType
 #, no-object-pascal-format
 msgid "Error in projection \"%0:s\" of the map"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_PortOpen
-msgid "Error opening port!"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
@@ -2520,6 +2532,10 @@ msgstr ""
 msgid ""
 "GPS origin misconfiguration: unknown mode "
 "%d"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_NoGPSdetected
+msgid "GPS receiver has not been found!"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
@@ -3495,8 +3511,7 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#. Programmer's name for it: SAS_MSG_NoGPSdetected
-msgid "No GPS receiver found"
+msgid "No devices found!"
 msgstr ""
 
 msgid "No one polygon selected!"
@@ -5549,10 +5564,6 @@ msgstr ""
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
-msgstr ""
-
-#. Programmer's name for it: SAS_ERR_UnablePposition
-msgid "Unable to fix position"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_NoMaps

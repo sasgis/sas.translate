@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-01-01 15:16\n"
+"POT-Creation-Date: 2024-01-02 14:51\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -636,6 +636,15 @@ msgstr "Yük."
 msgid "Altitude"
 msgstr "Yükseklik"
 
+#. Programmer's name for it: SAS_ERR_GpsCommunication
+#, fuzzy
+msgid "An error occured when communicating with the GPS device!"
+msgstr "Cihazla iletişim hatası"
+
+#. Programmer's name for it: SAS_ERR_GpsConnecting
+msgid "An error occured when connecting to the GPS device!"
+msgstr ""
+
 #. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
 #. frmMarkPictureEditor..grpAnchor..Caption
 msgid "Anchor"
@@ -805,7 +814,8 @@ msgid "Auto show/hide sensors toolbar"
 msgstr "Sensör araç çubuğunu otomatik göster/gizle"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
-msgid "Autodetect COM port"
+#, fuzzy
+msgid "Autodetect device COM port"
 msgstr "COM bağlantı noktasını otomatik algıla"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
@@ -1054,6 +1064,9 @@ msgstr "Radio Mobile programı için kalibrasyon (*.dat)"
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
 msgid "Cancel"
 msgstr "İptal"
+
+msgid "Cancel device port autodetection"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
@@ -1682,6 +1695,11 @@ msgstr "Hedef önbellek türü seçilmedi!"
 msgid "Detailed View"
 msgstr "Detaylı Görünüm"
 
+#. select new item
+#, object-pascal-format
+msgid "Device found on the %s port."
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
 #, fuzzy
 msgid "Device timeout, sec:"
@@ -2047,10 +2065,6 @@ msgstr "Komut dosyası bayt kodu yükleme hatası"
 msgid "Error code:"
 msgstr "Hata kodu:"
 
-#. Programmer's name for it: SAS_ERR_Communication
-msgid "Error communicating with device"
-msgstr "Cihazla iletişim hatası"
-
 #. Programmer's name for it: SAS_ERR_Noconnectionstointernet
 msgid "Error connecting to server"
 msgstr "Sunucuya bağlanırken hata oluştu"
@@ -2067,10 +2081,6 @@ msgstr "Parametrelerde hata!"
 #, no-object-pascal-format
 msgid "Error in projection \"%0:s\" of the map"
 msgstr "Haritanın \"%0:s\" projeksiyonunda hata"
-
-#. Programmer's name for it: SAS_ERR_PortOpen
-msgid "Error opening port!"
-msgstr "Bağlantı noktası açılırken hata oluştu!"
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
 #, object-pascal-format
@@ -2496,6 +2506,11 @@ msgstr "GPS Aç/Kapat"
 #, object-pascal-format
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "GPS kaynağı yanlış yapılandırması: bilinmeyen mod %d"
+
+#. Programmer's name for it: SAS_MSG_NoGPSdetected
+#, fuzzy
+msgid "GPS receiver has not been found!"
+msgstr "GPS alıcısı bulunamadı"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
@@ -3474,8 +3489,8 @@ msgstr ""
 msgid "No"
 msgstr "Hayır"
 
-#. Programmer's name for it: SAS_MSG_NoGPSdetected
-msgid "No GPS receiver found"
+#, fuzzy
+msgid "No devices found!"
 msgstr "GPS alıcısı bulunamadı"
 
 msgid "No one polygon selected!"
@@ -5536,10 +5551,6 @@ msgstr ""
 msgid "Try download if tne exists"
 msgstr "TNE varsa indirmeyi dene"
 
-#. Programmer's name for it: SAS_ERR_UnablePposition
-msgid "Unable to fix position"
-msgstr "Konum düzeltilemiyor"
-
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Harita(lar) yüklenemiyor! İptal ediliyor..."
@@ -5951,6 +5962,12 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "Error opening port!"
+#~ msgstr "Bağlantı noktası açılırken hata oluştu!"
+
+#~ msgid "Unable to fix position"
+#~ msgstr "Konum düzeltilemiyor"
 
 #~ msgid "Autodetect"
 #~ msgstr "Otomatik-algıla"

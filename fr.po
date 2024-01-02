@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-01-01 15:16\n"
+"POT-Creation-Date: 2024-01-02 14:51\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -642,6 +642,15 @@ msgstr "Alt."
 msgid "Altitude"
 msgstr "Altitude"
 
+#. Programmer's name for it: SAS_ERR_GpsCommunication
+#, fuzzy
+msgid "An error occured when communicating with the GPS device!"
+msgstr "Erreur de communication avec l'appareil"
+
+#. Programmer's name for it: SAS_ERR_GpsConnecting
+msgid "An error occured when connecting to the GPS device!"
+msgstr ""
+
 #. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
 #. frmMarkPictureEditor..grpAnchor..Caption
 msgid "Anchor"
@@ -817,7 +826,8 @@ msgid "Auto show/hide sensors toolbar"
 msgstr "Automatique, afficher/masquer la barre d'outils des capteurs"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
-msgid "Autodetect COM port"
+#, fuzzy
+msgid "Autodetect device COM port"
 msgstr "Autodétecte le port COM"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
@@ -1066,6 +1076,9 @@ msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
 msgid "Cancel"
 msgstr "Annuler"
+
+msgid "Cancel device port autodetection"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
@@ -1702,6 +1715,11 @@ msgstr "Le type du cache Dest n'est pas spécifié !"
 msgid "Detailed View"
 msgstr "Vue détaillée"
 
+#. select new item
+#, object-pascal-format
+msgid "Device found on the %s port."
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
 #, fuzzy
 msgid "Device timeout, sec:"
@@ -2075,10 +2093,6 @@ msgstr "Erreur en chargeant le script bytecode"
 msgid "Error code:"
 msgstr "Erreur code :"
 
-#. Programmer's name for it: SAS_ERR_Communication
-msgid "Error communicating with device"
-msgstr "Erreur de communication avec l'appareil"
-
 #. Programmer's name for it: SAS_ERR_Noconnectionstointernet
 msgid "Error connecting to server"
 msgstr "Pas de connexion à Internet !"
@@ -2095,10 +2109,6 @@ msgstr "Erreur dans les paramètres !"
 #, no-object-pascal-format
 msgid "Error in projection \"%0:s\" of the map"
 msgstr "Erreur dans la projection \"%0:s\" de cette carte"
-
-#. Programmer's name for it: SAS_ERR_PortOpen
-msgid "Error opening port!"
-msgstr "Erreur en ouvrant le port !"
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
 #, object-pascal-format
@@ -2526,6 +2536,11 @@ msgstr "GPS Marche/Arrêt"
 #, object-pascal-format
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "Mauvaise configuration du GPS : mode inconnu %d"
+
+#. Programmer's name for it: SAS_MSG_NoGPSdetected
+#, fuzzy
+msgid "GPS receiver has not been found!"
+msgstr "Pas de récepteur GPS trouvé"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
@@ -3510,8 +3525,8 @@ msgstr ""
 msgid "No"
 msgstr "Non"
 
-#. Programmer's name for it: SAS_MSG_NoGPSdetected
-msgid "No GPS receiver found"
+#, fuzzy
+msgid "No devices found!"
 msgstr "Pas de récepteur GPS trouvé"
 
 msgid "No one polygon selected!"
@@ -5590,10 +5605,6 @@ msgstr ""
 msgid "Try download if tne exists"
 msgstr "Essayer de re-télécharger les dalles absentes"
 
-#. Programmer's name for it: SAS_ERR_UnablePposition
-msgid "Unable to fix position"
-msgstr "Impossible de déterminer la position"
-
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
 msgstr "Incapable de charger la (les) carte(s) ! Abandon..."
@@ -6009,6 +6020,12 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Error opening port!"
+#~ msgstr "Erreur en ouvrant le port !"
+
+#~ msgid "Unable to fix position"
+#~ msgstr "Impossible de déterminer la position"
 
 #~ msgid "Autodetect"
 #~ msgstr "Autodétecte :"

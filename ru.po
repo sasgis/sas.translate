@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-01-01 15:16\n"
-"PO-Revision-Date: 2024-01-01 15:21+0300\n"
+"POT-Creation-Date: 2024-01-02 14:51\n"
+"PO-Revision-Date: 2024-01-02 15:03+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -629,6 +629,14 @@ msgstr "Выс."
 msgid "Altitude"
 msgstr "Высота"
 
+#. Programmer's name for it: SAS_ERR_GpsCommunication
+msgid "An error occured when communicating with the GPS device!"
+msgstr "Ошибка связи с GPS устройством!"
+
+#. Programmer's name for it: SAS_ERR_GpsConnecting
+msgid "An error occured when connecting to the GPS device!"
+msgstr "Произошла ошибка при соединении с GPS устройством!"
+
 #. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
 #. frmMarkPictureEditor..grpAnchor..Caption
 msgid "Anchor"
@@ -794,8 +802,8 @@ msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматически показывать/скрывать панель датчиков"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
-msgid "Autodetect COM port"
-msgstr "Автопоиск COM-порта"
+msgid "Autodetect device COM port"
+msgstr "Автопоиск COM порта устройства"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
 msgid "Autodetect port on connect"
@@ -1041,6 +1049,9 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
 msgid "Cancel"
 msgstr "Отменить"
+
+msgid "Cancel device port autodetection"
+msgstr "Отменить автопоиск порта устройства"
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
@@ -1665,6 +1676,11 @@ msgstr "Не выбран тип результирующего кэша!"
 msgid "Detailed View"
 msgstr "Подробный вид"
 
+#. select new item
+#, object-pascal-format
+msgid "Device found on the %s port."
+msgstr "Обнаружено устройство на порту %s"
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
 msgid "Device timeout, sec:"
 msgstr "Время ожидания ответа от приёмника, сек:"
@@ -2024,10 +2040,6 @@ msgstr "Ошибка при загрузке байт-кода"
 msgid "Error code:"
 msgstr "Код ошибки:"
 
-#. Programmer's name for it: SAS_ERR_Communication
-msgid "Error communicating with device"
-msgstr "Ошибка связи с устройством"
-
 #. Programmer's name for it: SAS_ERR_Noconnectionstointernet
 msgid "Error connecting to server"
 msgstr "Отсутствует подключение к интернет!"
@@ -2044,10 +2056,6 @@ msgstr "Ошибка ввода параметров!"
 #, no-object-pascal-format
 msgid "Error in projection \"%0:s\" of the map"
 msgstr "Ошибочный тип проекции карты %0:s"
-
-#. Programmer's name for it: SAS_ERR_PortOpen
-msgid "Error opening port!"
-msgstr "Ошибка открытия порта!"
 
 #. Programmer's name for it: SAS_ERR_CoordParseError
 #, object-pascal-format
@@ -2467,6 +2475,10 @@ msgstr "GPS Вкл/Выкл"
 #, object-pascal-format
 msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "GPS неверные настройки: неизвестный режим %d"
+
+#. Programmer's name for it: SAS_MSG_NoGPSdetected
+msgid "GPS receiver has not been found!"
+msgstr "GPS приёмник не найден!"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
@@ -3432,9 +3444,8 @@ msgstr ""
 msgid "No"
 msgstr "Нет"
 
-#. Programmer's name for it: SAS_MSG_NoGPSdetected
-msgid "No GPS receiver found"
-msgstr "Не найден приёмник GPS"
+msgid "No devices found!"
+msgstr "Устройств не обнаружено!"
 
 msgid "No one polygon selected!"
 msgstr "Не выбрано ни одного полигона!"
@@ -5291,6 +5302,11 @@ msgid ""
 "Yes - to create and edit %s\n"
 "Close - to close this message"
 msgstr ""
+"Нет источника для повтора трека!\n"
+"Добавьте список треков в %s и попробуйте снова.\n"
+"\n"
+"Да - создать и редактировать %s\n"
+"Закрыть - закрыть это сообщение"
 
 msgid "There is no supported maps"
 msgstr "Нет поддерживаемых карт"
@@ -5467,10 +5483,6 @@ msgstr "Начать/Остановить"
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Пытаться загружать тайлы, для которых есть tne"
-
-#. Programmer's name for it: SAS_ERR_UnablePposition
-msgid "Unable to fix position"
-msgstr "Невозможно определить позицию"
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
