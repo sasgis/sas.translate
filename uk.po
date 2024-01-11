@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-01-02 14:51\n"
+"POT-Creation-Date: 2024-01-11 11:40\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1070,7 +1070,7 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
-#. frmRegionProcess..pnlBottomButtons..Button3..Caption
+#. frmRegionProcess..pnlBottomButtons..btnCancel..Caption
 #. frmGeoTiffOptions..btnCancel..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1318,6 +1318,11 @@ msgstr "Запакування в ZIP"
 msgid "Compression (for PNG):"
 msgstr "Стиснення (для PNG):"
 
+#. frMapCombineCustomOptions..flwpnlCompressionLevel..lblCompressionLevel..Caption
+#, fuzzy
+msgid "Compression level:"
+msgstr "Стиснення:"
+
 #. frArchiveWriteZipConfig..lblCompressLevel..Caption
 #, fuzzy
 msgid "Compression Level:"
@@ -1390,7 +1395,7 @@ msgstr "Координати: %s"
 msgid "Copy"
 msgstr "Копіювати"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmCopyBbox..Hint
 #, fuzzy
 msgid "Copy BBOX coordinates"
 msgstr "Копіювати координати"
@@ -1826,7 +1831,7 @@ msgid "Distance: %.2f m"
 msgstr "Відстань № 2, км:"
 
 #. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
-#. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 msgid "Do not close this window after start"
 msgstr "Не закривати вікно після старту"
@@ -2310,7 +2315,7 @@ msgstr "За розміром екрана"
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
 #. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmZoom..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmZoom..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr "За розміром екрана"
@@ -4552,7 +4557,7 @@ msgstr "Зберігати лише цілковито заповнені тай
 msgid "Save recovery information"
 msgstr "Зберігати інформацію для відновлення"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmMark..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmSaveToFile..Hint
 msgid "Save selection info to file"
 msgstr "Зберегти  виділення у файл"
 
@@ -4672,7 +4677,7 @@ msgid "Selection Manager"
 msgstr "Операції з виділеною областю"
 
 #. frmMain..dlgOpenHlgLoad..Filter
-#. frmRegionProcess..SaveSelDialog..Filter
+#. frmRegionProcess..dlgSaveSelection..Filter
 msgid "Selections|*.hlg"
 msgstr "Файл виділення|*.hlg"
 
@@ -5201,7 +5206,7 @@ msgstr ""
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmJpegImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
-#. frmRegionProcess..pnlBottomButtons..Button1..Caption
+#. frmRegionProcess..pnlBottomButtons..btnStart..Caption
 msgid "Start"
 msgstr "Почати"
 
@@ -5241,7 +5246,7 @@ msgstr "Зберігати порожні тайли"
 msgid "Store info about not found tiles"
 msgstr "Зберігати інформацію про відсутність тайлів на сервері"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmSave..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmSaveToMarksDb..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..tbtmMark..Caption
 msgid "Store selection as Poligon"
 msgstr "Зберегти  виділення як полігон"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-01-02 14:51\n"
+"POT-Creation-Date: 2024-01-11 11:40\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1066,7 +1066,7 @@ msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
-#. frmRegionProcess..pnlBottomButtons..Button3..Caption
+#. frmRegionProcess..pnlBottomButtons..btnCancel..Caption
 #. frmGeoTiffOptions..btnCancel..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1312,6 +1312,11 @@ msgstr "Compression en ZIP"
 msgid "Compression (for PNG):"
 msgstr "Compression (pour PNG) :"
 
+#. frMapCombineCustomOptions..flwpnlCompressionLevel..lblCompressionLevel..Caption
+#, fuzzy
+msgid "Compression level:"
+msgstr "Niveau de Compression :"
+
 #. frArchiveWriteZipConfig..lblCompressLevel..Caption
 msgid "Compression Level:"
 msgstr "Niveau de Compression :"
@@ -1384,7 +1389,7 @@ msgstr "Coordonnées : %s"
 msgid "Copy"
 msgstr "Copier"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmCopyBbox..Hint
 msgid "Copy BBOX coordinates"
 msgstr "Copier les coordonnées BBOX"
 
@@ -1821,7 +1826,7 @@ msgid "Distance: %.2f m"
 msgstr "Distance #2, km :"
 
 #. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
-#. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 msgid "Do not close this window after start"
 msgstr "Ne pas fermer la fenêtre au début de l'action"
@@ -2307,7 +2312,7 @@ msgstr "Adapter à l'écran"
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
 #. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmZoom..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmZoom..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr "Adapter à l'écran"
@@ -4536,7 +4541,7 @@ msgstr "Sauvegarder seulement les dalles complètes"
 msgid "Save recovery information"
 msgstr "Sauvegarder l'information récupérée"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmMark..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmSaveToFile..Hint
 msgid "Save selection info to file"
 msgstr "Sauvegarder la sélection dans un fichier .hlg"
 
@@ -4656,7 +4661,7 @@ msgid "Selection Manager"
 msgstr "Gestionnaire de sélection"
 
 #. frmMain..dlgOpenHlgLoad..Filter
-#. frmRegionProcess..SaveSelDialog..Filter
+#. frmRegionProcess..dlgSaveSelection..Filter
 msgid "Selections|*.hlg"
 msgstr "Sélections|*.hlg"
 
@@ -5184,7 +5189,7 @@ msgstr "Carré"
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmJpegImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
-#. frmRegionProcess..pnlBottomButtons..Button1..Caption
+#. frmRegionProcess..pnlBottomButtons..btnStart..Caption
 msgid "Start"
 msgstr "Démarrer"
 
@@ -5223,7 +5228,7 @@ msgstr "Enregistrer les dalles vierges"
 msgid "Store info about not found tiles"
 msgstr "Information enregistrée à propos des dalles non trouvées"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmSave..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmSaveToMarksDb..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..tbtmMark..Caption
 msgid "Store selection as Poligon"
 msgstr "Sélection stockée comme polygone"

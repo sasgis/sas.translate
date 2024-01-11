@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-01-02 14:51\n"
-"PO-Revision-Date: 2024-01-02 15:03+0300\n"
+"POT-Creation-Date: 2024-01-11 11:40\n"
+"PO-Revision-Date: 2024-01-11 11:41+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1039,7 +1039,7 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
-#. frmRegionProcess..pnlBottomButtons..Button3..Caption
+#. frmRegionProcess..pnlBottomButtons..btnCancel..Caption
 #. frmGeoTiffOptions..btnCancel..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1280,6 +1280,10 @@ msgstr "Упаковка в ZIP"
 msgid "Compression (for PNG):"
 msgstr "Сжатие (для PNG):"
 
+#. frMapCombineCustomOptions..flwpnlCompressionLevel..lblCompressionLevel..Caption
+msgid "Compression level:"
+msgstr "Уровень сжатия:"
+
 #. frArchiveWriteZipConfig..lblCompressLevel..Caption
 msgid "Compression Level:"
 msgstr "Уровень сжатия:"
@@ -1350,7 +1354,7 @@ msgstr "Координаты: %s"
 msgid "Copy"
 msgstr "Копировать"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmCopyBbox..Hint
 msgid "Copy BBOX coordinates"
 msgstr "Копировать BBOX координаты"
 
@@ -1780,7 +1784,7 @@ msgid "Distance: %.2f m"
 msgstr "Расстояние: %.2f м"
 
 #. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
-#. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 msgid "Do not close this window after start"
 msgstr "Не закрывать окно после старта"
@@ -2250,7 +2254,7 @@ msgstr "Уместить на экране"
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
 #. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmZoom..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmZoom..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr "Уместить на экране"
@@ -4440,7 +4444,7 @@ msgstr "Сохранять только полностью заполненны�
 msgid "Save recovery information"
 msgstr "Записывать информацию для восстановления"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmMark..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmSaveToFile..Hint
 msgid "Save selection info to file"
 msgstr "Сохранить информацию о выделенной области в файл"
 
@@ -4559,7 +4563,7 @@ msgid "Selection Manager"
 msgstr "Операции с выделенной областью"
 
 #. frmMain..dlgOpenHlgLoad..Filter
-#. frmRegionProcess..SaveSelDialog..Filter
+#. frmRegionProcess..dlgSaveSelection..Filter
 msgid "Selections|*.hlg"
 msgstr "Файл выделения|*.hlg"
 
@@ -5066,7 +5070,7 @@ msgstr "Кв. Ярды"
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmJpegImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
-#. frmRegionProcess..pnlBottomButtons..Button1..Caption
+#. frmRegionProcess..pnlBottomButtons..btnStart..Caption
 msgid "Start"
 msgstr "Начать"
 
@@ -5105,7 +5109,7 @@ msgstr "Сохранять пустые тайлы"
 msgid "Store info about not found tiles"
 msgstr "Сохранять информацию об отсутствии тайлов на сервере"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmSave..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmSaveToMarksDb..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..tbtmMark..Caption
 msgid "Store selection as Poligon"
 msgstr "Сохранить выделенную область как полигон"

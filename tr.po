@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-01-02 14:51\n"
+"POT-Creation-Date: 2024-01-11 11:40\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -1054,7 +1054,7 @@ msgstr "Radio Mobile programı için kalibrasyon (*.dat)"
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
-#. frmRegionProcess..pnlBottomButtons..Button3..Caption
+#. frmRegionProcess..pnlBottomButtons..btnCancel..Caption
 #. frmGeoTiffOptions..btnCancel..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1299,6 +1299,11 @@ msgstr "ZIP'e sıkıştırılıyor"
 msgid "Compression (for PNG):"
 msgstr "Sıkıştırma (PNG için):"
 
+#. frMapCombineCustomOptions..flwpnlCompressionLevel..lblCompressionLevel..Caption
+#, fuzzy
+msgid "Compression level:"
+msgstr "Sıkıştırma Seviyesi:"
+
 #. frArchiveWriteZipConfig..lblCompressLevel..Caption
 msgid "Compression Level:"
 msgstr "Sıkıştırma Seviyesi:"
@@ -1369,7 +1374,7 @@ msgstr "Koordinatlar: %s"
 msgid "Copy"
 msgstr "Kopyala"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmCopyBbox..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmCopyBbox..Hint
 msgid "Copy BBOX coordinates"
 msgstr "BBOX koordinatlarını kopyala"
 
@@ -1801,7 +1806,7 @@ msgid "Distance: %.2f m"
 msgstr "Mesafe: %.2f m"
 
 #. frmCacheManager..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
-#. frmRegionProcess..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
 msgid "Do not close this window after start"
 msgstr "Başladıktan sonra bu pencereyi kapatma"
@@ -2277,7 +2282,7 @@ msgstr "Ekrana sığdır"
 
 #. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
 #. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmZoom..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmZoom..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
 msgid "Fit to Screen"
 msgstr "Ekrana Sığdır"
@@ -4493,7 +4498,7 @@ msgstr "Yalnızca eksiksiz döşemeleri kaydet"
 msgid "Save recovery information"
 msgstr "Kurtarma bilgilerini kaydet"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmMark..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmSaveToFile..Hint
 msgid "Save selection info to file"
 msgstr "Seçim bilgilerini dosyaya kaydet"
 
@@ -4613,7 +4618,7 @@ msgid "Selection Manager"
 msgstr "Seçim Yöneticisi"
 
 #. frmMain..dlgOpenHlgLoad..Filter
-#. frmRegionProcess..SaveSelDialog..Filter
+#. frmRegionProcess..dlgSaveSelection..Filter
 msgid "Selections|*.hlg"
 msgstr "Seçimler|*.hlg"
 
@@ -5127,7 +5132,7 @@ msgstr "Kare"
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmJpegImportConfigEdit..pnlBottom..btnOk..Caption
 #. frmMarksMultiEdit..pnlBottom..btnOk..Caption
-#. frmRegionProcess..pnlBottomButtons..Button1..Caption
+#. frmRegionProcess..pnlBottomButtons..btnStart..Caption
 msgid "Start"
 msgstr "Başla"
 
@@ -5166,7 +5171,7 @@ msgstr "Boş döşemeleri sakla"
 msgid "Store info about not found tiles"
 msgstr "Bulunamayan döşemeler hakkında bilgi sakla"
 
-#. frmRegionProcess..pnlBottomButtons..TBXOperationsToolbar..tbtmSave..Hint
+#. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmSaveToMarksDb..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmSave..tbtmMark..Caption
 msgid "Store selection as Poligon"
 msgstr "Seçimi Çokgen olarak sakla"
