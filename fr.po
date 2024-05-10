@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-01-17 10:42\n"
+"POT-Creation-Date: 2024-05-10 17:13\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -642,6 +642,11 @@ msgstr "Alt."
 msgid "Altitude"
 msgstr "Altitude"
 
+msgid ""
+"An entry with the same name already exists!\n"
+"Do you want to update it instead of adding a new one?"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_GpsCommunication
 #, fuzzy
 msgid "An error occured when communicating with the GPS device!"
@@ -1210,6 +1215,7 @@ msgstr "Nettoyer"
 msgid "Clipboard is empty!"
 msgstr "Le presse-papiers est vide !"
 
+#. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmMarksExportConfig..pnlBottom..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
