@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-06-09 18:20\n"
-"PO-Revision-Date: 2024-06-09 18:22+0300\n"
+"POT-Creation-Date: 2024-06-11 16:59\n"
+"PO-Revision-Date: 2024-06-11 17:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -4251,6 +4251,10 @@ msgstr "Удалить выделенный (Delete)"
 msgid "Remove tiles"
 msgstr "Перемещать тайлы"
 
+#. frmMain..actlstMain..actLineEditReplaceElevation..Caption
+msgid "Replace elevation by the DEM data"
+msgstr "Заменить высоты данными DEM"
+
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Заменять существующие тайлы"
@@ -4313,6 +4317,10 @@ msgstr "Продолжить"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
 msgid "Retry download tile if no response"
 msgstr "Пытаться повторно загрузить тайл, если сервер не отвечает"
+
+#. frmMain..actlstMain..actLineEditReverse..Caption
+msgid "Reverse direction"
+msgstr "Инвертировать направление"
 
 #. frmMarksExplorer..tbpmnMarks..tbxRevertSelection..Caption
 msgid "Revert Selection"
@@ -5463,6 +5471,10 @@ msgstr "Показать/скрыть настройки"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..Caption
 msgid "Toolbars"
 msgstr "Панели"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxEditPathTools..Hint
+msgid "Tools"
+msgstr "Инструменты"
 
 #. Programmer's name for it: SAS_STR_Whole
 msgid "Total"

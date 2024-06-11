@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-06-09 18:20\n"
+"POT-Creation-Date: 2024-06-11 16:59\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -4363,6 +4363,10 @@ msgstr "Видалити обраний (Delete)"
 msgid "Remove tiles"
 msgstr "Видалити тайли"
 
+#. frmMain..actlstMain..actLineEditReplaceElevation..Caption
+msgid "Replace elevation by the DEM data"
+msgstr ""
+
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Замінювати існуючі тайли"
@@ -4428,6 +4432,11 @@ msgstr "Продовжити"
 #, fuzzy
 msgid "Retry download tile if no response"
 msgstr "Переходити до наступного тайла, якщо сервер не відповідає"
+
+#. frmMain..actlstMain..actLineEditReverse..Caption
+#, fuzzy
+msgid "Reverse direction"
+msgstr "Попереднє виділення"
 
 #. frmMarksExplorer..tbpmnMarks..tbxRevertSelection..Caption
 #, fuzzy
@@ -5610,6 +5619,11 @@ msgstr "Показати/приховати налаштування"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..Caption
 msgid "Toolbars"
+msgstr "Панелі"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxEditPathTools..Hint
+#, fuzzy
+msgid "Tools"
 msgstr "Панелі"
 
 #. Programmer's name for it: SAS_STR_Whole

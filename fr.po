@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-09 18:20\n"
+"POT-Creation-Date: 2024-06-11 16:59\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -4347,6 +4347,10 @@ msgstr "Supprimer la sélection (Suppr)"
 msgid "Remove tiles"
 msgstr "Supprimer les dalles"
 
+#. frmMain..actlstMain..actLineEditReplaceElevation..Caption
+msgid "Replace elevation by the DEM data"
+msgstr ""
+
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Remplacer les dalles existantes"
@@ -4413,6 +4417,11 @@ msgstr "Reprendre"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkRetryIfNoResponse..Caption
 msgid "Retry download tile if no response"
 msgstr "Réessayer de télécharger la dalle si aucune réponse"
+
+#. frmMain..actlstMain..actLineEditReverse..Caption
+#, fuzzy
+msgid "Reverse direction"
+msgstr "Dernière sélection"
 
 #. frmMarksExplorer..tbpmnMarks..tbxRevertSelection..Caption
 #, fuzzy
@@ -5588,6 +5597,11 @@ msgstr "Options de bascule"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..Caption
 msgid "Toolbars"
+msgstr "Barres d'outils généraux"
+
+#. frmMain..TBDockLeft..TBEditPath..tbxEditPathTools..Hint
+#, fuzzy
+msgid "Tools"
 msgstr "Barres d'outils généraux"
 
 #. Programmer's name for it: SAS_STR_Whole
