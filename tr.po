@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-11 16:59\n"
+"POT-Creation-Date: 2024-06-26 15:07\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -83,6 +83,10 @@ msgstr "%s %.2f of %.2f MB (%.2f%s)"
 #, object-pascal-format
 msgid "%s API Key:"
 msgstr "%s API Anahtarı:"
+
+#, fuzzy, object-pascal-format
+msgid "%s format settings"
+msgstr "Dışa aktarma ayarları"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 msgid "&Coordinates"
@@ -1061,6 +1065,8 @@ msgstr "Radio Mobile programı için kalibrasyon (*.dat)"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksExport..btnCancel..Caption
+#. frmMarksExportConfig..pnlBottom..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
@@ -1214,7 +1220,6 @@ msgstr "Pano boş!"
 
 #. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
-#. frmMarksExportConfig..pnlBottom..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -2126,6 +2131,10 @@ msgstr "Tüm yer işaretlerini ve tüm kategorileri dışa aktar"
 msgid "Export Placemark"
 msgstr "Yer İşaretini Dışa Aktar"
 
+#, fuzzy
+msgid "Export placemarks"
+msgstr "Yer İşaretlerini Dışa Aktar"
+
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Yer İşaretlerini Dışa Aktar"
@@ -2146,10 +2155,6 @@ msgstr "Seçimi formata aktar"
 #. frExportToFileCont..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Export selection to format:"
 msgstr "Seçimi formata aktar:"
-
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
-msgid "Export settings"
-msgstr "Dışa aktarma ayarları"
 
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
 msgid "Export visible placemarks"
@@ -2333,8 +2338,14 @@ msgstr "Zorunlu Şema Adı:"
 msgid "Format Options"
 msgstr "Oluşturucu Seçenekleri"
 
+#. frmMarksExport..btnConfig..Hint
+#, fuzzy
+msgid "Format settings"
+msgstr "Dışa aktarma ayarları"
+
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..pgcMain..tsConverter..grpDestCache..lblDestFormat..Caption
+#. frmMarksExport..lblFormat..Caption
 msgid "Format:"
 msgstr "Biçim:"
 
@@ -2539,6 +2550,7 @@ msgid "Grids"
 msgstr "Izgaralar"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmGroup..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxtmGroup..Caption
 msgid "Group"
 msgstr "Grup"
 
@@ -2858,6 +2870,11 @@ msgstr "km/s"
 #. Programmer's name for it: SAS_UNITS_km2
 msgid "km2"
 msgstr "km2"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..Caption
+#, fuzzy
+msgid "kml"
+msgstr "km"
 
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
 #, fuzzy
@@ -3213,10 +3230,6 @@ msgstr "İşaretler Veritabanı"
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Caption
 msgid "Marks Database"
 msgstr "İşaretler Veritabanı"
-
-#. frmMarksExportConfig..Caption
-msgid "Marks Export Config"
-msgstr "İşaretleri Dışa Aktarma Yapılandırması"
 
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
@@ -3998,6 +4011,9 @@ msgstr "Lütfen önce haritayı seçin!"
 msgid "Please select the output file first!"
 msgstr "Lütfen önce çıktı dosyasını seçin!"
 
+msgid "Please specify where to save!"
+msgstr ""
+
 #. Programmer's name for it: rsWaitUntilTheFinishOperation
 msgid "Please wait until the finish of the previous operation!"
 msgstr ""
@@ -4415,6 +4431,7 @@ msgstr "Yuvarlak"
 msgid "Route Calculation"
 msgstr "Rota Hesaplama"
 
+#. frmMarksExport..btnRun..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Hint
 msgid "Run"
@@ -4505,6 +4522,7 @@ msgstr "Kurtarma bilgilerini kaydet"
 msgid "Save selection info to file"
 msgstr "Seçim bilgilerini dosyaya kaydet"
 
+#. frmMarksExport..lblDest..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
 #. frTilesCopy..pnlTop..lblTargetPath..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
@@ -4629,6 +4647,11 @@ msgstr "Seçimler|*.hlg"
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
 msgid "Sensors"
 msgstr "Sensörler"
+
+#. frmMarksExport..chkFilePerMark..Caption
+#, fuzzy
+msgid "Separate file for each placemark"
+msgstr "Yeni yer işareti oluştur"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -5981,6 +6004,9 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "Marks Export Config"
+#~ msgstr "İşaretleri Dışa Aktarma Yapılandırması"
 
 #~ msgid "Compression (for PNG):"
 #~ msgstr "Sıkıştırma (PNG için):"

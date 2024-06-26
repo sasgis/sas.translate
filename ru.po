@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-06-11 16:59\n"
-"PO-Revision-Date: 2024-06-11 17:01+0300\n"
+"POT-Creation-Date: 2024-06-26 15:07\n"
+"PO-Revision-Date: 2024-06-26 15:10+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -83,6 +83,10 @@ msgstr "%s %.2f из %.2f Мб (%.2f%s)"
 #, object-pascal-format
 msgid "%s API Key:"
 msgstr "Ключ %s API:"
+
+#, object-pascal-format
+msgid "%s format settings"
+msgstr "Настройки экспорта в %s"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 msgid "&Coordinates"
@@ -1047,6 +1051,8 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksExport..btnCancel..Caption
+#. frmMarksExportConfig..pnlBottom..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
@@ -1198,7 +1204,6 @@ msgstr "Буфер обмена пуст!"
 
 #. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
-#. frmMarksExportConfig..pnlBottom..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -2101,6 +2106,9 @@ msgstr "Экспорт всех меток и категорий"
 msgid "Export Placemark"
 msgstr "Экспортировать метку"
 
+msgid "Export placemarks"
+msgstr "Экспорт меток"
+
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Экспортировать группу"
@@ -2121,10 +2129,6 @@ msgstr "Экспорт выделенного участка в формат"
 #. frExportToFileCont..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Export selection to format:"
 msgstr "Экспорт выделенного участка в формат:"
-
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
-msgid "Export settings"
-msgstr "Настройки экспорта"
 
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
 msgid "Export visible placemarks"
@@ -2305,8 +2309,13 @@ msgstr ""
 msgid "Format Options"
 msgstr "Настройки формата"
 
+#. frmMarksExport..btnConfig..Hint
+msgid "Format settings"
+msgstr "Настройки экспорта"
+
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..pgcMain..tsConverter..grpDestCache..lblDestFormat..Caption
+#. frmMarksExport..lblFormat..Caption
 msgid "Format:"
 msgstr "Формат:"
 
@@ -2507,6 +2516,7 @@ msgid "Grids"
 msgstr "Сетки"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmGroup..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxtmGroup..Caption
 msgid "Group"
 msgstr "Сгруппировать"
 
@@ -2823,6 +2833,11 @@ msgstr "км/ч"
 #. Programmer's name for it: SAS_UNITS_km2
 msgid "km2"
 msgstr "км2"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..Caption
+#, fuzzy
+msgid "kml"
+msgstr "км"
 
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
 msgid "KML for Google Earth"
@@ -3173,10 +3188,6 @@ msgstr "База данных меток"
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Caption
 msgid "Marks Database"
 msgstr "База данных меток"
-
-#. frmMarksExportConfig..Caption
-msgid "Marks Export Config"
-msgstr "Настройки экспорта меток"
 
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
@@ -3943,6 +3954,9 @@ msgstr "Сначала необходимо выбрать карту!"
 msgid "Please select the output file first!"
 msgstr "Необходимо выбрать имя результирующего файла!"
 
+msgid "Please specify where to save!"
+msgstr "Укажите, пожалуйста, куда сохранять!"
+
 #. Programmer's name for it: rsWaitUntilTheFinishOperation
 msgid "Please wait until the finish of the previous operation!"
 msgstr "Пожалуйста, дождитесь окончания предыдущей операции!"
@@ -4355,6 +4369,7 @@ msgstr "Округлённые"
 msgid "Route Calculation"
 msgstr "Проложить маршрут"
 
+#. frmMarksExport..btnRun..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Hint
 msgid "Run"
@@ -4447,6 +4462,7 @@ msgstr "Записывать информацию для восстановле�
 msgid "Save selection info to file"
 msgstr "Сохранить информацию о выделенной области в файл"
 
+#. frmMarksExport..lblDest..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
 #. frTilesCopy..pnlTop..lblTargetPath..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
@@ -4570,6 +4586,10 @@ msgstr "Файл выделения|*.hlg"
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
 msgid "Sensors"
 msgstr "Датчики"
+
+#. frmMarksExport..chkFilePerMark..Caption
+msgid "Separate file for each placemark"
+msgstr "Отдельный файл для каждой метки"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -5901,6 +5921,9 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
+
+#~ msgid "Marks Export Config"
+#~ msgstr "Настройки экспорта меток"
 
 #~ msgid "Compression (for PNG):"
 #~ msgstr "Сжатие (для PNG):"

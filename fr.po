@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-11 16:59\n"
+"POT-Creation-Date: 2024-06-26 15:07\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -87,6 +87,10 @@ msgstr "%s %.2f de %.2f Mb (%.2f%s)"
 #, object-pascal-format
 msgid "%s API Key:"
 msgstr ""
+
+#, fuzzy, object-pascal-format
+msgid "%s format settings"
+msgstr "Paramètres d'exportation"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 msgid "&Coordinates"
@@ -1073,6 +1077,8 @@ msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksExport..btnCancel..Caption
+#. frmMarksExportConfig..pnlBottom..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
@@ -1227,7 +1233,6 @@ msgstr "Le presse-papiers est vide !"
 
 #. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
-#. frmMarksExportConfig..pnlBottom..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
 #. frmUpdateChecker..btnClose..Caption
 msgid "Close"
@@ -2154,6 +2159,10 @@ msgstr "Exporter tous les marqueurs et toutes les catégories"
 msgid "Export Placemark"
 msgstr "Exporter le marqueur"
 
+#, fuzzy
+msgid "Export placemarks"
+msgstr "Exporter les marqueurs"
+
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Exporter les marqueurs"
@@ -2174,10 +2183,6 @@ msgstr "Exporter la sélection au format :"
 #. frExportToFileCont..pnlCenter..pnlMain..lblNamesType..Caption
 msgid "Export selection to format:"
 msgstr "Exporter la sélection au format :"
-
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnExportConfig..Hint
-msgid "Export settings"
-msgstr "Paramètres d'exportation"
 
 #. frmMarksExplorer..PopupExport..NExportVisible..Caption
 msgid "Export visible placemarks"
@@ -2363,8 +2368,14 @@ msgstr "Nom de schéma forcé :"
 msgid "Format Options"
 msgstr "Options du Generateur"
 
+#. frmMarksExport..btnConfig..Hint
+#, fuzzy
+msgid "Format settings"
+msgstr "Paramètres d'exportation"
+
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..pgcMain..tsConverter..grpDestCache..lblDestFormat..Caption
+#. frmMarksExport..lblFormat..Caption
 msgid "Format:"
 msgstr "Format :"
 
@@ -2569,6 +2580,7 @@ msgid "Grids"
 msgstr "Grilles"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmGroup..Caption
+#. frmMarksExplorer..tbpmnMarks..tbxtmGroup..Caption
 msgid "Group"
 msgstr "Groupe"
 
@@ -2889,6 +2901,11 @@ msgstr "km/h"
 #. Programmer's name for it: SAS_UNITS_km2
 msgid "km2"
 msgstr "km2"
+
+#. frmMarksExportConfig..pgcMain..tsExportToKml..Caption
+#, fuzzy
+msgid "kml"
+msgstr "km"
 
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
 #, fuzzy
@@ -3247,10 +3264,6 @@ msgstr "Base de données de marqueurs"
 #. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroup..tbxMarksDbList..Caption
 msgid "Marks Database"
 msgstr "Base de données de marqueurs"
-
-#. frmMarksExportConfig..Caption
-msgid "Marks Export Config"
-msgstr "Paramètres d'exportation des marqueurs"
 
 #. frmMarksMultiEdit..Caption
 msgid "Marks Parameters"
@@ -4035,6 +4048,9 @@ msgstr "Sélectionner la carte d'abord !"
 msgid "Please select the output file first!"
 msgstr "Sélectionner le fichier de sortie d'abord !"
 
+msgid "Please specify where to save!"
+msgstr ""
+
 #. Programmer's name for it: rsWaitUntilTheFinishOperation
 msgid "Please wait until the finish of the previous operation!"
 msgstr ""
@@ -4458,6 +4474,7 @@ msgstr "Arrondies"
 msgid "Route Calculation"
 msgstr "Calcul d'itinéraire"
 
+#. frmMarksExport..btnRun..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Caption
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmRun..Hint
 msgid "Run"
@@ -4548,6 +4565,7 @@ msgstr "Sauvegarder l'information récupérée"
 msgid "Save selection info to file"
 msgstr "Sauvegarder la sélection dans un fichier .hlg"
 
+#. frmMarksExport..lblDest..Caption
 #. frMapCombine..pnlTargetFile..lblTargetFile..Caption
 #. frTilesCopy..pnlTop..lblTargetPath..Caption
 #. frExportToFileCont..pnlTop..lblTargetFile..Caption
@@ -4672,6 +4690,11 @@ msgstr "Sélections|*.hlg"
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
 msgid "Sensors"
 msgstr "Capteurs"
+
+#. frmMarksExport..chkFilePerMark..Caption
+#, fuzzy
+msgid "Separate file for each placemark"
+msgstr "Ajouter une balise"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -6039,6 +6062,9 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Marks Export Config"
+#~ msgstr "Paramètres d'exportation des marqueurs"
 
 #~ msgid "Compression (for PNG):"
 #~ msgstr "Compression (pour PNG) :"
