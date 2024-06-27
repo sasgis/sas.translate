@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-26 15:07\n"
+"POT-Creation-Date: 2024-06-27 16:07\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -2183,12 +2183,12 @@ msgstr "Exportar todas las marcas y categorías seleccionadas"
 msgid "Export Placemark"
 msgstr "Exportar Marcas"
 
-#, fuzzy
-msgid "Export placemarks"
-msgstr "Exportar Marcas"
-
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
+msgstr "Exportar Marcas"
+
+#, fuzzy, object-pascal-format
+msgid "Export placemarks (%d)"
 msgstr "Exportar Marcas"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
@@ -6048,6 +6048,11 @@ msgstr ""
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
 msgstr "Si"
+
+#, object-pascal-format
+msgid ""
+"You are about to export placemarks into %d separate files. Are you sure?"
+msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint

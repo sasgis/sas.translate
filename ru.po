@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-06-26 15:07\n"
-"PO-Revision-Date: 2024-06-26 15:10+0300\n"
+"POT-Creation-Date: 2024-06-27 16:07\n"
+"PO-Revision-Date: 2024-06-27 16:09+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -2106,12 +2106,13 @@ msgstr "Экспорт всех меток и категорий"
 msgid "Export Placemark"
 msgstr "Экспортировать метку"
 
-msgid "Export placemarks"
-msgstr "Экспорт меток"
-
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Экспортировать группу"
+
+#, object-pascal-format
+msgid "Export placemarks (%d)"
+msgstr "Экспорт меток (%d)"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Hint
@@ -5831,6 +5832,11 @@ msgstr "ярд2"
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
 msgstr "Да"
+
+#, object-pascal-format
+msgid ""
+"You are about to export placemarks into %d separate files. Are you sure?"
+msgstr "Вы собираетесь экспортировать метки в %d отдельных файлов. Вы уверены?"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
