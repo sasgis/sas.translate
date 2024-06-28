@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-06-27 16:07\n"
-"PO-Revision-Date: 2024-06-27 16:09+0300\n"
+"POT-Creation-Date: 2024-06-28 21:24\n"
+"PO-Revision-Date: 2024-06-28 21:25+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -2102,10 +2102,6 @@ msgstr "Экспорт"
 msgid "Export all placemarks and all categories"
 msgstr "Экспорт всех меток и категорий"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
-msgid "Export Placemark"
-msgstr "Экспортировать метку"
-
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Экспортировать группу"
@@ -2120,9 +2116,9 @@ msgid "Export placemarks from selected category"
 msgstr "Экспорт выбранной категории"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
-msgid "Export selected placemark"
-msgstr "Экспорт выбранной метки"
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
+msgid "Export selected placemarks"
+msgstr "Экспорт выбранных меток"
 
 msgid "Export selection to format"
 msgstr "Экспорт выделенного участка в формат"
@@ -5927,6 +5923,9 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
+
+#~ msgid "Export Placemark"
+#~ msgstr "Экспортировать метку"
 
 #~ msgid "Marks Export Config"
 #~ msgstr "Настройки экспорта меток"

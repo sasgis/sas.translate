@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-27 16:07\n"
+"POT-Creation-Date: 2024-06-28 21:24\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -2155,10 +2155,6 @@ msgstr "Exporter"
 msgid "Export all placemarks and all categories"
 msgstr "Exporter tous les marqueurs et toutes les catégories"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
-msgid "Export Placemark"
-msgstr "Exporter le marqueur"
-
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Exporter les marqueurs"
@@ -2173,8 +2169,9 @@ msgid "Export placemarks from selected category"
 msgstr "Exporter les marqueurs de la catégorie surlignée"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
-msgid "Export selected placemark"
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
+#, fuzzy
+msgid "Export selected placemarks"
 msgstr "Exporter le marqueur surligné"
 
 msgid "Export selection to format"
@@ -6067,6 +6064,9 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "Export Placemark"
+#~ msgstr "Exporter le marqueur"
 
 #~ msgid "Marks Export Config"
 #~ msgstr "Paramètres d'exportation des marqueurs"

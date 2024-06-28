@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-06-27 16:07\n"
+"POT-Creation-Date: 2024-06-28 21:24\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -2154,10 +2154,6 @@ msgstr "Експорт"
 msgid "Export all placemarks and all categories"
 msgstr "Експорт всіх позначок та категорій"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
-msgid "Export Placemark"
-msgstr "Експортувати  позначку"
-
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Експортувати позначки"
@@ -2172,8 +2168,9 @@ msgid "Export placemarks from selected category"
 msgstr "Експортувати позначки з обраної категорії"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
-msgid "Export selected placemark"
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
+#, fuzzy
+msgid "Export selected placemarks"
 msgstr "Експорт обраної позначки"
 
 msgid "Export selection to format"
@@ -6093,6 +6090,9 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "Export Placemark"
+#~ msgstr "Експортувати  позначку"
 
 #~ msgid "Compression (for PNG):"
 #~ msgstr "Стиснення (для PNG):"

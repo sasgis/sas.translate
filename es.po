@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-27 16:07\n"
+"POT-Creation-Date: 2024-06-28 21:24\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -2179,10 +2179,6 @@ msgstr "Exportar"
 msgid "Export all placemarks and all categories"
 msgstr "Exportar todas las marcas y categorías seleccionadas"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
-msgid "Export Placemark"
-msgstr "Exportar Marcas"
-
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Exportar Marcas"
@@ -2197,8 +2193,9 @@ msgid "Export placemarks from selected category"
 msgstr "Exportar posiciones de categorías seleccionadas"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
-msgid "Export selected placemark"
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
+#, fuzzy
+msgid "Export selected placemarks"
 msgstr "Exportar Posición seleccionada"
 
 msgid "Export selection to format"
@@ -6147,6 +6144,9 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "Export Placemark"
+#~ msgstr "Exportar Marcas"
 
 #~ msgid "Compression (for PNG):"
 #~ msgstr "Compresion (para PNG):"

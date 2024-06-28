@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-27 16:07\n"
+"POT-Creation-Date: 2024-06-28 21:24\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -2127,10 +2127,6 @@ msgstr "Dışa Aktar"
 msgid "Export all placemarks and all categories"
 msgstr "Tüm yer işaretlerini ve tüm kategorileri dışa aktar"
 
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
-msgid "Export Placemark"
-msgstr "Yer İşaretini Dışa Aktar"
-
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Caption
 msgid "Export Placemarks"
 msgstr "Yer İşaretlerini Dışa Aktar"
@@ -2145,8 +2141,9 @@ msgid "Export placemarks from selected category"
 msgstr "Seçilen kategorideki yer işaretlerini dışa aktar"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
-#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Hint
-msgid "Export selected placemark"
+#. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
+#, fuzzy
+msgid "Export selected placemarks"
 msgstr "Seçili yer işaretini dışa aktar"
 
 msgid "Export selection to format"
@@ -6009,6 +6006,9 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "Export Placemark"
+#~ msgstr "Yer İşaretini Dışa Aktar"
 
 #~ msgid "Marks Export Config"
 #~ msgstr "İşaretleri Dışa Aktarma Yapılandırması"
