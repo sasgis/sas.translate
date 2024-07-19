@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-28 21:24\n"
+"POT-Creation-Date: 2024-07-19 13:40\n"
 "PO-Revision-Date: 2020-10-26 06:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -391,6 +391,16 @@ msgstr "ha"
 msgid "Abort"
 msgstr "Abandonne"
 
+#. Programmer's name for it: rsAbortedCopyFmt
+#, object-pascal-format
+msgid "Aborted! Can't copy placemark \"%s\""
+msgstr ""
+
+#. Programmer's name for it: rsAbortedMoveFmt
+#, fuzzy, object-pascal-format
+msgid "Aborted! Can't move placemark \"%s\""
+msgstr "Créer un marqueur"
+
 #. frmMain..actlstMain..actHelpShowAbout..Caption
 #. frmAbout..Caption
 msgid "About"
@@ -729,12 +739,6 @@ msgstr "Etes-vous certain de vouloir effacer la piste actuelle du GPS ?"
 msgid "Are you sure you want to delete database \"%s\"?"
 msgstr "Etes-vous certain de vouloir effacer la base de données \"%s\"?"
 
-#. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
-msgid "Are you sure you want to delete Marks in selected region?"
-msgstr ""
-"Etes-vous certain de vouloir effacer les marqueurs dans la région "
-"sélectionnée  ?"
-
 #. Programmer's name for it: SAS_MSG_DeleteMarkPathAsk
 #, no-object-pascal-format
 msgid "Are you sure you want to delete path with name \"%0:s\"?"
@@ -746,6 +750,13 @@ msgid ""
 msgstr ""
 "Etes-vous certain de vouloir effacer la balise de type inconnu avec le nom "
 "\"%0:s\" ?"
+
+#. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
+#, fuzzy
+msgid "Are you sure you want to delete placemarks in the selected region?"
+msgstr ""
+"Etes-vous certain de vouloir effacer les marqueurs dans la région "
+"sélectionnée  ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkPointAsk
 #, no-object-pascal-format
@@ -764,7 +775,8 @@ msgid "Are you sure you want to delete tile with name \"%0:s\"?"
 msgstr "Etes-vous certain de vouloir effacer la dalle avec le nom \"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
-msgid "Are you sure you want to delete tiles in selected region?"
+#, fuzzy
+msgid "Are you sure you want to delete tiles in the selected region?"
 msgstr ""
 "Etes-vous certain de vouloir effacer les dalles dans la région sélectionnée ?"
 
@@ -1396,6 +1408,7 @@ msgid "Coordinates: %s"
 msgstr "Coordonnées : %s"
 
 #. frmMarksExplorer..tbpmnMarks..tbitmCopy..Caption
+#. frMarksProcess..pnlOperation..cbbOperation....Items.Strings
 msgid "Copy"
 msgstr "Copier"
 
@@ -1431,6 +1444,11 @@ msgstr "Copier vers la mémoire comme texte"
 #. Programmer's name for it: SAS_STR_OperationTilesCopyCaption
 msgid "Copying"
 msgstr "En train de copier"
+
+#. Programmer's name for it: rsCopyingPlacemarksFmt
+#, fuzzy, object-pascal-format
+msgid "Copying %d placemarks..."
+msgstr "Masquer tous les marqueurs"
 
 msgid "Could not build IMG file."
 msgstr "Ne peut pas construire le fichier IMG."
@@ -1606,6 +1624,7 @@ msgstr "Définir le raccourci clavier"
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Hint
+#. frMarksProcess..pnlOperation..cbbOperation....Items.Strings
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -1624,10 +1643,6 @@ msgstr "Supprimer les dalles vierges"
 #, object-pascal-format
 msgid "Delete from Favorites: '%s'?"
 msgstr "Supprimer le favori : '%s'?"
-
-#. frDeleteMarks..chkDelHidden..Caption
-msgid "Delete hidden placemarks"
-msgstr "Supprimer les marqueurs cachés"
 
 #. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
 msgid "Delete only tiles of size, bytes:"
@@ -1685,6 +1700,11 @@ msgstr "Total supprimé :"
 #. Programmer's name for it: SAS_STR_OperationDeleteCaption
 msgid "Deleting"
 msgstr "En train de supprimer"
+
+#. Programmer's name for it: rsDeletingPlacemarksFmt
+#, fuzzy, object-pascal-format
+msgid "Deleting %d placemarks..."
+msgstr "Supprimer les marqueurs cachés"
 
 #. Programmer's name for it: SAS_STR_Deleted
 msgid "Deleting:"
@@ -2147,7 +2167,10 @@ msgid "Exclusive or (XOR)"
 msgstr "Exclusif (XOU)"
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
+#. frMarksProcess..pnlOperation..cbbOperation..Text
+#. frMarksProcess..pnlOperation..cbbOperation....Items.Strings
 #. Programmer's name for it: SAS_STR_ExportTiles
+#. Export
 msgid "Export"
 msgstr "Exporter"
 
@@ -2770,6 +2793,11 @@ msgstr ""
 #. frMapCombineCustomOptions..chkPngWithAlpha..Caption
 msgid "Include alpha channel"
 msgstr "Inclure canal alpha"
+
+#. frMarksProcess..chkIncludeHidden..Caption
+#, fuzzy
+msgid "Include hidden placemarks"
+msgstr "Supprimer les marqueurs cachés"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDBad
 #, no-object-pascal-format
@@ -3413,6 +3441,7 @@ msgstr "Contrôle de la roue de la souris :"
 
 #. frmMain..actlstMain..actMoveMap..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkDeleteSource..Caption
+#. frMarksProcess..pnlOperation..cbbOperation....Items.Strings
 msgid "Move"
 msgstr "Déplacer"
 
@@ -3431,6 +3460,11 @@ msgstr "Déplacer l'item sélectionné vers le haut (Maj + Flèche haut)"
 #. frFavoriteMapSetManager..pnlRightButtons..btnUp..Caption
 msgid "Move Up"
 msgstr "Vers le haut"
+
+#. Programmer's name for it: rsMovingPlacemarksFmt
+#, fuzzy, object-pascal-format
+msgid "Moving %d placemarks..."
+msgstr "Masquer tous les marqueurs"
 
 msgid "MPC compiler path is not set or incorrect!"
 msgstr "Le chemin du compileur MPC est non sélectionné ou incorrect !"
@@ -3760,6 +3794,11 @@ msgstr "Ouvrir le zmp"
 msgid "Open..."
 msgstr "Ouvrir..."
 
+#. frMarksProcess..pnlOperation..lblOperation..Caption
+#, fuzzy
+msgid "Operation:"
+msgstr "&Opérations"
+
 #. frmMain..actlstMain..actConfigScaleLineOptionsShow..Caption
 #. frmMain..actlstMain..actConfigOptionsShow..Caption
 #. frmMain..actlstMain..actConfigGpsOptionsShow..Caption
@@ -3914,7 +3953,7 @@ msgstr "Chemin :"
 msgid "Pathname to Tile in Cache"
 msgstr "le nom du chemin du cache de la dalle (sélectionnée par clic droit)"
 
-#. frDeleteMarks..PnlTop..chkPaths..Caption
+#. frMarksProcess..pnlTop..chkPaths..Caption
 #. frmSettings..PageControl1..tsPaths..Caption
 msgid "Paths"
 msgstr "Répertoires"
@@ -3994,7 +4033,7 @@ msgstr "Propriétés de la balise"
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem1..Caption
 #. frmMain..TBDock..TBXMainMenu..NMarks..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..Caption
-#. frDeleteMarks..PnlTop..chkPlacemarks..Caption
+#. frMarksProcess..pnlTop..chkPlacemarks..Caption
 msgid "Placemarks"
 msgstr "Marqueurs"
 
@@ -4025,7 +4064,7 @@ msgid "Please select at least one region"
 msgstr "Sélectionner au moins une région."
 
 #, fuzzy
-msgid "Please select at least one type of placemark"
+msgid "Please select at least one type of placemark!"
 msgstr "Sélectionner au moins une carte."
 
 #. Programmer's name for it: SAS_MSG_NeedZoom
@@ -4037,6 +4076,10 @@ msgstr "Sélectionner au moins un zoom !"
 
 msgid "Please select output folder"
 msgstr "Sélectionner le répertoire de sortie d'abord !"
+
+#, fuzzy
+msgid "Please select target category!"
+msgstr "Supprimer la catégorie surlignée"
 
 msgid "Please select the map first!"
 msgstr "Sélectionner la carte d'abord !"
@@ -4099,7 +4142,7 @@ msgstr "Propriétés du polygone"
 msgid "Polygonal Selection"
 msgstr "Sélection polygonale"
 
-#. frDeleteMarks..PnlTop..chkPolygons..Caption
+#. frMarksProcess..pnlTop..chkPolygons..Caption
 msgid "Polygons"
 msgstr "Polygones"
 
@@ -4302,6 +4345,10 @@ msgstr "RAW : problème de remplissage de ligne !"
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
 msgid "Read only mode"
 msgstr "Mode lecture seule"
+
+#. Programmer's name for it: rsReadingPlacemarksFromDb
+msgid "Reading placemarks from DB..."
+msgstr ""
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions2..pnlReadOnly..chkReadOnly..Caption
 msgid "Read-Only"
@@ -4648,6 +4695,11 @@ msgstr "Sélectionner la source"
 msgid "Select overlay layers"
 msgstr "Sélectionner les couches"
 
+#. Programmer's name for it: rsSelectedFmt
+#, fuzzy, object-pascal-format
+msgid "Selected %d"
+msgstr "Carte de base sélectionnée"
+
 #. frmMain..TBDock..SrcToolbar..TBSMB..Hint
 msgid "Selected basemap"
 msgstr "Carte de base sélectionnée"
@@ -4660,6 +4712,11 @@ msgid ""
 msgstr ""
 "La catégorie sélectionnée \"%0:s\" contient %d sous-catégorie(s). Faut-il "
 "tout supprimer ?"
+
+#. Programmer's name for it: rsSelectingPlacemarks
+#, fuzzy
+msgid "Selecting placemarks..."
+msgstr "Supprimer les marqueurs cachés"
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -5225,6 +5282,7 @@ msgstr "Démarrage avec pause"
 msgid "Status Bar"
 msgstr "Barre d'état"
 
+#. Stitch
 msgid "Stitch"
 msgstr "Assembler"
 
@@ -5432,6 +5490,10 @@ msgstr ""
 msgid "There are no available objects in the pool!"
 msgstr "Il n'y a pas d'objets disponibles dans le lot !"
 
+#. Programmer's name for it: rsThereAreNoPlacemarksToProcess
+msgid "There are no placemarks to process!"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_MapGUIDError
 #, no-object-pascal-format
 msgid "There is an error %1:s in map %0:s"
@@ -5445,6 +5507,10 @@ msgstr ""
 msgid "There is no data in database for target location!"
 msgstr ""
 
+#, fuzzy
+msgid "There is no read access to the placemarks DB!"
+msgstr "Pas d'accès écriture dans la base de données des marqueurs !"
+
 #, object-pascal-format
 msgid ""
 "There is no source for the Replay Track!\n"
@@ -5456,6 +5522,10 @@ msgstr ""
 
 msgid "There is no supported maps"
 msgstr "Il n'y a pas de cartes prises en charge"
+
+#, fuzzy
+msgid "There is no write access to the placemarks DB!"
+msgstr "Pas d'accès écriture dans la base de données des marqueurs !"
 
 msgid ""
 "This format doesn't support file name with characters not from current "
