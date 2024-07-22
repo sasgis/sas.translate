@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-07-19 13:40\n"
+"POT-Creation-Date: 2024-07-22 17:06\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -390,16 +390,6 @@ msgstr "га"
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "Перервати"
-
-#. Programmer's name for it: rsAbortedCopyFmt
-#, object-pascal-format
-msgid "Aborted! Can't copy placemark \"%s\""
-msgstr ""
-
-#. Programmer's name for it: rsAbortedMoveFmt
-#, fuzzy, object-pascal-format
-msgid "Aborted! Can't move placemark \"%s\""
-msgstr "Створити  позначку"
 
 #. frmMain..actlstMain..actHelpShowAbout..Caption
 #. frmAbout..Caption
@@ -833,7 +823,8 @@ msgstr ""
 "Щонайменше одне калібрування не підтримує ім'я файлу з не ASCII символами"
 
 #. Programmer's name for it: SAS_MSG_coution
-msgid "Attention!"
+#, fuzzy
+msgid "Attention"
 msgstr "Увага!"
 
 #. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
@@ -1128,6 +1119,11 @@ msgstr "Неможливо отримати БД: %s"
 msgid "Can't bound the Map - GUID not found!"
 msgstr ""
 
+#. Programmer's name for it: rsCantCopyFmt
+#, fuzzy, object-pascal-format
+msgid "Can't copy placemark \"%s\""
+msgstr "Створити  позначку"
+
 #. http://www.sasgis.org/mantis/view.php?id=3435
 #, object-pascal-format
 msgid ""
@@ -1141,6 +1137,11 @@ msgstr "Неможливо створити сховище в пам’яті. �
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr "Неможливо завантажити зображення з вихідного типу"
+
+#. Programmer's name for it: rsCantMoveFmt
+#, fuzzy, object-pascal-format
+msgid "Can't move placemark \"%s\""
+msgstr "Створити  позначку"
 
 #, object-pascal-format
 msgid "Can't open file: %s"
@@ -1651,8 +1652,8 @@ msgstr "Видалити категорію"
 msgid "Delete empty tiles"
 msgstr "Видалити порожні тайли"
 
-#, object-pascal-format
-msgid "Delete from Favorites: '%s'?"
+#, fuzzy, object-pascal-format
+msgid "Delete from Favorites: \"%s\"?"
 msgstr "Видалити '%s' з обраного?"
 
 #. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
@@ -2114,6 +2115,7 @@ msgstr "Введення параметрів"
 msgid "Equinox at"
 msgstr "Рівнодення в"
 
+#. Programmer's name for it: SAS_MSG_error
 #. Programmer's name for it: rsError
 msgid "Error"
 msgstr "Помилка"
@@ -2151,11 +2153,6 @@ msgstr "Помилка вводу координат: широта=%s довго
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Помилка при збереженні!"
-
-#. Programmer's name for it: SAS_MSG_error
-#, fuzzy
-msgid "Error!"
-msgstr "Помилка"
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -2816,6 +2813,11 @@ msgstr "Рух за інерцією"
 #. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
 msgstr "Інформація"
+
+#. Programmer's name for it: SAS_MSG_information
+#, fuzzy
+msgid "Information"
+msgstr "Налаштування інтерфейсу"
 
 #. Programmer's name for it: rsInitializing
 msgid "Initializing..."
@@ -3610,7 +3612,8 @@ msgstr "Недостатньо місця в БД для здійснення о
 msgid "No tiles to export!"
 msgstr "Нічого експортувати!"
 
-msgid "No write access to current Marks DB!"
+#, fuzzy
+msgid "No write access to the current Marks DB!"
 msgstr "Немає доступу на запис до обраної бази міток"
 
 #. Programmer's name for it: rsNoWriteAccess
@@ -4074,6 +4077,10 @@ msgstr "Спочатку треба виділити хочаб одну кар�
 msgid "Please select at least one map or overlay layer"
 msgstr "Спочатку треба виділити хочаб одну карту або шар!"
 
+#, fuzzy
+msgid "Please select at least one polygon!"
+msgstr "Спочатку треба виділити хочаб один полігон!"
+
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr "Спочатку треба виділити хочаб одну область!"
@@ -4090,6 +4097,10 @@ msgstr "Спочатку треба виділити хочаб один зум!
 msgid "Please select at least one zoom!"
 msgstr "Спочатку треба виділити хочаб один зум!"
 
+#, fuzzy
+msgid "Please select category with at least one polygon!"
+msgstr "Спочатку треба виділити категорію з хочаб одним полігоном!"
+
 msgid "Please select output folder"
 msgstr "Будьласка, оберіть спочатку вихідну папку!"
 
@@ -4104,6 +4115,10 @@ msgstr "Будьласка, оберіть спочатку вихідний ф�
 #, fuzzy
 msgid "Please select the output file first!"
 msgstr "Будьласка, оберіть спочатку вихідний файл!"
+
+#, fuzzy
+msgid "Please select zoom/coordinates or at least one Layer or Map first!"
+msgstr "Будь ласка вкажіть зум/координати або хоча б одну карту чи шар!"
 
 msgid "Please specify where to save!"
 msgstr ""
@@ -4124,17 +4139,8 @@ msgstr "Зачекайте, йде завантаження..."
 msgid "Please wait..."
 msgstr "Зачекайте будь ласка..."
 
-msgid "Please, select at least one polygon!"
-msgstr "Спочатку треба виділити хочаб один полігон!"
-
-msgid "Please, select category with at least one polygon!"
-msgstr "Спочатку треба виділити категорію з хочаб одним полігоном!"
-
 msgid "Please, select output file first!"
 msgstr "Будьласка, оберіть спочатку вихідний файл!"
-
-msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
-msgstr "Будь ласка вкажіть зум/координати або хоча б одну карту чи шар!"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
@@ -4551,7 +4557,7 @@ msgstr "SAS.Планета"
 msgid "SAS.Planet Development Team"
 msgstr "Команда розробників SAS.Планета"
 
-#. Programmer's name for it: SAS_MSG_need_reload_application_curln
+#. Programmer's name for it: SAS_MSG_NeedReloadApplication
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr "Для того щоб зміни набрали чинності, слід перезавантажити програму"
 
@@ -5991,6 +5997,10 @@ msgstr ""
 msgid "Waning Gibbous"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_warning
+msgid "Warning"
+msgstr ""
+
 msgid "Waxing Crescent"
 msgstr ""
 
@@ -6160,6 +6170,10 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#, fuzzy
+#~ msgid "Error!"
+#~ msgstr "Помилка"
 
 #~ msgid "Export Placemark"
 #~ msgstr "Експортувати  позначку"

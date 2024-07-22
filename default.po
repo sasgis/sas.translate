@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-07-19 13:40\n"
-"PO-Revision-Date: 2024-07-19 13:40\n"
+"POT-Creation-Date: 2024-07-22 17:06\n"
+"PO-Revision-Date: 2024-07-22 17:06\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -383,16 +383,6 @@ msgstr ""
 
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
-msgstr ""
-
-#. Programmer's name for it: rsAbortedCopyFmt
-#, object-pascal-format
-msgid "Aborted! Can't copy placemark \"%s\""
-msgstr ""
-
-#. Programmer's name for it: rsAbortedMoveFmt
-#, object-pascal-format
-msgid "Aborted! Can't move placemark \"%s\""
 msgstr ""
 
 #. frmMain..actlstMain..actHelpShowAbout..Caption
@@ -836,7 +826,7 @@ msgid ""
 msgstr ""
 
 #. Programmer's name for it: SAS_MSG_coution
-msgid "Attention!"
+msgid "Attention"
 msgstr ""
 
 #. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
@@ -1131,6 +1121,11 @@ msgstr ""
 msgid "Can't bound the Map - GUID not found!"
 msgstr ""
 
+#. Programmer's name for it: rsCantCopyFmt
+#, object-pascal-format
+msgid "Can't copy placemark \"%s\""
+msgstr ""
+
 #. http://www.sasgis.org/mantis/view.php?id=3435
 #, object-pascal-format
 msgid ""
@@ -1146,6 +1141,11 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
+msgstr ""
+
+#. Programmer's name for it: rsCantMoveFmt
+#, object-pascal-format
+msgid "Can't move placemark \"%s\""
 msgstr ""
 
 #, object-pascal-format
@@ -1649,7 +1649,7 @@ msgid "Delete empty tiles"
 msgstr ""
 
 #, object-pascal-format
-msgid "Delete from Favorites: '%s'?"
+msgid "Delete from Favorites: \"%s\"?"
 msgstr ""
 
 #. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
@@ -2114,6 +2114,7 @@ msgstr ""
 msgid "Equinox at"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_error
 #. Programmer's name for it: rsError
 msgid "Error"
 msgstr ""
@@ -2150,10 +2151,6 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
-msgstr ""
-
-#. Programmer's name for it: SAS_MSG_error
-msgid "Error!"
 msgstr ""
 
 #. Programmer's name for it: rsEvent
@@ -2798,6 +2795,10 @@ msgstr ""
 
 #. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_information
+msgid "Information"
 msgstr ""
 
 #. Programmer's name for it: rsInitializing
@@ -3582,7 +3583,9 @@ msgstr ""
 msgid "No tiles to export!"
 msgstr ""
 
-msgid "No write access to current Marks DB!"
+msgid ""
+"No write access to the current Marks "
+"DB!"
 msgstr ""
 
 #. Programmer's name for it: rsNoWriteAccess
@@ -4034,6 +4037,9 @@ msgid ""
 "layer"
 msgstr ""
 
+msgid "Please select at least one polygon!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr ""
@@ -4048,6 +4054,11 @@ msgstr ""
 msgid "Please select at least one zoom!"
 msgstr ""
 
+msgid ""
+"Please select category with at least one "
+"polygon!"
+msgstr ""
+
 msgid "Please select output folder"
 msgstr ""
 
@@ -4058,6 +4069,11 @@ msgid "Please select the map first!"
 msgstr ""
 
 msgid "Please select the output file first!"
+msgstr ""
+
+msgid ""
+"Please select zoom/coordinates or at least one Layer or Map "
+"first!"
 msgstr ""
 
 msgid "Please specify where to save!"
@@ -4081,20 +4097,7 @@ msgstr ""
 msgid "Please wait..."
 msgstr ""
 
-msgid "Please, select at least one polygon!"
-msgstr ""
-
-msgid ""
-"Please, select category with at least one "
-"polygon!"
-msgstr ""
-
 msgid "Please, select output file first!"
-msgstr ""
-
-msgid ""
-"Please, select zoom/coordinates or at least one Layer or Map "
-"first!"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
@@ -4508,7 +4511,7 @@ msgstr ""
 msgid "SAS.Planet Development Team"
 msgstr ""
 
-#. Programmer's name for it: SAS_MSG_need_reload_application_curln
+#. Programmer's name for it: SAS_MSG_NeedReloadApplication
 msgid ""
 "SAS.Planet must be restarted for the changes to take "
 "effect"
@@ -5915,6 +5918,10 @@ msgid "Waning Crescent"
 msgstr ""
 
 msgid "Waning Gibbous"
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_warning
+msgid "Warning"
 msgstr ""
 
 msgid "Waxing Crescent"

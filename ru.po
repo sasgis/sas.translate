@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-07-19 13:40\n"
-"PO-Revision-Date: 2024-07-19 13:47+0300\n"
+"POT-Creation-Date: 2024-07-22 17:06\n"
+"PO-Revision-Date: 2024-07-22 17:11+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -378,16 +378,6 @@ msgstr "сот"
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "Прервать"
-
-#. Programmer's name for it: rsAbortedCopyFmt
-#, object-pascal-format
-msgid "Aborted! Can't copy placemark \"%s\""
-msgstr "Прервано! Невозможно скопировать метку \"%s\""
-
-#. Programmer's name for it: rsAbortedMoveFmt
-#, object-pascal-format
-msgid "Aborted! Can't move placemark \"%s\""
-msgstr "Прервано! Невозможно переместить метку \"%s\""
 
 #. frmMain..actlstMain..actHelpShowAbout..Caption
 #. frmAbout..Caption
@@ -806,8 +796,8 @@ msgid ""
 msgstr ""
 
 #. Programmer's name for it: SAS_MSG_coution
-msgid "Attention!"
-msgstr "Внимание!"
+msgid "Attention"
+msgstr "Внимание"
 
 #. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
 msgid "Attribution:"
@@ -1096,6 +1086,11 @@ msgstr "Невозможно получить db: %s"
 msgid "Can't bound the Map - GUID not found!"
 msgstr ""
 
+#. Programmer's name for it: rsCantCopyFmt
+#, object-pascal-format
+msgid "Can't copy placemark \"%s\""
+msgstr "Невозможно скопировать метку \"%s\""
+
 #. http://www.sasgis.org/mantis/view.php?id=3435
 #, object-pascal-format
 msgid ""
@@ -1111,6 +1106,11 @@ msgstr "Невозможно создать хранилище в памяти. 
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr "Ошибка загрузки изображения исходного типа"
+
+#. Programmer's name for it: rsCantMoveFmt
+#, object-pascal-format
+msgid "Can't move placemark \"%s\""
+msgstr "Невозможно переместить метку \"%s\""
 
 #, object-pascal-format
 msgid "Can't open file: %s"
@@ -1604,8 +1604,8 @@ msgid "Delete empty tiles"
 msgstr "Удалить пустые тайлы"
 
 #, object-pascal-format
-msgid "Delete from Favorites: '%s'?"
-msgstr "Удалить '%s' из избранного?"
+msgid "Delete from Favorites: \"%s\"?"
+msgstr "Удалить \"%s\" из избранного?"
 
 #. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
 msgid "Delete only tiles of size, bytes:"
@@ -2061,6 +2061,7 @@ msgstr "Ввод параметров"
 msgid "Equinox at"
 msgstr "Равноденствие в"
 
+#. Programmer's name for it: SAS_MSG_error
 #. Programmer's name for it: rsError
 msgid "Error"
 msgstr "Ошибка"
@@ -2098,10 +2099,6 @@ msgstr "Ошибка ввода координат: широта %s, долго�
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Ошибка при сохранении!"
-
-#. Programmer's name for it: SAS_MSG_error
-msgid "Error!"
-msgstr "Ошибка!"
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -2741,6 +2738,10 @@ msgstr "Движение по инерции"
 
 #. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
+msgstr "Информация"
+
+#. Programmer's name for it: SAS_MSG_information
+msgid "Information"
 msgstr "Информация"
 
 #. Programmer's name for it: rsInitializing
@@ -3515,7 +3516,7 @@ msgstr "Недостаточно места в БД для выполнения 
 msgid "No tiles to export!"
 msgstr "Нечего экспортировать!"
 
-msgid "No write access to current Marks DB!"
+msgid "No write access to the current Marks DB!"
 msgstr "Нет доступа на запись в текущую базу меток!"
 
 #. Programmer's name for it: rsNoWriteAccess
@@ -3963,6 +3964,9 @@ msgstr "Сначала необходимо выбрать хотя бы одн�
 msgid "Please select at least one map or overlay layer"
 msgstr "Сначала необходимо выбрать хотя бы одну карту или слой"
 
+msgid "Please select at least one polygon!"
+msgstr "Сначала необходимо выделить хотя бы один полигон!"
+
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr "Сначала необходимо выделить хотя бы одну область"
@@ -3977,6 +3981,9 @@ msgstr "Сначала необходимо выбрать хотя бы оди�
 msgid "Please select at least one zoom!"
 msgstr "Сначала необходимо выбрать хотя бы один зум!"
 
+msgid "Please select category with at least one polygon!"
+msgstr "Сначала необходимо выделить категорию хотя бы с одним полигоном!"
+
 msgid "Please select output folder"
 msgstr "Пожалуйста, укажите целевую папку"
 
@@ -3988,6 +3995,10 @@ msgstr "Сначала необходимо выбрать карту!"
 
 msgid "Please select the output file first!"
 msgstr "Необходимо выбрать имя результирующего файла!"
+
+msgid "Please select zoom/coordinates or at least one Layer or Map first!"
+msgstr ""
+"Необходимо указать зум/координаты или выбрать хотя бы один слой или карту!"
 
 msgid "Please specify where to save!"
 msgstr "Укажите, пожалуйста, куда сохранять!"
@@ -4008,18 +4019,8 @@ msgstr "Подождите, идет загрузка..."
 msgid "Please wait..."
 msgstr "Пожалуйста, подождите..."
 
-msgid "Please, select at least one polygon!"
-msgstr "Сначала необходимо выделить хотя бы один полигон!"
-
-msgid "Please, select category with at least one polygon!"
-msgstr "Сначала необходимо выделить категорию хотя бы с одним полигоном!"
-
 msgid "Please, select output file first!"
 msgstr "Необходимо выбрать имя результирующего файла"
-
-msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
-msgstr ""
-"Необходимо указать зум/координаты или выбрать хотя бы один слой или карту!"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
@@ -4426,7 +4427,7 @@ msgstr "SAS.Планета"
 msgid "SAS.Planet Development Team"
 msgstr "команда разработчиков SAS.Планета"
 
-#. Programmer's name for it: SAS_MSG_need_reload_application_curln
+#. Programmer's name for it: SAS_MSG_NeedReloadApplication
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr ""
 "Для того чтобы изменения вступили в силу,\n"
@@ -5823,6 +5824,10 @@ msgstr "Убывающая в посл. четв."
 
 msgid "Waning Gibbous"
 msgstr "Убывающая в третьей четв."
+
+#. Programmer's name for it: SAS_MSG_warning
+msgid "Warning"
+msgstr "Предупреждение"
 
 msgid "Waxing Crescent"
 msgstr "Растущая в перв. четв."

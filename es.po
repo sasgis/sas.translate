@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-07-19 13:40\n"
+"POT-Creation-Date: 2024-07-22 17:06\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -399,16 +399,6 @@ msgstr "ha"
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "Cancelar"
-
-#. Programmer's name for it: rsAbortedCopyFmt
-#, object-pascal-format
-msgid "Aborted! Can't copy placemark \"%s\""
-msgstr ""
-
-#. Programmer's name for it: rsAbortedMoveFmt
-#, fuzzy, object-pascal-format
-msgid "Aborted! Can't move placemark \"%s\""
-msgstr "Crear Marca"
 
 #. frmMain..actlstMain..actHelpShowAbout..Caption
 #. frmAbout..Caption
@@ -846,7 +836,8 @@ msgstr ""
 "caracteres ASCII!"
 
 #. Programmer's name for it: SAS_MSG_coution
-msgid "Attention!"
+#, fuzzy
+msgid "Attention"
 msgstr "¡Atención!"
 
 #. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
@@ -1141,6 +1132,11 @@ msgstr "Imposible conectar db: %s"
 msgid "Can't bound the Map - GUID not found!"
 msgstr "¡No se puede cerrar el Mapa - GUID no encontrado!"
 
+#. Programmer's name for it: rsCantCopyFmt
+#, fuzzy, object-pascal-format
+msgid "Can't copy placemark \"%s\""
+msgstr "Crear Marca"
+
 #. http://www.sasgis.org/mantis/view.php?id=3435
 #, object-pascal-format
 msgid ""
@@ -1154,6 +1150,11 @@ msgstr "Imposible inicializar mosaicos en memoria. ¡Chequear configuración!"
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr "No se puede cargar bitmap desde tipo de fuente"
+
+#. Programmer's name for it: rsCantMoveFmt
+#, fuzzy, object-pascal-format
+msgid "Can't move placemark \"%s\""
+msgstr "Crear Marca"
 
 #, object-pascal-format
 msgid "Can't open file: %s"
@@ -1670,8 +1671,8 @@ msgstr "Borrar"
 msgid "Delete empty tiles"
 msgstr "Borrar mosaicos vacíos"
 
-#, object-pascal-format
-msgid "Delete from Favorites: '%s'?"
+#, fuzzy, object-pascal-format
+msgid "Delete from Favorites: \"%s\"?"
 msgstr "¿Borrar de Favoritos: '%s'?"
 
 #. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
@@ -2139,6 +2140,7 @@ msgstr "Ingrese parámetros"
 msgid "Equinox at"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_error
 #. Programmer's name for it: rsError
 msgid "Error"
 msgstr "Error"
@@ -2176,11 +2178,6 @@ msgstr "Error analizando coordenadas: Lat=%s Lon=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "¡Error durante guardado!"
-
-#. Programmer's name for it: SAS_MSG_error
-#, fuzzy
-msgid "Error!"
-msgstr "Error"
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -2847,6 +2844,11 @@ msgstr "Movimiento Inercial de Pantalla"
 #. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
 msgstr "Info"
+
+#. Programmer's name for it: SAS_MSG_information
+#, fuzzy
+msgid "Information"
+msgstr "Opciones de Pantalla"
 
 #. Programmer's name for it: rsInitializing
 msgid "Initializing..."
@@ -3648,7 +3650,7 @@ msgid "No tiles to export!"
 msgstr "¡Nada para importar!"
 
 #, fuzzy
-msgid "No write access to current Marks DB!"
+msgid "No write access to the current Marks DB!"
 msgstr "Sin acceso de grabación a almacenamiento de mosaicos"
 
 #. Programmer's name for it: rsNoWriteAccess
@@ -4118,6 +4120,10 @@ msgstr "Por favor, seleccione un mapa como mínimo"
 msgid "Please select at least one map or overlay layer"
 msgstr "Por favor, seleccione un mapa o un layer como mínimo"
 
+#, fuzzy
+msgid "Please select at least one polygon!"
+msgstr "¡Por favor, seleccione un polígono como mínimo!"
+
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr "Por favor, seleccione una región como mínimo"
@@ -4134,6 +4140,10 @@ msgstr "Por favor, seleccione un zoom como mínimo"
 msgid "Please select at least one zoom!"
 msgstr "Por favor, seleccione un zoom como mínimo"
 
+#, fuzzy
+msgid "Please select category with at least one polygon!"
+msgstr "¡Por favor, seleccione categoría con un polígono como mínimo!"
+
 msgid "Please select output folder"
 msgstr "Por favor, seleccione una carpeta de salida"
 
@@ -4148,6 +4158,10 @@ msgstr "¡Por favor, seleccione un archivo de salida primero!"
 #, fuzzy
 msgid "Please select the output file first!"
 msgstr "¡Por favor, seleccione un archivo de salida primero!"
+
+#, fuzzy
+msgid "Please select zoom/coordinates or at least one Layer or Map first!"
+msgstr "¡Por favor, seleccione Zoom/coordenadas o un mapa o un layer primero!"
 
 msgid "Please specify where to save!"
 msgstr ""
@@ -4168,17 +4182,8 @@ msgstr "Por favor espere, descarga en progreso..."
 msgid "Please wait..."
 msgstr "Por favor espere..."
 
-msgid "Please, select at least one polygon!"
-msgstr "¡Por favor, seleccione un polígono como mínimo!"
-
-msgid "Please, select category with at least one polygon!"
-msgstr "¡Por favor, seleccione categoría con un polígono como mínimo!"
-
 msgid "Please, select output file first!"
 msgstr "¡Por favor, seleccione un archivo de salida primero!"
-
-msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
-msgstr "¡Por favor, seleccione Zoom/coordenadas o un mapa o un layer primero!"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
@@ -4597,7 +4602,7 @@ msgstr "SAS.Planet"
 msgid "SAS.Planet Development Team"
 msgstr "SAS.Planet Development Team"
 
-#. Programmer's name for it: SAS_MSG_need_reload_application_curln
+#. Programmer's name for it: SAS_MSG_NeedReloadApplication
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr "SAS.Planet debe ser reiniciado para que los cambios tengan efecto"
 
@@ -6044,6 +6049,10 @@ msgstr ""
 msgid "Waning Gibbous"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_warning
+msgid "Warning"
+msgstr ""
+
 msgid "Waxing Crescent"
 msgstr ""
 
@@ -6214,6 +6223,10 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#, fuzzy
+#~ msgid "Error!"
+#~ msgstr "Error"
 
 #~ msgid "Export Placemark"
 #~ msgstr "Exportar Marcas"

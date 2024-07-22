@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-07-19 13:40\n"
+"POT-Creation-Date: 2024-07-22 17:06\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -384,16 +384,6 @@ msgstr "ha"
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "İptal et"
-
-#. Programmer's name for it: rsAbortedCopyFmt
-#, object-pascal-format
-msgid "Aborted! Can't copy placemark \"%s\""
-msgstr ""
-
-#. Programmer's name for it: rsAbortedMoveFmt
-#, fuzzy, object-pascal-format
-msgid "Aborted! Can't move placemark \"%s\""
-msgstr "Yer işareti oluştur"
 
 #. frmMain..actlstMain..actHelpShowAbout..Caption
 #. frmAbout..Caption
@@ -819,7 +809,8 @@ msgstr ""
 "En az bir kalibrasyon türü, yalnızca ASCII karakterli dosya adını destekler!"
 
 #. Programmer's name for it: SAS_MSG_coution
-msgid "Attention!"
+#, fuzzy
+msgid "Attention"
 msgstr "Dikkat!"
 
 #. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
@@ -1112,6 +1103,11 @@ msgstr "DB alınamıyor: %s"
 msgid "Can't bound the Map - GUID not found!"
 msgstr "Haritaya bağlanamıyor - GUID bulunamadı!"
 
+#. Programmer's name for it: rsCantCopyFmt
+#, fuzzy, object-pascal-format
+msgid "Can't copy placemark \"%s\""
+msgstr "Yer işareti oluştur"
+
 #. http://www.sasgis.org/mantis/view.php?id=3435
 #, object-pascal-format
 msgid ""
@@ -1128,6 +1124,11 @@ msgstr ""
 #. Programmer's name for it: SAS_ERR_CantLoadBitmapFromSourceType
 msgid "Can't load bitmap from source type"
 msgstr "Kaynak türünden bitmap yüklenemiyor"
+
+#. Programmer's name for it: rsCantMoveFmt
+#, fuzzy, object-pascal-format
+msgid "Can't move placemark \"%s\""
+msgstr "Yer işareti oluştur"
 
 #, object-pascal-format
 msgid "Can't open file: %s"
@@ -1624,8 +1625,8 @@ msgstr "Kategoriyi Sil"
 msgid "Delete empty tiles"
 msgstr "Boş döşemeleri sil"
 
-#, object-pascal-format
-msgid "Delete from Favorites: '%s'?"
+#, fuzzy, object-pascal-format
+msgid "Delete from Favorites: \"%s\"?"
 msgstr "Favorilerden silinsin: '%s'?"
 
 #. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
@@ -2088,6 +2089,7 @@ msgstr "Parametreleri gir"
 msgid "Equinox at"
 msgstr "Ekinoks"
 
+#. Programmer's name for it: SAS_MSG_error
 #. Programmer's name for it: rsError
 msgid "Error"
 msgstr "Hata"
@@ -2125,10 +2127,6 @@ msgstr "Koordinatlar ayrıştırılırken hata oluştu: Enlem=%s Boylam=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Kaydederken hata oluştu!"
-
-#. Programmer's name for it: SAS_MSG_error
-msgid "Error!"
-msgstr "Hata!"
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -2781,6 +2779,11 @@ msgstr "Atalet Hareketi"
 #. frMapsList..pnlMapsRightButtons..btnMapInfo..Caption
 msgid "Info"
 msgstr "Bilgi"
+
+#. Programmer's name for it: SAS_MSG_information
+#, fuzzy
+msgid "Information"
+msgstr "Oluşturucu Seçenekleri"
 
 #. Programmer's name for it: rsInitializing
 msgid "Initializing..."
@@ -3567,7 +3570,8 @@ msgstr "Harici döşeme deposunda yer yok"
 msgid "No tiles to export!"
 msgstr "Dışa aktarılacak döşeme yok!"
 
-msgid "No write access to current Marks DB!"
+#, fuzzy
+msgid "No write access to the current Marks DB!"
 msgstr "Mevcut Marks DB'ye yazma erişimi yok!"
 
 #. Programmer's name for it: rsNoWriteAccess
@@ -4022,6 +4026,10 @@ msgstr "Lütfen en az bir harita seçin"
 msgid "Please select at least one map or overlay layer"
 msgstr "Lütfen en az bir harita veya yer paylaşım katmanı seçiniz"
 
+#, fuzzy
+msgid "Please select at least one polygon!"
+msgstr "Lütfen, en az bir çokgen seçin!"
+
 #. Programmer's name for it: SAS_MSG_NeedHL
 msgid "Please select at least one region"
 msgstr "Lütfen en az bir bölge seçin"
@@ -4037,6 +4045,10 @@ msgstr "Lütfen en az bir yakınlaştırma seçeneği seçin"
 msgid "Please select at least one zoom!"
 msgstr "Lütfen en az bir yakınlaştırma seçeneği seçin!"
 
+#, fuzzy
+msgid "Please select category with at least one polygon!"
+msgstr "Lütfen, en az bir poligon ile kategori seçin!"
+
 msgid "Please select output folder"
 msgstr "Lütfen çıktı klasörünü seçiniz"
 
@@ -4050,6 +4062,12 @@ msgstr "Lütfen önce haritayı seçin!"
 #, fuzzy
 msgid "Please select the output file first!"
 msgstr "Lütfen önce çıktı dosyasını seçin!"
+
+#, fuzzy
+msgid "Please select zoom/coordinates or at least one Layer or Map first!"
+msgstr ""
+"Lütfen yakınlaştırma / koordinatları veya önce en az bir katman veya harita "
+"seçiniz!"
 
 msgid "Please specify where to save!"
 msgstr ""
@@ -4070,19 +4088,8 @@ msgstr "Lütfen bekleyin, indirme işlemi devam ediyor..."
 msgid "Please wait..."
 msgstr "Lütfen bekleyin..."
 
-msgid "Please, select at least one polygon!"
-msgstr "Lütfen, en az bir çokgen seçin!"
-
-msgid "Please, select category with at least one polygon!"
-msgstr "Lütfen, en az bir poligon ile kategori seçin!"
-
 msgid "Please, select output file first!"
 msgstr "Lütfen önce çıktı dosyasını seçin!"
-
-msgid "Please, select zoom/coordinates or at least one Layer or Map first!"
-msgstr ""
-"Lütfen yakınlaştırma / koordinatları veya önce en az bir katman veya harita "
-"seçiniz!"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerPointerSize..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
@@ -4493,7 +4500,7 @@ msgstr "SAS.Planet"
 msgid "SAS.Planet Development Team"
 msgstr "SAS.Planet Geliştirme Ekibi"
 
-#. Programmer's name for it: SAS_MSG_need_reload_application_curln
+#. Programmer's name for it: SAS_MSG_NeedReloadApplication
 msgid "SAS.Planet must be restarted for the changes to take effect"
 msgstr "Değişikliklerin geçerli olması için SAS.Planet yeniden başlatılmalıdır"
 
@@ -5912,6 +5919,10 @@ msgstr "Küçülen Hilal"
 msgid "Waning Gibbous"
 msgstr "Küçülen Şişkin Ay"
 
+#. Programmer's name for it: SAS_MSG_warning
+msgid "Warning"
+msgstr ""
+
 msgid "Waxing Crescent"
 msgstr "Büyüyen Hilal"
 
@@ -6076,6 +6087,9 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "Error!"
+#~ msgstr "Hata!"
 
 #~ msgid "Export Placemark"
 #~ msgstr "Yer İşaretini Dışa Aktar"
