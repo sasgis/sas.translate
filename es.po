@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-07-22 17:06\n"
+"POT-Creation-Date: 2024-08-07 15:25\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1260,6 +1260,11 @@ msgstr ""
 msgid "Cleaning up. "
 msgstr ""
 
+msgid ""
+"Click on the placemark with the right mouse button and select \"Navigation "
+"to Placemark\""
+msgstr ""
+
 #, fuzzy
 msgid "Clipboard is empty!"
 msgstr "&Copiar al Portapapeles"
@@ -1883,6 +1888,10 @@ msgstr "Distancia #2, km:"
 msgid "Distance: %.2f m"
 msgstr "Distancia #2, km:"
 
+#, fuzzy, object-pascal-format
+msgid "Distance: %s"
+msgstr "Distancia:"
+
 #. frmCacheManager..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
@@ -2101,6 +2110,10 @@ msgstr "Info de Elevación"
 #, object-pascal-format
 msgid "Elevation: %d, %d, %d m"
 msgstr ""
+
+#, fuzzy, object-pascal-format
+msgid "Elevation: %s"
+msgstr "Info de Elevación"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -3941,6 +3954,10 @@ msgid "Parent submenu"
 msgstr "Submenu padre"
 
 #, fuzzy, object-pascal-format
+msgid "Part: %d/%d"
+msgstr "Número de componentes: % d"
+
+#, fuzzy, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Número de componentes: % d"
 
@@ -5279,6 +5296,10 @@ msgstr ""
 msgid "Speed: %.2f, %.2f, %.2f km/h"
 msgstr ""
 
+#, fuzzy, object-pascal-format
+msgid "Speed: %s"
+msgstr "Velocidad"
+
 #, fuzzy
 msgid "Spherical Mercator (GoogleMaps, OSM, Bing) / EPSG:3857"
 msgstr "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
@@ -5836,10 +5857,6 @@ msgstr "Desconocido"
 msgid "Unknown critical error at external tile storage"
 msgstr "Error desconocido en almacenamiento externo de mosaicos"
 
-#, fuzzy
-msgid "Unknown error"
-msgstr "Error desconocido: %s"
-
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
 msgid ""
 "Unknown error at external tile storage, see Storage Options for more "
@@ -5850,6 +5867,10 @@ msgstr ""
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
 msgstr "Error desconocido durante descarga"
+
+#, fuzzy
+msgid "Unknown HTTP request error!"
+msgstr "Error desconocido: %s"
 
 #, object-pascal-format
 msgid "Unknown status code %d"

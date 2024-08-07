@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-07-22 17:06\n"
-"PO-Revision-Date: 2024-07-22 17:06\n"
+"POT-Creation-Date: 2024-08-07 15:25\n"
+"PO-Revision-Date: 2024-08-07 15:25\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1249,6 +1249,11 @@ msgstr ""
 msgid "Cleaning up. "
 msgstr ""
 
+msgid ""
+"Click on the placemark with the right mouse button and select "
+"\"Navigation to Placemark\""
+msgstr ""
+
 msgid "Clipboard is empty!"
 msgstr ""
 
@@ -1855,6 +1860,10 @@ msgstr ""
 msgid "Distance: %.2f m"
 msgstr ""
 
+#, object-pascal-format
+msgid "Distance: %s"
+msgstr ""
+
 #. frmCacheManager..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
@@ -2071,6 +2080,10 @@ msgstr ""
 #. Programmer's name for it: rsElevationProfileElevFmt
 #, object-pascal-format
 msgid "Elevation: %d, %d, %d m"
+msgstr ""
+
+#, object-pascal-format
+msgid "Elevation: %s"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
@@ -3864,6 +3877,10 @@ msgid "Parent submenu"
 msgstr ""
 
 #, object-pascal-format
+msgid "Part: %d/%d"
+msgstr ""
+
+#, object-pascal-format
 msgid "Parts count: %d"
 msgstr ""
 
@@ -5167,6 +5184,10 @@ msgstr ""
 msgid "Speed: %.2f, %.2f, %.2f km/h"
 msgstr ""
 
+#, object-pascal-format
+msgid "Speed: %s"
+msgstr ""
+
 msgid ""
 "Spherical Mercator (GoogleMaps, OSM, Bing) / "
 "EPSG:3857"
@@ -5709,9 +5730,6 @@ msgid ""
 "storage"
 msgstr ""
 
-msgid "Unknown error"
-msgstr ""
-
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
 msgid ""
 "Unknown error at external tile storage, see Storage Options for more "
@@ -5720,6 +5738,9 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
+msgstr ""
+
+msgid "Unknown HTTP request error!"
 msgstr ""
 
 #, object-pascal-format

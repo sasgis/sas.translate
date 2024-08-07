@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-07-22 17:06\n"
-"PO-Revision-Date: 2024-07-22 17:11+0300\n"
+"POT-Creation-Date: 2024-08-07 15:25\n"
+"PO-Revision-Date: 2024-08-07 15:27+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1209,6 +1209,11 @@ msgstr "Нач. Гражд. сумерек"
 msgid "Cleaning up. "
 msgstr "Очистка. "
 
+msgid ""
+"Click on the placemark with the right mouse button and select \"Navigation "
+"to Placemark\""
+msgstr ""
+
 msgid "Clipboard is empty!"
 msgstr "Буфер обмена пуст!"
 
@@ -1812,6 +1817,10 @@ msgstr "Расстояние: %.2f км"
 msgid "Distance: %.2f m"
 msgstr "Расстояние: %.2f м"
 
+#, object-pascal-format
+msgid "Distance: %s"
+msgstr "Расстояние: %s"
+
 #. frmCacheManager..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmGoTo..pnlBottomButtons..TBXDontClose..tbtmDontClose..Hint
@@ -2023,6 +2032,10 @@ msgstr "Высота: %.2f м"
 #, object-pascal-format
 msgid "Elevation: %d, %d, %d m"
 msgstr "Высота: %d, %d, %d м"
+
+#, object-pascal-format
+msgid "Elevation: %s"
+msgstr "Высота: %s"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -3793,6 +3806,10 @@ msgid "Parent submenu"
 msgstr "Родительский пункт меню"
 
 #, object-pascal-format
+msgid "Part: %d/%d"
+msgstr "Часть: %d/%d"
+
+#, object-pascal-format
 msgid "Parts count: %d"
 msgstr "Количество частей: %d"
 
@@ -5081,6 +5098,10 @@ msgstr "Скорость: %.2f км/ч"
 msgid "Speed: %.2f, %.2f, %.2f km/h"
 msgstr "Скорость: %.2f, %.2f, %.2f км/ч"
 
+#, object-pascal-format
+msgid "Speed: %s"
+msgstr "Скорость: %s"
+
 msgid "Spherical Mercator (GoogleMaps, OSM, Bing) / EPSG:3857"
 msgstr ""
 
@@ -5620,9 +5641,6 @@ msgstr "Неизвестно"
 msgid "Unknown critical error at external tile storage"
 msgstr "Общая критическая ошибка в СУБД"
 
-msgid "Unknown error"
-msgstr "Неизвестная ошибка"
-
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
 msgid ""
 "Unknown error at external tile storage, see Storage Options for more "
@@ -5632,6 +5650,10 @@ msgstr "Общая ошибка в СУБД, см. Настройки храни
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
 msgid "Unknown error during download"
 msgstr "Неизвестная ошибка при скачивании"
+
+#, fuzzy
+msgid "Unknown HTTP request error!"
+msgstr "Неизвестная ошибка"
 
 #, object-pascal-format
 msgid "Unknown status code %d"
