@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-08-21 15:38\n"
+"POT-Creation-Date: 2024-08-28 18:29\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -763,14 +763,11 @@ msgstr "Seçili bölgedeki döşemeleri silmek istediğinizden emin misiniz?"
 msgid "Are you sure you want to reset sensor?"
 msgstr "Sensörü sıfırlamak istediğinizden emin misiniz?"
 
-#. Programmer's name for it: SAS_STR_S
-msgid "Area"
-msgstr "Alan"
-
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..lblAreaFormat..Caption
 msgid "Area representation"
 msgstr "Alan gösterimi"
 
+#. Programmer's name for it: SAS_STR_Area
 #, object-pascal-format
 msgid "Area: %s"
 msgstr "Alan: %s"
@@ -874,7 +871,6 @@ msgid "Az."
 msgstr "Az."
 
 #. frmPointProjecting..pnlAzimuth..lblAzimuth..Caption
-#. Programmer's name for it: SAS_STR_Azimuth
 #. Programmer's name for it: rsAzimuth
 msgid "Azimuth"
 msgstr "Azimut"
@@ -882,6 +878,11 @@ msgstr "Azimut"
 #. frmMain..actlstMain..actConfigAzimuthCircle..Caption
 msgid "Azimuth Circle"
 msgstr "Azimut Dairesi"
+
+#. Programmer's name for it: SAS_STR_Azimuth
+#, fuzzy, object-pascal-format
+msgid "Azimuth: %s"
+msgstr "Azimut"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..lblBGColor..Caption
 msgid "Background color"
@@ -2995,10 +2996,6 @@ msgstr "Katmanlar (%d)"
 msgid "Layers:"
 msgstr "Katmanlar:"
 
-#. Programmer's name for it: SAS_STR_L
-msgid "Length"
-msgstr "Uzunluk"
-
 #, object-pascal-format
 msgid "Length: %s"
 msgstr "Uzunluk: %s"
@@ -3962,10 +3959,7 @@ msgstr "Kullanıcı tarafından duraklatıldı..."
 msgid "Paused... (%0:s)"
 msgstr "Duraklatıldı... (%0:s)"
 
-#. Programmer's name for it: SAS_STR_P
-msgid "Perimeter"
-msgstr "Çevre Uzunluğu"
-
+#. Programmer's name for it: SAS_STR_Perimeter
 #, object-pascal-format
 msgid "Perimeter: %s"
 msgstr "Çevre Uzunluğu: %s"
@@ -4304,7 +4298,6 @@ msgid "Quit"
 msgstr "Çıkış"
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadiusCap1..Caption
-#. Programmer's name for it: SAS_STR_Radius
 msgid "Radius"
 msgstr "Yarıçap"
 
@@ -4314,6 +4307,11 @@ msgstr "Yarıçap sıfırdan büyük olmalıdır!"
 #. frmPolygonForOperationConfig..lblRadius..Caption
 msgid "Radius, m"
 msgstr "Yarıçap, m"
+
+#. Programmer's name for it: SAS_STR_Radius
+#, fuzzy, object-pascal-format
+msgid "Radius: %s"
+msgstr "Yarıçap"
 
 #. Programmer's name for it: rsRAMCacheName
 #. Programmer's name for it: rsRAM
@@ -4820,6 +4818,11 @@ msgstr "Göster / Gizle"
 msgid "Show all placemarks"
 msgstr "Tüm yer işaretlerini göster"
 
+#. frmMain..actlstMain..actEditPolygonShowArea..Caption
+#, fuzzy
+msgid "Show area"
+msgstr "Hızı Göster"
+
 #. frmMain..actlstMain..actCalcLineShowAzimuth..Caption
 #. frmMain..actlstMain..actCalcLineShowAzimuth..Hint
 #. frmMain..actlstMain..actEditPathShowAzimuth..Caption
@@ -4927,6 +4930,11 @@ msgstr "Yalnızca seçili yer işaretlerini göster"
 msgid "Show other Versions"
 msgstr "Diğer Sürümleri Göster"
 
+#. frmMain..actlstMain..actEditPolygonShowPerimeter..Caption
+#, fuzzy
+msgid "Show perimeter"
+msgstr "Gölge, metre"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarksCaptionVisible..Caption
 msgid "Show placemark names"
 msgstr "Yer işareti adlarını göster"
@@ -4979,6 +4987,8 @@ msgstr "Yakınlaştırma Bilgisini göster"
 #. frmMain..actlstMain..actCalcLineLabelVisible..Hint
 #. frmMain..actlstMain..actEditPathLabelVisible..Caption
 #. frmMain..actlstMain..actEditPathLabelVisible..Hint
+#. frmMain..actlstMain..actEditPolygonLabelVisible..Caption
+#. frmMain..actlstMain..actEditPolygonLabelVisible..Hint
 msgid "Show/Hide Captions"
 msgstr "Altyazıları Göster/Gizle"
 
@@ -5673,13 +5683,14 @@ msgstr "Araç Çubukları"
 msgid "Tools"
 msgstr "Araç Çubukları"
 
-#. Programmer's name for it: SAS_STR_Whole
-msgid "Total"
-msgstr "Toplam"
-
 #. Programmer's name for it: SAS_STR_AllSaves
 msgid "Total to save:"
 msgstr "Kaydedilecek toplam:"
+
+#. Programmer's name for it: SAS_STR_Whole
+#, fuzzy, object-pascal-format
+msgid "Total: %s"
+msgstr "Toplam"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
 msgid "Track"
@@ -6114,6 +6125,15 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "Area"
+#~ msgstr "Alan"
+
+#~ msgid "Length"
+#~ msgstr "Uzunluk"
+
+#~ msgid "Perimeter"
+#~ msgstr "Çevre Uzunluğu"
 
 #~ msgid "Error!"
 #~ msgstr "Hata!"
