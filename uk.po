@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-08-31 12:44\n"
+"POT-Creation-Date: 2024-09-12 18:17\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1820,6 +1820,11 @@ msgstr "Пройдений шлях"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2Caption
 msgid "Distance #2, km:"
 msgstr "Відстань № 2, км:"
+
+#. frmMain..TBDock..TBXMainMenu..NView..tbxsbmGeoCalc..Caption
+#, fuzzy
+msgid "Distance and Area Calculator"
+msgstr "Виміряти відстань"
 
 #. frmMain..actlstMain..actDistanceCalculation..Hint
 msgid "Distance calculation"
@@ -5912,6 +5917,10 @@ msgstr "Використовувати градієнт за часом"
 msgid "Use Deleted: Object is not exists!"
 msgstr "Спроба використати віддалений інтерфейсний об'єкт"
 
+#. frmMain..actlstMain..actGeoCalcUseGpsDatum..Caption
+msgid "Use GPS (WGS 84) Datum"
+msgstr ""
+
 #. frmMapLayersOptions..pgcOptions..tsElevation..chkElevUseInterpolation..Caption
 #. Programmer's name for it: rsUseElevationInterpolation
 msgid "Use Interpolation"
@@ -5920,6 +5929,10 @@ msgstr ""
 #. frmMain..actlstMain..actConfigUsePrevForLayers..Caption
 msgid "Use Layers from Lower Zooms"
 msgstr "Брати шари з менших масштабів"
+
+#. frmMain..actlstMain..actGeoCalcUseZmpDatum..Caption
+msgid "Use Map Datum (from zmp)"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigUsePrevForMap..Caption
 msgid "Use Maps from Lower Zooms"

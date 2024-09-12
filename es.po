@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-08-31 12:44\n"
+"POT-Creation-Date: 2024-09-12 18:17\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1842,6 +1842,11 @@ msgstr "Distancia"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2Caption
 msgid "Distance #2, km:"
 msgstr "Distancia #2, km:"
+
+#. frmMain..TBDock..TBXMainMenu..NView..tbxsbmGeoCalc..Caption
+#, fuzzy
+msgid "Distance and Area Calculator"
+msgstr "Medir Distancia"
 
 #. frmMain..actlstMain..actDistanceCalculation..Hint
 msgid "Distance calculation"
@@ -5964,6 +5969,10 @@ msgstr "Usar gradiente de antigüedad"
 msgid "Use Deleted: Object is not exists!"
 msgstr "¡El objeto no existe!"
 
+#. frmMain..actlstMain..actGeoCalcUseGpsDatum..Caption
+msgid "Use GPS (WGS 84) Datum"
+msgstr ""
+
 #. frmMapLayersOptions..pgcOptions..tsElevation..chkElevUseInterpolation..Caption
 #. Programmer's name for it: rsUseElevationInterpolation
 msgid "Use Interpolation"
@@ -5972,6 +5981,10 @@ msgstr ""
 #. frmMain..actlstMain..actConfigUsePrevForLayers..Caption
 msgid "Use Layers from Lower Zooms"
 msgstr "Usar Layers de zoom menores"
+
+#. frmMain..actlstMain..actGeoCalcUseZmpDatum..Caption
+msgid "Use Map Datum (from zmp)"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigUsePrevForMap..Caption
 msgid "Use Maps from Lower Zooms"

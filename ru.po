@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-08-31 12:44\n"
-"PO-Revision-Date: 2024-08-31 12:54+0300\n"
+"POT-Creation-Date: 2024-09-12 18:17\n"
+"PO-Revision-Date: 2024-09-12 18:19+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1771,6 +1771,10 @@ msgstr "Пройденный путь"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderOdometer2Caption
 msgid "Distance #2, km:"
 msgstr "Одометр № 2, км:"
+
+#. frmMain..TBDock..TBXMainMenu..NView..tbxsbmGeoCalc..Caption
+msgid "Distance and Area Calculator"
+msgstr "Калькулятор расстояний и площадей"
 
 #. frmMain..actlstMain..actDistanceCalculation..Hint
 msgid "Distance calculation"
@@ -5744,6 +5748,10 @@ msgstr "Существующие с градиентом"
 msgid "Use Deleted: Object is not exists!"
 msgstr "Попытка использовать удалённый интерфейсный объект"
 
+#. frmMain..actlstMain..actGeoCalcUseGpsDatum..Caption
+msgid "Use GPS (WGS 84) Datum"
+msgstr "Использовать датум GPS (WGS 84)"
+
 #. frmMapLayersOptions..pgcOptions..tsElevation..chkElevUseInterpolation..Caption
 #. Programmer's name for it: rsUseElevationInterpolation
 msgid "Use Interpolation"
@@ -5752,6 +5760,10 @@ msgstr "Использовать интерполяцию"
 #. frmMain..actlstMain..actConfigUsePrevForLayers..Caption
 msgid "Use Layers from Lower Zooms"
 msgstr "Брать слои из меньших масштабов"
+
+#. frmMain..actlstMain..actGeoCalcUseZmpDatum..Caption
+msgid "Use Map Datum (from zmp)"
+msgstr "Использовать датум карты (из zmp)"
 
 #. frmMain..actlstMain..actConfigUsePrevForMap..Caption
 msgid "Use Maps from Lower Zooms"
