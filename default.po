@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-09-12 18:17\n"
-"PO-Revision-Date: 2024-09-12 18:17\n"
+"POT-Creation-Date: 2024-11-24 16:23\n"
+"PO-Revision-Date: 2024-11-24 16:23\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1879,6 +1879,12 @@ msgstr ""
 msgid "Do not close this window when finish"
 msgstr ""
 
+#. do not localize
+msgid ""
+"Do you want to delete shared files __db.* and try "
+"again?"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr ""
@@ -2385,6 +2391,11 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_for
 msgid "For"
+msgstr ""
+
+#. Programmer's name for it: rsAdditionalInformationFmt
+#, object-pascal-format
+msgid "For additional information, see %s"
 msgstr ""
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlForcedSchemaName..lblForcedSchemaName..Caption
@@ -4144,7 +4155,7 @@ msgstr ""
 msgid "Polyline Selection"
 msgstr ""
 
-#. Programmer's name for it: rsPoolIsDesabled
+#. Programmer's name for it: rsPoolIsDisabled
 #, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr ""
@@ -5503,6 +5514,11 @@ msgstr ""
 msgid ""
 "There is no data in database for target "
 "location!"
+msgstr ""
+
+#. Programmer's name for it: rsNoDatabaseFmt
+#, object-pascal-format
+msgid "There is no database in: %s"
 msgstr ""
 
 msgid ""

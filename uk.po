@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-09-12 18:17\n"
+"POT-Creation-Date: 2024-11-24 16:23\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1886,6 +1886,10 @@ msgstr "Не закривати вікно після старту"
 msgid "Do not close this window when finish"
 msgstr "Не закривати вікно після закінчення"
 
+#. do not localize
+msgid "Do you want to delete shared files __db.* and try again?"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr "Не показувати"
@@ -2397,6 +2401,11 @@ msgstr "Розмір шрифту"
 #. Programmer's name for it: SAS_STR_for
 msgid "For"
 msgstr "Для"
+
+#. Programmer's name for it: rsAdditionalInformationFmt
+#, fuzzy, object-pascal-format
+msgid "For additional information, see %s"
+msgstr "Додаткові операції"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlForcedSchemaName..lblForcedSchemaName..Caption
 msgid "Forced Schema Name:"
@@ -4187,7 +4196,7 @@ msgstr "Полігони"
 msgid "Polyline Selection"
 msgstr "Виділення по шляху"
 
-#. Programmer's name for it: rsPoolIsDesabled
+#. Programmer's name for it: rsPoolIsDisabled
 #, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул вимкнено - Неможливо отримати db: %s"
@@ -5578,6 +5587,11 @@ msgstr ""
 #. Programmer's name for it: rsNoDataTarget
 msgid "There is no data in database for target location!"
 msgstr ""
+
+#. Programmer's name for it: rsNoDatabaseFmt
+#, fuzzy, object-pascal-format
+msgid "There is no database in: %s"
+msgstr "У карті %0:s помилка: %1:s"
 
 #, fuzzy
 msgid "There is no read access to the placemarks DB!"

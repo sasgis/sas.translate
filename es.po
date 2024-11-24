@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-09-12 18:17\n"
+"POT-Creation-Date: 2024-11-24 16:23\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1908,6 +1908,10 @@ msgstr "No cierre esta ventana al iniciar"
 msgid "Do not close this window when finish"
 msgstr "No cierre esta ventana al terminar"
 
+#. do not localize
+msgid "Do you want to delete shared files __db.* and try again?"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr ""
@@ -2422,6 +2426,11 @@ msgstr "Tamaño de Fuente"
 #. Programmer's name for it: SAS_STR_for
 msgid "For"
 msgstr "Para"
+
+#. Programmer's name for it: rsAdditionalInformationFmt
+#, fuzzy, object-pascal-format
+msgid "For additional information, see %s"
+msgstr "Operaciones Adicionales"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlForcedSchemaName..lblForcedSchemaName..Caption
 msgid "Forced Schema Name:"
@@ -4230,7 +4239,7 @@ msgstr "Poligonos"
 msgid "Polyline Selection"
 msgstr "Selección Polilínea"
 
-#. Programmer's name for it: rsPoolIsDesabled
+#. Programmer's name for it: rsPoolIsDisabled
 #, object-pascal-format
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Pool Inabilitado - Sin adquirir db: %s"
@@ -5625,6 +5634,11 @@ msgstr ""
 #. Programmer's name for it: rsNoDataTarget
 msgid "There is no data in database for target location!"
 msgstr ""
+
+#. Programmer's name for it: rsNoDatabaseFmt
+#, fuzzy, object-pascal-format
+msgid "There is no database in: %s"
+msgstr "Hay un error %1:s en mapa %0:s"
 
 #, fuzzy
 msgid "There is no read access to the placemarks DB!"
