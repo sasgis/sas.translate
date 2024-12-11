@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2024-12-10 10:53\n"
-"PO-Revision-Date: 2020-10-26 06:14+0100\n"
+"PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -18,9 +18,8 @@ msgstr ""
 msgid " Coordinates "
 msgstr "Coordonnées"
 
-#, fuzzy
 msgid "-- deg. (-12.12345678)"
-msgstr "-- deg. (-12.12345678°)"
+msgstr "-- deg. (-12.12345678)"
 
 msgid "-- deg. (-12.12345678°)"
 msgstr "-- deg. (-12.12345678°)"
@@ -86,11 +85,11 @@ msgstr "%s %.2f de %.2f Mb (%.2f%s)"
 #. Programmer's name for it: rsGeoCoderApiKeyCaptionFmt
 #, object-pascal-format
 msgid "%s API Key:"
-msgstr ""
+msgstr "%s API clé :"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "%s format settings"
-msgstr "Paramètres d'exportation"
+msgstr "%s paramètres de format"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
 msgid "&Coordinates"
@@ -192,7 +191,7 @@ msgstr "1:500 000 (5 km)"
 #. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize..Text
 #. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
 msgid "1024x1024"
-msgstr ""
+msgstr "1024x1024"
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "120..200km"
@@ -207,33 +206,29 @@ msgid "120m"
 msgstr "120 m"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#, fuzzy
 msgid "123 km 123 m"
-msgstr "12 km 423 m"
+msgstr "123 km 123 m"
 
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat..Text
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
-#, fuzzy
 msgid "123 m"
-msgstr "12 km 423 m"
+msgstr "123 m"
 
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
 msgid "123.1 m"
-msgstr ""
+msgstr "123,1 m"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#, fuzzy
 msgid "123.12 km"
-msgstr "12 km 423 m"
+msgstr "123,12 km"
 
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
 msgid "123.12 m"
-msgstr ""
+msgstr "123,12 m"
 
 #. frmMapLayersOptions..pgcOptions..tsElevation..cbbElevDisplayFormat....Items.Strings
-#, fuzzy
 msgid "123.123 m"
-msgstr "12 km 423 m"
+msgstr "123,123 m"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "12km"
@@ -257,7 +252,7 @@ msgstr "200 m"
 
 #. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
 msgid "2048x2048"
-msgstr ""
+msgstr "2048x2048"
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -269,9 +264,8 @@ msgid "20m"
 msgstr "20 m"
 
 #. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-#, fuzzy
 msgid "256x256"
-msgstr "256x256 px"
+msgstr "256x256"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "2km"
@@ -305,7 +299,7 @@ msgstr "3 km"
 
 #. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
 msgid "4096x4096"
-msgstr ""
+msgstr "4096x4096"
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "5..200m"
@@ -337,7 +331,7 @@ msgstr "50 m"
 
 #. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
 msgid "512x512"
-msgstr ""
+msgstr "512x512"
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -371,7 +365,7 @@ msgstr "80 m"
 
 #. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
 msgid "8192x8192"
-msgstr ""
+msgstr "8192x8192"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "8km"
@@ -383,9 +377,8 @@ msgstr "8 m"
 
 #. sotka
 #. Programmer's name for it: SAS_UNITS_are
-#, fuzzy
 msgid "a"
-msgstr "ha"
+msgstr "a"
 
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
@@ -405,11 +398,11 @@ msgstr "L'accès est refusé"
 
 #. Programmer's name for it: SAS_UNITS_acr
 msgid "acr"
-msgstr ""
+msgstr "acr"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 msgid "Acres"
-msgstr ""
+msgstr "Acres"
 
 #. frMapSelect..FilterPopupMenu..TBX_Active..Caption
 msgid "Active"
@@ -552,9 +545,8 @@ msgstr "Ajouter les marqueurs visibles"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleOverlays..Caption
 #. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
-#, fuzzy
 msgid "Add visible Placemarks, Grids etc."
-msgstr "Ajouter les marqueurs visibles"
+msgstr "Ajouter des marqueurs et des grilles visibles etc."
 
 #. frExportToJNX..PageControl1..Info..Caption
 msgid "Additional"
@@ -586,9 +578,8 @@ msgid "All compatible formats"
 msgstr "Tous les formats compatibles "
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
-#, fuzzy
 msgid "All sources"
-msgstr "Tous les services"
+msgstr "Toutes les sources"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
 msgid "All Visible"
@@ -656,15 +647,16 @@ msgid ""
 "An entry with the same name already exists!\n"
 "Do you want to update it instead of adding a new one?"
 msgstr ""
+"Une entrée avec le même nom existe déjà !\n"
+"La mettre à jour au lieu d'en ajouter une nouvelle ?"
 
 #. Programmer's name for it: SAS_ERR_GpsCommunication
-#, fuzzy
 msgid "An error occured when communicating with the GPS device!"
-msgstr "Erreur de communication avec l'appareil"
+msgstr "Erreur de communication avec le GPS !"
 
 #. Programmer's name for it: SAS_ERR_GpsConnecting
 msgid "An error occured when connecting to the GPS device!"
-msgstr ""
+msgstr "Une erreur s'est produite lors de la connexion au GPS !"
 
 #. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
 #. frmMarkPictureEditor..grpAnchor..Caption
@@ -713,7 +705,7 @@ msgstr "Paramètres d'archivage"
 #. Programmer's name for it: SAS_MSG_DeleteManyMarksAsk
 #, no-object-pascal-format
 msgid "Are you sure you want to delete %0:d placemarks?"
-msgstr "Etes-vous certain de vouloir effacer %0:d balises ?"
+msgstr "Etes-vous certain de vouloir effacer %0:d marqueurs ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
 #, no-object-pascal-format
@@ -742,7 +734,6 @@ msgstr ""
 "\"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
-#, fuzzy
 msgid "Are you sure you want to delete placemarks in the selected region?"
 msgstr ""
 "Etes-vous certain de vouloir effacer les marqueurs dans la région "
@@ -765,7 +756,6 @@ msgid "Are you sure you want to delete tile with name \"%0:s\"?"
 msgstr "Etes-vous certain de vouloir effacer la dalle avec le nom \"%0:s\" ?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTilesInRegionAsk
-#, fuzzy
 msgid "Are you sure you want to delete tiles in the selected region?"
 msgstr ""
 "Etes-vous certain de vouloir effacer les dalles dans la région sélectionnée ?"
@@ -785,7 +775,7 @@ msgstr "Surface : %s"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 msgid "Ares"
-msgstr ""
+msgstr "Ares"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarkerColor..lblGPSMarkerColor..Caption
 msgid "Arrow color:"
@@ -794,7 +784,7 @@ msgstr "Couleur de flèche :"
 #. Programmer's name for it: rsElevationProfileElevAscentFmt
 #, object-pascal-format
 msgid "Ascent: %d m"
-msgstr ""
+msgstr "Ascension : %d m"
 
 #. Programmer's name for it: rsAstroEnd
 msgid "Astro. twilight end"
@@ -818,7 +808,6 @@ msgstr ""
 "caractères  ASCII !"
 
 #. Programmer's name for it: SAS_MSG_coution
-#, fuzzy
 msgid "Attention"
 msgstr "Attention !"
 
@@ -840,14 +829,12 @@ msgid "Auto show/hide sensors toolbar"
 msgstr "Automatique, afficher/masquer la barre d'outils des capteurs"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
-#, fuzzy
 msgid "Autodetect device COM port"
 msgstr "Autodétecte le port COM"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
-#, fuzzy
 msgid "Autodetect port on connect"
-msgstr "Autodétecte le port COM à la connexion"
+msgstr "Autodétecte le port à la connexion"
 
 #. frTilesDownload..pnlCenter..pnlMain..pnlAutosaveSession..lblAutoSaveSession..Caption
 msgid "Autosave session, min:"
@@ -876,7 +863,7 @@ msgstr "Vitesse moyenne, km/h :"
 #. Programmer's name for it: rsElevationProfileElevAvgSlopeFmt
 #, object-pascal-format
 msgid "Avg Slope: %.1f%%, %.1f%%"
-msgstr ""
+msgstr "Pente moyenne : %.1f%%, %.1f%%"
 
 #. Programmer's name for it: rsAz
 msgid "Az."
@@ -892,9 +879,9 @@ msgid "Azimuth Circle"
 msgstr "Cercle azimutal"
 
 #. Programmer's name for it: SAS_STR_Azimuth
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Azimuth: %s"
-msgstr "Azimut"
+msgstr "Azimut : %s"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..lblBGColor..Caption
 msgid "Background color"
@@ -1098,7 +1085,7 @@ msgid "Cancel"
 msgstr "Annuler"
 
 msgid "Cancel device port autodetection"
-msgstr ""
+msgstr "Annuler la détection automatique du port de l'appareil"
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
@@ -1117,9 +1104,9 @@ msgid "Can't bound the Map - GUID not found!"
 msgstr "Impossible de créer la carte. Le GUID ne peut pas être trouvé !"
 
 #. Programmer's name for it: rsCantCopyFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Can't copy placemark \"%s\""
-msgstr "Créer un marqueur"
+msgstr "Impossible de copier le marqueur \"%s\""
 
 #. http://www.sasgis.org/mantis/view.php?id=3435
 #, object-pascal-format
@@ -1140,9 +1127,9 @@ msgid "Can't load bitmap from source type"
 msgstr "Ne peut pas charger le bitmap à partir du type de source"
 
 #. Programmer's name for it: rsCantMoveFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Can't move placemark \"%s\""
-msgstr "Créer un marqueur"
+msgstr "Impossible de déplacer le marqueur \"%s\""
 
 #, object-pascal-format
 msgid "Can't open file: %s"
@@ -1190,7 +1177,7 @@ msgstr "Catégorie : %s"
 
 #. frElevationProfile..pmMain..mniCenterMap..Caption
 msgid "Center Map"
-msgstr ""
+msgstr "Centrer la carte"
 
 #. frmMain..MainPopupMenu..tbitmCenterWithZoom..Caption
 msgid "Center With &Zoom"
@@ -1201,9 +1188,8 @@ msgid "Centered GPS Position"
 msgstr "Position du GPS centrée"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#, fuzzy
 msgid "Centimeters"
-msgstr "Périmètre"
+msgstr "Centimètres"
 
 #. frLonLat..grdpnlTop..pnlButtons..btnCoordFormat..Hint
 msgid "Change coordinates representation"
@@ -1246,6 +1232,8 @@ msgid ""
 "Click on the placemark with the right mouse button and select \"Navigation "
 "to Placemark\""
 msgstr ""
+"Cliquer sur le marqueur avec le bouton droit de la souris et sélectionner « "
+"Navigation vers le marqueur »"
 
 msgid "Clipboard is empty!"
 msgstr "Le presse-papiers est vide !"
@@ -1292,9 +1280,8 @@ msgid "Color schema %d"
 msgstr "Couleur type %d"
 
 #. frmGeoTiffOptions..pnlColorspace..lblColorspace..Caption
-#, fuzzy
 msgid "Color space:"
-msgstr "Couleur type %d"
+msgstr "Espace colorimétrique :"
 
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..lblScalelineColor..Caption
 msgid "Color:"
@@ -1302,20 +1289,19 @@ msgstr "Couleur :"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
 msgid "COM NMEA"
-msgstr ""
+msgstr "COM NMEA"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
-msgstr ""
+msgstr "COM Virtuel"
 
 #. frExportToCE..pnlCenter..pnlMain..chkComment..Caption
 msgid "Comment"
 msgstr "Commentaire :"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..Caption
-#, fuzzy
 msgid "Common"
-msgstr "Commentaire :"
+msgstr "Commun"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
 #, no-object-pascal-format
@@ -1342,9 +1328,8 @@ msgid "Compressing to ZIP"
 msgstr "Compression en ZIP"
 
 #. frMapCombineCustomOptions..flwpnlCompressionLevel..lblCompressionLevel..Caption
-#, fuzzy
 msgid "Compression level:"
-msgstr "Niveau de Compression :"
+msgstr "Niveau de compression :"
 
 #. frArchiveWriteZipConfig..lblCompressLevel..Caption
 msgid "Compression Level:"
@@ -1437,7 +1422,7 @@ msgstr "Description de la copie"
 
 #. frmGeoTiffOptions..chkCopyRawJpeg..Caption
 msgid "Copy JPEG tiles directly if possible"
-msgstr ""
+msgstr "Copiez directement les dalles JPEG si possible"
 
 #. frTilesCopy..pnlHeader..Caption
 msgid "Copy tiles from selection to folder"
@@ -1453,9 +1438,9 @@ msgid "Copying"
 msgstr "En train de copier"
 
 #. Programmer's name for it: rsCopyingPlacemarksFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Copying %d placemarks..."
-msgstr "Masquer tous les marqueurs"
+msgstr "Copie de %d marqueurs..."
 
 msgid "Could not build IMG file."
 msgstr "Ne peut pas construire le fichier IMG."
@@ -1574,7 +1559,7 @@ msgstr "Zoom actuel"
 
 #. frmGeoTiffOptions..pnlOverview..grpOverview..lblCustomOverview..Caption
 msgid "Custom (separated by space):"
-msgstr ""
+msgstr "Personnalisé (séparé par un espace) :"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlHeader..lblHeader..Caption
 msgid "Custom HTTP Headers:"
@@ -1647,9 +1632,9 @@ msgstr "Supprimer la catégorie"
 msgid "Delete empty tiles"
 msgstr "Supprimer les dalles vierges"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Delete from Favorites: \"%s\"?"
-msgstr "Supprimer le favori : '%s'?"
+msgstr "Supprimer des favoris : \"%s\"?"
 
 #. frDeleteTiles..flwpnlDelBySize..lblDelSize..Caption
 msgid "Delete only tiles of size, bytes:"
@@ -1709,9 +1694,9 @@ msgid "Deleting"
 msgstr "En train de supprimer"
 
 #. Programmer's name for it: rsDeletingPlacemarksFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Deleting %d placemarks..."
-msgstr "Supprimer les marqueurs cachés"
+msgstr "Suppression de %d marqueurs..."
 
 #. Programmer's name for it: SAS_STR_Deleted
 msgid "Deleting:"
@@ -1719,12 +1704,12 @@ msgstr "En train de supprimer :"
 
 #. frElevationProfile..pmMain..mniElevationSource..mniDEMData..Caption
 msgid "DEM Data"
-msgstr ""
+msgstr "DEM Data"
 
 #. Programmer's name for it: rsElevationProfileElevDescentFmt
 #, object-pascal-format
 msgid "Descent: %d m"
-msgstr ""
+msgstr "Descente : %d m"
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
@@ -1760,12 +1745,11 @@ msgstr "Vue détaillée"
 #. select new item
 #, object-pascal-format
 msgid "Device found on the %s port."
-msgstr ""
+msgstr "Appareil trouvé sur le port %s "
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlConnectionTimeout..Label6..Caption
-#, fuzzy
 msgid "Device timeout, sec:"
-msgstr "Temps d'attente pour une réponse du récepteur (s) :"
+msgstr "Délai d'arrêt de l'appareil, sec :"
 
 #. frMergePolygons..tbTop..tbOperationType..tbtmNOT..Caption
 msgid "Difference (NOT)"
@@ -1799,9 +1783,8 @@ msgid "Disabled by Zmp"
 msgstr "Désactivé par le ZMP"
 
 #. frmMapLayersOptions..pgcOptions..tsElevation..lblElevDisplayFormat..Caption
-#, fuzzy
 msgid "Display format:"
-msgstr "Format de l'image :"
+msgstr "Format d'affichage :"
 
 #. frmMain..actlstMain..actViewFillingMapMainMapUse..Caption
 #. Programmer's name for it: SAS_STR_MiniMapAsMainMap
@@ -1817,9 +1800,8 @@ msgid "Distance #2, km:"
 msgstr "Distance #2, km :"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbxsbmGeoCalc..Caption
-#, fuzzy
 msgid "Distance and Area Calculator"
-msgstr "Calcul de distance"
+msgstr "Calculateur de distance et de surface"
 
 #. frmMain..actlstMain..actDistanceCalculation..Hint
 msgid "Distance calculation"
@@ -1855,21 +1837,21 @@ msgid "Distance:"
 msgstr "Distance :"
 
 #. Programmer's name for it: rsElevationProfileDistFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Distance: %.2f %s"
-msgstr "Distance :"
+msgstr "Distance : %.2f %s"
 
-#, fuzzy, no-object-pascal-format
+#, no-object-pascal-format
 msgid "Distance: %.2f km"
-msgstr "Distance #2, km :"
+msgstr "Distance : %.2f km"
 
-#, fuzzy, no-object-pascal-format
+#, no-object-pascal-format
 msgid "Distance: %.2f m"
-msgstr "Distance #2, km :"
+msgstr "Distance : %.2f m"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Distance: %s"
-msgstr "Distance :"
+msgstr "Distance : %s"
 
 #. frmCacheManager..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
 #. frmRegionProcess..pnlBottomButtons..tbxtlbrDontClose..tbtmDontClose..Hint
@@ -1883,7 +1865,7 @@ msgstr "Ne pas fermer la fenêtre à la fin de l'action"
 
 #. do not localize
 msgid "Do you want to delete shared files __db.* and try again?"
-msgstr ""
+msgstr "Supprimer les fichiers partagés __db.* et réessayer ?"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
@@ -1891,9 +1873,8 @@ msgstr "Ne pas afficher pour tous les cas"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
-#, fuzzy
 msgid "Don't show for WGS 84"
-msgstr "Ne pas afficher pour tous les cas"
+msgstr "Ne pas afficher pour WGS 84"
 
 #. frExportKml..pnlCenter..pnlMain..chkNotSaveNotExists..Caption
 msgid "Don't store references to non-existent tiles"
@@ -2044,13 +2025,11 @@ msgstr "Propriétés du polygone"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
-#, fuzzy
 msgid "Edit Position"
-msgstr "Propriétés du polygone"
+msgstr "Modifier la position"
 
 #. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
-#, fuzzy
 msgid "Edit Properties"
 msgstr "Propriétés"
 
@@ -2080,27 +2059,25 @@ msgid "Elevation Info"
 msgstr "Altitude"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
-#, fuzzy
 msgid "Elevation Profile"
-msgstr "Altitude"
+msgstr "Profil d'altitude"
 
 #. frElevationProfile..pmMain..mniElevationSource..Caption
-#, fuzzy
 msgid "Elevation Source"
-msgstr "Altitude"
+msgstr "Source d'altitude"
 
-#, fuzzy, no-object-pascal-format
+#, no-object-pascal-format
 msgid "Elevation: %.2f m"
-msgstr "Altitude"
+msgstr "Altitude : %.2f m"
 
 #. Programmer's name for it: rsElevationProfileElevFmt
 #, object-pascal-format
 msgid "Elevation: %d, %d, %d m"
-msgstr ""
+msgstr "Altitude : %d, %d, %d m"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Elevation: %s"
-msgstr "Altitude"
+msgstr "Altitude : %s"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -2203,9 +2180,9 @@ msgstr "Exporter tous les marqueurs et toutes les catégories"
 msgid "Export Placemarks"
 msgstr "Exporter les marqueurs"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Export placemarks (%d)"
-msgstr "Exporter les marqueurs"
+msgstr "Exporter les marqueurs (%d)"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnExportCategory..Hint
 #. frmMarksExplorer..tbpmnCategories..tbitmExportCategory..Hint
@@ -2214,9 +2191,8 @@ msgstr "Exporter les marqueurs de la catégorie surlignée"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnSaveMark..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmExportMark..Caption
-#, fuzzy
 msgid "Export selected placemarks"
-msgstr "Exporter le marqueur surligné"
+msgstr "Exporter les marqueurs surlignés"
 
 msgid "Export selection to format"
 msgstr "Exporter la sélection au format :"
@@ -2238,9 +2214,8 @@ msgid "External tile storage is readonly"
 msgstr "Le stockage externe des dalles est en lecture seule"
 
 #. frExportKml..pnlCenter..pnlMain..chkExtractTiles..Caption
-#, fuzzy
 msgid "Extract tiles from cache"
-msgstr "Charger à partir du cache :"
+msgstr "Extraire les dalles du cache"
 
 #, object-pascal-format
 msgid "Failed detect archive type from file name: %s"
@@ -2274,7 +2249,7 @@ msgstr "Gestionnaire des favoris"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "Feet"
-msgstr ""
+msgstr "Pied"
 
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
@@ -2299,9 +2274,8 @@ msgid "File %0:s not found"
 msgstr "Le fichier %0:s n'est pas trouvé"
 
 #. frmGeoTiffOptions..pnlFormat..lblFormat..Caption
-#, fuzzy
 msgid "File format:"
-msgstr "OGF2, format de dalles :"
+msgstr "Format de fichier :"
 
 #. frmMarkSystemConfigEdit..grpFile..Caption
 msgid "File name"
@@ -2341,9 +2315,8 @@ msgid "Filter"
 msgstr "Filtrer"
 
 #. frElevationProfile..pmMain..mniFilterData..Caption
-#, fuzzy
 msgid "Filter Data"
-msgstr "Filtrer"
+msgstr "Filtrer les données"
 
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
@@ -2401,23 +2374,21 @@ msgid "For"
 msgstr "Pour"
 
 #. Programmer's name for it: rsAdditionalInformationFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "For additional information, see %s"
-msgstr "Opérations additionnelles :"
+msgstr "Pour plus d'informations, voir %s"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlForcedSchemaName..lblForcedSchemaName..Caption
 msgid "Forced Schema Name:"
 msgstr "Nom de schéma forcé :"
 
 #. frMapCombineCustomOptions..flwpnlFormatOptions..btnFormatOptions..Caption
-#, fuzzy
 msgid "Format Options"
-msgstr "Options du Generateur"
+msgstr "Options de format"
 
 #. frmMarksExport..btnConfig..Hint
-#, fuzzy
 msgid "Format settings"
-msgstr "Paramètres d'exportation"
+msgstr "Paramètres de format"
 
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblCacheType..Caption
 #. frmCacheManager..pgcMain..tsConverter..grpDestCache..lblDestFormat..Caption
@@ -2459,11 +2430,11 @@ msgstr "A partir du zoom :"
 
 #. Programmer's name for it: SAS_UNITS_foot
 msgid "ft"
-msgstr ""
+msgstr "ft"
 
 #. Programmer's name for it: SAS_UNITS_ft2
 msgid "ft2"
-msgstr ""
+msgstr "ft2"
 
 #. frSearchResultsItem..PanelFullDescImg..LabelFullDescImg..Caption
 #. frSearchResultsItem..PanelFullDescShort..LabelFullDescShort..Caption
@@ -2472,7 +2443,7 @@ msgstr "Description complète"
 
 #. frmMain..actlstMain..actViewFullMapMouseCursorVisible..Caption
 msgid "Full Map Cursor"
-msgstr ""
+msgstr "Curseur de carte entière"
 
 msgid "Full Moon"
 msgstr "Pleine Lune"
@@ -2534,22 +2505,20 @@ msgstr "Limites de Genshtab"
 msgid "GeoCacher root folder:"
 msgstr "GeoCacher, répertoire du cache :"
 
-#, fuzzy
 msgid "Geographic (GoogleEarth) / EPSG:4326"
-msgstr "Géographique (Latitude/Longitude) / WGS84 / EPSG:4326"
+msgstr "Geographique (GoogleEarth) / EPSG:4326"
 
 #. frmGeoTiffOptions..Caption
-#, fuzzy
 msgid "GeoTiff Settings"
-msgstr "Paramètres des icones"
+msgstr "Paramètres GeoTiff"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
 msgid "Get list of tracks to replay from ReplayTrack.txt"
-msgstr ""
+msgstr "Obtenir la liste des pistes à relire à partir de ReplayTrack.txt"
 
 #, object-pascal-format
 msgid "Given Overview level \"%s\" is not a power of 2!"
-msgstr ""
+msgstr "Niveau d'aperçu donné \"%s\" n'est pas une puissance de 2 !"
 
 #. Programmer's name for it: rsGlobalMapperCacheName
 msgid "GlobalMapper Tiles"
@@ -2594,9 +2563,8 @@ msgid "GoogleMV cache folder:"
 msgstr "GoogleMV, répertoire du cache :"
 
 #. frElevationProfile..pmMain..mniElevationSource..mniTrackData..Caption
-#, fuzzy
 msgid "GPS Data"
-msgstr "Type de GPS :"
+msgstr "Données GPS"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
 #. chkUseReplayTrackFile.Enabled := rgConnectionType.ItemIndex = 3; // todo
@@ -2609,9 +2577,8 @@ msgid "GPS origin misconfiguration: unknown mode %d"
 msgstr "Mauvaise configuration du GPS : mode inconnu %d"
 
 #. Programmer's name for it: SAS_MSG_NoGPSdetected
-#, fuzzy
 msgid "GPS receiver has not been found!"
-msgstr "Pas de récepteur GPS trouvé"
+msgstr "Pas de récepteur GPS trouvé !"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
 msgid "GPS type"
@@ -2631,17 +2598,16 @@ msgid "Group"
 msgstr "Groupe"
 
 msgid "GSK-2011"
-msgstr ""
+msgstr "GSK-2011"
 
-#, fuzzy
 msgid "GSK-2011 / Gauss-Kruger (6 degree zones)"
-msgstr "Gauss Krueger (6 zones de degrés) / S-42"
+msgstr "GSK-2011 / Gauss-Kruger (6 zones de degrés)"
 
 msgid "GSK-2011 / Geographic"
-msgstr ""
+msgstr "GSK-2011 / Geographique"
 
 msgid "GSK-2011 / GK"
-msgstr ""
+msgstr "GSK-2011 / GK"
 
 #. Programmer's name for it: SAS_UNITS_ha
 msgid "ha"
@@ -2649,7 +2615,7 @@ msgstr "ha"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 msgid "Hectares"
-msgstr ""
+msgstr "Hectares"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..lblStatBarHeight..Caption
 msgid "Height:"
@@ -2690,7 +2656,7 @@ msgstr "Masquer la barre d'état"
 
 #. frmMain..actlstMain..actViewBordersVisible..Caption
 msgid "Hide Window Borders"
-msgstr ""
+msgstr "Masquer les bordures de fenêtre"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..lblSplitHor..Caption
 msgid "horizontally:"
@@ -2808,22 +2774,20 @@ msgid "Import Parameters"
 msgstr "Paramètres d'importation"
 
 #. Programmer's name for it: SAS_UNITS_inch
-#, fuzzy
 msgid "in"
-msgstr "Outils de base"
+msgstr "in"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "Inches"
-msgstr ""
+msgstr "Pouces"
 
 #. frMapCombineCustomOptions..chkPngWithAlpha..Caption
 msgid "Include alpha channel"
 msgstr "Inclure canal alpha"
 
 #. frMarksProcess..chkIncludeHidden..Caption
-#, fuzzy
 msgid "Include hidden placemarks"
-msgstr "Supprimer les marqueurs cachés"
+msgstr "Inclure les marqueurs cachés"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDBad
 #, no-object-pascal-format
@@ -2839,13 +2803,12 @@ msgid "Info"
 msgstr "Information"
 
 #. Programmer's name for it: SAS_MSG_information
-#, fuzzy
 msgid "Information"
-msgstr "Options du Generateur"
+msgstr "Information"
 
 #. Programmer's name for it: rsInitializing
 msgid "Initializing..."
-msgstr ""
+msgstr "Initialisation en cours..."
 
 #. frmPascalScriptIDE..pgcMain..tsParams..pnlInput..grpInput..Caption
 msgid "Input Vars"
@@ -2853,7 +2816,7 @@ msgstr "Variables d'entrée"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..chkAddTimeToMarkDescription..Caption
 msgid "Insert timestamp into placemark description"
-msgstr ""
+msgstr "Insérer l'horodatage dans la description du marqueur"
 
 #. frmMain..TBDock..TBXMainMenu..NView..tbsbmInterface..Caption
 msgid "Interface"
@@ -2896,9 +2859,9 @@ msgstr ""
 "Effacement invalide : l'objet a toujours une référence dans l'interface "
 "active ! (Ref count: %d)"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Invalid Overview level value: \"%s\""
-msgstr "Valeur de taille de volume non valide : %s"
+msgstr "Valeur de niveau d'aperçu non valide : \"%s\""
 
 #, object-pascal-format
 msgid "Invalid Volume Size value: %s"
@@ -2921,7 +2884,6 @@ msgid "Jpeg Import Parameters"
 msgstr "Jpeg, paramètres d'importation"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..lblCompression..Caption
-#, fuzzy
 msgid "JPEG Quality"
 msgstr "Qualité JPEG :"
 
@@ -2935,16 +2897,15 @@ msgstr "Kb"
 
 #. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
 msgid "Keep Aspect Ratio"
-msgstr ""
+msgstr "Conserver le rapport hauteur/largeur"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
 msgid "Keep temporarily files"
 msgstr "Garder les fichiers temporaires"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#, fuzzy
 msgid "Kilometers"
-msgstr "Odomètre"
+msgstr "Kilomètres"
 
 #. Programmer's name for it: SAS_UNITS_km
 msgid "km"
@@ -2959,14 +2920,13 @@ msgid "km2"
 msgstr "km2"
 
 #. Programmer's name for it: SAS_STR_ExportGEKmlExportCaption
-#, fuzzy
 msgid "KML for Google Earth"
 msgstr "KML (pour Google Earth)"
 
 #. knot, nautical mile / hour
 #. Programmer's name for it: SAS_UNITS_knot
 msgid "kn"
-msgstr ""
+msgstr "kn"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..TBLang..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlLang..Label8..Caption
@@ -3042,7 +3002,7 @@ msgstr "Longueur : %s"
 
 #. frmGeoTiffOptions..pnlCompressionLevel..lblCompressionLevel..Caption
 msgid "Level:"
-msgstr ""
+msgstr "Niveau :"
 
 #. frmAbout..pnlBottom..btnLicense..Caption
 msgid "License"
@@ -3278,28 +3238,24 @@ msgid "Mark Nonexistent Tiles"
 msgstr "Marquer les dalles inexistantes"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..Caption
-#, fuzzy
 msgid "Marker"
-msgstr "Marqueur GPS"
+msgstr "Marqueur"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..Caption
 msgid "Marker and Track"
-msgstr ""
+msgstr "Marqueur et piste"
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiBorderColor..Caption
-#, fuzzy
 msgid "Marker border color"
-msgstr "Couleur de la bordure :"
+msgstr "Couleur de bordure du marqueur :"
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiFillColor..Caption
-#, fuzzy
 msgid "Marker fill color"
-msgstr "Couleur de la bordure :"
+msgstr "Couleur de remplissage du marqueur :"
 
 #. frmSettings..PageControl1..tsWiki..grdpnlWiki..lblWikiMarkerSize..Caption
-#, fuzzy
 msgid "Marker size"
-msgstr "Marqueurs"
+msgstr "Taille du marqueur"
 
 msgid "Marks"
 msgstr "Marqueurs"
@@ -3347,7 +3303,7 @@ msgstr "Nombre maximum de connexions simultanées par serveur"
 #. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
 #, object-pascal-format
 msgid "Max Slope: %.1f%%, %.1f%%"
-msgstr ""
+msgstr "Pente maximale : %.1f%%, %.1f%%"
 
 #. frExportToCE..pnlCenter..pnlMain..lblVolSize..Caption
 msgid "Max volume size, Mb"
@@ -3358,9 +3314,8 @@ msgid "Max.speed, km/h:"
 msgstr "Vitesse maximum, km/h :"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..pnlTrackPoints..Label5..Caption
-#, fuzzy
 msgid "Maximum number of points to show:"
-msgstr "Nombre maxi de points de la piste :"
+msgstr "Nombre maxi de points à afficher :"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderMaxSpeedMenuItemName
 msgid "Maximum speed"
@@ -3402,32 +3357,28 @@ msgstr ""
 "Le résultat montre %d polygone(s) avec %d trou(s)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#, fuzzy
 msgid "Meters"
-msgstr "Meteor-M1"
+msgstr "Mètres"
 
 #. Programmer's name for it: SAS_UNITS_mile
-#, fuzzy
 msgid "mi"
-msgstr "m"
+msgstr "mi"
 
 #. Programmer's name for it: SAS_UNITS_mileperh
 msgid "mi/h"
-msgstr ""
+msgstr "mi/h"
 
 #. Programmer's name for it: SAS_UNITS_mi2
-#, fuzzy
 msgid "mi2"
-msgstr "m2"
+msgstr "mi2"
 
 #. Programmer's name for it: rsMidnight
 msgid "Midnight"
 msgstr "Minuit"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#, fuzzy
 msgid "Miles"
-msgstr "Fichiers"
+msgstr "Milles"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..flwpnlMiniMapAlfa..lblMiniMapAlfa..Caption
 msgid "Minimap opacity"
@@ -3484,9 +3435,9 @@ msgid "Move Up"
 msgstr "Vers le haut"
 
 #. Programmer's name for it: rsMovingPlacemarksFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Moving %d placemarks..."
-msgstr "Masquer tous les marqueurs"
+msgstr "Déplacement de %d marqueurs..."
 
 msgid "MPC compiler path is not set or incorrect!"
 msgstr "Le chemin du compileur MPC est non sélectionné ou incorrect !"
@@ -3521,9 +3472,8 @@ msgid "Native cache folder:"
 msgstr "Répertoire du cache natif :"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
-#, fuzzy
 msgid "Nautical Miles"
-msgstr "Crépuscule nautique"
+msgstr "Milles nautiques"
 
 #. Programmer's name for it: rsNauticalEnd
 msgid "Nautical twilight end"
@@ -3594,11 +3544,11 @@ msgstr "Nightly (bêta)"
 
 #. Programmer's name for it: SAS_UNITS_nauticalmile
 msgid "nmi"
-msgstr ""
+msgstr "nmi"
 
 #. Programmer's name for it: SAS_UNITS_nmi2
 msgid "nmi2"
-msgstr ""
+msgstr "nmi2"
 
 #. frmMain..actlstMain..actViewGridGenShtabNo..Caption
 #. frmMain..actlstMain..actViewGridLonLatNo..Caption
@@ -3607,9 +3557,8 @@ msgstr ""
 msgid "No"
 msgstr "Non"
 
-#, fuzzy
 msgid "No devices found!"
-msgstr "Pas de récepteur GPS trouvé"
+msgstr "Pas de récepteur GPS trouvé !"
 
 msgid "No one polygon selected!"
 msgstr "Ceci n'est pas un polygone !"
@@ -3625,9 +3574,8 @@ msgstr "Pas d'espace disponible dans le stockage externe des dalles"
 msgid "No tiles to export!"
 msgstr "Pas de dalles à exporter !"
 
-#, fuzzy
 msgid "No write access to the current Marks DB!"
-msgstr "Pas d'accès écriture dans la base de données des marqueurs !"
+msgstr "Pas d'accès écriture dans la base de données des marqueurs actuelle !"
 
 #. Programmer's name for it: rsNoWriteAccess
 msgid "No write access to tile storage"
@@ -3671,7 +3619,6 @@ msgid "Nothing to import!"
 msgstr "Rien à importer !"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker2..lblGPSMarkerRingsCount..Caption
-#, fuzzy
 msgid "Number of rings:"
 msgstr "Nombre d'anneaux :"
 
@@ -3737,7 +3684,6 @@ msgid "On projection change"
 msgstr "Changer de projection :"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmHelp..Hint
-#, fuzzy
 msgid "Online Help"
 msgstr "Aide en ligne (en russe)"
 
@@ -3788,7 +3734,6 @@ msgid "Open Home Page"
 msgstr "Page d'accueil, en russe"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..btnDateTimeFormatHelp..Hint
-#, fuzzy
 msgid "Open online help"
 msgstr "Aide en ligne (en russe)"
 
@@ -3818,9 +3763,8 @@ msgid "Open..."
 msgstr "Ouvrir..."
 
 #. frMarksProcess..pnlOperation..lblOperation..Caption
-#, fuzzy
 msgid "Operation:"
-msgstr "&Opérations"
+msgstr "Opération :"
 
 #. frmMain..actlstMain..actConfigScaleLineOptionsShow..Caption
 #. frmMain..actlstMain..actConfigOptionsShow..Caption
@@ -3870,9 +3814,8 @@ msgid "Overlay layer:"
 msgstr "Couche :"
 
 #. frmGeoTiffOptions..pnlOverview..grpOverview..Caption
-#, fuzzy
 msgid "Overview levels"
-msgstr "Vue d'ensemble de la carte"
+msgstr "Aperçu des niveaux"
 
 #. frmMain..actlstMain..actConfigMiniMapVisible..Caption
 msgid "Overview Map"
@@ -3907,9 +3850,9 @@ msgstr "Params"
 msgid "Parent submenu"
 msgstr "Parent submenu"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Part: %d/%d"
-msgstr "Nombre de pièces : %d"
+msgstr "Partie : %d/%d"
 
 #, object-pascal-format
 msgid "Parts count: %d"
@@ -4009,9 +3952,8 @@ msgstr "Pause... (%0:s)"
 msgid "Perimeter: %s"
 msgstr "Périmètre : %s"
 
-#, fuzzy
 msgid "Pixel Coordinates"
-msgstr "Coordonnées"
+msgstr "Coordonnées des pixels"
 
 #. frmPointProjecting..rgSourcePointType....Items.Strings
 msgid "Placemark"
@@ -4045,9 +3987,8 @@ msgid "Placemark Manager"
 msgstr "Gestionnaire des marqueurs"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..Caption
-#, fuzzy
 msgid "Placemark names"
-msgstr "Afficher le nom des balises"
+msgstr "Noms des marqueurs"
 
 #. frMarksGeneralOptions..grpPoint..Caption
 msgid "Placemark parameters"
@@ -4073,7 +4014,6 @@ msgstr "Fonctionne"
 msgid "Please select a map"
 msgstr "Sélectionner une carte."
 
-#, fuzzy
 msgid "Please select a map or layer first!"
 msgstr "Sélectionner une carte ou une couche."
 
@@ -4083,7 +4023,6 @@ msgstr "Sélectionner au moins une carte."
 msgid "Please select at least one map or overlay layer"
 msgstr "Sélectionner au moins une carte ou une couche."
 
-#, fuzzy
 msgid "Please select at least one polygon!"
 msgstr "Sélectionner au moins un polygone !"
 
@@ -4091,9 +4030,8 @@ msgstr "Sélectionner au moins un polygone !"
 msgid "Please select at least one region"
 msgstr "Sélectionner au moins une région."
 
-#, fuzzy
 msgid "Please select at least one type of placemark!"
-msgstr "Sélectionner au moins une carte."
+msgstr "Sélectionner au moins un type de marqueur !"
 
 #. Programmer's name for it: SAS_MSG_NeedZoom
 msgid "Please select at least one zoom"
@@ -4102,36 +4040,32 @@ msgstr "Sélectionner au moins un zoom."
 msgid "Please select at least one zoom!"
 msgstr "Sélectionner au moins un zoom !"
 
-#, fuzzy
 msgid "Please select category with at least one polygon!"
 msgstr "Sélectionner une catégorie avec au moins un polygone !"
 
 msgid "Please select output folder"
 msgstr "Sélectionner le répertoire de sortie d'abord !"
 
-#, fuzzy
 msgid "Please select target category!"
-msgstr "Supprimer la catégorie surlignée"
+msgstr "Sélectionner la catégorie cible !"
 
 msgid "Please select the map first!"
 msgstr "Sélectionner la carte d'abord !"
 
-#, fuzzy
 msgid "Please select the output file first!"
 msgstr "Sélectionner le fichier de sortie d'abord !"
 
-#, fuzzy
 msgid "Please select zoom/coordinates or at least one Layer or Map first!"
 msgstr ""
 "Sélectionner un zoom, des coordonnées ou au moins une carte ou une couche "
 "d'abord !"
 
 msgid "Please specify where to save!"
-msgstr ""
+msgstr "Préciser où sauvegarder !"
 
 #. Programmer's name for it: rsWaitUntilTheFinishOperation
 msgid "Please wait until the finish of the previous operation!"
-msgstr ""
+msgstr "Patienter jusqu'à la fin de l'opération précédente !"
 
 #. Programmer's name for it: SAS_STR_WiteLoad
 msgid "Please wait, download in progress..."
@@ -4184,24 +4118,24 @@ msgstr "Ne peut pas accéder à la base de données : %s"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
 msgid "Port:"
-msgstr ""
+msgstr "Port :"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping..Caption
 #. frExportKml..pnlCenter..pnlMain..chkPreciseCropping..Caption
 msgid "Precise cropping by the polygon"
-msgstr ""
+msgstr "Recadrage précis par polygone"
 
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
 #. frExportKml..pnlCenter..pnlMain..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
-msgstr ""
+msgstr "Recadrage précis de l'image le long des limites du polygone"
 
 msgid "Press Ctrl and click on polygon to add one..."
 msgstr "Faire Ctrl et clic sur un polygone pour l'ajouter..."
 
 #. frmMain..TBDockLeft..TBEditPath..TBEditSelectPolylineRadius..Hint
 msgid "Press Enter to apply or Esc to cancel"
-msgstr ""
+msgstr "Appuyer sur Entrée pour appliquer ou sur Echap pour annuler"
 
 #. frmMain..actlstMain..actViewSelectPrevMapWithTile..Caption
 msgid "Previous map with tile"
@@ -4263,9 +4197,9 @@ msgid "Processed:"
 msgstr "Procédé :"
 
 #. Programmer's name for it: rsProcessedFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Processed: %.2f%%"
-msgstr "Procédé :"
+msgstr "Procédé : %.2f%%"
 
 #. Programmer's name for it: SAS_STR_ProcessedFile
 #, no-object-pascal-format
@@ -4334,9 +4268,8 @@ msgstr "Paramètres du proxy"
 msgid "Quality, %"
 msgstr "Qualité % :"
 
-#, fuzzy
 msgid "Quality:"
-msgstr "Qualité % :"
+msgstr "Qualité :"
 
 #. Programmer's name for it: SAS_STR_queue
 msgid "Queue"
@@ -4361,9 +4294,9 @@ msgid "Radius, m"
 msgstr "Rayon, m"
 
 #. Programmer's name for it: SAS_STR_Radius
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Radius: %s"
-msgstr "Rayon"
+msgstr "Rayon : %s"
 
 #. Programmer's name for it: rsRAMCacheName
 #. Programmer's name for it: rsRAM
@@ -4383,7 +4316,7 @@ msgstr "Mode lecture seule"
 
 #. Programmer's name for it: rsReadingPlacemarksFromDb
 msgid "Reading placemarks from DB..."
-msgstr ""
+msgstr "Lecture des marqueurs de la base de données..."
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions2..pnlReadOnly..chkReadOnly..Caption
 msgid "Read-Only"
@@ -4414,7 +4347,6 @@ msgid "Redraw interval (ms):"
 msgstr "Intervalle de re-dessin (ms) :"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..pnlRefreshRate..Label11..Caption
-#, fuzzy
 msgid "Refresh rate, ms:"
 msgstr "Taux de rafraîchissement (ms) :"
 
@@ -4444,16 +4376,15 @@ msgstr "Supprimer les dalles"
 
 #. frmMain..actlstMain..actLineEditReplaceElevation..Caption
 msgid "Replace elevation by the DEM data"
-msgstr ""
+msgstr "Remplacer l'altitude par les données DEM"
 
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Remplacer les dalles existantes"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
-#, fuzzy
 msgid "Replay Track"
-msgstr "Supprimer la piste"
+msgstr "Piste de relecture"
 
 #. frmMain..actlstMain..actHelpOpenIssueTracker..Caption
 msgid "Report a Bug"
@@ -4474,18 +4405,16 @@ msgid "Reset"
 msgstr "Redémarrer"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
-#, fuzzy
 msgid "Reset postprocessing settings to defaults"
-msgstr "Utiliser les paramètres de post-traitement"
+msgstr "Réinitialiser les paramètres de post-traitement aux valeurs par défaut"
 
 #. frExportToIMG..pgcMain..tsMap..pnlSasZoom..TBXEdit..TBReset..Hint
 msgid "Reset SAS Zooms"
 msgstr "Redémarrer les zooms de SAS"
 
 #. frElevationProfile..pmMain..mniResetZoom..Caption
-#, fuzzy
 msgid "Reset Zoom"
-msgstr "Redémarrer les zooms de SAS"
+msgstr "Réinitialiser le zoom"
 
 #. frTilesGenPrev..pnlBottom..pnlCenter..lblResampler..Caption
 msgid "Resize algorithm:"
@@ -4514,17 +4443,14 @@ msgid "Retry download tile if no response"
 msgstr "Réessayer de télécharger la dalle si aucune réponse"
 
 #. frmMain..actlstMain..actLineEditReverse..Caption
-#, fuzzy
 msgid "Reverse direction"
-msgstr "Dernière sélection"
+msgstr "Sens inverse"
 
 #. frmMarksExplorer..tbpmnMarks..tbxRevertSelection..Caption
-#, fuzzy
 msgid "Revert Selection"
-msgstr "Dernière sélection"
+msgstr "Rétablir la sélection"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsMarker..pnlMarker3..lblGPSMarkerRingRadius..Caption
-#, fuzzy
 msgid "Ring radius, m:"
 msgstr "Rayon de l'anneau (m) :"
 
@@ -4667,11 +4593,11 @@ msgstr "Sauvegarder le zmp"
 
 #, object-pascal-format
 msgid "Saving tiles. %s %d %s"
-msgstr "Sauvegarde des tuiles. %s %d %s"
+msgstr "Sauvegarde des dalles. %s %d %s"
 
 #. frElevationProfile..pmMain..mniScaleElevToDist..Caption
 msgid "Scale Elevation to Distance as 1:1"
-msgstr ""
+msgstr "Scale Altitude  to Distance as 1:1"
 
 #. frmMain..actlstMain..actConfigScaleLineVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsScaleLine..Caption
@@ -4714,9 +4640,8 @@ msgid "searching"
 msgstr "En train de chercher"
 
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
-#, fuzzy
 msgid "Select All Visible Placemarks"
-msgstr "Sélectionner par marqueur"
+msgstr "Sélectionner tous les marqueurs visibles"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
 msgid "Select by Placemark"
@@ -4731,9 +4656,9 @@ msgid "Select overlay layers"
 msgstr "Sélectionner les couches"
 
 #. Programmer's name for it: rsSelectedFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Selected %d"
-msgstr "Carte de base sélectionnée"
+msgstr "Sélectionné %d"
 
 #. frmMain..TBDock..SrcToolbar..TBSMB..Hint
 msgid "Selected basemap"
@@ -4749,9 +4674,8 @@ msgstr ""
 "tout supprimer ?"
 
 #. Programmer's name for it: rsSelectingPlacemarks
-#, fuzzy
 msgid "Selecting placemarks..."
-msgstr "Supprimer les marqueurs cachés"
+msgstr "Sélection des marqueurs..."
 
 #. frmLonLatRectEdit..Caption
 msgid "Selection by Coordinates"
@@ -4781,9 +4705,8 @@ msgid "Sensors"
 msgstr "Capteurs"
 
 #. frmMarksExport..chkFilePerMark..Caption
-#, fuzzy
 msgid "Separate file for each placemark"
-msgstr "Ajouter une balise"
+msgstr "Fichier séparé pour chaque marqueur"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -4867,24 +4790,21 @@ msgid "Shortcut|*.lnk"
 msgstr "Raccourci|*.lnk"
 
 #. frGeoCoderApiKey..pnlKey..chkShowKey..Hint
-#, fuzzy
 msgid "Show / Hide"
-msgstr "Afficher l'heure UTC (temps universel coordonné)"
+msgstr "Afficher/Masquer"
 
 #. frmMarksExplorer..pnlBottom..rgMarksShowMode....Items.Strings
 msgid "Show all placemarks"
 msgstr "Afficher tous les marqueurs"
 
 #. frmMain..actlstMain..actEditPolygonShowArea..Caption
-#, fuzzy
 msgid "Show area"
-msgstr "Vitesse"
+msgstr "Afficher la zone"
 
 #. frmMain..actlstMain..actCalcLineShowAzimuth..Caption
 #. frmMain..actlstMain..actCalcLineShowAzimuth..Hint
 #. frmMain..actlstMain..actEditPathShowAzimuth..Caption
 #. frmMain..actlstMain..actEditPathShowAzimuth..Hint
-#, fuzzy
 msgid "Show azimuth"
 msgstr "Afficher l'azimut"
 
@@ -4898,7 +4818,6 @@ msgid "Show Download Info"
 msgstr "Afficher ce qui a été téléchargé"
 
 #. frElevationProfile..pmMain..mniShowElevation..Caption
-#, fuzzy
 msgid "Show Elevation"
 msgstr "Afficher l'altitude"
 
@@ -4917,9 +4836,8 @@ msgstr "Afficher l'altitude dans la barre d'état"
 
 #. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
-#, fuzzy
 msgid "Show Elevation Profile"
-msgstr "Afficher l'altitude"
+msgstr "Afficher le profil d'altitude"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Show for All"
@@ -4940,12 +4858,11 @@ msgstr "Afficher la piste du GPS"
 #. frmMain..actlstMain..actEditPathShowPointHint..Caption
 #. frmMain..actlstMain..actEditPathShowPointHint..Hint
 msgid "Show hint for point under cursor"
-msgstr ""
+msgstr "Afficher un indice pour le point sous le curseur"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..CBShowHintOnMarks..Caption
-#, fuzzy
 msgid "Show hints when hovering over placemarks"
-msgstr "Afficher seulement les marqueurs sélectionnés"
+msgstr "Afficher des indices lors du survol des marqueurs"
 
 #. Programmer's name for it: rsShowDayInfoPanelCaption
 msgid "Show Info Panel"
@@ -4955,7 +4872,6 @@ msgstr "Montrer le panneau"
 #. frmMain..actlstMain..actCalcLineShowIntermediateDist..Hint
 #. frmMain..actlstMain..actEditPathShowIntermediateDist..Caption
 #. frmMain..actlstMain..actEditPathShowIntermediateDist..Hint
-#, fuzzy
 msgid "Show intermediate distances"
 msgstr "Afficher les distances intermédiaires"
 
@@ -4993,19 +4909,16 @@ msgid "Show other Versions"
 msgstr "Afficher les autres versions"
 
 #. frmMain..actlstMain..actEditPolygonShowPerimeter..Caption
-#, fuzzy
 msgid "Show perimeter"
-msgstr "Ombre, mètres"
+msgstr "Afficher le périmètre"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarksCaptionVisible..Caption
-#, fuzzy
 msgid "Show placemark names"
-msgstr "Afficher tous les marqueurs"
+msgstr "Afficher les noms des marqueurs"
 
 #. frmMain..actlstMain..actConfigMarksNamesVisible..Caption
-#, fuzzy
 msgid "Show Placemark Names"
-msgstr "Afficher le nom des balises"
+msgstr "Afficher le Nom des Marqueurs"
 
 #. frmMain..MainPopupMenu..Nopendir..Caption
 msgid "Show Primary Map Tile"
@@ -5018,15 +4931,13 @@ msgid "Show Queue Info"
 msgstr "Afficher ce qui reste à télécharger"
 
 #. frElevationProfile..pmMain..mniShowSpeed..Caption
-#, fuzzy
 msgid "Show Speed"
-msgstr "Vitesse"
+msgstr "Afficher la vitesse"
 
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Caption
 #. frmMain..actlstMain..actCalcLineShowDistIncrement..Hint
 #. frmMain..actlstMain..actEditPathShowDistIncrement..Caption
 #. frmMain..actlstMain..actEditPathShowDistIncrement..Hint
-#, fuzzy
 msgid "Show the distance increment"
 msgstr "Afficher l'incrément de distance"
 
@@ -5056,9 +4967,8 @@ msgstr "Afficher le zoom actif"
 #. frmMain..actlstMain..actEditPathLabelVisible..Hint
 #. frmMain..actlstMain..actEditPolygonLabelVisible..Caption
 #. frmMain..actlstMain..actEditPolygonLabelVisible..Hint
-#, fuzzy
 msgid "Show/Hide Captions"
-msgstr "Afficher/Masquer la légende des points"
+msgstr "Afficher/Masquer les sous-titres"
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions..pnlPass..chkShowPass..Hint
 msgid "Show/Hide Password"
@@ -5159,17 +5069,16 @@ msgid "Size: %dx%d; Mouse at: %dx%d"
 msgstr "Taille : %dx%d; Souris à : %dx%d"
 
 msgid "SK-42"
-msgstr ""
+msgstr "SK-42"
 
 msgid "SK-42 (Pulkovo-1942) / Geographic"
-msgstr ""
+msgstr "SK-42 (Pulkovo-1942) / Géographique"
 
-#, fuzzy
 msgid "SK-42 / Gauss-Kruger (6 degree zones)"
-msgstr "Gauss Krueger (6 zones de degrés) / S-42"
+msgstr "SK-42 / Gauss-Kruger (6 zones de degrés)"
 
 msgid "SK-42 / GK"
-msgstr ""
+msgstr "SK-42 / GK"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..chkSkipExistingFiles..Caption
 msgid "Skip existing result files"
@@ -5185,7 +5094,7 @@ msgstr "Attente lors du redémarrage, ms :"
 
 #, object-pascal-format
 msgid "Slope: %.1f%%"
-msgstr ""
+msgstr "Inclinaison : %.1f%%"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Small"
@@ -5196,14 +5105,12 @@ msgid "Snap to Existing Markers"
 msgstr "Aller vers les marqueurs existants"
 
 #. frmMain..actlstMain..actMarksEditSnapToMarkers..Caption
-#, fuzzy
 msgid "Snap to Markers"
-msgstr "Aller vers les marqueurs existants"
+msgstr "Aligner sur les marqueurs"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlMarksCaption..grpMarksCaption..chkMarkCaptionSolidBg..Caption
-#, fuzzy
 msgid "Solid background color"
-msgstr "Couleur de l'arrière-plan :"
+msgstr "Couleur de fond unie"
 
 #. Programmer's name for it: rsSolstice
 msgid "Solstice at"
@@ -5246,26 +5153,24 @@ msgid "Speed"
 msgstr "Vitesse"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
-#, fuzzy
 msgid "Speed:"
-msgstr "Vitesse"
+msgstr "Vitesse :"
 
 #, no-object-pascal-format
 msgid "Speed: %.2f km/h"
-msgstr ""
+msgstr "Vitesse : %.2f km/h"
 
 #. Programmer's name for it: rsElevationProfileSpeedFmt
 #, no-object-pascal-format
 msgid "Speed: %.2f, %.2f, %.2f km/h"
-msgstr ""
+msgstr "Vitesse : %.2f, %.2f, %.2f km/h"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Speed: %s"
-msgstr "Vitesse"
+msgstr "Vitesse : %s"
 
-#, fuzzy
 msgid "Spherical Mercator (GoogleMaps, OSM, Bing) / EPSG:3857"
-msgstr "Mercator / Google Maps (Sphere Radius 6378137) / EPSG:3785"
+msgstr "Mercator sphérique (GoogleMaps, OSM, Bing) / EPSG:3857"
 
 #. frMapCombine..pnlBottom..pnlSplit..grpSplit..Caption
 msgid "Split image"
@@ -5294,32 +5199,28 @@ msgid "Square (on the surface)"
 msgstr "Carré (en surface)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
-#, fuzzy
 msgid "Square Feet"
-msgstr "Carré"
+msgstr "Pieds carrés"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 msgid "Square Kilometers"
-msgstr ""
+msgstr "Kilomètres carrés"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
-#, fuzzy
 msgid "Square Meters"
-msgstr "Carré"
+msgstr "Mètres carrés"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
-#, fuzzy
 msgid "Square Miles"
-msgstr "Carré"
+msgstr "Miles carrés"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 msgid "Square Nautical Miles"
-msgstr ""
+msgstr "Milles nautiques carrés"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
-#, fuzzy
 msgid "Square Yards"
-msgstr "Carré"
+msgstr "Yards carrés"
 
 #. frmCacheManager..pnlBottomButtons..btnStart..Caption
 #. frmImportConfigEdit..pnlBottom..btnOk..Caption
@@ -5443,32 +5344,33 @@ msgid ""
 "The height of each part of the map must be greater than %0:d pix (currently "
 "%1:d pix)."
 msgstr ""
+"La hauteur de chaque partie de la carte doit être supérieure à %0:d pix "
+"(actuellement %1:d pix)."
 
 #, no-object-pascal-format
 msgid ""
 "The height of each part of the map must not exceed %0:d pix (currently %1:d "
 "pix)."
 msgstr ""
+"La hauteur de chaque partie de la carte ne doit pas dépasser %0:d pix "
+"(actuellement %1:d pix)."
 
 msgid "The Name can't be empty!"
 msgstr "Ecrire un nom dans la case !"
 
-#, fuzzy
 msgid ""
 "The number of JPEG tiles in KMZ file will exceed 100!\n"
 "If your navigation device won't display the map,go back and split the image "
 "into parts (and use the resulting KMZ files separately)."
 msgstr ""
-"Le nombre de fichiers JPEG va dépasser 100.\n"
-"Diviser l'image en utilisant\n"
-"la fenêtre \"Gestionnaire de sélection - Assembler\"\n"
-"et utiliser les fichiers KMZ séparément."
+"Le nombre de dalles JPEG dans le fichier KMZ va dépasser 100 !\n"
+"Si l'appareil de navigation n'affiche pas la carte, revenir en arrière, "
+"diviser l'image en parties (et utiliser les fichiers KMZ résultants "
+"séparément)."
 
-#, fuzzy
 msgid "The Polygon is not selected!"
 msgstr "Aucun polygone sélectionné !"
 
-#, fuzzy
 msgid "The Projection is not selected!"
 msgstr "Aucune projection sélectionnée !"
 
@@ -5481,8 +5383,10 @@ msgid ""
 "The route cannot be built for the given profile.\n"
 "Not enough data in the database!"
 msgstr ""
+"L'itinéraire ne peut pas être construit pour le profil donné.\n"
+"Pas assez de données dans la base de données !"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid ""
 "The selected resolution is too high for the %s format!\n"
 "Widht = %d pix (max = %d pix)\n"
@@ -5490,12 +5394,11 @@ msgid ""
 "Try to select a smaller region or choose a different output format."
 msgstr ""
 "La résolution sélectionnée est trop grande pour %s format !\n"
-"Largeur= %d (max = %d)\n"
-"Hauteur = %d (max = %d)\n"
-"Sélectionner une région plus petite en %s ou choisir un autre format de "
-"sortie (ECW est le meilleur)."
+"Largeur = %d pix (max = %d pix)\n"
+"Hauteur = %d pix (max = %d pix)\n"
+"Sélectionner une région plus petite ou choisir un autre format de sortie."
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid ""
 "The selected resolution is too high for the GeoTIFF format with JPEG "
 "compression!\n"
@@ -5504,11 +5407,12 @@ msgid ""
 "Try to select a smaller region or choose a different compression algorithm / "
 "output format."
 msgstr ""
-"La résolution sélectionnée est trop grande pour %s format !\n"
-"Largeur= %d (max = %d)\n"
-"Hauteur = %d (max = %d)\n"
-"Sélectionner une région plus petite en %s ou choisir un autre format de "
-"sortie (ECW est le meilleur)."
+"La résolution sélectionnée est trop élevée pour le format GeoTIFF avec JPEG "
+"compression!\n"
+"Largeur = %d pix (max = %d pix)\n"
+"Hauteur = %d pix (max = %d pix)\n"
+"Sélectionner une région plus petite ou choisir un algorithme de "
+"compression / format de sortie différent."
 
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
@@ -5535,20 +5439,24 @@ msgid ""
 "The width of each part of the map must be greater than %0:d pix (currently "
 "%1:d pix)."
 msgstr ""
+"La largeur de chaque partie de la carte doit être supérieure à %0:d pix "
+"(actuellement %1:d pix)."
 
 #, no-object-pascal-format
 msgid ""
 "The width of each part of the map must not exceed %0:d pix (currently %1:d "
 "pix)."
 msgstr ""
+"La largeur de chaque partie de la carte ne doit pas dépasser %0:d pix "
+"(actuellement %1:d pix)."
 
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
-msgstr "Il n'y a pas d'objets disponibles dans le lot !"
+msgstr "Pas d'objets disponibles dans le lot !"
 
 #. Programmer's name for it: rsThereAreNoPlacemarksToProcess
 msgid "There are no placemarks to process!"
-msgstr ""
+msgstr "Aucun repère à traiter !"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDError
 #, no-object-pascal-format
@@ -5557,18 +5465,17 @@ msgstr "Il y a une erreur %1:s dans la carte %0:s"
 
 #. Programmer's name for it: rsNoDataStart
 msgid "There is no data in database for start location!"
-msgstr ""
+msgstr "Aucune donnée dans la base de données pour l'emplacement de départ !"
 
 #. Programmer's name for it: rsNoDataTarget
 msgid "There is no data in database for target location!"
-msgstr ""
+msgstr "Aucune donnée dans la base de données pour l'emplacement cible !"
 
 #. Programmer's name for it: rsNoDatabaseFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "There is no database in: %s"
-msgstr "Il y a une erreur %1:s dans la carte %0:s"
+msgstr "Pas de base de données dans : %s"
 
-#, fuzzy
 msgid "There is no read access to the placemarks DB!"
 msgstr "Pas d'accès écriture dans la base de données des marqueurs !"
 
@@ -5580,11 +5487,15 @@ msgid ""
 "Yes - to create and edit %s\n"
 "Close - to close this message"
 msgstr ""
+"Pas de source pour la piste de relecture !\n"
+"Ajouter la liste des fichiers/pistes au %s et réessayer.\n"
+"\n"
+"Oui - Pour créer et éditer %s\n"
+"Fermer - Pour fermer ce message"
 
 msgid "There is no supported maps"
-msgstr "Il n'y a pas de cartes prises en charge"
+msgstr "Pas de cartes prises en charge"
 
-#, fuzzy
 msgid "There is no write access to the placemarks DB!"
 msgstr "Pas d'accès écriture dans la base de données des marqueurs !"
 
@@ -5613,9 +5524,8 @@ msgstr ""
 "License (GPLv3)"
 
 #. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
-#, fuzzy
 msgid "Thread count:"
-msgstr "Nombre de tâches"
+msgstr "Nombre de fils :"
 
 #, no-object-pascal-format
 msgid ""
@@ -5637,7 +5547,6 @@ msgstr "Limites des dalles"
 msgid "Tile coordinates"
 msgstr "Coordonnées des dalles affichées"
 
-#, fuzzy
 msgid "Tile Coordinates"
 msgstr "Coordonnées des dalles affichées"
 
@@ -5660,9 +5569,8 @@ msgid "Tile Map Service (TMS) cache folder:"
 msgstr "TileMapService, répertoire du cache :"
 
 #. frExportKml..pnlCenter..pnlMain..pnlFileNameGenerator..lblFileNameGenerator..Caption
-#, fuzzy
 msgid "Tile name format:"
-msgstr "OGF2, format de dalles :"
+msgstr "Format du nom de la dalle :"
 
 #, object-pascal-format
 msgid ""
@@ -5672,11 +5580,15 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+"Erreur de traitement des dalles !\n"
+"Dalle : X = %d, Y = %d, Z = %d\n"
+"Erreur : \"%s: %s\"\n"
+"\n"
+"Continuer ?"
 
 #. frMapCombineCustomOptions..flwpnlKmzTileSize..lblKmzTileSize..Caption
-#, fuzzy
 msgid "Tile size, pix:"
-msgstr "Taille de la dalle :"
+msgstr "Taille de la dalle, pix :"
 
 msgid "Tile with same size exists"
 msgstr "Une dalle avec la même taille existe déjà"
@@ -5686,19 +5598,19 @@ msgid "Tiles"
 msgstr "Dalles"
 
 msgid "Tiles extension is not selected!"
-msgstr "L'extension des tuiles n'est pas sélectionnée !"
+msgstr "L'extension des dalles n'est pas sélectionnée !"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Tiles target format: %s"
-msgstr "OGF2, format de dalles :"
+msgstr "Format cible des dalles : %s"
 
 #, no-object-pascal-format
 msgid "Tiles to extract (no more then): %.0n"
-msgstr ""
+msgstr "Dalles à extraire (pas plus de) : %.0n"
 
-#, fuzzy, no-object-pascal-format
+#, no-object-pascal-format
 msgid "Tiles to extract: %.0n"
-msgstr "Temps de trajet :"
+msgstr "Dalles à extraire : %.0n"
 
 #. Programmer's name for it: rsTime
 msgid "Time"
@@ -5717,14 +5629,13 @@ msgid "Time to reach:"
 msgstr "Temps de trajet :"
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..lblTimeZoneDateTimeFormat..Caption
-#, fuzzy
 msgid "Time Zone date/time format:"
-msgstr "OGF2, format de dalles :"
+msgstr "Format de date/heure du fuseau horaire :"
 
 #. Programmer's name for it: rsElevationProfileTimeFmt
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Time: %s"
-msgstr "Nom : %s"
+msgstr "Durée : %s"
 
 #. frmMarkCategoryEdit..flwpnlZooms..Label4..Caption
 msgid "to"
@@ -5751,25 +5662,24 @@ msgid "Toolbars"
 msgstr "Barres d'outils généraux"
 
 #. frmMain..TBDockLeft..TBEditPath..tbxEditPathTools..Hint
-#, fuzzy
 msgid "Tools"
-msgstr "Barres d'outils généraux"
+msgstr "Outils"
 
 #. Programmer's name for it: SAS_STR_AllSaves
 msgid "Total to save:"
 msgstr "Total à sauvegarder :"
 
 #. Programmer's name for it: SAS_STR_Whole
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Total: %s"
-msgstr "Total"
+msgstr "Total : %s"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
 msgid "Track"
-msgstr ""
+msgstr "Piste"
 
 msgid "Track Play/Stop"
-msgstr ""
+msgstr "Lecture/Arrêt de la piste"
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
@@ -5784,9 +5694,9 @@ msgstr "Incapable de charger la (les) carte(s) ! Abandon..."
 msgid "Undo Route Calculation"
 msgstr "Annuler le calcul d'itinéraire"
 
-#, fuzzy, object-pascal-format
+#, object-pascal-format
 msgid "Unexpected content length: %d bytes (expecting: %d bytes)"
-msgstr "Type de contenu inattendu %s"
+msgstr "Longueur de contenu inattendue : %d octets (attendu : %d octets)"
 
 #, object-pascal-format
 msgid "Unexpected content type %s"
@@ -5831,9 +5741,8 @@ msgstr ""
 msgid "Unknown error during download"
 msgstr "Erreur inconnue pendant le téléchargement"
 
-#, fuzzy
 msgid "Unknown HTTP request error!"
-msgstr "Erreur inconnue"
+msgstr "Erreur de requête HTTP inconnue !"
 
 #, object-pascal-format
 msgid "Unknown status code %d"
@@ -5904,12 +5813,12 @@ msgstr "Utilisation supprimée : les objets n'existent pas !"
 
 #. frmMain..actlstMain..actGeoCalcUseGpsDatum..Caption
 msgid "Use GPS (WGS 84) Datum"
-msgstr ""
+msgstr "Utiliser le système de référence GPS (WGS 84)"
 
 #. frmMapLayersOptions..pgcOptions..tsElevation..chkElevUseInterpolation..Caption
 #. Programmer's name for it: rsUseElevationInterpolation
 msgid "Use Interpolation"
-msgstr ""
+msgstr "Utiliser l'interpolation"
 
 #. frmMain..actlstMain..actConfigUsePrevForLayers..Caption
 msgid "Use Layers from Lower Zooms"
@@ -5917,7 +5826,7 @@ msgstr "Création de grands zooms pour les couches"
 
 #. frmMain..actlstMain..actGeoCalcUseZmpDatum..Caption
 msgid "Use Map Datum (from zmp)"
-msgstr ""
+msgstr "Utiliser les données cartographiques (depuis le zmp)"
 
 #. frmMain..actlstMain..actConfigUsePrevForMap..Caption
 msgid "Use Maps from Lower Zooms"
@@ -5960,9 +5869,8 @@ msgid "Use Vector Layers from Lower Zooms"
 msgstr "Prendre les couches vectorielles à partir des petits zooms"
 
 #. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
-#, fuzzy
 msgid "Use XYZ scheme"
-msgstr "Utilisation de la projection xyz"
+msgstr "Utilisation de la projection XYZ"
 
 #. frmMain..actlstMain..actViewGridLonLat_User..Caption
 msgid "User defined"
@@ -5989,9 +5897,8 @@ msgid "Value"
 msgstr "Valeur"
 
 #. frmSettings..PageControl1..tsWiki..Caption
-#, fuzzy
 msgid "Vector Layer"
-msgstr "A partir de la couche"
+msgstr "Couche vectorielle"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..Caption
 msgid "Version"
@@ -6023,9 +5930,8 @@ msgid "Visible on zooms:"
 msgstr "Visible aux zooms :"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..lblVolumeSize..Caption
-#, fuzzy
 msgid "Volume Size, MB"
-msgstr "Taille du volume :"
+msgstr "Taille du volume, Mb :"
 
 #. Programmer's name for it: SAS_ERR_WaitTime
 #, no-object-pascal-format
@@ -6040,7 +5946,7 @@ msgstr "Lune gibbeuse décroissante"
 
 #. Programmer's name for it: SAS_MSG_warning
 msgid "Warning"
-msgstr ""
+msgstr "Avertissement"
 
 msgid "Waxing Crescent"
 msgstr "Premier croissant"
@@ -6049,10 +5955,10 @@ msgid "Waxing Gibbous"
 msgstr "Lune gibbeuse croissante"
 
 msgid "WGS 84 / Geographic"
-msgstr ""
+msgstr "WGS 84 / Geographique"
 
 msgid "WGS 84 / UTM (6 degree zones)"
-msgstr ""
+msgstr "WGS 84 / UTM (6 zones de degrés)"
 
 #. frMarksGeneralOptions..grpLine..flwpnlPath..lblLineWidth..Caption
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
@@ -6074,11 +5980,9 @@ msgstr "Dans l'intervalle de temps"
 msgid "Word Wrap"
 msgstr "Transfert de terme"
 
-#, fuzzy
 msgid "World Mercator (Yandex) / EPSG:3395"
-msgstr "Mercator / WGS84 / EPSG:3395"
+msgstr "World Mercator (Yandex) / EPSG:3395"
 
-#, fuzzy
 msgid "WS deg. (W12.12345678)"
 msgstr "WS deg. (W12.12345678°)"
 
@@ -6097,15 +6001,15 @@ msgstr "Yandex"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "Yards"
-msgstr ""
+msgstr "Yards"
 
 #. Programmer's name for it: SAS_UNITS_yard
 msgid "yd"
-msgstr ""
+msgstr "yd"
 
 #. Programmer's name for it: SAS_UNITS_yd2
 msgid "yd2"
-msgstr ""
+msgstr "yd2"
 
 #. Programmer's name for it: SAS_STR_Yes
 msgid "Yes"
@@ -6115,11 +6019,13 @@ msgstr "Oui"
 msgid ""
 "You are about to export placemarks into %d separate files. Are you sure?"
 msgstr ""
+"Vous êtes sur le point d'exporter des repères dans %d fichiers distincts. "
+"Êtes-vous sûr ?"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
 msgid "You can reset value by right mouse click"
-msgstr ""
+msgstr "Réinitialiser la valeur en cliquant avec le bouton droit de la souris"
 
 #. Programmer's name for it: rsErrorTwoPolygons
 msgid "You must add at least TWO polygons!"
@@ -6188,9 +6094,8 @@ msgid "Zoom to Cursor"
 msgstr "Centrage vers le pointeur (double clic)"
 
 #. frElevationProfile..pmMain..mniZoomWithMouseWheel..Caption
-#, fuzzy
 msgid "Zoom with Mouse Wheel"
-msgstr "Contrôle de la roue de la souris :"
+msgstr "Zoom avec la molette de la souris"
 
 #. frMapCombine..pnlMapSelect..pnlZoom..Labelzoom..Caption
 #. frDeleteTiles..pnlMapSelect..pnlZoom..Labelzoom..Caption
@@ -6271,25 +6176,21 @@ msgstr "Z-Order :"
 #~ msgid "RGB"
 #~ msgstr "Gb"
 
-#, no-object-pascal-format
 #~ msgid "Every map part must have height less than %0:d but exist %1:d"
 #~ msgstr ""
 #~ "Chaque partie de carte doit avoir une hauteur plus petite que %0:d mais "
 #~ "existe %1:d"
 
-#, no-object-pascal-format
 #~ msgid "Every map part must have height more than %0:d but exist %1:d"
 #~ msgstr ""
 #~ "Chaque partie de carte doit avoir une hauteur plus grande que %0:d mais "
 #~ "existe %1:d"
 
-#, no-object-pascal-format
 #~ msgid "Every map part must have width less than %0:d but exist %1:d"
 #~ msgstr ""
 #~ "Chaque partie de carte doit avoir une largeur plus petite que %0:d mais "
 #~ "existe %1:d"
 
-#, no-object-pascal-format
 #~ msgid "Every map part must have width more than %0:d but exist %1:d"
 #~ msgstr ""
 #~ "Chaque partie de carte doit avoir une largeur plus grande que %0:d mais "
@@ -6340,7 +6241,6 @@ msgstr "Z-Order :"
 #~ msgid " Storage "
 #~ msgstr "Stockage"
 
-#, no-object-pascal-format
 #~ msgid "(zoom %)"
 #~ msgstr "(zoom %)"
 
