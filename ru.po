@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-12-10 10:53\n"
-"PO-Revision-Date: 2024-12-03 12:14+0300\n"
+"POT-Creation-Date: 2025-01-07 18:49\n"
+"PO-Revision-Date: 2025-01-07 18:54+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1360,6 +1360,10 @@ msgstr "Смена формата кэша"
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "Координаты"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+msgid "Coordinates and Elevation"
+msgstr "Координаты и высоту"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..lblCoordSysInfoType..Caption
 msgid "Coordinates info"
@@ -5704,15 +5708,15 @@ msgstr "Над горизонтом"
 msgid "Upper left corner"
 msgstr "Левый верхний угол"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "Ссылку для просмотра в Bing Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "Ссылку для просмотра в Google Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "Ссылку для просмотра в kosmosnimki.ru"
 
@@ -5720,29 +5724,21 @@ msgstr "Ссылку для просмотра в kosmosnimki.ru"
 msgid "URL to Layer Tile"
 msgstr "Ссылку на тайл слоя"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
-msgid "URL to Nokia Map Creator"
-msgstr "Ссылку для просмотра в Nokia Map Creator"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+msgid "URL to nakarte.me"
+msgstr "Ссылку для просмотра в nakarte.me"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
-msgid "URL to osm.org"
-msgstr "Ссылку для просмотра в osm.org"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+msgid "URL to OpenStreetMap"
+msgstr "Ссылку для просмотра в OpenStreetMap"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Ссылку на тайл основной карты"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
-msgid "URL to Rosreestr"
-msgstr "Ссылку для просмотра в Rosreestr"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
-msgid "URL to Terraserver"
-msgstr "Ссылку для просмотра в Terraserver"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
-msgid "URL to Yandex.Maps"
-msgstr "Ссылку для просмотра на Яндекс.Картах"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+msgid "URL to Yandex Maps"
+msgstr "Ссылку для просмотра в Яндекс Картах"
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
 msgid "Use Age Gradient"
@@ -6046,6 +6042,15 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
+
+#~ msgid "URL to Nokia Map Creator"
+#~ msgstr "Ссылку для просмотра в Nokia Map Creator"
+
+#~ msgid "URL to osm.org"
+#~ msgstr "Ссылку для просмотра в osm.org"
+
+#~ msgid "URL to Terraserver"
+#~ msgstr "Ссылку для просмотра в Terraserver"
 
 #~ msgid "Area"
 #~ msgstr "Площадь"

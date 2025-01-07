@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-12-10 10:53\n"
+"POT-Creation-Date: 2025-01-07 18:49\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1422,6 +1422,11 @@ msgstr "Convertir formato del Caché"
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "Coordenadas"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#, fuzzy
+msgid "Coordinates and Elevation"
+msgstr "Representación de coordenadas"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..lblCoordSysInfoType..Caption
 #, fuzzy
@@ -5926,15 +5931,15 @@ msgstr "Mosaico"
 msgid "Upper left corner"
 msgstr "Esquina superior izquierda"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "URL a Bing Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "URL a Google Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "URL a kosmosnimki.ru"
 
@@ -5942,28 +5947,23 @@ msgstr "URL a kosmosnimki.ru"
 msgid "URL to Layer Tile"
 msgstr "URL al mosaico del Layer"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
-msgid "URL to Nokia Map Creator"
-msgstr "URL a Nokia Map Creator"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#, fuzzy
+msgid "URL to nakarte.me"
+msgstr "URL a Rosreestr"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
-msgid "URL to osm.org"
-msgstr "URL a osm.org"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#, fuzzy
+msgid "URL to OpenStreetMap"
+msgstr "URL a Yandex.Maps"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "URL al mosaico del Mapa"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
-msgid "URL to Rosreestr"
-msgstr "URL a Rosreestr"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
-msgid "URL to Terraserver"
-msgstr "URL a Terraserver"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
-msgid "URL to Yandex.Maps"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#, fuzzy
+msgid "URL to Yandex Maps"
 msgstr "URL a Yandex.Maps"
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
@@ -6283,6 +6283,15 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "URL to Nokia Map Creator"
+#~ msgstr "URL a Nokia Map Creator"
+
+#~ msgid "URL to osm.org"
+#~ msgstr "URL a osm.org"
+
+#~ msgid "URL to Terraserver"
+#~ msgstr "URL a Terraserver"
 
 #~ msgid "Area"
 #~ msgstr "Área"

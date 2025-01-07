@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-12-10 10:53\n"
+"POT-Creation-Date: 2025-01-07 18:49\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1232,8 +1232,8 @@ msgid ""
 "Click on the placemark with the right mouse button and select \"Navigation "
 "to Placemark\""
 msgstr ""
-"Cliquer sur le marqueur avec le bouton droit de la souris et sélectionner « "
-"Navigation vers le marqueur »"
+"Cliquer sur le marqueur avec le bouton droit de la souris et sélectionner "
+"« Navigation vers le marqueur »"
 
 msgid "Clipboard is empty!"
 msgstr "Le presse-papiers est vide !"
@@ -1382,6 +1382,11 @@ msgstr "Convertir le format du cache"
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "les coordonnées du point"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#, fuzzy
+msgid "Coordinates and Elevation"
+msgstr "Représentation des coordonnées :"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..lblCoordSysInfoType..Caption
 msgid "Coordinates info"
@@ -5763,15 +5768,15 @@ msgstr "Temps de montée"
 msgid "Upper left corner"
 msgstr "Coin supérieur gauche"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "l'URL de Bing Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "l'URL de Google Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "l'URL de kosmosnimki.ru"
 
@@ -5779,28 +5784,23 @@ msgstr "l'URL de kosmosnimki.ru"
 msgid "URL to Layer Tile"
 msgstr "l'URL de cette Couche :"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
-msgid "URL to Nokia Map Creator"
-msgstr "l'URL de Nokia Map Creator"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#, fuzzy
+msgid "URL to nakarte.me"
+msgstr "l'URL de Rosreestr"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
-msgid "URL to osm.org"
-msgstr "l'URL de OSM.org"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#, fuzzy
+msgid "URL to OpenStreetMap"
+msgstr "l'URL de Yandex.Maps"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "l'URL de la Carte affichée"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
-msgid "URL to Rosreestr"
-msgstr "l'URL de Rosreestr"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
-msgid "URL to Terraserver"
-msgstr "l'URL de Terraserver"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
-msgid "URL to Yandex.Maps"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#, fuzzy
+msgid "URL to Yandex Maps"
 msgstr "l'URL de Yandex.Maps"
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
@@ -6111,6 +6111,15 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "URL to Nokia Map Creator"
+#~ msgstr "l'URL de Nokia Map Creator"
+
+#~ msgid "URL to osm.org"
+#~ msgstr "l'URL de OSM.org"
+
+#~ msgid "URL to Terraserver"
+#~ msgstr "l'URL de Terraserver"
 
 #~ msgid "Area"
 #~ msgstr "Surface"

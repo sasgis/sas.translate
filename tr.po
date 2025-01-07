@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-12-10 10:53\n"
+"POT-Creation-Date: 2025-01-07 18:49\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -1382,6 +1382,11 @@ msgstr "Convert Cache Format"
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "Koordinatlar"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#, fuzzy
+msgid "Coordinates and Elevation"
+msgstr "Koordinat gösterimi"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..lblCoordSysInfoType..Caption
 msgid "Coordinates info"
@@ -5800,15 +5805,15 @@ msgstr "Çalışma Süresi"
 msgid "Upper left corner"
 msgstr "Üst sol köşe"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "Bing Haritalar URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "Google Haritalar'ın URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "Kosmosnimki.ru URL'si"
 
@@ -5816,28 +5821,23 @@ msgstr "Kosmosnimki.ru URL'si"
 msgid "URL to Layer Tile"
 msgstr "Katman Döşeme URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
-msgid "URL to Nokia Map Creator"
-msgstr "Nokia Map Creator URL'si"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#, fuzzy
+msgid "URL to nakarte.me"
+msgstr "Rosreestr'in URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
-msgid "URL to osm.org"
-msgstr "Osm.org'un URL'si"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#, fuzzy
+msgid "URL to OpenStreetMap"
+msgstr "Yandex.Haritalar'ın URL'si"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Birincil Harita Döşemesinin URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
-msgid "URL to Rosreestr"
-msgstr "Rosreestr'in URL'si"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
-msgid "URL to Terraserver"
-msgstr "Terraserver'ın URL'si"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
-msgid "URL to Yandex.Maps"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#, fuzzy
+msgid "URL to Yandex Maps"
 msgstr "Yandex.Haritalar'ın URL'si"
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
@@ -6148,6 +6148,15 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "URL to Nokia Map Creator"
+#~ msgstr "Nokia Map Creator URL'si"
+
+#~ msgid "URL to osm.org"
+#~ msgstr "Osm.org'un URL'si"
+
+#~ msgid "URL to Terraserver"
+#~ msgstr "Terraserver'ın URL'si"
 
 #~ msgid "Area"
 #~ msgstr "Alan"

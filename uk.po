@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2024-12-10 10:53\n"
+"POT-Creation-Date: 2025-01-07 18:49\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1403,6 +1403,11 @@ msgstr "Конвертувати формат кешу"
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "Координати"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#, fuzzy
+msgid "Coordinates and Elevation"
+msgstr "Формат подання координат"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..lblCoordSysInfoType..Caption
 msgid "Coordinates info"
@@ -5874,15 +5879,15 @@ msgstr "Час"
 msgid "Upper left corner"
 msgstr "Лівий верхній кут"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "Посилання для перегляду на Maps.live.com"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "Посилання для перегляду на Google Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "Посилання для перегляду на kosmosnimki.ru"
 
@@ -5890,28 +5895,23 @@ msgstr "Посилання для перегляду на kosmosnimki.ru"
 msgid "URL to Layer Tile"
 msgstr "Посилання на тайл шару"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
-msgid "URL to Nokia Map Creator"
-msgstr "Посилання на Nokia Map Creator"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#, fuzzy
+msgid "URL to nakarte.me"
+msgstr "Посилання на Rosreestr"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
-msgid "URL to osm.org"
-msgstr "Посилання на osm.org"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#, fuzzy
+msgid "URL to OpenStreetMap"
+msgstr "Посилання на Яндекс.Карти"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Посилання на тайл основної карти"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
-msgid "URL to Rosreestr"
-msgstr "Посилання на Rosreestr"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
-msgid "URL to Terraserver"
-msgstr "Посилання на Terraserver"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
-msgid "URL to Yandex.Maps"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#, fuzzy
+msgid "URL to Yandex Maps"
 msgstr "Посилання на Яндекс.Карти"
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
@@ -6230,6 +6230,15 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "URL to Nokia Map Creator"
+#~ msgstr "Посилання на Nokia Map Creator"
+
+#~ msgid "URL to osm.org"
+#~ msgstr "Посилання на osm.org"
+
+#~ msgid "URL to Terraserver"
+#~ msgstr "Посилання на Terraserver"
 
 #~ msgid "Area"
 #~ msgstr "Площа"

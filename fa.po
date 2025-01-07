@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2024-12-10 10:53\n"
+"POT-Creation-Date: 2025-01-07 18:49\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -1416,6 +1416,11 @@ msgstr "تبدیل فرمت کش"
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
 msgid "Coordinates"
 msgstr "مختصات"
+
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#, fuzzy
+msgid "Coordinates and Elevation"
+msgstr "نمایندگی مختصات"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..lblCoordSysInfoType..Caption
 #, fuzzy
@@ -5888,15 +5893,15 @@ msgstr ""
 msgid "Upper left corner"
 msgstr "گوشه سمت چپ بالا"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..livecom1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "URL به نقشه های بینگ"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Google1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "URL به Google Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..kosmosnimkiru1..Caption
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "آدرس اینترنتی kosmosnimki.ru"
 
@@ -5904,28 +5909,23 @@ msgstr "آدرس اینترنتی kosmosnimki.ru"
 msgid "URL to Layer Tile"
 msgstr "URL به کاشی لایه"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..nokiamapcreator1..Caption
-msgid "URL to Nokia Map Creator"
-msgstr "نشانی وب نوکیا Map Creator"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#, fuzzy
+msgid "URL to nakarte.me"
+msgstr "آدرس اینترنتی Rosreestr"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..osmorg1..Caption
-msgid "URL to osm.org"
-msgstr "آدرس اینترنتی osm.org"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#, fuzzy
+msgid "URL to OpenStreetMap"
+msgstr "URL به Yandex.Maps"
 
 #. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
 msgid "URL to Primary Map Tile"
 msgstr "URL به کاشی نقشه اولیه"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..Rosreestr..Caption
-msgid "URL to Rosreestr"
-msgstr "آدرس اینترنتی Rosreestr"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..terraserver1..Caption
-msgid "URL to Terraserver"
-msgstr "URL به Terraserver"
-
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..YaLink..Caption
-msgid "URL to Yandex.Maps"
+#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#, fuzzy
+msgid "URL to Yandex Maps"
 msgstr "URL به Yandex.Maps"
 
 #. frmMain..actlstMain..actViewFillingMapMarkGradient..Caption
@@ -6245,6 +6245,15 @@ msgstr "بزرگنمایی ها:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "URL to Nokia Map Creator"
+#~ msgstr "نشانی وب نوکیا Map Creator"
+
+#~ msgid "URL to osm.org"
+#~ msgstr "آدرس اینترنتی osm.org"
+
+#~ msgid "URL to Terraserver"
+#~ msgstr "URL به Terraserver"
 
 #~ msgid " RosCosmos "
 #~ msgstr "RosCosmos"
