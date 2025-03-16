@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2025-02-16 18:55\n"
+"POT-Creation-Date: 2025-03-16 10:58\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -598,10 +598,6 @@ msgstr "همه فرمت های سازگار"
 msgid "All sources"
 msgstr "همه خدمات"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
-msgid "All Visible"
-msgstr "همه قابل مشاهده است"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr ""
@@ -692,6 +688,7 @@ msgstr "هر منبع موجود"
 #. frmMain..actlstMain..actSelectByGeometryFinish..Hint
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmGeoTiffOptions..btnApply..Caption
@@ -925,6 +922,10 @@ msgstr "باتری"
 msgid "Battery:"
 msgstr "باتری:"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Begins With"
+msgstr ""
+
 #. Programmer's name for it: rsBerkeleyDBVersionedCacheName
 msgid "BerkeleyDB (Versioned)"
 msgstr "BerkeleyDB (نسخه شده)"
@@ -1092,6 +1093,7 @@ msgstr "کالیبراسیون برای برنامه رادیویی موبایل
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnCancel..Caption
 #. frmMarksExport..btnCancel..Caption
 #. frmMarksExportConfig..pnlBottom..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
@@ -1179,6 +1181,10 @@ msgstr "پارامترهای عنوان"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "آبشار"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkIgnoreCase..Caption
+msgid "Case-Insensitive Search"
+msgstr ""
 
 #, fuzzy
 msgid "Category name can't be empty!"
@@ -1399,6 +1405,12 @@ msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr ""
 "اتصال به فضای ذخیره‌سازی کاشی خارجی قطع شده است و نمی‌توان آن را دوباره برقرار "
 "کرد"
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod..Text
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+#, fuzzy
+msgid "Contains"
+msgstr "کنتراست"
 
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
@@ -2146,6 +2158,10 @@ msgstr "نام فایل ZMP را خالی کنید"
 msgid "en_US"
 msgstr ""
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Ends With"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2363,10 +2379,24 @@ msgstr "FillDates"
 msgid "Filter"
 msgstr "فیلتر کنید"
 
+#. frmMarksExplorerFilter..grpFilterByText..Caption
+msgid "Filter by placemark name and description"
+msgstr ""
+
+#. frmMarksExplorerFilter..grpFilterByType..Caption
+#, fuzzy
+msgid "Filter by placemark type"
+msgstr "با علامت مکان انتخاب کنید"
+
 #. frElevationProfile..pmMain..mniFilterData..Caption
 #, fuzzy
 msgid "Filter Data"
 msgstr "فیلتر کنید"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmFilter..Hint
+#, fuzzy
+msgid "Filter placemarks"
+msgstr "مکان نشان ها را پنهان کنید"
 
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
@@ -3332,6 +3362,7 @@ msgstr "رنگ حاشیه"
 msgid "Marker size"
 msgstr ""
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPoints..Caption
 #, fuzzy
 msgid "Marks"
 msgstr "نشانه های من"
@@ -3367,6 +3398,10 @@ msgstr "MarkSystemConfig: مورد #%d دارای رابط Impl ناشناخته
 #, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr "MarkSystemConfig: مورد #%d خطای خواندن Impl GUID!"
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Matches Exactly"
+msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
 msgid "Max concurrent http(s)-requests number:"
@@ -4026,6 +4061,7 @@ msgstr "مسیر:"
 msgid "Pathname to Tile in Cache"
 msgstr "نام مسیر به کاشی در حافظه پنهان"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPaths..Caption
 #. frMarksProcess..pnlTop..chkPaths..Caption
 #. frmSettings..PageControl1..tsPaths..Caption
 msgid "Paths"
@@ -4111,6 +4147,11 @@ msgstr "مکان‌ها"
 #. Programmer's name for it: SAS_STR_PlaceMarks
 msgid "PlaceMarks"
 msgstr "علامت‌های مکان"
+
+#. frmMarksExplorerFilter..Caption
+#, fuzzy
+msgid "Placemarks filter settings"
+msgstr "دسته بندی نشان مکان"
 
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
@@ -4216,6 +4257,7 @@ msgstr "پارامترهای چند ضلعی"
 msgid "Polygonal Selection"
 msgstr "انتخاب چند ضلعی"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPolygons..Caption
 #. frMarksProcess..pnlTop..chkPolygons..Caption
 msgid "Polygons"
 msgstr "چند ضلعی ها"
@@ -4465,6 +4507,11 @@ msgstr "بازه ترسیم مجدد (ms):"
 msgid "Refresh rate, ms:"
 msgstr "نرخ تازه‌سازی (میلی‌ثانیه)"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+#, fuzzy
+msgid "Regular Expression"
+msgstr "انتخاب مستطیلی"
+
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "مسیر نسبی به کاشی"
@@ -4517,6 +4564,7 @@ msgstr "نیاز دارد:"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
+#. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "بازنشانی کنید"
@@ -4750,6 +4798,16 @@ msgstr ""
 #. frmSettings..PageControl1..tsSearch..Caption
 msgid "Search"
 msgstr "جستجو کنید"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInDesc..Caption
+#, fuzzy
+msgid "Search in Description"
+msgstr "توضیحات:"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInName..Caption
+#, fuzzy
+msgid "Search in Name"
+msgstr "جستجو"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSearchResults..Caption
 #. frmMain..TBDockLeft..TBSearchWindow..Caption
@@ -6258,6 +6316,9 @@ msgstr "بزرگنمایی ها:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "All Visible"
+#~ msgstr "همه قابل مشاهده است"
 
 #~ msgid "URL to Nokia Map Creator"
 #~ msgstr "نشانی وب نوکیا Map Creator"

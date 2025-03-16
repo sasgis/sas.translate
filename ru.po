@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-02-16 18:55\n"
-"PO-Revision-Date: 2025-02-16 18:57+0300\n"
+"POT-Creation-Date: 2025-03-16 10:58\n"
+"PO-Revision-Date: 2025-03-16 11:03+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -576,10 +576,6 @@ msgstr "Все поддерживаемые форматы"
 msgid "All sources"
 msgstr "Все источники"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
-msgid "All Visible"
-msgstr "Все видимы"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr "Разрешить Запись"
@@ -667,6 +663,7 @@ msgstr "Все доступные источники"
 #. frmMain..actlstMain..actSelectByGeometryFinish..Hint
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmGeoTiffOptions..btnApply..Caption
@@ -887,6 +884,10 @@ msgstr "Батарея"
 msgid "Battery:"
 msgstr "Батарея:"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Begins With"
+msgstr "Начинается с"
+
 #. Programmer's name for it: rsBerkeleyDBVersionedCacheName
 msgid "BerkeleyDB (Versioned)"
 msgstr "BerkeleyDB (Версионный)"
@@ -1052,6 +1053,7 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnCancel..Caption
 #. frmMarksExport..btnCancel..Caption
 #. frmMarksExportConfig..pnlBottom..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
@@ -1140,6 +1142,10 @@ msgstr "Параметры заголовка"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "Каскад"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkIgnoreCase..Caption
+msgid "Case-Insensitive Search"
+msgstr "Регистро-независимый поиск"
 
 msgid "Category name can't be empty!"
 msgstr "Имя категории не может быть пустым!"
@@ -1343,6 +1349,11 @@ msgstr "Строка подключения"
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
 msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr "Соединение с СУБД разорвано"
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod..Text
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Contains"
+msgstr "Содержит"
 
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
@@ -2073,6 +2084,10 @@ msgstr "Пустое имя файла ZMP"
 msgid "en_US"
 msgstr "ru_RU"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Ends With"
+msgstr "Заканчивается на"
+
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2283,9 +2298,21 @@ msgstr "Дата создания"
 msgid "Filter"
 msgstr "Фильтр"
 
+#. frmMarksExplorerFilter..grpFilterByText..Caption
+msgid "Filter by placemark name and description"
+msgstr "Фильтр по имени и описанию метки"
+
+#. frmMarksExplorerFilter..grpFilterByType..Caption
+msgid "Filter by placemark type"
+msgstr "Фильтр по типу метки"
+
 #. frElevationProfile..pmMain..mniFilterData..Caption
 msgid "Filter Data"
 msgstr "Фильтровать данные"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmFilter..Hint
+msgid "Filter placemarks"
+msgstr "Фильтровать метки"
 
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
@@ -3227,6 +3254,7 @@ msgstr "Цвет маркера"
 msgid "Marker size"
 msgstr "Размер маркера"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPoints..Caption
 msgid "Marks"
 msgstr "Метки"
 
@@ -3259,6 +3287,10 @@ msgstr ""
 #, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr ""
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Matches Exactly"
+msgstr "Совпадает точно"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
 msgid "Max concurrent http(s)-requests number:"
@@ -3895,6 +3927,7 @@ msgstr "Размещение:"
 msgid "Pathname to Tile in Cache"
 msgstr "Полный путь к тайлу"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPaths..Caption
 #. frMarksProcess..pnlTop..chkPaths..Caption
 #. frmSettings..PageControl1..tsPaths..Caption
 msgid "Paths"
@@ -3978,6 +4011,10 @@ msgstr "Метки"
 #. Programmer's name for it: SAS_STR_PlaceMarks
 msgid "PlaceMarks"
 msgstr "Метки"
+
+#. frmMarksExplorerFilter..Caption
+msgid "Placemarks filter settings"
+msgstr "Настройки фильтрации меток"
 
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
@@ -4074,6 +4111,7 @@ msgstr "Параметры полигонов"
 msgid "Polygonal Selection"
 msgstr "Полигональная область"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPolygons..Caption
 #. frMarksProcess..pnlTop..chkPolygons..Caption
 msgid "Polygons"
 msgstr "Полигоны"
@@ -4320,6 +4358,10 @@ msgstr "Перерисовывать не чаще (мс):"
 msgid "Refresh rate, ms:"
 msgstr "Период обновления, мс:"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Regular Expression"
+msgstr "Регулярное выражение"
+
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Относительный путь к тайлам"
@@ -4370,6 +4412,7 @@ msgstr "Зависимости:"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
+#. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Сбросить"
@@ -4600,6 +4643,14 @@ msgstr "Пустой скрипт"
 #. frmSettings..PageControl1..tsSearch..Caption
 msgid "Search"
 msgstr "Поиск"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInDesc..Caption
+msgid "Search in Description"
+msgstr "Искать в Описании"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInName..Caption
+msgid "Search in Name"
+msgstr "Искать в Имени"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSearchResults..Caption
 #. frmMain..TBDockLeft..TBSearchWindow..Caption

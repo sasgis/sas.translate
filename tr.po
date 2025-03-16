@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-02-16 18:55\n"
+"POT-Creation-Date: 2025-03-16 10:58\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -584,10 +584,6 @@ msgstr "Tüm uyumlu formatlar"
 msgid "All sources"
 msgstr "Tüm Servisler"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
-msgid "All Visible"
-msgstr "Tümünü Göster"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr "Eklemeye izin ver"
@@ -674,6 +670,7 @@ msgstr "Kullanılabilir Kaynak"
 #. frmMain..actlstMain..actSelectByGeometryFinish..Hint
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmGeoTiffOptions..btnApply..Caption
@@ -903,6 +900,10 @@ msgstr "Batarya"
 msgid "Battery:"
 msgstr "Batarya:"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Begins With"
+msgstr ""
+
 #. Programmer's name for it: rsBerkeleyDBVersionedCacheName
 msgid "BerkeleyDB (Versioned)"
 msgstr "BerkeleyDB (Sürüm)"
@@ -1069,6 +1070,7 @@ msgstr "Radio Mobile programı için kalibrasyon (*.dat)"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnCancel..Caption
 #. frmMarksExport..btnCancel..Caption
 #. frmMarksExportConfig..pnlBottom..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
@@ -1158,6 +1160,10 @@ msgstr "Başlık parametreleri"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "Kademeli"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkIgnoreCase..Caption
+msgid "Case-Insensitive Search"
+msgstr ""
 
 msgid "Category name can't be empty!"
 msgstr "Kategori adı boş bırakılamaz!"
@@ -1365,6 +1371,12 @@ msgstr "Bağlantı dizisi"
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
 msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr "Harici döşeme deposuna bağlantı kesildi ve yeniden kurulamaz"
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod..Text
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+#, fuzzy
+msgid "Contains"
+msgstr "Kontrast"
 
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
@@ -2103,6 +2115,10 @@ msgstr "Boş ZMP dosya adı"
 msgid "en_US"
 msgstr "tr_TR"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Ends With"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2316,9 +2332,23 @@ msgstr "Doldurma Tarihleri"
 msgid "Filter"
 msgstr "Filtre"
 
+#. frmMarksExplorerFilter..grpFilterByText..Caption
+msgid "Filter by placemark name and description"
+msgstr ""
+
+#. frmMarksExplorerFilter..grpFilterByType..Caption
+#, fuzzy
+msgid "Filter by placemark type"
+msgstr "Yer İşaretine Göre Seç"
+
 #. frElevationProfile..pmMain..mniFilterData..Caption
 msgid "Filter Data"
 msgstr "Verileri Filtrele"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmFilter..Hint
+#, fuzzy
+msgid "Filter placemarks"
+msgstr "Yer işaretlerini gizle"
 
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
@@ -3276,6 +3306,7 @@ msgstr "Sınır rengi"
 msgid "Marker size"
 msgstr "İşaretler"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPoints..Caption
 msgid "Marks"
 msgstr "İşaretler"
 
@@ -3308,6 +3339,10 @@ msgstr "MarkSystemConfig: Öğe #%d, bilinmeyen Impl arabirimine sahip!"
 #, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr "MarkSystemConfig: Öğe #%d Impl GUID okuma hatası!"
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Matches Exactly"
+msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
 msgid "Max concurrent http(s)-requests number:"
@@ -3957,6 +3992,7 @@ msgstr "Yol:"
 msgid "Pathname to Tile in Cache"
 msgstr "Önbellekte döşeme için yol adı"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPaths..Caption
 #. frMarksProcess..pnlTop..chkPaths..Caption
 #. frmSettings..PageControl1..tsPaths..Caption
 msgid "Paths"
@@ -4041,6 +4077,11 @@ msgstr "Yer İşaretleri"
 #. Programmer's name for it: SAS_STR_PlaceMarks
 msgid "PlaceMarks"
 msgstr "Yerİşaretleri"
+
+#. frmMarksExplorerFilter..Caption
+#, fuzzy
+msgid "Placemarks filter settings"
+msgstr "Yer İşareti Kategorileri"
 
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
@@ -4145,6 +4186,7 @@ msgstr "Çokgen parametreleri"
 msgid "Polygonal Selection"
 msgstr "Çokgensel Seçim"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPolygons..Caption
 #. frMarksProcess..pnlTop..chkPolygons..Caption
 msgid "Polygons"
 msgstr "Çokgenler"
@@ -4392,6 +4434,11 @@ msgstr "Yeniden çizim aralığı (ms):"
 msgid "Refresh rate, ms:"
 msgstr "Yenileme hızı (ms)"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+#, fuzzy
+msgid "Regular Expression"
+msgstr "Dikdörtgen Seçim"
+
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Döşemelere göreli yol"
@@ -4443,6 +4490,7 @@ msgstr "Gereklilikler:"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
+#. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Sıfırla"
@@ -4673,6 +4721,16 @@ msgstr "Komut dosyası boş"
 #. frmSettings..PageControl1..tsSearch..Caption
 msgid "Search"
 msgstr "Ara"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInDesc..Caption
+#, fuzzy
+msgid "Search in Description"
+msgstr "Açıklama:"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInName..Caption
+#, fuzzy
+msgid "Search in Name"
+msgstr "aranıyor"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSearchResults..Caption
 #. frmMain..TBDockLeft..TBSearchWindow..Caption
@@ -6161,6 +6219,9 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "All Visible"
+#~ msgstr "Tümünü Göster"
 
 #~ msgid "URL to Nokia Map Creator"
 #~ msgstr "Nokia Map Creator URL'si"

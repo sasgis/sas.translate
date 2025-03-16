@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-02-16 18:55\n"
+"POT-Creation-Date: 2025-03-16 10:58\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -591,10 +591,6 @@ msgstr "Всі підтримувані формати"
 msgid "All sources"
 msgstr "Всі сервіси"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
-msgid "All Visible"
-msgstr "Всі видимі"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr ""
@@ -686,6 +682,7 @@ msgstr "Будь-яке доступне джерело"
 #. frmMain..actlstMain..actSelectByGeometryFinish..Hint
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmGeoTiffOptions..btnApply..Caption
@@ -917,6 +914,10 @@ msgstr "Батарея"
 msgid "Battery:"
 msgstr "Батарея:"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Begins With"
+msgstr ""
+
 #. Programmer's name for it: rsBerkeleyDBVersionedCacheName
 msgid "BerkeleyDB (Versioned)"
 msgstr "BerkeleyDB (Версійний)"
@@ -1085,6 +1086,7 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnCancel..Caption
 #. frmMarksExport..btnCancel..Caption
 #. frmMarksExportConfig..pnlBottom..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
@@ -1171,6 +1173,10 @@ msgstr "Параметри заголовка"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "Каскад"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkIgnoreCase..Caption
+msgid "Case-Insensitive Search"
+msgstr ""
 
 #, fuzzy
 msgid "Category name can't be empty!"
@@ -1386,6 +1392,12 @@ msgstr "Налаштування з’єднання"
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
 msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr "З’єднання з СУБД розірвано"
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod..Text
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+#, fuzzy
+msgid "Contains"
+msgstr "Контрастність"
 
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
@@ -2129,6 +2141,10 @@ msgstr "Порожня назва файла ZMP"
 msgid "en_US"
 msgstr "uk_UA"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Ends With"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2346,10 +2362,24 @@ msgstr "Дата створення"
 msgid "Filter"
 msgstr "Фільтр"
 
+#. frmMarksExplorerFilter..grpFilterByText..Caption
+msgid "Filter by placemark name and description"
+msgstr ""
+
+#. frmMarksExplorerFilter..grpFilterByType..Caption
+#, fuzzy
+msgid "Filter by placemark type"
+msgstr "Обрати за позначкою"
+
 #. frElevationProfile..pmMain..mniFilterData..Caption
 #, fuzzy
 msgid "Filter Data"
 msgstr "Фільтр"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmFilter..Hint
+#, fuzzy
+msgid "Filter placemarks"
+msgstr "Не показувати позначки"
 
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
@@ -3311,6 +3341,7 @@ msgstr "Колір облямівки"
 msgid "Marker size"
 msgstr "Мої позначки"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPoints..Caption
 #, fuzzy
 msgid "Marks"
 msgstr "Мої позначки"
@@ -3345,6 +3376,10 @@ msgstr ""
 
 #, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
+msgstr ""
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Matches Exactly"
 msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
@@ -4007,6 +4042,7 @@ msgstr "Шлях:"
 msgid "Pathname to Tile in Cache"
 msgstr "Повний шлях до тайлу"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPaths..Caption
 #. frMarksProcess..pnlTop..chkPaths..Caption
 #. frmSettings..PageControl1..tsPaths..Caption
 msgid "Paths"
@@ -4092,6 +4128,11 @@ msgstr " Позначки "
 #. Programmer's name for it: SAS_STR_PlaceMarks
 msgid "PlaceMarks"
 msgstr " Позначки"
+
+#. frmMarksExplorerFilter..Caption
+#, fuzzy
+msgid "Placemarks filter settings"
+msgstr " Категорії позначок "
 
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
@@ -4196,6 +4237,7 @@ msgstr "Параметри полігонів"
 msgid "Polygonal Selection"
 msgstr "Полігональна область"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPolygons..Caption
 #. frMarksProcess..pnlTop..chkPolygons..Caption
 msgid "Polygons"
 msgstr "Полігони"
@@ -4445,6 +4487,11 @@ msgstr "Інтервал оновлення зображення (мс):"
 msgid "Refresh rate, ms:"
 msgstr "Період оновлення (мс)"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+#, fuzzy
+msgid "Regular Expression"
+msgstr "Прямокутна область"
+
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Відносний шлях до тайлів"
@@ -4496,6 +4543,7 @@ msgstr "Залежності:"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
+#. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Скинути"
@@ -4729,6 +4777,16 @@ msgstr ""
 #. frmGoTo..pgcSearchType..tsSearch..Caption
 #. frmSettings..PageControl1..tsSearch..Caption
 msgid "Search"
+msgstr "Пошук"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInDesc..Caption
+#, fuzzy
+msgid "Search in Description"
+msgstr "Опис:"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInName..Caption
+#, fuzzy
+msgid "Search in Name"
 msgstr "Пошук"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSearchResults..Caption
@@ -6243,6 +6301,9 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "All Visible"
+#~ msgstr "Всі видимі"
 
 #~ msgid "URL to Nokia Map Creator"
 #~ msgstr "Посилання на Nokia Map Creator"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-02-16 18:55\n"
+"POT-Creation-Date: 2025-03-16 10:58\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -581,10 +581,6 @@ msgstr "Tous les formats compatibles "
 msgid "All sources"
 msgstr "Toutes les sources"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmAllVisible..Caption
-msgid "All Visible"
-msgstr "Tout visible"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr "Autorise l'ajout"
@@ -672,6 +668,7 @@ msgstr "N'importe quelle source disponible"
 #. frmMain..actlstMain..actSelectByGeometryFinish..Hint
 #. frFavoriteMapSetManager..pnlRightButtons..btnSwitchOn..Caption
 #. frmMarkPictureEditor..btnApply..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
 #. frmGeoTiffOptions..btnApply..Caption
@@ -902,6 +899,10 @@ msgstr "Batterie"
 msgid "Battery:"
 msgstr "Batterie :"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Begins With"
+msgstr ""
+
 #. Programmer's name for it: rsBerkeleyDBVersionedCacheName
 msgid "BerkeleyDB (Versioned)"
 msgstr "BerkeleyDB (Version)"
@@ -1068,6 +1069,7 @@ msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 #. frmMarkEditPoint..pnlBottomButtons..btnCancel..Caption
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnCancel..Caption
+#. frmMarksExplorerFilter..pnlBottomButtons..btnCancel..Caption
 #. frmMarksExport..btnCancel..Caption
 #. frmMarksExportConfig..pnlBottom..btnCancel..Caption
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
@@ -1158,6 +1160,10 @@ msgstr "Paramètres de la légende"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkCascade..Caption
 msgid "Cascade"
 msgstr "Cascade"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkIgnoreCase..Caption
+msgid "Case-Insensitive Search"
+msgstr ""
 
 msgid "Category name can't be empty!"
 msgstr "Ecrire un nom dans la case catégorie !"
@@ -1365,6 +1371,12 @@ msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr ""
 "La connexion au stockage externe des dalles s'est arrêtée et ne peut pas "
 "être rétablie"
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod..Text
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+#, fuzzy
+msgid "Contains"
+msgstr "Contraste"
 
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
@@ -2107,6 +2119,10 @@ msgstr "ZMP vierge de nom de fichier"
 msgid "en_US"
 msgstr "en_US"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Ends With"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
 "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
@@ -2319,9 +2335,24 @@ msgstr "Remplir les dates"
 msgid "Filter"
 msgstr "Filtrer"
 
+#. frmMarksExplorerFilter..grpFilterByText..Caption
+#, fuzzy
+msgid "Filter by placemark name and description"
+msgstr "Insérer l'horodatage dans la description du marqueur"
+
+#. frmMarksExplorerFilter..grpFilterByType..Caption
+#, fuzzy
+msgid "Filter by placemark type"
+msgstr "Sélectionner par marqueur"
+
 #. frElevationProfile..pmMain..mniFilterData..Caption
 msgid "Filter Data"
 msgstr "Filtrer les données"
+
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..tbitmFilter..Hint
+#, fuzzy
+msgid "Filter placemarks"
+msgstr "Masquer tous les marqueurs"
 
 #, object-pascal-format
 msgid "Filter: \"%s\" (%d)"
@@ -3266,6 +3297,7 @@ msgstr "Couleur de remplissage du marqueur :"
 msgid "Marker size"
 msgstr "Taille du marqueur"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPoints..Caption
 msgid "Marks"
 msgstr "Marqueurs"
 
@@ -3300,6 +3332,10 @@ msgstr "MarkSystemConfig: l'Item #%d a une interface inconnue !"
 #, object-pascal-format
 msgid "MarkSystemConfig: Item #%d Impl GUID read error!"
 msgstr "MarkSystemConfig: l'Item #%d a une erreur de lecture du GUID !"
+
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+msgid "Matches Exactly"
+msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsInternet..flwpnlMaxConnectToServerCount..lblMaxConnectToServerCount..Caption
 msgid "Max concurrent http(s)-requests number:"
@@ -3936,6 +3972,7 @@ msgstr "Chemin :"
 msgid "Pathname to Tile in Cache"
 msgstr "le nom du chemin du cache de la dalle (sélectionnée par clic droit)"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPaths..Caption
 #. frMarksProcess..pnlTop..chkPaths..Caption
 #. frmSettings..PageControl1..tsPaths..Caption
 msgid "Paths"
@@ -4019,6 +4056,11 @@ msgstr "Marqueurs"
 #. Programmer's name for it: SAS_STR_PlaceMarks
 msgid "PlaceMarks"
 msgstr "Marqueurs"
+
+#. frmMarksExplorerFilter..Caption
+#, fuzzy
+msgid "Placemarks filter settings"
+msgstr "Gestion des catégories"
 
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
@@ -4116,6 +4158,7 @@ msgstr "Propriétés du polygone"
 msgid "Polygonal Selection"
 msgstr "Sélection polygonale"
 
+#. frmMarksExplorerFilter..grpFilterByType..grdpnlFilterByType..chkAllowPolygons..Caption
 #. frMarksProcess..pnlTop..chkPolygons..Caption
 msgid "Polygons"
 msgstr "Polygones"
@@ -4363,6 +4406,11 @@ msgstr "Intervalle de re-dessin (ms) :"
 msgid "Refresh rate, ms:"
 msgstr "Taux de rafraîchissement (ms) :"
 
+#. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
+#, fuzzy
+msgid "Regular Expression"
+msgstr "Sélection rectangulaire"
+
 #. frExportKml..pnlCenter..pnlMain..chkUseRelativePath..Caption
 msgid "Relative path to tiles"
 msgstr "Chemin relatif des dalles"
@@ -4413,6 +4461,7 @@ msgstr "Requis :"
 
 #. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
+#. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Redémarrer"
@@ -4642,6 +4691,16 @@ msgstr "Le script est vide"
 #. frmSettings..PageControl1..tsSearch..Caption
 msgid "Search"
 msgstr "Recherche"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInDesc..Caption
+#, fuzzy
+msgid "Search in Description"
+msgstr "Description :"
+
+#. frmMarksExplorerFilter..grpFilterByText..chkSearchInName..Caption
+#, fuzzy
+msgid "Search in Name"
+msgstr "En train de chercher"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSearchResults..Caption
 #. frmMain..TBDockLeft..TBSearchWindow..Caption
@@ -6124,6 +6183,9 @@ msgstr "Zooms :"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order :"
+
+#~ msgid "All Visible"
+#~ msgstr "Tout visible"
 
 #~ msgid "URL to Nokia Map Creator"
 #~ msgstr "l'URL de Nokia Map Creator"
