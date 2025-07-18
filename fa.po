@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2025-03-18 10:51\n"
+"POT-Creation-Date: 2025-07-18 12:15\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -393,6 +393,7 @@ msgstr "8 متر"
 msgid "a"
 msgstr "در هکتار"
 
+#. frmProgressCacheConverter..pnlBottom..btnAbort..Caption
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "سقط"
@@ -1078,7 +1079,6 @@ msgid "Calibration for Radio Mobile programm (*.dat)"
 msgstr "کالیبراسیون برای برنامه رادیویی موبایل (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
-#. frmCacheManager..pnlBottomButtons..btnCancel..Caption
 #. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -1270,6 +1270,7 @@ msgstr ""
 msgid "Clipboard is empty!"
 msgstr ""
 
+#. frmCacheManager..pnlBottomButtons..btnClose..Caption
 #. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
@@ -1820,6 +1821,10 @@ msgstr "کپی مستقیم کاشی (بدون هیچ گونه تغییر)"
 msgid "Directory %0:s not exist"
 msgstr "دایرکتوری %0:s وجود ندارد"
 
+#, fuzzy, object-pascal-format
+msgid "Directory does not exists: %s"
+msgstr "دایرکتوری %0:s وجود ندارد"
+
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
 msgstr "غیر فعال کردن"
@@ -2314,6 +2319,8 @@ msgstr "مدیر مورد علاقه"
 msgid "Feet"
 msgstr ""
 
+#. frmCacheManager..pgcMain..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType....Items.Strings
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
 msgstr "فایل"
@@ -2335,6 +2342,10 @@ msgstr "فایل %0:s وجود ندارد"
 #, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "فایل %0:s یافت نشد"
+
+#, fuzzy, object-pascal-format
+msgid "File does not exists: %s"
+msgstr "فایل %0:s وجود ندارد"
 
 #. frmGeoTiffOptions..pnlFormat..lblFormat..Caption
 #, fuzzy
@@ -4435,7 +4446,6 @@ msgstr "کیفیت، %"
 msgid "Queue"
 msgstr "صف"
 
-#. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 #. frmMain..actlstMain..actQuit..Caption
 #. frmMain..actlstMain..actQuit..Hint
 #. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
@@ -6231,6 +6241,10 @@ msgstr ""
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
 msgid "You can reset value by right mouse click"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_CantDisableLastMap
+msgid "You can't disable last map!"
 msgstr ""
 
 #. Programmer's name for it: rsErrorTwoPolygons

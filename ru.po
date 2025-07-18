@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-03-18 10:51\n"
-"PO-Revision-Date: 2025-03-18 10:54+0300\n"
+"POT-Creation-Date: 2025-07-18 12:15\n"
+"PO-Revision-Date: 2025-07-18 12:24+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..grpCoordinates..Caption
 msgid " Coordinates "
@@ -375,6 +375,7 @@ msgstr "8м"
 msgid "a"
 msgstr "сот"
 
+#. frmProgressCacheConverter..pnlBottom..btnAbort..Caption
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "Прервать"
@@ -1038,7 +1039,6 @@ msgid "Calibration for Radio Mobile programm (*.dat)"
 msgstr "Калибровка для программы Radio Mobile (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
-#. frmCacheManager..pnlBottomButtons..btnCancel..Caption
 #. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -1224,6 +1224,7 @@ msgstr ""
 msgid "Clipboard is empty!"
 msgstr "Буфер обмена пуст!"
 
+#. frmCacheManager..pnlBottomButtons..btnClose..Caption
 #. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
@@ -1756,6 +1757,10 @@ msgstr "Прямое копирование тайлов (без каких-ли
 msgid "Directory %0:s not exist"
 msgstr "Папка %0:s не существует"
 
+#, object-pascal-format
+msgid "Directory does not exists: %s"
+msgstr "Папка не существует: %s"
+
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
 msgstr "Отключить"
@@ -2236,6 +2241,8 @@ msgstr "Управление избранным"
 msgid "Feet"
 msgstr "Футы"
 
+#. frmCacheManager..pgcMain..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType....Items.Strings
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
 msgstr "Файл"
@@ -2257,6 +2264,10 @@ msgstr "Файл %0:s не существует"
 #, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "Файл %0:s не найден"
+
+#, object-pascal-format
+msgid "File does not exists: %s"
+msgstr "Файл не существует: %s"
 
 #. frmGeoTiffOptions..pnlFormat..lblFormat..Caption
 msgid "File format:"
@@ -4287,7 +4298,6 @@ msgstr "Качество:"
 msgid "Queue"
 msgstr "Осталось"
 
-#. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 #. frmMain..actlstMain..actQuit..Caption
 #. frmMain..actlstMain..actQuit..Hint
 #. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
@@ -6024,6 +6034,10 @@ msgstr "Вы собираетесь экспортировать метки в %
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
 msgid "You can reset value by right mouse click"
 msgstr "Вы можете сбросить значение правым кликом мыши"
+
+#. Programmer's name for it: SAS_ERR_CantDisableLastMap
+msgid "You can't disable last map!"
+msgstr "Нельзя отключить последнюю карту!"
 
 #. Programmer's name for it: rsErrorTwoPolygons
 msgid "You must add at least TWO polygons!"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-18 10:51\n"
+"POT-Creation-Date: 2025-07-18 12:15\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -380,6 +380,7 @@ msgstr "8 m"
 msgid "a"
 msgstr "a"
 
+#. frmProgressCacheConverter..pnlBottom..btnAbort..Caption
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "Abandonne"
@@ -1054,7 +1055,6 @@ msgid "Calibration for Radio Mobile programm (*.dat)"
 msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
-#. frmCacheManager..pnlBottomButtons..btnCancel..Caption
 #. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -1244,6 +1244,7 @@ msgstr ""
 msgid "Clipboard is empty!"
 msgstr "Le presse-papiers est vide !"
 
+#. frmCacheManager..pnlBottomButtons..btnClose..Caption
 #. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
@@ -1785,6 +1786,10 @@ msgstr "Copier directement les dalles (sans aucune modification)"
 msgid "Directory %0:s not exist"
 msgstr "Le répertoire %0:s n'existe pas"
 
+#, fuzzy, object-pascal-format
+msgid "Directory does not exists: %s"
+msgstr "Le répertoire %0:s n'existe pas"
+
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
 msgstr "Désactiver"
@@ -2273,6 +2278,8 @@ msgstr "Gestionnaire des favoris"
 msgid "Feet"
 msgstr "Pied"
 
+#. frmCacheManager..pgcMain..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType....Items.Strings
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
 msgstr "Fichier"
@@ -2294,6 +2301,10 @@ msgstr "Le fichier %0:s n'existe pas"
 #, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "Le fichier %0:s n'est pas trouvé"
+
+#, fuzzy, object-pascal-format
+msgid "File does not exists: %s"
+msgstr "Le fichier source n'existe pas : %s"
 
 #. frmGeoTiffOptions..pnlFormat..lblFormat..Caption
 msgid "File format:"
@@ -4337,7 +4348,6 @@ msgstr "Qualité :"
 msgid "Queue"
 msgstr "Queue"
 
-#. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 #. frmMain..actlstMain..actQuit..Caption
 #. frmMain..actlstMain..actQuit..Hint
 #. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
@@ -6104,6 +6114,10 @@ msgstr ""
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
 msgid "You can reset value by right mouse click"
 msgstr "Réinitialiser la valeur en cliquant avec le bouton droit de la souris"
+
+#. Programmer's name for it: SAS_ERR_CantDisableLastMap
+msgid "You can't disable last map!"
+msgstr ""
 
 #. Programmer's name for it: rsErrorTwoPolygons
 msgid "You must add at least TWO polygons!"

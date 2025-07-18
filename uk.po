@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-03-18 10:51\n"
+"POT-Creation-Date: 2025-07-18 12:15\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -387,6 +387,7 @@ msgstr "8 м"
 msgid "a"
 msgstr "га"
 
+#. frmProgressCacheConverter..pnlBottom..btnAbort..Caption
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "Перервати"
@@ -1071,7 +1072,6 @@ msgid "Calibration for Radio Mobile programm (*.dat)"
 msgstr "Калібрування для програми Radio Mobile (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
-#. frmCacheManager..pnlBottomButtons..btnCancel..Caption
 #. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -1261,6 +1261,7 @@ msgstr ""
 msgid "Clipboard is empty!"
 msgstr "Копіювати у буфер обміну"
 
+#. frmCacheManager..pnlBottomButtons..btnClose..Caption
 #. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
@@ -1806,6 +1807,10 @@ msgstr "Пряме копіювання тайлів (без будь-яких �
 msgid "Directory %0:s not exist"
 msgstr "Папка %0:s не існує"
 
+#, fuzzy, object-pascal-format
+msgid "Directory does not exists: %s"
+msgstr "Папка %0:s не існує"
+
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
 msgstr "Вимкнути"
@@ -2297,6 +2302,8 @@ msgstr "Керування обраним"
 msgid "Feet"
 msgstr ""
 
+#. frmCacheManager..pgcMain..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType....Items.Strings
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
 msgstr "Файл"
@@ -2318,6 +2325,10 @@ msgstr "Файл %0:s не існує"
 #, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "Файл %0:s не знайдено"
+
+#, fuzzy, object-pascal-format
+msgid "File does not exists: %s"
+msgstr "Файл %0:s не існує"
 
 #. frmGeoTiffOptions..pnlFormat..lblFormat..Caption
 #, fuzzy
@@ -4415,7 +4426,6 @@ msgstr "Якість, %"
 msgid "Queue"
 msgstr "Залишилось"
 
-#. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 #. frmMain..actlstMain..actQuit..Caption
 #. frmMain..actlstMain..actQuit..Hint
 #. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
@@ -6216,6 +6226,10 @@ msgstr ""
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
 msgid "You can reset value by right mouse click"
+msgstr ""
+
+#. Programmer's name for it: SAS_ERR_CantDisableLastMap
+msgid "You can't disable last map!"
 msgstr ""
 
 #. Programmer's name for it: rsErrorTwoPolygons

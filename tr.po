@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-18 10:51\n"
+"POT-Creation-Date: 2025-07-18 12:15\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -381,6 +381,7 @@ msgstr "8m"
 msgid "a"
 msgstr "ha"
 
+#. frmProgressCacheConverter..pnlBottom..btnAbort..Caption
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "İptal et"
@@ -1055,7 +1056,6 @@ msgid "Calibration for Radio Mobile programm (*.dat)"
 msgstr "Radio Mobile programı için kalibrasyon (*.dat)"
 
 #. frmArchiverSettings..pnlBottom..btnCancel..Caption
-#. frmCacheManager..pnlBottomButtons..btnCancel..Caption
 #. frmElevationMetaWriterProgress..btnCancel..Caption
 #. frmFavoriteMapSetEditor..pnlBottom..btnCancel..Caption
 #. frmMapTypeEdit..pnlBottomButtons..btnCancel..Caption
@@ -1243,6 +1243,7 @@ msgstr ""
 msgid "Clipboard is empty!"
 msgstr "Pano boş!"
 
+#. frmCacheManager..pnlBottomButtons..btnClose..Caption
 #. frmFavoriteMapSetManager..pnlBottomButtons..btnClose..Caption
 #. frmMarkPictureConfig..btnClose..Caption
 #. frmAbout..pnlBottom..btnClose..Caption
@@ -1781,6 +1782,10 @@ msgstr "Doğrudan döşeme kopyala (herhangi bir değişiklik yapmadan)"
 msgid "Directory %0:s not exist"
 msgstr "%0:s dizini mevcut değil"
 
+#, fuzzy, object-pascal-format
+msgid "Directory does not exists: %s"
+msgstr "%0:s dizini mevcut değil"
+
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
 msgstr "Devredışı bırak"
@@ -2269,6 +2274,8 @@ msgstr "Favoriler Yöneticisi"
 msgid "Feet"
 msgstr ""
 
+#. frmCacheManager..pgcMain..tsConverter..grpSrc..cbbSourceType....Items.Strings
+#. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType....Items.Strings
 #. Programmer's name for it: SAS_STR_File
 msgid "File"
 msgstr "Dosya"
@@ -2290,6 +2297,10 @@ msgstr "%0:s dosyası mevcut değil"
 #, no-object-pascal-format
 msgid "File %0:s not found"
 msgstr "%0:s dosyası bulunamadı"
+
+#, fuzzy, object-pascal-format
+msgid "File does not exists: %s"
+msgstr "Kaynak dosya mevcut değil: %s"
 
 #. frmGeoTiffOptions..pnlFormat..lblFormat..Caption
 #, fuzzy
@@ -4363,7 +4374,6 @@ msgstr "Kalite, %"
 msgid "Queue"
 msgstr "Sıra"
 
-#. frmProgressCacheConverter..pnlBottom..btnQuit..Caption
 #. frmMain..actlstMain..actQuit..Caption
 #. frmMain..actlstMain..actQuit..Hint
 #. frmProgressDownload..Panel1..pnlBottom..btnClose..Caption
@@ -6137,6 +6147,10 @@ msgstr ""
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarContrast..Hint
 msgid "You can reset value by right mouse click"
 msgstr "Sağ fare tıklamasıyla değeri sıfırlayabilirsiniz"
+
+#. Programmer's name for it: SAS_ERR_CantDisableLastMap
+msgid "You can't disable last map!"
+msgstr ""
 
 #. Programmer's name for it: rsErrorTwoPolygons
 msgid "You must add at least TWO polygons!"
