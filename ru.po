@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-07-18 12:15\n"
-"PO-Revision-Date: 2025-07-18 12:24+0300\n"
+"POT-Creation-Date: 2025-07-29 22:44\n"
+"PO-Revision-Date: 2025-07-29 22:53+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -768,6 +768,10 @@ msgstr "Сотки"
 msgid "Arrow color:"
 msgstr "Цвет стрелки:"
 
+#. frElevationProfile..pmMain..mniStatistics..mniAscentDescent..Caption
+msgid "Ascent and Descent"
+msgstr "Подъём и спуск"
+
 #. Programmer's name for it: rsElevationProfileElevAscentFmt
 #, object-pascal-format
 msgid "Ascent: %d m"
@@ -834,6 +838,10 @@ msgstr "AUX для GeoExpress Server"
 #. frmUpdateChecker..lblNewVer..Caption
 msgid "Available version:"
 msgstr "Доступная версия:"
+
+#. frElevationProfile..pmMain..mniStatistics..mniAverageSlope..Caption
+msgid "Average Slope"
+msgstr "Средний уклон"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedMenuItemName
 msgid "Average speed"
@@ -1784,6 +1792,7 @@ msgstr "Формат отображения:"
 msgid "Displayed Main Map"
 msgstr "Как на главной карте"
 
+#. frElevationProfile..pmMain..mniStatistics..mniDistance..Caption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistMenuItemName
 msgid "Distance"
 msgstr "Пройденный путь"
@@ -1968,6 +1977,10 @@ msgstr "Скачивание..."
 msgid "Draw Order"
 msgstr "Порядок отрисовки"
 
+#. frElevationProfile..pmMain..mniStatistics..mniDuration..Caption
+msgid "Duration"
+msgstr "Длительность"
+
 msgid "EarthSlicer cache folder:"
 msgstr "Путь к кэшу EarthSlicer:"
 
@@ -2045,6 +2058,10 @@ msgstr "Времени прошло: %s"
 msgid "Elevation Info"
 msgstr "Информация о высоте"
 
+#. frElevationProfile..pmMain..mniStatistics..mniElevationMinAvgMax..Caption
+msgid "Elevation Min, Avg, Max"
+msgstr "Высота мин, средн, макс"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
 msgid "Elevation Profile"
 msgstr "Профиль рельефа"
@@ -2065,6 +2082,10 @@ msgstr "Высота: %d, %d, %d м"
 #, object-pascal-format
 msgid "Elevation: %s"
 msgstr "Высота: %s"
+
+msgctxt "ElevationProfile"
+msgid "Distance"
+msgstr "Расстояние"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -3311,6 +3332,10 @@ msgstr "Макс. число параллельных http(s)-запросов:"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
 msgstr "Макс. число одновременных соединений на сервер"
+
+#. frElevationProfile..pmMain..mniStatistics..mniMaxSlope..Caption
+msgid "Max Slope"
+msgstr "Максимальный уклон"
 
 #. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
 #, object-pascal-format
@@ -5187,6 +5212,10 @@ msgstr "Исходники:"
 msgid "Speed"
 msgstr "Скорость"
 
+#. frElevationProfile..pmMain..mniStatistics..mniSpeedMinAvgMax..Caption
+msgid "Speed Min, Avg, Max"
+msgstr "Скорость мин, средн, макс"
+
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 msgid "Speed:"
 msgstr "Скорость:"
@@ -5268,6 +5297,10 @@ msgstr "Начать"
 #. frTilesDownload..pnlCenter..pnlMain..chkStartPaused..Caption
 msgid "Start paused"
 msgstr "Запускать в паузе"
+
+#. frElevationProfile..pmMain..mniStatistics..Caption
+msgid "Statistics"
+msgstr "Статистика"
 
 #. frmMain..actlstMain..actConfigStatusBarVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
@@ -5696,6 +5729,10 @@ msgstr "Всего: %s"
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
 msgid "Track"
 msgstr "Трек"
+
+#. frElevationProfile..pmMain..mniStatistics..mniTrackName..Caption
+msgid "Track Name"
+msgstr "Имя трека"
 
 msgid "Track Play/Stop"
 msgstr "Начать/Остановить"

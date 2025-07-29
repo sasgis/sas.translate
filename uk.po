@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-07-18 12:15\n"
+"POT-Creation-Date: 2025-07-29 22:44\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -792,6 +792,10 @@ msgstr ""
 msgid "Arrow color:"
 msgstr "Колір стрілки:"
 
+#. frElevationProfile..pmMain..mniStatistics..mniAscentDescent..Caption
+msgid "Ascent and Descent"
+msgstr ""
+
 #. Programmer's name for it: rsElevationProfileElevAscentFmt
 #, object-pascal-format
 msgid "Ascent: %d m"
@@ -864,6 +868,11 @@ msgstr "AUX для GeoExpress Server"
 #. frmUpdateChecker..lblNewVer..Caption
 msgid "Available version:"
 msgstr "Доступна версія:"
+
+#. frElevationProfile..pmMain..mniStatistics..mniAverageSlope..Caption
+#, fuzzy
+msgid "Average Slope"
+msgstr "Середня швидкість"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedMenuItemName
 msgid "Average speed"
@@ -1835,6 +1844,7 @@ msgstr "Формат:"
 msgid "Displayed Main Map"
 msgstr "Як на головній карті"
 
+#. frElevationProfile..pmMain..mniStatistics..mniDistance..Caption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistMenuItemName
 msgid "Distance"
 msgstr "Пройдений шлях"
@@ -2021,6 +2031,11 @@ msgstr "Завантаження..."
 msgid "Draw Order"
 msgstr "Порядок відображення"
 
+#. frElevationProfile..pmMain..mniStatistics..mniDuration..Caption
+#, fuzzy
+msgid "Duration"
+msgstr "&Операції"
+
 msgid "EarthSlicer cache folder:"
 msgstr "Шлях до кешу EarthSlicer:"
 
@@ -2100,6 +2115,10 @@ msgstr "Пройшло часу: %s"
 msgid "Elevation Info"
 msgstr "Інф. про висоту"
 
+#. frElevationProfile..pmMain..mniStatistics..mniElevationMinAvgMax..Caption
+msgid "Elevation Min, Avg, Max"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
 #, fuzzy
 msgid "Elevation Profile"
@@ -2122,6 +2141,11 @@ msgstr ""
 #, fuzzy, object-pascal-format
 msgid "Elevation: %s"
 msgstr "Інф. про висоту"
+
+#, fuzzy
+msgctxt "ElevationProfile"
+msgid "Distance"
+msgstr "Пройдений шлях"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -3400,6 +3424,10 @@ msgstr "Макс. кількість параллельних http(s)-запит
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
+msgstr ""
+
+#. frElevationProfile..pmMain..mniStatistics..mniMaxSlope..Caption
+msgid "Max Slope"
 msgstr ""
 
 #. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
@@ -5349,6 +5377,10 @@ msgstr "Джерела:"
 msgid "Speed"
 msgstr "Швидкість"
 
+#. frElevationProfile..pmMain..mniStatistics..mniSpeedMinAvgMax..Caption
+msgid "Speed Min, Avg, Max"
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 #, fuzzy
 msgid "Speed:"
@@ -5433,6 +5465,10 @@ msgstr "Почати"
 #. frTilesDownload..pnlCenter..pnlMain..chkStartPaused..Caption
 msgid "Start paused"
 msgstr "Запускати в паузі"
+
+#. frElevationProfile..pmMain..mniStatistics..Caption
+msgid "Statistics"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigStatusBarVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
@@ -5873,6 +5909,11 @@ msgstr "Всього"
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
 msgid "Track"
 msgstr ""
+
+#. frElevationProfile..pmMain..mniStatistics..mniTrackName..Caption
+#, fuzzy
+msgid "Track Name"
+msgstr "Назва карти"
 
 msgid "Track Play/Stop"
 msgstr ""

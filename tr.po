@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-07-18 12:15\n"
+"POT-Creation-Date: 2025-07-29 22:44\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -778,6 +778,11 @@ msgstr ""
 msgid "Arrow color:"
 msgstr "Ok rengi:"
 
+#. frElevationProfile..pmMain..mniStatistics..mniAscentDescent..Caption
+#, fuzzy
+msgid "Ascent and Descent"
+msgstr "Artış: %d m"
+
 #. Programmer's name for it: rsElevationProfileElevAscentFmt
 #, object-pascal-format
 msgid "Ascent: %d m"
@@ -850,6 +855,11 @@ msgstr "LizardTech GeoExpress Sunucusu için AUX"
 #. frmUpdateChecker..lblNewVer..Caption
 msgid "Available version:"
 msgstr "Güncel sürüm:"
+
+#. frElevationProfile..pmMain..mniStatistics..mniAverageSlope..Caption
+#, fuzzy
+msgid "Average Slope"
+msgstr "Ortalama hız"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedMenuItemName
 msgid "Average speed"
@@ -1810,6 +1820,7 @@ msgstr "Görüntü formatı:"
 msgid "Displayed Main Map"
 msgstr "Görüntülenen Ana Harita"
 
+#. frElevationProfile..pmMain..mniStatistics..mniDistance..Caption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistMenuItemName
 msgid "Distance"
 msgstr "Mesafe"
@@ -1998,6 +2009,11 @@ msgstr "İndiriliyor..."
 msgid "Draw Order"
 msgstr "Çizim Sırası"
 
+#. frElevationProfile..pmMain..mniStatistics..mniDuration..Caption
+#, fuzzy
+msgid "Duration"
+msgstr "&İşlemler"
+
 msgid "EarthSlicer cache folder:"
 msgstr "EarthSlicer önbellek klasörü:"
 
@@ -2075,6 +2091,11 @@ msgstr "Geçen süre: %s"
 msgid "Elevation Info"
 msgstr "Yükseklik Bilgisi"
 
+#. frElevationProfile..pmMain..mniStatistics..mniElevationMinAvgMax..Caption
+#, fuzzy
+msgid "Elevation Min, Avg, Max"
+msgstr "Yükseklik: %d, %d, %d m"
+
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
 msgid "Elevation Profile"
 msgstr "Yükseklik Profili"
@@ -2096,6 +2117,11 @@ msgstr "Yükseklik: %d, %d, %d m"
 #, fuzzy, object-pascal-format
 msgid "Elevation: %s"
 msgstr "Yükseklik: %.2f m"
+
+#, fuzzy
+msgctxt "ElevationProfile"
+msgid "Distance"
+msgstr "Mesafe"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -3363,6 +3389,10 @@ msgstr "Maksimum eşzamanlı http-istek sayısı:"
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
 msgstr "Sunucu başına maksimum eşzamanlı bağlantı sayısı"
+
+#. frElevationProfile..pmMain..mniStatistics..mniMaxSlope..Caption
+msgid "Max Slope"
+msgstr ""
 
 #. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
 #, object-pascal-format
@@ -5274,6 +5304,10 @@ msgstr "Kaynaklar:"
 msgid "Speed"
 msgstr "Hız"
 
+#. frElevationProfile..pmMain..mniStatistics..mniSpeedMinAvgMax..Caption
+msgid "Speed Min, Avg, Max"
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 #, fuzzy
 msgid "Speed:"
@@ -5361,6 +5395,10 @@ msgstr "Başla"
 #. frTilesDownload..pnlCenter..pnlMain..chkStartPaused..Caption
 msgid "Start paused"
 msgstr "Duraklatılmışı başlat"
+
+#. frElevationProfile..pmMain..mniStatistics..Caption
+msgid "Statistics"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigStatusBarVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
@@ -5799,6 +5837,11 @@ msgstr "Toplam"
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
 msgid "Track"
 msgstr ""
+
+#. frElevationProfile..pmMain..mniStatistics..mniTrackName..Caption
+#, fuzzy
+msgid "Track Name"
+msgstr "Harita Adı"
 
 msgid "Track Play/Stop"
 msgstr ""

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-07-18 12:15\n"
+"POT-Creation-Date: 2025-07-29 22:44\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -804,6 +804,10 @@ msgstr ""
 msgid "Arrow color:"
 msgstr "Color"
 
+#. frElevationProfile..pmMain..mniStatistics..mniAscentDescent..Caption
+msgid "Ascent and Descent"
+msgstr ""
+
 #. Programmer's name for it: rsElevationProfileElevAscentFmt
 #, object-pascal-format
 msgid "Ascent: %d m"
@@ -877,6 +881,11 @@ msgstr "AUX para LizardTech GeoExpress Server"
 #. frmUpdateChecker..lblNewVer..Caption
 msgid "Available version:"
 msgstr "Versión disponible:"
+
+#. frElevationProfile..pmMain..mniStatistics..mniAverageSlope..Caption
+#, fuzzy
+msgid "Average Slope"
+msgstr "Velocidad promedio"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderAvgSpeedMenuItemName
 msgid "Average speed"
@@ -1857,6 +1866,7 @@ msgstr "Formato de imagen:"
 msgid "Displayed Main Map"
 msgstr "Mapa Principal desplegado"
 
+#. frElevationProfile..pmMain..mniStatistics..mniDistance..Caption
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistMenuItemName
 msgid "Distance"
 msgstr "Distancia"
@@ -2044,6 +2054,11 @@ msgstr "Descargando..."
 msgid "Draw Order"
 msgstr ""
 
+#. frElevationProfile..pmMain..mniStatistics..mniDuration..Caption
+#, fuzzy
+msgid "Duration"
+msgstr "&Operaciones"
+
 msgid "EarthSlicer cache folder:"
 msgstr "Carpeta caché de EarthSlicer:"
 
@@ -2124,6 +2139,10 @@ msgstr "Tiempo transcurrido: %s"
 msgid "Elevation Info"
 msgstr "Info de Elevación"
 
+#. frElevationProfile..pmMain..mniStatistics..mniElevationMinAvgMax..Caption
+msgid "Elevation Min, Avg, Max"
+msgstr ""
+
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxElevationProfileShow..Caption
 #, fuzzy
 msgid "Elevation Profile"
@@ -2146,6 +2165,11 @@ msgstr ""
 #, fuzzy, object-pascal-format
 msgid "Elevation: %s"
 msgstr "Info de Elevación"
+
+#, fuzzy
+msgctxt "ElevationProfile"
+msgid "Distance"
+msgstr "Distancia"
 
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
@@ -3437,6 +3461,10 @@ msgstr "Número máximo de requerimientos http (s):"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..flwpnlMaxConnsPerServer..lblMaxConnsPerServer..Caption
 msgid "Max number of simultaneous connections per server"
+msgstr ""
+
+#. frElevationProfile..pmMain..mniStatistics..mniMaxSlope..Caption
+msgid "Max Slope"
 msgstr ""
 
 #. Programmer's name for it: rsElevationProfileElevMaxSlopeFmt
@@ -5396,6 +5424,10 @@ msgstr "Fuentes:"
 msgid "Speed"
 msgstr "Velocidad"
 
+#. frElevationProfile..pmMain..mniStatistics..mniSpeedMinAvgMax..Caption
+msgid "Speed Min, Avg, Max"
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
 #, fuzzy
 msgid "Speed:"
@@ -5482,6 +5514,10 @@ msgstr "Iniciar"
 #. frTilesDownload..pnlCenter..pnlMain..chkStartPaused..Caption
 msgid "Start paused"
 msgstr "Iniciar con Pausa"
+
+#. frElevationProfile..pmMain..mniStatistics..Caption
+msgid "Statistics"
+msgstr ""
 
 #. frmMain..actlstMain..actConfigStatusBarVisible..Caption
 #. frmMapLayersOptions..pgcOptions..tsStatBar..Caption
@@ -5924,6 +5960,11 @@ msgstr "Total"
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsTrackAndMarker..grpGpsTrack..Caption
 msgid "Track"
 msgstr ""
+
+#. frElevationProfile..pmMain..mniStatistics..mniTrackName..Caption
+#, fuzzy
+msgid "Track Name"
+msgstr "Nombre de Mapa"
 
 msgid "Track Play/Stop"
 msgstr ""
