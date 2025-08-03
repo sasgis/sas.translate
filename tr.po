@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-07-29 22:44\n"
+"POT-Creation-Date: 2025-08-03 13:01\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -200,6 +200,7 @@ msgstr "120km"
 msgid "120m"
 msgstr "120m"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 #, fuzzy
 msgid "123 km 123 m"
@@ -821,6 +822,7 @@ msgstr "Nitelik:"
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
 #. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 #. Programmer's name for it: rsImageFormatTypeAuto
 msgid "Auto"
@@ -1622,7 +1624,6 @@ msgstr "DBMS (Yerel sürücü)"
 msgid "DBMS (ODBC driver)"
 msgstr "DBMS (ODBC sürücüsü)"
 
-#. frmSettings..PageControl1..tsCache..pnlDBMSPath..lbDBMSCachePath..Caption
 msgid "DBMS root:"
 msgstr "DBMS kökü:"
 
@@ -3144,6 +3145,10 @@ msgstr "Araç çubuklarını kilitle"
 msgid "Lock Toolbars"
 msgstr "Araç Çubuklarını Kilitle"
 
+#, fuzzy
+msgid "Locus (SQLite3) cache root folder:"
+msgstr "SQLite3 önbellek klasörü:"
+
 msgid ""
 "Longitude of upper left corner must be less than \n"
 "longitude of lower right corner"
@@ -3419,6 +3424,10 @@ msgstr "Azami hız"
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
 msgstr "MB"
+
+#, fuzzy
+msgid "MBTiles (SQLite3) cache root folder:"
+msgstr "SQLite3 önbellek klasörü:"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Medium"
@@ -3891,6 +3900,10 @@ msgstr "Seçenekler..."
 #. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
 msgid "Order by:"
 msgstr "Şuna göre sırala:"
+
+#, fuzzy
+msgid "OsmAnd (SQLite3) cache root folder:"
+msgstr "SQLite3 önbellek klasörü:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"

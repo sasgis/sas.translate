@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-07-29 22:44\n"
+"POT-Creation-Date: 2025-08-03 13:01\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -206,6 +206,7 @@ msgstr "120 км"
 msgid "120m"
 msgstr "120 м"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 #, fuzzy
 msgid "123 km 123 m"
@@ -834,6 +835,7 @@ msgstr "Атрибуція:"
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
 #. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 #. Programmer's name for it: rsImageFormatTypeAuto
 msgid "Auto"
@@ -1648,7 +1650,6 @@ msgstr "СУБД (рідний драйвер)  "
 msgid "DBMS (ODBC driver)"
 msgstr "СУБД (ODBC драйвер)"
 
-#. frmSettings..PageControl1..tsCache..pnlDBMSPath..lbDBMSCachePath..Caption
 msgid "DBMS root:"
 msgstr "Шлях до кешу СУБД:"
 
@@ -3176,6 +3177,10 @@ msgstr "Прикріпити панелі інструментів"
 msgid "Lock Toolbars"
 msgstr "Прикріпити панелі інструментів"
 
+#, fuzzy
+msgid "Locus (SQLite3) cache root folder:"
+msgstr "Шлях до кешу SQLite3:"
+
 msgid ""
 "Longitude of upper left corner must be less than \n"
 "longitude of lower right corner"
@@ -3455,6 +3460,10 @@ msgstr "Максимальна швидкість"
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
 msgstr "Мб"
+
+#, fuzzy
+msgid "MBTiles (SQLite3) cache root folder:"
+msgstr "Шлях до кешу SQLite3:"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 #, fuzzy
@@ -3937,6 +3946,10 @@ msgstr "Налаштування..."
 #, fuzzy
 msgid "Order by:"
 msgstr "Z-Сортування:"
+
+#, fuzzy
+msgid "OsmAnd (SQLite3) cache root folder:"
+msgstr "Шлях до кешу SQLite3:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"

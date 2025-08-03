@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-07-29 22:44\n"
+"POT-Creation-Date: 2025-08-03 13:01\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -205,6 +205,7 @@ msgstr "120 km"
 msgid "120m"
 msgstr "120 m"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "123 km 123 m"
 msgstr "123 km 123 m"
@@ -822,6 +823,7 @@ msgstr "Attribution :"
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
 #. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 #. Programmer's name for it: rsImageFormatTypeAuto
 msgid "Auto"
@@ -1623,7 +1625,6 @@ msgstr "SGBD (pilote natif)"
 msgid "DBMS (ODBC driver)"
 msgstr "SGBD (pilote ODBC)"
 
-#. frmSettings..PageControl1..tsCache..pnlDBMSPath..lbDBMSCachePath..Caption
 msgid "DBMS root:"
 msgstr "SGBD, répertoire du cache :"
 
@@ -3136,6 +3137,10 @@ msgstr "Verrouiller les barres d'outils"
 msgid "Lock Toolbars"
 msgstr "Verrouiller les barres d'outils"
 
+#, fuzzy
+msgid "Locus (SQLite3) cache root folder:"
+msgstr "SQLite3, répertoire du cache :"
+
 msgid ""
 "Longitude of upper left corner must be less than \n"
 "longitude of lower right corner"
@@ -3411,6 +3416,10 @@ msgstr "Vitesse maximum"
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
 msgstr "Mb"
+
+#, fuzzy
+msgid "MBTiles (SQLite3) cache root folder:"
+msgstr "SQLite3, répertoire du cache :"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Medium"
@@ -3872,6 +3881,10 @@ msgstr "Options de l'affichage de l'interface"
 #. frMapsList..pnlMapsRightButtons..lblSortingOrder..Caption
 msgid "Order by:"
 msgstr "Classer par :"
+
+#, fuzzy
+msgid "OsmAnd (SQLite3) cache root folder:"
+msgstr "SQLite3, répertoire du cache :"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"

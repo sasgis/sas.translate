@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2025-07-29 22:44\n"
+"POT-Creation-Date: 2025-08-03 13:01\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -208,6 +208,7 @@ msgstr "120 کیلومتر"
 msgid "120m"
 msgstr "120 متر"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 #, fuzzy
 msgid "123 km 123 m"
@@ -842,6 +843,7 @@ msgstr "انتساب:"
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
 #. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 #. Programmer's name for it: rsImageFormatTypeAuto
 msgid "Auto"
@@ -1659,7 +1661,6 @@ msgstr "DBMS (درایور بومی)"
 msgid "DBMS (ODBC driver)"
 msgstr "DBMS (درایور ODBC)"
 
-#. frmSettings..PageControl1..tsCache..pnlDBMSPath..lbDBMSCachePath..Caption
 msgid "DBMS root:"
 msgstr "ریشه DBMS:"
 
@@ -3196,6 +3197,10 @@ msgstr "قفل کردن نوار ابزار"
 msgid "Lock Toolbars"
 msgstr "قفل کردن نوار ابزار"
 
+#, fuzzy
+msgid "Locus (SQLite3) cache root folder:"
+msgstr "پوشه کش بومی:"
+
 msgid ""
 "Longitude of upper left corner must be less than \n"
 "longitude of lower right corner"
@@ -3476,6 +3481,10 @@ msgstr "حداکثر سرعت"
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
 msgstr "مگابایت"
+
+#, fuzzy
+msgid "MBTiles (SQLite3) cache root folder:"
+msgstr "پوشه کش بومی:"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 msgid "Medium"
@@ -3955,6 +3964,10 @@ msgstr "گزینه های ..."
 #, fuzzy
 msgid "Order by:"
 msgstr "Z-Order:"
+
+#, fuzzy
+msgid "OsmAnd (SQLite3) cache root folder:"
+msgstr "پوشه کش بومی:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"

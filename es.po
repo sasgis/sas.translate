@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-07-29 22:44\n"
+"POT-Creation-Date: 2025-08-03 13:01\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -209,6 +209,7 @@ msgstr "120km"
 msgid "120m"
 msgstr "120m"
 
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 #, fuzzy
 msgid "123 km 123 m"
@@ -847,6 +848,7 @@ msgstr "Atribución:"
 #. frmMain..actlstMain..actViewGridLonLatAuto..Caption
 #. frmGeoTiffOptions..pnlFormat..cbbFormat..Text
 #. frmGeoTiffOptions..pnlFormat..cbbFormat....Items.Strings
+#. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat..Text
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlAreaFormat..cbbAreaFormat....Items.Strings
 #. Programmer's name for it: rsImageFormatTypeAuto
 msgid "Auto"
@@ -1667,7 +1669,6 @@ msgstr "DBMS (Native driver)"
 msgid "DBMS (ODBC driver)"
 msgstr "DBMS (ODBC driver)"
 
-#. frmSettings..PageControl1..tsCache..pnlDBMSPath..lbDBMSCachePath..Caption
 msgid "DBMS root:"
 msgstr "Carpeta raiz del DBMS:"
 
@@ -3211,6 +3212,10 @@ msgstr "Bloquear barra de herramientas"
 msgid "Lock Toolbars"
 msgstr "Bloquear Barra de Herramientas"
 
+#, fuzzy
+msgid "Locus (SQLite3) cache root folder:"
+msgstr "Carpeta del Caché Nativo:"
+
 msgid ""
 "Longitude of upper left corner must be less than \n"
 "longitude of lower right corner"
@@ -3492,6 +3497,10 @@ msgstr "Velocidad máxima"
 #. Programmer's name for it: SAS_UNITS_mb
 msgid "MB"
 msgstr "MB"
+
+#, fuzzy
+msgid "MBTiles (SQLite3) cache root folder:"
+msgstr "Carpeta del Caché Nativo:"
 
 #. frmMarksExportConfig..pgcMain..tsExportToKml..rgIconScale....Items.Strings
 #, fuzzy
@@ -3977,6 +3986,10 @@ msgstr "Opciones..."
 #, fuzzy
 msgid "Order by:"
 msgstr "Z-Order:"
+
+#, fuzzy
+msgid "OsmAnd (SQLite3) cache root folder:"
+msgstr "Carpeta del Caché Nativo:"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlResize..lblResizeMethod..Caption
 msgid "Other"
