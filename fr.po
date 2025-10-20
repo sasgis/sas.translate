@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-08-03 13:01\n"
+"POT-Creation-Date: 2025-10-20 14:51\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -583,6 +583,10 @@ msgstr "Tous les formats compatibles "
 msgid "All sources"
 msgstr "Toutes les sources"
 
+#, fuzzy
+msgid "All supported formats"
+msgstr "Tous les formats compatibles "
+
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr "Autorise l'ajout"
@@ -903,6 +907,9 @@ msgstr "Couleur de l'arrière-plan :"
 
 msgid "Base Cache path"
 msgstr "Répertoire de base du cache :"
+
+msgid "base map"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
@@ -2208,6 +2215,10 @@ msgstr "Erreur de saisie des coordonnées : Lat=%s Lon=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Erreur pendant la sauvegarde !"
+
+#, object-pascal-format
+msgid "Error: No available slots for the offline maps (%s)!"
+msgstr ""
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -3833,6 +3844,11 @@ msgstr "Forum, en russe"
 msgid "Open Home Page"
 msgstr "Page d'accueil, en russe"
 
+#. frmMain..actlstMain..actOfflineMapOpen..Caption
+#, fuzzy
+msgid "Open Offline Map..."
+msgstr "Aide en ligne (en russe)"
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..btnDateTimeFormatHelp..Hint
 msgid "Open online help"
 msgstr "Aide en ligne (en russe)"
@@ -4417,6 +4433,10 @@ msgstr "Rayon : %s"
 #. Programmer's name for it: rsRAM
 msgid "RAM"
 msgstr "RAM"
+
+#, fuzzy
+msgid "raster layer"
+msgstr "Couche :"
 
 msgid "RAW: Fill line failure!"
 msgstr "RAW : problème de remplissage de ligne !"
@@ -5569,6 +5589,11 @@ msgstr "La dalle est créée après la date limite : annuler."
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "La dalle a la même taille que celle qui existe déjà : annuler."
 
+#. Programmer's name for it: SAS_ERR_TneExistsShort
+#, fuzzy
+msgid "The tne already exists"
+msgstr "Rien à télécharger, les dalles existent déjà !"
+
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr "La dalle est créée après la date limite : annuler."
@@ -6039,6 +6064,10 @@ msgstr "Temps universel coordonné UTC :"
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
 msgid "Value"
 msgstr "Valeur"
+
+#, fuzzy
+msgid "vector layer"
+msgstr "Couche vectorielle"
 
 #. frmSettings..PageControl1..tsWiki..Caption
 msgid "Vector Layer"

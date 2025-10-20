@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-08-03 13:01\n"
+"POT-Creation-Date: 2025-10-20 14:51\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -593,6 +593,10 @@ msgstr "Всі підтримувані формати"
 msgid "All sources"
 msgstr "Всі сервіси"
 
+#, fuzzy
+msgid "All supported formats"
+msgstr "Всі підтримувані формати"
+
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr ""
@@ -917,6 +921,9 @@ msgstr "Колір тла:"
 
 msgid "Base Cache path"
 msgstr "Базовий шлях до кешу"
+
+msgid "base map"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
@@ -2227,6 +2234,10 @@ msgstr "Помилка вводу координат: широта=%s довго
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Помилка при збереженні!"
+
+#, object-pascal-format
+msgid "Error: No available slots for the offline maps (%s)!"
+msgstr ""
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -3895,6 +3906,11 @@ msgstr "Відкрити zmp"
 msgid "Open Home Page"
 msgstr "Відкрити zmp"
 
+#. frmMain..actlstMain..actOfflineMapOpen..Caption
+#, fuzzy
+msgid "Open Offline Map..."
+msgstr "Допомога"
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..btnDateTimeFormatHelp..Hint
 #, fuzzy
 msgid "Open online help"
@@ -4494,6 +4510,10 @@ msgstr "Радіус"
 #. Programmer's name for it: rsRAM
 msgid "RAM"
 msgstr "ОЗП"
+
+#, fuzzy
+msgid "raster layer"
+msgstr "Накласти шар:"
 
 msgid "RAW: Fill line failure!"
 msgstr "BMP: Помилка заповнення!"
@@ -5680,6 +5700,11 @@ msgstr ""
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "Розмір цього тайлу дорівнює існуючому, пропускаємо завантаження."
 
+#. Programmer's name for it: SAS_ERR_TneExistsShort
+#, fuzzy
+msgid "The tne already exists"
+msgstr "Цей тайл вже є в кеші"
+
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr ""
@@ -6146,6 +6171,10 @@ msgstr "Час UTC"
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
 msgid "Value"
 msgstr "Значення"
+
+#, fuzzy
+msgid "vector layer"
+msgstr "З шару"
 
 #. frmSettings..PageControl1..tsWiki..Caption
 #, fuzzy
@@ -6942,9 +6971,6 @@ msgstr "Z-Сортування:"
 
 #~ msgid "Autodetect on conntect"
 #~ msgstr "Автовизначення при підключенні"
-
-#~ msgid "Overlay layer"
-#~ msgstr "Накласти шар:"
 
 #~ msgid "Shows DGPS"
 #~ msgstr "Показує DGPS"

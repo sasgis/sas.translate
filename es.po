@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-08-03 13:01\n"
+"POT-Creation-Date: 2025-10-20 14:51\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -604,6 +604,10 @@ msgstr "Todos los formatos compatibles"
 msgid "All sources"
 msgstr "Todos los Servicios"
 
+#, fuzzy
+msgid "All supported formats"
+msgstr "Todos los formatos compatibles"
+
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr ""
@@ -930,6 +934,9 @@ msgstr "Color de fondo:"
 
 msgid "Base Cache path"
 msgstr "Carpeta del Caché"
+
+msgid "base map"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
@@ -2252,6 +2259,10 @@ msgstr "Error analizando coordenadas: Lat=%s Lon=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "¡Error durante guardado!"
+
+#, object-pascal-format
+msgid "Error: No available slots for the offline maps (%s)!"
+msgstr ""
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -3935,6 +3946,11 @@ msgstr "Abrir zmp"
 msgid "Open Home Page"
 msgstr "Abrir zmp"
 
+#. frmMain..actlstMain..actOfflineMapOpen..Caption
+#, fuzzy
+msgid "Open Offline Map..."
+msgstr "Ayuda On-Line"
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..btnDateTimeFormatHelp..Hint
 #, fuzzy
 msgid "Open online help"
@@ -4537,6 +4553,10 @@ msgstr "Radio del anillo"
 #. Programmer's name for it: rsRAM
 msgid "RAM"
 msgstr "RAM"
+
+#, fuzzy
+msgid "raster layer"
+msgstr "Layer superpuesto:"
 
 msgid "RAW: Fill line failure!"
 msgstr "¡RAW: Falla en carga de línea!"
@@ -5728,6 +5748,11 @@ msgstr "El mosaico es más nuevo que el periodo entrado, ignorado."
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "El tamaño del mosaico es igual al existente, ignorado."
 
+#. Programmer's name for it: SAS_ERR_TneExistsShort
+#, fuzzy
+msgid "The tne already exists"
+msgstr "El mosaico ya existe"
+
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr "El tne es más nuevo que el periodo entrado, ignorado."
@@ -6198,6 +6223,10 @@ msgstr "Hora UTC:"
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
 msgid "Value"
 msgstr "Valor"
+
+#, fuzzy
+msgid "vector layer"
+msgstr "Desde Layer"
 
 #. frmSettings..PageControl1..tsWiki..Caption
 #, fuzzy

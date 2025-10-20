@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-03 13:01\n"
-"PO-Revision-Date: 2025-08-03 13:01\n"
+"POT-Creation-Date: 2025-10-20 14:51\n"
+"PO-Revision-Date: 2025-10-20 14:51\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -584,6 +584,9 @@ msgstr ""
 msgid "All sources"
 msgstr ""
 
+msgid "All supported formats"
+msgstr ""
+
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr ""
@@ -915,6 +918,9 @@ msgid "Background color:"
 msgstr ""
 
 msgid "Base Cache path"
+msgstr ""
+
+msgid "base map"
 msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
@@ -2221,6 +2227,12 @@ msgstr ""
 
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
+msgstr ""
+
+#, object-pascal-format
+msgid ""
+"Error: No available slots for the offline maps "
+"(%s)!"
 msgstr ""
 
 #. Programmer's name for it: rsEvent
@@ -3854,6 +3866,10 @@ msgstr ""
 msgid "Open Home Page"
 msgstr ""
 
+#. frmMain..actlstMain..actOfflineMapOpen..Caption
+msgid "Open Offline Map..."
+msgstr ""
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..btnDateTimeFormatHelp..Hint
 msgid "Open online help"
 msgstr ""
@@ -4446,6 +4462,9 @@ msgstr ""
 #. Programmer's name for it: rsRAMCacheName
 #. Programmer's name for it: rsRAM
 msgid "RAM"
+msgstr ""
+
+msgid "raster layer"
 msgstr ""
 
 msgid "RAW: Fill line failure!"
@@ -5587,6 +5606,10 @@ msgid ""
 "skipping."
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_TneExistsShort
+msgid "The tne already exists"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid ""
 "The tne is newer than the entered age, "
@@ -6049,6 +6072,9 @@ msgstr ""
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
 msgid "Value"
+msgstr ""
+
+msgid "vector layer"
 msgstr ""
 
 #. frmSettings..PageControl1..tsWiki..Caption

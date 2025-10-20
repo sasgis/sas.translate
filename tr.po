@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-08-03 13:01\n"
+"POT-Creation-Date: 2025-10-20 14:51\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -586,6 +586,10 @@ msgstr "Tüm uyumlu formatlar"
 msgid "All sources"
 msgstr "Tüm Servisler"
 
+#, fuzzy
+msgid "All supported formats"
+msgstr "Tüm uyumlu formatlar"
+
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr "Eklemeye izin ver"
@@ -904,6 +908,9 @@ msgstr "Arkaplan rengi:"
 
 msgid "Base Cache path"
 msgstr "Temel Önbellek yolu"
+
+msgid "base map"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
@@ -2203,6 +2210,10 @@ msgstr "Koordinatlar ayrıştırılırken hata oluştu: Enlem=%s Boylam=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "Kaydederken hata oluştu!"
+
+#, object-pascal-format
+msgid "Error: No available slots for the offline maps (%s)!"
+msgstr ""
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -3850,6 +3861,11 @@ msgstr "Forum Sayfasını Aç"
 msgid "Open Home Page"
 msgstr "Anasayfayı Aç"
 
+#. frmMain..actlstMain..actOfflineMapOpen..Caption
+#, fuzzy
+msgid "Open Offline Map..."
+msgstr "Çevrimiçi Yardım"
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..btnDateTimeFormatHelp..Hint
 #, fuzzy
 msgid "Open online help"
@@ -4443,6 +4459,10 @@ msgstr "Yarıçap"
 #. Programmer's name for it: rsRAM
 msgid "RAM"
 msgstr "RAM"
+
+#, fuzzy
+msgid "raster layer"
+msgstr "Kaplama katmanı:"
 
 msgid "RAW: Fill line failure!"
 msgstr "RAW: Satır doldurma hatası!"
@@ -5607,6 +5627,11 @@ msgstr "Döşeme, girilen süreden daha yeni, atlandı."
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "Döşeme boyutu, mevcut olana eşittir, atlandı."
 
+#. Programmer's name for it: SAS_ERR_TneExistsShort
+#, fuzzy
+msgid "The tne already exists"
+msgstr "Döşeme zaten var"
+
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr "Tne, girilen yaştan daha yeni, atlandı."
@@ -6071,6 +6096,10 @@ msgstr "UTC zamanı:"
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
 msgid "Value"
 msgstr "Değer"
+
+#, fuzzy
+msgid "vector layer"
+msgstr "Katmandan"
 
 #. frmSettings..PageControl1..tsWiki..Caption
 #, fuzzy

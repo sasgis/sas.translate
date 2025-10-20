@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2025-08-03 13:01\n"
+"POT-Creation-Date: 2025-10-20 14:51\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -600,6 +600,10 @@ msgstr "همه فرمت های سازگار"
 msgid "All sources"
 msgstr "همه خدمات"
 
+#, fuzzy
+msgid "All supported formats"
+msgstr "همه فرمت های سازگار"
+
 #. frmMapTypeEdit..PageControl1..tsOthers..grpCacheAccess..chkAddAccess..Caption
 msgid "Allow Add"
 msgstr ""
@@ -925,6 +929,9 @@ msgstr "رنگ پس زمینه:"
 
 msgid "Base Cache path"
 msgstr "مسیر Cache پایه"
+
+msgid "base map"
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorBatteryStatusMenuItemName
 msgid "Battery"
@@ -2244,6 +2251,10 @@ msgstr "خطا در تجزیه مختصات: Lat=%s Lon=%s"
 #. Programmer's name for it: SAS_ERR_Save
 msgid "Error while saving!"
 msgstr "خطا هنگام ذخیره!"
+
+#, object-pascal-format
+msgid "Error: No available slots for the offline maps (%s)!"
+msgstr ""
 
 #. Programmer's name for it: rsEvent
 msgid "Event"
@@ -3913,6 +3924,11 @@ msgstr ""
 msgid "Open Home Page"
 msgstr ""
 
+#. frmMain..actlstMain..actOfflineMapOpen..Caption
+#, fuzzy
+msgid "Open Offline Map..."
+msgstr "راهنما آنلاین"
+
 #. frmMapLayersOptions..pgcOptions..tsStatBar..btnDateTimeFormatHelp..Hint
 #, fuzzy
 msgid "Open online help"
@@ -4514,6 +4530,10 @@ msgstr "شعاع"
 #. Programmer's name for it: rsRAM
 msgid "RAM"
 msgstr "RAM"
+
+#, fuzzy
+msgid "raster layer"
+msgstr "لایه روکش:"
 
 msgid "RAW: Fill line failure!"
 msgstr "RAW: پر کردن خط شکست!"
@@ -5700,6 +5720,11 @@ msgstr "کاشی جدیدتر از سن وارد شده است، پرش."
 msgid "The tile size is equal to the existing one, skipping."
 msgstr "اندازه کاشی برابر با یک موجود است، پرش."
 
+#. Programmer's name for it: SAS_ERR_TneExistsShort
+#, fuzzy
+msgid "The tne already exists"
+msgstr "کاشی از قبل وجود دارد"
+
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr "Tne جدیدتر از سن وارد شده، پرش است."
@@ -6160,6 +6185,10 @@ msgstr "زمان UTC:"
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
 msgid "Value"
 msgstr "ارزش"
+
+#, fuzzy
+msgid "vector layer"
+msgstr "از لایه"
 
 #. frmSettings..PageControl1..tsWiki..Caption
 #, fuzzy
