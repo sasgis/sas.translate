@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-27 15:15\n"
-"PO-Revision-Date: 2025-10-27 15:15\n"
+"POT-Creation-Date: 2025-10-27 15:30\n"
+"PO-Revision-Date: 2025-10-27 15:30\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2234,17 +2234,6 @@ msgstr ""
 msgid "Error while saving!"
 msgstr ""
 
-#, object-pascal-format
-msgid ""
-"Error: No available slots for the offline maps "
-"(%s)!"
-msgstr ""
-
-#. unsupported tile format
-#, object-pascal-format
-msgid "Error: Unsupported tile format: \"%s\"!"
-msgstr ""
-
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr ""
@@ -3698,6 +3687,12 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#, object-pascal-format
+msgid ""
+"No available slots for the offline maps "
+"(%s)!"
+msgstr ""
+
 msgid "No devices found!"
 msgstr ""
 
@@ -4011,12 +4006,12 @@ msgstr ""
 msgid "Params"
 msgstr ""
 
-#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
-msgid "Parent Sub Menu:"
-msgstr ""
-
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
+msgstr ""
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+msgid "Parent Submenu:"
 msgstr ""
 
 #, object-pascal-format
@@ -5963,6 +5958,11 @@ msgid "Unsupported archive type: %s"
 msgstr ""
 
 msgid "Unsupported file format!"
+msgstr ""
+
+#. unsupported tile format
+#, object-pascal-format
+msgid "Unsupported tile format: \"%s\"!"
 msgstr ""
 
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption

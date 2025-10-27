@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-10-27 15:15\n"
+"POT-Creation-Date: 2025-10-27 15:30\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -2241,15 +2241,6 @@ msgstr "Помилка вводу координат: широта=%s довго
 msgid "Error while saving!"
 msgstr "Помилка при збереженні!"
 
-#, object-pascal-format
-msgid "Error: No available slots for the offline maps (%s)!"
-msgstr ""
-
-#. unsupported tile format
-#, fuzzy, object-pascal-format
-msgid "Error: Unsupported tile format: \"%s\"!"
-msgstr "Всі підтримувані формати"
-
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr "Подія"
@@ -3735,6 +3726,10 @@ msgstr ""
 msgid "No"
 msgstr "Ні"
 
+#, object-pascal-format
+msgid "No available slots for the offline maps (%s)!"
+msgstr ""
+
 #, fuzzy
 msgid "No devices found!"
 msgstr "Не знайдено GPS-приймач"
@@ -4061,13 +4056,13 @@ msgstr "Параметр"
 msgid "Params"
 msgstr "Параметр"
 
-#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
-#, fuzzy
-msgid "Parent Sub Menu:"
-msgstr "Батьківський пункт меню"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
+msgstr "Батьківський пункт меню"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+#, fuzzy
+msgid "Parent Submenu:"
 msgstr "Батьківський пункт меню"
 
 #, fuzzy, object-pascal-format
@@ -6063,6 +6058,11 @@ msgstr ""
 
 #, fuzzy
 msgid "Unsupported file format!"
+msgstr "Всі підтримувані формати"
+
+#. unsupported tile format
+#, fuzzy, object-pascal-format
+msgid "Unsupported tile format: \"%s\"!"
 msgstr "Всі підтримувані формати"
 
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption

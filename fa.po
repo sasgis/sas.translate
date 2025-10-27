@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2025-10-27 15:15\n"
+"POT-Creation-Date: 2025-10-27 15:30\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -2258,15 +2258,6 @@ msgstr "خطا در تجزیه مختصات: Lat=%s Lon=%s"
 msgid "Error while saving!"
 msgstr "خطا هنگام ذخیره!"
 
-#, object-pascal-format
-msgid "Error: No available slots for the offline maps (%s)!"
-msgstr ""
-
-#. unsupported tile format
-#, fuzzy, object-pascal-format
-msgid "Error: Unsupported tile format: \"%s\"!"
-msgstr "همه فرمت های سازگار"
-
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr ""
@@ -3754,6 +3745,10 @@ msgstr ""
 msgid "No"
 msgstr "خیر"
 
+#, object-pascal-format
+msgid "No available slots for the offline maps (%s)!"
+msgstr ""
+
 #, fuzzy
 msgid "No devices found!"
 msgstr "گیرنده GPS یافت نشد"
@@ -4078,13 +4073,13 @@ msgstr "پارامتر"
 msgid "Params"
 msgstr "پارامترها"
 
-#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
-#, fuzzy
-msgid "Parent Sub Menu:"
-msgstr "منوی فرعی والد"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
+msgstr "منوی فرعی والد"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+#, fuzzy
+msgid "Parent Submenu:"
 msgstr "منوی فرعی والد"
 
 #, fuzzy, object-pascal-format
@@ -6078,6 +6073,11 @@ msgstr "نوع محتوای غیرمنتظره %s"
 
 #, fuzzy
 msgid "Unsupported file format!"
+msgstr "همه فرمت های سازگار"
+
+#. unsupported tile format
+#, fuzzy, object-pascal-format
+msgid "Unsupported tile format: \"%s\"!"
 msgstr "همه فرمت های سازگار"
 
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption

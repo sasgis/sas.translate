@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-10-27 15:15\n"
-"PO-Revision-Date: 2025-10-27 15:18+0300\n"
+"POT-Creation-Date: 2025-10-27 15:30\n"
+"PO-Revision-Date: 2025-10-27 15:34+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -2179,15 +2179,6 @@ msgstr "Ошибка ввода координат: широта %s, долго�
 msgid "Error while saving!"
 msgstr "Ошибка при сохранении!"
 
-#, object-pascal-format
-msgid "Error: No available slots for the offline maps (%s)!"
-msgstr "Ошибка: Нет доступных слотов для офлайн-карт (%s)!"
-
-#. unsupported tile format
-#, object-pascal-format
-msgid "Error: Unsupported tile format: \"%s\"!"
-msgstr "Ошибка: неподдерживаемый формат тайлов: \"%s\"!"
-
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr "Событие"
@@ -3628,6 +3619,10 @@ msgstr ""
 msgid "No"
 msgstr "Нет"
 
+#, object-pascal-format
+msgid "No available slots for the offline maps (%s)!"
+msgstr "Нет доступных слотов для офлайн карт (%s)!"
+
 msgid "No devices found!"
 msgstr "Устройств не обнаружено!"
 
@@ -3726,11 +3721,11 @@ msgid "Odometer #2"
 msgstr "Одометр № 2"
 
 msgid "Offline Maps"
-msgstr "Оффлайн карты"
+msgstr "Офлайн карты"
 
 #, object-pascal-format
 msgid "Offline search (%s)"
-msgstr "Оффлайн поиск (%s)"
+msgstr "Офлайн поиск (%s)"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..cbbMapFormat....Items.Strings
 msgid "Old Format"
@@ -3812,11 +3807,11 @@ msgstr "Открыть домашнюю страницу"
 
 #. frmTileStorageImporter..Caption
 msgid "Open Offline Map"
-msgstr "Открыть оффлайн карту"
+msgstr "Открыть офлайн карту"
 
 #. frmMain..actlstMain..actOfflineMapOpen..Caption
 msgid "Open Offline Map..."
-msgstr "Открыть оффлайн карту..."
+msgstr "Открыть офлайн карту..."
 
 #. frmMapLayersOptions..pgcOptions..tsStatBar..btnDateTimeFormatHelp..Hint
 msgid "Open online help"
@@ -3935,13 +3930,13 @@ msgstr "Параметр"
 msgid "Params"
 msgstr "Параметры"
 
-#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
-msgid "Parent Sub Menu:"
-msgstr "Родительский пункт меню:"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
 msgstr "Родительский пункт меню"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+msgid "Parent Submenu:"
+msgstr "Родительский пункт меню:"
 
 #, object-pascal-format
 msgid "Part: %d/%d"
@@ -5870,6 +5865,11 @@ msgstr "Неподдерживаемый тип архива: %s"
 
 msgid "Unsupported file format!"
 msgstr "Неподдерживаемый формат файла!"
+
+#. unsupported tile format
+#, object-pascal-format
+msgid "Unsupported tile format: \"%s\"!"
+msgstr "Неподдерживаемый формат тайлов: \"%s\"!"
 
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"

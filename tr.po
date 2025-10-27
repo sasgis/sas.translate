@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-10-27 15:15\n"
+"POT-Creation-Date: 2025-10-27 15:30\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -2217,15 +2217,6 @@ msgstr "Koordinatlar ayrıştırılırken hata oluştu: Enlem=%s Boylam=%s"
 msgid "Error while saving!"
 msgstr "Kaydederken hata oluştu!"
 
-#, object-pascal-format
-msgid "Error: No available slots for the offline maps (%s)!"
-msgstr ""
-
-#. unsupported tile format
-#, fuzzy, object-pascal-format
-msgid "Error: Unsupported tile format: \"%s\"!"
-msgstr "Tüm uyumlu formatlar"
-
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr "Etkinlik"
@@ -3695,6 +3686,10 @@ msgstr ""
 msgid "No"
 msgstr "Hayır"
 
+#, object-pascal-format
+msgid "No available slots for the offline maps (%s)!"
+msgstr ""
+
 #, fuzzy
 msgid "No devices found!"
 msgstr "GPS alıcısı bulunamadı"
@@ -4014,13 +4009,13 @@ msgstr "Parametre"
 msgid "Params"
 msgstr "Parametreler"
 
-#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
-#, fuzzy
-msgid "Parent Sub Menu:"
-msgstr "Üst alt menü"
-
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
+msgstr "Üst alt menü"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+#, fuzzy
+msgid "Parent Submenu:"
 msgstr "Üst alt menü"
 
 #, fuzzy, object-pascal-format
@@ -5992,6 +5987,11 @@ msgstr "Desteklenmeyen arşiv türü: %s"
 
 #, fuzzy
 msgid "Unsupported file format!"
+msgstr "Tüm uyumlu formatlar"
+
+#. unsupported tile format
+#, fuzzy, object-pascal-format
+msgid "Unsupported tile format: \"%s\"!"
 msgstr "Tüm uyumlu formatlar"
 
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
