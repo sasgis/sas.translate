@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-10-20 14:51\n"
+"POT-Creation-Date: 2025-10-27 15:15\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -1040,6 +1040,11 @@ msgstr "Önbellek durumu:"
 msgid "Cache type"
 msgstr "Önbellek türü"
 
+#. frmTileStorageImporter..pgcMain..tsParams..lblCacheType..Caption
+#, fuzzy
+msgid "Cache Type:"
+msgstr "Önbellek türü"
+
 #. frmMain..TBDock..TBMainToolBar..TBMapZap..Hint
 msgid "Cached tiles map"
 msgstr "Önbelleğe alınmış döşeme haritası"
@@ -1103,6 +1108,7 @@ msgstr "Radio Mobile programı için kalibrasyon (*.dat)"
 #. frmMapLayersOptions..btnCancel..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
+#. frmTileStorageImporter..pnlBottomButtons..btnCancel..Caption
 msgid "Cancel"
 msgstr "İptal"
 
@@ -2215,6 +2221,11 @@ msgstr "Kaydederken hata oluştu!"
 msgid "Error: No available slots for the offline maps (%s)!"
 msgstr ""
 
+#. unsupported tile format
+#, fuzzy, object-pascal-format
+msgid "Error: Unsupported tile format: \"%s\"!"
+msgstr "Tüm uyumlu formatlar"
+
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr "Etkinlik"
@@ -2267,6 +2278,7 @@ msgid "Export visible placemarks"
 msgstr "Görünür yer işaretlerini dışa aktar"
 
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblDefExtension..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblExtension..Caption
 msgid "Extension:"
 msgstr "Uzantı:"
 
@@ -3259,6 +3271,7 @@ msgid "Map Name"
 msgstr "Harita Adı"
 
 #. frExportToIMG..pgcMain..tsMap..pnlMapName..lblMapName..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblMapName..Caption
 msgid "Map Name:"
 msgstr "Harita Adı:"
 
@@ -3471,6 +3484,10 @@ msgstr ""
 "Birleştirme işlemi başarıyla tamamlandı!\n"
 "Sonuç %d çokgen ile %d boşluk içeriyor"
 
+#. frmTileStorageImporter..pgcMain..tsMetadata..Caption
+msgid "Metadata"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 #, fuzzy
 msgid "Meters"
@@ -3567,6 +3584,7 @@ msgstr "Yer İşaretlerim"
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
 #. frmMarkPictureConfig..pnlCaptions..lblName..Caption
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Name"
 msgstr "Ad"
 
@@ -3778,6 +3796,10 @@ msgstr "Kilometre sayacı"
 msgid "Odometer #2"
 msgstr "Kilometre sayacı #2"
 
+#, fuzzy
+msgid "Offline Maps"
+msgstr "Çevrimiçi Yardım"
+
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr "Çevrimdışı arama (%s)"
@@ -3860,6 +3882,11 @@ msgstr "Forum Sayfasını Aç"
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
 msgid "Open Home Page"
 msgstr "Anasayfayı Aç"
+
+#. frmTileStorageImporter..Caption
+#, fuzzy
+msgid "Open Offline Map"
+msgstr "Çevrimiçi Yardım"
 
 #. frmMain..actlstMain..actOfflineMapOpen..Caption
 #, fuzzy
@@ -3983,8 +4010,14 @@ msgid "Parameter"
 msgstr "Parametre"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..Caption
 msgid "Params"
 msgstr "Parametreler"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+#, fuzzy
+msgid "Parent Sub Menu:"
+msgstr "Üst alt menü"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
@@ -4397,6 +4430,7 @@ msgid "Projection of map"
 msgstr "Harita projeksiyonu"
 
 #. frProjectionSelect..lblProjection..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblProjection..Caption
 msgid "Projection:"
 msgstr "Projeksiyon:"
 
@@ -5956,6 +5990,10 @@ msgstr "Bilinmeyen durum kodu %d"
 msgid "Unsupported archive type: %s"
 msgstr "Desteklenmeyen arşiv türü: %s"
 
+#, fuzzy
+msgid "Unsupported file format!"
+msgstr "Tüm uyumlu formatlar"
+
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr "Yukarı"
@@ -6094,6 +6132,7 @@ msgid "UTC time:"
 msgstr "UTC zamanı:"
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Value"
 msgstr "Değer"
 

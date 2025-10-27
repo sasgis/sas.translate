@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-20 14:51\n"
-"PO-Revision-Date: 2025-10-20 14:51\n"
+"POT-Creation-Date: 2025-10-27 15:15\n"
+"PO-Revision-Date: 2025-10-27 15:15\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1048,6 +1048,10 @@ msgstr ""
 msgid "Cache type"
 msgstr ""
 
+#. frmTileStorageImporter..pgcMain..tsParams..lblCacheType..Caption
+msgid "Cache Type:"
+msgstr ""
+
 #. frmMain..TBDock..TBMainToolBar..TBMapZap..Hint
 msgid "Cached tiles map"
 msgstr ""
@@ -1118,6 +1122,7 @@ msgstr ""
 #. frmMapLayersOptions..btnCancel..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
+#. frmTileStorageImporter..pnlBottomButtons..btnCancel..Caption
 msgid "Cancel"
 msgstr ""
 
@@ -2235,6 +2240,11 @@ msgid ""
 "(%s)!"
 msgstr ""
 
+#. unsupported tile format
+#, object-pascal-format
+msgid "Error: Unsupported tile format: \"%s\"!"
+msgstr ""
+
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr ""
@@ -2286,6 +2296,7 @@ msgid "Export visible placemarks"
 msgstr ""
 
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblDefExtension..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblExtension..Caption
 msgid "Extension:"
 msgstr ""
 
@@ -3261,6 +3272,7 @@ msgid "Map Name"
 msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlMapName..lblMapName..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblMapName..Caption
 msgid "Map Name:"
 msgstr ""
 
@@ -3476,6 +3488,10 @@ msgid ""
 "hole(s)"
 msgstr ""
 
+#. frmTileStorageImporter..pgcMain..tsMetadata..Caption
+msgid "Metadata"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "Meters"
 msgstr ""
@@ -3572,6 +3588,7 @@ msgstr ""
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
 #. frmMarkPictureConfig..pnlCaptions..lblName..Caption
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Name"
 msgstr ""
 
@@ -3784,6 +3801,9 @@ msgstr ""
 msgid "Odometer #2"
 msgstr ""
 
+msgid "Offline Maps"
+msgstr ""
+
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr ""
@@ -3864,6 +3884,10 @@ msgstr ""
 
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
 msgid "Open Home Page"
+msgstr ""
+
+#. frmTileStorageImporter..Caption
+msgid "Open Offline Map"
 msgstr ""
 
 #. frmMain..actlstMain..actOfflineMapOpen..Caption
@@ -3983,7 +4007,12 @@ msgid "Parameter"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..Caption
 msgid "Params"
+msgstr ""
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+msgid "Parent Sub Menu:"
 msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
@@ -4400,6 +4429,7 @@ msgid "Projection of map"
 msgstr ""
 
 #. frProjectionSelect..lblProjection..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblProjection..Caption
 msgid "Projection:"
 msgstr ""
 
@@ -5932,6 +5962,9 @@ msgstr ""
 msgid "Unsupported archive type: %s"
 msgstr ""
 
+msgid "Unsupported file format!"
+msgstr ""
+
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr ""
@@ -6071,6 +6104,7 @@ msgid "UTC time:"
 msgstr ""
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Value"
 msgstr ""
 

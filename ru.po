@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-10-20 14:51\n"
-"PO-Revision-Date: 2025-10-20 15:03+0300\n"
+"POT-Creation-Date: 2025-10-27 15:15\n"
+"PO-Revision-Date: 2025-10-27 15:18+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1021,6 +1021,10 @@ msgstr "Состояние кэша:"
 msgid "Cache type"
 msgstr "Тип кэша"
 
+#. frmTileStorageImporter..pgcMain..tsParams..lblCacheType..Caption
+msgid "Cache Type:"
+msgstr "Тип кэша:"
+
 #. frmMain..TBDock..TBMainToolBar..TBMapZap..Hint
 msgid "Cached tiles map"
 msgstr "Карта заполнения слоя"
@@ -1083,6 +1087,7 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 #. frmMapLayersOptions..btnCancel..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
+#. frmTileStorageImporter..pnlBottomButtons..btnCancel..Caption
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -2178,6 +2183,11 @@ msgstr "Ошибка при сохранении!"
 msgid "Error: No available slots for the offline maps (%s)!"
 msgstr "Ошибка: Нет доступных слотов для офлайн-карт (%s)!"
 
+#. unsupported tile format
+#, object-pascal-format
+msgid "Error: Unsupported tile format: \"%s\"!"
+msgstr "Ошибка: неподдерживаемый формат тайлов: \"%s\"!"
+
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr "Событие"
@@ -2229,6 +2239,7 @@ msgid "Export visible placemarks"
 msgstr "Экспорт только отображаемых"
 
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblDefExtension..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblExtension..Caption
 msgid "Extension:"
 msgstr "Расширение:"
 
@@ -3204,6 +3215,7 @@ msgid "Map Name"
 msgstr "Название карты"
 
 #. frExportToIMG..pgcMain..tsMap..pnlMapName..lblMapName..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblMapName..Caption
 msgid "Map Name:"
 msgstr "Название карты:"
 
@@ -3410,6 +3422,10 @@ msgstr ""
 "Процесс слияния завершён успешно!\n"
 "Результат содержит %d полигон(ов) с %d дырками"
 
+#. frmTileStorageImporter..pgcMain..tsMetadata..Caption
+msgid "Metadata"
+msgstr "Метаданные"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "Meters"
 msgstr "Метры"
@@ -3502,6 +3518,7 @@ msgstr "Мои метки"
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
 #. frmMarkPictureConfig..pnlCaptions..lblName..Caption
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Name"
 msgstr "Название"
 
@@ -3708,6 +3725,9 @@ msgstr "Одометр"
 msgid "Odometer #2"
 msgstr "Одометр № 2"
 
+msgid "Offline Maps"
+msgstr "Оффлайн карты"
+
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr "Оффлайн поиск (%s)"
@@ -3789,6 +3809,10 @@ msgstr "Открыть форум"
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
 msgid "Open Home Page"
 msgstr "Открыть домашнюю страницу"
+
+#. frmTileStorageImporter..Caption
+msgid "Open Offline Map"
+msgstr "Открыть оффлайн карту"
 
 #. frmMain..actlstMain..actOfflineMapOpen..Caption
 msgid "Open Offline Map..."
@@ -3907,8 +3931,13 @@ msgid "Parameter"
 msgstr "Параметр"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..Caption
 msgid "Params"
 msgstr "Параметры"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+msgid "Parent Sub Menu:"
+msgstr "Родительский пункт меню:"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
@@ -4312,6 +4341,7 @@ msgid "Projection of map"
 msgstr "Проекция карты"
 
 #. frProjectionSelect..lblProjection..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblProjection..Caption
 msgid "Projection:"
 msgstr "Проекция:"
 
@@ -5838,6 +5868,9 @@ msgstr "Неизвестный код ответа %d"
 msgid "Unsupported archive type: %s"
 msgstr "Неподдерживаемый тип архива: %s"
 
+msgid "Unsupported file format!"
+msgstr "Неподдерживаемый формат файла!"
+
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr "Вверх"
@@ -5971,6 +6004,7 @@ msgid "UTC time:"
 msgstr "Время UTC:"
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Value"
 msgstr "Значение"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-10-20 14:51\n"
+"POT-Creation-Date: 2025-10-27 15:15\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1056,6 +1056,11 @@ msgstr "Тип кешу"
 msgid "Cache type"
 msgstr "Тип кешу"
 
+#. frmTileStorageImporter..pgcMain..tsParams..lblCacheType..Caption
+#, fuzzy
+msgid "Cache Type:"
+msgstr "Тип кешу"
+
 #. frmMain..TBDock..TBMainToolBar..TBMapZap..Hint
 msgid "Cached tiles map"
 msgstr "Карта заповнення"
@@ -1118,6 +1123,7 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 #. frmMapLayersOptions..btnCancel..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
+#. frmTileStorageImporter..pnlBottomButtons..btnCancel..Caption
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -2239,6 +2245,11 @@ msgstr "Помилка при збереженні!"
 msgid "Error: No available slots for the offline maps (%s)!"
 msgstr ""
 
+#. unsupported tile format
+#, fuzzy, object-pascal-format
+msgid "Error: Unsupported tile format: \"%s\"!"
+msgstr "Всі підтримувані формати"
+
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr "Подія"
@@ -2291,6 +2302,7 @@ msgid "Export visible placemarks"
 msgstr "Експорт видимих позначок"
 
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblDefExtension..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblExtension..Caption
 #, fuzzy
 msgid "Extension:"
 msgstr "Розширення:"
@@ -3291,6 +3303,7 @@ msgid "Map Name"
 msgstr "Назва карти"
 
 #. frExportToIMG..pgcMain..tsMap..pnlMapName..lblMapName..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblMapName..Caption
 msgid "Map Name:"
 msgstr "Назва карти:"
 
@@ -3509,6 +3522,10 @@ msgstr ""
 "\n"
 "Результат складається з %d полигон(ов) з %d дирками"
 
+#. frmTileStorageImporter..pgcMain..tsMetadata..Caption
+msgid "Metadata"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 #, fuzzy
 msgid "Meters"
@@ -3606,6 +3623,7 @@ msgstr "Мої позначки"
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
 #. frmMarkPictureConfig..pnlCaptions..lblName..Caption
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Name"
 msgstr "Назва"
 
@@ -3821,6 +3839,10 @@ msgstr "Одометр"
 msgid "Odometer #2"
 msgstr "Одометр № 2"
 
+#, fuzzy
+msgid "Offline Maps"
+msgstr "Допомога"
+
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr ""
@@ -3905,6 +3927,11 @@ msgstr "Відкрити zmp"
 #, fuzzy
 msgid "Open Home Page"
 msgstr "Відкрити zmp"
+
+#. frmTileStorageImporter..Caption
+#, fuzzy
+msgid "Open Offline Map"
+msgstr "Допомога"
 
 #. frmMain..actlstMain..actOfflineMapOpen..Caption
 #, fuzzy
@@ -4030,8 +4057,14 @@ msgid "Parameter"
 msgstr "Параметр"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..Caption
 msgid "Params"
 msgstr "Параметр"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+#, fuzzy
+msgid "Parent Sub Menu:"
+msgstr "Батьківський пункт меню"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
@@ -4446,6 +4479,7 @@ msgid "Projection of map"
 msgstr "Проекція карти"
 
 #. frProjectionSelect..lblProjection..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblProjection..Caption
 msgid "Projection:"
 msgstr "Проекція:"
 
@@ -6027,6 +6061,10 @@ msgstr "Помилка завантаження. Невідомий статус
 msgid "Unsupported archive type: %s"
 msgstr ""
 
+#, fuzzy
+msgid "Unsupported file format!"
+msgstr "Всі підтримувані формати"
+
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr "Вгору"
@@ -6169,6 +6207,7 @@ msgid "UTC time:"
 msgstr "Час UTC"
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Value"
 msgstr "Значення"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2025-10-20 14:51\n"
+"POT-Creation-Date: 2025-10-27 15:15\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -1063,6 +1063,11 @@ msgstr "نوع کش"
 msgid "Cache type"
 msgstr "نوع کش"
 
+#. frmTileStorageImporter..pgcMain..tsParams..lblCacheType..Caption
+#, fuzzy
+msgid "Cache Type:"
+msgstr "نوع کش"
+
 #. frmMain..TBDock..TBMainToolBar..TBMapZap..Hint
 msgid "Cached tiles map"
 msgstr "نقشه کاشی های ذخیره شده"
@@ -1125,6 +1130,7 @@ msgstr "کالیبراسیون برای برنامه رادیویی موبایل
 #. frmMapLayersOptions..btnCancel..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
+#. frmTileStorageImporter..pnlBottomButtons..btnCancel..Caption
 msgid "Cancel"
 msgstr "لغو کنید"
 
@@ -2256,6 +2262,11 @@ msgstr "خطا هنگام ذخیره!"
 msgid "Error: No available slots for the offline maps (%s)!"
 msgstr ""
 
+#. unsupported tile format
+#, fuzzy, object-pascal-format
+msgid "Error: Unsupported tile format: \"%s\"!"
+msgstr "همه فرمت های سازگار"
+
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr ""
@@ -2308,6 +2319,7 @@ msgid "Export visible placemarks"
 msgstr "نشانک های قابل مشاهده را صادر کنید"
 
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblDefExtension..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblExtension..Caption
 #, fuzzy
 msgid "Extension:"
 msgstr "گسترش:"
@@ -3312,6 +3324,7 @@ msgid "Map Name"
 msgstr "نام نقشه"
 
 #. frExportToIMG..pgcMain..tsMap..pnlMapName..lblMapName..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblMapName..Caption
 msgid "Map Name:"
 msgstr "نام نقشه:"
 
@@ -3528,6 +3541,10 @@ msgstr ""
 "فرآیند ادغام با موفقیت انجام شد!\n"
 "نتیجه شامل %d چند ضلعی با %d سوراخ (ها) است"
 
+#. frmTileStorageImporter..pgcMain..tsMetadata..Caption
+msgid "Metadata"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 #, fuzzy
 msgid "Meters"
@@ -3625,6 +3642,7 @@ msgstr "نشانه های من"
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
 #. frmMarkPictureConfig..pnlCaptions..lblName..Caption
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Name"
 msgstr "نام"
 
@@ -3840,6 +3858,10 @@ msgstr "کیلومتر شمار"
 msgid "Odometer #2"
 msgstr "کیلومتر شمار شماره 2"
 
+#, fuzzy
+msgid "Offline Maps"
+msgstr "راهنما آنلاین"
+
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr ""
@@ -3923,6 +3945,11 @@ msgstr ""
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
 msgid "Open Home Page"
 msgstr ""
+
+#. frmTileStorageImporter..Caption
+#, fuzzy
+msgid "Open Offline Map"
+msgstr "راهنما آنلاین"
 
 #. frmMain..actlstMain..actOfflineMapOpen..Caption
 #, fuzzy
@@ -4047,8 +4074,14 @@ msgid "Parameter"
 msgstr "پارامتر"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..Caption
 msgid "Params"
 msgstr "پارامترها"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+#, fuzzy
+msgid "Parent Sub Menu:"
+msgstr "منوی فرعی والد"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
@@ -4466,6 +4499,7 @@ msgid "Projection of map"
 msgstr "طرح ریزی نقشه"
 
 #. frProjectionSelect..lblProjection..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblProjection..Caption
 msgid "Projection:"
 msgstr "فرافکنی:"
 
@@ -6042,6 +6076,10 @@ msgstr "کد وضعیت ناشناخته %d"
 msgid "Unsupported archive type: %s"
 msgstr "نوع محتوای غیرمنتظره %s"
 
+#, fuzzy
+msgid "Unsupported file format!"
+msgstr "همه فرمت های سازگار"
+
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr "بالا"
@@ -6183,6 +6221,7 @@ msgid "UTC time:"
 msgstr "زمان UTC:"
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Value"
 msgstr "ارزش"
 

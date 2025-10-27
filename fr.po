@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-10-20 14:51\n"
+"POT-Creation-Date: 2025-10-27 15:15\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1040,6 +1040,11 @@ msgstr "Etat du cache :"
 msgid "Cache type"
 msgstr "Type de cache"
 
+#. frmTileStorageImporter..pgcMain..tsParams..lblCacheType..Caption
+#, fuzzy
+msgid "Cache Type:"
+msgstr "Type de cache"
+
 #. frmMain..TBDock..TBMainToolBar..TBMapZap..Hint
 msgid "Cached tiles map"
 msgstr "Afficher les dalles en cache"
@@ -1102,6 +1107,7 @@ msgstr "Etalonnage pour le programme de Radio Mobile (*.dat)"
 #. frmMapLayersOptions..btnCancel..Caption
 #. frmSettings..pnlBottomButtons..btnCancel..Caption
 #. frmShortCutEdit..pnlBottom..btnCancel..Caption
+#. frmTileStorageImporter..pnlBottomButtons..btnCancel..Caption
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -2220,6 +2226,11 @@ msgstr "Erreur pendant la sauvegarde !"
 msgid "Error: No available slots for the offline maps (%s)!"
 msgstr ""
 
+#. unsupported tile format
+#, fuzzy, object-pascal-format
+msgid "Error: Unsupported tile format: \"%s\"!"
+msgstr "Tous les formats compatibles "
+
 #. Programmer's name for it: rsEvent
 msgid "Event"
 msgstr "Evénement"
@@ -2271,6 +2282,7 @@ msgid "Export visible placemarks"
 msgstr "Exporter les marqueurs visibles"
 
 #. frmCacheManager..pgcMain..tsConverter..grpSrc..lblDefExtension..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblExtension..Caption
 msgid "Extension:"
 msgstr "Extension :"
 
@@ -3254,6 +3266,7 @@ msgid "Map Name"
 msgstr "Nom de la Carte"
 
 #. frExportToIMG..pgcMain..tsMap..pnlMapName..lblMapName..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblMapName..Caption
 msgid "Map Name:"
 msgstr "Nom de la Carte :"
 
@@ -3463,6 +3476,10 @@ msgstr ""
 "La fusion s'est déroulée correctement !\n"
 "Le résultat montre %d polygone(s) avec %d trou(s)"
 
+#. frmTileStorageImporter..pgcMain..tsMetadata..Caption
+msgid "Metadata"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "Meters"
 msgstr "Mètres"
@@ -3555,6 +3572,7 @@ msgstr "Mes marqueurs"
 #. frFavoriteMapSetManager..pnlMapSets..lvMapSets......Caption
 #. frmMarkPictureConfig..pnlCaptions..lblName..Caption
 #. frmMarkCategoryEdit..pnlName..Label1..Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Name"
 msgstr "Nom"
 
@@ -3762,6 +3780,10 @@ msgstr "Odomètre"
 msgid "Odometer #2"
 msgstr "Odomètre #2"
 
+#, fuzzy
+msgid "Offline Maps"
+msgstr "Aide en ligne (en russe)"
+
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr "Recherche hors ligne (%s)"
@@ -3843,6 +3865,11 @@ msgstr "Forum, en russe"
 #. frmMain..actlstMain..actHelpOpenWebSite..Caption
 msgid "Open Home Page"
 msgstr "Page d'accueil, en russe"
+
+#. frmTileStorageImporter..Caption
+#, fuzzy
+msgid "Open Offline Map"
+msgstr "Aide en ligne (en russe)"
 
 #. frmMain..actlstMain..actOfflineMapOpen..Caption
 #, fuzzy
@@ -3963,8 +3990,14 @@ msgid "Parameter"
 msgstr "Paramètre"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmParams..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..Caption
 msgid "Params"
 msgstr "Params"
+
+#. frmTileStorageImporter..pgcMain..tsParams..lblParentSubMenu..Caption
+#, fuzzy
+msgid "Parent Sub Menu:"
+msgstr "Parent submenu"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
@@ -4372,6 +4405,7 @@ msgid "Projection of map"
 msgstr "Projection de la carte"
 
 #. frProjectionSelect..lblProjection..Caption
+#. frmTileStorageImporter..pgcMain..tsParams..lblProjection..Caption
 msgid "Projection:"
 msgstr "Projection :"
 
@@ -5921,6 +5955,10 @@ msgstr "Code erreur inconnu %d"
 msgid "Unsupported archive type: %s"
 msgstr "Type d'archive non supporté : %s"
 
+#, fuzzy
+msgid "Unsupported file format!"
+msgstr "Tous les formats compatibles "
+
 #. frMapsList..pnlMapsRightButtons..btnUp..Caption
 msgid "Up"
 msgstr "Vers le haut"
@@ -6062,6 +6100,7 @@ msgid "UTC time:"
 msgstr "Temps universel coordonné UTC :"
 
 #. frFavoriteMapSetManager..pnlBottom..lvInfo......Caption
+#. frmTileStorageImporter..pgcMain..tsMetadata..lvMetadata......Caption
 msgid "Value"
 msgstr "Valeur"
 
