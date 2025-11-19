@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2025-10-27 15:30\n"
+"POT-Creation-Date: 2025-11-19 19:24\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -545,7 +545,7 @@ msgstr "شبکه های قابل مشاهده را اضافه کنید"
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
 #. frExportKml..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
@@ -561,9 +561,14 @@ msgid "Add visible Placemarks"
 msgstr "علامت‌های مکان قابل مشاهده را اضافه کنید"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleOverlays..Caption
-#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
 #, fuzzy
 msgid "Add visible Placemarks, Grids etc."
+msgstr "علامت‌های مکان قابل مشاهده را اضافه کنید"
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkAddVisibleOverlays..Caption
+#, fuzzy
+msgid "Add visible Placemarks, Grids, Cached Tiles Map"
 msgstr "علامت‌های مکان قابل مشاهده را اضافه کنید"
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -839,7 +844,7 @@ msgstr ""
 msgid "Attention"
 msgstr "توجه!"
 
-#. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblAttr..Caption
 msgid "Attribution:"
 msgstr "انتساب:"
 
@@ -1787,7 +1792,7 @@ msgid "Descent: %d m"
 msgstr ""
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblDesc..Caption
 msgid "Description:"
 msgstr "توضیحات:"
 
@@ -3256,7 +3261,7 @@ msgstr "ساخت توسط Placemark"
 msgid "Make subfolder with map path name"
 msgstr "پوشه فرعی با نام مسیر نقشه بسازید"
 
-#. frExportMBTiles..pnlCenter..pnlMain..chkMakeTileMillStruct..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkMakeTileMillStruct..Caption
 msgid "Make TileMill compatible structure"
 msgstr "ساختن ساختار سازگار با TileMill"
 
@@ -3271,6 +3276,7 @@ msgstr ""
 #. frExportToIMG..pgcMain..tsMap..Caption
 #. frExportToIMG..pgcMain..tsMap..pnlListMaps..MapList......Caption
 #. frExportToJNX..PageControl1..Map..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..Caption
 msgid "Map"
 msgstr "نقشه"
 
@@ -3645,7 +3651,7 @@ msgstr "نام (در لیست)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblName..Caption
 msgid "Name:"
 msgstr "نام:"
 
@@ -4595,6 +4601,7 @@ msgstr ""
 "کاشی های JPEG را دوباره فشرده کنید\n"
 "توجه: کاشی های غیر JPEG همیشه دوباره فشرده می شوند"
 
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkForceDropTarget..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
 msgid "Recreate target database if exists"
 msgstr "در صورت وجود پایگاه داده هدف را دوباره ایجاد کنید"
@@ -4646,6 +4653,7 @@ msgstr "کاشی ها را بردارید"
 msgid "Replace elevation by the DEM data"
 msgstr ""
 
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkReplaceExistingTiles..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "کاشی های موجود را تعویض کنید"
@@ -5050,6 +5058,7 @@ msgstr "تنظیم نسخه به"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frExportToIMG..pgcMain..tsSettings..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..Caption
 #. frMapsList..pnlMapsRightButtons..btnSettings..Caption
 #. build menu
 msgid "Settings"
@@ -6165,6 +6174,7 @@ msgstr "از نقشه های Lower Zooms استفاده کنید"
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkUseRecolor..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
 #. frExportKml..pnlCenter..pnlMain..chkUseRecolor..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
 msgstr "از تنظیمات پس پردازش استفاده کنید"
 
@@ -6182,7 +6192,7 @@ msgid "Use tile from lower zoom if tile not available"
 msgstr "اگر کاشی در دسترس نیست، از کاشی از زوم کمتر استفاده کنید"
 
 #. frExportKml..pnlCenter..pnlMain..chkUsePrevZoom..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
@@ -6194,7 +6204,7 @@ msgstr "استفاده از کاشی هایی با زوم های کمتر (رو�
 msgid "Use Vector Layers from Lower Zooms"
 msgstr "از لایه‌های زوم پایین‌تر استفاده کنید"
 
-#. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUseXYZScheme..Caption
 #, fuzzy
 msgid "Use XYZ scheme"
 msgstr "از طرح xyz استفاده کنید"

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-27 15:30\n"
-"PO-Revision-Date: 2025-10-27 15:30\n"
+"POT-Creation-Date: 2025-11-19 19:24\n"
+"PO-Revision-Date: 2025-11-19 19:24\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -531,7 +531,7 @@ msgstr ""
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
 #. frExportKml..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
@@ -547,8 +547,14 @@ msgid "Add visible Placemarks"
 msgstr ""
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleOverlays..Caption
-#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
 msgid "Add visible Placemarks, Grids etc."
+msgstr ""
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkAddVisibleOverlays..Caption
+msgid ""
+"Add visible Placemarks, Grids, Cached Tiles "
+"Map"
 msgstr ""
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -832,7 +838,7 @@ msgstr ""
 msgid "Attention"
 msgstr ""
 
-#. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblAttr..Caption
 msgid "Attribution:"
 msgstr ""
 
@@ -1766,7 +1772,7 @@ msgid "Descent: %d m"
 msgstr ""
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblDesc..Caption
 msgid "Description:"
 msgstr ""
 
@@ -3204,7 +3210,7 @@ msgstr ""
 msgid "Make subfolder with map path name"
 msgstr ""
 
-#. frExportMBTiles..pnlCenter..pnlMain..chkMakeTileMillStruct..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkMakeTileMillStruct..Caption
 msgid "Make TileMill compatible structure"
 msgstr ""
 
@@ -3219,6 +3225,7 @@ msgstr ""
 #. frExportToIMG..pgcMain..tsMap..Caption
 #. frExportToIMG..pgcMain..tsMap..pnlListMaps..MapList......Caption
 #. frExportToJNX..PageControl1..Map..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..Caption
 msgid "Map"
 msgstr ""
 
@@ -3589,7 +3596,7 @@ msgstr ""
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblName..Caption
 msgid "Name:"
 msgstr ""
 
@@ -4521,6 +4528,7 @@ msgid ""
 "Note: Non-JPEG tiles are always recompressed"
 msgstr ""
 
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkForceDropTarget..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
 msgid "Recreate target database if exists"
 msgstr ""
@@ -4569,6 +4577,7 @@ msgstr ""
 msgid "Replace elevation by the DEM data"
 msgstr ""
 
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkReplaceExistingTiles..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr ""
@@ -4964,6 +4973,7 @@ msgstr ""
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frExportToIMG..pgcMain..tsSettings..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..Caption
 #. frMapsList..pnlMapsRightButtons..btnSettings..Caption
 #. build menu
 msgid "Settings"
@@ -6046,6 +6056,7 @@ msgstr ""
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkUseRecolor..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
 #. frExportKml..pnlCenter..pnlMain..chkUseRecolor..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
 msgstr ""
 
@@ -6066,7 +6077,7 @@ msgid ""
 msgstr ""
 
 #. frExportKml..pnlCenter..pnlMain..chkUsePrevZoom..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
@@ -6079,7 +6090,7 @@ msgstr ""
 msgid "Use Vector Layers from Lower Zooms"
 msgstr ""
 
-#. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUseXYZScheme..Caption
 msgid "Use XYZ scheme"
 msgstr ""
 

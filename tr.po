@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-10-27 15:30\n"
+"POT-Creation-Date: 2025-11-19 19:24\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -531,7 +531,7 @@ msgstr "Görülebilir grid ekle"
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
 #. frExportKml..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
@@ -547,9 +547,14 @@ msgid "Add visible Placemarks"
 msgstr "Görülebilir yer işareti ekle"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleOverlays..Caption
-#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
 #, fuzzy
 msgid "Add visible Placemarks, Grids etc."
+msgstr "Görülebilir yer işareti ekle"
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkAddVisibleOverlays..Caption
+#, fuzzy
+msgid "Add visible Placemarks, Grids, Cached Tiles Map"
 msgstr "Görülebilir yer işareti ekle"
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -818,7 +823,7 @@ msgstr ""
 msgid "Attention"
 msgstr "Dikkat!"
 
-#. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblAttr..Caption
 msgid "Attribution:"
 msgstr "Nitelik:"
 
@@ -1749,7 +1754,7 @@ msgid "Descent: %d m"
 msgstr "İniş: %d m"
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblDesc..Caption
 msgid "Description:"
 msgstr "Açıklama:"
 
@@ -3204,7 +3209,7 @@ msgstr "Yer İşaretine Göre Yap"
 msgid "Make subfolder with map path name"
 msgstr "Harita yolu adıyla alt klasör oluştur"
 
-#. frExportMBTiles..pnlCenter..pnlMain..chkMakeTileMillStruct..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkMakeTileMillStruct..Caption
 msgid "Make TileMill compatible structure"
 msgstr "TileMill uyumlu yapı oluştur"
 
@@ -3219,6 +3224,7 @@ msgstr "El ile proxy yapılandırması"
 #. frExportToIMG..pgcMain..tsMap..Caption
 #. frExportToIMG..pgcMain..tsMap..pnlListMaps..MapList......Caption
 #. frExportToJNX..PageControl1..Map..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..Caption
 msgid "Map"
 msgstr "Harita"
 
@@ -3587,7 +3593,7 @@ msgstr "Ad (listede)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblName..Caption
 msgid "Name:"
 msgstr "Ad:"
 
@@ -4524,6 +4530,7 @@ msgstr ""
 "JPEG döşemelerini yeniden sıkıştır\n"
 "Not: JPEG olmayan döşemeler her zaman yeniden sıkıştırılır"
 
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkForceDropTarget..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
 msgid "Recreate target database if exists"
 msgstr "Varsa hedef veritabanını yeniden oluştur"
@@ -4574,6 +4581,7 @@ msgstr "Döşemeleri kaldır"
 msgid "Replace elevation by the DEM data"
 msgstr ""
 
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkReplaceExistingTiles..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Mevcut döşemeleri değiştir"
@@ -4974,6 +4982,7 @@ msgstr "Sürümü şuna ayarla"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frExportToIMG..pgcMain..tsSettings..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..Caption
 #. frMapsList..pnlMapsRightButtons..btnSettings..Caption
 #. build menu
 msgid "Settings"
@@ -6079,6 +6088,7 @@ msgstr "Haritaları Düşük Yakınlaştırmalardan Kullan"
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkUseRecolor..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
 #. frExportKml..pnlCenter..pnlMain..chkUseRecolor..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
 msgstr "Postprocessing ayarlarını kullan"
 
@@ -6095,7 +6105,7 @@ msgid "Use tile from lower zoom if tile not available"
 msgstr "Döşeme mevcut değilse, alt yakınlaştırmalardan döşemeyi kullan"
 
 #. frExportKml..pnlCenter..pnlMain..chkUsePrevZoom..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
@@ -6106,7 +6116,7 @@ msgstr "Alt yakınlaştırmalardaki döşemeleri kullan (kullanılamayan döşem
 msgid "Use Vector Layers from Lower Zooms"
 msgstr "Alt Yakınlaştırmalardan Vektör Katmanlarını Kullan"
 
-#. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUseXYZScheme..Caption
 #, fuzzy
 msgid "Use XYZ scheme"
 msgstr "XYZ şemasını kullan"

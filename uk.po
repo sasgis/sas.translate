@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-10-27 15:30\n"
+"POT-Creation-Date: 2025-11-19 19:24\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -538,7 +538,7 @@ msgstr "Накладати сітки, що показуються"
 #. frMapCombine..pnlBottom..pnlOptions..chkAddVisibleLayers..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleLayers..Caption
 #. frExportKml..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkAddVisibleLayers..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkAddVisibleLayers..Caption
@@ -554,9 +554,14 @@ msgid "Add visible Placemarks"
 msgstr "Накладати позначки, що показуються"
 
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsOverlay..chkAddVisibleOverlays..Caption
-#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
 #, fuzzy
 msgid "Add visible Placemarks, Grids etc."
+msgstr "Накладати позначки, що показуються"
+
+#. frExportKml..pnlCenter..pnlMain..chkAddVisibleOverlays..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkAddVisibleOverlays..Caption
+#, fuzzy
+msgid "Add visible Placemarks, Grids, Cached Tiles Map"
 msgstr "Накладати позначки, що показуються"
 
 #. frExportToJNX..PageControl1..Info..Caption
@@ -831,7 +836,7 @@ msgstr ""
 msgid "Attention"
 msgstr "Увага!"
 
-#. frExportMBTiles..pnlCenter..pnlMain..lblAttr..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblAttr..Caption
 msgid "Attribution:"
 msgstr "Атрибуція:"
 
@@ -1775,7 +1780,7 @@ msgid "Descent: %d m"
 msgstr ""
 
 #. frMarkDescription..pnlDescriptionTop..Label2..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..lblDesc..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblDesc..Caption
 msgid "Description:"
 msgstr "Опис:"
 
@@ -3235,7 +3240,7 @@ msgstr "Створити з позначки"
 msgid "Make subfolder with map path name"
 msgstr "Розділяти по підпапкам, відповідно до імен карт"
 
-#. frExportMBTiles..pnlCenter..pnlMain..chkMakeTileMillStruct..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkMakeTileMillStruct..Caption
 msgid "Make TileMill compatible structure"
 msgstr "Створити сумісну з TileMill структуру"
 
@@ -3250,6 +3255,7 @@ msgstr ""
 #. frExportToIMG..pgcMain..tsMap..Caption
 #. frExportToIMG..pgcMain..tsMap..pnlListMaps..MapList......Caption
 #. frExportToJNX..PageControl1..Map..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..Caption
 msgid "Map"
 msgstr "Карта"
 
@@ -3626,7 +3632,7 @@ msgstr "Ім'я (у списку)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsMapParams..lblName..Caption
 msgid "Name:"
 msgstr "Назва:"
 
@@ -4575,6 +4581,7 @@ msgstr ""
 "Стиснення JPEG тайлів\n"
 "Увага: Не-JPEG тайли завжди стискуються "
 
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkForceDropTarget..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkForceDropTarget..Caption
 msgid "Recreate target database if exists"
 msgstr "Перестворити обрану БД, якщо вона існує"
@@ -4625,6 +4632,7 @@ msgstr "Видалити тайли"
 msgid "Replace elevation by the DEM data"
 msgstr ""
 
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkReplaceExistingTiles..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkReplaceExistingTiles..Caption
 msgid "Replace existing tiles"
 msgstr "Замінювати існуючі тайли"
@@ -5030,6 +5038,7 @@ msgstr "Вибрати версію"
 
 #. frmMain..TBDock..TBXMainMenu..NParams..Caption
 #. frExportToIMG..pgcMain..tsSettings..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..Caption
 #. frMapsList..pnlMapsRightButtons..btnSettings..Caption
 #. build menu
 msgid "Settings"
@@ -6151,6 +6160,7 @@ msgstr "Брати карти з менших масштабів"
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkUseRecolor..Caption
 #. frExportToJNX..PageControl1..Info..PnlInfo..chkUseRecolor..Caption
 #. frExportKml..pnlCenter..pnlMain..chkUseRecolor..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUseRecolor..Caption
 msgid "Use postprocessing settings"
 msgstr "Налаштувати корегування зображення"
 
@@ -6168,7 +6178,7 @@ msgid "Use tile from lower zoom if tile not available"
 msgstr "Використовувати вищерозміщені шари, якщо поточний відсутній"
 
 #. frExportKml..pnlCenter..pnlMain..chkUsePrevZoom..Caption
-#. frExportMBTiles..pnlCenter..pnlMain..chkUsePrevZoom..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUsePrevZoom..Caption
 #. frExportOruxMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMapsSQLite..pnlCenter..pnlMain..chkUsePrevZoom..Caption
 #. frExportRMP..pnlCenter..pnlMain..chkUsePrevZoom..Caption
@@ -6180,7 +6190,7 @@ msgstr "Використовувати вищерозміщені шари, як
 msgid "Use Vector Layers from Lower Zooms"
 msgstr "Брати шари з менших масштабів"
 
-#. frExportMBTiles..pnlCenter..pnlMain..chkUseXYZScheme..Caption
+#. frExportMBTiles..pnlCenter..pnlMain..pgcMain..tsSettings..chkUseXYZScheme..Caption
 #, fuzzy
 msgid "Use XYZ scheme"
 msgstr "Використовувати xyz схему"
