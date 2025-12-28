@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-11-19 19:35\n"
+"POT-Creation-Date: 2025-12-28 18:31\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -2625,6 +2625,18 @@ msgstr "Le chemin de l'outil GMT est non sélectionné ou incorrect !"
 #. frmGoTo..pnlBottomButtons..btnGoTo..Caption
 msgid "Go to"
 msgstr "Aller vers"
+
+#. frmMain..MainPopupMenu..tbitmGoToMapCenter..Caption
+#, fuzzy
+msgid "Go to Map Center"
+msgstr "l'URL de Nokia Map Creator"
+
+#. frmMain..MainPopupMenu..tbitmGoToLayerCenter..Caption
+#, fuzzy
+msgid "Go to Overlay Layer Center"
+msgstr ""
+"Télécharger la dalle (sélectionnée par clic droit) de cette Couche, vers le "
+"cache :"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnGoToMark..Hint
 msgid "Go to selected object"
@@ -6340,9 +6352,6 @@ msgstr "Z-Order :"
 
 #~ msgid "All Visible"
 #~ msgstr "Tout visible"
-
-#~ msgid "URL to Nokia Map Creator"
-#~ msgstr "l'URL de Nokia Map Creator"
 
 #~ msgid "URL to osm.org"
 #~ msgstr "l'URL de OSM.org"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2025-11-19 19:35\n"
-"PO-Revision-Date: 2025-11-19 19:28+0300\n"
+"POT-Creation-Date: 2025-12-28 18:31\n"
+"PO-Revision-Date: 2025-12-28 18:33+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -2577,6 +2577,14 @@ msgstr "Путь до утилиты GTM не задан или задан не�
 #. frmGoTo..pnlBottomButtons..btnGoTo..Caption
 msgid "Go to"
 msgstr "Перейти"
+
+#. frmMain..MainPopupMenu..tbitmGoToMapCenter..Caption
+msgid "Go to Map Center"
+msgstr "Перейти к центру карты"
+
+#. frmMain..MainPopupMenu..tbitmGoToLayerCenter..Caption
+msgid "Go to Overlay Layer Center"
+msgstr "Перейти к центру слоя"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnGoToMark..Hint
 msgid "Go to selected object"
@@ -6234,9 +6242,6 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
-
-#~ msgid "URL to Nokia Map Creator"
-#~ msgstr "Ссылку для просмотра в Nokia Map Creator"
 
 #~ msgid "URL to osm.org"
 #~ msgstr "Ссылку для просмотра в osm.org"
