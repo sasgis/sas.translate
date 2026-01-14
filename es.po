@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-13 19:33\n"
+"POT-Creation-Date: 2026-01-14 13:46\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1959,6 +1959,11 @@ msgstr "No cierre esta ventana al terminar"
 msgid "Do you want to delete shared files __db.* and try again?"
 msgstr ""
 
+#. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
+#, fuzzy
+msgid "Don't delete the temporary files"
+msgstr "Borrar mosaicos vacíos"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr ""
@@ -2016,6 +2021,10 @@ msgstr "Error Descarga. Código error %d"
 #, object-pascal-format
 msgid "Download error. Unknown status code %d"
 msgstr "Error Descarga. Código error desconocido %d"
+
+#, fuzzy
+msgid "Download GMapTool"
+msgstr "Mosaicos descargados"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -2492,6 +2501,11 @@ msgstr ""
 #, fuzzy
 msgid "Folder"
 msgstr "A Carpeta"
+
+#. frExportToIMG..pgcMain..tsSettings..pnlTemp..lblTempPath..Caption
+#, fuzzy
+msgid "Folder for temporary files:"
+msgstr "Borrar mosaicos vacíos"
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -3072,11 +3086,6 @@ msgstr "KB"
 #. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
 msgid "Keep Aspect Ratio"
 msgstr ""
-
-#. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
-#, fuzzy
-msgid "Keep temporarily files"
-msgstr "Borrar mosaicos vacíos"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 #, fuzzy
@@ -4741,6 +4750,10 @@ msgstr "Restaurar"
 msgid "Restore download from last successful tile"
 msgstr "Restaurar descarga desde el último mosaico satisfactorio"
 
+#. frExportToIMG..pgcMain..tsSettings..pnlSettings..seVolumeSize..Hint
+msgid "Restricted to 4096 MB by the IMG file format"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
 msgstr "Reasume"
@@ -4905,7 +4918,7 @@ msgid "Save zmp"
 msgstr "Guardar zmp"
 
 #, object-pascal-format
-msgid "Saving tiles. %s %d %s"
+msgid "Saving tiles. Total to save: %d tiles."
 msgstr ""
 
 #. frElevationProfile..pmMain..mniScaleElevToDist..Caption
@@ -5733,6 +5746,9 @@ msgstr ""
 "ventanas \"Organizar Selección - Unir\" \n"
 "usando archivos KMZ resultantes separadamente"
 
+msgid "The path to the temporary files is not set or incorrect!"
+msgstr ""
+
 #, fuzzy
 msgid "The Polygon is not selected!"
 msgstr "Polígono no seleccionado"
@@ -5862,6 +5878,14 @@ msgstr "Hay un error %1:s en mapa %0:s"
 #, fuzzy
 msgid "There is no write access to the placemarks DB!"
 msgstr "Sin acceso de grabación a almacenamiento de mosaicos"
+
+#, no-object-pascal-format
+msgid ""
+"There is not enough free space on drive \"%0:s\"!\n"
+"Up to %1:d MB may be needed to store temporary files, but only %2:d MB is "
+"available.\n"
+"Are you sure you want to continue?"
+msgstr ""
 
 msgid ""
 "This format doesn't support file name with characters not from current "

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-01-13 19:33\n"
-"PO-Revision-Date: 2026-01-13 19:34+0300\n"
+"POT-Creation-Date: 2026-01-14 13:46\n"
+"PO-Revision-Date: 2026-01-14 13:46+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1882,6 +1882,10 @@ msgstr "Не закрывать окно после завершения"
 msgid "Do you want to delete shared files __db.* and try again?"
 msgstr "Хотите удалить общие файлы __db.* и повторить попытку?"
 
+#. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
+msgid "Don't delete the temporary files"
+msgstr "Не удалять временные файлы"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr "Не отображать"
@@ -1937,6 +1941,9 @@ msgstr "Ошибка загрузки. Код ответа %d"
 #, object-pascal-format
 msgid "Download error. Unknown status code %d"
 msgstr "Ошибка загрузки. Неизвестный код ответа %d"
+
+msgid "Download GMapTool"
+msgstr "Скачать GMapTool"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -2394,6 +2401,10 @@ msgstr "Фиксированная точность"
 #. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType....Items.Strings
 msgid "Folder"
 msgstr "Папка"
+
+#. frExportToIMG..pgcMain..tsSettings..pnlTemp..lblTempPath..Caption
+msgid "Folder for temporary files:"
+msgstr "Папка для временных файлов:"
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -2953,10 +2964,6 @@ msgstr "кБ"
 #. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
 msgid "Keep Aspect Ratio"
 msgstr "Сохранять соотношение сторон"
-
-#. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
-msgid "Keep temporarily files"
-msgstr "Сохранять временные файлы"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "Kilometers"
@@ -4549,6 +4556,10 @@ msgid "Restore download from last successful tile"
 msgstr ""
 "Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
 
+#. frExportToIMG..pgcMain..tsSettings..pnlSettings..seVolumeSize..Hint
+msgid "Restricted to 4096 MB by the IMG file format"
+msgstr "Максимум 4096 МБ (ограничение формата IMG)"
+
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
 msgstr "Продолжить"
@@ -4709,8 +4720,8 @@ msgid "Save zmp"
 msgstr "Сохранить zmp"
 
 #, object-pascal-format
-msgid "Saving tiles. %s %d %s"
-msgstr "Сохранение тайлов. %s %d %s"
+msgid "Saving tiles. Total to save: %d tiles."
+msgstr "Сохранение тайлов. Всего сохранить: %d тайлов."
 
 #. frElevationProfile..pmMain..mniScaleElevToDist..Caption
 msgid "Scale Elevation to Distance as 1:1"
@@ -5498,6 +5509,9 @@ msgstr ""
 "Если Ваш навигатор не будет отображать карту, вернитесь и разбейте "
 "изображение на части (и используйте полученные KMZ файлы по отдельности)."
 
+msgid "The path to the temporary files is not set or incorrect!"
+msgstr "Путь для временных файлов не задан или задан некорректно!"
+
 msgid "The Polygon is not selected!"
 msgstr "Не выбран полигон!"
 
@@ -5626,6 +5640,18 @@ msgstr "Нет поддерживаемых карт"
 
 msgid "There is no write access to the placemarks DB!"
 msgstr "Нет доступа на запись в текущую базу меток!"
+
+#, no-object-pascal-format
+msgid ""
+"There is not enough free space on drive \"%0:s\"!\n"
+"Up to %1:d MB may be needed to store temporary files, but only %2:d MB is "
+"available.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"На диске \"%0:s\" недостаточно свободного места!\n"
+"Для хранения временных файлов может понадобится до %1:d Мб, доступно %2:d "
+"Мб.\n"
+"Вы уверены, что хотите продолжить?"
 
 msgid ""
 "This format doesn't support file name with characters not from current "

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-01-13 19:33\n"
-"PO-Revision-Date: 2026-01-13 19:33\n"
+"POT-Creation-Date: 2026-01-14 13:46\n"
+"PO-Revision-Date: 2026-01-14 13:46\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1929,6 +1929,10 @@ msgid ""
 "again?"
 msgstr ""
 
+#. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
+msgid "Don't delete the temporary files"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr ""
@@ -1989,6 +1993,9 @@ msgstr ""
 msgid ""
 "Download error. Unknown status code "
 "%d"
+msgstr ""
+
+msgid "Download GMapTool"
 msgstr ""
 
 #. frmMain..MainPopupMenu..ldm..Caption
@@ -2450,6 +2457,10 @@ msgstr ""
 #. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType..Text
 #. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType....Items.Strings
 msgid "Folder"
+msgstr ""
+
+#. frExportToIMG..pgcMain..tsSettings..pnlTemp..lblTempPath..Caption
+msgid "Folder for temporary files:"
 msgstr ""
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
@@ -3014,10 +3025,6 @@ msgstr ""
 
 #. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
 msgid "Keep Aspect Ratio"
-msgstr ""
-
-#. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
-msgid "Keep temporarily files"
 msgstr ""
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
@@ -4640,6 +4647,12 @@ msgid ""
 "tile"
 msgstr ""
 
+#. frExportToIMG..pgcMain..tsSettings..pnlSettings..seVolumeSize..Hint
+msgid ""
+"Restricted to 4096 MB by the IMG file "
+"format"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
 msgstr ""
@@ -4800,7 +4813,7 @@ msgid "Save zmp"
 msgstr ""
 
 #, object-pascal-format
-msgid "Saving tiles. %s %d %s"
+msgid "Saving tiles. Total to save: %d tiles."
 msgstr ""
 
 #. frElevationProfile..pmMain..mniScaleElevToDist..Caption
@@ -5594,6 +5607,11 @@ msgid ""
 "separately)."
 msgstr ""
 
+msgid ""
+"The path to the temporary files is not set or "
+"incorrect!"
+msgstr ""
+
 msgid "The Polygon is not selected!"
 msgstr ""
 
@@ -5725,6 +5743,14 @@ msgstr ""
 msgid ""
 "There is no write access to the placemarks "
 "DB!"
+msgstr ""
+
+#, no-object-pascal-format
+msgid ""
+"There is not enough free space on drive \"%0:s\"!\n"
+"Up to %1:d MB may be needed to store temporary files, but only %2:d "
+"MB is available.\n"
+"Are you sure you want to continue?"
 msgstr ""
 
 msgid ""

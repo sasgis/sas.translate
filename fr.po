@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-13 19:33\n"
+"POT-Creation-Date: 2026-01-14 13:46\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1916,6 +1916,11 @@ msgstr "Ne pas fermer la fenêtre à la fin de l'action"
 msgid "Do you want to delete shared files __db.* and try again?"
 msgstr "Supprimer les fichiers partagés __db.* et réessayer ?"
 
+#. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
+#, fuzzy
+msgid "Don't delete the temporary files"
+msgstr "Garder les fichiers temporaires"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr "Ne pas afficher pour tous les cas"
@@ -1973,6 +1978,10 @@ msgstr "Téléchargement avec erreur. Code erreur %d"
 #, object-pascal-format
 msgid "Download error. Unknown status code %d"
 msgstr "Téléchargement avec erreur. Code erreur inconnu %d"
+
+#, fuzzy
+msgid "Download GMapTool"
+msgstr "Télécharger les dalles de la sélection vers la mémoire cache :"
 
 #. frmMain..MainPopupMenu..ldm..Caption
 msgid "Download Overlay Layer Tile to Cache"
@@ -2442,6 +2451,11 @@ msgstr "Précision fixée"
 #. frmCacheManager..pgcMain..tsConverter..grpDestCache..cbbDestType....Items.Strings
 msgid "Folder"
 msgstr "Répertoire"
+
+#. frExportToIMG..pgcMain..tsSettings..pnlTemp..lblTempPath..Caption
+#, fuzzy
+msgid "Folder for temporary files:"
+msgstr "Garder les fichiers temporaires"
 
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Caption
 #. frmMain..actlstMain..actConfigGpsFollowPosition..Hint
@@ -3005,10 +3019,6 @@ msgstr "Kb"
 #. frElevationProfile..pmMain..mniKeepAspectRatio..Caption
 msgid "Keep Aspect Ratio"
 msgstr "Conserver le rapport hauteur/largeur"
-
-#. frExportToIMG..pgcMain..tsSettings..pnlSettings..chkKeepTempFiles..Caption
-msgid "Keep temporarily files"
-msgstr "Garder les fichiers temporaires"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlDistFormat..ComboBox1....Items.Strings
 msgid "Kilometers"
@@ -4621,6 +4631,10 @@ msgstr ""
 "Restaurer le téléchargement à partir de la dernière dalle correctement "
 "chargée"
 
+#. frExportToIMG..pgcMain..tsSettings..pnlSettings..seVolumeSize..Hint
+msgid "Restricted to 4096 MB by the IMG file format"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Continue
 msgid "Resume"
 msgstr "Reprendre"
@@ -4778,8 +4792,8 @@ msgstr "Sauvegarder vers :"
 msgid "Save zmp"
 msgstr "Sauvegarder le zmp"
 
-#, object-pascal-format
-msgid "Saving tiles. %s %d %s"
+#, fuzzy, object-pascal-format
+msgid "Saving tiles. Total to save: %d tiles."
 msgstr "Sauvegarde des dalles. %s %d %s"
 
 #. frElevationProfile..pmMain..mniScaleElevToDist..Caption
@@ -5577,6 +5591,10 @@ msgstr ""
 "diviser l'image en parties (et utiliser les fichiers KMZ résultants "
 "séparément)."
 
+#, fuzzy
+msgid "The path to the temporary files is not set or incorrect!"
+msgstr "Le chemin de l'outil GMT est non sélectionné ou incorrect !"
+
 msgid "The Polygon is not selected!"
 msgstr "Aucun polygone sélectionné !"
 
@@ -5712,6 +5730,14 @@ msgstr "Pas de cartes prises en charge"
 
 msgid "There is no write access to the placemarks DB!"
 msgstr "Pas d'accès écriture dans la base de données des marqueurs !"
+
+#, no-object-pascal-format
+msgid ""
+"There is not enough free space on drive \"%0:s\"!\n"
+"Up to %1:d MB may be needed to store temporary files, but only %2:d MB is "
+"available.\n"
+"Are you sure you want to continue?"
+msgstr ""
 
 msgid ""
 "This format doesn't support file name with characters not from current "
