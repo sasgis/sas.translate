@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-14 13:46\n"
+"POT-Creation-Date: 2026-02-23 17:50\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -2387,10 +2387,6 @@ msgstr "Doldur "
 msgid "Fill:"
 msgstr "Doldur:"
 
-#. frmMain..TBDock..FillDates..Caption
-msgid "FillDates"
-msgstr "Doldurma Tarihleri"
-
 #. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
 msgid "Filter"
 msgstr "Filtre"
@@ -3817,6 +3813,7 @@ msgstr "Kilometre sayacı #2"
 msgid "Offline Maps"
 msgstr "Çevrimiçi Yardım"
 
+#. Programmer's name for it: rsOfflineSearchFmt
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr "Çevrimdışı arama (%s)"
@@ -5885,9 +5882,11 @@ msgstr "Varış zamanı:"
 msgid "Time"
 msgstr "Zaman"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
-msgid "Time Interval"
-msgstr "Zaman Aralığı"
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxTimeIntervalShow..Caption
+#. frmMain..TBDock..FillDates..Caption
+#, fuzzy
+msgid "Time Interval for Cached Tiles Map"
+msgstr "Görülebilir Önbelleğe Alınmış Kare Haritası Ekle"
 
 #. frmProgressDownload..Panel1..pnlTimeToFinish..lblTimeToFinish..Caption
 msgid "Time remaining:"
@@ -6407,6 +6406,12 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "FillDates"
+#~ msgstr "Doldurma Tarihleri"
+
+#~ msgid "Time Interval"
+#~ msgstr "Zaman Aralığı"
 
 #, fuzzy
 #~ msgid "Add visible Placemarks, Grids etc."

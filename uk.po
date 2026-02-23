@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-01-14 13:46\n"
+"POT-Creation-Date: 2026-02-23 17:50\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -2415,10 +2415,6 @@ msgstr "Дати: з"
 msgid "Fill:"
 msgstr "Заповнення:"
 
-#. frmMain..TBDock..FillDates..Caption
-msgid "FillDates"
-msgstr "Дата створення"
-
 #. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
 msgid "Filter"
 msgstr "Фільтр"
@@ -3860,6 +3856,7 @@ msgstr "Одометр № 2"
 msgid "Offline Maps"
 msgstr "Допомога"
 
+#. Programmer's name for it: rsOfflineSearchFmt
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr ""
@@ -5957,9 +5954,11 @@ msgstr "Час шляху: "
 msgid "Time"
 msgstr "Час"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
-msgid "Time Interval"
-msgstr "Діапазон дат"
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxTimeIntervalShow..Caption
+#. frmMain..TBDock..FillDates..Caption
+#, fuzzy
+msgid "Time Interval for Cached Tiles Map"
+msgstr "Наладати видиму Карту заповнення"
 
 #. frmProgressDownload..Panel1..pnlTimeToFinish..lblTimeToFinish..Caption
 msgid "Time remaining:"
@@ -6487,6 +6486,12 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#~ msgid "FillDates"
+#~ msgstr "Дата створення"
+
+#~ msgid "Time Interval"
+#~ msgstr "Діапазон дат"
 
 #, fuzzy
 #~ msgid "Add visible Placemarks, Grids etc."

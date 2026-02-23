@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-01-14 13:46\n"
-"PO-Revision-Date: 2026-01-14 13:46+0300\n"
+"POT-Creation-Date: 2026-02-23 17:50\n"
+"PO-Revision-Date: 2026-02-23 17:52+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -2337,16 +2337,12 @@ msgstr "В файлах %0:s и %1:s одинаковые GUID"
 
 #. frmMain..TBDock..FillDates..Label1..Caption
 msgid "Fill From "
-msgstr "Даты: с"
+msgstr "Даты: с "
 
 #. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFill..Caption
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
 msgid "Fill:"
 msgstr "Заполнение:"
-
-#. frmMain..TBDock..FillDates..Caption
-msgid "FillDates"
-msgstr "Дата создания"
 
 #. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
 msgid "Filter"
@@ -3740,6 +3736,7 @@ msgstr "Одометр № 2"
 msgid "Offline Maps"
 msgstr "Офлайн карты"
 
+#. Programmer's name for it: rsOfflineSearchFmt
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr "Офлайн поиск (%s)"
@@ -5766,9 +5763,10 @@ msgstr "Извлечь: %.0n тайлов"
 msgid "Time"
 msgstr "Время"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
-msgid "Time Interval"
-msgstr "Диапазон дат"
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxTimeIntervalShow..Caption
+#. frmMain..TBDock..FillDates..Caption
+msgid "Time Interval for Cached Tiles Map"
+msgstr "Диапазон дат для карты заполнения"
 
 #. frmProgressDownload..Panel1..pnlTimeToFinish..lblTimeToFinish..Caption
 msgid "Time remaining:"

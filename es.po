@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-01-14 13:46\n"
+"POT-Creation-Date: 2026-02-23 17:50\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -2440,10 +2440,6 @@ msgstr "Cargar desde"
 msgid "Fill:"
 msgstr "Llenar:"
 
-#. frmMain..TBDock..FillDates..Caption
-msgid "FillDates"
-msgstr "Llenar fechas"
-
 #. frMapSelect..FilterPopupMenu..TBX_Filter..Caption
 msgid "Filter"
 msgstr "Filtro"
@@ -3898,6 +3894,7 @@ msgstr "Odómetro #2"
 msgid "Offline Maps"
 msgstr "Ayuda On-Line"
 
+#. Programmer's name for it: rsOfflineSearchFmt
 #, object-pascal-format
 msgid "Offline search (%s)"
 msgstr ""
@@ -6005,9 +6002,11 @@ msgstr "Tiempo al objetivo"
 msgid "Time"
 msgstr "Mosaico"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem3..Caption
-msgid "Time Interval"
-msgstr "Intervalo de tiempo"
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..tbxTimeIntervalShow..Caption
+#. frmMain..TBDock..FillDates..Caption
+#, fuzzy
+msgid "Time Interval for Cached Tiles Map"
+msgstr "Agregar mosaicos visibles del Caché de Mapas"
 
 #. frmProgressDownload..Panel1..pnlTimeToFinish..lblTimeToFinish..Caption
 msgid "Time remaining:"
@@ -6538,6 +6537,12 @@ msgstr "Zooms:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "FillDates"
+#~ msgstr "Llenar fechas"
+
+#~ msgid "Time Interval"
+#~ msgstr "Intervalo de tiempo"
 
 #, fuzzy
 #~ msgid "Add visible Placemarks, Grids etc."
