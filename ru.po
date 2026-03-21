@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-02-23 17:50\n"
-"PO-Revision-Date: 2026-02-23 17:52+0300\n"
+"POT-Creation-Date: 2026-03-21 13:17\n"
+"PO-Revision-Date: 2026-03-21 13:18+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -672,6 +672,7 @@ msgstr "Все доступные источники"
 #. frmMarksExplorerFilter..pnlBottomButtons..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
+#. frmCopyBboxTmplEditor..pnlBottomButtons..btnApply..Caption
 #. frmGeoTiffOptions..btnApply..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -1080,6 +1081,7 @@ msgstr "Калибровка для программы Radio Mobile (*.dat)"
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
+#. frmCopyBboxTmplEditor..pnlBottomButtons..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..btnCancel..Caption
 #. frmGeoTiffOptions..btnCancel..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
@@ -2064,6 +2066,10 @@ msgstr "Редактировать выбранную категорию"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
 msgid "Edit selected placemark"
 msgstr "Редактировать выбранную метку"
+
+#. frmCopyBboxTmplEditor..Caption
+msgid "Edit templates"
+msgstr "Редактировать шаблоны"
 
 #. frmMarksExplorer..TBXToolbar3..tbxEdit..Caption
 msgid "Edit the database"

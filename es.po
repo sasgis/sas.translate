@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-02-23 17:50\n"
+"POT-Creation-Date: 2026-03-21 13:17\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -703,6 +703,7 @@ msgstr "Cualquier Fuente disponible"
 #. frmMarksExplorerFilter..pnlBottomButtons..btnApply..Caption
 #. frmMarksExportConfig..pnlBottom..btnApply..Caption
 #. frmMarkSystemConfigEdit..btnOk..Caption
+#. frmCopyBboxTmplEditor..pnlBottomButtons..btnApply..Caption
 #. frmGeoTiffOptions..btnApply..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnOk..Caption
 #. frmMapLayersOptions..btnApply..Caption
@@ -1129,6 +1130,7 @@ msgstr "Calibración para programa Radio Mobile (*.dat)"
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
+#. frmCopyBboxTmplEditor..pnlBottomButtons..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..btnCancel..Caption
 #. frmGeoTiffOptions..btnCancel..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
@@ -2149,6 +2151,11 @@ msgstr "Editar"
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..TBXDockMark..TBXToolbar1..btnEditMark..Hint
 msgid "Edit selected placemark"
 msgstr "Editar"
+
+#. frmCopyBboxTmplEditor..Caption
+#, fuzzy
+msgid "Edit templates"
+msgstr "Editar Database"
 
 #. frmMarksExplorer..TBXToolbar3..tbxEdit..Caption
 msgid "Edit the database"
