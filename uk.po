@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-03-21 14:00\n"
+"POT-Creation-Date: 2026-06-22 11:00\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -457,7 +457,7 @@ msgstr "Додавання бази міток"
 msgid "Add menu separator line after this map"
 msgstr "Додавати у меню роздільник після назви цієї карти"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnAddCategory..Hint
 msgid "Add new category"
 msgstr "Додати нову категорію"
 
@@ -569,8 +569,8 @@ msgid "Additional Operations"
 msgstr "Додаткові операції"
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlLayers..chkAll..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..chkSetAllMarksInCategoryVisible..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkSetAllCategoriesVisible..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
 #. frZoomsSelect..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkAllMaps..Caption
@@ -1259,6 +1259,10 @@ msgstr "Зарядка"
 msgid "Check for Updates"
 msgstr "Перевірити наявність оновлень..."
 
+#. frmMarksExplorer..TBXToolbar3..tbxWarning..Caption
+msgid "Check warnings"
+msgstr ""
+
 #, fuzzy
 msgid "Circle"
 msgstr "Азимутальне кільце "
@@ -1347,6 +1351,11 @@ msgstr ""
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
+
+#. frmMain..actlstMain..actShowCmdLineArgsInfo..Caption
+#, fuzzy
+msgid "Command Line Parameters"
+msgstr "Параметри заголовка"
 
 #. frExportToCE..pnlCenter..pnlMain..chkComment..Caption
 msgid "Comment"
@@ -1728,7 +1737,7 @@ msgstr "Видалити точку"
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "Видалити тайл основної карти (Del+MLeft)"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnDeleteCategory..Hint
 msgid "Delete selected category"
 msgstr "Видалити обрану категорію"
 
@@ -1810,6 +1819,10 @@ msgstr ""
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
 msgstr "Вид з подробицями"
+
+#, object-pascal-format
+msgid "Detected virtual categories: %d item(s)!"
+msgstr ""
 
 #. select new item
 #, object-pascal-format
@@ -2125,7 +2138,7 @@ msgstr "Властивості"
 msgid "Edit SAS Zoom"
 msgstr "Змінити масштаб САС"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnEditCategory..Hint
 msgid "Edit selected category"
 msgstr "Редагувати обрану категорію"
 
@@ -4685,6 +4698,10 @@ msgstr "Залежності:"
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Скинути"
+
+#, fuzzy
+msgid "Reset all settings to default?"
+msgstr "Налаштувати корегування зображення"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
 #, fuzzy

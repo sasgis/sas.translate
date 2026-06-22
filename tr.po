@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-03-21 14:00\n"
+"POT-Creation-Date: 2026-06-22 11:00\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -450,7 +450,7 @@ msgstr "İşaretler Veritabanına Ekle"
 msgid "Add menu separator line after this map"
 msgstr "Bu haritadan sonra menü ayırıcı satırı ekle"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnAddCategory..Hint
 msgid "Add new category"
 msgstr "Yeni kategori ekle"
 
@@ -562,8 +562,8 @@ msgid "Additional Operations"
 msgstr "Ek İşlemler"
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlLayers..chkAll..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..chkSetAllMarksInCategoryVisible..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkSetAllCategoriesVisible..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
 #. frZoomsSelect..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkAllMaps..Caption
@@ -1244,6 +1244,10 @@ msgstr "Şarj oluyor"
 msgid "Check for Updates"
 msgstr "Güncellemeleri denetle"
 
+#. frmMarksExplorer..TBXToolbar3..tbxWarning..Caption
+msgid "Check warnings"
+msgstr ""
+
 msgid "Circle"
 msgstr "Daire"
 
@@ -1329,6 +1333,11 @@ msgstr ""
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
+
+#. frmMain..actlstMain..actShowCmdLineArgsInfo..Caption
+#, fuzzy
+msgid "Command Line Parameters"
+msgstr "Başlık parametreleri"
 
 #. frExportToCE..pnlCenter..pnlMain..chkComment..Caption
 msgid "Comment"
@@ -1702,7 +1711,7 @@ msgstr "Noktayı Sil"
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "Önbellekteki Birincil Harita Döşemesini Sil (Del+MLeft)"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnDeleteCategory..Hint
 msgid "Delete selected category"
 msgstr "Seçili kategoriyi sil"
 
@@ -1786,6 +1795,10 @@ msgstr "Hedef önbellek türü seçilmedi!"
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
 msgstr "Detaylı Görünüm"
+
+#, object-pascal-format
+msgid "Detected virtual categories: %d item(s)!"
+msgstr ""
 
 #. select new item
 #, object-pascal-format
@@ -2101,7 +2114,7 @@ msgstr "Özellikleri Düzenle"
 msgid "Edit SAS Zoom"
 msgstr "SAS Yakınlaştırmayı Düzenle"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnEditCategory..Hint
 msgid "Edit selected category"
 msgstr "Seçili kategoriyi düzenle"
 
@@ -4634,6 +4647,10 @@ msgstr "Gereklilikler:"
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Sıfırla"
+
+#, fuzzy
+msgid "Reset all settings to default?"
+msgstr "Postprocessing ayarlarını varsayılanlara sıfırla"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
 msgid "Reset postprocessing settings to defaults"

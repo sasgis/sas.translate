@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-03-21 14:00\n"
+"POT-Creation-Date: 2026-06-22 11:00\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -467,7 +467,7 @@ msgstr "Agregar Base de Marcas"
 msgid "Add menu separator line after this map"
 msgstr "Agregar una línea de separación después de este mapa"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnAddCategory..Hint
 #, fuzzy
 msgid "Add new category"
 msgstr "Agregar nueva Categoría"
@@ -580,8 +580,8 @@ msgid "Additional Operations"
 msgstr "Operaciones Adicionales"
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlLayers..chkAll..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..chkSetAllMarksInCategoryVisible..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkSetAllCategoriesVisible..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
 #. frZoomsSelect..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkAllMaps..Caption
@@ -1273,6 +1273,10 @@ msgstr "Cargando"
 msgid "Check for Updates"
 msgstr "Ver actualizaciones..."
 
+#. frmMarksExplorer..TBXToolbar3..tbxWarning..Caption
+msgid "Check warnings"
+msgstr ""
+
 #, fuzzy
 msgid "Circle"
 msgstr "Círculo Azimut"
@@ -1363,6 +1367,11 @@ msgstr ""
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
+
+#. frmMain..actlstMain..actShowCmdLineArgsInfo..Caption
+#, fuzzy
+msgid "Command Line Parameters"
+msgstr "Parámetros de Títulos"
 
 #. frExportToCE..pnlCenter..pnlMain..chkComment..Caption
 msgid "Comment"
@@ -1747,7 +1756,7 @@ msgstr "Borrar Punto"
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "Borrar Mosaico del Mapa del Caché (Del+MLeft)"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnDeleteCategory..Hint
 #, fuzzy
 msgid "Delete selected category"
 msgstr "Borrar marca de posición seleccionada"
@@ -1831,6 +1840,10 @@ msgstr ""
 
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
+msgstr ""
+
+#, object-pascal-format
+msgid "Detected virtual categories: %d item(s)!"
 msgstr ""
 
 #. select new item
@@ -2148,7 +2161,7 @@ msgstr "Propiedades"
 msgid "Edit SAS Zoom"
 msgstr ""
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnEditCategory..Hint
 #, fuzzy
 msgid "Edit selected category"
 msgstr "Editar"
@@ -4728,6 +4741,10 @@ msgstr "Se requiere:"
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "Reiniciar"
+
+#, fuzzy
+msgid "Reset all settings to default?"
+msgstr "Usar opciones de postprocesamiento"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
 #, fuzzy

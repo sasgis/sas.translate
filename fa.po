@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2026-03-21 14:00\n"
+"POT-Creation-Date: 2026-06-22 11:00\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -463,7 +463,7 @@ msgstr "افزودن پایگاه داده علائم"
 msgid "Add menu separator line after this map"
 msgstr "بعد از این نقشه خط جداکننده منو اضافه کنید"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnAddCategory..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnAddCategory..Hint
 #, fuzzy
 msgid "Add new category"
 msgstr "اضافه کردن دسته جدید"
@@ -576,8 +576,8 @@ msgid "Additional Operations"
 msgstr "عملیات اضافی"
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlLayers..chkAll..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..CheckBox1..Caption
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..CheckBox2..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..chkSetAllMarksInCategoryVisible..Caption
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..Panel1..chkSetAllCategoriesVisible..Caption
 #. frMapSelect..FilterPopupMenu..TBX_All..Caption
 #. frZoomsSelect..chkAllZooms..Caption
 #. frTilesCopy..pnlCenter..pnlMain..pcSource..tsDirectCopy..chkAllMaps..Caption
@@ -1268,6 +1268,10 @@ msgstr "شارژ کردن"
 msgid "Check for Updates"
 msgstr "بررسی به روز رسانی..."
 
+#. frmMarksExplorer..TBXToolbar3..tbxWarning..Caption
+msgid "Check warnings"
+msgstr ""
+
 #, fuzzy
 msgid "Circle"
 msgstr "دایره آزیموت"
@@ -1357,6 +1361,11 @@ msgstr ""
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
+
+#. frmMain..actlstMain..actShowCmdLineArgsInfo..Caption
+#, fuzzy
+msgid "Command Line Parameters"
+msgstr "پارامترهای عنوان"
 
 #. frExportToCE..pnlCenter..pnlMain..chkComment..Caption
 msgid "Comment"
@@ -1739,7 +1748,7 @@ msgstr "حذف نقطه"
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "حذف کاشی نقشه اصلی از حافظه پنهان (Del+MLeft)"
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnDeleteCategory..Hint
 #, fuzzy
 msgid "Delete selected category"
 msgstr "علامت مکان انتخابی را حذف کنید"
@@ -1823,6 +1832,10 @@ msgstr ""
 
 #. Programmer's name for it: rsDetailedViewCaption
 msgid "Detailed View"
+msgstr ""
+
+#, object-pascal-format
+msgid "Detected virtual categories: %d item(s)!"
 msgstr ""
 
 #. select new item
@@ -2141,7 +2154,7 @@ msgstr "خواص"
 msgid "Edit SAS Zoom"
 msgstr ""
 
-#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnEditCategory..Hint
+#. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..btnEditCategory..Hint
 #, fuzzy
 msgid "Edit selected category"
 msgstr "مکان علامت انتخابی را ویرایش کنید"
@@ -4705,6 +4718,10 @@ msgstr "نیاز دارد:"
 #. Programmer's name for it: SAS_STR_SensorReset
 msgid "Reset"
 msgstr "بازنشانی کنید"
+
+#, fuzzy
+msgid "Reset all settings to default?"
+msgstr "از تنظیمات پس پردازش استفاده کنید"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..pnlImageProcessTop..btnImageProcessReset..Hint
 #, fuzzy
