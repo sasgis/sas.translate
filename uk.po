@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-06-22 11:00\n"
+"POT-Creation-Date: 2026-06-27 16:55\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -2196,6 +2196,10 @@ msgctxt "ElevationProfile"
 msgid "Distance"
 msgstr "Пройдений шлях"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..grpInternalBrowser..Caption
+msgid "Embedded Browser"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
 msgstr "Порожній GUID"
@@ -2222,6 +2226,11 @@ msgstr "uk_UA"
 #. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
 msgid "Ends With"
 msgstr ""
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..grpInternalBrowser..pnlBrowserEngine..lblBrowserEngine..Caption
+#, fuzzy
+msgid "Engine:"
+msgstr "Лінія:"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
@@ -4408,6 +4417,10 @@ msgstr ""
 #. frMapCombine..pnlBottom..pnlOptions..chkPreciseCropping....Hint
 #. frExportKml..pnlCenter..pnlMain..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
+msgstr ""
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..grpInternalBrowser..chkBrowserEnginePreInit..Caption
+msgid "Pre-initialize engine on startup (speed up first use)"
 msgstr ""
 
 msgid "Press Ctrl and click on polygon to add one..."

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-06-22 11:00\n"
-"PO-Revision-Date: 2026-06-22 11:10+0300\n"
+"POT-Creation-Date: 2026-06-27 16:55\n"
+"PO-Revision-Date: 2026-06-27 16:59+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -2129,6 +2129,10 @@ msgctxt "ElevationProfile"
 msgid "Distance"
 msgstr "Расстояние"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..grpInternalBrowser..Caption
+msgid "Embedded Browser"
+msgstr "Встроенный браузер"
+
 #. Programmer's name for it: SAS_ERR_MapGUIDEmpty
 msgid "Empty GUID"
 msgstr "Пустой GUID"
@@ -2155,6 +2159,10 @@ msgstr "ru_RU"
 #. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
 msgid "Ends With"
 msgstr "Заканчивается на"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..grpInternalBrowser..pnlBrowserEngine..lblBrowserEngine..Caption
+msgid "Engine:"
+msgstr "Движок:"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
 msgid ""
@@ -4262,6 +4270,10 @@ msgstr "Обрезать точно по полигону"
 #. frExportKml..pnlCenter..pnlMain..chkPreciseCropping....Hint
 msgid "Precise cropping of the image along the boundaries of the polygon"
 msgstr "Обрезать изображение точно по границам полигона"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..grpInternalBrowser..chkBrowserEnginePreInit..Caption
+msgid "Pre-initialize engine on startup (speed up first use)"
+msgstr "Инициализировать при запуске (ускорение первого использования)"
 
 msgid "Press Ctrl and click on polygon to add one..."
 msgstr "Для добавления полигона нажмите Ctrl и кликните по нему..."
