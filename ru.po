@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-10-12 12:19\n"
-"PO-Revision-Date: 2026-10-12 12:20+0300\n"
+"POT-Creation-Date: 2026-10-25 13:38\n"
+"PO-Revision-Date: 2026-10-25 13:52+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -926,6 +926,13 @@ msgstr "BMP: Сбой заполнения!"
 msgid "BMP: Line write failure!"
 msgstr "BMP: Сбой прорисовки линии!"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlCurlImpersonateTarget..cbbCurlImpersonateTarget....Hint
+msgid ""
+"Browser targets are loaded from curl-impersonate.txt next to the executable"
+msgstr ""
+"Список браузерных профилей загружается из curl-impersonate.txt рядом с "
+"исполняемым файлом"
+
 #. frmAbout..lblTimeStamp..Caption
 msgid "Build date:"
 msgstr "Дата сборки:"
@@ -1561,6 +1568,10 @@ msgstr "Сохранить ярлык"
 #. Programmer's name for it: rsCulmination
 msgid "Culmination"
 msgstr "Кульминация"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlCurlImpersonateTarget..lblCurlImpersonateTarget..Caption
+msgid "cURL Impersonate target:"
+msgstr "Профиль cURL Impersonate:"
 
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"

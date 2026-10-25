@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-10-12 12:19\n"
+"POT-Creation-Date: 2026-10-25 13:38\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -958,6 +958,11 @@ msgstr "BMP: Помилка заповнення!"
 msgid "BMP: Line write failure!"
 msgstr "BMP: Помилка відмальовки лінії!"
 
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlCurlImpersonateTarget..cbbCurlImpersonateTarget....Hint
+msgid ""
+"Browser targets are loaded from curl-impersonate.txt next to the executable"
+msgstr ""
+
 #. frmAbout..lblTimeStamp..Caption
 msgid "Build date:"
 msgstr "Дата збірки:"
@@ -1615,6 +1620,10 @@ msgstr "Створити ярлик"
 #, fuzzy
 msgid "Culmination"
 msgstr "&Операції"
+
+#. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlCurlImpersonateTarget..lblCurlImpersonateTarget..Caption
+msgid "cURL Impersonate target:"
+msgstr ""
 
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
