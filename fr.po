@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-29 13:17\n"
+"POT-Creation-Date: 2026-11-02 13:02\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -91,7 +91,7 @@ msgstr "%s API clé :"
 msgid "%s format settings"
 msgstr "%s paramètres de format"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#. frmMain..actlstMain..actCopyCoordinates..Caption
 msgid "&Coordinates"
 msgstr "les coordonnées du point"
 
@@ -485,9 +485,9 @@ msgstr "Ajouter un polygone"
 msgid "Add Path"
 msgstr "Ajouter une piste"
 
-#. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
+#. frmMain..actlstMain..actMarksAddPointAtPos..Caption
 msgid "Add Placemark"
 msgstr "Ajouter une balise"
 
@@ -511,7 +511,7 @@ msgstr "Ajouter aux favoris"
 msgid "Add to Merge Polygons"
 msgstr "Ajouter pour fusionner les polygones"
 
-#. frmMain..MainPopupMenu..tbxtmAddToMergePolygons..Caption
+#. frmMain..actlstMain..actAddToMergePolygons..Caption
 msgid "Add to Merge Polygons (Ctrl+MLeft)"
 msgstr "Ajouter pour fusionner les polygones (Ctrl+Clic)"
 
@@ -1058,7 +1058,7 @@ msgid "Cached tiles map"
 msgstr "Afficher les dalles en cache"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..Caption
-#. frmMain..MainPopupMenu..tbxFillingMap..Caption
+#. frmMain..actlstMain..actFillingMapUseSelectedPolygon..Caption
 msgid "Cached Tiles Map"
 msgstr "Afficher les dalles en cache"
 
@@ -1439,7 +1439,7 @@ msgstr "Convertir le format du cache"
 msgid "Coordinates"
 msgstr "les coordonnées du point"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#. frmMain..actlstMain..actCopyCoordinatesAndElevation..Caption
 #, fuzzy
 msgid "Coordinates and Elevation"
 msgstr "Représentation des coordonnées :"
@@ -1474,7 +1474,7 @@ msgstr "Copier les coordonnées BBOX"
 msgid "Copy Bounding Box to Clipboard"
 msgstr "Copier les coordonnées dans le presse-papiers"
 
-#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
+#. frmMain..actlstMain..actCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
 msgstr "Copier les coordonnées"
 
@@ -1482,7 +1482,7 @@ msgstr "Copier les coordonnées"
 msgid "Copy coordinates to clipboard"
 msgstr "Copier les coordonnées dans le presse-papiers"
 
-#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
+#. frmMain..actlstMain..actCopySearchResultDescription..Caption
 msgid "Copy description"
 msgstr "Description de la copie"
 
@@ -1587,7 +1587,7 @@ msgstr "Créer un fichier géoréférencé :"
 msgid "Create new placemark"
 msgstr "Ajouter une balise"
 
-#. frmMain..tbxpmnSearchResult..tbitmCreatePlaceMarkBySearchResult..Caption
+#. frmMain..actlstMain..actCreateMarkBySearchResult..Caption
 msgid "Create placemark"
 msgstr "Créer un marqueur"
 
@@ -1604,19 +1604,19 @@ msgstr "Illumination"
 msgid "cURL Impersonate target:"
 msgstr ""
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
+#. frmMain..actlstMain..actShowAltitudeGTopo30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr "Altitude actuelle par GTOPO30 (~1 km de précision)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NSRTM3..Caption
+#. frmMain..actlstMain..actShowAltitudeSrtm3..Caption
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "Altitude actuelle par SRTM3 (~90 m de précision)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxWeatherUnderground..Caption
+#. frmMain..actlstMain..actShowWeatherUnderground..Caption
 msgid "Current and Forecast Meteorology (Weather Underground)"
 msgstr "Météorologie actuelle et prévisionnelle (Weather Underground)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxYandexWeather..Caption
+#. frmMain..actlstMain..actShowYandexWeather..Caption
 msgid "Current and Forecast Meteorology (Yandex Weather)"
 msgstr "Météorologie actuelle et prévisionnelle (Yandex Weather)"
 
@@ -1685,7 +1685,7 @@ msgstr "Type de cache par défaut :"
 msgid "Define hotkey"
 msgstr "Définir le raccourci clavier"
 
-#. frmMain..MainPopupMenu..NMarkDel..Caption
+#. frmMain..actlstMain..actMarkDelete..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
@@ -1725,7 +1725,7 @@ msgstr ""
 msgid "Delete Point"
 msgstr "Supprimer le point"
 
-#. frmMain..MainPopupMenu..NDel..Caption
+#. frmMain..actlstMain..actMapTileDelete..Caption
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr ""
 "Supprimer la dalle (sélectionnée par clic droit) de la Carte affichée, à "
@@ -2023,7 +2023,7 @@ msgstr ""
 "Télécharger la dalle (sélectionnée par clic droit) de cette Couche, vers le "
 "cache :"
 
-#. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
+#. frmMain..actlstMain..actMapTileDownload..Caption
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr ""
 "Télécharger la dalle (sélectionnée par clic droit) de la Carte affichée, "
@@ -2120,12 +2120,12 @@ msgstr "Propriétés du marqueur"
 msgid "Edit Polygon"
 msgstr "Propriétés du polygone"
 
-#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#. frmMain..actlstMain..actMarkEditPosition..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
 msgid "Edit Position"
 msgstr "Modifier la position"
 
-#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#. frmMain..actlstMain..actMarkEditProperties..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 msgid "Edit Properties"
 msgstr "Propriétés"
@@ -2478,7 +2478,7 @@ msgstr "Premier quartier"
 msgid "Fit to screen"
 msgstr "Adapter à l'écran"
 
-#. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmMain..actlstMain..actMarkFitToScreen..Caption
 #. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
 #. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmZoom..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
@@ -2635,7 +2635,7 @@ msgstr "Générer les plus grands zooms"
 msgid "Generator Options"
 msgstr "Options du Generateur"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardGenshtabName..Caption
+#. frmMain..actlstMain..actCopyGenshtabName..Caption
 msgid "Genshtab boundary name"
 msgstr "Nom de la limite de Genshtab"
 
@@ -2684,7 +2684,7 @@ msgstr "Le chemin de l'outil GMT est non sélectionné ou incorrect !"
 msgid "Go to"
 msgstr "Aller vers"
 
-#. frmMain..MainPopupMenu..tbitmGoToMapCenter..Caption
+#. frmMain..actlstMain..actGoToMapCenter..Caption
 #, fuzzy
 msgid "Go to Map Center"
 msgstr "l'URL de Nokia Map Creator"
@@ -2782,7 +2782,7 @@ msgstr "Hectares"
 msgid "Height:"
 msgstr "Hauteur :"
 
-#. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
+#. frmMain..actlstMain..actMarkHide..Caption
 msgid "Hide"
 msgstr "Masquer le marqueur"
 
@@ -3256,7 +3256,7 @@ msgstr "Outils de base"
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
+#. frmMain..actlstMain..actMakeVersionByMark..Caption
 msgid "Make by Placemark"
 msgstr "Créer un marqueur"
 
@@ -3314,7 +3314,7 @@ msgstr ""
 msgid "Map ID"
 msgstr "ID de la Carte"
 
-#. frmMain..MainPopupMenu..NMapInfo..Caption
+#. frmMain..actlstMain..actMapInfo..Caption
 msgid "Map Info"
 msgstr "Information de la Carte"
 
@@ -3351,7 +3351,7 @@ msgstr "Paramètres de la Carte"
 msgid "Map Settings:"
 msgstr "Paramètres de la Carte :"
 
-#. frmMain..MainPopupMenu..NMapStorageInfo..Caption
+#. frmMain..actlstMain..actMapStorageInfo..Caption
 msgid "Map Storage Info"
 msgstr "Information sur le stockage de la Carte"
 
@@ -3672,7 +3672,7 @@ msgstr "Crépuscule nautique"
 msgid "Nautical twilight start"
 msgstr "Aube nautique"
 
-#. frmMain..MainPopupMenu..NMarkNav..Caption
+#. frmMain..actlstMain..actMarkNavigate..Caption
 msgid "Navigate to Placemark"
 msgstr "Naviguer vers la balise surlignée (GPS)"
 
@@ -3953,7 +3953,7 @@ msgstr "Aide en ligne (en russe)"
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Ouvrir le répertoire de dalles de cette Couche :"
 
-#. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
+#. frmMain..actlstMain..actMapTileOpenFolder..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr "Ouvrir le répertoire de dalles de la Carte affichée"
 
@@ -4106,12 +4106,20 @@ msgstr "Piste %0:d"
 msgid "Path parameters"
 msgstr "Propriétés de la piste"
 
+#, fuzzy
+msgid "Path to Edge"
+msgstr "Répertoire des fichiers de cartes :"
+
 #. frExportToIMG..pgcMain..tsSettings..pnlGMT..pnlGMTTop..lblGMTPath..Caption
 msgid "Path to GMT.exe:"
 msgstr "Répertoire de GMT.exe :"
 
 msgid "Path to gps tracks"
 msgstr "Répertoire des pistes du GPS :"
+
+#, fuzzy
+msgid "Path to Logs"
+msgstr "Répertoire des fichiers de cartes :"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlLicense..lblMapCompilerLicensePath..Caption
 msgid "Path to map compiler license:"
@@ -4134,6 +4142,10 @@ msgstr "Répertoire des icones des marqueurs :"
 msgid "Path to MediaData"
 msgstr "Répertoire des symboles des photos :"
 
+#, fuzzy
+msgid "Path to OsmScout data"
+msgstr "Répertoire des données de l'utilisateur :"
+
 msgid "Path to Terrain data"
 msgstr "Répertoire des fichiers d'altitude :"
 
@@ -4145,7 +4157,7 @@ msgstr "Répertoire des données de l'utilisateur :"
 msgid "Path:"
 msgstr "Chemin :"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
+#. frmMain..actlstMain..actCopyMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
 msgstr "le nom du chemin du cache de la dalle (sélectionnée par clic droit)"
 
@@ -4195,11 +4207,11 @@ msgstr "Balise %0:d"
 msgid "Placemark Categories"
 msgstr "Gestion des catégories"
 
-#. frmMain..MainPopupMenu..NMarkExport..Caption
+#. frmMain..actlstMain..actMarkExport..Caption
 msgid "Placemark Export"
 msgstr "Exporter le marqueur"
 
-#. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
+#. frmMain..actlstMain..actMarkInfo..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmMarkInfo..Caption
 msgid "Placemark Info"
 msgstr "Information sur le marqueur"
@@ -4239,7 +4251,7 @@ msgstr "Marqueurs"
 msgid "Placemarks filter settings"
 msgstr "Gestion des catégories"
 
-#. frmMain..MainPopupMenu..NMarkPlay..Caption
+#. frmMain..actlstMain..actMarkPlay..Caption
 msgid "Play"
 msgstr "Fonctionne"
 
@@ -4391,7 +4403,7 @@ msgstr "Version précédente"
 msgid "Primary color"
 msgstr "Couleur primaire :"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTile..Caption
+#. frmMain..actlstMain..actCopyMainMapTile..Caption
 msgid "Primary Map Tile"
 msgstr "la dalle (sélectionnée par clic droit) de la Carte affichée"
 
@@ -4647,7 +4659,7 @@ msgstr "L'ensemble des points requis est introuvable !"
 msgid "Requires:"
 msgstr "Requis :"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
+#. frmMain..actlstMain..actResetVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
 #. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
@@ -4911,7 +4923,7 @@ msgstr "En train de chercher"
 msgid "Select All Visible Placemarks"
 msgstr "Sélectionner tous les marqueurs visibles"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
+#. frmMain..actlstMain..actSelectVersionByMark..Caption
 msgid "Select by Placemark"
 msgstr "Sélectionner par marqueur"
 
@@ -4954,7 +4966,7 @@ msgid "Selection manager"
 msgstr "Gestionnaire de sélection"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
-#. frmMain..MainPopupMenu..NMarkOper..Caption
+#. frmMain..actlstMain..actProcessSelection..Caption
 #. frMergePolygons..tbTop..tbtmSelect..Hint
 #. frmProgressSimple..TBXOperationsToolbar..tbtmSelect..Hint
 #. frmRegionProcess..Caption
@@ -4967,8 +4979,8 @@ msgstr "Gestionnaire de sélection"
 msgid "Selections|*.hlg"
 msgstr "Sélections|*.hlg"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
+#. frmMain..actlstMain..actViewSensorsBarVisible..Caption
 msgid "Sensors"
 msgstr "Capteurs"
 
@@ -5103,7 +5115,7 @@ msgstr "Afficher l'altitude depuis n'importe quelle source disponible"
 msgid "Show Elevation Info In Status Bar"
 msgstr "Afficher l'altitude dans la barre d'état"
 
-#. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
 msgstr "Afficher le profil d'altitude"
@@ -5173,7 +5185,7 @@ msgstr "Afficher l'endroit sur la carte"
 msgid "Show only selected placemarks"
 msgstr "Afficher seulement les marqueurs sélectionnés"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowOtherVersions..Caption
+#. frmMain..actlstMain..actShowOtherVersions..Caption
 msgid "Show other Versions"
 msgstr "Afficher les autres versions"
 
@@ -5189,7 +5201,7 @@ msgstr "Afficher les noms des marqueurs"
 msgid "Show Placemark Names"
 msgstr "Afficher le Nom des Marqueurs"
 
-#. frmMain..MainPopupMenu..Nopendir..Caption
+#. frmMain..actlstMain..actMapTileShow..Caption
 msgid "Show Primary Map Tile"
 msgstr ""
 "Afficher la dalle (sélectionnée par clic droit) dans un logiciel de dessin"
@@ -6076,20 +6088,20 @@ msgstr "Temps de montée"
 msgid "Upper left corner"
 msgstr "Coin supérieur gauche"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "l'URL de Bing Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleEarthWeb..Caption
+#. frmMain..actlstMain..actCopyUrlToGoogleEarthWeb..Caption
 #, fuzzy
 msgid "URL to Google Earth Web"
 msgstr "KML (pour Google Earth)"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "l'URL de Google Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
+#. frmMain..actlstMain..actCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "l'URL de kosmosnimki.ru"
 
@@ -6097,21 +6109,21 @@ msgstr "l'URL de kosmosnimki.ru"
 msgid "URL to Layer Tile"
 msgstr "l'URL de cette Couche :"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#. frmMain..actlstMain..actCopyUrlToNakarteMe..Caption
 #, fuzzy
 msgid "URL to nakarte.me"
 msgstr "l'URL de Rosreestr"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#. frmMain..actlstMain..actCopyUrlToOpenStreetMap..Caption
 #, fuzzy
 msgid "URL to OpenStreetMap"
 msgstr "l'URL de Yandex.Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
+#. frmMain..actlstMain..actCopyUrlToMainMapTile..Caption
 msgid "URL to Primary Map Tile"
 msgstr "l'URL de la Carte affichée"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToYandexMaps..Caption
 #, fuzzy
 msgid "URL to Yandex Maps"
 msgstr "l'URL de Yandex.Maps"

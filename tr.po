@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-29 13:17\n"
+"POT-Creation-Date: 2026-11-02 13:02\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -88,7 +88,7 @@ msgstr "%s API Anahtarı:"
 msgid "%s format settings"
 msgstr "Dışa aktarma ayarları"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#. frmMain..actlstMain..actCopyCoordinates..Caption
 msgid "&Coordinates"
 msgstr "&Koordinatlar"
 
@@ -486,9 +486,9 @@ msgstr "Yeni Çokgen Ekle"
 msgid "Add Path"
 msgstr "Güzergah ekle"
 
-#. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
+#. frmMain..actlstMain..actMarksAddPointAtPos..Caption
 msgid "Add Placemark"
 msgstr "Yer İşareti Ekle"
 
@@ -512,7 +512,7 @@ msgstr "Favorilere Ekle"
 msgid "Add to Merge Polygons"
 msgstr "Çokgenleri Birlşetir'e Ekle"
 
-#. frmMain..MainPopupMenu..tbxtmAddToMergePolygons..Caption
+#. frmMain..actlstMain..actAddToMergePolygons..Caption
 msgid "Add to Merge Polygons (Ctrl+MLeft)"
 msgstr "Çokgenleri Birlşetir'e Ekle (Ctrl+MLeft)"
 
@@ -1057,7 +1057,7 @@ msgid "Cached tiles map"
 msgstr "Önbelleğe alınmış döşeme haritası"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..Caption
-#. frmMain..MainPopupMenu..tbxFillingMap..Caption
+#. frmMain..actlstMain..actFillingMapUseSelectedPolygon..Caption
 msgid "Cached Tiles Map"
 msgstr "Önbelleğe Alınmış Döşeme Haritası"
 
@@ -1438,7 +1438,7 @@ msgstr "Convert Cache Format"
 msgid "Coordinates"
 msgstr "Koordinatlar"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#. frmMain..actlstMain..actCopyCoordinatesAndElevation..Caption
 #, fuzzy
 msgid "Coordinates and Elevation"
 msgstr "Koordinat gösterimi"
@@ -1473,7 +1473,7 @@ msgstr "BBOX koordinatlarını kopyala"
 msgid "Copy Bounding Box to Clipboard"
 msgstr "Koordinatları panoya kopyala"
 
-#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
+#. frmMain..actlstMain..actCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
 msgstr "Koordinatları kopyala"
 
@@ -1481,7 +1481,7 @@ msgstr "Koordinatları kopyala"
 msgid "Copy coordinates to clipboard"
 msgstr "Koordinatları panoya kopyala"
 
-#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
+#. frmMain..actlstMain..actCopySearchResultDescription..Caption
 msgid "Copy description"
 msgstr "Açıklamayı kopyala"
 
@@ -1585,7 +1585,7 @@ msgstr "Coğrafi referans dosyası oluşturun:"
 msgid "Create new placemark"
 msgstr "Yeni yer işareti oluştur"
 
-#. frmMain..tbxpmnSearchResult..tbitmCreatePlaceMarkBySearchResult..Caption
+#. frmMain..actlstMain..actCreateMarkBySearchResult..Caption
 msgid "Create placemark"
 msgstr "Yer işareti oluştur"
 
@@ -1602,19 +1602,19 @@ msgstr "Aydınlık"
 msgid "cURL Impersonate target:"
 msgstr ""
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
+#. frmMain..actlstMain..actShowAltitudeGTopo30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr "GTOPO30 ile Mevcut Yükseklik (Hassasiyet: ~1km)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NSRTM3..Caption
+#. frmMain..actlstMain..actShowAltitudeSrtm3..Caption
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "SRTM3 ile Mevcut Yükseklik (Hassasiyet: ~90m)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxWeatherUnderground..Caption
+#. frmMain..actlstMain..actShowWeatherUnderground..Caption
 msgid "Current and Forecast Meteorology (Weather Underground)"
 msgstr "Anlık ve Tahmini Meteorolojisi (Weather Underground)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxYandexWeather..Caption
+#. frmMain..actlstMain..actShowYandexWeather..Caption
 msgid "Current and Forecast Meteorology (Yandex Weather)"
 msgstr "Anlık ve Tahmini Meteorolojisi (Yandex Hava Durumu)"
 
@@ -1683,7 +1683,7 @@ msgstr "Varsayılan önbellek türü"
 msgid "Define hotkey"
 msgstr "Kısayol tuşu tanımla"
 
-#. frmMain..MainPopupMenu..NMarkDel..Caption
+#. frmMain..actlstMain..actMarkDelete..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
@@ -1721,7 +1721,7 @@ msgstr "Kaplama Katmanı Döşemesini Önbellekten Sil"
 msgid "Delete Point"
 msgstr "Noktayı Sil"
 
-#. frmMain..MainPopupMenu..NDel..Caption
+#. frmMain..actlstMain..actMapTileDelete..Caption
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "Önbellekteki Birincil Harita Döşemesini Sil (Del+MLeft)"
 
@@ -2019,7 +2019,7 @@ msgstr "Döşemeleri İndir"
 msgid "Download Overlay Layer Tile to Cache"
 msgstr "Önbelleğe Bindirme Katmanı Döşemesini İndir"
 
-#. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
+#. frmMain..actlstMain..actMapTileDownload..Caption
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr "Birincil Harita Döşemesini Önbelleğe İndir (Ins+MLeft)"
 
@@ -2114,12 +2114,12 @@ msgstr "Yer İşaretini Düzenle"
 msgid "Edit Polygon"
 msgstr "Çokgeni Düzenle"
 
-#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#. frmMain..actlstMain..actMarkEditPosition..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
 msgid "Edit Position"
 msgstr "Pozisyonu Düzenle"
 
-#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#. frmMain..actlstMain..actMarkEditProperties..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 msgid "Edit Properties"
 msgstr "Özellikleri Düzenle"
@@ -2473,7 +2473,7 @@ msgstr "İlk Çeyrek"
 msgid "Fit to screen"
 msgstr "Ekrana sığdır"
 
-#. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmMain..actlstMain..actMarkFitToScreen..Caption
 #. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
 #. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmZoom..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
@@ -2632,7 +2632,7 @@ msgstr "Üst yakınlaştırmayı oluşturma"
 msgid "Generator Options"
 msgstr "Oluşturucu Seçenekleri"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardGenshtabName..Caption
+#. frmMain..actlstMain..actCopyGenshtabName..Caption
 msgid "Genshtab boundary name"
 msgstr "Genshtab sınır adı"
 
@@ -2683,7 +2683,7 @@ msgstr "GMT araçları yolu ayarlanmamış veya yanlış!"
 msgid "Go to"
 msgstr "Git"
 
-#. frmMain..MainPopupMenu..tbitmGoToMapCenter..Caption
+#. frmMain..actlstMain..actGoToMapCenter..Caption
 #, fuzzy
 msgid "Go to Map Center"
 msgstr "Nokia Map Creator URL'si"
@@ -2782,7 +2782,7 @@ msgstr ""
 msgid "Height:"
 msgstr "Yükseklik:"
 
-#. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
+#. frmMain..actlstMain..actMarkHide..Caption
 msgid "Hide"
 msgstr "Gizle"
 
@@ -3261,7 +3261,7 @@ msgstr "Ana"
 msgid "Main Menu"
 msgstr "Ana Menü"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
+#. frmMain..actlstMain..actMakeVersionByMark..Caption
 msgid "Make by Placemark"
 msgstr "Yer İşaretine Göre Yap"
 
@@ -3316,7 +3316,7 @@ msgstr ""
 msgid "Map ID"
 msgstr "Harita ID (Kimliği)"
 
-#. frmMain..MainPopupMenu..NMapInfo..Caption
+#. frmMain..actlstMain..actMapInfo..Caption
 msgid "Map Info"
 msgstr "Harita Bilgisi"
 
@@ -3353,7 +3353,7 @@ msgstr "Harita Ayarları"
 msgid "Map Settings:"
 msgstr "Harita Ayarları:"
 
-#. frmMain..MainPopupMenu..NMapStorageInfo..Caption
+#. frmMain..actlstMain..actMapStorageInfo..Caption
 msgid "Map Storage Info"
 msgstr "Harita Depolama Bilgileri"
 
@@ -3682,7 +3682,7 @@ msgstr "Deniz alacakaranlık sonu"
 msgid "Nautical twilight start"
 msgstr "Deniz alacakaranlık başlangıcı"
 
-#. frmMain..MainPopupMenu..NMarkNav..Caption
+#. frmMain..actlstMain..actMarkNavigate..Caption
 msgid "Navigate to Placemark"
 msgstr "Yer İşaretine Git"
 
@@ -3968,7 +3968,7 @@ msgstr "Çevrimiçi Yardım"
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Kaplama Katmanı Döşeme Klasörünü Aç"
 
-#. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
+#. frmMain..actlstMain..actMapTileOpenFolder..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr "Birincil Harita Döşeme Klasörünü Aç"
 
@@ -4123,12 +4123,20 @@ msgstr "Yol %0:d"
 msgid "Path parameters"
 msgstr "Yol parametreleri"
 
+#, fuzzy
+msgid "Path to Edge"
+msgstr "Haritalar dosya yolu"
+
 #. frExportToIMG..pgcMain..tsSettings..pnlGMT..pnlGMTTop..lblGMTPath..Caption
 msgid "Path to GMT.exe:"
 msgstr "GMT.exe'nin dosya yolu:"
 
 msgid "Path to gps tracks"
 msgstr "GPS İzleri dosya yolu"
+
+#, fuzzy
+msgid "Path to Logs"
+msgstr "Haritalar dosya yolu"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlLicense..lblMapCompilerLicensePath..Caption
 msgid "Path to map compiler license:"
@@ -4151,6 +4159,10 @@ msgstr "İşaretler simgeleri dosya yolu"
 msgid "Path to MediaData"
 msgstr "MediaData yolu"
 
+#, fuzzy
+msgid "Path to OsmScout data"
+msgstr "Kullanıcı Verileri dosya yolu"
+
 msgid "Path to Terrain data"
 msgstr "Arazi Verileri yolu"
 
@@ -4162,7 +4174,7 @@ msgstr "Kullanıcı Verileri dosya yolu"
 msgid "Path:"
 msgstr "Yol:"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
+#. frmMain..actlstMain..actCopyMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
 msgstr "Önbellekte döşeme için yol adı"
 
@@ -4213,11 +4225,11 @@ msgstr "Yer İşareti %0:d"
 msgid "Placemark Categories"
 msgstr "Yer İşareti Kategorileri"
 
-#. frmMain..MainPopupMenu..NMarkExport..Caption
+#. frmMain..actlstMain..actMarkExport..Caption
 msgid "Placemark Export"
 msgstr "Yer İşareti Dışa Aktar"
 
-#. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
+#. frmMain..actlstMain..actMarkInfo..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmMarkInfo..Caption
 msgid "Placemark Info"
 msgstr "Yer İşareti Bilgisi"
@@ -4257,7 +4269,7 @@ msgstr "Yerİşaretleri"
 msgid "Placemarks filter settings"
 msgstr "Yer İşareti Kategorileri"
 
-#. frmMain..MainPopupMenu..NMarkPlay..Caption
+#. frmMain..actlstMain..actMarkPlay..Caption
 msgid "Play"
 msgstr "Oynat"
 
@@ -4415,7 +4427,7 @@ msgstr "Önceki sürüm"
 msgid "Primary color"
 msgstr "Ana renk"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTile..Caption
+#. frmMain..actlstMain..actCopyMainMapTile..Caption
 msgid "Primary Map Tile"
 msgstr "Birincil Harita Döşemesi"
 
@@ -4672,7 +4684,7 @@ msgstr "Gerekli nokta seti bulunamadı!"
 msgid "Requires:"
 msgstr "Gereklilikler:"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
+#. frmMain..actlstMain..actResetVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
 #. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
@@ -4938,7 +4950,7 @@ msgstr "aranıyor"
 msgid "Select All Visible Placemarks"
 msgstr "Yer İşaretine Göre Seç"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
+#. frmMain..actlstMain..actSelectVersionByMark..Caption
 msgid "Select by Placemark"
 msgstr "Yer İşaretine Göre Seç"
 
@@ -4982,7 +4994,7 @@ msgid "Selection manager"
 msgstr "Seçim yöneticisi"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
-#. frmMain..MainPopupMenu..NMarkOper..Caption
+#. frmMain..actlstMain..actProcessSelection..Caption
 #. frMergePolygons..tbTop..tbtmSelect..Hint
 #. frmProgressSimple..TBXOperationsToolbar..tbtmSelect..Hint
 #. frmRegionProcess..Caption
@@ -4995,8 +5007,8 @@ msgstr "Seçim Yöneticisi"
 msgid "Selections|*.hlg"
 msgstr "Seçimler|*.hlg"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
+#. frmMain..actlstMain..actViewSensorsBarVisible..Caption
 msgid "Sensors"
 msgstr "Sensörler"
 
@@ -5133,7 +5145,7 @@ msgstr "Mevcut Herhangi Bir Kaynaktan Yükseklik Bilgisini Göster"
 msgid "Show Elevation Info In Status Bar"
 msgstr "Durum Çubuğunda Yükseklik Bilgisini Göster"
 
-#. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
 msgstr "Yükseklik Profilini Göster"
@@ -5203,7 +5215,7 @@ msgstr "Haritada göster"
 msgid "Show only selected placemarks"
 msgstr "Yalnızca seçili yer işaretlerini göster"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowOtherVersions..Caption
+#. frmMain..actlstMain..actShowOtherVersions..Caption
 msgid "Show other Versions"
 msgstr "Diğer Sürümleri Göster"
 
@@ -5220,7 +5232,7 @@ msgstr "Yer işareti adlarını göster"
 msgid "Show Placemark Names"
 msgstr "Yer İşareti Adlarını Göster"
 
-#. frmMain..MainPopupMenu..Nopendir..Caption
+#. frmMain..actlstMain..actMapTileShow..Caption
 msgid "Show Primary Map Tile"
 msgstr "Birincil Harita Döşemesini Göster"
 
@@ -6108,20 +6120,20 @@ msgstr "Çalışma Süresi"
 msgid "Upper left corner"
 msgstr "Üst sol köşe"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "Bing Haritalar URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleEarthWeb..Caption
+#. frmMain..actlstMain..actCopyUrlToGoogleEarthWeb..Caption
 #, fuzzy
 msgid "URL to Google Earth Web"
 msgstr "KML (Google Earth için)"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "Google Haritalar'ın URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
+#. frmMain..actlstMain..actCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "Kosmosnimki.ru URL'si"
 
@@ -6129,21 +6141,21 @@ msgstr "Kosmosnimki.ru URL'si"
 msgid "URL to Layer Tile"
 msgstr "Katman Döşeme URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#. frmMain..actlstMain..actCopyUrlToNakarteMe..Caption
 #, fuzzy
 msgid "URL to nakarte.me"
 msgstr "Rosreestr'in URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#. frmMain..actlstMain..actCopyUrlToOpenStreetMap..Caption
 #, fuzzy
 msgid "URL to OpenStreetMap"
 msgstr "Yandex.Haritalar'ın URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
+#. frmMain..actlstMain..actCopyUrlToMainMapTile..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Birincil Harita Döşemesinin URL'si"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToYandexMaps..Caption
 #, fuzzy
 msgid "URL to Yandex Maps"
 msgstr "Yandex.Haritalar'ın URL'si"

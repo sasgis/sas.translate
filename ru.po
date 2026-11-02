@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-10-29 13:17\n"
-"PO-Revision-Date: 2026-10-29 13:19+0300\n"
+"POT-Creation-Date: 2026-11-02 13:02\n"
+"PO-Revision-Date: 2026-11-02 13:05+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -88,7 +88,7 @@ msgstr "Ключ %s API:"
 msgid "%s format settings"
 msgstr "Настройки экспорта в %s"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#. frmMain..actlstMain..actCopyCoordinates..Caption
 msgid "&Coordinates"
 msgstr "Координаты"
 
@@ -480,9 +480,9 @@ msgstr "Добавить новый полигон"
 msgid "Add Path"
 msgstr "Добавить путь"
 
-#. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
+#. frmMain..actlstMain..actMarksAddPointAtPos..Caption
 msgid "Add Placemark"
 msgstr "Поставить метку"
 
@@ -506,7 +506,7 @@ msgstr "Добавить в избранное"
 msgid "Add to Merge Polygons"
 msgstr "Добавить в Слияние полигонов"
 
-#. frmMain..MainPopupMenu..tbxtmAddToMergePolygons..Caption
+#. frmMain..actlstMain..actAddToMergePolygons..Caption
 msgid "Add to Merge Polygons (Ctrl+MLeft)"
 msgstr "Добавить в Слияние полигонов (Ctrl+MLeft)"
 
@@ -1039,7 +1039,7 @@ msgid "Cached tiles map"
 msgstr "Карта заполнения слоя"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..Caption
-#. frmMain..MainPopupMenu..tbxFillingMap..Caption
+#. frmMain..actlstMain..actFillingMapUseSelectedPolygon..Caption
 msgid "Cached Tiles Map"
 msgstr "Карта заполнения"
 
@@ -1412,7 +1412,7 @@ msgstr "Смена формата кэша"
 msgid "Coordinates"
 msgstr "Координаты"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#. frmMain..actlstMain..actCopyCoordinatesAndElevation..Caption
 msgid "Coordinates and Elevation"
 msgstr "Координаты и высоту"
 
@@ -1445,7 +1445,7 @@ msgstr "Копировать BBOX координаты"
 msgid "Copy Bounding Box to Clipboard"
 msgstr "Копировать BBOX координаты в буфер обмена"
 
-#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
+#. frmMain..actlstMain..actCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
 msgstr "Копировать координаты"
 
@@ -1453,7 +1453,7 @@ msgstr "Копировать координаты"
 msgid "Copy coordinates to clipboard"
 msgstr "Скопировать координаты в буфер обмена"
 
-#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
+#. frmMain..actlstMain..actCopySearchResultDescription..Caption
 msgid "Copy description"
 msgstr "Копировать описание"
 
@@ -1557,7 +1557,7 @@ msgstr "Создавать файл привязки:"
 msgid "Create new placemark"
 msgstr "Создать метку"
 
-#. frmMain..tbxpmnSearchResult..tbitmCreatePlaceMarkBySearchResult..Caption
+#. frmMain..actlstMain..actCreateMarkBySearchResult..Caption
 msgid "Create placemark"
 msgstr "Создать метку"
 
@@ -1573,19 +1573,19 @@ msgstr "Кульминация"
 msgid "cURL Impersonate target:"
 msgstr "Профиль cURL Impersonate:"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
+#. frmMain..actlstMain..actShowAltitudeGTopo30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr "Высота над уровнем моря GTOPO30 (разрешение ~1 км)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NSRTM3..Caption
+#. frmMain..actlstMain..actShowAltitudeSrtm3..Caption
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "Высота над уровнем моря SRTM3 (разрешение ~90 м)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxWeatherUnderground..Caption
+#. frmMain..actlstMain..actShowWeatherUnderground..Caption
 msgid "Current and Forecast Meteorology (Weather Underground)"
 msgstr "Прогноз погоды (Weather Underground)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxYandexWeather..Caption
+#. frmMain..actlstMain..actShowYandexWeather..Caption
 msgid "Current and Forecast Meteorology (Yandex Weather)"
 msgstr "Прогноз погоды (Яндекс Погода)"
 
@@ -1654,7 +1654,7 @@ msgstr "Тип кэша по умолчанию"
 msgid "Define hotkey"
 msgstr "Назначить гор. кл."
 
-#. frmMain..MainPopupMenu..NMarkDel..Caption
+#. frmMain..actlstMain..actMarkDelete..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
@@ -1692,7 +1692,7 @@ msgstr "Удалить тайл слоя"
 msgid "Delete Point"
 msgstr "Удалить точку"
 
-#. frmMain..MainPopupMenu..NDel..Caption
+#. frmMain..actlstMain..actMapTileDelete..Caption
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "Удалить тайл основной карты (Del+MLeft)"
 
@@ -1982,7 +1982,7 @@ msgstr "Скачать GMapTool"
 msgid "Download Overlay Layer Tile to Cache"
 msgstr "Загрузить тайл слоя"
 
-#. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
+#. frmMain..actlstMain..actMapTileDownload..Caption
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr "Загрузить тайл основной карты (Ins+MLeft)"
 
@@ -2076,12 +2076,12 @@ msgstr "Изменить метку"
 msgid "Edit Polygon"
 msgstr "Изменить полигон"
 
-#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#. frmMain..actlstMain..actMarkEditPosition..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
 msgid "Edit Position"
 msgstr "Изменить положение"
 
-#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#. frmMain..actlstMain..actMarkEditProperties..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 msgid "Edit Properties"
 msgstr "Изменить свойства"
@@ -2425,7 +2425,7 @@ msgstr "Первая четверть"
 msgid "Fit to screen"
 msgstr "Уместить на экране"
 
-#. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmMain..actlstMain..actMarkFitToScreen..Caption
 #. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
 #. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmZoom..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
@@ -2581,7 +2581,7 @@ msgstr "Генерация верхних уровней"
 msgid "Generator Options"
 msgstr "Настройки генератора"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardGenshtabName..Caption
+#. frmMain..actlstMain..actCopyGenshtabName..Caption
 msgid "Genshtab boundary name"
 msgstr "Наименование листа ГШ"
 
@@ -2630,7 +2630,7 @@ msgstr "Путь до утилиты GTM не задан или задан не�
 msgid "Go to"
 msgstr "Перейти"
 
-#. frmMain..MainPopupMenu..tbitmGoToMapCenter..Caption
+#. frmMain..actlstMain..actGoToMapCenter..Caption
 msgid "Go to Map Center"
 msgstr "Перейти к центру карты"
 
@@ -2724,7 +2724,7 @@ msgstr "Гектары"
 msgid "Height:"
 msgstr "Высота:"
 
-#. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
+#. frmMain..actlstMain..actMarkHide..Caption
 msgid "Hide"
 msgstr "Скрыть"
 
@@ -3197,7 +3197,7 @@ msgstr "Главная"
 msgid "Main Menu"
 msgstr "Главное меню"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
+#. frmMain..actlstMain..actMakeVersionByMark..Caption
 msgid "Make by Placemark"
 msgstr "Создать из метки"
 
@@ -3252,7 +3252,7 @@ msgstr ""
 msgid "Map ID"
 msgstr "ID карты"
 
-#. frmMain..MainPopupMenu..NMapInfo..Caption
+#. frmMain..actlstMain..actMapInfo..Caption
 msgid "Map Info"
 msgstr "Информация о карте"
 
@@ -3289,7 +3289,7 @@ msgstr "Параметры карты"
 msgid "Map Settings:"
 msgstr "Параметры карты:"
 
-#. frmMain..MainPopupMenu..NMapStorageInfo..Caption
+#. frmMain..actlstMain..actMapStorageInfo..Caption
 msgid "Map Storage Info"
 msgstr "Настройки хранилища"
 
@@ -3606,7 +3606,7 @@ msgstr "Конец Навигац. сумерек"
 msgid "Nautical twilight start"
 msgstr "Нач. Навигац. сумерек"
 
-#. frmMain..MainPopupMenu..NMarkNav..Caption
+#. frmMain..actlstMain..actMarkNavigate..Caption
 msgid "Navigate to Placemark"
 msgstr "Навигация на метку"
 
@@ -3883,7 +3883,7 @@ msgstr "Открыть онлайн справку"
 msgid "Open Overlay Layer Tile Folder"
 msgstr "Открыть папку, содержащую тайл слоя"
 
-#. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
+#. frmMain..actlstMain..actMapTileOpenFolder..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr "Открыть папку, содержащую тайл основной карты"
 
@@ -4034,12 +4034,18 @@ msgstr "Путь %0:d"
 msgid "Path parameters"
 msgstr "Параметры путей"
 
+msgid "Path to Edge"
+msgstr "Путь к Edge"
+
 #. frExportToIMG..pgcMain..tsSettings..pnlGMT..pnlGMTTop..lblGMTPath..Caption
 msgid "Path to GMT.exe:"
 msgstr "Путь до утилиты GMT.exe:"
 
 msgid "Path to gps tracks"
 msgstr "Путь для записи GPS Треков"
+
+msgid "Path to Logs"
+msgstr "Путь к логам"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlLicense..lblMapCompilerLicensePath..Caption
 msgid "Path to map compiler license:"
@@ -4062,6 +4068,9 @@ msgstr "Путь к значкам меток"
 msgid "Path to MediaData"
 msgstr "Пиктограммы фотографий"
 
+msgid "Path to OsmScout data"
+msgstr "Путь к OsmScout"
+
 msgid "Path to Terrain data"
 msgstr "Путь к данным о высотах"
 
@@ -4073,7 +4082,7 @@ msgstr "Данные для offline поиска"
 msgid "Path:"
 msgstr "Размещение:"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
+#. frmMain..actlstMain..actCopyMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
 msgstr "Полный путь к тайлу"
 
@@ -4123,11 +4132,11 @@ msgstr "Метка %0:d"
 msgid "Placemark Categories"
 msgstr "Категории меток "
 
-#. frmMain..MainPopupMenu..NMarkExport..Caption
+#. frmMain..actlstMain..actMarkExport..Caption
 msgid "Placemark Export"
 msgstr "Экспорт метки"
 
-#. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
+#. frmMain..actlstMain..actMarkInfo..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmMarkInfo..Caption
 msgid "Placemark Info"
 msgstr "Информация о метке"
@@ -4166,7 +4175,7 @@ msgstr "Метки"
 msgid "Placemarks filter settings"
 msgstr "Настройки фильтрации меток"
 
-#. frmMain..MainPopupMenu..NMarkPlay..Caption
+#. frmMain..actlstMain..actMarkPlay..Caption
 msgid "Play"
 msgstr "Воспроизвести"
 
@@ -4316,7 +4325,7 @@ msgstr "Предыдущая версия"
 msgid "Primary color"
 msgstr "Основной цвет"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTile..Caption
+#. frmMain..actlstMain..actCopyMainMapTile..Caption
 msgid "Primary Map Tile"
 msgstr "Тайл основной карты"
 
@@ -4569,7 +4578,7 @@ msgstr "Необходимый набор точек отсутствует!"
 msgid "Requires:"
 msgstr "Зависимости:"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
+#. frmMain..actlstMain..actResetVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
 #. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
@@ -4831,7 +4840,7 @@ msgstr "поиск"
 msgid "Select All Visible Placemarks"
 msgstr "Выбрать все видимые метки"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
+#. frmMain..actlstMain..actSelectVersionByMark..Caption
 msgid "Select by Placemark"
 msgstr "Выбрать по метке"
 
@@ -4874,7 +4883,7 @@ msgid "Selection manager"
 msgstr "Операции с выделенной областью"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
-#. frmMain..MainPopupMenu..NMarkOper..Caption
+#. frmMain..actlstMain..actProcessSelection..Caption
 #. frMergePolygons..tbTop..tbtmSelect..Hint
 #. frmProgressSimple..TBXOperationsToolbar..tbtmSelect..Hint
 #. frmRegionProcess..Caption
@@ -4887,8 +4896,8 @@ msgstr "Операции с выделенной областью"
 msgid "Selections|*.hlg"
 msgstr "Файл выделения|*.hlg"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
+#. frmMain..actlstMain..actViewSensorsBarVisible..Caption
 msgid "Sensors"
 msgstr "Датчики"
 
@@ -5023,7 +5032,7 @@ msgstr "Отображать информацию из всех доступны
 msgid "Show Elevation Info In Status Bar"
 msgstr "Отображать информацию о высоте в строке статуса"
 
-#. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
 msgstr "Показать профиль рельефа"
@@ -5093,7 +5102,7 @@ msgstr "Отображать это место на карте"
 msgid "Show only selected placemarks"
 msgstr "Показывать только указанные метки"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowOtherVersions..Caption
+#. frmMain..actlstMain..actShowOtherVersions..Caption
 msgid "Show other Versions"
 msgstr "Отображать другие версии"
 
@@ -5109,7 +5118,7 @@ msgstr "Отображать имена меток"
 msgid "Show Placemark Names"
 msgstr "Отображать имена меток"
 
-#. frmMain..MainPopupMenu..Nopendir..Caption
+#. frmMain..actlstMain..actMapTileShow..Caption
 msgid "Show Primary Map Tile"
 msgstr "Просмотр тайла основной карты"
 
@@ -5977,19 +5986,19 @@ msgstr "Над горизонтом"
 msgid "Upper left corner"
 msgstr "Левый верхний угол"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "Ссылку для просмотра в Bing Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleEarthWeb..Caption
+#. frmMain..actlstMain..actCopyUrlToGoogleEarthWeb..Caption
 msgid "URL to Google Earth Web"
 msgstr "Ссылку для просмотра в Google Earth Web"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "Ссылку для просмотра в Google Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
+#. frmMain..actlstMain..actCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "Ссылку для просмотра в kosmosnimki.ru"
 
@@ -5997,19 +6006,19 @@ msgstr "Ссылку для просмотра в kosmosnimki.ru"
 msgid "URL to Layer Tile"
 msgstr "Ссылку на тайл слоя"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#. frmMain..actlstMain..actCopyUrlToNakarteMe..Caption
 msgid "URL to nakarte.me"
 msgstr "Ссылку для просмотра в nakarte.me"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#. frmMain..actlstMain..actCopyUrlToOpenStreetMap..Caption
 msgid "URL to OpenStreetMap"
 msgstr "Ссылку для просмотра в OpenStreetMap"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
+#. frmMain..actlstMain..actCopyUrlToMainMapTile..Caption
 msgid "URL to Primary Map Tile"
 msgstr "Ссылку на тайл основной карты"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToYandexMaps..Caption
 msgid "URL to Yandex Maps"
 msgstr "Ссылку для просмотра в Яндекс Картах"
 

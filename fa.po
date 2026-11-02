@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2026-10-29 13:17\n"
+"POT-Creation-Date: 2026-11-02 13:02\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "%s format settings"
 msgstr "تنظیمات نقشه"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinates..Caption
+#. frmMain..actlstMain..actCopyCoordinates..Caption
 msgid "&Coordinates"
 msgstr "&مختصات"
 
@@ -500,9 +500,9 @@ msgstr "افزودن چند ضلعی جدید"
 msgid "Add Path"
 msgstr "اضافه کردن مسیر"
 
-#. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
+#. frmMain..actlstMain..actMarksAddPointAtPos..Caption
 msgid "Add Placemark"
 msgstr "علامت مکان را اضافه کنید"
 
@@ -526,7 +526,7 @@ msgstr "به موارد دلخواه اضافه کنید"
 msgid "Add to Merge Polygons"
 msgstr "اضافه کردن به Merge Polygons"
 
-#. frmMain..MainPopupMenu..tbxtmAddToMergePolygons..Caption
+#. frmMain..actlstMain..actAddToMergePolygons..Caption
 msgid "Add to Merge Polygons (Ctrl+MLeft)"
 msgstr "افزودن به چند ضلعی ادغام (Ctrl+MLeft)"
 
@@ -1080,7 +1080,7 @@ msgid "Cached tiles map"
 msgstr "نقشه کاشی های ذخیره شده"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NFillMap..Caption
-#. frmMain..MainPopupMenu..tbxFillingMap..Caption
+#. frmMain..actlstMain..actFillingMapUseSelectedPolygon..Caption
 msgid "Cached Tiles Map"
 msgstr "نقشه کاشی های ذخیره شده"
 
@@ -1471,7 +1471,7 @@ msgstr "تبدیل فرمت کش"
 msgid "Coordinates"
 msgstr "مختصات"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardCoordinatesAndElev..Caption
+#. frmMain..actlstMain..actCopyCoordinatesAndElevation..Caption
 #, fuzzy
 msgid "Coordinates and Elevation"
 msgstr "نمایندگی مختصات"
@@ -1509,7 +1509,7 @@ msgstr "کپی مختصات"
 msgid "Copy Bounding Box to Clipboard"
 msgstr "TID ها را در کلیپ بورد کپی کنید"
 
-#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultCoordinates..Caption
+#. frmMain..actlstMain..actCopySearchResultCoordinates..Caption
 msgid "Copy coordinates"
 msgstr "کپی مختصات"
 
@@ -1518,7 +1518,7 @@ msgstr "کپی مختصات"
 msgid "Copy coordinates to clipboard"
 msgstr "TID ها را در کلیپ بورد کپی کنید"
 
-#. frmMain..tbxpmnSearchResult..tbitmCopySearchResultDescription..Caption
+#. frmMain..actlstMain..actCopySearchResultDescription..Caption
 msgid "Copy description"
 msgstr "توضیحات را کپی کنید"
 
@@ -1623,7 +1623,7 @@ msgstr "ایجاد فایل ارجاع جغرافیایی:"
 msgid "Create new placemark"
 msgstr "مکان نشان جدید ایجاد کنید"
 
-#. frmMain..tbxpmnSearchResult..tbitmCreatePlaceMarkBySearchResult..Caption
+#. frmMain..actlstMain..actCreateMarkBySearchResult..Caption
 msgid "Create placemark"
 msgstr "مکان نشان ایجاد کنید"
 
@@ -1640,19 +1640,19 @@ msgstr "&عملیات"
 msgid "cURL Impersonate target:"
 msgstr ""
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NGTOPO30..Caption
+#. frmMain..actlstMain..actShowAltitudeGTopo30..Caption
 msgid "Current Altitude by GTOPO30 (~1 km accuracy)"
 msgstr "ارتفاع فعلی توسط GTOPO30 (~1 کیلومتر دقت)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..NSRTM3..Caption
+#. frmMain..actlstMain..actShowAltitudeSrtm3..Caption
 msgid "Current Altitude by SRTM3 (~90 m accuracy)"
 msgstr "ارتفاع فعلی توسط SRTM3 (~90 متر دقت)"
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxWeatherUnderground..Caption
+#. frmMain..actlstMain..actShowWeatherUnderground..Caption
 msgid "Current and Forecast Meteorology (Weather Underground)"
 msgstr ""
 
-#. frmMain..MainPopupMenu..tbitmAdditionalOperations..tbxYandexWeather..Caption
+#. frmMain..actlstMain..actShowYandexWeather..Caption
 msgid "Current and Forecast Meteorology (Yandex Weather)"
 msgstr ""
 
@@ -1720,7 +1720,7 @@ msgstr "نوع حافظه پنهان پیش فرض"
 msgid "Define hotkey"
 msgstr "کلید میانبر را تعریف کنید"
 
-#. frmMain..MainPopupMenu..NMarkDel..Caption
+#. frmMain..actlstMain..actMarkDelete..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
 #. frmMarksExplorer..tbpmnCategories..tbitmDeleteCategory..Hint
 #. frmMarksExplorer..tbpmnMarks..tbitmDeleteMark..Caption
@@ -1758,7 +1758,7 @@ msgstr "کاشی لایه پوششی را از کش حذف کنید"
 msgid "Delete Point"
 msgstr "حذف نقطه"
 
-#. frmMain..MainPopupMenu..NDel..Caption
+#. frmMain..actlstMain..actMapTileDelete..Caption
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "حذف کاشی نقشه اصلی از حافظه پنهان (Del+MLeft)"
 
@@ -2057,7 +2057,7 @@ msgstr "کاشی ها را دانلود کنید"
 msgid "Download Overlay Layer Tile to Cache"
 msgstr "کاشی لایه پوشش را در حافظه پنهان دانلود کنید"
 
-#. frmMain..MainPopupMenu..tbitmDownloadMainMapTile..Caption
+#. frmMain..actlstMain..actMapTileDownload..Caption
 msgid "Download Primary Map Tile to Cache (Ins+MLeft)"
 msgstr "دانلود کاشی نقشه اولیه در حافظه پنهان (Ins+MLeft)"
 
@@ -2152,13 +2152,13 @@ msgstr "علامت مکان را ویرایش کنید"
 msgid "Edit Polygon"
 msgstr "ویرایش چند ضلعی"
 
-#. frmMain..MainPopupMenu..tbitmMarkEditPosition..Caption
+#. frmMain..actlstMain..actMarkEditPosition..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMarkPosition..Caption
 #, fuzzy
 msgid "Edit Position"
 msgstr "ویرایش چند ضلعی"
 
-#. frmMain..MainPopupMenu..tbitmMarkEditProperties..Caption
+#. frmMain..actlstMain..actMarkEditProperties..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmEditMark..Caption
 #, fuzzy
 msgid "Edit Properties"
@@ -2519,7 +2519,7 @@ msgstr ""
 msgid "Fit to screen"
 msgstr "متناسب با صفحه نمایش"
 
-#. frmMain..MainPopupMenu..tbitmFitMarkToScreen..Caption
+#. frmMain..actlstMain..actMarkFitToScreen..Caption
 #. frmProgressSimple..TBXOperationsToolbar..tbtmZoom..Hint
 #. frmRegionProcess..pnlBottomButtons..tbxtlbrOperations..tbtmZoom..Hint
 #. frmProgressDownload..Panel1..pnlBottom..TBXOperationsToolbar..tbtmZoom..Hint
@@ -2682,7 +2682,7 @@ msgstr "ایجاد زوم های بالا"
 msgid "Generator Options"
 msgstr "گزینه های رابط"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardGenshtabName..Caption
+#. frmMain..actlstMain..actCopyGenshtabName..Caption
 msgid "Genshtab boundary name"
 msgstr "نام مرز گشتاب"
 
@@ -2733,7 +2733,7 @@ msgstr ""
 msgid "Go to"
 msgstr "رفتن به"
 
-#. frmMain..MainPopupMenu..tbitmGoToMapCenter..Caption
+#. frmMain..actlstMain..actGoToMapCenter..Caption
 #, fuzzy
 msgid "Go to Map Center"
 msgstr "نشانی وب نوکیا Map Creator"
@@ -2831,7 +2831,7 @@ msgstr ""
 msgid "Height:"
 msgstr "قد:"
 
-#. frmMain..MainPopupMenu..tbitmHideThisMark..Caption
+#. frmMain..actlstMain..actMarkHide..Caption
 msgid "Hide"
 msgstr "پنهان کردن"
 
@@ -3312,7 +3312,7 @@ msgstr "اصلی"
 msgid "Main Menu"
 msgstr "منوی اصلی"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbitmMakeVersionByMark..Caption
+#. frmMain..actlstMain..actMakeVersionByMark..Caption
 msgid "Make by Placemark"
 msgstr "ساخت توسط Placemark"
 
@@ -3368,7 +3368,7 @@ msgstr ""
 msgid "Map ID"
 msgstr "اطلاعات نقشه"
 
-#. frmMain..MainPopupMenu..NMapInfo..Caption
+#. frmMain..actlstMain..actMapInfo..Caption
 msgid "Map Info"
 msgstr "اطلاعات نقشه"
 
@@ -3407,7 +3407,7 @@ msgstr "تنظیمات نقشه"
 msgid "Map Settings:"
 msgstr "تنظیمات نقشه:"
 
-#. frmMain..MainPopupMenu..NMapStorageInfo..Caption
+#. frmMain..actlstMain..actMapStorageInfo..Caption
 msgid "Map Storage Info"
 msgstr "اطلاعات ذخیره سازی نقشه"
 
@@ -3737,7 +3737,7 @@ msgstr ""
 msgid "Nautical twilight start"
 msgstr ""
 
-#. frmMain..MainPopupMenu..NMarkNav..Caption
+#. frmMain..actlstMain..actMarkNavigate..Caption
 msgid "Navigate to Placemark"
 msgstr "به علامت مکان بروید"
 
@@ -4029,7 +4029,7 @@ msgstr "راهنما آنلاین"
 msgid "Open Overlay Layer Tile Folder"
 msgstr "پوشه کاشی لایه پوشش را باز کنید"
 
-#. frmMain..MainPopupMenu..tbitmOpenFolderMainMapTile..Caption
+#. frmMain..actlstMain..actMapTileOpenFolder..Caption
 msgid "Open Primary Map Tile Folder"
 msgstr "پوشه اصلی نقشه کاشی را باز کنید"
 
@@ -4185,6 +4185,10 @@ msgstr "مسیر %0:d"
 msgid "Path parameters"
 msgstr "پارامترهای مسیر"
 
+#, fuzzy
+msgid "Path to Edge"
+msgstr "مسیر رسیدن به نقشه ها"
+
 #. frExportToIMG..pgcMain..tsSettings..pnlGMT..pnlGMTTop..lblGMTPath..Caption
 #, fuzzy
 msgid "Path to GMT.exe:"
@@ -4192,6 +4196,10 @@ msgstr "مسیر رسیدن به نقشه ها"
 
 msgid "Path to gps tracks"
 msgstr "مسیر دسترسی به آهنگ های GPS"
+
+#, fuzzy
+msgid "Path to Logs"
+msgstr "مسیر رسیدن به نقشه ها"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlLicense..lblMapCompilerLicensePath..Caption
 #, fuzzy
@@ -4216,6 +4224,10 @@ msgstr "نماد مسیر به علامت‌ها"
 msgid "Path to MediaData"
 msgstr "مسیر به MediaData"
 
+#, fuzzy
+msgid "Path to OsmScout data"
+msgstr "مسیر دسترسی به داده های کاربر"
+
 msgid "Path to Terrain data"
 msgstr "مسیر به داده های زمین"
 
@@ -4227,7 +4239,7 @@ msgstr "مسیر دسترسی به داده های کاربر"
 msgid "Path:"
 msgstr "مسیر:"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTileFileName..Caption
+#. frmMain..actlstMain..actCopyMainMapTileFileName..Caption
 msgid "Pathname to Tile in Cache"
 msgstr "نام مسیر به کاشی در حافظه پنهان"
 
@@ -4278,11 +4290,11 @@ msgstr "نشان مکان %0:d"
 msgid "Placemark Categories"
 msgstr "دسته بندی نشان مکان"
 
-#. frmMain..MainPopupMenu..NMarkExport..Caption
+#. frmMain..actlstMain..actMarkExport..Caption
 msgid "Placemark Export"
 msgstr "صادرات نشان مکان"
 
-#. frmMain..MainPopupMenu..tbitmMarkInfo..Caption
+#. frmMain..actlstMain..actMarkInfo..Caption
 #. frmMarksExplorer..tbpmnMarks..tbitmMarkInfo..Caption
 msgid "Placemark Info"
 msgstr "اطلاعات نشان مکان"
@@ -4323,7 +4335,7 @@ msgstr "علامت‌های مکان"
 msgid "Placemarks filter settings"
 msgstr "دسته بندی نشان مکان"
 
-#. frmMain..MainPopupMenu..NMarkPlay..Caption
+#. frmMain..actlstMain..actMarkPlay..Caption
 msgid "Play"
 msgstr "بازی کنید"
 
@@ -4482,7 +4494,7 @@ msgstr "نسخه قبلی"
 msgid "Primary color"
 msgstr "رنگ اولیه"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapTile..Caption
+#. frmMain..actlstMain..actCopyMainMapTile..Caption
 msgid "Primary Map Tile"
 msgstr "کاشی نقشه اولیه"
 
@@ -4742,7 +4754,7 @@ msgstr "امتیاز مورد نیاز یافت نشد!"
 msgid "Requires:"
 msgstr "نیاز دارد:"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiClearVersion..Caption
+#. frmMain..actlstMain..actResetVersion..Caption
 #. frmFavoriteMapSetEditor..pnlMain..grdpnlHotKey1..pnlZoom..btnResetHotKey..Hint
 #. frmMarksExplorerFilter..pnlBottomButtons..btnReset..Caption
 #. Programmer's name for it: SAS_STR_SensorReset
@@ -5011,7 +5023,7 @@ msgstr "جستجو"
 msgid "Select All Visible Placemarks"
 msgstr "با علامت مکان انتخاب کنید"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
+#. frmMain..actlstMain..actSelectVersionByMark..Caption
 msgid "Select by Placemark"
 msgstr "با علامت مکان انتخاب کنید"
 
@@ -5055,7 +5067,7 @@ msgid "Selection manager"
 msgstr "مدیر انتخاب"
 
 #. frmMain..TBDock..TBXMainMenu..NOperations..NRectSave..Caption
-#. frmMain..MainPopupMenu..NMarkOper..Caption
+#. frmMain..actlstMain..actProcessSelection..Caption
 #. frMergePolygons..tbTop..tbtmSelect..Hint
 #. frmProgressSimple..TBXOperationsToolbar..tbtmSelect..Hint
 #. frmRegionProcess..Caption
@@ -5068,8 +5080,8 @@ msgstr "مدیر انتخاب"
 msgid "Selections|*.hlg"
 msgstr "انتخاب ها|*.hlg"
 
-#. frmMain..TBDock..TBXMainMenu..NView..NPanels..NSensors..Caption
 #. frmMain..TBDockRight..TBXSensorsBar..Caption
+#. frmMain..actlstMain..actViewSensorsBarVisible..Caption
 msgid "Sensors"
 msgstr "حسگرها"
 
@@ -5210,7 +5222,7 @@ msgstr "نمایش اطلاعات ارتفاع از هر منبع موجود"
 msgid "Show Elevation Info In Status Bar"
 msgstr "نمایش اطلاعات ارتفاع در نوار وضعیت"
 
-#. frmMain..MainPopupMenu..tbxitmElevationProfile..Caption
+#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 #, fuzzy
 msgid "Show Elevation Profile"
@@ -5285,7 +5297,7 @@ msgstr "نمایش روی نقشه"
 msgid "Show only selected placemarks"
 msgstr "فقط مکان‌نماهای انتخاب شده را نشان دهید"
 
-#. frmMain..MainPopupMenu..tbpmiVersions..tbpmiShowOtherVersions..Caption
+#. frmMain..actlstMain..actShowOtherVersions..Caption
 #, fuzzy
 msgid "Show other Versions"
 msgstr "دوره را نشان می دهد"
@@ -5305,7 +5317,7 @@ msgstr "نمایش همه مکان‌ها"
 msgid "Show Placemark Names"
 msgstr "نام های مکان نشان"
 
-#. frmMain..MainPopupMenu..Nopendir..Caption
+#. frmMain..actlstMain..actMapTileShow..Caption
 msgid "Show Primary Map Tile"
 msgstr "نمایش کاشی نقشه اولیه"
 
@@ -6191,20 +6203,20 @@ msgstr ""
 msgid "Upper left corner"
 msgstr "گوشه سمت چپ بالا"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToBingMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToBingMaps..Caption
 msgid "URL to Bing Maps"
 msgstr "URL به نقشه های بینگ"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleEarthWeb..Caption
+#. frmMain..actlstMain..actCopyUrlToGoogleEarthWeb..Caption
 #, fuzzy
 msgid "URL to Google Earth Web"
 msgstr "KML (برای Google Earth)"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToGoogleMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToGoogleMaps..Caption
 msgid "URL to Google Maps"
 msgstr "URL به Google Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToKosmosnimkiRu..Caption
+#. frmMain..actlstMain..actCopyUrlToKosmosnimkiRu..Caption
 msgid "URL to kosmosnimki.ru"
 msgstr "آدرس اینترنتی kosmosnimki.ru"
 
@@ -6212,21 +6224,21 @@ msgstr "آدرس اینترنتی kosmosnimki.ru"
 msgid "URL to Layer Tile"
 msgstr "URL به کاشی لایه"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToNakarteMe..Caption
+#. frmMain..actlstMain..actCopyUrlToNakarteMe..Caption
 #, fuzzy
 msgid "URL to nakarte.me"
 msgstr "آدرس اینترنتی Rosreestr"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToOpenStreetMap..Caption
+#. frmMain..actlstMain..actCopyUrlToOpenStreetMap..Caption
 #, fuzzy
 msgid "URL to OpenStreetMap"
 msgstr "URL به Yandex.Maps"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbitmCopyToClipboardMainMapUrl..Caption
+#. frmMain..actlstMain..actCopyUrlToMainMapTile..Caption
 msgid "URL to Primary Map Tile"
 msgstr "URL به کاشی نقشه اولیه"
 
-#. frmMain..MainPopupMenu..tbitmCopyToClipboard..tbxCopyUrlToYandexMaps..Caption
+#. frmMain..actlstMain..actCopyUrlToYandexMaps..Caption
 #, fuzzy
 msgid "URL to Yandex Maps"
 msgstr "URL به Yandex.Maps"
