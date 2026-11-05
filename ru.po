@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-02 13:02\n"
-"PO-Revision-Date: 2026-11-02 13:05+0300\n"
+"POT-Creation-Date: 2026-11-05 13:26\n"
+"PO-Revision-Date: 2026-11-05 13:28+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1395,6 +1395,9 @@ msgstr "Соединение с СУБД разорвано"
 msgid "Contains"
 msgstr "Содержит"
 
+msgid "Context Menu"
+msgstr "Контекстное меню"
+
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
 msgstr "Контрастность"
@@ -2316,6 +2319,7 @@ msgstr "Избранные карты/слои"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
 #. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
+#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Caption
 #. frmSettings..PageControl1..tsFavorite..Caption
 msgid "Favorites"
 msgstr "Избранное"
@@ -3085,6 +3089,7 @@ msgstr "Информация о слое"
 msgid "Layer Settings"
 msgstr "Параметры слоя"
 
+#. frmMain..TBDock..SrcToolbar..TBLayerSel..Caption
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
 #. frMapSelect..FilterPopupMenu..TBX_Layers..Caption
 #. Programmer's name for it: SAS_STR_Layers
@@ -3526,6 +3531,9 @@ msgstr "Калькулятор Луны"
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
 msgstr "Высока вероятность того, что вас забанили!"
+
+msgid "Mouse cursor is outside the map!"
+msgstr "Курсор мыши находится за пределами карты!"
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
 msgid "Mouse wheel"
@@ -5032,10 +5040,13 @@ msgstr "Отображать информацию из всех доступны
 msgid "Show Elevation Info In Status Bar"
 msgstr "Отображать информацию о высоте в строке статуса"
 
-#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
 msgstr "Показать профиль рельефа"
+
+#. frmMain..actlstMain..actShowElevationProfile..Caption
+msgid "Show Elevation Profile (Ctrl+MLeft)"
+msgstr "Показать профиль рельефа (Ctrl+MLeft)"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Show for All"

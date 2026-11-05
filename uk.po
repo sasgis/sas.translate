@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-02 13:02\n"
+"POT-Creation-Date: 2026-11-05 13:26\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1441,6 +1441,9 @@ msgstr "З’єднання з СУБД розірвано"
 msgid "Contains"
 msgstr "Контрастність"
 
+msgid "Context Menu"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
 msgstr "Контрастність"
@@ -2387,6 +2390,7 @@ msgstr "Обрані карти/шари"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
 #. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
+#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Caption
 #. frmSettings..PageControl1..tsFavorite..Caption
 msgid "Favorites"
 msgstr "Обране"
@@ -3180,6 +3184,7 @@ msgstr "Інформація про шар"
 msgid "Layer Settings"
 msgstr "Параметри шару"
 
+#. frmMain..TBDock..SrcToolbar..TBLayerSel..Caption
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
 #. frMapSelect..FilterPopupMenu..TBX_Layers..Caption
 #. Programmer's name for it: SAS_STR_Layers
@@ -3639,6 +3644,9 @@ msgstr "Калькулятор Сонця"
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
 msgstr "Висока вірогідність того, що Вас забанено на сервері!"
+
+msgid "Mouse cursor is outside the map!"
+msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
 msgid "Mouse wheel"
@@ -5205,10 +5213,14 @@ msgstr "Показувати інф. про висоту з будь-якого 
 msgid "Show Elevation Info In Status Bar"
 msgstr "Показувати інф. про висоту в рядку стану"
 
-#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 #, fuzzy
 msgid "Show Elevation Profile"
+msgstr "Показувати інформацію про висоту"
+
+#. frmMain..actlstMain..actShowElevationProfile..Caption
+#, fuzzy
+msgid "Show Elevation Profile (Ctrl+MLeft)"
 msgstr "Показувати інформацію про висоту"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings

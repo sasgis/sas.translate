@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-11-02 13:02\n"
+"POT-Creation-Date: 2026-11-05 13:26\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -1422,6 +1422,9 @@ msgstr ""
 msgid "Contains"
 msgstr "Contraste"
 
+msgid "Context Menu"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
 msgstr "Contraste"
@@ -2366,6 +2369,7 @@ msgstr "Cartes/couches favorites"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
 #. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
+#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Caption
 #. frmSettings..PageControl1..tsFavorite..Caption
 msgid "Favorites"
 msgstr "Favoris"
@@ -3143,6 +3147,7 @@ msgstr "Information de la Couche"
 msgid "Layer Settings"
 msgstr "Paramètres de la Couche"
 
+#. frmMain..TBDock..SrcToolbar..TBLayerSel..Caption
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
 #. frMapSelect..FilterPopupMenu..TBX_Layers..Caption
 #. Programmer's name for it: SAS_STR_Layers
@@ -3591,6 +3596,9 @@ msgstr "Calculateur lunaire"
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
 msgstr "Certainement un bannissement par le serveur !"
+
+msgid "Mouse cursor is outside the map!"
+msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
 msgid "Mouse wheel"
@@ -5115,9 +5123,13 @@ msgstr "Afficher l'altitude depuis n'importe quelle source disponible"
 msgid "Show Elevation Info In Status Bar"
 msgstr "Afficher l'altitude dans la barre d'état"
 
-#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
+msgstr "Afficher le profil d'altitude"
+
+#. frmMain..actlstMain..actShowElevationProfile..Caption
+#, fuzzy
+msgid "Show Elevation Profile (Ctrl+MLeft)"
 msgstr "Afficher le profil d'altitude"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings

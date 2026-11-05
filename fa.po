@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2026-11-02 13:02\n"
+"POT-Creation-Date: 2026-11-05 13:26\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -1454,6 +1454,9 @@ msgstr ""
 msgid "Contains"
 msgstr "کنتراست"
 
+msgid "Context Menu"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
 msgstr "کنتراست"
@@ -2404,6 +2407,7 @@ msgstr "نقشه ها/لایه های مورد علاقه"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
 #. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
+#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Caption
 #. frmSettings..PageControl1..tsFavorite..Caption
 msgid "Favorites"
 msgstr "موارد دلخواه"
@@ -3199,6 +3203,7 @@ msgstr "اطلاعات لایه"
 msgid "Layer Settings"
 msgstr "تنظیمات لایه"
 
+#. frmMain..TBDock..SrcToolbar..TBLayerSel..Caption
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
 #. frMapSelect..FilterPopupMenu..TBX_Layers..Caption
 #. Programmer's name for it: SAS_STR_Layers
@@ -3657,6 +3662,9 @@ msgstr "محاسبه مسیر"
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
 msgstr "به احتمال زیاد توسط سرور بن شده اید!"
+
+msgid "Mouse cursor is outside the map!"
+msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
 msgid "Mouse wheel"
@@ -5222,10 +5230,14 @@ msgstr "نمایش اطلاعات ارتفاع از هر منبع موجود"
 msgid "Show Elevation Info In Status Bar"
 msgstr "نمایش اطلاعات ارتفاع در نوار وضعیت"
 
-#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 #, fuzzy
 msgid "Show Elevation Profile"
+msgstr "نمایش اطلاعات ارتفاع"
+
+#. frmMain..actlstMain..actShowElevationProfile..Caption
+#, fuzzy
+msgid "Show Elevation Profile (Ctrl+MLeft)"
 msgstr "نمایش اطلاعات ارتفاع"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings

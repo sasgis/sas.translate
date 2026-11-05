@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-11-02 13:02\n"
+"POT-Creation-Date: 2026-11-05 13:26\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -1421,6 +1421,9 @@ msgstr "Harici döşeme deposuna bağlantı kesildi ve yeniden kurulamaz"
 msgid "Contains"
 msgstr "Kontrast"
 
+msgid "Context Menu"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
 msgstr "Kontrast"
@@ -2361,6 +2364,7 @@ msgstr "Favori haritalar/katmanlar"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
 #. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
+#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Caption
 #. frmSettings..PageControl1..tsFavorite..Caption
 msgid "Favorites"
 msgstr "Favoriler"
@@ -3148,6 +3152,7 @@ msgstr "Katman Bilgisi"
 msgid "Layer Settings"
 msgstr "Katman Ayarları"
 
+#. frmMain..TBDock..SrcToolbar..TBLayerSel..Caption
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
 #. frMapSelect..FilterPopupMenu..TBX_Layers..Caption
 #. Programmer's name for it: SAS_STR_Layers
@@ -3600,6 +3605,9 @@ msgstr "Ay Hesaplayıcı"
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
 msgstr "Büyük olasılıkla sunucu tarafından yasaklandınız!"
+
+msgid "Mouse cursor is outside the map!"
+msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
 msgid "Mouse wheel"
@@ -5145,9 +5153,13 @@ msgstr "Mevcut Herhangi Bir Kaynaktan Yükseklik Bilgisini Göster"
 msgid "Show Elevation Info In Status Bar"
 msgstr "Durum Çubuğunda Yükseklik Bilgisini Göster"
 
-#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 msgid "Show Elevation Profile"
+msgstr "Yükseklik Profilini Göster"
+
+#. frmMain..actlstMain..actShowElevationProfile..Caption
+#, fuzzy
+msgid "Show Elevation Profile (Ctrl+MLeft)"
 msgstr "Yükseklik Profilini Göster"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings

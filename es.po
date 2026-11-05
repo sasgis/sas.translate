@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-11-02 13:02\n"
+"POT-Creation-Date: 2026-11-05 13:26\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -1460,6 +1460,9 @@ msgstr ""
 msgid "Contains"
 msgstr "Contraste"
 
+msgid "Context Menu"
+msgstr ""
+
 #. Programmer's name for it: SAS_STR_Contrast
 msgid "Contrast"
 msgstr "Contraste"
@@ -2412,6 +2415,7 @@ msgstr "Mapas/Layers Favoritos"
 
 #. frmMain..TBDock..TBXMainMenu..NView..NPanels..NFavoriteToolbarShow..Caption
 #. frmMain..TBDock..TBXMainMenu..tbxFavorite..Caption
+#. frmMain..TBDock..TBXFavoriteToolbar..TBFavorite..Caption
 #. frmSettings..PageControl1..tsFavorite..Caption
 msgid "Favorites"
 msgstr "Favoritos"
@@ -3214,6 +3218,7 @@ msgstr "Layer activo"
 msgid "Layer Settings"
 msgstr "Opciones de Layers"
 
+#. frmMain..TBDock..SrcToolbar..TBLayerSel..Caption
 #. frmMain..TBDock..TBXMainMenu..NLayerSel..Caption
 #. frMapSelect..FilterPopupMenu..TBX_Layers..Caption
 #. Programmer's name for it: SAS_STR_Layers
@@ -3674,6 +3679,9 @@ msgstr "Cálculo de Ruta"
 #. Programmer's name for it: SAS_ERR_Ban
 msgid "Most likely you've been banned by the server!"
 msgstr "¡Muy probablemente ha sido rechazado por el servidor!"
+
+msgid "Mouse cursor is outside the map!"
+msgstr ""
 
 #. frmSettings..PageControl1..tsControl..GroupBox1..Caption
 msgid "Mouse wheel"
@@ -5248,10 +5256,14 @@ msgstr "Mostrar elevación de cualquier fuente disponible"
 msgid "Show Elevation Info In Status Bar"
 msgstr "Mostrar Elevación en Barra de estado"
 
-#. frmMain..actlstMain..actShowElevationProfile..Caption
 #. frmMarksExplorer..tbpmnMarks..tbxShowElevProfile..Caption
 #, fuzzy
 msgid "Show Elevation Profile"
+msgstr "Mostrar información de elevación"
+
+#. frmMain..actlstMain..actShowElevationProfile..Caption
+#, fuzzy
+msgid "Show Elevation Profile (Ctrl+MLeft)"
 msgstr "Mostrar información de elevación"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
