@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-05 13:26\n"
+"POT-Creation-Date: 2026-11-14 20:58\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -1370,6 +1370,76 @@ msgstr "Коментар"
 #, fuzzy
 msgid "Common"
 msgstr "Коментар"
+
+msgctxt "compass-direction"
+msgid "E"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "ENE"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "ESE"
+msgstr ""
+
+#, no-object-pascal-format
+msgctxt "compass-direction"
+msgid "From %0:s to %1:s"
+msgstr ""
+
+#, fuzzy
+msgctxt "compass-direction"
+msgid "N"
+msgstr "Ні"
+
+msgctxt "compass-direction"
+msgid "NE"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "NNE"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "NNW"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "NW"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "S"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "SE"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "SSE"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "SSW"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "SW"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "W"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "WNW"
+msgstr ""
+
+msgctxt "compass-direction"
+msgid "WSW"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
 #, no-object-pascal-format
@@ -5185,6 +5255,11 @@ msgstr "Швидкість"
 #, fuzzy
 msgid "Show azimuth"
 msgstr "Показувати азимут"
+
+#. frmMain..actlstMain..actCalcLineShowDirection..Caption
+#. frmMain..actlstMain..actCalcLineShowDirection..Hint
+msgid "Show compass direction"
+msgstr ""
 
 #. Programmer's name for it: rsShowCurrAzAndAltCaption
 msgid "Show Current Altitude and Azimuth"

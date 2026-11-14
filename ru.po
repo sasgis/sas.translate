@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-05 13:26\n"
-"PO-Revision-Date: 2026-11-05 13:28+0300\n"
+"POT-Creation-Date: 2026-11-14 20:58\n"
+"PO-Revision-Date: 2026-11-14 21:08+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -1328,6 +1328,75 @@ msgstr "Комментарий"
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..Caption
 msgid "Common"
 msgstr "Общие"
+
+msgctxt "compass-direction"
+msgid "E"
+msgstr "В"
+
+msgctxt "compass-direction"
+msgid "ENE"
+msgstr "ВСВ"
+
+msgctxt "compass-direction"
+msgid "ESE"
+msgstr "ВЮВ"
+
+#, no-object-pascal-format
+msgctxt "compass-direction"
+msgid "From %0:s to %1:s"
+msgstr "С %0:s на %1:s"
+
+msgctxt "compass-direction"
+msgid "N"
+msgstr "С"
+
+msgctxt "compass-direction"
+msgid "NE"
+msgstr "СВ"
+
+msgctxt "compass-direction"
+msgid "NNE"
+msgstr "ССВ"
+
+msgctxt "compass-direction"
+msgid "NNW"
+msgstr "ССЗ"
+
+msgctxt "compass-direction"
+msgid "NW"
+msgstr "СЗ"
+
+msgctxt "compass-direction"
+msgid "S"
+msgstr "Ю"
+
+msgctxt "compass-direction"
+msgid "SE"
+msgstr "ЮВ"
+
+msgctxt "compass-direction"
+msgid "SSE"
+msgstr "ЮЮВ"
+
+msgctxt "compass-direction"
+msgid "SSW"
+msgstr "ЮЮЗ"
+
+msgctxt "compass-direction"
+msgid "SW"
+msgstr "ЮЗ"
+
+msgctxt "compass-direction"
+msgid "W"
+msgstr "З"
+
+msgctxt "compass-direction"
+msgid "WNW"
+msgstr "ЗСЗ"
+
+msgctxt "compass-direction"
+msgid "WSW"
+msgstr "ЗЮЗ"
 
 #. Programmer's name for it: SAS_ERR_PascalScriptCompileError
 #, no-object-pascal-format
@@ -5013,6 +5082,11 @@ msgstr "Отображать площадь"
 #. frmMain..actlstMain..actEditPathShowAzimuth..Hint
 msgid "Show azimuth"
 msgstr "Отображать азимут"
+
+#. frmMain..actlstMain..actCalcLineShowDirection..Caption
+#. frmMain..actlstMain..actCalcLineShowDirection..Hint
+msgid "Show compass direction"
+msgstr "Отображать направление по сторонам света"
 
 #. Programmer's name for it: rsShowCurrAzAndAltCaption
 msgid "Show Current Altitude and Azimuth"
