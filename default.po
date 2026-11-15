@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-11-14 20:58\n"
-"PO-Revision-Date: 2026-11-14 20:58\n"
+"POT-Creation-Date: 2026-11-15 17:38\n"
+"PO-Revision-Date: 2026-11-15 17:38\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -238,6 +238,10 @@ msgstr ""
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "12m"
+msgstr ""
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..edServerAddress..TextHint
+msgid "192.168.1.10:10110"
 msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
@@ -1140,6 +1144,9 @@ msgstr ""
 msgid "Cancel device port autodetection"
 msgstr ""
 
+msgid "Cancel the server probe"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
 msgstr ""
@@ -1350,7 +1357,8 @@ msgstr ""
 msgid "Color:"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType..Text
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
 msgid "COM NMEA"
 msgstr ""
 
@@ -1491,6 +1499,32 @@ msgstr ""
 msgid ""
 "Connect to server error. Error code "
 "%d"
+msgstr ""
+
+#, object-pascal-format
+msgid ""
+"Connected, but no data received in %d "
+"sec."
+msgstr ""
+
+#, object-pascal-format
+msgid ""
+"Connected, but no nmea/gpsd data received in %d sec. The server "
+"sends: \"%s\""
+msgstr ""
+
+#. connection timeout allows, but no longer than 10 seconds
+msgid ""
+"Connected: gpsd server detected (json banner "
+"received)."
+msgstr ""
+
+#, object-pascal-format
+msgid "Connected: nmea data received: \"%s\""
+msgstr ""
+
+#, object-pascal-format
+msgid "Connection failed (winsock error %d)"
 msgstr ""
 
 msgid "Connection string"
@@ -2317,6 +2351,11 @@ msgstr ""
 msgid "Enter parameters"
 msgstr ""
 
+msgid ""
+"Enter the server address as host:port (e.g. "
+"192.168.1.10:10110)."
+msgstr ""
+
 #. Programmer's name for it: rsEquinox
 msgid "Equinox at"
 msgstr ""
@@ -2801,7 +2840,7 @@ msgid "GPS Data"
 msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := rgConnectionType.ItemIndex = 3; // todo
+#. chkUseReplayTrackFile.Enabled := (cbbGpsType.ItemIndex = 3); // todo
 msgid "GPS On/Off"
 msgstr ""
 
@@ -2816,8 +2855,8 @@ msgstr ""
 msgid "GPS receiver has not been found!"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
-msgid "GPS type"
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsType..Caption
+msgid "GPS type:"
 msgstr ""
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
@@ -4502,6 +4541,10 @@ msgstr ""
 msgid "Primary provider:"
 msgstr ""
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Caption
+msgid "Probe"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
 msgid ""
 "Process next tile if no response (when downloading the "
@@ -4732,7 +4775,7 @@ msgstr ""
 msgid "Replace existing tiles"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
 msgid "Replay Track"
 msgstr ""
 
@@ -5076,6 +5119,10 @@ msgstr ""
 msgid "Separate file for each placemark"
 msgstr ""
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+msgid "Server address (host:port):"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
 msgid ""
@@ -5181,6 +5228,8 @@ msgstr ""
 
 #. frmMain..actlstMain..actCalcLineShowDirection..Caption
 #. frmMain..actlstMain..actCalcLineShowDirection..Hint
+#. frmMain..actlstMain..actEditPathShowDirection..Caption
+#. frmMain..actlstMain..actEditPathShowDirection..Hint
 msgid "Show compass direction"
 msgstr ""
 
@@ -5714,6 +5763,10 @@ msgstr ""
 msgid "Task"
 msgstr ""
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
+msgid "TCP NMEA"
+msgstr ""
+
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
 msgid "Template or Base part of request URL:"
 msgstr ""
@@ -6082,6 +6135,12 @@ msgstr ""
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
+msgstr ""
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
+msgid ""
+"Try to connect and check the server for nmea/gpsd "
+"data"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_NoMaps

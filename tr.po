@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-11-14 20:58\n"
+"POT-Creation-Date: 2026-11-15 17:38\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -237,6 +237,10 @@ msgstr "12km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "12m"
 msgstr "12m"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..edServerAddress..TextHint
+msgid "192.168.1.10:10110"
+msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "2..3km"
@@ -1123,6 +1127,9 @@ msgstr "İptal"
 msgid "Cancel device port autodetection"
 msgstr ""
 
+msgid "Cancel the server probe"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
 msgstr "Harici döşeme deposuna bağlanılamıyor"
@@ -1331,7 +1338,8 @@ msgstr "Renk şeması %d"
 msgid "Color:"
 msgstr "Renk:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType..Text
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
 msgid "COM NMEA"
 msgstr ""
 
@@ -1477,6 +1485,27 @@ msgstr "GPS alıcısına bağlan"
 #, object-pascal-format
 msgid "Connect to server error. Error code %d"
 msgstr "Sunucuya bağlanma hatası. Hata kodu %d"
+
+#, object-pascal-format
+msgid "Connected, but no data received in %d sec."
+msgstr ""
+
+#, object-pascal-format
+msgid ""
+"Connected, but no nmea/gpsd data received in %d sec. The server sends: \"%s\""
+msgstr ""
+
+#. connection timeout allows, but no longer than 10 seconds
+msgid "Connected: gpsd server detected (json banner received)."
+msgstr ""
+
+#, object-pascal-format
+msgid "Connected: nmea data received: \"%s\""
+msgstr ""
+
+#, object-pascal-format
+msgid "Connection failed (winsock error %d)"
+msgstr ""
 
 msgid "Connection string"
 msgstr "Bağlantı dizisi"
@@ -2305,6 +2334,9 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "Parametreleri gir"
 
+msgid "Enter the server address as host:port (e.g. 192.168.1.10:10110)."
+msgstr ""
+
 #. Programmer's name for it: rsEquinox
 msgid "Equinox at"
 msgstr "Ekinoks"
@@ -2800,7 +2832,7 @@ msgid "GPS Data"
 msgstr "GPS tipi"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := rgConnectionType.ItemIndex = 3; // todo
+#. chkUseReplayTrackFile.Enabled := (cbbGpsType.ItemIndex = 3); // todo
 msgid "GPS On/Off"
 msgstr "GPS Aç/Kapat"
 
@@ -2814,8 +2846,9 @@ msgstr "GPS kaynağı yanlış yapılandırması: bilinmeyen mod %d"
 msgid "GPS receiver has not been found!"
 msgstr "GPS alıcısı bulunamadı"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
-msgid "GPS type"
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsType..Caption
+#, fuzzy
+msgid "GPS type:"
 msgstr "GPS tipi"
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
@@ -4513,6 +4546,10 @@ msgstr "Birincil Harita Döşemesi"
 msgid "Primary provider:"
 msgstr "Birincil sağlayıcı:"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Caption
+msgid "Probe"
+msgstr ""
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
 msgid "Process next tile if no response (when downloading the region)"
 msgstr "Cevap alınamıyorsa (bölgeyi indirirken) bir sonraki döşemeye geç"
@@ -4745,7 +4782,7 @@ msgstr ""
 msgid "Replace existing tiles"
 msgstr "Mevcut döşemeleri değiştir"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
 #, fuzzy
 msgid "Replay Track"
 msgstr "GPS İzini Sil"
@@ -5095,6 +5132,10 @@ msgstr "Sensörler"
 msgid "Separate file for each placemark"
 msgstr "Yeni yer işareti oluştur"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+msgid "Server address (host:port):"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
 msgid "Server returned type \"%0:s\", this is not bitmap image"
@@ -5199,6 +5240,8 @@ msgstr "Azimut Göster"
 
 #. frmMain..actlstMain..actCalcLineShowDirection..Caption
 #. frmMain..actlstMain..actCalcLineShowDirection..Hint
+#. frmMain..actlstMain..actEditPathShowDirection..Caption
+#. frmMain..actlstMain..actEditPathShowDirection..Hint
 msgid "Show compass direction"
 msgstr ""
 
@@ -5736,6 +5779,10 @@ msgstr ""
 msgid "Task"
 msgstr "Görev"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
+msgid "TCP NMEA"
+msgstr ""
+
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
 msgid "Template or Base part of request URL:"
 msgstr "İstek URL'sinin şablon veya temel kısmı:"
@@ -6118,6 +6165,10 @@ msgstr ""
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "TNE varsa indirmeyi dene"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
+msgid "Try to connect and check the server for nmea/gpsd data"
+msgstr ""
 
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."

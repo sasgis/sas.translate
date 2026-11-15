@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-14 20:58\n"
-"PO-Revision-Date: 2026-11-14 21:08+0300\n"
+"POT-Creation-Date: 2026-11-15 17:38\n"
+"PO-Revision-Date: 2026-11-15 17:56+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -233,6 +233,10 @@ msgstr "12км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "12m"
 msgstr "12м"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..edServerAddress..TextHint
+msgid "192.168.1.10:10110"
+msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "2..3km"
@@ -725,10 +729,8 @@ msgid "Are you sure you want to delete path with name \"%0:s\"?"
 msgstr "Вы действительно хотите удалить путь с именем \"%0:s\"?"
 
 #, no-object-pascal-format
-msgid ""
-"Are you sure you want to delete placemark of unknown type with name \"%0:s\"?"
-msgstr ""
-"Вы действительно хотите удалить точку неизвестного типа, с именем \"%0:s\"?"
+msgid "Are you sure you want to delete placemark of unknown type with name \"%0:s\"?"
+msgstr "Вы действительно хотите удалить точку неизвестного типа, с именем \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteMarksInRegionAsk
 msgid "Are you sure you want to delete placemarks in the selected region?"
@@ -792,12 +794,10 @@ msgid "Astro. twilight start"
 msgstr "Нач. Астр. сумерек"
 
 msgid ""
-"At least one calibration type doesn't support file name with characters not "
-"from current locale!"
+"At least one calibration type doesn't support file name with characters not from current locale!"
 msgstr ""
 
-msgid ""
-"At least one calibration type supports file name with ASCII characters only!"
+msgid "At least one calibration type supports file name with ASCII characters only!"
 msgstr ""
 
 #. Programmer's name for it: SAS_MSG_coution
@@ -927,11 +927,8 @@ msgid "BMP: Line write failure!"
 msgstr "BMP: Сбой прорисовки линии!"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlCurlImpersonateTarget..cbbCurlImpersonateTarget....Hint
-msgid ""
-"Browser targets are loaded from curl-impersonate.txt next to the executable"
-msgstr ""
-"Список браузерных профилей загружается из curl-impersonate.txt рядом с "
-"исполняемым файлом"
+msgid "Browser targets are loaded from curl-impersonate.txt next to the executable"
+msgstr "Список браузерных профилей загружается из curl-impersonate.txt рядом с исполняемым файлом"
 
 #. frmAbout..lblTimeStamp..Caption
 msgid "Build date:"
@@ -1104,6 +1101,9 @@ msgstr "Отменить"
 msgid "Cancel device port autodetection"
 msgstr "Отменить автопоиск порта устройства"
 
+msgid "Cancel the server probe"
+msgstr "Отменить проверку"
+
 #. Programmer's name for it: SAS_ERR_ETS_CannotConnect
 msgid "Cannot connect to external tile storage"
 msgstr "Нет подключения к СУБД"
@@ -1251,9 +1251,7 @@ msgstr "Нач. Гражд. сумерек"
 msgid "Cleaning up. "
 msgstr "Очистка. "
 
-msgid ""
-"Click on the placemark with the right mouse button and select \"Navigation "
-"to Placemark\""
+msgid "Click on the placemark with the right mouse button and select \"Navigation to Placemark\""
 msgstr ""
 
 msgid "Clipboard is empty!"
@@ -1309,7 +1307,8 @@ msgstr "Цветовое пространство:"
 msgid "Color:"
 msgstr "Цвет:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType..Text
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
 msgid "COM NMEA"
 msgstr ""
 
@@ -1451,6 +1450,26 @@ msgstr "Подключить приёмник"
 #, object-pascal-format
 msgid "Connect to server error. Error code %d"
 msgstr "Ошибка соединения с сервером. Код ошибки %d"
+
+#, object-pascal-format
+msgid "Connected, but no data received in %d sec."
+msgstr "Подключение установлено, но за %d сек. данные не получены."
+
+#, object-pascal-format
+msgid "Connected, but no nmea/gpsd data received in %d sec. The server sends: \"%s\""
+msgstr "Подключение установлено, но за %d сек. данные nmea/gpsd не получены. Сервер отправляет: «%s»"
+
+#. connection timeout allows, but no longer than 10 seconds
+msgid "Connected: gpsd server detected (json banner received)."
+msgstr "Подключение установлено: обнаружен сервер gpsd (получен json-баннер)."
+
+#, object-pascal-format
+msgid "Connected: nmea data received: \"%s\""
+msgstr "Подключение установлено: получены данные nmea: «%s»"
+
+#, object-pascal-format
+msgid "Connection failed (winsock error %d)"
+msgstr "Не удалось подключиться (ошибка winsock %d)"
 
 msgid "Connection string"
 msgstr "Строка подключения"
@@ -1686,11 +1705,8 @@ msgid "Cut"
 msgstr "Вырезать"
 
 #. Programmer's name for it: SAS_ERR_ETS_DataTruncation
-msgid ""
-"Data truncation occured because of external tile storage misconfiguration"
-msgstr ""
-"Произошло искажение данных, исправьте настройки подключения к СУБД и "
-"повторите операцию"
+msgid "Data truncation occured because of external tile storage misconfiguration"
+msgstr "Произошло искажение данных, исправьте настройки подключения к СУБД и повторите операцию"
 
 #. frmMarkSystemConfigEdit..grpDBType..Caption
 msgid "Database type"
@@ -2026,9 +2042,7 @@ msgstr "Загрузка завершена"
 
 #. Programmer's name for it: rsDownloadFinished
 #, object-pascal-format
-msgid ""
-"Download completed successfully. You can update the program manually from "
-"file: %s"
+msgid "Download completed successfully. You can update the program manually from file: %s"
 msgstr "Загрузка завершена. Вы можете обновить программу вручную: %s"
 
 #. frmMapTypeEdit..PageControl1..tsInternet..chkDownloadEnabled..Caption
@@ -2252,14 +2266,15 @@ msgid "Engine:"
 msgstr "Движок:"
 
 #. Programmer's name for it: SAS_STR_InputLacitp
-msgid ""
-"Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
-msgstr ""
-"Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
+msgid "Enter comma-separated MNC, MCC, LAC, CellID (example: 02,250,7718,11942)"
+msgstr "Введите через запятую MNC, MCC, LAC, CellID (например: 02,250,7718,11942)"
 
 #. Programmer's name for it: SAS_STR_InputLacitpCaption
 msgid "Enter parameters"
 msgstr "Ввод параметров"
+
+msgid "Enter the server address as host:port (e.g. 192.168.1.10:10110)."
+msgstr "Введите адрес сервера в формате хост:порт (например, 192.168.1.10:10110)."
 
 #. Programmer's name for it: rsEquinox
 msgid "Equinox at"
@@ -2743,7 +2758,7 @@ msgid "GPS Data"
 msgstr "GPS данные"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := rgConnectionType.ItemIndex = 3; // todo
+#. chkUseReplayTrackFile.Enabled := (cbbGpsType.ItemIndex = 3); // todo
 msgid "GPS On/Off"
 msgstr "GPS Вкл/Выкл"
 
@@ -2756,9 +2771,9 @@ msgstr "GPS неверные настройки: неизвестный режи
 msgid "GPS receiver has not been found!"
 msgstr "GPS приёмник не найден!"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType..Caption
-msgid "GPS type"
-msgstr "Тип GPS"
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsType..Caption
+msgid "GPS type:"
+msgstr "Тип GPS:"
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
@@ -2941,8 +2956,7 @@ msgid ""
 "Import finished. Total processed: %d files. Successfull imported: %d files.\n"
 "Fit to screen the last imported item?"
 msgstr ""
-"Импорт завершен. Всего обработано: %d файлов. Успешно импортировано: %d "
-"файлов.\n"
+"Импорт завершен. Всего обработано: %d файлов. Успешно импортировано: %d файлов.\n"
 "Уместить на экране последний импортированный элемент?"
 
 #. frmImportConfigEdit..Caption
@@ -3033,11 +3047,8 @@ msgstr "Пересечение (И)"
 
 #. Programmer's name for it: rsInvalidDelete
 #, object-pascal-format
-msgid ""
-"Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
-msgstr ""
-"У удаляемого интерфейсного объекта счётчик ссылок больше нуля (%d активных "
-"ссылок)"
+msgid "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
+msgstr "У удаляемого интерфейсного объекта счётчик ссылок больше нуля (%d активных ссылок)"
 
 #, object-pascal-format
 msgid "Invalid Overview level value: \"%s\""
@@ -3306,8 +3317,7 @@ msgid "Map compilation failed."
 msgstr "Сбой при компиляции карты."
 
 #, object-pascal-format
-msgid ""
-"Map compilation failed. The map compiler reported the following error: %s"
+msgid "Map compilation failed. The map compiler reported the following error: %s"
 msgstr "Сбой при компиляции карты. Компилятор сообщил о следующей ошибке: %s"
 
 #. frmMapTypeEdit..PageControl1..tsOthers..CheckEnabled..Caption
@@ -4301,8 +4311,7 @@ msgid "Please select the output file first!"
 msgstr "Необходимо выбрать имя результирующего файла!"
 
 msgid "Please select zoom/coordinates or at least one Layer or Map first!"
-msgstr ""
-"Необходимо указать зум/координаты или выбрать хотя бы один слой или карту!"
+msgstr "Необходимо указать зум/координаты или выбрать хотя бы один слой или карту!"
 
 msgid "Please specify where to save!"
 msgstr "Укажите, пожалуйста, куда сохранять!"
@@ -4410,10 +4419,13 @@ msgstr "Тайл основной карты"
 msgid "Primary provider:"
 msgstr "Основной источник:"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Caption
+msgid "Probe"
+msgstr "Проверить"
+
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..chkProcessNextTile..Caption
 msgid "Process next tile if no response (when downloading the region)"
-msgstr ""
-"Переходить к следующему тайлу, если сервер не отвечает (при загрузке области)"
+msgstr "Переходить к следующему тайлу, если сервер не отвечает (при загрузке области)"
 
 #. Programmer's name for it: SAS_STR_ProcessedNoMore
 msgid "Process not more than"
@@ -4639,7 +4651,7 @@ msgstr "Заменить высоты данными DEM"
 msgid "Replace existing tiles"
 msgstr "Заменять существующие тайлы"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..rgConnectionType....Items.Strings
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
 msgid "Replay Track"
 msgstr "Повторить трек"
 
@@ -4691,8 +4703,7 @@ msgstr "Восстановить"
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..CBLastSuccess..Caption
 msgid "Restore download from last successful tile"
-msgstr ""
-"Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
+msgstr "Начать сохранённую сессию загрузки с последнего удачно загруженного тайла"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..seVolumeSize..Hint
 msgid "Restricted to 4096 MB by the IMG file format"
@@ -4941,11 +4952,10 @@ msgstr "Выбор основной карты"
 #. Programmer's name for it: SAS_MSG_DeleteSubCategoryAsk
 #, object-pascal-format
 msgid ""
-"Selected category \"%0:s\" contain %d sub categories. Are you realy want to "
-"delete all of them?"
+"Selected category \"%0:s\" contain %d sub categories. Are you realy want to delete all of them?"
 msgstr ""
-"Выбранная категория \"%0:s\" содержит %d вложенных категорий. Вы "
-"действительно хотите удалить их все?"
+"Выбранная категория \"%0:s\" содержит %d вложенных категорий. Вы действительно хотите удалить их "
+"все?"
 
 #. Programmer's name for it: rsSelectingPlacemarks
 msgid "Selecting placemarks..."
@@ -4981,6 +4991,10 @@ msgstr "Датчики"
 #. frmMarksExport..chkFilePerMark..Caption
 msgid "Separate file for each placemark"
 msgstr "Отдельный файл для каждой метки"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+msgid "Server address (host:port):"
+msgstr "Адрес сервера (хост:порт):"
 
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
@@ -5085,6 +5099,8 @@ msgstr "Отображать азимут"
 
 #. frmMain..actlstMain..actCalcLineShowDirection..Caption
 #. frmMain..actlstMain..actCalcLineShowDirection..Hint
+#. frmMain..actlstMain..actEditPathShowDirection..Caption
+#. frmMain..actlstMain..actEditPathShowDirection..Hint
 msgid "Show compass direction"
 msgstr "Отображать направление по сторонам света"
 
@@ -5603,15 +5619,19 @@ msgstr "Проверить синтаксис"
 
 #. Programmer's name for it: SAS_ERR_ETS_CannotCreateTable
 msgid ""
-"Table not found and cannot be created (possibly due to insufficient "
-"privileges or readonly external tile storage)"
+"Table not found and cannot be created (possibly due to insufficient privileges or readonly "
+"external tile storage)"
 msgstr ""
-"Таблица не найдена и не может быть создана (возможно недостаточно прав или "
-"доступ только для чтения)"
+"Таблица не найдена и не может быть создана (возможно недостаточно прав или доступ только для "
+"чтения)"
 
 #. frShortCutList..pnlHotKeysHeader..lblOperation..Caption
 msgid "Task"
 msgstr "Операция"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
+msgid "TCP NMEA"
+msgstr ""
 
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
 msgid "Template or Base part of request URL:"
@@ -5632,15 +5652,11 @@ msgid "The feature can be used on polygons and polylines"
 msgstr "В данной версии функция доступна только для полигонов и путей"
 
 #, no-object-pascal-format
-msgid ""
-"The height of each part of the map must be greater than %0:d pix (currently "
-"%1:d pix)."
+msgid "The height of each part of the map must be greater than %0:d pix (currently %1:d pix)."
 msgstr ""
 
 #, no-object-pascal-format
-msgid ""
-"The height of each part of the map must not exceed %0:d pix (currently %1:d "
-"pix)."
+msgid "The height of each part of the map must not exceed %0:d pix (currently %1:d pix)."
 msgstr ""
 
 msgid "The Name can't be empty!"
@@ -5648,12 +5664,12 @@ msgstr "Имя не может быть пустым!"
 
 msgid ""
 "The number of JPEG tiles in KMZ file will exceed 100!\n"
-"If your navigation device won't display the map,go back and split the image "
-"into parts (and use the resulting KMZ files separately)."
+"If your navigation device won't display the map,go back and split the image into parts (and use "
+"the resulting KMZ files separately)."
 msgstr ""
 "Количество JPEG тайлов в KMZ файле превысит 100 штук!\n"
-"Если Ваш навигатор не будет отображать карту, вернитесь и разбейте "
-"изображение на части (и используйте полученные KMZ файлы по отдельности)."
+"Если Ваш навигатор не будет отображать карту, вернитесь и разбейте изображение на части (и "
+"используйте полученные KMZ файлы по отдельности)."
 
 msgid "The path to the temporary files is not set or incorrect!"
 msgstr "Путь для временных файлов не задан или задан некорректно!"
@@ -5690,12 +5706,10 @@ msgstr ""
 
 #, object-pascal-format
 msgid ""
-"The selected resolution is too high for the GeoTIFF format with JPEG "
-"compression!\n"
+"The selected resolution is too high for the GeoTIFF format with JPEG compression!\n"
 "Widht = %d pix (max = %d pix)\n"
 "Height = %d pix (max = %d pix)\n"
-"Try to select a smaller region or choose a different compression algorithm / "
-"output format."
+"Try to select a smaller region or choose a different compression algorithm / output format."
 msgstr ""
 "Разрешение слишком велико для GeoTIFF формата с JPEG сжатием!\n"
 "Ширина = %d пикс. (max = %d пикс.)\n"
@@ -5727,15 +5741,11 @@ msgid "The tne is newer than the entered age, skipping."
 msgstr "Существующий tne создан позже указанной даты, пропускаем загрузку."
 
 #, no-object-pascal-format
-msgid ""
-"The width of each part of the map must be greater than %0:d pix (currently "
-"%1:d pix)."
+msgid "The width of each part of the map must be greater than %0:d pix (currently %1:d pix)."
 msgstr ""
 
 #, no-object-pascal-format
-msgid ""
-"The width of each part of the map must not exceed %0:d pix (currently %1:d "
-"pix)."
+msgid "The width of each part of the map must not exceed %0:d pix (currently %1:d pix)."
 msgstr ""
 
 #. Programmer's name for it: rsNoAvailableObjects
@@ -5790,18 +5800,14 @@ msgstr "Нет доступа на запись в текущую базу ме�
 #, no-object-pascal-format
 msgid ""
 "There is not enough free space on drive \"%0:s\"!\n"
-"Up to %1:d MB may be needed to store temporary files, but only %2:d MB is "
-"available.\n"
+"Up to %1:d MB may be needed to store temporary files, but only %2:d MB is available.\n"
 "Are you sure you want to continue?"
 msgstr ""
 "На диске \"%0:s\" недостаточно свободного места!\n"
-"Для хранения временных файлов может понадобится до %1:d Мб, доступно %2:d "
-"Мб.\n"
+"Для хранения временных файлов может понадобится до %1:d Мб, доступно %2:d Мб.\n"
 "Вы уверены, что хотите продолжить?"
 
-msgid ""
-"This format doesn't support file name with characters not from current "
-"locale!"
+msgid "This format doesn't support file name with characters not from current locale!"
 msgstr "Этот формат не поддерживает имена файлов с юникодными символами!"
 
 msgid "This format supports file name with ASCII characters only!"
@@ -5813,11 +5819,8 @@ msgstr "Это не тайловый кэш, невозможно получит
 
 #. frmAbout..lblLicense....Caption
 msgid ""
-"This program is freeware, opensource and released under the GNU General "
-"Public License (GPLv3)"
-msgstr ""
-"Эта программа распространяется бесплатно, с исходными кодами под лицензией "
-"GNU GPLv3"
+"This program is freeware, opensource and released under the GNU General Public License (GPLv3)"
+msgstr "Эта программа распространяется бесплатно, с исходными кодами под лицензией GNU GPLv3"
 
 #. frMapCombineCustomOptions..flwpnlThreadCount..lblThreadCount..Caption
 msgid "Thread count:"
@@ -5986,10 +5989,13 @@ msgstr "Начать/Остановить"
 msgid "Try download if tne exists"
 msgstr "Пытаться загружать тайлы, для которых есть tne"
 
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
+msgid "Try to connect and check the server for nmea/gpsd data"
+msgstr "Подключиться и проверить сервер на наличие данных NMEA/gpsd"
+
 #. Programmer's name for it: SAS_ERR_NoMaps
 msgid "Unable to load map(s)! Aborting..."
-msgstr ""
-"Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
+msgstr "Не удалось загрузить ни одну карту. Дальнейшая работа программы невозможна!"
 
 #. frmMain..actlstMain..actEditPathRouteCalcUndo..Caption
 #. frmMain..actlstMain..actEditPathRouteCalcUndo..Hint
@@ -6032,9 +6038,7 @@ msgid "Unknown critical error at external tile storage"
 msgstr "Общая критическая ошибка в СУБД"
 
 #. Programmer's name for it: SAS_ERR_ETS_UnknownError
-msgid ""
-"Unknown error at external tile storage, see Storage Options for more "
-"information"
+msgid "Unknown error at external tile storage, see Storage Options for more information"
 msgstr "Общая ошибка в СУБД, см. Настройки хранилища"
 
 #. Programmer's name for it: SAS_ERR_TileDownloadUnexpectedError
@@ -6324,8 +6328,7 @@ msgid "Yes"
 msgstr "Да"
 
 #, object-pascal-format
-msgid ""
-"You are about to export placemarks into %d separate files. Are you sure?"
+msgid "You are about to export placemarks into %d separate files. Are you sure?"
 msgstr "Вы собираетесь экспортировать метки в %d отдельных файлов. Вы уверены?"
 
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlImageProcess..TrBarGamma..Hint
