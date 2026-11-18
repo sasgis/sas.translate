@@ -134,14 +134,6 @@ msgstr "* - Ограничено числом параллельных http(s) �
 msgid "/pixel"
 msgstr "/пикс."
 
-#. Programmer's name for it: rsClip
-msgid "[clip]"
-msgstr ""
-
-#. Programmer's name for it: rsSubject
-msgid "[subject]"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "1.2km"
@@ -182,11 +174,6 @@ msgstr "1:50 000 (500 м)"
 #. frmMain..actlstMain..actViewGridGenShtab_500_000..Caption
 msgid "1:500 000 (5 km)"
 msgstr "1:500 000 (5 км)"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize..Text
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "1024x1024"
-msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "120..200km"
@@ -234,10 +221,6 @@ msgstr "12км"
 msgid "12m"
 msgstr "12м"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..edServerAddress..TextHint
-msgid "192.168.1.10:10110"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "2..3km"
 msgstr "2..3км"
@@ -250,10 +233,6 @@ msgstr "200км"
 msgid "200m"
 msgstr "200м"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "2048x2048"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20km"
@@ -262,10 +241,6 @@ msgstr "20км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20m"
 msgstr "20м"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "256x256"
-msgstr ""
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "2km"
@@ -297,10 +272,6 @@ msgstr "30м"
 msgid "3km"
 msgstr "3км"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "4096x4096"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "5..200m"
 msgstr "5..200м"
@@ -328,10 +299,6 @@ msgstr "50км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "50m"
 msgstr "50м"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "512x512"
-msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -362,10 +329,6 @@ msgstr "80км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "80m"
 msgstr "80м"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "8192x8192"
-msgstr ""
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "8km"
@@ -1252,7 +1215,7 @@ msgid "Cleaning up. "
 msgstr "Очистка. "
 
 msgid "Click on the placemark with the right mouse button and select \"Navigation to Placemark\""
-msgstr ""
+msgstr "Кликните по метке правой кнопкой мыши и выберите «Навигация на метку»"
 
 msgid "Clipboard is empty!"
 msgstr "Буфер обмена пуст!"
@@ -1307,14 +1270,9 @@ msgstr "Цветовое пространство:"
 msgid "Color:"
 msgstr "Цвет:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType..Text
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
-msgid "COM NMEA"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
-msgstr ""
+msgstr "Виртуальный COM"
 
 #. frmMain..actlstMain..actShowCmdLineArgsInfo..Caption
 msgid "Command Line Parameters"
@@ -1618,7 +1576,7 @@ msgstr "CP1256 (Арабская)"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..cbbCodePage....Items.Strings
 msgid "CP1257 (Baltic Sort)"
-msgstr "CP1256 (Балтийская)"
+msgstr "CP1257 (Балтийская)"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..cbbCodePage....Items.Strings
 msgid "CP874 (Thai Sort)"
@@ -1630,7 +1588,7 @@ msgstr "CP932 (Японская)"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..cbbCodePage....Items.Strings
 msgid "CP936 (Simplified Chinese Sort)"
-msgstr "CP932 (Упрощенная китайская)"
+msgstr "CP936 (Упрощённая китайская)"
 
 #. frExportToIMG..pgcMain..tsSettings..pnlSettings..cbbCodePage....Items.Strings
 msgid "CP949 (Korean Sort)"
@@ -1721,7 +1679,7 @@ msgstr "СУБД"
 
 #. Programmer's name for it: rsORMZDBCMarksDbName
 msgid "DBMS (Native driver)"
-msgstr ""
+msgstr "СУБД (нативный драйвер)"
 
 #. Programmer's name for it: rsORMODBCMarksDbName
 msgid "DBMS (ODBC driver)"
@@ -2563,7 +2521,7 @@ msgstr "Для получения дополнительной информац�
 
 #. frmMarkSystemConfigEdit..grpOptions..grdpnlOptions1..pnlForcedSchemaName..lblForcedSchemaName..Caption
 msgid "Forced Schema Name:"
-msgstr ""
+msgstr "Принудительное имя схемы:"
 
 #. frMapCombineCustomOptions..flwpnlFormatOptions..btnFormatOptions..Caption
 msgid "Format Options"
@@ -2689,7 +2647,7 @@ msgid "GeoCacher root folder:"
 msgstr "Путь к кэшу GeoCacher:"
 
 msgid "Geographic (GoogleEarth) / EPSG:4326"
-msgstr ""
+msgstr "Географическая (GoogleEarth) / EPSG:4326"
 
 #. frmGeoTiffOptions..Caption
 msgid "GeoTiff Settings"
@@ -2702,10 +2660,6 @@ msgstr "Брать список треков для повтора из ReplayTr
 #, object-pascal-format
 msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr "Обзорный уровень \"%s\" не является степенью двойки!"
-
-#. Programmer's name for it: rsGlobalMapperCacheName
-msgid "GlobalMapper Tiles"
-msgstr "GlobalMapper Tiles"
 
 msgid "GlobalMapper Tiles (GMT) cache folder:"
 msgstr "Путь к кэшу GlobalMapper:"
@@ -2745,10 +2699,6 @@ msgstr "Нач. Золотого часа"
 
 msgid "GoogleEarth cache folder:"
 msgstr "Путь к кэшу Google Earth:"
-
-#. Programmer's name for it: rsGoogleEarthTerrainCacheName
-msgid "GoogleEarth Terrain"
-msgstr ""
 
 msgid "GoogleMV cache folder:"
 msgstr "Путь к кэшу GoogleMV:"
@@ -2871,15 +2821,15 @@ msgstr "Горячие клавиши"
 
 #, object-pascal-format
 msgid "HTTP %d Bad Request"
-msgstr ""
+msgstr "HTTP %d Неверный запрос"
 
 #, object-pascal-format
 msgid "HTTP %d No Content"
-msgstr ""
+msgstr "HTTP %d Нет содержимого"
 
 #, object-pascal-format
 msgid "HTTP %d Not Found"
-msgstr ""
+msgstr "HTTP %d Не найдено"
 
 #, object-pascal-format
 msgid "HTTP %d Unknown Error"
@@ -2896,7 +2846,7 @@ msgstr "Редактор иконки"
 
 #. frJpegImportOptions..grp1..Caption
 msgid "Icon parameters"
-msgstr "Параметры икоки"
+msgstr "Параметры иконки"
 
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
@@ -2929,7 +2879,7 @@ msgid "Ignore polygons"
 msgstr "Игнорировать полигоны"
 
 msgid "Illumination"
-msgstr "Oсвещённость"
+msgstr "Освещённость"
 
 #. frImageFormatSelect..pnlImageFormat..lblImageFormat..Caption
 msgid "Image format:"
@@ -3814,7 +3764,7 @@ msgid "Not allowed:"
 msgstr "Запрещено:"
 
 msgid "Not Found"
-msgstr ""
+msgstr "Не найдено"
 
 msgid "Not found \"params.txt\" in zmp"
 msgstr "Не найден \"params.txt\" в zmp"
@@ -5072,7 +5022,7 @@ msgstr "Форма"
 
 #. frmMain..actlstMain..actSelectByRect..Hint
 msgid "Shift - snap to active grids (if enabled)"
-msgstr "Shif - прилипать к активным сеткам (если включено)"
+msgstr "Shift - прилипать к активным сеткам (если включено)"
 
 #. frmMain..SaveLink..Filter
 msgid "Shortcut|*.lnk"
@@ -5286,7 +5236,7 @@ msgstr "Отображает текущую скорость движения"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDGPSDescription
 msgid "Shows differential GPS"
-msgstr ""
+msgstr "Отображает дифференциальный режим GPS"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderDistDescription
 msgid "Shows distance since last GPS connection"
@@ -5306,7 +5256,7 @@ msgstr "Отображает информацию о GPS-приёмнике"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderHDOPDescription
 msgid "Shows horizontal dilution of precision"
-msgstr ""
+msgstr "Отображает горизонтальное снижение точности (HDOP)"
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderLocalTimeDescription
 msgid "Shows local time"
@@ -5343,10 +5293,10 @@ msgstr "Отображает Всемирное Координированное
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderVDOPDescription
 msgid "Shows vertical dilution of precision"
-msgstr ""
+msgstr "Отображает вертикальное снижение точности (VDOP)"
 
 msgid "Size of answer is zero"
-msgstr ""
+msgstr "Размер ответа равен нулю"
 
 #. Programmer's name for it: SAS_STR_Resolution
 msgid "size:"
@@ -5629,10 +5579,6 @@ msgstr ""
 msgid "Task"
 msgstr "Операция"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
-msgid "TCP NMEA"
-msgstr ""
-
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
 msgid "Template or Base part of request URL:"
 msgstr "Шаблон или Базовая часть URL:"
@@ -5653,11 +5599,11 @@ msgstr "В данной версии функция доступна тольк�
 
 #, no-object-pascal-format
 msgid "The height of each part of the map must be greater than %0:d pix (currently %1:d pix)."
-msgstr ""
+msgstr "Высота каждой части карты должна быть больше %0:d пикс. (сейчас %1:d пикс.)."
 
 #, no-object-pascal-format
 msgid "The height of each part of the map must not exceed %0:d pix (currently %1:d pix)."
-msgstr ""
+msgstr "Высота каждой части карты не должна превышать %0:d пикс. (сейчас %1:d пикс.)."
 
 msgid "The Name can't be empty!"
 msgstr "Имя не может быть пустым!"
@@ -5734,7 +5680,7 @@ msgstr "Данный файл равен по размеру существую�
 
 #. Programmer's name for it: SAS_ERR_TneExistsShort
 msgid "The tne already exists"
-msgstr "Для даного файла уже имеется tne"
+msgstr "Для данного файла уже имеется tne"
 
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
@@ -5742,11 +5688,11 @@ msgstr "Существующий tne создан позже указанной 
 
 #, no-object-pascal-format
 msgid "The width of each part of the map must be greater than %0:d pix (currently %1:d pix)."
-msgstr ""
+msgstr "Ширина каждой части карты должна быть больше %0:d пикс. (сейчас %1:d пикс.)."
 
 #, no-object-pascal-format
 msgid "The width of each part of the map must not exceed %0:d pix (currently %1:d pix)."
-msgstr ""
+msgstr "Ширина каждой части карты не должна превышать %0:d пикс. (сейчас %1:d пикс.)."
 
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
@@ -5862,7 +5808,7 @@ msgstr "Такого изображения нет на сервере!"
 
 #. crop single tile
 msgid "Tile is recognized as empty"
-msgstr ""
+msgstr "Тайл распознан как пустой"
 
 msgid "Tile Map Service (TMS) cache folder:"
 msgstr "Путь к кэшу Tile Map Service (TMS):"
@@ -5890,7 +5836,7 @@ msgid "Tile size, pix:"
 msgstr "Размер тайла, пикс:"
 
 msgid "Tile with same size exists"
-msgstr ""
+msgstr "Тайл такого же размера уже существует"
 
 #. Programmer's name for it: SAS_STR_Tiles
 msgid "Tiles"
