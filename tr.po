@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-11-15 17:38\n"
+"POT-Creation-Date: 2026-11-18 16:32\n"
 "PO-Revision-Date: 2022-05-07 10:38+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: bekirucarci@gmail.com\n"
@@ -134,14 +134,6 @@ msgstr "* - Mevcut harita için maksimum http isteği bu sayı ile sınırlıdı
 msgid "/pixel"
 msgstr "/piksel"
 
-#. Programmer's name for it: rsClip
-msgid "[clip]"
-msgstr "[kırp]"
-
-#. Programmer's name for it: rsSubject
-msgid "[subject]"
-msgstr "[konu]"
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "1.2km"
@@ -182,11 +174,6 @@ msgstr "1:50 000 (500 m)"
 #. frmMain..actlstMain..actViewGridGenShtab_500_000..Caption
 msgid "1:500 000 (5 km)"
 msgstr "1:500 000 (5 km)"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize..Text
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "1024x1024"
-msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "120..200km"
@@ -238,10 +225,6 @@ msgstr "12km"
 msgid "12m"
 msgstr "12m"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..edServerAddress..TextHint
-msgid "192.168.1.10:10110"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "2..3km"
 msgstr "2..3km"
@@ -254,10 +237,6 @@ msgstr "200km"
 msgid "200m"
 msgstr "200m"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "2048x2048"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20km"
@@ -266,11 +245,6 @@ msgstr "20km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20m"
 msgstr "20m"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-#, fuzzy
-msgid "256x256"
-msgstr "256x256 px"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "2km"
@@ -302,10 +276,6 @@ msgstr "30m"
 msgid "3km"
 msgstr "3km"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "4096x4096"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "5..200m"
 msgstr "5..200m"
@@ -333,10 +303,6 @@ msgstr "50km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "50m"
 msgstr "50m"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "512x512"
-msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -367,10 +333,6 @@ msgstr "80km"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "80m"
 msgstr "80m"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "8192x8192"
-msgstr ""
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "8km"
@@ -564,6 +526,10 @@ msgstr "Ek"
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..Caption
 msgid "Additional Operations"
 msgstr "Ek İşlemler"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+msgid "Address:"
+msgstr ""
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlLayers..chkAll..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..chkSetAllMarksInCategoryVisible..Caption
@@ -943,11 +909,30 @@ msgstr "BerkeleyDB önbellek klasörü:"
 msgid "Best"
 msgstr "En iyi"
 
+#, object-pascal-format
+msgid "Bind failed (Winsock error: %d)"
+msgstr ""
+
+#. field semantics and the probe behavior differ
+msgid "Bind the port and check it for NMEA data"
+msgstr ""
+
 msgid "BMP: Fill line failure!"
 msgstr "BMP: Satır doldurma hatası!"
 
 msgid "BMP: Line write failure!"
 msgstr "BMP: Satır yazma hatası!"
+
+#, object-pascal-format
+msgid "Bound, but no data received in %d sec."
+msgstr ""
+
+#, object-pascal-format
+msgid "Bound, but no NMEA data received in %d sec."
+msgstr ""
+
+msgid "Bound: NMEA data received"
+msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlCurlImpersonateTarget..cbbCurlImpersonateTarget....Hint
 msgid ""
@@ -1338,11 +1323,6 @@ msgstr "Renk şeması %d"
 msgid "Color:"
 msgstr "Renk:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType..Text
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
-msgid "COM NMEA"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
@@ -1491,20 +1471,18 @@ msgid "Connected, but no data received in %d sec."
 msgstr ""
 
 #, object-pascal-format
-msgid ""
-"Connected, but no nmea/gpsd data received in %d sec. The server sends: \"%s\""
+msgid "Connected, but no NMEA or GPSD data received in %d sec."
 msgstr ""
 
-#. connection timeout allows, but no longer than 10 seconds
-msgid "Connected: gpsd server detected (json banner received)."
+msgid "Connected: GPSD server detected"
 msgstr ""
 
-#, object-pascal-format
-msgid "Connected: nmea data received: \"%s\""
-msgstr ""
+#, fuzzy
+msgid "Connected: NMEA data received"
+msgstr "GPS alıcısına bağlan"
 
 #, object-pascal-format
-msgid "Connection failed (winsock error %d)"
+msgid "Connection failed (Winsock error: %d)"
 msgstr ""
 
 msgid "Connection string"
@@ -2334,7 +2312,10 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "Parametreleri gir"
 
-msgid "Enter the server address as host:port (e.g. 192.168.1.10:10110)."
+msgid "Enter the address as host:port (e.g. 192.168.1.10:10110)"
+msgstr ""
+
+msgid "Enter the address as port or addr:port (e.g. 224.5.1.21:1365)"
 msgstr ""
 
 #. Programmer's name for it: rsEquinox
@@ -2774,10 +2755,6 @@ msgstr ""
 msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr ""
 
-#. Programmer's name for it: rsGlobalMapperCacheName
-msgid "GlobalMapper Tiles"
-msgstr "GlobalMapper Döşemeleri"
-
 msgid "GlobalMapper Tiles (GMT) cache folder:"
 msgstr "GlobalMapperTiles (GMT) önbellek klasörü:"
 
@@ -2819,10 +2796,6 @@ msgstr "Mesai başlangıcı"
 msgid "GoogleEarth cache folder:"
 msgstr "Google Earth önbellek klasörü:"
 
-#. Programmer's name for it: rsGoogleEarthTerrainCacheName
-msgid "GoogleEarth Terrain"
-msgstr "Google Earth Arazisi"
-
 msgid "GoogleMV cache folder:"
 msgstr "GoogleMV önbellek klasörü:"
 
@@ -2832,7 +2805,7 @@ msgid "GPS Data"
 msgstr "GPS tipi"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := (cbbGpsType.ItemIndex = 3); // todo
+#. chkUseReplayTrackFile.Enabled := (VOrigin = gpsoFlyOnTrack); // todo
 msgid "GPS On/Off"
 msgstr "GPS Aç/Kapat"
 
@@ -2850,6 +2823,35 @@ msgstr "GPS alıcısı bulunamadı"
 #, fuzzy
 msgid "GPS type:"
 msgstr "GPS tipi"
+
+msgctxt "gps-conn-state"
+msgid "connected"
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "connected, no data"
+msgstr ""
+
+#, fuzzy
+msgctxt "gps-conn-state"
+msgid "connecting..."
+msgstr "Bağlantı dizisi"
+
+msgctxt "gps-conn-state"
+msgid "disconnecting..."
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "not connected"
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "probing the server..."
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "waiting before auto reconnect"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
@@ -5132,10 +5134,6 @@ msgstr "Sensörler"
 msgid "Separate file for each placemark"
 msgstr "Yeni yer işareti oluştur"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
-msgid "Server address (host:port):"
-msgstr ""
-
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
 msgid "Server returned type \"%0:s\", this is not bitmap image"
@@ -5779,10 +5777,6 @@ msgstr ""
 msgid "Task"
 msgstr "Görev"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
-msgid "TCP NMEA"
-msgstr ""
-
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
 msgid "Template or Base part of request URL:"
 msgstr "İstek URL'sinin şablon veya temel kısmı:"
@@ -6165,6 +6159,9 @@ msgstr ""
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "TNE varsa indirmeyi dene"
+
+msgid "Try to connect and check the server for NMEA or GPSD data"
+msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
 msgid "Try to connect and check the server for nmea/gpsd data"
@@ -6620,6 +6617,22 @@ msgstr "Yakınlaştırma:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Sırası:"
+
+#~ msgid "[clip]"
+#~ msgstr "[kırp]"
+
+#~ msgid "[subject]"
+#~ msgstr "[konu]"
+
+#, fuzzy
+#~ msgid "256x256"
+#~ msgstr "256x256 px"
+
+#~ msgid "GlobalMapper Tiles"
+#~ msgstr "GlobalMapper Döşemeleri"
+
+#~ msgid "GoogleEarth Terrain"
+#~ msgstr "Google Earth Arazisi"
 
 #~ msgid "FillDates"
 #~ msgstr "Doldurma Tarihleri"

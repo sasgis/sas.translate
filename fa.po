@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2026-11-15 17:38\n"
+"POT-Creation-Date: 2026-11-18 16:32\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -141,14 +141,6 @@ msgstr "* - محدود به حداکثر درخواست همزمان http(ها) 
 msgid "/pixel"
 msgstr "/ پیکسل"
 
-#. Programmer's name for it: rsClip
-msgid "[clip]"
-msgstr "[کلیپ]"
-
-#. Programmer's name for it: rsSubject
-msgid "[subject]"
-msgstr "[موضوع]"
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "1.2km"
@@ -189,11 +181,6 @@ msgstr "1:50 000 (500 متر)"
 #. frmMain..actlstMain..actViewGridGenShtab_500_000..Caption
 msgid "1:500 000 (5 km)"
 msgstr "1:500 000 (5 کیلومتر)"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize..Text
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "1024x1024"
-msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #, fuzzy
@@ -245,10 +232,6 @@ msgstr "12 کیلومتر"
 msgid "12m"
 msgstr "12 متر"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..edServerAddress..TextHint
-msgid "192.168.1.10:10110"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "2..3km"
 msgstr ""
@@ -261,10 +244,6 @@ msgstr "200 کیلومتر"
 msgid "200m"
 msgstr "200 متر"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "2048x2048"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20km"
@@ -273,11 +252,6 @@ msgstr "20 کیلومتر"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20m"
 msgstr "20 متر"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-#, fuzzy
-msgid "256x256"
-msgstr "256x256 پیکسل"
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "2km"
@@ -310,10 +284,6 @@ msgstr "30 متر"
 msgid "3km"
 msgstr "3 کیلومتر"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "4096x4096"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #, fuzzy
 msgid "5..200m"
@@ -345,10 +315,6 @@ msgstr "50 کیلومتر"
 msgid "50m"
 msgstr "50 متر"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "512x512"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "5km"
@@ -379,10 +345,6 @@ msgstr "80 کیلومتر"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "80m"
 msgstr "80 متر"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "8192x8192"
-msgstr ""
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "8km"
@@ -578,6 +540,10 @@ msgstr "اضافی"
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..Caption
 msgid "Additional Operations"
 msgstr "عملیات اضافی"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+msgid "Address:"
+msgstr ""
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlLayers..chkAll..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..chkSetAllMarksInCategoryVisible..Caption
@@ -964,11 +930,30 @@ msgstr "پوشه کش BerkeleyDB:"
 msgid "Best"
 msgstr ""
 
+#, object-pascal-format
+msgid "Bind failed (Winsock error: %d)"
+msgstr ""
+
+#. field semantics and the probe behavior differ
+msgid "Bind the port and check it for NMEA data"
+msgstr ""
+
 msgid "BMP: Fill line failure!"
 msgstr "BMP: خرابی خط پر کردن!"
 
 msgid "BMP: Line write failure!"
 msgstr "BMP: خط نوشتن ناموفق!"
+
+#, object-pascal-format
+msgid "Bound, but no data received in %d sec."
+msgstr ""
+
+#, object-pascal-format
+msgid "Bound, but no NMEA data received in %d sec."
+msgstr ""
+
+msgid "Bound: NMEA data received"
+msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlCurlImpersonateTarget..cbbCurlImpersonateTarget....Hint
 msgid ""
@@ -1366,11 +1351,6 @@ msgstr "رنگ:"
 msgid "Color:"
 msgstr "رنگ:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType..Text
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
-msgid "COM NMEA"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
@@ -1522,20 +1502,18 @@ msgid "Connected, but no data received in %d sec."
 msgstr ""
 
 #, object-pascal-format
-msgid ""
-"Connected, but no nmea/gpsd data received in %d sec. The server sends: \"%s\""
+msgid "Connected, but no NMEA or GPSD data received in %d sec."
 msgstr ""
 
-#. connection timeout allows, but no longer than 10 seconds
-msgid "Connected: gpsd server detected (json banner received)."
+msgid "Connected: GPSD server detected"
 msgstr ""
 
-#, object-pascal-format
-msgid "Connected: nmea data received: \"%s\""
-msgstr ""
+#, fuzzy
+msgid "Connected: NMEA data received"
+msgstr "اتصال به گیرنده GPS"
 
 #, object-pascal-format
-msgid "Connection failed (winsock error %d)"
+msgid "Connection failed (Winsock error: %d)"
 msgstr ""
 
 msgid "Connection string"
@@ -2375,7 +2353,10 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "پارامترها را وارد کنید"
 
-msgid "Enter the server address as host:port (e.g. 192.168.1.10:10110)."
+msgid "Enter the address as host:port (e.g. 192.168.1.10:10110)"
+msgstr ""
+
+msgid "Enter the address as port or addr:port (e.g. 224.5.1.21:1365)"
 msgstr ""
 
 #. Programmer's name for it: rsEquinox
@@ -2824,10 +2805,6 @@ msgstr ""
 msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr ""
 
-#. Programmer's name for it: rsGlobalMapperCacheName
-msgid "GlobalMapper Tiles"
-msgstr "کاشی های GlobalMapper"
-
 msgid "GlobalMapper Tiles (GMT) cache folder:"
 msgstr "پوشه کش GlobalMapper Tiles (GMT):"
 
@@ -2869,10 +2846,6 @@ msgstr ""
 msgid "GoogleEarth cache folder:"
 msgstr "پوشه کش GoogleEarth:"
 
-#. Programmer's name for it: rsGoogleEarthTerrainCacheName
-msgid "GoogleEarth Terrain"
-msgstr "GoogleEarth Terrain"
-
 msgid "GoogleMV cache folder:"
 msgstr "پوشه کش GoogleMV:"
 
@@ -2882,7 +2855,7 @@ msgid "GPS Data"
 msgstr "نوع GPS"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := (cbbGpsType.ItemIndex = 3); // todo
+#. chkUseReplayTrackFile.Enabled := (VOrigin = gpsoFlyOnTrack); // todo
 msgid "GPS On/Off"
 msgstr "GPS روشن/خاموش"
 
@@ -2900,6 +2873,35 @@ msgstr "گیرنده GPS یافت نشد"
 #, fuzzy
 msgid "GPS type:"
 msgstr "نوع GPS"
+
+msgctxt "gps-conn-state"
+msgid "connected"
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "connected, no data"
+msgstr ""
+
+#, fuzzy
+msgctxt "gps-conn-state"
+msgid "connecting..."
+msgstr "رشته اتصال"
+
+msgctxt "gps-conn-state"
+msgid "disconnecting..."
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "not connected"
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "probing the server..."
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "waiting before auto reconnect"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
@@ -5205,10 +5207,6 @@ msgstr "حسگرها"
 msgid "Separate file for each placemark"
 msgstr "مکان نشان جدید ایجاد کنید"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
-msgid "Server address (host:port):"
-msgstr ""
-
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
 msgid "Server returned type \"%0:s\", this is not bitmap image"
@@ -5871,10 +5869,6 @@ msgstr ""
 msgid "Task"
 msgstr "وظیفه"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
-msgid "TCP NMEA"
-msgstr ""
-
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
 #, fuzzy
 msgid "Template or Base part of request URL:"
@@ -6248,6 +6242,9 @@ msgstr ""
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "در صورت وجود، دانلود کنید"
+
+msgid "Try to connect and check the server for NMEA or GPSD data"
+msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
 msgid "Try to connect and check the server for nmea/gpsd data"
@@ -6712,6 +6709,22 @@ msgstr "بزرگنمایی ها:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Order:"
+
+#~ msgid "[clip]"
+#~ msgstr "[کلیپ]"
+
+#~ msgid "[subject]"
+#~ msgstr "[موضوع]"
+
+#, fuzzy
+#~ msgid "256x256"
+#~ msgstr "256x256 پیکسل"
+
+#~ msgid "GlobalMapper Tiles"
+#~ msgstr "کاشی های GlobalMapper"
+
+#~ msgid "GoogleEarth Terrain"
+#~ msgstr "GoogleEarth Terrain"
 
 #~ msgid "FillDates"
 #~ msgstr "FillDates"

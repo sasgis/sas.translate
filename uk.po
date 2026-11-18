@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-15 17:38\n"
+"POT-Creation-Date: 2026-11-18 16:32\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -140,14 +140,6 @@ msgstr "* - Обмежено кількістю паралельних http(s) �
 msgid "/pixel"
 msgstr "/пікс."
 
-#. Programmer's name for it: rsClip
-msgid "[clip]"
-msgstr ""
-
-#. Programmer's name for it: rsSubject
-msgid "[subject]"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "1.2km"
@@ -188,11 +180,6 @@ msgstr "1:50 000 (500 м)"
 #. frmMain..actlstMain..actViewGridGenShtab_500_000..Caption
 msgid "1:500 000 (5 km)"
 msgstr "1:500 000 (5 км)"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize..Text
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "1024x1024"
-msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "120..200km"
@@ -244,10 +231,6 @@ msgstr "12 км"
 msgid "12m"
 msgstr "12 м"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..edServerAddress..TextHint
-msgid "192.168.1.10:10110"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "2..3km"
 msgstr "2..3 км"
@@ -260,10 +243,6 @@ msgstr "200 км"
 msgid "200m"
 msgstr "200 м"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "2048x2048"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20km"
@@ -272,11 +251,6 @@ msgstr "20 км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "20m"
 msgstr "20 м"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-#, fuzzy
-msgid "256x256"
-msgstr "256x256 пікс."
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "2km"
@@ -308,10 +282,6 @@ msgstr "30 м"
 msgid "3km"
 msgstr "3 км"
 
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "4096x4096"
-msgstr ""
-
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 msgid "5..200m"
 msgstr "5..200 м"
@@ -339,10 +309,6 @@ msgstr "50 км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "50m"
 msgstr "50 м"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "512x512"
-msgstr ""
 
 #. frExportToIMG..pgcMain..tsMap..pnlZooms..ZoomGarmin....Items.Strings
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
@@ -373,10 +339,6 @@ msgstr "80 км"
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "80m"
 msgstr "80 м"
-
-#. frMapCombineCustomOptions..flwpnlKmzTileSize..cbbKmzTileSize....Items.Strings
-msgid "8192x8192"
-msgstr ""
 
 #. frExportToJNX..PageControl1..Map..pnlCenter..pnlMain..cbbscale1....Items.Strings
 msgid "8km"
@@ -571,6 +533,10 @@ msgstr "Додаткові операції"
 #. frmMain..MainPopupMenu..tbitmAdditionalOperations..Caption
 msgid "Additional Operations"
 msgstr "Додаткові операції"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+msgid "Address:"
+msgstr ""
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlLayers..chkAll..Caption
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpMarks..pnlMarksBottom..chkSetAllMarksInCategoryVisible..Caption
@@ -956,11 +922,30 @@ msgstr "Шлях до кешу BerkeleyDB:"
 msgid "Best"
 msgstr ""
 
+#, object-pascal-format
+msgid "Bind failed (Winsock error: %d)"
+msgstr ""
+
+#. field semantics and the probe behavior differ
+msgid "Bind the port and check it for NMEA data"
+msgstr ""
+
 msgid "BMP: Fill line failure!"
 msgstr "BMP: Помилка заповнення!"
 
 msgid "BMP: Line write failure!"
 msgstr "BMP: Помилка відмальовки лінії!"
+
+#, object-pascal-format
+msgid "Bound, but no data received in %d sec."
+msgstr ""
+
+#, object-pascal-format
+msgid "Bound, but no NMEA data received in %d sec."
+msgstr ""
+
+msgid "Bound: NMEA data received"
+msgstr ""
 
 #. frmSettings..PageControl1..tsInternet..pnlDownloadParams..pnlCurlImpersonateTarget..cbbCurlImpersonateTarget....Hint
 msgid ""
@@ -1356,11 +1341,6 @@ msgstr "Кольорова схема %d"
 msgid "Color:"
 msgstr "Колір:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType..Text
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
-msgid "COM NMEA"
-msgstr ""
-
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
@@ -1511,20 +1491,18 @@ msgid "Connected, but no data received in %d sec."
 msgstr ""
 
 #, object-pascal-format
-msgid ""
-"Connected, but no nmea/gpsd data received in %d sec. The server sends: \"%s\""
+msgid "Connected, but no NMEA or GPSD data received in %d sec."
 msgstr ""
 
-#. connection timeout allows, but no longer than 10 seconds
-msgid "Connected: gpsd server detected (json banner received)."
+msgid "Connected: GPSD server detected"
 msgstr ""
 
-#, object-pascal-format
-msgid "Connected: nmea data received: \"%s\""
-msgstr ""
+#, fuzzy
+msgid "Connected: NMEA data received"
+msgstr "Під’єднатись до GPS-приймача"
 
 #, object-pascal-format
-msgid "Connection failed (winsock error %d)"
+msgid "Connection failed (Winsock error: %d)"
 msgstr ""
 
 msgid "Connection string"
@@ -2358,7 +2336,10 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "Введення параметрів"
 
-msgid "Enter the server address as host:port (e.g. 192.168.1.10:10110)."
+msgid "Enter the address as host:port (e.g. 192.168.1.10:10110)"
+msgstr ""
+
+msgid "Enter the address as port or addr:port (e.g. 224.5.1.21:1365)"
 msgstr ""
 
 #. Programmer's name for it: rsEquinox
@@ -2805,10 +2786,6 @@ msgstr ""
 msgid "Given Overview level \"%s\" is not a power of 2!"
 msgstr ""
 
-#. Programmer's name for it: rsGlobalMapperCacheName
-msgid "GlobalMapper Tiles"
-msgstr ""
-
 msgid "GlobalMapper Tiles (GMT) cache folder:"
 msgstr "Шлях до кешу GlobalMapper Tiles (GMT):"
 
@@ -2850,10 +2827,6 @@ msgstr "Початок золотої години"
 msgid "GoogleEarth cache folder:"
 msgstr "Шлях до кешу Google Earth:"
 
-#. Programmer's name for it: rsGoogleEarthTerrainCacheName
-msgid "GoogleEarth Terrain"
-msgstr ""
-
 msgid "GoogleMV cache folder:"
 msgstr "Шлях до кешу GoogleMV:"
 
@@ -2863,7 +2836,7 @@ msgid "GPS Data"
 msgstr "Тип GPS"
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := (cbbGpsType.ItemIndex = 3); // todo
+#. chkUseReplayTrackFile.Enabled := (VOrigin = gpsoFlyOnTrack); // todo
 msgid "GPS On/Off"
 msgstr "GPS Увімкн/Вимкн"
 
@@ -2881,6 +2854,35 @@ msgstr "Не знайдено GPS-приймач"
 #, fuzzy
 msgid "GPS type:"
 msgstr "Тип GPS"
+
+msgctxt "gps-conn-state"
+msgid "connected"
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "connected, no data"
+msgstr ""
+
+#, fuzzy
+msgctxt "gps-conn-state"
+msgid "connecting..."
+msgstr "Проектування"
+
+msgctxt "gps-conn-state"
+msgid "disconnecting..."
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "not connected"
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "probing the server..."
+msgstr ""
+
+msgctxt "gps-conn-state"
+msgid "waiting before auto reconnect"
+msgstr ""
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
@@ -5187,10 +5189,6 @@ msgstr "Датчики"
 msgid "Separate file for each placemark"
 msgstr "Створити нову позначку"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
-msgid "Server address (host:port):"
-msgstr ""
-
 #. Programmer's name for it: SAS_ERR_BadMIMEForDownloadRastr
 #, no-object-pascal-format
 msgid "Server returned type \"%0:s\", this is not bitmap image"
@@ -5851,10 +5849,6 @@ msgstr ""
 msgid "Task"
 msgstr "Операція"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..cbbGpsType....Items.Strings
-msgid "TCP NMEA"
-msgstr ""
-
 #. frmMapTypeEdit..PageControl1..tsInternet..pnlUrl..lblUrl..Caption
 #, fuzzy
 msgid "Template or Base part of request URL:"
@@ -6237,6 +6231,9 @@ msgstr ""
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
 msgstr "Намагатись завантажувати тайли, для яких є tne"
+
+msgid "Try to connect and check the server for NMEA or GPSD data"
+msgstr ""
 
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
 msgid "Try to connect and check the server for nmea/gpsd data"
@@ -6700,6 +6697,10 @@ msgstr "Масштаби:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
+
+#, fuzzy
+#~ msgid "256x256"
+#~ msgstr "256x256 пікс."
 
 #~ msgid "FillDates"
 #~ msgstr "Дата створення"
@@ -7256,9 +7257,6 @@ msgstr "Z-Сортування:"
 
 #~ msgid "Try to re-download missing tiles"
 #~ msgstr "Намагатись завантажувати відсутні тайли"
-
-#~ msgid "Projecting"
-#~ msgstr "Проектування"
 
 #~ msgid "Automatically detect location using GSM phone (Google query)"
 #~ msgstr ""
