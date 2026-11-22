@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-18 16:32\n"
+"POT-Creation-Date: 2026-11-22 16:01\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -534,7 +534,7 @@ msgstr "Додаткові операції"
 msgid "Additional Operations"
 msgstr "Додаткові операції"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+#. frGPSDeviceNetwork..lblServerAddress..Caption
 msgid "Address:"
 msgstr ""
 
@@ -559,7 +559,7 @@ msgstr "Все за стандартними налаштуваннями"
 msgid "All compatible formats"
 msgstr "Всі підтримувані формати"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectAll..Caption
 #, fuzzy
 msgid "All sources"
 msgstr "Всі сервіси"
@@ -817,16 +817,21 @@ msgstr "Атрибуція:"
 msgid "Auto"
 msgstr "Автоматично"
 
+#. frGPSDeviceNetwork..chkAutoReconnect..Caption
+#, fuzzy
+msgid "Auto reconnect"
+msgstr "Автовизначення при підключенні"
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Автоматично показувати/приховувати панель датчиків"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+#. frGPSDeviceCom..flwpnlComPort..btnAutodetectComPort..Hint
 #, fuzzy
 msgid "Autodetect device COM port"
 msgstr "Автовизначення COM-порту"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..Caption
 #, fuzzy
 msgid "Autodetect port on connect"
 msgstr "Автопошук підключеного COM-порту"
@@ -926,7 +931,6 @@ msgstr ""
 msgid "Bind failed (Winsock error: %d)"
 msgstr ""
 
-#. field semantics and the probe behavior differ
 msgid "Bind the port and check it for NMEA data"
 msgstr ""
 
@@ -1341,7 +1345,7 @@ msgstr "Кольорова схема %d"
 msgid "Color:"
 msgstr "Колір:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
 
@@ -1952,10 +1956,6 @@ msgstr "Папка %0:s не існує"
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
 msgstr "Вимкнути"
-
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Hint
-msgid "Disable or enable GPS"
-msgstr "Вимкнути або ввімкнути GPS"
 
 msgid "Disabled by map params"
 msgstr "Вимкнено в параметрах карти"
@@ -2778,8 +2778,8 @@ msgstr ""
 msgid "GeoTiff Settings"
 msgstr "Параметри іконок"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
-msgid "Get list of tracks to replay from ReplayTrack.txt"
+#. frGPSDeviceReplay..chkUseReplayTrackFile..Caption
+msgid "Get list of tracks from ReplayTrack.txt"
 msgstr ""
 
 #, object-pascal-format
@@ -2835,9 +2835,13 @@ msgstr "Шлях до кешу GoogleMV:"
 msgid "GPS Data"
 msgstr "Тип GPS"
 
+#, fuzzy
+msgid "GPS Off"
+msgstr "GPS Увімкн/Вимкн"
+
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := (VOrigin = gpsoFlyOnTrack); // todo
-msgid "GPS On/Off"
+#, fuzzy
+msgid "GPS On"
 msgstr "GPS Увімкн/Вимкн"
 
 #. Programmer's name for it: SAS_MSG_UnknownGPSOrigin
@@ -2850,10 +2854,10 @@ msgstr "GPS помилкові налаштування: невідомий ре
 msgid "GPS receiver has not been found!"
 msgstr "Не знайдено GPS-приймач"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsType..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsSource..Caption
 #, fuzzy
-msgid "GPS type:"
-msgstr "Тип GPS"
+msgid "GPS source:"
+msgstr "Джерела:"
 
 msgctxt "gps-conn-state"
 msgid "connected"
@@ -4177,7 +4181,7 @@ msgstr "Шлях до кешу SQLite3:"
 msgid "Other"
 msgstr "Інші"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectOthers..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectOthers..Caption
 msgid "Others"
 msgstr "Інші"
 
@@ -4435,6 +4439,13 @@ msgstr " Категорії позначок "
 msgid "Play"
 msgstr "Програти"
 
+msgid "Play the track(s) as the GPS source"
+msgstr ""
+
+#. frGPSDeviceReplay..chkLoopPlayback..Caption
+msgid "Play tracks in a loop"
+msgstr ""
+
 msgid "Please select a map"
 msgstr "Оберіть карту, будьласка!"
 
@@ -4548,7 +4559,7 @@ msgstr "Виділення по шляху"
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Пул вимкнено - Неможливо отримати db: %s"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
+#. frGPSDeviceCom..flwpnlComPort..lblPort..Caption
 msgid "Port:"
 msgstr ""
 
@@ -4597,7 +4608,7 @@ msgstr "Тайл основної карти"
 msgid "Primary provider:"
 msgstr "Основне джерело:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Caption
+#. frGPSDeviceNetwork..btnServerProbe..Caption
 msgid "Probe"
 msgstr ""
 
@@ -5117,6 +5128,11 @@ msgstr "Результати пошуку"
 msgid "searching"
 msgstr "Пошук"
 
+#. frGPSDeviceReplay..pnlTrackFileRow..btnBrowseTrackFile..Hint
+#, fuzzy
+msgid "Select a track file to replay"
+msgstr "Обрати карту в якості основного шару"
+
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 #, fuzzy
 msgid "Select All Visible Placemarks"
@@ -5556,6 +5572,10 @@ msgstr "Показує час UTC"
 msgid "Shows vertical dilution of precision"
 msgstr "Показує VDOP"
 
+#. frGPSDeviceNetwork..chkSilentMode..Caption
+msgid "Silent mode"
+msgstr ""
+
 msgid "Size of answer is zero"
 msgstr ""
 
@@ -5672,7 +5692,12 @@ msgstr "Швидкість"
 msgid "Speed Min, Avg, Max"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+#. frGPSDeviceReplay..flwpnlPlaybackSpeed..lblPlaybackSpeed..Caption
+#, fuzzy
+msgid "Speed, x:"
+msgstr "Швидкість"
+
+#. frGPSDeviceCom..flwpnlComPortSpeed..lblSpeed..Caption
 #, fuzzy
 msgid "Speed:"
 msgstr "Швидкість"
@@ -5782,6 +5807,9 @@ msgstr "Склеїти: %0:dx%1:d (%2:d) файлів"
 msgid "Stitching the map"
 msgstr "Склейка карти"
 
+msgid "Stop the track playback"
+msgstr ""
+
 #, fuzzy
 msgid "Store"
 msgstr " Сховище "
@@ -5832,6 +5860,10 @@ msgstr "Час заходу сонця"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Час заходу сонця:"
+
+#. frGPSDeviceNetwork..chkSilentMode....Hint
+msgid "Suppress connection error messages while auto reconnect is enabled"
+msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
@@ -5899,6 +5931,10 @@ msgstr ""
 msgid "The path to the temporary files is not set or incorrect!"
 msgstr "Шлях до утиліти GTM не вказаний або вказано некорректно!"
 
+#. frGPSDeviceReplay..flwpnlPlaybackSpeed..sePlaybackSpeed....Hint
+msgid "The playback speed of the tracks, x times the real time (1 = real time)"
+msgstr ""
+
 #, fuzzy
 msgid "The Polygon is not selected!"
 msgstr "Полігон не вибраний"
@@ -5945,6 +5981,10 @@ msgstr ""
 " Зменшіть виділену область склейки в %s або виберіть інший формат (ECW - "
 "найкращий)."
 
+#. Programmer's name for it: SAS_ERR_GpsServerAddressNotSet
+msgid "The server address of the GPS source is not set!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "Обробку файлів завершено!"
@@ -5971,6 +6011,15 @@ msgstr "Цей тайл вже є в кеші"
 msgid "The tne is newer than the entered age, skipping."
 msgstr ""
 "Цей tne створено пізніше зазначеного терміну, пропускаємо завантаження."
+
+#. Programmer's name for it: SAS_MSG_ReplayTrackListIsEmpty
+#, object-pascal-format
+msgid ""
+"The track list file is missing or empty:\n"
+"%s\n"
+"\n"
+"Add the list of track files or paths to it."
+msgstr ""
 
 #, no-object-pascal-format
 msgid ""
@@ -6220,13 +6269,31 @@ msgstr "Всього"
 msgid "Track"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_ReplayTrackFileNotFound
+#, fuzzy, object-pascal-format
+msgid ""
+"Track file not found:\n"
+"%s"
+msgstr "Такого зображення немає на сервері!"
+
+#. frGPSDeviceReplay..lblTrackFile..Caption
+#, fuzzy
+msgid "Track file:"
+msgstr "Ширина треку:"
+
 #. frElevationProfile..pmMain..mniStatistics..mniTrackName..Caption
 #, fuzzy
 msgid "Track Name"
 msgstr "Назва карти"
 
-msgid "Track Play/Stop"
-msgstr ""
+#, fuzzy
+msgid "Track Play"
+msgstr "Назва карти"
+
+#. the switch button reflects the actual gps state
+#, fuzzy
+msgid "Track Stop"
+msgstr "Ширина треку:"
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
@@ -6235,8 +6302,14 @@ msgstr "Намагатись завантажувати тайли, для як�
 msgid "Try to connect and check the server for NMEA or GPSD data"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
+#. frGPSDeviceNetwork..btnServerProbe..Hint
 msgid "Try to connect and check the server for nmea/gpsd data"
+msgstr ""
+
+msgid "Turn the GPS module off"
+msgstr ""
+
+msgid "Turn the GPS module on"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_NoMaps
@@ -6698,6 +6771,13 @@ msgstr "Масштаби:"
 msgid "Z-Order:"
 msgstr "Z-Сортування:"
 
+#~ msgid "Disable or enable GPS"
+#~ msgstr "Вимкнути або ввімкнути GPS"
+
+#, fuzzy
+#~ msgid "GPS type:"
+#~ msgstr "Тип GPS"
+
 #, fuzzy
 #~ msgid "256x256"
 #~ msgstr "256x256 пікс."
@@ -6764,9 +6844,6 @@ msgstr "Z-Сортування:"
 #~ msgid "Autodetect"
 #~ msgstr "Автовизначення"
 
-#~ msgid "Autodetect on connect"
-#~ msgstr "Автовизначення при підключенні"
-
 #~ msgid "Bits per second"
 #~ msgstr "Швидкість, біт/с"
 
@@ -6775,9 +6852,6 @@ msgstr "Z-Сортування:"
 
 #~ msgid "Serial port"
 #~ msgstr "COM-порт"
-
-#~ msgid "Track width:"
-#~ msgstr "Ширина треку:"
 
 #, fuzzy
 #~ msgid "RGB"
@@ -6947,9 +7021,6 @@ msgstr "Z-Сортування:"
 
 #~ msgid "Select Hybrid as main layer"
 #~ msgstr "Обрати гібрид у якості основного шару"
-
-#~ msgid "Select Map as main layer"
-#~ msgstr "Обрати карту в якості основного шару"
 
 #~ msgid "Select Satellite as main layer"
 #~ msgstr "Обрати супутник у якості основного шару"

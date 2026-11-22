@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-11-18 16:32\n"
+"POT-Creation-Date: 2026-11-22 16:01\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -527,7 +527,7 @@ msgstr "Additionnel :"
 msgid "Additional Operations"
 msgstr "Opérations additionnelles :"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+#. frGPSDeviceNetwork..lblServerAddress..Caption
 msgid "Address:"
 msgstr ""
 
@@ -552,7 +552,7 @@ msgstr "Tout par défaut"
 msgid "All compatible formats"
 msgstr "Tous les formats compatibles "
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectAll..Caption
 msgid "All sources"
 msgstr "Toutes les sources"
 
@@ -807,15 +807,20 @@ msgstr "Attribution :"
 msgid "Auto"
 msgstr "Automatique"
 
+#. frGPSDeviceNetwork..chkAutoReconnect..Caption
+#, fuzzy
+msgid "Auto reconnect"
+msgstr "Autodétecte à la connexion"
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "Automatique, afficher/masquer la barre d'outils des capteurs"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+#. frGPSDeviceCom..flwpnlComPort..btnAutodetectComPort..Hint
 msgid "Autodetect device COM port"
 msgstr "Autodétecte le port COM"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..Caption
 msgid "Autodetect port on connect"
 msgstr "Autodétecte le port à la connexion"
 
@@ -914,7 +919,6 @@ msgstr "Meilleur"
 msgid "Bind failed (Winsock error: %d)"
 msgstr ""
 
-#. field semantics and the probe behavior differ
 msgid "Bind the port and check it for NMEA data"
 msgstr ""
 
@@ -1325,7 +1329,7 @@ msgstr "Espace colorimétrique :"
 msgid "Color:"
 msgstr "Couleur :"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr "COM Virtuel"
 
@@ -1934,10 +1938,6 @@ msgstr "Le répertoire %0:s n'existe pas"
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
 msgstr "Désactiver"
-
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Hint
-msgid "Disable or enable GPS"
-msgstr "Désactiver ou activer le GPS"
 
 msgid "Disabled by map params"
 msgstr "Désactivé par les paramètres de la carte"
@@ -2749,8 +2749,9 @@ msgstr "Geographique (GoogleEarth) / EPSG:4326"
 msgid "GeoTiff Settings"
 msgstr "Paramètres GeoTiff"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
-msgid "Get list of tracks to replay from ReplayTrack.txt"
+#. frGPSDeviceReplay..chkUseReplayTrackFile..Caption
+#, fuzzy
+msgid "Get list of tracks from ReplayTrack.txt"
 msgstr "Obtenir la liste des pistes à relire à partir de ReplayTrack.txt"
 
 #, object-pascal-format
@@ -2807,9 +2808,13 @@ msgstr "GoogleMV, répertoire du cache :"
 msgid "GPS Data"
 msgstr "Données GPS"
 
+#, fuzzy
+msgid "GPS Off"
+msgstr "GPS Marche/Arrêt"
+
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := (VOrigin = gpsoFlyOnTrack); // todo
-msgid "GPS On/Off"
+#, fuzzy
+msgid "GPS On"
 msgstr "GPS Marche/Arrêt"
 
 #. Programmer's name for it: SAS_MSG_UnknownGPSOrigin
@@ -2821,10 +2826,10 @@ msgstr "Mauvaise configuration du GPS : mode inconnu %d"
 msgid "GPS receiver has not been found!"
 msgstr "Pas de récepteur GPS trouvé !"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsType..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsSource..Caption
 #, fuzzy
-msgid "GPS type:"
-msgstr "Type de GPS :"
+msgid "GPS source:"
+msgstr "Sources :"
 
 msgctxt "gps-conn-state"
 msgid "connected"
@@ -4116,7 +4121,7 @@ msgstr "SQLite3, répertoire du cache :"
 msgid "Other"
 msgstr "Autre :"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectOthers..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectOthers..Caption
 msgid "Others"
 msgstr "Autres"
 
@@ -4369,6 +4374,13 @@ msgstr "Gestion des catégories"
 msgid "Play"
 msgstr "Fonctionne"
 
+msgid "Play the track(s) as the GPS source"
+msgstr ""
+
+#. frGPSDeviceReplay..chkLoopPlayback..Caption
+msgid "Play tracks in a loop"
+msgstr ""
+
 msgid "Please select a map"
 msgstr "Sélectionner une carte."
 
@@ -4476,7 +4488,7 @@ msgstr "Sélection polyligne"
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Ne peut pas accéder à la base de données : %s"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
+#. frGPSDeviceCom..flwpnlComPort..lblPort..Caption
 msgid "Port:"
 msgstr "Port :"
 
@@ -4525,7 +4537,7 @@ msgstr "la dalle (sélectionnée par clic droit) de la Carte affichée"
 msgid "Primary provider:"
 msgstr "Source principale :"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Caption
+#. frGPSDeviceNetwork..btnServerProbe..Caption
 msgid "Probe"
 msgstr ""
 
@@ -5037,6 +5049,11 @@ msgstr "Résultats de la recherche"
 msgid "searching"
 msgstr "En train de chercher"
 
+#. frGPSDeviceReplay..pnlTrackFileRow..btnBrowseTrackFile..Hint
+#, fuzzy
+msgid "Select a track file to replay"
+msgstr "Sélectionner la carte comme couche principale"
+
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 msgid "Select All Visible Placemarks"
 msgstr "Sélectionner tous les marqueurs visibles"
@@ -5457,6 +5474,10 @@ msgstr "Afficher l'heure UTC (temps universel coordonné)"
 msgid "Shows vertical dilution of precision"
 msgstr "Afficher la dilution verticale de la précision"
 
+#. frGPSDeviceNetwork..chkSilentMode..Caption
+msgid "Silent mode"
+msgstr ""
+
 msgid "Size of answer is zero"
 msgstr "La taille de la réponse est zéro"
 
@@ -5569,7 +5590,12 @@ msgstr "Vitesse"
 msgid "Speed Min, Avg, Max"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+#. frGPSDeviceReplay..flwpnlPlaybackSpeed..lblPlaybackSpeed..Caption
+#, fuzzy
+msgid "Speed, x:"
+msgstr "Vitesse :"
+
+#. frGPSDeviceCom..flwpnlComPortSpeed..lblSpeed..Caption
 msgid "Speed:"
 msgstr "Vitesse :"
 
@@ -5676,6 +5702,9 @@ msgstr "Assembler : %0:dx%1:d (%2:d) fichiers"
 msgid "Stitching the map"
 msgstr "Assembler la carte"
 
+msgid "Stop the track playback"
+msgstr ""
+
 msgid "Store"
 msgstr "Stockage"
 
@@ -5724,6 +5753,10 @@ msgstr "Heure de coucher du soleil"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Heure de coucher du soleil :"
+
+#. frGPSDeviceNetwork..chkSilentMode....Hint
+msgid "Suppress connection error messages while auto reconnect is enabled"
+msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
@@ -5793,6 +5826,10 @@ msgstr ""
 msgid "The path to the temporary files is not set or incorrect!"
 msgstr "Le chemin de l'outil GMT est non sélectionné ou incorrect !"
 
+#. frGPSDeviceReplay..flwpnlPlaybackSpeed..sePlaybackSpeed....Hint
+msgid "The playback speed of the tracks, x times the real time (1 = real time)"
+msgstr ""
+
 msgid "The Polygon is not selected!"
 msgstr "Aucun polygone sélectionné !"
 
@@ -5839,6 +5876,10 @@ msgstr ""
 "Sélectionner une région plus petite ou choisir un algorithme de "
 "compression / format de sortie différent."
 
+#. Programmer's name for it: SAS_ERR_GpsServerAddressNotSet
+msgid "The server address of the GPS source is not set!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "La tâche est terminée !"
@@ -5863,6 +5904,15 @@ msgstr "Rien à télécharger, les dalles existent déjà !"
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr "La dalle est créée après la date limite : annuler."
+
+#. Programmer's name for it: SAS_MSG_ReplayTrackListIsEmpty
+#, object-pascal-format
+msgid ""
+"The track list file is missing or empty:\n"
+"%s\n"
+"\n"
+"Add the list of track files or paths to it."
+msgstr ""
 
 #, no-object-pascal-format
 msgid ""
@@ -6118,12 +6168,30 @@ msgstr "Total : %s"
 msgid "Track"
 msgstr "Piste"
 
+#. Programmer's name for it: SAS_MSG_ReplayTrackFileNotFound
+#, fuzzy, object-pascal-format
+msgid ""
+"Track file not found:\n"
+"%s"
+msgstr "La dalle n'est pas trouvée !"
+
+#. frGPSDeviceReplay..lblTrackFile..Caption
+#, fuzzy
+msgid "Track file:"
+msgstr "Largeur de la piste :"
+
 #. frElevationProfile..pmMain..mniStatistics..mniTrackName..Caption
 #, fuzzy
 msgid "Track Name"
 msgstr "Nom de la Carte"
 
-msgid "Track Play/Stop"
+#, fuzzy
+msgid "Track Play"
+msgstr "Lecture/Arrêt de la piste"
+
+#. the switch button reflects the actual gps state
+#, fuzzy
+msgid "Track Stop"
 msgstr "Lecture/Arrêt de la piste"
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
@@ -6133,8 +6201,14 @@ msgstr "Essayer de re-télécharger les dalles absentes"
 msgid "Try to connect and check the server for NMEA or GPSD data"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
+#. frGPSDeviceNetwork..btnServerProbe..Hint
 msgid "Try to connect and check the server for nmea/gpsd data"
+msgstr ""
+
+msgid "Turn the GPS module off"
+msgstr ""
+
+msgid "Turn the GPS module on"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_NoMaps
@@ -6587,6 +6661,13 @@ msgstr "Zooms :"
 msgid "Z-Order:"
 msgstr "Z-Order :"
 
+#~ msgid "Disable or enable GPS"
+#~ msgstr "Désactiver ou activer le GPS"
+
+#, fuzzy
+#~ msgid "GPS type:"
+#~ msgstr "Type de GPS :"
+
 #~ msgid "[clip]"
 #~ msgstr "[attache]"
 
@@ -6687,9 +6768,6 @@ msgstr "Z-Order :"
 #~ msgid "Autodetect"
 #~ msgstr "Autodétecte :"
 
-#~ msgid "Autodetect on connect"
-#~ msgstr "Autodétecte à la connexion"
-
 #~ msgid "Bits per second"
 #~ msgstr "Bits par seconde :"
 
@@ -6698,9 +6776,6 @@ msgstr "Z-Order :"
 
 #~ msgid "Serial port"
 #~ msgstr "Port série :"
-
-#~ msgid "Track width:"
-#~ msgstr "Largeur de la piste :"
 
 #, fuzzy
 #~ msgid "RGB"
@@ -6869,9 +6944,6 @@ msgstr "Z-Order :"
 
 #~ msgid "Select Hybrid as main layer"
 #~ msgstr "Sélectionner l'hybride comme couche principale"
-
-#~ msgid "Select Map as main layer"
-#~ msgstr "Sélectionner la carte comme couche principale"
 
 #~ msgid "Select Satellite as main layer"
 #~ msgstr "Sélectionner le satellite comme couche principale"

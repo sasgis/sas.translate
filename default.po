@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-11-18 16:32\n"
-"PO-Revision-Date: 2026-11-18 16:32\n"
+"POT-Creation-Date: 2026-11-22 16:01\n"
+"PO-Revision-Date: 2026-11-22 16:01\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -529,7 +529,7 @@ msgstr ""
 msgid "Additional Operations"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+#. frGPSDeviceNetwork..lblServerAddress..Caption
 msgid "Address:"
 msgstr ""
 
@@ -554,7 +554,7 @@ msgstr ""
 msgid "All compatible formats"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectAll..Caption
 msgid "All sources"
 msgstr ""
 
@@ -821,15 +821,19 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
+#. frGPSDeviceNetwork..chkAutoReconnect..Caption
+msgid "Auto reconnect"
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+#. frGPSDeviceCom..flwpnlComPort..btnAutodetectComPort..Hint
 msgid "Autodetect device COM port"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..Caption
 msgid "Autodetect port on connect"
 msgstr ""
 
@@ -927,7 +931,6 @@ msgstr ""
 msgid "Bind failed (Winsock error: %d)"
 msgstr ""
 
-#. field semantics and the probe behavior differ
 msgid ""
 "Bind the port and check it for NMEA "
 "data"
@@ -1347,7 +1350,7 @@ msgstr ""
 msgid "Color:"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
 
@@ -1948,10 +1951,6 @@ msgstr ""
 
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
-msgstr ""
-
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Hint
-msgid "Disable or enable GPS"
 msgstr ""
 
 msgid "Disabled by map params"
@@ -2761,8 +2760,8 @@ msgstr ""
 msgid "GeoTiff Settings"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
-msgid "Get list of tracks to replay from ReplayTrack.txt"
+#. frGPSDeviceReplay..chkUseReplayTrackFile..Caption
+msgid "Get list of tracks from ReplayTrack.txt"
 msgstr ""
 
 #, object-pascal-format
@@ -2817,9 +2816,11 @@ msgstr ""
 msgid "GPS Data"
 msgstr ""
 
+msgid "GPS Off"
+msgstr ""
+
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := (VOrigin = gpsoFlyOnTrack); // todo
-msgid "GPS On/Off"
+msgid "GPS On"
 msgstr ""
 
 #. Programmer's name for it: SAS_MSG_UnknownGPSOrigin
@@ -2833,8 +2834,8 @@ msgstr ""
 msgid "GPS receiver has not been found!"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsType..Caption
-msgid "GPS type:"
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsSource..Caption
+msgid "GPS source:"
 msgstr ""
 
 msgctxt "gps-conn-state"
@@ -4132,7 +4133,7 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectOthers..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectOthers..Caption
 msgid "Others"
 msgstr ""
 
@@ -4380,6 +4381,13 @@ msgstr ""
 msgid "Play"
 msgstr ""
 
+msgid "Play the track(s) as the GPS source"
+msgstr ""
+
+#. frGPSDeviceReplay..chkLoopPlayback..Caption
+msgid "Play tracks in a loop"
+msgstr ""
+
 msgid "Please select a map"
 msgstr ""
 
@@ -4492,7 +4500,7 @@ msgstr ""
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
+#. frGPSDeviceCom..flwpnlComPort..lblPort..Caption
 msgid "Port:"
 msgstr ""
 
@@ -4547,7 +4555,7 @@ msgstr ""
 msgid "Primary provider:"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Caption
+#. frGPSDeviceNetwork..btnServerProbe..Caption
 msgid "Probe"
 msgstr ""
 
@@ -5058,6 +5066,10 @@ msgstr ""
 msgid "searching"
 msgstr ""
 
+#. frGPSDeviceReplay..pnlTrackFileRow..btnBrowseTrackFile..Hint
+msgid "Select a track file to replay"
+msgstr ""
+
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 msgid "Select All Visible Placemarks"
 msgstr ""
@@ -5478,6 +5490,10 @@ msgstr ""
 msgid "Shows vertical dilution of precision"
 msgstr ""
 
+#. frGPSDeviceNetwork..chkSilentMode..Caption
+msgid "Silent mode"
+msgstr ""
+
 msgid "Size of answer is zero"
 msgstr ""
 
@@ -5592,7 +5608,11 @@ msgstr ""
 msgid "Speed Min, Avg, Max"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+#. frGPSDeviceReplay..flwpnlPlaybackSpeed..lblPlaybackSpeed..Caption
+msgid "Speed, x:"
+msgstr ""
+
+#. frGPSDeviceCom..flwpnlComPortSpeed..lblSpeed..Caption
 msgid "Speed:"
 msgstr ""
 
@@ -5701,6 +5721,9 @@ msgstr ""
 msgid "Stitching the map"
 msgstr ""
 
+msgid "Stop the track playback"
+msgstr ""
+
 msgid "Store"
 msgstr ""
 
@@ -5748,6 +5771,12 @@ msgstr ""
 
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
+msgstr ""
+
+#. frGPSDeviceNetwork..chkSilentMode....Hint
+msgid ""
+"Suppress connection error messages while auto reconnect is "
+"enabled"
 msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
@@ -5812,6 +5841,12 @@ msgid ""
 "incorrect!"
 msgstr ""
 
+#. frGPSDeviceReplay..flwpnlPlaybackSpeed..sePlaybackSpeed....Hint
+msgid ""
+"The playback speed of the tracks, x times the real time (1 = real "
+"time)"
+msgstr ""
+
 msgid "The Polygon is not selected!"
 msgstr ""
 
@@ -5849,6 +5884,12 @@ msgid ""
 "algorithm / output format."
 msgstr ""
 
+#. Programmer's name for it: SAS_ERR_GpsServerAddressNotSet
+msgid ""
+"The server address of the GPS source is not "
+"set!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr ""
@@ -5877,6 +5918,16 @@ msgstr ""
 msgid ""
 "The tne is newer than the entered age, "
 "skipping."
+msgstr ""
+
+#. Programmer's name for it: SAS_MSG_ReplayTrackListIsEmpty
+#, object-pascal-format
+msgid ""
+"The track list file is missing or empty:\n"
+"%s\n"
+"\n"
+"Add the list of track files or paths to "
+"it."
 msgstr ""
 
 #, no-object-pascal-format
@@ -6124,11 +6175,26 @@ msgstr ""
 msgid "Track"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_ReplayTrackFileNotFound
+#, object-pascal-format
+msgid ""
+"Track file not found:\n"
+"%s"
+msgstr ""
+
+#. frGPSDeviceReplay..lblTrackFile..Caption
+msgid "Track file:"
+msgstr ""
+
 #. frElevationProfile..pmMain..mniStatistics..mniTrackName..Caption
 msgid "Track Name"
 msgstr ""
 
-msgid "Track Play/Stop"
+msgid "Track Play"
+msgstr ""
+
+#. the switch button reflects the actual gps state
+msgid "Track Stop"
 msgstr ""
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
@@ -6140,10 +6206,16 @@ msgid ""
 "data"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
+#. frGPSDeviceNetwork..btnServerProbe..Hint
 msgid ""
 "Try to connect and check the server for nmea/gpsd "
 "data"
+msgstr ""
+
+msgid "Turn the GPS module off"
+msgstr ""
+
+msgid "Turn the GPS module on"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_NoMaps

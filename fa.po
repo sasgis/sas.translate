@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS Planet\n"
-"POT-Creation-Date: 2026-11-18 16:32\n"
+"POT-Creation-Date: 2026-11-22 16:01\n"
 "PO-Revision-Date: 2024-12-10 00:23+0330\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: Barzin\n"
@@ -541,7 +541,7 @@ msgstr "اضافی"
 msgid "Additional Operations"
 msgstr "عملیات اضافی"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..lblServerAddress..Caption
+#. frGPSDeviceNetwork..lblServerAddress..Caption
 msgid "Address:"
 msgstr ""
 
@@ -566,7 +566,7 @@ msgstr "همه به صورت پیش فرض"
 msgid "All compatible formats"
 msgstr "همه فرمت های سازگار"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectAll..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectAll..Caption
 #, fuzzy
 msgid "All sources"
 msgstr "همه خدمات"
@@ -825,16 +825,21 @@ msgstr "انتساب:"
 msgid "Auto"
 msgstr "خودکار"
 
+#. frGPSDeviceNetwork..chkAutoReconnect..Caption
+#, fuzzy
+msgid "Auto reconnect"
+msgstr "شناسایی خودکار در اتصال"
+
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
 msgstr "نوار ابزار سنسورها نمایش/پنهان کردن خودکار"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..btnGPSAutodetectCOM..Hint
+#. frGPSDeviceCom..flwpnlComPort..btnAutodetectComPort..Hint
 #, fuzzy
 msgid "Autodetect device COM port"
 msgstr "تشخیص خودکار پورت COM"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..Caption
 #, fuzzy
 msgid "Autodetect port on connect"
 msgstr "شناسایی خودکار پورت COM در اتصال"
@@ -934,7 +939,6 @@ msgstr ""
 msgid "Bind failed (Winsock error: %d)"
 msgstr ""
 
-#. field semantics and the probe behavior differ
 msgid "Bind the port and check it for NMEA data"
 msgstr ""
 
@@ -1351,7 +1355,7 @@ msgstr "رنگ:"
 msgid "Color:"
 msgstr "رنگ:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectComVirtual..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectComVirtual..Caption
 msgid "COM Virtual"
 msgstr ""
 
@@ -1966,10 +1970,6 @@ msgstr "دایرکتوری %0:s وجود ندارد"
 #. Programmer's name for it: rsDisableElevationInfo
 msgid "Disable"
 msgstr "غیر فعال کردن"
-
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Hint
-msgid "Disable or enable GPS"
-msgstr "GPS را غیرفعال یا فعال کنید"
 
 msgid "Disabled by map params"
 msgstr "توسط پارامترهای نقشه غیرفعال شد"
@@ -2797,8 +2797,8 @@ msgstr "جغرافیایی (طول و عرض جغرافیایی) / WGS84 / EPSG:
 msgid "GeoTiff Settings"
 msgstr "تنظیمات لایه"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..chkUseReplayTrackFile..Caption
-msgid "Get list of tracks to replay from ReplayTrack.txt"
+#. frGPSDeviceReplay..chkUseReplayTrackFile..Caption
+msgid "Get list of tracks from ReplayTrack.txt"
 msgstr ""
 
 #, object-pascal-format
@@ -2854,9 +2854,13 @@ msgstr "پوشه کش GoogleMV:"
 msgid "GPS Data"
 msgstr "نوع GPS"
 
+#, fuzzy
+msgid "GPS Off"
+msgstr "GPS روشن/خاموش"
+
 #. frGPSConfig..pnlGPSLeft..pnlGpsConfig..btnGPSSwitch..Caption
-#. chkUseReplayTrackFile.Enabled := (VOrigin = gpsoFlyOnTrack); // todo
-msgid "GPS On/Off"
+#, fuzzy
+msgid "GPS On"
 msgstr "GPS روشن/خاموش"
 
 #. Programmer's name for it: SAS_MSG_UnknownGPSOrigin
@@ -2869,10 +2873,10 @@ msgstr "پیکربندی اشتباه مبدا GPS: حالت ناشناخته %d
 msgid "GPS receiver has not been found!"
 msgstr "گیرنده GPS یافت نشد"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsType..Caption
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblGpsSource..Caption
 #, fuzzy
-msgid "GPS type:"
-msgstr "نوع GPS"
+msgid "GPS source:"
+msgstr "منابع:"
 
 msgctxt "gps-conn-state"
 msgid "connected"
@@ -4193,7 +4197,7 @@ msgstr "پوشه کش بومی:"
 msgid "Other"
 msgstr "دیگر"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..grpAutodetectComPort..chkAutodetectOthers..Caption
+#. frGPSDeviceCom..grpAutodetectComPort..chkAutodetectOthers..Caption
 msgid "Others"
 msgstr "دیگران"
 
@@ -4452,6 +4456,13 @@ msgstr "دسته بندی نشان مکان"
 msgid "Play"
 msgstr "بازی کنید"
 
+msgid "Play the track(s) as the GPS source"
+msgstr ""
+
+#. frGPSDeviceReplay..chkLoopPlayback..Caption
+msgid "Play tracks in a loop"
+msgstr ""
+
 #, fuzzy
 msgid "Please select a map"
 msgstr "لطفا حداقل یک نقشه را انتخاب کنید"
@@ -4566,7 +4577,7 @@ msgstr "انتخاب چند خط"
 msgid "Pool Disabled - Can't acquire db: %s"
 msgstr "Pool Disabled - نمی توان db را بدست آورد: %s"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPort..Label4..Caption
+#. frGPSDeviceCom..flwpnlComPort..lblPort..Caption
 msgid "Port:"
 msgstr ""
 
@@ -4615,7 +4626,7 @@ msgstr "کاشی نقشه اولیه"
 msgid "Primary provider:"
 msgstr "ارائه دهنده اصلی:"
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Caption
+#. frGPSDeviceNetwork..btnServerProbe..Caption
 msgid "Probe"
 msgstr ""
 
@@ -5135,6 +5146,11 @@ msgstr "نتایج جستجو"
 msgid "searching"
 msgstr "جستجو"
 
+#. frGPSDeviceReplay..pnlTrackFileRow..btnBrowseTrackFile..Hint
+#, fuzzy
+msgid "Select a track file to replay"
+msgstr "Map را به عنوان لایه اصلی انتخاب کنید"
+
 #. frmMarksExplorer..tbpmnMarks..tbxSelectAllVisible..Caption
 #, fuzzy
 msgid "Select All Visible Placemarks"
@@ -5573,6 +5589,10 @@ msgstr "زمان UTC را نشان می دهد"
 msgid "Shows vertical dilution of precision"
 msgstr "رقت عمودی دقت را نشان می دهد"
 
+#. frGPSDeviceNetwork..chkSilentMode..Caption
+msgid "Silent mode"
+msgstr ""
+
 msgid "Size of answer is zero"
 msgstr "اندازه پاسخ صفر است"
 
@@ -5689,7 +5709,12 @@ msgstr "سرعت"
 msgid "Speed Min, Avg, Max"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlComParams..flwpnlComPortSpeed..Label65..Caption
+#. frGPSDeviceReplay..flwpnlPlaybackSpeed..lblPlaybackSpeed..Caption
+#, fuzzy
+msgid "Speed, x:"
+msgstr "سرعت"
+
+#. frGPSDeviceCom..flwpnlComPortSpeed..lblSpeed..Caption
 #, fuzzy
 msgid "Speed:"
 msgstr "سرعت"
@@ -5801,6 +5826,9 @@ msgstr "بخیه: %0:dx%1:d (%2:d) فایل"
 msgid "Stitching the map"
 msgstr "دوختن نقشه"
 
+msgid "Stop the track playback"
+msgstr ""
+
 #, fuzzy
 msgid "Store"
 msgstr "ذخیره سازی"
@@ -5852,6 +5880,10 @@ msgstr "زمان غروب آفتاب"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "زمان غروب آفتاب:"
+
+#. frGPSDeviceNetwork..chkSilentMode....Hint
+msgid "Suppress connection error messages while auto reconnect is enabled"
+msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
@@ -5917,6 +5949,10 @@ msgstr ""
 msgid "The path to the temporary files is not set or incorrect!"
 msgstr ""
 
+#. frGPSDeviceReplay..flwpnlPlaybackSpeed..sePlaybackSpeed....Hint
+msgid "The playback speed of the tracks, x times the real time (1 = real time)"
+msgstr ""
+
 #, fuzzy
 msgid "The Polygon is not selected!"
 msgstr "چند ضلعی انتخاب نشده است"
@@ -5963,6 +5999,10 @@ msgstr ""
 "سعی کنید منطقه کوچکتری را برای دوخت در %s انتخاب کنید یا فرمت خروجی دیگری را "
 "انتخاب کنید (ECW بهترین است)."
 
+#. Programmer's name for it: SAS_ERR_GpsServerAddressNotSet
+msgid "The server address of the GPS source is not set!"
+msgstr ""
+
 #. Programmer's name for it: SAS_MSG_ProcessFilesComplete
 msgid "The task is completed!"
 msgstr "کار تمام شد!"
@@ -5987,6 +6027,15 @@ msgstr "کاشی از قبل وجود دارد"
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr "Tne جدیدتر از سن وارد شده، پرش است."
+
+#. Programmer's name for it: SAS_MSG_ReplayTrackListIsEmpty
+#, object-pascal-format
+msgid ""
+"The track list file is missing or empty:\n"
+"%s\n"
+"\n"
+"Add the list of track files or paths to it."
+msgstr ""
 
 #, no-object-pascal-format
 msgid ""
@@ -6231,13 +6280,31 @@ msgstr "مجموع"
 msgid "Track"
 msgstr ""
 
+#. Programmer's name for it: SAS_MSG_ReplayTrackFileNotFound
+#, fuzzy, object-pascal-format
+msgid ""
+"Track file not found:\n"
+"%s"
+msgstr "کاشی پیدا نشد!"
+
+#. frGPSDeviceReplay..lblTrackFile..Caption
+#, fuzzy
+msgid "Track file:"
+msgstr "عرض مسیر:"
+
 #. frElevationProfile..pmMain..mniStatistics..mniTrackName..Caption
 #, fuzzy
 msgid "Track Name"
 msgstr "نام نقشه"
 
-msgid "Track Play/Stop"
-msgstr ""
+#, fuzzy
+msgid "Track Play"
+msgstr "نام نقشه"
+
+#. the switch button reflects the actual gps state
+#, fuzzy
+msgid "Track Stop"
+msgstr "عرض مسیر:"
 
 #. frTilesDownload..pnlCenter..pnlMain..chkTryLoadIfTNE..Caption
 msgid "Try download if tne exists"
@@ -6246,8 +6313,14 @@ msgstr "در صورت وجود، دانلود کنید"
 msgid "Try to connect and check the server for NMEA or GPSD data"
 msgstr ""
 
-#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..pnlTcpParams..btnServerProbe..Hint
+#. frGPSDeviceNetwork..btnServerProbe..Hint
 msgid "Try to connect and check the server for nmea/gpsd data"
+msgstr ""
+
+msgid "Turn the GPS module off"
+msgstr ""
+
+msgid "Turn the GPS module on"
 msgstr ""
 
 #. Programmer's name for it: SAS_ERR_NoMaps
@@ -6710,6 +6783,13 @@ msgstr "بزرگنمایی ها:"
 msgid "Z-Order:"
 msgstr "Z-Order:"
 
+#~ msgid "Disable or enable GPS"
+#~ msgstr "GPS را غیرفعال یا فعال کنید"
+
+#, fuzzy
+#~ msgid "GPS type:"
+#~ msgstr "نوع GPS"
+
 #~ msgid "[clip]"
 #~ msgstr "[کلیپ]"
 
@@ -6783,9 +6863,6 @@ msgstr "Z-Order:"
 
 #~ msgid "Autodetect"
 #~ msgstr "شناسایی خودکار"
-
-#~ msgid "Autodetect on connect"
-#~ msgstr "شناسایی خودکار در اتصال"
 
 #~ msgid "Bits per second"
 #~ msgstr "بیت در ثانیه"
@@ -7052,9 +7129,6 @@ msgstr "Z-Order:"
 #~ msgid "Select Hybrid as main layer"
 #~ msgstr "Hybrid را به عنوان لایه اصلی انتخاب کنید"
 
-#~ msgid "Select Map as main layer"
-#~ msgstr "Map را به عنوان لایه اصلی انتخاب کنید"
-
 #~ msgid "Select Satellite as main layer"
 #~ msgstr "ماهواره را به عنوان لایه اصلی انتخاب کنید"
 
@@ -7072,9 +7146,6 @@ msgstr "Z-Order:"
 
 #~ msgid "Tile Map Service (TMS)"
 #~ msgstr "سرویس نقشه کاشی (TMS)"
-
-#~ msgid "Track width:"
-#~ msgstr "عرض مسیر:"
 
 #~ msgid "Unable to fix position"
 #~ msgstr "قادر به رفع موقعیت نیست"
