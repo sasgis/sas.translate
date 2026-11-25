@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-22 16:01\n"
-"PO-Revision-Date: 2026-11-22 16:25+0300\n"
+"POT-Creation-Date: 2026-11-25 21:40\n"
+"PO-Revision-Date: 2026-11-25 21:52+0300\n"
 "Last-Translator: zed <starmen141@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -789,9 +789,9 @@ msgstr "Атрибуция:"
 msgid "Auto"
 msgstr "Автоматически"
 
-#. frGPSDeviceNetwork..chkAutoReconnect..Caption
-msgid "Auto reconnect"
-msgstr "Автопереподключение"
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..chkAutoReconnect..Caption
+msgid "Auto reconnect on connection loss"
+msgstr "Автоматически переподключаться по потере соединения"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
@@ -1464,12 +1464,28 @@ msgstr "Подключение установлено: получены данн
 msgid "Connection failed (Winsock error: %d)"
 msgstr "Не удалось подключиться (ошибка Winsock: %d)"
 
+#. frmMain..actlstMain..actGpsConnectionLost..Caption
+msgid "Connection Lost"
+msgstr "Сединение потеряно"
+
 msgid "Connection string"
 msgstr "Строка подключения"
 
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
 msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr "Соединение с СУБД разорвано"
+
+#. frmMain..actlstMain..actGpsConnectionLost..Hint
+msgid "Connection to the GPS receiver is lost"
+msgstr "Потеряно соединение с GPS приёмником"
+
+#. Programmer's name for it: SAS_ERR_GpsConnectionLost
+msgid ""
+"Connection to the GPS receiver is lost.\n"
+"A reconnect attempt will be made in a few seconds."
+msgstr ""
+"Потеряно соединение с GPS приёмником.\n"
+"Через несколько секунд будет выполнена попытка переподключения."
 
 #. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod..Text
 #. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
@@ -1737,6 +1753,10 @@ msgstr "Тип кэша по умолчанию"
 #. frmShortCutEdit..GroupBox1..Caption
 msgid "Define hotkey"
 msgstr "Назначить гор. кл."
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..chkAutoReconnect..Hint
+msgid "Delay doubles from 1 up to 30 seconds between attempts"
+msgstr "Между попытками пауза удваивается в интервале от 1 до 30 секунд"
 
 #. frmMain..actlstMain..actMarkDelete..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
@@ -2791,13 +2811,10 @@ msgctxt "gps-conn-state"
 msgid "not connected"
 msgstr "не подключено"
 
+#, object-pascal-format
 msgctxt "gps-conn-state"
-msgid "probing the server..."
-msgstr "проверка сервера..."
-
-msgctxt "gps-conn-state"
-msgid "waiting before auto reconnect"
-msgstr "пауза перед повторным подключением"
+msgid "retrying in %d sec."
+msgstr "повтор через %d сек."
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
 msgid "Grid line labels"
@@ -3841,6 +3858,10 @@ msgstr "Нормальный"
 
 msgid "Not allowed:"
 msgstr "Запрещено:"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblConnectionState..Caption
+msgid "not connected"
+msgstr "не подключено"
 
 msgid "Not Found"
 msgstr "Не найдено"
@@ -5385,10 +5406,6 @@ msgstr "Отображает Всемирное Координированное
 msgid "Shows vertical dilution of precision"
 msgstr "Отображает вертикальное снижение точности (VDOP)"
 
-#. frGPSDeviceNetwork..chkSilentMode..Caption
-msgid "Silent mode"
-msgstr "Тихий режим"
-
 msgid "Size of answer is zero"
 msgstr "Размер ответа равен нулю"
 
@@ -5663,10 +5680,6 @@ msgstr "Закат"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Закат:"
-
-#. frGPSDeviceNetwork..chkSilentMode....Hint
-msgid "Suppress connection error messages while auto reconnect is enabled"
-msgstr "Не показывать ошибки подключения при включённом автопереподключении"
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
@@ -6547,6 +6560,23 @@ msgstr "Масштабы:"
 #. frExportToJNX..PageControl1..Info..PnlInfo..LZOrder..Caption
 msgid "Z-Order:"
 msgstr "Z-Сортировка:"
+
+#~ msgid "Auto reconnect"
+#~ msgstr "Автопереподключение"
+
+#~ msgctxt "gps-conn-state"
+#~ msgid "probing the server..."
+#~ msgstr "проверка сервера..."
+
+#~ msgctxt "gps-conn-state"
+#~ msgid "waiting before auto reconnect"
+#~ msgstr "пауза перед повторным подключением"
+
+#~ msgid "Silent mode"
+#~ msgstr "Тихий режим"
+
+#~ msgid "Suppress connection error messages while auto reconnect is enabled"
+#~ msgstr "Не показывать ошибки подключения при включённом автопереподключении"
 
 #~ msgid "Disable or enable GPS"
 #~ msgstr "Включить или выключить GPS"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2026-11-22 16:01\n"
+"POT-Creation-Date: 2026-11-25 21:40\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -817,9 +817,9 @@ msgstr "Атрибуція:"
 msgid "Auto"
 msgstr "Автоматично"
 
-#. frGPSDeviceNetwork..chkAutoReconnect..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..chkAutoReconnect..Caption
 #, fuzzy
-msgid "Auto reconnect"
+msgid "Auto reconnect on connection loss"
 msgstr "Автовизначення при підключенні"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
@@ -1509,12 +1509,28 @@ msgstr "Під’єднатись до GPS-приймача"
 msgid "Connection failed (Winsock error: %d)"
 msgstr ""
 
+#. frmMain..actlstMain..actGpsConnectionLost..Caption
+#, fuzzy
+msgid "Connection Lost"
+msgstr "Налаштування з’єднання"
+
 msgid "Connection string"
 msgstr "Налаштування з’єднання"
 
 #. Programmer's name for it: SAS_ERR_ETS_ConnectionIsDead
 msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr "З’єднання з СУБД розірвано"
+
+#. frmMain..actlstMain..actGpsConnectionLost..Hint
+#, fuzzy
+msgid "Connection to the GPS receiver is lost"
+msgstr "Під’єднатись до GPS-приймача"
+
+#. Programmer's name for it: SAS_ERR_GpsConnectionLost
+msgid ""
+"Connection to the GPS receiver is lost.\n"
+"A reconnect attempt will be made in a few seconds."
+msgstr ""
 
 #. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod..Text
 #. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
@@ -1792,6 +1808,10 @@ msgstr "Стандартний тип кешу"
 #. frmShortCutEdit..GroupBox1..Caption
 msgid "Define hotkey"
 msgstr "Призначити гарячу клавішу"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..chkAutoReconnect..Hint
+msgid "Delay doubles from 1 up to 30 seconds between attempts"
+msgstr ""
 
 #. frmMain..actlstMain..actMarkDelete..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
@@ -2880,12 +2900,9 @@ msgctxt "gps-conn-state"
 msgid "not connected"
 msgstr ""
 
+#, object-pascal-format
 msgctxt "gps-conn-state"
-msgid "probing the server..."
-msgstr ""
-
-msgctxt "gps-conn-state"
-msgid "waiting before auto reconnect"
+msgid "retrying in %d sec."
 msgstr ""
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
@@ -3963,6 +3980,11 @@ msgstr "Новий формат"
 #, fuzzy
 msgid "Not allowed:"
 msgstr "Площа: %s"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblConnectionState..Caption
+#, fuzzy
+msgid "not connected"
+msgstr "Автовизначення при підключенні"
 
 #, fuzzy
 msgid "Not Found"
@@ -5572,10 +5594,6 @@ msgstr "Показує час UTC"
 msgid "Shows vertical dilution of precision"
 msgstr "Показує VDOP"
 
-#. frGPSDeviceNetwork..chkSilentMode..Caption
-msgid "Silent mode"
-msgstr ""
-
 msgid "Size of answer is zero"
 msgstr ""
 
@@ -5860,10 +5878,6 @@ msgstr "Час заходу сонця"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Час заходу сонця:"
-
-#. frGPSDeviceNetwork..chkSilentMode....Hint
-msgid "Suppress connection error messages while auto reconnect is enabled"
-msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
@@ -7341,9 +7355,6 @@ msgstr "Z-Сортування:"
 
 #~ msgid "Add visible grids"
 #~ msgstr "Накладати сітки, що показуються"
-
-#~ msgid "Autodetect on conntect"
-#~ msgstr "Автовизначення при підключенні"
 
 #~ msgid "Shows DGPS"
 #~ msgstr "Показує DGPS"

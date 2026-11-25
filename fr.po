@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-11-22 16:01\n"
+"POT-Creation-Date: 2026-11-25 21:40\n"
 "PO-Revision-Date: 2024-12-11 10:14+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -807,10 +807,10 @@ msgstr "Attribution :"
 msgid "Auto"
 msgstr "Automatique"
 
-#. frGPSDeviceNetwork..chkAutoReconnect..Caption
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..chkAutoReconnect..Caption
 #, fuzzy
-msgid "Auto reconnect"
-msgstr "Autodétecte à la connexion"
+msgid "Auto reconnect on connection loss"
+msgstr "Autodétecte le port à la connexion"
 
 #. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..CBSensorsBarAutoShow..Caption
 msgid "Auto show/hide sensors toolbar"
@@ -1489,6 +1489,11 @@ msgstr "Se connecter au récepteur GPS"
 msgid "Connection failed (Winsock error: %d)"
 msgstr ""
 
+#. frmMain..actlstMain..actGpsConnectionLost..Caption
+#, fuzzy
+msgid "Connection Lost"
+msgstr "Chaîne de connexion"
+
 msgid "Connection string"
 msgstr "Chaîne de connexion"
 
@@ -1497,6 +1502,17 @@ msgid "Connection to external tile storage is dead and cannot be reestablished"
 msgstr ""
 "La connexion au stockage externe des dalles s'est arrêtée et ne peut pas "
 "être rétablie"
+
+#. frmMain..actlstMain..actGpsConnectionLost..Hint
+#, fuzzy
+msgid "Connection to the GPS receiver is lost"
+msgstr "Se connecter au récepteur GPS"
+
+#. Programmer's name for it: SAS_ERR_GpsConnectionLost
+msgid ""
+"Connection to the GPS receiver is lost.\n"
+"A reconnect attempt will be made in a few seconds."
+msgstr ""
 
 #. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod..Text
 #. frmMarksExplorerFilter..grpFilterByText..cbbSearchMethod....Items.Strings
@@ -1769,6 +1785,10 @@ msgstr "Type de cache par défaut :"
 #. frmShortCutEdit..GroupBox1..Caption
 msgid "Define hotkey"
 msgstr "Définir le raccourci clavier"
+
+#. frGPSConfig..pnlGPSLeft..pgcGps..tsCommon..chkAutoReconnect..Hint
+msgid "Delay doubles from 1 up to 30 seconds between attempts"
+msgstr ""
 
 #. frmMain..actlstMain..actMarkDelete..Caption
 #. frFavoriteMapSetManager..pnlRightButtons..btnDelete..Caption
@@ -2852,12 +2872,9 @@ msgctxt "gps-conn-state"
 msgid "not connected"
 msgstr ""
 
+#, object-pascal-format
 msgctxt "gps-conn-state"
-msgid "probing the server..."
-msgstr ""
-
-msgctxt "gps-conn-state"
-msgid "waiting before auto reconnect"
+msgid "retrying in %d sec."
 msgstr ""
 
 #. frmSettings..PageControl1..tsGrids..pnlDegreeBorders..CBDegreeBorderText..Caption
@@ -3911,6 +3928,11 @@ msgstr "Normal"
 
 msgid "Not allowed:"
 msgstr "Non autorisé :"
+
+#. frGPSConfig..pnlGPSLeft..pnlGpsConfig..lblConnectionState..Caption
+#, fuzzy
+msgid "not connected"
+msgstr "Autodétecte à la connexion"
 
 msgid "Not Found"
 msgstr "Pas trouvé"
@@ -5474,10 +5496,6 @@ msgstr "Afficher l'heure UTC (temps universel coordonné)"
 msgid "Shows vertical dilution of precision"
 msgstr "Afficher la dilution verticale de la précision"
 
-#. frGPSDeviceNetwork..chkSilentMode..Caption
-msgid "Silent mode"
-msgstr ""
-
 msgid "Size of answer is zero"
 msgstr "La taille de la réponse est zéro"
 
@@ -5753,10 +5771,6 @@ msgstr "Heure de coucher du soleil"
 #. Programmer's name for it: SAS_STR_SensorGPSRecorderSunSetTimeCaption
 msgid "Sunset time:"
 msgstr "Heure de coucher du soleil :"
-
-#. frGPSDeviceNetwork..chkSilentMode....Hint
-msgid "Suppress connection error messages while auto reconnect is enabled"
-msgstr ""
 
 #. frmPascalScriptIDE..tbtlbrMain..tbxtmSyntaxCheck..Hint
 msgid "Syntax Check"
